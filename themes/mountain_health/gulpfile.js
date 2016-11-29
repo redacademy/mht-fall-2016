@@ -15,63 +15,75 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync');
 
 var plumberErrorHandler = {
-   errorHandler: notify.onError({
-      title: 'Gulp',
-      message: 'Error: <%= error.message %>'
-   })
+    errorHandler: notify.onError({
+        title: 'Gulp',
+        message: 'Error: <%= error.message %>'
+    })
 };
 
 gulp.task('sass', function() {
-   gulp.src('./sass/style.scss')
-      .pipe(plumber(plumberErrorHandler))
-      .pipe(sass())
-      .pipe(autoprefixer({
-         browsers: ['last 2 versions']
-      }))
-      .pipe(gulp.dest('./'))
-      .pipe(cssnano())
-      .pipe(rename('style.min.css'))
-      .pipe(gulp.dest('./build/css'));
+    gulp.src('./sass/style.scss')
+        .pipe(plumber(plumberErrorHandler))
+        .pipe(sass())
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions']
+        }))
+        .pipe(gulp.dest('./'))
+        .pipe(cssnano())
+        .pipe(rename('style.min.css'))
+        .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('scripts', function(){
+gulp.task('scripts', function() {
     gulp.src('./js/*.js')
-      .pipe(uglify())
-      .pipe(rename({
-        extname: '.min.js'
-      }))
-      .pipe(gulp.dest('./build/js'))
+        .pipe(uglify())
+        .pipe(rename({
+            extname: '.min.js'
+        }))
+        .pipe(gulp.dest('./build/js'))
 });
 
-gulp.task('jscs', function () {
-   return gulp.src('./js/*.js')
-       .pipe(jscs('.jscsrc'));
+gulp.task('jscs', function() {
+    return gulp.src('./js/*.js')
+        .pipe(jscs('.jscsrc'));
 });
 
 gulp.task('lint', function() {
-  return gulp.src('./js/*.js')
-    .pipe(jshint())
-    .pipe(jshint.reporter(stylish));
+    return gulp.src('./js/*.js')
+        .pipe(jshint())
+        .pipe(jshint.reporter(stylish));
 });
 
 gulp.task('browser-sync', function() {
-   var files = [
-      './build/css/*.css',
-      './build/js/*.js',
-      './*.php',
-      './**/*.php',
-   ];
+    var files = [
+        './build/css/*.css',
+        './build/js/*.js',
+        './*.php',
+        './**/*.php',
+    ];
 
     browserSync.init(files, {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        proxy: 'localhost/mountain-health',
+=======
         proxy: 'localhost/mountain_health',
+>>>>>>> 209ccc07ceb596389c5e889939fd56cc9978aac3
+=======
+<<<<<<< Updated upstream
+        proxy: 'localhost/mountain_health',
+=======
+        proxy: 'localhost/mountainteam',
+>>>>>>> Stashed changes
+>>>>>>> f95d6ec7303734a9e79781800746c6455a0f2493
     });
 
     gulp.watch(files).on('change', browserSync.reload);
 });
 
 gulp.task('watch', function() {
-   gulp.watch('./sass/*.scss', ['sass']);
-   gulp.watch('./js/*.js', ['scripts']);
+    gulp.watch('./sass/*.scss', ['sass']);
+    gulp.watch('./js/*.js', ['scripts']);
 });
 
 gulp.task('default', ['watch', 'browser-sync']);
