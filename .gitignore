@@ -56,4 +56,8 @@ themes/mountain_health/node_modules/*
 # Ignore build files #
 # ================== #
 themes/mountain_health/build/*
+<<<<<<< Updated upstream
 themes/mountain_health/gulpfile.js
+=======
+themes/mountain_health/gulpfile.js
+>>>>>>> Stashed changes
