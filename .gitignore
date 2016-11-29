@@ -34,6 +34,7 @@ access_log
 # ================================================================================ #
 /*
 !.gitignore
+
 !plugins/
 !themes/
 !README.md
@@ -56,3 +57,4 @@ themes/mountain_health/node_modules/*
 # ================== #
 themes/mountain_health/build/*
 themes/mountain_health/gulpfile.js
+
