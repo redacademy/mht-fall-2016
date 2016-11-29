@@ -652,6 +652,12 @@ a {
 /* footer */
 .newsletter {
   background: #DCDCDC; }
+  .newsletter p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-align: center;
+    line-height: 19px;
+    color: #677257; }
 
 .mountain-logo-footer {
   width: 100%; }
