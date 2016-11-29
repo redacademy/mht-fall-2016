@@ -45,7 +45,7 @@ plugins/*
 !plugins/mht_functionality/
 
 # Ignore everything in "themes" except the active theme. #
-# ====================================================== #
+# =============================================================== #
 themes/*
 !themes/mountain_health/
 
