@@ -10,9 +10,7 @@
 	<!-- #content -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<div>
 				<img src="<?php echo get_template_directory_uri(). "/images/footer_mountain.png " ?>" alt="Mountain Logo" ?>
-			</div>
 			<div class="newsletter">
 				<h2>Join our newsletter</h2>
 				<p>Get the latest news about Naturopathy and more.</p>
