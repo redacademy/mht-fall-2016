@@ -64,10 +64,18 @@ gulp.task('browser-sync', function() {
 
     browserSync.init(files, {
 <<<<<<< HEAD
+<<<<<<< HEAD
         proxy: 'localhost/mountain-health',
 =======
         proxy: 'localhost/mountain_health',
 >>>>>>> 209ccc07ceb596389c5e889939fd56cc9978aac3
+=======
+<<<<<<< Updated upstream
+        proxy: 'localhost/mountain_health',
+=======
+        proxy: 'localhost/mountainteam',
+>>>>>>> Stashed changes
+>>>>>>> f95d6ec7303734a9e79781800746c6455a0f2493
     });
 
     gulp.watch(files).on('change', browserSync.reload);
