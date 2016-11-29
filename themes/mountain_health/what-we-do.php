@@ -49,7 +49,7 @@ create a personalized health plan just for you
     <li>Rheumatoid Arthritis</li>
 </ul>
 <h4>Do you want to know how we can help you?</h4>
-<button type="submit" value="Submit">Book an appointment</button>
+<a href="#">Book an appointment</a>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
