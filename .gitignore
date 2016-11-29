@@ -54,6 +54,6 @@ themes/*
 themes/mountain_health/node_modules/*
 
 # Ignore build files #
-# ================== #
+# ================= #
 themes/mountain_health/build/*
 themes/mountain_health/gulpfile.js
