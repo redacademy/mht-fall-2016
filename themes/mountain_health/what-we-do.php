@@ -3,6 +3,8 @@
 <?php get_header();?>
 <div id="primary" class="content-area what-we-do">
 	<main id="main" class="site-main" role="main">
+
+    <h1>What We Do</h1>
     <section class="treatments-testing-appointments">
         <div class="treatments">
             <h2>Treatments</h2>
@@ -75,7 +77,7 @@
 
     <?php while ( have_posts() ) : the_post(); ?>
 
-        <?php get_template_part( 'template-parts/content', 'page' ); ?>
+        <?php get_template_part( 'template-parts/content', 'what-we-do' ); ?>
 
     <?php endwhile; // End of the loop. ?>
 	</main><!-- #main -->
