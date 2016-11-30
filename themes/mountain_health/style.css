@@ -994,3 +994,31 @@ p, li {
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none; }
+
+.page-template-book-appointment {
+  max-width: 375px; }
+
+.secondary-hero {
+  height: 188px;
+  background-color: blueviolet; }
+  .secondary-hero h1 {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 28px;
+    color: #FFFFFF;
+    text-transform: uppercase; }
+
+.appointment-hero-links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.smartnd h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Oswald'; }
+
+.smartnd .smartnd-span {
+  color: #7ed321; }
