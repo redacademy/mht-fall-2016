@@ -17,25 +17,44 @@ get_header(); ?>
         </section>
 
         <section class="smartnd">
-            <h2>Smart<span class="smartnd-span">ND</span> does more then just appointments...</h2>
-            <div>
-                <img src="#" alt="person silouette">
-                <p>Update Patient Information</p>
+            <h2>Smart<span class="smartnd-span">ND</span> does more than<br>
+            just appointments...</h2>
+            <div class="smartnd-content">
+                <div class="smartnd-items">
+                    <img src="#" alt="person silouette">
+                    <div>
+                        <p>Update<br>
+                        Patient<br>
+                        Information</p>
+                    </div>
+                </div>
+                <div class="smartnd-items">
+                    <img src="#" alt="">
+                    <div>
+                        <p>Cancel or<br>
+                        Change<br>
+                        Appointment</p>
+                    </div>
+                </div>
+                <div class="smartnd-items">
+                    <img src="#" alt="">
+                    <div>
+                        <p>View<br> 
+                        Treatment<br>
+                        Plans</p>
+                    </div>
+                </div>
+                <div class="smartnd-items">
+                    <img src="#" alt="">
+                    <div>
+                        <p>Fill Out<br>
+                        Intake Forums</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="#" alt="">
-                <p>Cancel or Change Appointment</p>
-            </div>
-            <div>
-                <img src="#" alt="">
-                <<p>View Treatment Plans</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>Fill Out Intake Forums</p>
-            </div>
-            <p>Mountain Health uses smartMD to stay in control of your healthcare</p>
-            
+                <p class="uses-smartmd">Mountain Health uses smart<span class="smartnd-span">ND</span><br>
+                to help you stay in control<br>
+                of your healthcare</p>
         </section>
 
 		</main><!-- #main -->
