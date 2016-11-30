@@ -73,7 +73,9 @@
         </ul>
     </section>
     <h4>Do you want to know how we can help you?</h4>
-    <a href="#">Book an appointment</a>
+    <div class ="book-appointment">
+        <a href="#">Book an appointment</a>
+    </div>
 
     <?php while ( have_posts() ) : the_post(); ?>
 
