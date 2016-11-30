@@ -1152,3 +1152,40 @@ p, li {
 
 .not-found-button {
   margin-bottom: 30px; }
+
+.page-template-resources {
+  max-width: 375px; }
+
+.resources-paragraph p {
+  text-align: center;
+  color: #003A5F;
+  font-size: 18px; }
+
+.resources-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  position: relative;
+  margin-bottom: 33px; }
+  .resources-wrapper .news-events, .resources-wrapper .articles-research, .resources-wrapper .recipes-nutrition {
+    max-width: 315px;
+    border: 2px solid lawngreen; }
+
+.resources-wrapper .resources-newspaper {
+  width: 76px;
+  height: 73px;
+  background-color: black;
+  position: absolute; }
+
+.resources-wrapper .resources-microscope {
+  width: 60.65px;
+  height: 73px;
+  background-color: black;
+  position: absolute; }
+
+.resources-wrapper .resources-apple {
+  width: 73px;
+  height: 73px;
+  background-color: black;
+  position: absolute; }

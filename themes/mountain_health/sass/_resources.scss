@@ -1,0 +1,48 @@
+.page-template-resources{
+    max-width: 375px;
+}
+
+.resources-paragraph{
+    p{
+    text-align: center;
+    color:$body-color;
+    font-size: $medium-font;
+    }
+}
+.resources-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-bottom: 33px;
+.news-events,.articles-research,.recipes-nutrition{
+    max-width: 315px;
+    border: 2px solid lawngreen;
+    }
+}
+
+.resources-wrapper{
+    .resources-newspaper{
+        width:76px;
+        height: 73px;
+        background-color: black;
+        position:absolute;
+    }
+}
+
+.resources-wrapper{
+    .resources-microscope{
+        width:60.65px;
+        height:73px;
+        background-color: black;
+        position:absolute;
+    }
+}
+
+.resources-wrapper{
+    .resources-apple{
+        width:73px;
+        height:73px;
+        background-color: black;
+        position: absolute;
+    }
+}
