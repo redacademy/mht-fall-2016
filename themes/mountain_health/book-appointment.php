@@ -8,14 +8,16 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-        <section class="appointment-hero">
+        <section class="secondary-hero">
             <h1>I am a...</h1>
-            <a class="green-button">New Patient</a>
-            <a class="green-button">Returning Patient</a>
+            <div class="appointment-hero-links">
+                <a class="green-button">New Patient</a>
+                <a class="green-button">Returning Patient</a>
+            </div>
         </section>
 
         <section class="smartnd">
-            <h2>SmartND does more then just appointments...</h2>
+            <h2>Smart<span class="smartnd-span">ND</span> does more then just appointments...</h2>
             <div>
                 <img src="#" alt="person silouette">
                 <p>Update Patient Information</p>
