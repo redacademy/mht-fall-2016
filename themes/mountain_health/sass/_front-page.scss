@@ -1,0 +1,168 @@
+
+//Front Page Booking Section
+.booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        color:#003A5F;
+        width: 315px;
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+
+.booking{
+    img{
+        width:357px;
+        height: 156px;
+        background-color: black;
+        margin-top: 47px;
+    }
+}
+
+//Front Page Benifits Section
+.benifits{
+    background-color: limegreen;
+    h2{
+        color: white;
+        margin-left: 15px;
+        padding-top: 13px;
+    }
+}
+
+.benifits-content{
+    .benifits-list{
+        color:white;
+    }
+}
+
+.benifits-content{
+    display:flex;
+    img{
+        width:119px;
+        height: 147px;
+        background-color:black;
+        margin-left: 16px;
+    }
+}
+
+// Front Page Compared to Traditional Section
+
+.compare-to-traditional{
+    h2{
+        font-size: 18px;
+        text-align: center;
+        color:#677257;
+        text-transform: uppercase;
+    }
+}
+
+.compare-to-traditional{
+    .compare-content{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+}
+
+.compare-content{
+    p{
+        text-align: center;
+    }
+}
+.compare-content{
+    .note{
+        font-size: 11px;
+        color: #677257;
+        margin-top: 0px;
+    }
+}
+.compare-to-traditional{
+    .clock{
+        width: 75px;
+        height: 75px;
+        background-color: black;
+    }
+}
+
+.compare-to-traditional{
+    .silouette{
+        width: 60px;
+        height: 75px;
+        background-color:black;
+    }
+}
+
+.compare-to-traditional{
+    h3{
+       color: #003A5F;
+       font-size: 18px;
+       text-transform: uppercase;
+    }
+}
+
+.compare-content{
+    ul{
+        color: #003A5F;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+//Front Page What is section
+
+.what-is-header{
+    display: flex;
+    height: 132px;
+    background-color: aqua;
+    h2{
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 24px;
+    letter-spacing: 2px;
+    }
+}
+
+//Front page slider div
+
+.front-page-slider{
+    text-align: center;
+    border:2px solid aqua;
+    p{
+        color:#003A5F;
+    }
+}
+
+//Front Page Did You Know Section
+
+.did-you-know{
+    h2{
+        color: #677257;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.did-you-know{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .front-number{
+        text-align: center;
+        color: #003A5F;
+        border:2px solid #003A5F;
+        width:25px;
+        height:25px;
+        border-radius: 9999px;
+        box-shadow: none;
+    }
+}
+
+.did-you-know{
+    p{
+        text-align: center;
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,0.5);
+    }
+}

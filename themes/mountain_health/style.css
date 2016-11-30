@@ -758,3 +758,159 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+p, li {
+  font-size: 14px; }
+
+.home {
+  max-width: 375px; }
+
+.hero-banner {
+  max-width: 375px;
+  height: 756px;
+  background-color: darkgreen;
+  color: white; }
+  .hero-banner .hero-header {
+    font-size: 28px;
+    text-align: right;
+    margin-right: 8rem;
+    line-height: 41px;
+    letter-spacing: 3px; }
+
+.hero-banner p {
+  font-size: 14px;
+  font-family: Open-sans;
+  text-align: center;
+  line-height: 21px; }
+
+.hero-banner .what-is-hero {
+  font-size: 24px;
+  text-align: center; }
+
+.header-text {
+  text-align: center; }
+  .header-text a {
+    text-decoration: none;
+    color: white; }
+
+.booking {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  .booking p {
+    color: #003A5F;
+    width: 315px;
+    text-align: center;
+    margin-top: 0px; }
+
+.booking img {
+  width: 357px;
+  height: 156px;
+  background-color: black;
+  margin-top: 47px; }
+
+.benifits {
+  background-color: limegreen; }
+  .benifits h2 {
+    color: white;
+    margin-left: 15px;
+    padding-top: 13px; }
+
+.benifits-content .benifits-list {
+  color: white; }
+
+.benifits-content {
+  display: -ms-flexbox;
+  display: flex; }
+  .benifits-content img {
+    width: 119px;
+    height: 147px;
+    background-color: black;
+    margin-left: 16px; }
+
+.compare-to-traditional h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #677257;
+  text-transform: uppercase; }
+
+.compare-to-traditional .compare-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.compare-content p {
+  text-align: center; }
+
+.compare-content .note {
+  font-size: 11px;
+  color: #677257;
+  margin-top: 0px; }
+
+.compare-to-traditional .clock {
+  width: 75px;
+  height: 75px;
+  background-color: black; }
+
+.compare-to-traditional .silouette {
+  width: 60px;
+  height: 75px;
+  background-color: black; }
+
+.compare-to-traditional h3 {
+  color: #003A5F;
+  font-size: 18px;
+  text-transform: uppercase; }
+
+.compare-content ul {
+  color: #003A5F;
+  font-size: 14px;
+  line-height: 22px; }
+
+.what-is-header {
+  display: -ms-flexbox;
+  display: flex;
+  height: 132px;
+  background-color: aqua; }
+  .what-is-header h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 2px; }
+
+.front-page-slider {
+  text-align: center;
+  border: 2px solid aqua; }
+  .front-page-slider p {
+    color: #003A5F; }
+
+.did-you-know h2 {
+  color: #677257;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.did-you-know {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  .did-you-know .front-number {
+    text-align: center;
+    color: #003A5F;
+    border: 2px solid #003A5F;
+    width: 25px;
+    height: 25px;
+    border-radius: 9999px;
+    box-shadow: none; }
+
+.did-you-know p {
+  text-align: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5); }
