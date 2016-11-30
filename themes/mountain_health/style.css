@@ -1083,3 +1083,46 @@ p, li {
 
 .contact-us h2 {
   text-transform: uppercase; }
+
+.error404 {
+  max-width: 375px; }
+
+.error-hero {
+  font-size: 24px;
+  color: white; }
+  .error-hero p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Oswald'; }
+
+.not-found-content {
+  margin-top: 34.2px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .not-found-content img {
+    width: 61px;
+    height: 73px;
+    background-color: black; }
+
+.not-found-content .text-bubble {
+  width: 78px;
+  height: 73px;
+  background-color: black; }
+
+.not-found-div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  text-align: center; }
+
+.not-found-content p {
+  color: #003A5F;
+  font-size: 12px; }
+
+.not-found-button {
+  margin-bottom: 30px; }

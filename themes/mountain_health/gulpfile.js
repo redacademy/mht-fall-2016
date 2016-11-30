@@ -63,7 +63,7 @@ gulp.task('browser-sync', function() {
    ];
 
     browserSync.init(files, {
-        proxy: 'localhost/mountain_health',
+        proxy: 'localhost:3000/mountainteam',
     });
 
     gulp.watch(files).on('change', browserSync.reload);
