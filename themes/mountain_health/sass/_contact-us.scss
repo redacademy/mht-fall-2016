@@ -1,0 +1,18 @@
+.contact-us {
+    text-align: center;
+    h2 {
+        text-transform: uppercase;
+        color: $header-color;
+        line-height: 26px;
+        font-size: 18px;
+    }
+    h5 {
+        color: $body-color;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .phone-number {
+        color: $body-color;
+        font-size: 18px;
+    }
+}
