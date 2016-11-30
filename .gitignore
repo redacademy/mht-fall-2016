@@ -47,21 +47,17 @@ plugins/*
 # Ignore everything in "themes" except the active theme. #
 # =============================================================== #
 themes/*
-!themes/mountain_health/
+!themes/mountainteam/
 
 # Ignore npm packages #
 # =================== #
-themes/mountain_health/node_modules/*
+themes/mountainteam/node_modules/*
 
 # Ignore build files #
 # ================= #
-themes/mountain_health/build/*
-<<<<<<< Updated upstream
-themes/mountain_health/gulpfile.js
-<<<<<<< HEAD
+themes/mountainteam/build/*
 
-=======
-=======
-themes/mountain_health/gulpfile.js
->>>>>>> Stashed changes
->>>>>>> f95d6ec7303734a9e79781800746c6455a0f2493
+themes/mountainteam/gulpfile.js
+
+themes/mountainteam/gulpfile.js
+
