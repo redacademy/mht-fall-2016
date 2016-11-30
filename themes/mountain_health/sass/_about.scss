@@ -1,0 +1,31 @@
+.about-hero {
+    text-align: center;
+    color: #fff;
+    width: 375px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 1px solid #979797;
+    h1 {
+        line-height: 41px;
+        letter-spacing: 1p
+    }
+    p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+.about-amanada {
+    h2 {
+        font-size: $medium-font;
+        // background-image: -webkit-gradient( linear, left top, right top, color-stop(0.03, #99CD91), color-stop(0.76, #0D9681));
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+    }
+    p {
+        font-size: $small-font;
+        line-height: 20px;
+        letter-spacing: 1px;
+        color: #000000;
+    }
+}

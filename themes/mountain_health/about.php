@@ -1,7 +1,7 @@
 <?php /* Template Name: About Page */
 get_header(); ?>
 
-<div id="primary" class="content-area">
+<div id="primary" class="content-area about-page">
 	<main id="main" class="site-main" role="main">
         <section class="about-hero">	
             <h1>Mounatain Health</h1>
