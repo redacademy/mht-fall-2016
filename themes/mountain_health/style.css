@@ -995,6 +995,7 @@ p, li {
     color: #FFFFFF;
     text-decoration: none; }
 
+<<<<<<< HEAD
 .page-template-book-appointment {
   max-width: 375px; }
 
@@ -1022,3 +1023,20 @@ p, li {
 
 .smartnd .smartnd-span {
   color: #7ed321; }
+=======
+.book-appointment {
+  width: 175px;
+  height: 40px;
+  background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+  border-radius: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 0 auto; }
+  .book-appointment a {
+    color: white;
+    text-decoration: none; }
+>>>>>>> 8a772e3d8953ca4740a656d20b650fcb4f0dfd59
