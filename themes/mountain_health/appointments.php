@@ -18,14 +18,17 @@ get_header(); ?>
             
             <?php get_template_part( 'template-parts/content', 'page' ); ?>
             
-            <?php $fields = CFS()->get( 'appointment' );
-                   foreach ( $fields as $field ) {
-                   echo $field['appointment_img'];
-                   echo $field['appointment_title'];
-                    echo $field['appointment_text'];
-                    echo $field['appointment_price'];
-                    echo $field['appointment_duration'];
-} ?>
+            <?php $fields = CFS()->get( 'appointment'); ?>
+                <?php   foreach ( $fields as $field ) : ?>
+
+            <div class= "appointment_img">
+                <?php echo '<img src="' . wp_get_attachment_image_src($field['appointment_img'], 'medium') . '" />'; ?>
+            </div>
+                <h3> <?php   echo $field['appointment_title']; ?> </h3>
+               <p>  <?php   echo $field['appointment_text']; ?> </p>
+              <p>  <?php   echo $field['appointment_price']; ?> </p>
+               <p> <?php   echo $field['appointment_duration']; ?> </p>
+                <?php endforeach; ?>
 
             <?php endwhile; // End of the loop. ?>
         </main>
