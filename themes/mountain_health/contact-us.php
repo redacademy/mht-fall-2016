@@ -10,7 +10,7 @@
         
         <h2>Have a Question?</h2>
         <h5>Call</h5>
-        <a href="tel:+13174562564">317-456-2564</a>
+        <a href="tel:+13174562564" class="phone-number">317-456-2564</a>
 
         <p>Or</p>
 
