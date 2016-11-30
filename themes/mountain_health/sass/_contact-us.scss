@@ -1,5 +1,56 @@
 .contact-us {
+    text-align: center;
+    width: 375px;
     h2 {
         text-transform: uppercase;
+        color: $header-color;
+        font-size: $medium-font;
+    }
+    p {
+        color: $body-color;
+        font-size: $small-font;
+    }
+    .phone-number {
+        color: $body-color;
+        font-size: $medium-font;
+        text-decoration: none;
+    }
+    .wpcf7-form {
+        text-align: left;
+        width: 315px;
+        margin: 0 auto;
+    }
+    label {
+        font-size: $small-font;
+        line-height: 19px;
+        color: $body-color;
+    }
+    input {
+        width: 315px;
+        height: 41px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 2px 1px #677257;
+        border: 1px solid #677257;
+        border-radius: 4px;
+        color: rgba(155, 155, 155, 0.6);
+        padding-left: 15px;
+    }
+    textarea {
+        width: 315px;
+        height: 123px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 2px 1px #677257;
+        border: 1px solid #677257;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        color: #fff;
+        float: right;
+        margin-bottom: 54px;
+        box-shadow: none;
+        border: none;
     }
 }
