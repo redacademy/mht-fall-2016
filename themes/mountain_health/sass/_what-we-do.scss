@@ -1,3 +1,5 @@
+// What we do Styling Section ***********************************
+// **************************************************************
 .what-we-do {
     width: 375px;
     h2 {
@@ -90,6 +92,21 @@
         text-align: center;
         line-height: 19px;
         color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+.book-appointment {
+    width: 175px;
+    height: 40px;
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    a {
+        color: white;
         text-decoration: none;
     }
 }

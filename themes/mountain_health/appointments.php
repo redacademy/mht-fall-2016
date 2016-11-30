@@ -13,6 +13,11 @@ get_header(); ?>
             <p>At Mountain Health we like to keep our wait times short and our visits long enough to answer all your questions.
                 Your time is valuble and you should get the most out of every visit. We are here to listen to all your concerns
                 and find how we can best help you.</p>
+            
+            <?php while ( have_posts() ) : the_post(); ?>
+            
+            <?php get_template_part( 'template-parts/content', 'page' ); ?>
+            
             <?php $fields = CFS()->get( 'appointment' );
                    foreach ( $fields as $field ) {
                    echo $field['appointment_img'];
@@ -21,8 +26,7 @@ get_header(); ?>
                     echo $field['appointment_price'];
                     echo $field['appointment_duration'];
 } ?>
-            <?php while ( have_posts() ) : the_post(); ?>
-            <?php get_template_part( 'template-parts/content', 'page' ); ?>
+
             <?php endwhile; // End of the loop. ?>
         </main>
         <!-- #main -->
