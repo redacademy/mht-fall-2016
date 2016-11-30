@@ -1,3 +1,4 @@
+// ********************** About styling section***
 .about-hero {
     text-align: center;
     color: #fff;
@@ -16,6 +17,10 @@
 }
 
 .about-amanada {
+    .amanda-photo {
+        width: 172.5px;
+        height: 278px;
+    }
     h2 {
         font-size: $medium-font;
         // background-image: -webkit-gradient( linear, left top, right top, color-stop(0.03, #99CD91), color-stop(0.76, #0D9681));

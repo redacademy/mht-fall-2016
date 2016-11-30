@@ -11,6 +11,7 @@ get_header(); ?>
             </p>
         </section>
         <section class="about-amanda">
+            <div class="amanda-photo"></div>
             <h2>Dr. Amanda Chay</h2>
             <p>
             I am a Naturopathic Physician and owner of Mountain 
