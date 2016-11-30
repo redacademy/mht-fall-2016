@@ -14,7 +14,6 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-labtesting
 
             <?php $fields = CFS()->get( 'labtesting'); ?>
                 <?php   foreach ( $fields as $field ) : ?>
@@ -27,7 +26,6 @@ labtesting
             <img src="<?php  echo $field['labtesting_img']; ?>"/>
                 <h3> <?php   echo $field['labtesting_title']; ?> </h3>
                <p>  <?php   echo $field['labtesting_text']; ?> </p>
-
                 <?php endforeach; ?>
 
 			<?php endwhile; // End of the loop. ?>
