@@ -758,3 +758,82 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.what-we-do {
+  width: 375px; }
+  .what-we-do h2 {
+    text-transform: uppercase;
+    color: #677257;
+    font-size: 18px;
+    line-height: 26px; }
+  .what-we-do h4 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    color: #003A5F; }
+  .what-we-do .experience {
+    width: 375px;
+    height: 326px;
+    background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
+    text-align: center;
+    color: #FFFFFF; }
+    .what-we-do .experience h3 {
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 2px; }
+    .what-we-do .experience h4 {
+      text-transform: uppercase;
+      line-height: 26px;
+      font-size: 18px; }
+    .what-we-do .experience ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+
+.treatments-testing-appointments .treatments,
+.treatments-testing-appointments .testing,
+.treatments-testing-appointments .appointments {
+  width: 315px;
+  height: 127px;
+  border: solid 1px green;
+  position: relative;
+  margin: 0 30px;
+  margin-bottom: 29px; }
+
+.care-conditions {
+  text-align: center; }
+  .care-conditions ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+    color: #003A5F; }
+  .care-conditions .underline-strip {
+    width: 160px;
+    height: 4px;
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+    border-radius: 2px;
+    margin: 0 auto; }
+  .care-conditions .underline-strip-2 {
+    width: 180px; }
+
+.learn-more {
+  width: 98px;
+  height: 40px;
+  background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+  border-radius: 20px;
+  text-decoration: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: absolute;
+  right: 21.5px;
+  top: 105px; }
+  .learn-more a {
+    font-size: 14px;
+    text-align: center;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none; }
