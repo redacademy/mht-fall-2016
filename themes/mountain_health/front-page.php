@@ -58,6 +58,7 @@ get_header(); ?>
     <div class="compare-content">
         <img src="#" class="clock" alt="clock">
         <h3>Better appointments</h3>
+        <div class="underline-strip"></div>
         <ul>
             <li>Minimal wait times</li>
             <li>Longer visits*</li>
@@ -71,6 +72,7 @@ get_header(); ?>
     <div class="compare-content">
         <img src="#" alt="person silouette" class="silouette">
         <h3>More control</h3>
+        <div class="underline-strip"></div>
         <ul>
             <li>A large range of treatment options</li>
             <li>Explanations of treatment and<br>
