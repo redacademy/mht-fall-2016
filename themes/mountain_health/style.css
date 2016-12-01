@@ -887,14 +887,19 @@ p, li {
     font-size: 14px;
     line-height: 19px; }
 
-.about-amanada h2 {
-  font-size: 18px; }
-
-.about-amanada p {
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 1px;
-  color: #000000; }
+.about-amanada {
+  width: 375px;
+  height: 529px; }
+  .about-amanada .amanda-photo {
+    width: 172.5px;
+    height: 278px; }
+  .about-amanada h2 {
+    font-size: 18px; }
+  .about-amanada p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #000000; }
 
 .what-we-do {
   width: 375px; }
@@ -1189,3 +1194,4 @@ p, li {
   height: 73px;
   background-color: black;
   position: absolute; }
+
