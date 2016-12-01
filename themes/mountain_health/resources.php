@@ -29,7 +29,7 @@ get_header(); ?>
 		Learn about what’s new at Mountain Health and 
 		discover upcoming events.
 		</p>
-		<a href="#">Read More</a>
+		<a href="#" >Read More</a>
 	</div>
 </div>
 <div class="resources-wrapper">
@@ -55,7 +55,7 @@ get_header(); ?>
 	</div>
 </div>
 <a href="#">
-	<h2>Learn more about 
+	<h2 class="learn-more-resource">Learn more about 
 	conditions and evidence-based treatments >>
 </a>
 	</main><!-- #main -->
