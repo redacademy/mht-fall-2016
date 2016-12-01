@@ -90,7 +90,7 @@ get_header(); ?>
             <div class="front-page-slider">
                 <p>A primary care provider trained in both natural and pharmaceutical therapies</p>
                 <p>Naturopathic physicians can prescribe drugs,herbs, vitamins and exercise therapy.</p>
-                <a href="#" class="primary-button">Read More</a>
+                <a href="#" class="front-button">Read More</a>
             </div>
         </section>
 
