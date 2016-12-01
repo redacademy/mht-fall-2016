@@ -13,12 +13,14 @@ get_header(); ?>
         <section class="about-amanda">
             <div class="amanda-photo"></div>
             <h2>Dr. Amanda Chay</h2>
-            <p>
+            
+            <div class="paragraph-1-amanda"><p>
             I am a Naturopathic Physician and owner of Mountain 
             Health. Prior to this, I completed pre-medical studies 
             and a degree in Psychology at the University of Regina 
             in Saskatchewan.
             </p>
+            </div>
             <p>
             Combining my love of medicine, psychology and nature I 
             was driven to a career in Naturopathic Medicine. I truly 
@@ -69,8 +71,8 @@ get_header(); ?>
             </h4>
             <p>OHM Medical Training Services Inc.</p>
             </div>
-        <h5>Do you want to know how we can help you?</h5>
-        <a href="#">Book an appointment</a>
+        <h5 class="how-can-we-help-you">Do you want to know how we can help you?</h5>
+        <div class="primarry-button"><a href="#">Book an appointment</a></div>
         </section> 
 	</main><!-- #main -->
 </div><!-- #primary -->

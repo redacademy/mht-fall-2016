@@ -73,8 +73,8 @@
                 <li>Rheumatoid Arthritis</li>
             </ul>
         </section>
-        <h4>Do you want to know how we can help you?</h4>
-        <div class ="book-appointment">
+        <h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
+        <div class ="primary-button">
             <a href="#">Book an appointment</a>
         </div>
 

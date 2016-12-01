@@ -887,19 +887,53 @@ p, li {
     font-size: 14px;
     line-height: 19px; }
 
-.about-amanada {
+.about-amanda {
   width: 375px;
-  height: 529px; }
-  .about-amanada .amanda-photo {
+  height: 529px;
+  position: relative;
+  padding: 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .about-amanda .amanda-photo {
     width: 172.5px;
-    height: 278px; }
-  .about-amanada h2 {
-    font-size: 18px; }
-  .about-amanada p {
+    background: blue; }
+  .about-amanda h2 {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.03, #99CD91), color-stop(0.76, #0D9681));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+    top: 30px;
+    right: 34px;
+    letter-spacing: 1px; }
+  .about-amanda .paragraph-1-amanda {
+    width: 168px;
+    padding-top: 40px;
+    padding-left: 15px; }
+  .about-amanda p {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 1px;
-    color: #000000; }
+    color: #000000;
+    margin-bottom: 0; }
+
+.education {
+  width: 375px; }
+  .education h3 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 24px; }
+  .education h4 {
+    font-size: 18px;
+    color: #677257;
+    margin: 0; }
+  .education p {
+    font-size: 14px;
+    margin-top: 0; }
 
 .what-we-do {
   width: 375px; }
@@ -908,11 +942,6 @@ p, li {
     color: #677257;
     font-size: 18px;
     line-height: 26px; }
-  .what-we-do h4 {
-    font-size: 18px;
-    text-align: center;
-    line-height: 26px;
-    color: #003A5F; }
   .what-we-do .experience {
     width: 375px;
     height: 326px;
@@ -981,7 +1010,7 @@ p, li {
     color: #FFFFFF;
     text-decoration: none; }
 
-.book-appointment {
+.primary-button {
   width: 175px;
   height: 40px;
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
@@ -992,10 +1021,19 @@ p, li {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  margin: 0 auto; }
-  .book-appointment a {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: none;
+  color: white; }
+  .primary-button a {
     color: white;
     text-decoration: none; }
+
+.how-can-we-help-you {
+  font-size: 18px;
+  text-align: center;
+  line-height: 26px;
+  color: #003A5F; }
 
 .page-template-book-appointment {
   max-width: 375px; }

@@ -8,13 +8,6 @@
         font-size: 18px;
         line-height: 26px;
     }
-    h4 {
-        // font-family: Oswald;
-        font-size: 18px;
-        text-align: center;
-        line-height: 26px;
-        color: #003A5F;
-    }
     .experience {
         width: 375px;
         height: 326px;
@@ -96,7 +89,7 @@
     }
 }
 
-.book-appointment {
+.primary-button {
     width: 175px;
     height: 40px;
     background: linear-gradient(90deg, #003557 0%, #009B84 100%);
@@ -105,8 +98,19 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 30px;
+    border: none;
+    color: white;
     a {
         color: white;
         text-decoration: none;
     }
+}
+
+.how-can-we-help-you {
+    // font-family: Oswald;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    color: #003A5F;
 }
