@@ -8,13 +8,6 @@
         font-size: 18px;
         line-height: 26px;
     }
-    h4 {
-        // font-family: Oswald;
-        font-size: 18px;
-        text-align: center;
-        line-height: 26px;
-        color: #003A5F;
-    }
     .experience {
         width: 375px;
         height: 326px;
@@ -92,21 +85,6 @@
         text-align: center;
         line-height: 19px;
         color: #FFFFFF;
-        text-decoration: none;
-    }
-}
-
-.book-appointment {
-    width: 175px;
-    height: 40px;
-    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    a {
-        color: white;
         text-decoration: none;
     }
 }

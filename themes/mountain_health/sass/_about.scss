@@ -16,23 +16,57 @@
     }
 }
 
-.about-amanada {
+.about-amanda {
     width: 375px;
     height: 529px;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
     .amanda-photo {
         width: 172.5px;
-        height: 278px;
+        background: blue;
     }
     h2 {
-        font-size: $medium-font;
-        // background-image: -webkit-gradient( linear, left top, right top, color-stop(0.03, #99CD91), color-stop(0.76, #0D9681));
-        // -webkit-background-clip: text;
-        // -webkit-text-fill-color: transparent;
+        background-image: -webkit-gradient( linear, left top, right top, color-stop(0.03, #99CD91), color-stop(0.76, #0D9681));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        font-size: 22px;
+        margin: 0;
+        text-transform: uppercase;
+        top: 30px;
+        right: 34px;
+        letter-spacing: 1px;
+    }
+    .paragraph-1-amanda {
+        width: 168px;
+        padding-top: 40px;
+        padding-left: 15px;
     }
     p {
         font-size: $small-font;
         line-height: 20px;
         letter-spacing: 1px;
         color: #000000;
+        margin-bottom: 0;
+    }
+}
+
+.education {
+    width: 375px;
+    h3 {
+        text-transform: uppercase;
+        color: black;
+        font-size: $large-font;
+    }
+    h4 {
+        font-size: $medium-font;
+        color: $header-color;
+        margin: 0;
+    }
+    p {
+        font-size: $small-font;
+        margin-top: 0;
     }
 }

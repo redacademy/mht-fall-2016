@@ -20,12 +20,7 @@ get_header(); ?>
             
             <?php $fields = CFS()->get( 'appointment'); ?>
                 <?php   foreach ( $fields as $field ) : ?>
-
-            <div class= "appointment_img">
-                <?php echo '<img src="' . wp_get_attachment_image_src($field['appointment_img'], 'medium') . '" />'; ?>
-            </div>
-            <img src=" <?php CFS()->get( 'appointment_img' ); ?>"/>
-            
+ 
             <img src="<?php  echo $field['appointment_img']; ?>"/>
                 <h3> <?php   echo $field['appointment_title']; ?> </h3>
                <p>  <?php   echo $field['appointment_text']; ?> </p>

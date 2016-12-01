@@ -18,11 +18,7 @@ get_header(); ?>
             <?php $fields = CFS()->get( 'labtesting'); ?>
                 <?php   foreach ( $fields as $field ) : ?>
 
-            <div class= "labtesting_img">
-                <?php echo '<img src="' . wp_get_attachment_image_src($field['labtesting_img'], 'medium') . '" />'; ?>
-            </div>
-            <img src=" <?php CFS()->get( 'labtesting_img' ); ?>"/>
-            
+          
             <img src="<?php  echo $field['labtesting_img']; ?>"/>
                 <h3> <?php   echo $field['labtesting_title']; ?> </h3>
                <p>  <?php   echo $field['labtesting_text']; ?> </p>

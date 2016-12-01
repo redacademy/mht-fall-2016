@@ -1,0 +1,40 @@
+.primary-button {
+    // width: 175px;
+    height: 40px;
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    padding: 0 5px;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.how-can-we-help-you {
+    // font-family: Oswald;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    color: #003A5F;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    &:visited {
+        color: white;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
