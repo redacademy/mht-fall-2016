@@ -479,6 +479,7 @@ ul {
   margin: 0; }
 
 header {
+  z-index: 1;
   display: -ms-flexbox;
   display: flex; }
   header p {
@@ -1307,3 +1308,49 @@ p, li {
     text-align: center;
     font-size: 18px;
     color: #677257; }
+
+/*WebDesignAndSuch.com*/
+/*LINKS*/
+#mainContent a:link,
+#mainContent a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  background: #000000;
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; }
+
+#mainContent a:hover,
+#mainContent a:active {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  background: #333333;
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; }
+
+/*STYLES FOR CSS POPUP*/
+#blanket {
+  background-color: #111;
+  opacity: 0.65;
+  *background: none;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  width: 100%; }
+
+#popUpDiv {
+  position: absolute;
+  background: aquamarine;
+  width: 375px;
+  height: 200px;
+  border: 5px solid #000;
+  z-index: 3; }
+
+#popUpDiv a {
+  position: relative;
+  top: 20px;
+  left: 20px; }
