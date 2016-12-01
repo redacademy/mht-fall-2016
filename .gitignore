@@ -47,17 +47,15 @@ plugins/*
 # Ignore everything in "themes" except the active theme. #
 # =============================================================== #
 themes/*
-!themes/mountainteam/
+!themes/mountain_health/
 
 # Ignore npm packages #
 # =================== #
-themes/mountainteam/node_modules/*
+themes/mountain_health/node_modules/*
 
 # Ignore build files #
 # ================= #
-themes/mountainteam/build/*
+themes/mountain_health/build/*
 
-themes/mountainteam/gulpfile.js
-
-themes/mountainteam/gulpfile.js
+themes/mountain_health/gulpfile.js
 

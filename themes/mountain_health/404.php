@@ -20,12 +20,12 @@ get_header(); ?>
 			<div class="not-found-div">
 				<img src="#" alt="apple">
 				<p>Would a snack help?</p>
-				<a href="#" class="book-appointment not-found-button">View Recipies</a>
+				<a href="#" class="primarry-button not-found-button">View Recipies</a>
 			</div>
 			<div class="not-found-div">
 				<img src="#" alt="text-bubble" class="text-bubble">
 				<p>Send us a message here.</p>
-				<a href="#" class="book-appointment not-found-button">Contact Us</a>
+				<a href="#" class="primarry-button not-found-button">Contact Us</a>
 			</div>
 		</section>
 		</main><!-- #main -->
