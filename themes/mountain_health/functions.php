@@ -89,6 +89,8 @@ function red_starter_scripts() {
 	wp_enqueue_script( 'jquery');
 	wp_enqueue_script('main', get_template_directory_uri() . '/build/js/main.min.js', array( 'jquery' ), 
 	'1.0', true);
+	wp_enqueue_script('css-pop', get_template_directory_uri() . '/build/js/css-pop.min.js', array( 'jquery' ), 
+	'1.0', true);
 	
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
