@@ -33,6 +33,15 @@
 
 					<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logo-green.png" alt="MTH logo">
 				<p>(727) 362-2429</p>
+				
+				<div id="blanket" style="display:none"></div>
+				<div id="popUpDiv" style="display:none">
+
+					<a href="#" onclick="popup('popUpDiv')" >Do Not Call!</a>
+					<a href="tel:1-562-867-5309">1-562-867-5309</a>
+					</div>	
+						<a href="#" onclick="popup('popUpDiv')"><i class="fa fa-phone-square fa-3x" aria-hidden="true"></i></a>
+
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">

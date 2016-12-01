@@ -1,4 +1,14 @@
 
+.front-button{
+        background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+        padding-top:9px;
+        padding-bottom:9px;
+        padding-left:12px;
+        padding-right: 12px;
+        border-radius: 20px;
+        color:white;
+        margin-bottom: 50px;
+}
 //Front Page Booking Section
 .booking{
     display: flex;
@@ -23,7 +33,8 @@
 
 //Front Page Benifits Section
 .benifits{
-    background-color: limegreen;
+    background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
+    height: 343px;
     h2{
         color: white;
         margin-left: 15px;
@@ -33,7 +44,11 @@
 
 .benifits-content{
     .benifits-list{
+        line-height: 22px;
         color:white;
+        margin-left: 41px;
+        width:184px;
+        font-size: 14px;
     }
 }
 
@@ -115,7 +130,7 @@
 .what-is-header{
     display: flex;
     height: 132px;
-    background-color: aqua;
+    background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
     h2{
     text-align: center;
     color:#FFFFFF;
@@ -127,10 +142,26 @@
 //Front page slider div
 
 .front-page-slider{
+    height: 357px;
     text-align: center;
     border:2px solid aqua;
     p{
         color:#003A5F;
+        
+    }
+}
+
+.front-page-slider{
+    p:first-child{
+        margin-top: 30px;
+        margin-bottom: 36px;
+    }
+}
+
+.front-page-slider{
+    p:nth-child(2){
+        margin-top: 0px;
+        margin-bottom: 105px;
     }
 }
 
