@@ -2,8 +2,8 @@
 
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
-        $('#primary-menu').animate({ width: 'toggle' });
-        // $('#primary-menu').toggle("slide", { direction: "left" }, 5000);
+        $('.mobile-menu').animate({ width: 'toggle' });
+        $('#primary-menu').toggle("slide", { direction: "left" }, 5000);
     })
 
     // news and events button to show/hide news/events

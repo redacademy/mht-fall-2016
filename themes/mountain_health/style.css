@@ -468,6 +468,19 @@ header {
   width: 40px;
   height: 40px; }
 
+#primary-menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  position: absolute;
+  background: aqua;
+  width: 150px; }
+
+.mobile-menu {
+  display: none;
+  width: 150px; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
