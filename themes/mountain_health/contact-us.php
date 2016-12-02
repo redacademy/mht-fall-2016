@@ -4,15 +4,17 @@
 
 <div id="primary" class="content-area contact-us">
 	<main id="main" class="site-main" role="main">
-        <div class="secondary-hero contact-us-hero">
+        <div class="contact-us-hero">
             <h1>Contact Us</h1>
         </div>
         
         <h2>Have a Question?</h2>
         <p>Call</p>
+        
+        <img class="phone-icon" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone.png" alt="phone icon">
         <a href="tel:+13174562564" class="phone-number">317-456-2564</a>
 
-        <p>Or</p>
+       <p class="line-around"><span>Or</span></p>
 
         <p>Send Us a Message</p>
 
