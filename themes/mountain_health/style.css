@@ -306,6 +306,18 @@ th {
   font-weight: bold;
   font-style: italic; }
 
+body {
+  font-family: "open_sans";
+  font-size: 15px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'oswald'; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -471,7 +483,8 @@ textarea {
   font-size: 18px;
   text-align: center;
   line-height: 26px;
-  color: #003A5F; }
+  color: #003A5F;
+  font-weight: normal; }
 
 a {
   text-decoration: none;
@@ -1097,22 +1110,52 @@ object {
     margin: 0; }
 
 .what-we-do {
-  width: 375px; }
+  width: 320px; }
+  .what-we-do .what-we-do-hero {
+    background: url(../../MTH-Assets/photos/what-we-do-hero.jpg);
+    width: 320px;
+    height: 125px;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    color: white;
+    margin-bottom: 52px;
+    padding: 18px; }
+    .what-we-do .what-we-do-hero h1 {
+      font-size: 17px;
+      margin: 0;
+      font-weight: normal;
+      text-transform: uppercase; }
+    .what-we-do .what-we-do-hero p {
+      font-size: 15px;
+      line-height: 19px;
+      margin: 0; }
   .what-we-do h2 {
     text-transform: uppercase;
     color: #677257;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 26px; }
   .what-we-do .experience {
-    width: 375px;
-    height: 326px;
+    width: 280px;
+    height: 330px;
     background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
     text-align: center;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    padding: 20px 25px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
     .what-we-do .experience h3 {
-      font-size: 24px;
+      font-family: Oswald;
+      font-size: 17px;
       line-height: 36px;
-      letter-spacing: 2px; }
+      text-transform: uppercase;
+      line-height: 1.41; }
     .what-we-do .experience h4 {
       text-transform: uppercase;
       line-height: 26px;
@@ -1121,37 +1164,44 @@ object {
       list-style: none;
       padding: 0;
       margin: 0; }
+      .what-we-do .experience ul li {
+        font-size: 15px;
+        line-height: 18px; }
+    .what-we-do .experience p {
+      margin: 0;
+      margin-top: 15px;
+      font-weight: bold; }
 
 .treatments-testing-appointments .treatments,
 .treatments-testing-appointments .testing,
 .treatments-testing-appointments .appointments {
-  width: 315px;
-  height: 127px;
-  border: solid 1px green;
+  width: 280px;
+  height: 240px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   position: relative;
-  margin: 0 30px;
-  margin-bottom: 29px; }
-
-.care-conditions {
-  text-align: center; }
-  .care-conditions ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    line-height: 19px;
+  margin: 0 20px;
+  padding: 28px;
+  margin-bottom: 50px; }
+  .treatments-testing-appointments .treatments .gradient-border-box,
+  .treatments-testing-appointments .testing .gradient-border-box,
+  .treatments-testing-appointments .appointments .gradient-border-box {
+    position: absolute; }
+  .treatments-testing-appointments .treatments p,
+  .treatments-testing-appointments .testing p,
+  .treatments-testing-appointments .appointments p {
+    text-align: center;
     color: #003A5F; }
-  .care-conditions .underline-strip {
-    width: 160px;
-    height: 4px;
-    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-    border-radius: 2px;
-    margin: 0 auto; }
-  .care-conditions .underline-strip-2 {
-    width: 180px; }
 
 .learn-more {
-  width: 98px;
-  height: 40px;
+  width: 180px;
+  height: 42px;
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
   border-radius: 20px;
   text-decoration: none;
@@ -1162,14 +1212,54 @@ object {
   -ms-flex-align: center;
       align-items: center;
   position: absolute;
-  right: 21.5px;
-  top: 105px; }
+  right: 50px;
+  top: 215px; }
   .learn-more a {
     font-size: 14px;
     text-align: center;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none; }
+
+.care-conditions {
+  text-align: center; }
+  .care-conditions h2 {
+    margin: 0;
+    margin-bottom: 10px; }
+  .care-conditions ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+    color: #003A5F; }
+  .care-conditions .underline-strip {
+    width: 120px;
+    height: 3px;
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  .care-conditions p {
+    font-weight: bold; }
+
+.picture-of-remedies {
+  height: 145px;
+  width: 280px;
+  background: url(../../MTH-Assets/photos/picture-of-remedies.jpg);
+  margin: 0 auto;
+  margin-top: 30px; }
+
+.what-is-naturopathic-medicine {
+  height: 165px;
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  padding-top: 10px;
+  color: #003A5F; }
+  .what-is-naturopathic-medicine h2 {
+    margin: 0;
+    margin-bottom: 20px; }
 
 .page-template-book-appointment {
   max-width: 375px; }
