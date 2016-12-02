@@ -15,8 +15,8 @@
 				<h2 class="footer-title">Join our newsletter</h2>
 				<p>Get the latest news about Naturopathy and more.</p>
 				<form class="footer-form">
-					<input type="email" name="email" value="Example@example.com" id="the-email">
-					<input type="submit" name="submit" value="Subscribe">
+					<input class="footer-email" type="email" name="email" placeholder="Example@example.com" id="the-email">
+					<input class="primary-button primary-button-subscribe" type="submit" name="submit" value="Subscribe">
 				</form>
 			</div>
 			<div class="footer-info">
