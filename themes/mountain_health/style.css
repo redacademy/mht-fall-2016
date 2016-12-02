@@ -691,51 +691,6 @@ a {
 .bypostauthor {
   display: block; }
 
-/* footer */
-.newsletter {
-  background: #DCDCDC; }
-  .newsletter p {
-    font-family: "Open Sans";
-    font-size: 14px;
-    text-align: center;
-    line-height: 19px;
-    color: #677257; }
-
-.mountain-logo-footer {
-  width: 100%; }
-
-.footer-title {
-  font-weight: 300;
-  font-family: 'oswald';
-  font-size: 26px;
-  text-align: center;
-  line-height: 26px;
-  color: #677257; }
-
-.footer-info {
-  display: -ms-flexbox;
-  display: flex; }
-
-.copy-footer p {
-  background-color: #003A5F;
-  margin: 0;
-  height: 15px;
-  padding: 1.25rem 1.5rem;
-  /*font-family: Lato;*/
-  font-size: 12px;
-  text-align: center;
-  line-height: 15px;
-  color: #FFFFFF; }
-
-input[type="submit"] {
-  background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-  border-radius: 20px;
-  border: 0;
-  color: #FFFFFF;
-  padding: .75rem 0.75rem;
-  line-height: 19px;
-  font-weight: 100; }
-
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1367,3 +1322,35 @@ p, li {
   position: relative;
   top: 20px;
   left: 20px; }
+
+/* footer */
+.newsletter {
+  background: #DCDCDC; }
+  .newsletter p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-align: center;
+    line-height: 19px;
+    color: #677257; }
+
+.mountain-logo-footer {
+  width: 100%; }
+
+.footer-title {
+  font-weight: 300;
+  font-family: 'oswald';
+  font-size: 26px;
+  text-align: center;
+  line-height: 26px;
+  color: #677257; }
+
+.copy-footer p {
+  background-color: #003A5F;
+  margin: 0;
+  height: 15px;
+  padding: 1.25rem 1.5rem;
+  /*font-family: Lato;*/
+  font-size: 12px;
+  text-align: center;
+  line-height: 15px;
+  color: #FFFFFF; }
