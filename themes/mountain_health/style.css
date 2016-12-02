@@ -306,6 +306,18 @@ th {
   font-weight: bold;
   font-style: italic; }
 
+body {
+  font-family: "open_sans";
+  font-size: 15px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'oswald'; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -471,7 +483,8 @@ textarea {
   font-size: 18px;
   text-align: center;
   line-height: 26px;
-  color: #003A5F; }
+  color: #003A5F;
+  font-weight: normal; }
 
 a {
   text-decoration: none;
@@ -695,51 +708,6 @@ a {
 .bypostauthor {
   display: block; }
 
-/* footer */
-.newsletter {
-  background: #DCDCDC; }
-  .newsletter p {
-    font-family: "Open Sans";
-    font-size: 14px;
-    text-align: center;
-    line-height: 19px;
-    color: #677257; }
-
-.mountain-logo-footer {
-  width: 100%; }
-
-.footer-title {
-  font-weight: 300;
-  font-family: 'oswald';
-  font-size: 26px;
-  text-align: center;
-  line-height: 26px;
-  color: #677257; }
-
-.footer-info {
-  display: -ms-flexbox;
-  display: flex; }
-
-.copy-footer p {
-  background-color: #003A5F;
-  margin: 0;
-  height: 15px;
-  padding: 1.25rem 1.5rem;
-  /*font-family: Lato;*/
-  font-size: 12px;
-  text-align: center;
-  line-height: 15px;
-  color: #FFFFFF; }
-
-input[type="submit"] {
-  background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-  border-radius: 20px;
-  border: 0;
-  color: #FFFFFF;
-  padding: .75rem 0.75rem;
-  line-height: 19px;
-  font-weight: 100; }
-
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -822,6 +790,7 @@ object {
   background-size: cover;
   color: white;
   margin-bottom: 30px; }
+  
   .hero-banner .hero-header {
     font-size: 28px;
     text-align: right;
@@ -1201,22 +1170,52 @@ object {
     margin: 0; }
 
 .what-we-do {
-  width: 375px; }
+  width: 320px; }
+  .what-we-do .what-we-do-hero {
+    background: url(../../MTH-Assets/photos/what-we-do-hero.jpg);
+    width: 320px;
+    height: 125px;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    color: white;
+    margin-bottom: 52px;
+    padding: 18px; }
+    .what-we-do .what-we-do-hero h1 {
+      font-size: 17px;
+      margin: 0;
+      font-weight: normal;
+      text-transform: uppercase; }
+    .what-we-do .what-we-do-hero p {
+      font-size: 15px;
+      line-height: 19px;
+      margin: 0; }
   .what-we-do h2 {
     text-transform: uppercase;
     color: #677257;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 26px; }
   .what-we-do .experience {
-    width: 375px;
-    height: 326px;
+    width: 280px;
+    height: 330px;
     background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
     text-align: center;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    padding: 20px 25px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
     .what-we-do .experience h3 {
-      font-size: 24px;
+      font-family: Oswald;
+      font-size: 17px;
       line-height: 36px;
-      letter-spacing: 2px; }
+      text-transform: uppercase;
+      line-height: 1.41; }
     .what-we-do .experience h4 {
       text-transform: uppercase;
       line-height: 26px;
@@ -1225,37 +1224,44 @@ object {
       list-style: none;
       padding: 0;
       margin: 0; }
+      .what-we-do .experience ul li {
+        font-size: 15px;
+        line-height: 18px; }
+    .what-we-do .experience p {
+      margin: 0;
+      margin-top: 15px;
+      font-weight: bold; }
 
 .treatments-testing-appointments .treatments,
 .treatments-testing-appointments .testing,
 .treatments-testing-appointments .appointments {
-  width: 315px;
-  height: 127px;
-  border: solid 1px green;
+  width: 280px;
+  height: 240px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   position: relative;
-  margin: 0 30px;
-  margin-bottom: 29px; }
-
-.care-conditions {
-  text-align: center; }
-  .care-conditions ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    line-height: 19px;
+  margin: 0 20px;
+  padding: 28px;
+  margin-bottom: 50px; }
+  .treatments-testing-appointments .treatments .gradient-border-box,
+  .treatments-testing-appointments .testing .gradient-border-box,
+  .treatments-testing-appointments .appointments .gradient-border-box {
+    position: absolute; }
+  .treatments-testing-appointments .treatments p,
+  .treatments-testing-appointments .testing p,
+  .treatments-testing-appointments .appointments p {
+    text-align: center;
     color: #003A5F; }
-  .care-conditions .underline-strip {
-    width: 160px;
-    height: 4px;
-    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-    border-radius: 2px;
-    margin: 0 auto; }
-  .care-conditions .underline-strip-2 {
-    width: 180px; }
 
 .learn-more {
-  width: 98px;
-  height: 40px;
+  width: 180px;
+  height: 42px;
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
   border-radius: 20px;
   text-decoration: none;
@@ -1266,14 +1272,54 @@ object {
   -ms-flex-align: center;
       align-items: center;
   position: absolute;
-  right: 21.5px;
-  top: 105px; }
+  right: 50px;
+  top: 215px; }
   .learn-more a {
     font-size: 14px;
     text-align: center;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none; }
+
+.care-conditions {
+  text-align: center; }
+  .care-conditions h2 {
+    margin: 0;
+    margin-bottom: 10px; }
+  .care-conditions ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+    color: #003A5F; }
+  .care-conditions .underline-strip {
+    width: 120px;
+    height: 3px;
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  .care-conditions p {
+    font-weight: bold; }
+
+.picture-of-remedies {
+  height: 145px;
+  width: 280px;
+  background: url(../../MTH-Assets/photos/picture-of-remedies.jpg);
+  margin: 0 auto;
+  margin-top: 30px; }
+
+.what-is-naturopathic-medicine {
+  height: 165px;
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  padding-top: 10px;
+  color: #003A5F; }
+  .what-is-naturopathic-medicine h2 {
+    margin: 0;
+    margin-bottom: 20px; }
 
 .page-template-book-appointment {
   max-width: 375px; }
@@ -1559,3 +1605,122 @@ p.line-around {
 
 a:visited {
   color: white; }
+
+/* footer */
+.newsletter {
+  background-color: #e5e5e5;
+  text-align: center; }
+  .newsletter p {
+    width: 170px;
+    font-family: 'open_sans';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    color: #6a7059;
+    margin: 0 auto; }
+    @media (min-width: 600px) {
+      .newsletter p {
+        width: 100%; } }
+
+.mountain-logo-footer {
+  width: 100%; }
+
+.footer-title {
+  font-family: 'oswald';
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.41;
+  text-align: center;
+  color: #6a7059;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  font-weight: normal; }
+
+.copy-footer {
+  background-color: #003A5F; }
+  .copy-footer p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    color: #FFFFFF; }
+
+.footer-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0 20px; }
+  .footer-form .footer-email {
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #ffffff, #ffffff);
+    border: solid 1px #919191;
+    margin: 20px;
+    height: 45px; }
+    @media (min-width: 600px) {
+      .footer-form .footer-email {
+        width: 400px; } }
+  @media (min-width: 600px) {
+    .footer-form {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: center;
+          justify-content: center; } }
+
+input::-webkit-input-placeholder {
+  font-family: 'open_sans';
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #d1d0d0;
+  padding-left: 14px; }
+
+.primary-button-subscribe {
+  padding: 0 3rem;
+  height: 45px; }
+  @media (min-width: 600px) {
+    .primary-button-subscribe {
+      margin: 20px 20px 20px 0; } }
+
+.footer-info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  @media (min-width: 600px) {
+    .footer-info {
+      -ms-flex-direction: row;
+          flex-direction: row; } }
+
+.footer_wrapper {
+  margin: 25px;
+  text-align: center; }
+  .footer_wrapper p {
+    margin-top: 0;
+    font-family: 'open_sans';
+    font-size: 15px;
+    line-height: 1.6;
+    color: #003d5c;
+    padding: 0 3rem; }
+  @media (min-width: 600px) {
+    .footer_wrapper {
+      -ms-flex-preferred-size: 33%;
+          flex-basis: 33%;
+      text-align: left; }
+      .footer_wrapper h2 {
+        text-align: left;
+        padding-left: 0; }
+      .footer_wrapper p {
+        padding: 0; } }
+
+.link-footer {
+  font-family: 'open_sans';
+  top: -6px;
+  position: relative;
+  color: #1a9481; }
+
+.thick-span {
+  font-weight: bold; }

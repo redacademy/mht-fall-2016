@@ -1,24 +1,52 @@
 // What we do Styling Section ***********************************
 // **************************************************************
 .what-we-do {
-    width: 375px;
+    width: 320px;
+    .what-we-do-hero {
+        background: url(../../MTH-Assets/photos/what-we-do-hero.jpg);
+        width: 320px;
+        height: 125px;
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-bottom: 52px;
+        padding: 18px;
+        h1 {
+            font-size: 17px;
+            margin: 0;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 15px;
+            line-height: 19px;
+            margin: 0;
+        }
+    }
     h2 {
         text-transform: uppercase;
         color: #677257;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 26px;
     }
     .experience {
-        width: 375px;
-        height: 326px;
+        width: 280px;
+        height: 330px;
         background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
         text-align: center;
         color: #FFFFFF;
+        padding: 20px 25px;
+        margin: 0 auto;
+        margin-bottom: 20px;
         h3 {
-            // font-family: Oswald;
-            font-size: 24px;
+            font-family: Oswald;
+            font-size: 17px;
             line-height: 36px;
-            letter-spacing: 2px;
+            text-transform: uppercase;
+            line-height: 1.41;
         }
         h4 {
             text-transform: uppercase;
@@ -29,6 +57,15 @@
             list-style: none;
             padding: 0;
             margin: 0;
+            li {
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+        p {
+            margin: 0;
+            margin-top: 15px;
+            font-weight: bold;
         }
     }
 }
@@ -37,17 +74,54 @@
     .treatments,
     .testing,
     .appointments {
-        width: 315px;
-        height: 127px;
-        border: solid 1px green;
+        width: 280px;
+        height: 240px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-around;
         position: relative;
-        margin: 0 30px;
-        margin-bottom: 29px;
+        margin: 0 20px;
+        padding: 28px;
+        margin-bottom: 50px;
+        .gradient-border-box {
+            position: absolute;
+        }
+        p {
+            text-align: center;
+            color: $body-color;
+        }
+    }
+}
+
+.learn-more {
+    width: 180px;
+    height: 42px;
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    top: 215px;
+    a {
+        // font-family: "Open Sans";
+        font-size: 14px;
+        text-align: center;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-decoration: none;
     }
 }
 
 .care-conditions {
     text-align: center;
+    h2 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
     ul {
         list-style: none;
         margin: 0;
@@ -56,35 +130,36 @@
         color: #003A5F;
     }
     .underline-strip {
-        width: 160px;
-        height: 4px;
+        width: 120px;
+        height: 3px;
         background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-        border-radius: 2px;
+        border-radius: 4px;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
-    .underline-strip-2 {
-        width: 180px;
+    p {
+        font-weight: bold;
     }
 }
 
-.learn-more {
-    width: 98px;
-    height: 40px;
-    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-    border-radius: 20px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 21.5px;
-    top: 105px;
-    a {
-        // font-family: "Open Sans";
-        font-size: 14px;
-        text-align: center;
-        line-height: 19px;
-        color: #FFFFFF;
-        text-decoration: none;
+.picture-of-remedies {
+    height: 145px;
+    width: 280px;
+    background: url(../../MTH-Assets/photos/picture-of-remedies.jpg);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.what-is-naturopathic-medicine {
+    height: 165px;
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
+    color: $body-color;
+    h2 {
+        margin: 0;
+        margin-bottom: 20px;
     }
 }
