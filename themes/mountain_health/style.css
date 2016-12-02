@@ -1268,7 +1268,18 @@ p, li {
 
 .contact-us {
   text-align: center;
-  width: 375px; }
+  width: 320px; }
+  .contact-us .contact-us-hero {
+    background: url(../../MTH-Assets/photos/contact-us-hero.jpg);
+    width: 320px;
+    height: 123px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    color: white; }
   .contact-us h2 {
     text-transform: uppercase;
     color: #677257;
@@ -1282,37 +1293,58 @@ p, li {
     text-decoration: none; }
   .contact-us .wpcf7-form {
     text-align: left;
-    width: 315px;
+    width: 280px;
     margin: 0 auto; }
   .contact-us label {
     font-size: 14px;
     line-height: 19px;
-    color: #003A5F; }
+    color: #003d5c; }
   .contact-us input {
-    width: 315px;
+    width: 280px;
     height: 41px;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 2px 1px #677257;
-    border: 1px solid #677257;
+    border: 1px solid #919191;
     border-radius: 4px;
     color: rgba(155, 155, 155, 0.6);
     padding-left: 15px; }
   .contact-us textarea {
-    width: 315px;
-    height: 123px;
+    width: 280px;
+    height: 280px;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 2px 1px #677257;
-    border: 1px solid #677257;
+    border: 1px solid #919191;
     border-radius: 4px; }
   .contact-us input[type="submit"] {
     width: 150px;
     height: 40px;
     border-radius: 20px;
     color: #fff;
-    float: right;
-    margin-bottom: 54px;
+    margin: 0 65px;
     box-shadow: none;
     border: none; }
+    .contact-us input[type="submit"] p {
+      margin: 0; }
+
+p.line-around {
+  position: relative;
+  z-index: 1; }
+  p.line-around:before {
+    border-top: 2px solid #003A5F;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1; }
+  p.line-around span {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    background: #fff;
+    padding: 0 15px;
+    text-transform: uppercase; }
 
 .page-template-resources {
   max-width: 375px; }
