@@ -1,5 +1,15 @@
+.site-main{
 p,li{
     font-size: 14px;
+    font-family: 'open_sans';
+    }
+}
+
+.site-main{
+h2,h3{
+    font-family: 'oswald';
+    font-weight: normal;
+    }
 }
 .home{
     max-width: 375px;
@@ -8,29 +18,36 @@ p,li{
 .hero-banner{
     max-width: 375px;
     height: 756px;
-    background-color:darkgreen;
+    background:url(../MTH-Assets/overlay@3x.png);
     color:white;
     .hero-header{
         font-size: 28px;
         text-align: right;
         margin-right: 8rem;
+        margin-bottom: 45px;
         line-height: 41px;
         letter-spacing: 3px;
+        font-family: 'Oswald';
+        text-transform: uppercase;
     }
 }
 
 .hero-banner{
     p{
         font-size: 14px;
-        font-family: Open-sans;
+        font-family: 'open_sans';
         text-align: center;
         line-height: 21px;
+        margin-top: 0px;
+        margin-bottom: 2rem;
     }
 }
 .hero-banner{
     .what-is-hero{
         font-size: 24px;
         text-align: center;
+        margin-top:90px;
+        margin-bottom: 10px;
     } 
 }
 
@@ -39,5 +56,6 @@ p,li{
     a{
         text-decoration: none;
         color:white;
+        font-family: 'open_sans';
     }
 }
