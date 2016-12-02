@@ -17,6 +17,10 @@
     }
 }
 
+.book-appointment {
+    width: 220px;
+}
+
 .how-can-we-help-you {
     // font-family: Oswald;
     font-size: 18px;
@@ -29,6 +33,9 @@ a {
     text-decoration: none;
     color: white;
     &:visited {
+        color: white;
+    }
+    &:hover {
         color: white;
     }
 }

@@ -2,7 +2,7 @@
 
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
-        $('#primary-menu').animate({ width: 'toggle' });
+        $('#primary-menu').animate({ height: 'toggle' });
         // $('#primary-menu').toggle("slide", { direction: "left" }, 5000);
     })
 

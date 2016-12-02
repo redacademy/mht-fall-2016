@@ -79,6 +79,9 @@ audio:not([controls]) {
 template {
   display: none; }
 
+a:visited {
+  color: white; }
+
 a {
   background-color: transparent; }
 
@@ -461,6 +464,9 @@ textarea {
     color: white;
     text-decoration: none; }
 
+.book-appointment {
+  width: 220px; }
+
 .how-can-we-help-you {
   font-size: 18px;
   text-align: center;
@@ -471,6 +477,8 @@ a {
   text-decoration: none;
   color: white; }
   a:visited {
+    color: white; }
+  a:hover {
     color: white; }
 
 ul {
@@ -491,6 +499,15 @@ header {
 .MTH-logo {
   width: 40px;
   height: 40px; }
+
+#primary-menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  position: absolute;
+  background: blue;
+  width: 150px; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -988,56 +1005,130 @@ object {
   text-align: center;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5); }
 
-.about-hero {
-  text-align: center;
-  color: #fff;
-  width: 375px;
-  height: 260px;
-  background-color: rgba(0, 0, 0, 0.35);
-  border: 1px solid #979797; }
-  .about-hero h1 {
-    line-height: 41px;
-    letter-spacing: 1p; }
-  .about-hero p {
-    font-size: 14px;
-    line-height: 19px; }
+.about-page {
+  width: 320px; }
+  .about-page .about-hero {
+    text-align: center;
+    color: #fff;
+    width: 320px;
+    height: 415px;
+    background: url(../../MTH-Assets/photos/about-hero.jpg);
+    background-position-y: -60px;
+    margin-bottom: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+    .about-page .about-hero h1 {
+      color: white;
+      text-transform: uppercase;
+      font-size: 28px;
+      line-height: 41px;
+      letter-spacing: 1p; }
+    .about-page .about-hero p {
+      font-size: 17px;
+      line-height: 21px; }
+  .about-page h5 {
+    font-size: 17px;
+    line-height: 24px; }
 
-.about-amanda {
-  width: 375px;
-  height: 529px;
-  position: relative;
-  padding: 15px;
+.amanda-photo {
+  width: 280px;
+  height: 290px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.amanda-name-wrapper {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-  .about-amanda .amanda-photo {
-    width: 172.5px;
-    background: blue; }
-  .about-amanda h2 {
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.03, #99CD91), color-stop(0.76, #0D9681));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
-    font-size: 22px;
-    margin: 0;
-    text-transform: uppercase;
-    top: 30px;
-    right: 34px;
-    letter-spacing: 1px; }
-  .about-amanda .paragraph-1-amanda {
-    width: 168px;
-    padding-top: 40px;
-    padding-left: 15px; }
-  .about-amanda p {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    color: #000000;
-    margin-bottom: 0; }
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-bottom: 15px; }
+
+.about-amanda {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.about-amanda-text {
+  position: absolute;
+  top: 0;
+  width: 270px; }
+
+.amanda-bg {
+  margin: 0 auto; }
 
 .education {
-  width: 375px; }
+  text-align: center; }
+  .education .amanda-road-map-wrapper {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .education .amanda-road-map {
+    position: absolute;
+    top: -3px; }
+  .education div {
+    margin-top: 70px; }
+  .education .three,
+  .education .four {
+    margin-top: 60px; }
+  .education .five,
+  .education .six {
+    margin-top: 75px; }
+  .education .road-dot-1 {
+    position: absolute;
+    top: 45px;
+    right: 47.5%; }
+  .education .road-dot-2 {
+    position: absolute;
+    top: 158px;
+    right: 47.5%; }
+  .education .road-dot-3 {
+    position: absolute;
+    top: 258px;
+    right: 47.3%; }
+  .education .road-dot-4 {
+    position: absolute;
+    top: 395px;
+    right: 47.3%; }
+  .education .road-dot-5 {
+    position: absolute;
+    top: 520px;
+    right: 47.3%; }
+  .education .road-dot-6 {
+    position: absolute;
+    top: 647px;
+    right: 47.3%; }
+  .education .road-circle-1 {
+    position: absolute;
+    top: 41px;
+    right: 46%; }
+  .education .road-circle-2 {
+    position: absolute;
+    top: 154px;
+    right: 46%; }
+  .education .road-circle-3 {
+    position: absolute;
+    top: 254px;
+    right: 46%; }
+  .education .road-circle-4 {
+    position: absolute;
+    top: 391px;
+    right: 46%; }
+  .education .road-circle-5 {
+    position: absolute;
+    top: 516px;
+    right: 46%; }
+  .education .road-circle-6 {
+    position: absolute;
+    top: 643px;
+    right: 46%; }
   .education h3 {
     text-transform: uppercase;
     color: black;
@@ -1048,7 +1139,7 @@ object {
     margin: 0; }
   .education p {
     font-size: 14px;
-    margin-top: 0; }
+    margin: 0; }
 
 .what-we-do {
   width: 375px; }
@@ -1197,7 +1288,18 @@ object {
 
 .contact-us {
   text-align: center;
-  width: 375px; }
+  width: 320px; }
+  .contact-us .contact-us-hero {
+    background: url(../../MTH-Assets/photos/contact-us-hero.jpg);
+    width: 320px;
+    height: 123px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    color: white; }
   .contact-us h2 {
     text-transform: uppercase;
     color: #677257;
@@ -1211,37 +1313,58 @@ object {
     text-decoration: none; }
   .contact-us .wpcf7-form {
     text-align: left;
-    width: 315px;
+    width: 280px;
     margin: 0 auto; }
   .contact-us label {
     font-size: 14px;
     line-height: 19px;
-    color: #003A5F; }
+    color: #003d5c; }
   .contact-us input {
-    width: 315px;
+    width: 280px;
     height: 41px;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 2px 1px #677257;
-    border: 1px solid #677257;
+    border: 1px solid #919191;
     border-radius: 4px;
     color: rgba(155, 155, 155, 0.6);
     padding-left: 15px; }
   .contact-us textarea {
-    width: 315px;
-    height: 123px;
+    width: 280px;
+    height: 280px;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 2px 1px #677257;
-    border: 1px solid #677257;
+    border: 1px solid #919191;
     border-radius: 4px; }
   .contact-us input[type="submit"] {
     width: 150px;
     height: 40px;
     border-radius: 20px;
     color: #fff;
-    float: right;
-    margin-bottom: 54px;
+    margin: 0 65px;
     box-shadow: none;
     border: none; }
+    .contact-us input[type="submit"] p {
+      margin: 0; }
+
+p.line-around {
+  position: relative;
+  z-index: 1; }
+  p.line-around:before {
+    border-top: 2px solid #003A5F;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1; }
+  p.line-around span {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    background: #fff;
+    padding: 0 15px;
+    text-transform: uppercase; }
 
 .page-template-resources {
   max-width: 375px; }
@@ -1374,3 +1497,6 @@ object {
   position: relative;
   top: 20px;
   left: 20px; }
+
+a:visited {
+  color: white; }
