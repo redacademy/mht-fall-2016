@@ -1,8 +1,8 @@
 (function($) {
-
+    $('.mobile-menu').hide();
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
-        $('#primary-menu').animate({ height: 'toggle' });
+        $('.mobile-menu').animate({ height: 'toggle' });
         // $('#primary-menu').toggle("slide", { direction: "left" }, 5000);
     })
 

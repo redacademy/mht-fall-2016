@@ -27,12 +27,18 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
+					
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?><i class="fa fa-bars" aria-hidden="true"></i></button>
+					
 					<div class="mobile-menu">
-						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-					</div>
+							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+						
+						<div class="search-and-patient-portal">
+							<?php get_search_form(); ?>						
+							<a href="tel:">1-562-867-5309</a>
+						</div>
+					</div>	
 				</nav><!-- #site-navigation -->
-
 					<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logo-green.png" alt="MTH logo">
 				<p>(727) 362-2429</p>
 				

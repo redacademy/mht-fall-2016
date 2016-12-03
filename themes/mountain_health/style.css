@@ -522,6 +522,14 @@ header {
   background: blue;
   width: 150px; }
 
+.mobile-menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -790,7 +798,6 @@ object {
   background-size: cover;
   color: white;
   margin-bottom: 30px; }
-  
   .hero-banner .hero-header {
     font-size: 28px;
     text-align: right;
