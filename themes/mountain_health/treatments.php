@@ -14,9 +14,13 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-            <?php $fields = CFS()->get( 'treatment'); ?>
-                <?php   foreach ( $fields as $field ) : ?>
 
+            <?php $fields = CFS()->get( 'treatment'); ?>
+
+                <?php   foreach ( $fields as $field ) : ?>
+									<button> <?php   echo $field['treatment_title']; ?> </button>
+								<?php endforeach; ?>
+									<?php   foreach ( $fields as $field ) : ?>
             <img src="<?php  echo $field['treatment_img']; ?>"/>
                 <h3> <?php   echo $field['treatment_title']; ?> </h3>
                <p>  <?php   echo $field['treatment_text']; ?> </p>

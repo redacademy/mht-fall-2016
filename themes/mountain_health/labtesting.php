@@ -16,9 +16,11 @@ get_header(); ?>
 
 
             <?php $fields = CFS()->get( 'labtesting'); ?>
-                <?php   foreach ( $fields as $field ) : ?>
+						<?php   foreach ( $fields as $field ) : ?>
+							<button> <?php   echo $field['labtesting_title']; ?> </button>
+						<?php endforeach; ?>
 
-          
+                <?php   foreach ( $fields as $field ) : ?>
             <img src="<?php  echo $field['labtesting_img']; ?>"/>
                 <h3> <?php   echo $field['labtesting_title']; ?> </h3>
                <p>  <?php   echo $field['labtesting_text']; ?> </p>
