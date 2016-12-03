@@ -1,3 +1,81 @@
+    .site-main{
+p,li{
+    font-size: 14px;
+    font-family: 'open_sans';
+    }
+}
+
+.site-main{
+h2,h3{
+    font-family: 'oswald';
+    font-weight: normal;
+    }
+}
+.home{
+    max-width: 320px;
+}
+// css for hero banner section
+.hero-banner{
+    max-width: 320px;
+    height: 480px;
+    background:url(../../MTH-Assets/photos/mobile-overlay.png);
+    background-size: cover;
+    color:white;
+    margin-bottom: 30px;
+    .hero-header{
+        font-size: 28px;
+        text-align: right;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        line-height: 41px;
+        padding-top:213px;
+        letter-spacing: 3px;
+        font-family: 'Oswald';
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+.hero-banner{
+    p{
+        font-size: 14px;
+        font-family: 'open_sans';
+        text-align: center;
+        line-height: 21px;
+        margin-top: 0px;
+        margin-bottom: 104px;
+        width:273px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+.booking{
+    .what-is-hero{
+        font-size: 17px;
+        text-align: center;
+    } 
+}
+.hero-banner{
+    .keep-scrolling{
+        background: url(../../MTH-Assets/icons/down-arrow.png);
+        background-size: cover;
+        height: 26px;
+        width: 26px;
+        background-color: #1a9481;
+        margin:0 auto;
+        border-radius:20000px;
+
+    }
+}
+.header-text{
+    text-align: center;
+    a{
+        text-decoration: none;
+        color:white;
+        font-family: 'open_sans';
+    }
+}
+    
     .underline-strip {
         width: 160px;
         height: 4px;
@@ -8,14 +86,15 @@
     
 .front-button{
         background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-        padding-top:9px;
-        padding-bottom:9px;
-        padding-left:12px;
-        padding-right: 12px;
-        border-radius: 20px;
+        padding-top:13px;
+        padding-bottom:13px;
+        font-size: 15px;
+        padding-left:34px;
+        padding-right:34px;
+        border-radius: 200px;
         color:white;
-        margin-bottom: 50px;
 }
+
 //Front Page Booking Section
 .booking{
     display: flex;
@@ -23,60 +102,73 @@
     align-items: center;
     p{
         color:#003A5F;
-        width: 315px;
+        width: 277px;
         text-align: center;
         margin-top: 0px;
     }
 }
 
 .booking{
-    img{
-        width:357px;
-        height: 156px;
-        background-color: black;
-        margin-top: 47px;
+    div{
+        width:280px;
+        height: 105px;
+        background:url(../../MTH-Assets/photos/naturopathy-visual.png);
+        background-size: cover;
+        margin-top: 0px;
     }
 }
 
 //Front Page Benifits Section
 .benifits{
-    background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
-    height: 343px;
+    background: url(../../MTH-Assets/photos/icons-bg.png);
+    background-size: cover;
+    height: 299px;
+    display: flex;
+    flex-wrap: wrap;
     h2{
         color: white;
-        margin-left: 15px;
-        padding-top: 13px;
+        text-align: left;
+        font-size: 17px;
+        max-width:186px;
+        flex: 1 0 90%;
+        margin-top: 20px;
+        margin-bottom: 19px;
+        line-height: 21px;
+        text-transform: uppercase;
     }
 }
-
-.benifits-content{
     .benifits-list{
         line-height: 22px;
         color:white;
-        margin-left: 41px;
-        width:184px;
-        font-size: 14px;
+        margin-left: 62px;
+        font-size: 15px;
+        list-style-image: url(../../MTH-Assets/other/leaf.png)
     }
-}
 
-.benifits-content{
-    display:flex;
-    img{
-        width:119px;
-        height: 147px;
-        background-color:black;
-        margin-left: 16px;
+    .checkboard{
+        max-width:29px;
+        height: 37px;
+        background: url(../../MTH-Assets/icons/checkmark-icon.png);
+        flex:1 0 10%;
+        margin-top:20px;
+        margin-left: 35px;
+        margin-right: 8px;
     }
-}
+
 
 // Front Page Compared to Traditional Section
 
 .compare-to-traditional{
     h2{
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
         color:#677257;
         text-transform: uppercase;
+        width:194px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:29px;
+        margin-bottom: 20px;
     }
 }
 
@@ -98,13 +190,15 @@
         font-size: 11px;
         color: #677257;
         margin-top: 0px;
+        display: none;
     }
 }
 .compare-to-traditional{
     .clock{
         width: 75px;
         height: 75px;
-        background-color: black;
+        background: url(../../MTH-Assets/icons/time.png);
+        background-size: contain;
     }
 }
 
@@ -112,7 +206,8 @@
     .silouette{
         width: 60px;
         height: 75px;
-        background-color:black;
+        background:url(../../MTH-Assets/icons/user.png);
+        background-size: cover;
     }
 }
 
@@ -121,14 +216,19 @@
        color: #003A5F;
        font-size: 18px;
        text-transform: uppercase;
+       margin-bottom: 19px;
+       margin-top:20px;
     }
 }
 
 .compare-content{
     ul{
         color: #003A5F;
-        font-size: 14px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 15px;
         line-height: 22px;
+        list-style-image: url(../../MTH-Assets/other/leaf.png)
     }
 }
 
@@ -136,16 +236,29 @@
 
 .what-is-header{
     display: flex;
-    height: 132px;
-    background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
-    h2{
-    text-align: center;
-    color:#FFFFFF;
-    font-size: 24px;
-    letter-spacing: 2px;
+    height: 292px;
+    flex-direction: column;
+    background: url(../../MTH-Assets/photos/Front-Page-BG.png);
+    background-size:cover;
+    background-position: center;
+    p{
+        max-width: 246px;
+        font-size: 15px;
+        color: #003d5c;
+        text-align: center;
+        margin:0 auto;
+        line-height: 1.2;
+        margin-top:50px;
+        margin-bottom: 20px;
+        }
     }
+.what-is-button{
+    margin-bottom: 30px;
 }
-
+.flex-button{
+    margin:0 auto;
+    border: 0;
+}
 //Front page slider div
 
 .front-page-slider{
@@ -203,4 +316,7 @@
         text-align: center;
         box-shadow: 0 4px 4px 0 rgba(0,0,0,0.5);
     }
+}
+.how-can{
+    text-align: center;
 }

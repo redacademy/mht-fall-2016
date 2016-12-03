@@ -11,52 +11,44 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
 
         <section class="hero-banner"> <!--Front page banner-->
-            <h2 class="hero-header">Mountain<br>
+            <h2 class="hero-header">Mountain
             Health</h2>
             <div class="header-text">
                 <p>To empower every person to have a fulfilling healthy life and feel connected
                 to their community and their environment.</p>
-                <p>To change the outcome of chronic disease.</p>
-                <p>To remain curious about each individual and improve their quality of life with
-                dedication and passion</p>
-                <a href="#">Meet Dr.Chay > </a>
             </div>
-            <h2 class="what-is-hero"> What is Naturopathic<br>
-            Medicine? </h2>
-            <p>Naturopathic medicine combines the best of<br>
-            traditional treatments with evidence-based<br>
-            medicine.</p>
+            <div class="keep-scrolling"></div>
         </section><!--End of hero-banner-->
 
         <section class="booking"><!--Booking for front page-->
-            <img src="#">
-            <p>Naturopathic medicine offers<br>
-            individualized, natural healthcare.</p>
-            <a href="#" class="primary-button">Book an appointment</a>  
+            <div></div>
+            <h2 class="what-is-hero"> What is Naturopathic Medicine? </h2>
+                <p>Naturopathic medicine is a type of healthcare that offers individualized,
+                natural healthcare. It combines the best of traditional treatments with
+                evidence-based medicine. </p>
+            <a href="#" class="front-button what-is-button">Book an appointment</a>  
         </section>
 
         <section class="benifits">
-            <h2>Benifits of Naturopathic<br>
+            <div class="checkboard"></div>
+            <h2>Benifits of Naturopathic
             Medical Treatment</h2>
-            <div class="benifits-content">
-                <img src="#">
-                <ul class="benifits-list">
-                    <li>Increased energy</li>
-                    <li>Weight loss</li>
-                    <li>Decreased pain</li>
-                    <li>Decreased symptoms</li>
-                    <li>Less side effects from treatment</li>
-                    <li>Better sleep</li>
-                    <li>Increased libido</li>
-                    <li>Optimal health + Lifestyle</li>
-                </ul>
-            </div>
+            <ul class="benifits-list">
+                <li>Increased energy</li>
+                <li>Weight loss</li>
+                <li>Decreased pain</li>
+                <li>Decreased symptoms</li>
+                <li>Less side effects from treatment</li>
+                <li>Better sleep</li>
+                <li>Increased libido</li>
+                <li>Optimal health + Lifestyle</li>
+            </ul>
         </section>
 
         <section class="compare-to-traditional">
-            <h2>Compared to traditional health care</h2>
+            <h2>Naturopathy compared to traditional health care</h2>
             <div class="compare-content">
-                <img src="#" class="clock" alt="clock">
+                <div class="clock"></div>
                 <h3>Better appointments</h3>
                 <div class="underline-strip"></div>
                 <ul>
@@ -65,12 +57,12 @@ get_header(); ?>
                     <li>Time spent listening to all of<br>
                     your concerns</li>
                 </ul>
-                <a href="#" class="primary-button">Book an appointment</a>
+                <a href="#" class="front-button">Book an appointment</a>
                 <p class="note">*all inital visits are limited to one hour,<br>
                 to avoid taking too much time out of your day</p>
             </div>
             <div class="compare-content">
-                <img src="#" alt="person silouette" class="silouette">
+                <div class="silouette"></div>
                 <h3>More control</h3>
                 <div class="underline-strip"></div>
                 <ul>
@@ -79,13 +71,17 @@ get_header(); ?>
                     your concerns</li>
                     <li>individualized treatment</li>
                 </ul>
-                <a href="#" class="primary-button">View Treatments</a>
+                <a href="#" class="front-button">See our treatments</a>
             </div>
         </section>
 
         <section class="what-is">
             <div class="what-is-header">
-                <h2>What is a naturopathic physician?</h2>
+                <p>Naturopathic doctors use both
+                treatments and testing that are
+                evidence based and also those that have been proven to work
+                traditionally through clinical experience.</p>
+                <button class="front-button flex-button">See our treatments</button>
             </div>
             <div class="front-page-slider">
                 <p>A primary care provider trained in both natural and pharmaceutical therapies</p>
@@ -103,11 +99,10 @@ get_header(); ?>
             <p class="front-number">3</p>
             <p>Like MD students, students of a Naturopathic Medical Program cover physiology, pathoology, and basic sciences, in addition to studies on herbal medicine, vitamins and lifesyle.</p>
         </section>
-        <h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
-        <div class ="primary-button">
-            <a href="#">Book an appointment</a>
+        <div class="how-can">
+            <h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
+            <a href="#" class="front-button flex-button">Book an appointment</a>
         </div>
-
     </main><!-- #main -->
 </div><!-- #primary -->
 
