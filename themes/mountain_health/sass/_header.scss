@@ -23,7 +23,9 @@
         width: 150px;
     }
     
-    // .mobile-menu {
-    //     display: none;
-    //     // width: 150px;
-    // }
+    .mobile-menu {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        // width: 150px;
+    }

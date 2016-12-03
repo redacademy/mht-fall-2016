@@ -522,6 +522,14 @@ header {
   background: blue;
   width: 150px; }
 
+.mobile-menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -1701,7 +1709,9 @@ a:visited {
     font-size: 12px;
     text-align: center;
     line-height: 15px;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin: 0;
+    padding: 14px 0; }
 
 .footer-form {
   display: -ms-flexbox;
