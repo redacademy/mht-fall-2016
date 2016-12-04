@@ -503,7 +503,7 @@ body {
   background: url(../../MTH-Assets/other/organic-bg.png), white;
   background-size: cover; }
 
-header {
+.main-header header {
   width: 320px;
   height: 50px;
   z-index: 1;
@@ -516,22 +516,22 @@ header {
   padding-top: 5px;
   padding-bottom: 5px;
   background: white; }
-  header p {
+  .main-header header p {
     margin: 0; }
-  header button:focus {
+  .main-header header button:focus {
     outline: none; }
 
-.MTH-logo-wrapper {
+.main-header .MTH-logo-wrapper {
   width: 40px;
   height: 40px;
   margin-left: 20px; }
 
-.x-logo {
+.main-header .x-logo {
   position: absolute;
   top: 15px;
   right: 15px; }
 
-#primary-menu {
+.main-header #primary-menu {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column;
@@ -546,13 +546,13 @@ header {
   text-align: center;
   height: 100vh;
   z-index: 1; }
-  #primary-menu a {
+  .main-header #primary-menu a {
     color: #1a9481;
     font-family: "oswald", "san-serif";
     text-transform: uppercase;
     font-size: 17px; }
 
-.search-and-patient-portal {
+.main-header .search-and-patient-portal {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -566,30 +566,30 @@ header {
   text-transform: uppercase;
   padding: 0 20px; }
 
-.patient-portal {
+.main-header .patient-portal {
   display: -ms-flexbox;
   display: flex; }
-  .patient-portal a {
+  .main-header .patient-portal a {
     font-family: "oswald", "san-serif"; }
-  .patient-portal .external-link-icon {
+  .main-header .patient-portal .external-link-icon {
     width: 21px;
     height: 18px;
     padding-left: 4px;
     padding-top: 1px; }
 
-.phone-and-number {
+.main-header .phone-and-number {
   display: -ms-flexbox;
   display: flex;
   padding-left: 30px;
   padding-right: 30px; }
-  .phone-and-number p {
+  .main-header .phone-and-number p {
     font-family: "open_sans", "san-serif";
     color: #003A5F; }
-  .phone-and-number img {
+  .main-header .phone-and-number img {
     padding-right: 8px;
     padding-top: 2px; }
 
-.mobile-menu-wrapper {
+.main-header .mobile-menu-wrapper {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column;
@@ -599,11 +599,11 @@ header {
   height: 100vh;
   position: relative; }
 
-.mobile-menu {
+.main-header .mobile-menu {
   position: absolute;
   top: 50px; }
 
-.menu-toggle {
+.main-header .menu-toggle {
   background: none;
   border: none;
   height: auto;
@@ -1516,9 +1516,6 @@ body {
     margin: 0;
     margin-bottom: 20px; }
 
-.page-template-book-appointment {
-  max-width: 320px; }
-
 .book-appointment-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/book-appointment-hero.png);
@@ -1601,11 +1598,131 @@ body {
 .book-appointment-email h3 {
   margin-bottom: 9px;
   text-align: left;
-  margin-left: 20px; }
+  margin-left: 20px;
+  font-weight: normal; }
 
 .book-appointment-email input {
   width: 280px;
-  height: 42px; }
+  height: 42px;
+  border: solid 1px #919191; }
+
+.book-appointment-email button {
+  color: white;
+  background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+  border-radius: 30000px;
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  margin-top: 30px; }
+
+.book-appointment-use-smart h3 {
+  margin: 0px; }
+
+.book-appointment-use-smart p {
+  margin: 0px;
+  color: #003d5c; }
+
+.already-smartnd {
+  color: #003A5F; }
+  .already-smartnd p:first-child {
+    width: 265px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.smartnd-logo {
+  width: 133px;
+  height: 22px;
+  background-image: url(../../MTH-Assets/logos/snd-logo.png);
+  background-size: cover;
+  background-position: center center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px; }
+
+.why-use-smartnd {
+  height: 299px;
+  background-image: linear-gradient(to right, #1a9481, #9bcc93);
+  line-height: 18px; }
+
+.why-use-smartnd h2 {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-top: 20px; }
+
+.why-use-smartnd h3 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "open_sans"; }
+
+.wavy-arrows {
+  height: 31px;
+  width: 26px;
+  background-image: url(../../MTH-Assets/icons/change-icon.png);
+  background-size: cover;
+  background-position: center center; }
+
+.update-patient-pic {
+  height: 31px;
+  width: 37px;
+  background-image: url(../../MTH-Assets/icons/update.png);
+  background-size: cover;
+  background-position: center center; }
+
+.smartnd-clipboard {
+  height: 31px;
+  width: 23px;
+  background-image: url(../../MTH-Assets/icons/form.png);
+  background-size: cover;
+  background-position: center center; }
+
+.smartnd-form-img {
+  height: 31px;
+  width: 25px;
+  background-image: url(../../MTH-Assets/icons/treatment.png);
+  background-size: cover;
+  background-position: center center; }
+
+.why-use-upper {
+  display: -ms-flexbox;
+  display: flex; }
+
+.why-use-lower {
+  display: -ms-flexbox;
+  display: flex; }
+
+.why-use-smartnd-content {
+  width: 160px; }
+
+.smart-nd-forms h3 {
+  width: 95px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.smart-nd-plans h3 {
+  width: 118px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.smartnd-icon-bg {
+  width: 60px;
+  height: 60px;
+  background-color: #1a9481;
+  border-radius: 2000000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 1px solid white; }
 
 .contact-us {
   text-align: center;
