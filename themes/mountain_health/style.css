@@ -844,12 +844,15 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .site-main p, .site-main li {
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'open_sans'; }
 
 .site-main h2, .site-main h3 {
   font-family: 'oswald';
   font-weight: normal; }
+
+.list-span {
+  font-size: 15px; }
 
 .home {
   max-width: 320px; }
@@ -1033,6 +1036,16 @@ object {
   line-height: 22px;
   list-style-image: url(../../MTH-Assets/other/leaf.png); }
 
+.silouette-ul {
+  color: #003A5F;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 255px;
+  margin-left: 46px;
+  font-size: 15px;
+  line-height: 22px;
+  list-style-image: url(../../MTH-Assets/other/leaf.png); }
+
 .what-is-header {
   display: -ms-flexbox;
   display: flex;
@@ -1060,25 +1073,38 @@ object {
   border: 0; }
 
 .front-page-slider {
-  height: 357px;
+  height: 300px;
   text-align: center;
-  border: 2px solid aqua; }
+  background: url(../../MTH-Assets/photos/carousal-01.png);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 30px; }
   .front-page-slider p {
-    color: #003A5F; }
+    color: white;
+    width: 278px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.27;
+    margin-bottom: 60px; }
 
-.front-page-slider p:first-child {
-  margin-top: 30px;
-  margin-bottom: 36px; }
-
-.front-page-slider p:nth-child(2) {
-  margin-top: 0px;
-  margin-bottom: 105px; }
+.front-page-slider h2 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 60px; }
 
 .did-you-know h2 {
   color: #677257;
   font-size: 18px;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 0px; }
+
+.did-you-know .did-you-know-pic {
+  background: url(../../MTH-Assets/photos/Amanda-Visual.png);
+  background-size: cover;
+  width: 280px;
+  height: 196px; }
 
 .did-you-know {
   display: -ms-flexbox;
@@ -1087,21 +1113,53 @@ object {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center; }
-  .did-you-know .front-number {
+  .did-you-know .number-circle {
+    background: url(../../MTH-Assets/other/number-bg.png);
+    width: 46px;
+    height: 46px;
     text-align: center;
-    color: #003A5F;
-    border: 2px solid #003A5F;
-    width: 25px;
-    height: 25px;
-    border-radius: 9999px;
-    box-shadow: none; }
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    transform: translateY(25px); }
+    .did-you-know .number-circle p {
+      box-shadow: none;
+      margin: 0;
+      font-size: 18px; }
 
-.did-you-know p {
-  text-align: center;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5); }
+.did-you-know .did-you-know-bg {
+  width: 280px;
+  box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4); }
+  .did-you-know .did-you-know-bg p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2; }
+
+.did-you-know .did-you-know-bg-1 {
+  height: 155px; }
+  .did-you-know .did-you-know-bg-1 p {
+    width: 256px;
+    margin-top: 33px; }
+
+.did-you-know .did-you-know-bg-2 {
+  height: 123px; }
+  .did-you-know .did-you-know-bg-2 p {
+    width: 238px;
+    margin-top: 33px; }
+
+.did-you-know .did-you-know-bg-3 {
+  height: 141px; }
+  .did-you-know .did-you-know-bg-3 p {
+    width: 255px;
+    margin-top: 33px; }
 
 .how-can {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 15px; }
 
 .about-page {
   width: 320px; }
@@ -1394,16 +1452,6 @@ object {
 .page-template-book-appointment {
   max-width: 375px; }
 
-.secondary-hero {
-  height: 188px;
-  background-color: blueviolet; }
-  .secondary-hero h1 {
-    text-align: center;
-    font-family: 'Oswald';
-    font-size: 28px;
-    color: #FFFFFF;
-    text-transform: uppercase; }
-
 .appointment-hero-links {
   display: -ms-flexbox;
   display: flex;
@@ -1544,28 +1592,57 @@ p.line-around {
 .page-template-resources {
   max-width: 375px; }
 
+.resources-hero {
+  height: 123px;
+  background: url(../../MTH-Assets/photos/Resources-Hero.png);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  margin-bottom: 30px; }
+  .resources-hero h1 {
+    font-size: 18px;
+    color: white;
+    font-family: 'Oswald';
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px; }
+
+.resources-hero p {
+  color: #fff;
+  width: 266px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  line-height: 18px; }
+
 .resources-paragraph p {
   text-align: center;
   color: #003A5F;
   font-size: 18px; }
 
-.resources-wrapper {
+.news-events, .articles-research, .recipes-nutrition {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  position: relative;
-  margin-bottom: 33px; }
-  .resources-wrapper .news-events, .resources-wrapper .articles-research, .resources-wrapper .recipes-nutrition {
-    width: 315px;
-    border: 2px solid lawngreen;
-    height: 127px;
-    margin-right: 15px; }
-    .resources-wrapper .news-events p, .resources-wrapper .articles-research p, .resources-wrapper .recipes-nutrition p {
-      width: 239px; }
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 280px;
+  border: 2px solid lawngreen;
+  height: 252px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 45px;
+  position: relative; }
+  .news-events p, .articles-research p, .recipes-nutrition p {
+    text-align: center;
+    font-size: 14px;
+    color: #003A5F;
+    line-height: 18px; }
 
 .news-events h2, .news-events p, .articles-research h2, .articles-research p, .recipes-nutrition h2, .recipes-nutrition p {
-  margin-left: 60px;
   margin-top: 0;
   margin-bottom: 0; }
 
@@ -1573,13 +1650,8 @@ p.line-around {
   font-size: 18px;
   color: #677257;
   text-transform: uppercase;
-  margin-top: 18px;
-  margin-bottom: 10px; }
-
-.news-events p, .articles-research p, .recipes-nutrition p {
-  font-size: 14px;
-  color: #003A5F;
-  text-align: left; }
+  margin-top: 30px;
+  margin-bottom: 20px; }
 
 .news-events a, .articles-research a, .recipes-nutrition a {
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
@@ -1588,44 +1660,43 @@ p.line-around {
   padding-left: 12px;
   padding-right: 12px;
   border-radius: 20px;
+  color: white;
   position: absolute;
-  bottom: -20px;
-  right: 34px;
-  color: white; }
+  bottom: -23px;
+  font-size: 15px; }
 
-.resources-wrapper .resources-newspaper {
-  width: 76px;
-  height: 73px;
-  background-color: black;
-  position: absolute;
-  left: 15px;
-  top: 31px; }
+.news-events p {
+  width: 210px; }
 
-.resources-wrapper .resources-microscope {
-  width: 60.65px;
-  height: 73px;
-  background-color: black;
-  position: absolute;
-  left: 15px;
-  top: 30px; }
+.articles-research p {
+  width: 252px; }
 
-.resources-wrapper .resources-apple {
-  width: 73px;
-  height: 73px;
-  background-color: black;
-  position: absolute;
-  left: 15px;
-  top: 30px; }
+.recipes-nutrition p {
+  width: 249px; }
 
-.learn-more-resource {
-  text-align: center;
-  width: 300px;
-  margin: 0 auto;
-  margin-bottom: 24px; }
-  .learn-more-resource a {
-    text-align: center;
-    font-size: 18px;
-    color: #677257; }
+.resources-newspaper {
+  width: 75px;
+  height: 70px;
+  background: url(../../MTH-Assets/icons/news.png);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 20px; }
+
+.resources-microscope {
+  width: 58px;
+  height: 70px;
+  background: url(../../MTH-Assets/icons/research.png);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 20px; }
+
+.resources-apple {
+  width: 70px;
+  height: 70px;
+  background: url(../../MTH-Assets/icons/nutrition.png);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 20px; }
 
 /*WebDesignAndSuch.com*/
 /*LINKS*/
