@@ -23,6 +23,9 @@
         $('.search-field-mobile').hide();
         $('header, #primary, .mobile-menu, footer').show();
     });
+    // hide/show treatment through flickity carousel
+    // $('.treatment-description').hide();
+
     // news and events button to show/hide news/events
     $(".events-section").on('click', function() {
         event.preventDefault();
