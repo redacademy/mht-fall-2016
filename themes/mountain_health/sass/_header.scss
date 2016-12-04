@@ -1,15 +1,19 @@
 header {
     width: 320px;
-    height: 46px;
+    height: 50px;
     z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5px;
+    padding-top: 5px;
     padding-bottom: 5px;
+    background: white;
     // position: fixed;
     p {
         margin: 0;
+    }
+    button:focus {
+        outline: none;
     }
 }
 
@@ -19,6 +23,12 @@ header {
     margin-left: 20px;
 }
 
+.x-logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
 #primary-menu {
     display: flex;
     flex-flow: column;
@@ -26,7 +36,7 @@ header {
     position: absolute;
     background: url(../../MTH-Assets/other/organic-bg.png), white;
     background-size: cover;
-    opacity: .9;
+    // opacity: .98;
     width: 320px;
     text-align: center;
     height: 100vh;

@@ -501,7 +501,7 @@ ul {
 
 header {
   width: 320px;
-  height: 46px;
+  height: 50px;
   z-index: 1;
   display: -ms-flexbox;
   display: flex;
@@ -509,15 +509,23 @@ header {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  margin-top: 5px;
-  padding-bottom: 5px; }
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: white; }
   header p {
     margin: 0; }
+  header button:focus {
+    outline: none; }
 
 .MTH-logo {
   width: 40px;
   height: 40px;
   margin-left: 20px; }
+
+.x-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px; }
 
 #primary-menu {
   display: -ms-flexbox;
@@ -529,7 +537,6 @@ header {
   position: absolute;
   background: url(../../MTH-Assets/other/organic-bg.png), white;
   background-size: cover;
-  opacity: .9;
   width: 320px;
   text-align: center;
   height: 100vh; }
