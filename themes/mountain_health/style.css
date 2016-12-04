@@ -468,7 +468,7 @@ textarea {
   -ms-flex-align: center;
       align-items: center;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border: none;
   color: white;
   padding: 0 5px; }
@@ -1321,7 +1321,7 @@ body {
 
 .green-mountains {
   position: absolute;
-  top: 2101px; }
+  top: 2110px; }
 
 .what-we-do {
   width: 320px; }
@@ -1914,7 +1914,7 @@ header.entry-header-article {
   top: 0;
   left: 0;
   bottom: 0; }
-=======
+
 .error404 {
   max-width: 375px;
   background: url(../../MTH-Assets/photos/main-bg.png);
