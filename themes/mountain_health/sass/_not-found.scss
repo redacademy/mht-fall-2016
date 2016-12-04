@@ -1,33 +1,57 @@
 //404 Page Section 
 .error404{
     max-width: 375px;
+    background: url(../../MTH-Assets/photos/main-bg.png);
+    background-position: center center;
 }
 .error-hero{
-    font-size: 24px;
+    height:123px;
+    text-align: center;
     color:white;
+    background: url(../../MTH-Assets/photos/404-hero.png);
+    background-size: cover;
+    background-position: center center;
     p{
         text-align: center;
-        font-size: 18px;
-        font-family: 'Oswald'
+        font-size: 15px;
+        width:262px;
+        margin-top: 17px;
+        margin-left: auto;
+        margin-right:auto;
+        font-family: 'open_sans';
+        line-height:1.2;
+    }
+}
+
+.error-hero{
+    h1{
+        font-size: $medium-font;
+        font-weight: normal;
+        margin:0px;
+        padding-top:25px;
     }
 }
 
 .not-found-content{
     margin-top: 34.2px;
     display:flex;
-    justify-content: space-between;
-    img{
-        width:61px;
-        height:73px;
-        background-color:black;
+    flex-direction: column;
+    .not-found-apple{
+        width:80px;
+        height:96px;
+        background:url(../../MTH-Assets/icons/apple.png);
+        background-size: cover;
+        background-position: center center;
     }
 }
 
 .not-found-content{
     .text-bubble{
-        width:78px;
-        height:73px;
-        background-color:black;
+        width:80px;
+        height:74px;
+        background:url(../../MTH-Assets/icons/message.png);
+        background-size: cover;
+        background-position: center center;
     }
 }
 
@@ -41,10 +65,17 @@
 .not-found-content{
     p{
         color:$body-color;
-        font-size: 12px;
+        font-size: $small-font;
     }
 }
 
 .not-found-button{
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
     margin-bottom: 30px;
+    border-radius: 20000px;
+    color: white;
 }

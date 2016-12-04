@@ -8,53 +8,33 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-        <section class="secondary-hero">
-            <h1>I am a...</h1>
-            <div class="appointment-hero-links">
-                <a class="green-button">New Patient</a>
-                <a class="green-button">Returning Patient</a>
-            </div>
+        <section class="book-appointment-hero">
+            <h1>Book An Appointment</h1>
         </section>
 
-        <section class="smartnd">
-            <h2>Smart<span class="smartnd-span">ND</span> does more than<br>
-            just appointments...</h2>
-            <div class="smartnd-content">
-                <div class="smartnd-items">
-                    <img src="#" alt="person silouette">
-                    <div>
-                        <p>Update<br>
-                        Patient<br>
-                        Information</p>
-                    </div>
-                </div>
-                <div class="smartnd-items">
-                    <img src="#" alt="">
-                    <div>
-                        <p>Cancel or<br>
-                        Change<br>
-                        Appointment</p>
-                    </div>
-                </div>
-                <div class="smartnd-items">
-                    <img src="#" alt="">
-                    <div>
-                        <p>View<br> 
-                        Treatment<br>
-                        Plans</p>
-                    </div>
-                </div>
-                <div class="smartnd-items">
-                    <img src="#" alt="">
-                    <div>
-                        <p>Fill Out<br>
-                        Intake Forums</p>
-                    </div>
-                </div>
+        <section class="book-appointment-content">
+            <a href="#">Home page > <span>Book an appointment</span></a>
+            <h2>Choose a Booking Method</h2>
+            <h3>Call</h3>
+            <div class="book-appointment-call">
+               <div class="book-appointment-phone-icon"></div><p>xxx-xxx-xxxx</p>
             </div>
-                <p class="uses-smartmd">Mountain Health uses smart<span class="smartnd-span">ND</span><br>
-                to help you stay in control<br>
-                of your healthcare</p>
+            <div class="book-appointment-or">
+                <div class="or-line"></div>
+                <h3>Or</h3>
+                <div class="or-line"></div>
+                <h3>Use SmartND</h3>
+                <p>Create your free account</p>
+            </div>
+            <div class="book-appointment-email">
+                <h3>Email address</h3>
+                <form>
+                    <input type="text" name="email" placeholder="Example@example.com">
+                    <button class="book-appointments-submit-button" type="submit">Go to SmartND</button>
+                </form>
+                
+            </div>
+
         </section>
 
 		</main><!-- #main -->

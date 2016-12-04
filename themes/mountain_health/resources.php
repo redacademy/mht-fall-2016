@@ -5,8 +5,9 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 <div class="resources-hero secondary-hero">	
 	<h1>Resources</h1>
+	<p>We are always here to help, but sometimes you have questions in between appointments. Knowledge is</p>
 </div>
-<div class="resources-paragraph">
+<!--<div class="resources-paragraph">
 	<p>
 	We are always here to help, but<br>
 	sometimes you have questions in<br>
@@ -20,44 +21,41 @@ get_header(); ?>
 	and the latests news from<br>
 	Mountain Health.
 	</p>
-</div>
-<div class="resources-wrapper">
-	<img src="#" alt="" class="resources-newspaper">
+</div>-->
+	
 	<div class="news-events">
 		<h2>News + Events</h2>
+		<div class="resources-newspaper"></div>
 		<p>
 		Learn about what’s new at Mountain Health and 
 		discover upcoming events.
 		</p>
 		<a href="#" >Read More</a>
 	</div>
-</div>
-<div class="resources-wrapper">
-	<img src="#" alt="" class="resources-microscope">
+	
 	<div class="articles-research">
 		<h2>Articles + Research</h2>
+		<div class="resources-microscope"></div>
 		<p>
 		Read our articles from Dr. Chay and find more 
 		information about health and naturopathy.
 		</p>
 		<a href="#">Read More</a>
 	</div>
-</div>
-<div class="resources-wrapper">
-	<img src="#" alt="" class="resources-apple">
+
 	<div class="recipes-nutrition">
 		<h2>Recipes + Nutrition</h2>
+		<div class="resources-apple"></div>
 		<p>
 		Build your collection of healthy recipes and 
 		nutritional tips from Dr. Chay
 		</p>
 		<a href="#">Read More</a>
 	</div>
-</div>
-<a href="#">
+<!--<a href="#">
 	<h2 class="learn-more-resource">Learn more about 
 	conditions and evidence-based treatments >>
-</a>
+</a>-->
 	</main><!-- #main -->
 </div><!-- #primary -->
 

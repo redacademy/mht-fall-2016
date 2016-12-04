@@ -58,7 +58,7 @@
     *background: none;
     position: absolute;
     z-index: 2;
-    top: 0px;
+    top: 0;
     left: 0px;
     width: 100%;
 }
@@ -70,6 +70,7 @@
     height: 200px;
     border: 5px solid #000;
     z-index: 3;
+    top: 45px;
 }
 
 #popUpDiv a {

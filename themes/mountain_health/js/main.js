@@ -1,11 +1,16 @@
 (function($) {
-
+    $('.mobile-menu').hide();
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
-        $('#primary-menu').animate({ height: 'toggle' });
+        $('.mobile-menu').animate({ height: 'toggle' });
         // $('#primary-menu').toggle("slide", { direction: "left" }, 5000);
-    })
-
+    });
+    $('.x-logo').hide();
+    $('.menu-toggle').on('click', function(event) {
+        event.preventDefault();
+        $('.hamburger').toggle();
+        $('.x-logo').toggle();
+    });
     // news and events button to show/hide news/events
     $(".events-section").on('click', function() {
         event.preventDefault();
