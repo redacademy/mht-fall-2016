@@ -21,8 +21,12 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
+				<div class="MTH-logo-wrapper">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green.png" alt="MTH logo">
+				</a>
+				</div>
 				
-				<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green.png" alt="MTH logo">
 				<div class="phone-and-number">
 					<a href="#" onclick="popup('popUpDiv')"><img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="MTH logo"></a>
 					<p>1-562-867-5309</p>

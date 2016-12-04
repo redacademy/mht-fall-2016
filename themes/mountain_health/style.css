@@ -517,7 +517,7 @@ header {
   header button:focus {
     outline: none; }
 
-.MTH-logo {
+.MTH-logo-wrapper {
   width: 40px;
   height: 40px;
   margin-left: 20px; }
@@ -1491,7 +1491,7 @@ object {
   .book-appointment-hero h1 {
     color: white;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: normal; }
 
 .contact-us {
