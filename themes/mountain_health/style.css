@@ -468,7 +468,7 @@ textarea {
   -ms-flex-align: center;
       align-items: center;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border: none;
   color: white;
   padding: 0 5px; }
@@ -499,6 +499,10 @@ ul {
   padding: 0;
   margin: 0; }
 
+body {
+  background: url(../../MTH-Assets/other/organic-bg.png), white;
+  background-size: cover; }
+
 header {
   display: -ms-flexbox;
   display: flex;
@@ -514,7 +518,7 @@ header {
   header button:focus {
     outline: none; }
 
-.MTH-logo {
+.MTH-logo-wrapper {
   width: 40px;
   height: 40px;
   margin-left: 20px; }
@@ -534,9 +538,11 @@ header {
   position: absolute;
   background: url(../../MTH-Assets/other/organic-bg.png), white;
   background-size: cover;
+  opacity: .95;
   width: 320px;
   text-align: center;
-  height: 100vh; }
+  height: 100vh;
+  z-index: 1; }
   #primary-menu a {
     color: #1a9481;
     font-family: "oswald", "san-serif";
@@ -567,18 +573,6 @@ header {
     height: 18px;
     padding-left: 4px;
     padding-top: 1px; }
-
-.search {
-  display: -ms-flexbox;
-  display: flex; }
-  .search .search-icon {
-    height: 16px;
-    width: 20px;
-    padding-right: 5px;
-    padding-top: 1px; }
-  .search p {
-    margin: 0;
-    font-family: "oswald", "san-serif"; }
 
 .phone-and-number {
   display: -ms-flexbox;
@@ -857,6 +851,59 @@ object {
 
 .gallery-caption {
   display: block; }
+
+.search-field-mobile {
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 320px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  box-shadow: 0px 10px 5px #888888;
+  padding-right: 25px;
+  padding-top: 5px;
+  background: white; }
+  .search-field-mobile p {
+    font-family: open_sans, 'sans-serif';
+    color: #003A5F; }
+  .search-field-mobile fieldset {
+    border: none; }
+  .search-field-mobile .search-field {
+    border: none;
+    color: #1a9481; }
+    .search-field-mobile .search-field:focus {
+      color: #1a9481; }
+  .search-field-mobile input {
+    font-family: 'oswald', 'sans-serif';
+    font-size: 15px;
+    text-transform: uppercase; }
+    .search-field-mobile input:focus {
+      outline: none; }
+    .search-field-mobile input::-webkit-input-placeholder {
+      font-family: 'oswald', 'sans-serif';
+      font-size: 17px;
+      color: grey; }
+  .search-field-mobile .fa {
+    display: none; }
+
+.search {
+  display: -ms-flexbox;
+  display: flex; }
+  .search .search-icon {
+    height: 16px;
+    width: 20px;
+    padding-right: 5px;
+    padding-top: 1px; }
+  .search p {
+    margin: 0;
+    font-family: "oswald", "san-serif"; }
+  .search:hover {
+    cursor: pointer; }
+
+.header-hide {
+  display: none; }
 
 /*--------------------------------------------------------------
 # Page Templates
@@ -1190,7 +1237,7 @@ body {
     width: 320px;
     height: 415px;
     background: url(../../MTH-Assets/photos/about-hero.jpg);
-    background-position-y: -60px;
+    background-position-y: -66px;
     margin-bottom: 30px;
     display: -ms-flexbox;
     display: flex;
@@ -1200,6 +1247,7 @@ body {
       color: white;
       text-transform: uppercase;
       font-size: 28px;
+      font-weight: normal;
       line-height: 41px;
       letter-spacing: 1p; }
     .about-page .about-hero p {
@@ -1207,7 +1255,9 @@ body {
       line-height: 21px; }
   .about-page h5 {
     font-size: 17px;
-    line-height: 24px; }
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 20px; }
 
 .amanda-photo {
   width: 280px;
@@ -1227,7 +1277,34 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  line-height: 18px;
+  padding: 10px; }
+  .about-amanda .about-amanda-text {
+    padding: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .about-amanda p {
+    margin-bottom: 0;
+    margin-top: 0;
+    background: rgba(255, 255, 255, 0.7);
+    color: #003A5F; }
+  .about-amanda .first-sentence {
+    padding-left: 37px;
+    margin: 0;
+    margin-top: 13px; }
+  .about-amanda .about-amanda-second-p {
+    margin: 0; }
+
+.i-in-about {
+  font-family: "Brush Script MT";
+  font-size: 56px;
+  color: #003A5F;
+  line-height: 0;
+  position: absolute;
+  top: 48px; }
 
 .about-amanda-text {
   position: absolute;
@@ -1238,7 +1315,8 @@ body {
   margin: 0 auto; }
 
 .education {
-  text-align: center; }
+  text-align: center;
+  padding: 0 25px; }
   .education .amanda-road-map-wrapper {
     position: relative;
     width: 300px;
@@ -1249,63 +1327,20 @@ body {
         justify-content: center; }
   .education .amanda-road-map {
     position: absolute;
-    top: -3px; }
-  .education div {
-    margin-top: 70px; }
+    top: -13px;
+    left: 36.5%; }
+  .education .one {
+    margin-top: 55px; }
+  .education .two {
+    margin-top: 65px; }
   .education .three,
   .education .four {
-    margin-top: 60px; }
-  .education .five,
+    margin-top: 58px; }
+  .education .five {
+    margin-top: 84px; }
   .education .six {
-    margin-top: 75px; }
-  .education .road-dot-1 {
-    position: absolute;
-    top: 45px;
-    right: 47.5%; }
-  .education .road-dot-2 {
-    position: absolute;
-    top: 158px;
-    right: 47.5%; }
-  .education .road-dot-3 {
-    position: absolute;
-    top: 258px;
-    right: 47.3%; }
-  .education .road-dot-4 {
-    position: absolute;
-    top: 395px;
-    right: 47.3%; }
-  .education .road-dot-5 {
-    position: absolute;
-    top: 520px;
-    right: 47.3%; }
-  .education .road-dot-6 {
-    position: absolute;
-    top: 647px;
-    right: 47.3%; }
-  .education .road-circle-1 {
-    position: absolute;
-    top: 41px;
-    right: 46%; }
-  .education .road-circle-2 {
-    position: absolute;
-    top: 154px;
-    right: 46%; }
-  .education .road-circle-3 {
-    position: absolute;
-    top: 254px;
-    right: 46%; }
-  .education .road-circle-4 {
-    position: absolute;
-    top: 391px;
-    right: 46%; }
-  .education .road-circle-5 {
-    position: absolute;
-    top: 516px;
-    right: 46%; }
-  .education .road-circle-6 {
-    position: absolute;
-    top: 643px;
-    right: 46%; }
+    margin-top: 80px;
+    margin-bottom: 30px; }
   .education h3 {
     text-transform: uppercase;
     color: black;
@@ -1313,10 +1348,17 @@ body {
   .education h4 {
     font-size: 17px;
     color: #677257;
+    text-transform: uppercase;
+    font-weight: normal;
     margin: 0; }
   .education p {
     font-size: 15px;
-    margin: 0; }
+    margin: 0;
+    line-height: 1.2; }
+
+.green-mountains {
+  position: absolute;
+  top: 2110px; }
 
 .what-we-do {
   width: 320px; }

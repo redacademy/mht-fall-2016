@@ -22,19 +22,20 @@ get_header(); ?>
             <div class ="about-amanda">
                 <img class=".amanda-bg" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/amanda-bg.png" alt="Dr. Amanda Chay">
                 <div class="about-amanda-text">
+                    <div></div> 
                     <p>
-                        I am a Naturopathic Physician and owner of Mountain 
-                        Health. Prior to this, I completed pre-medical studies 
+                        <span class="i-in-about">I </span>
+                        <p class="first-sentence">am a Naturopathic Physician and owner of Mountain 
+                        Health. Prior to this, I</p> 
+                            <p>completed pre-medical studies 
                         and a degree in Psychology at the University of Regina 
                         in Saskatchewan.
-                    </p>
-                    <p>
                         Combining my love of medicine, psychology and nature I 
                         was driven to a career in Naturopathic Medicine. I truly 
                         believe in the body’s innate desire to heal and that each 
                         patient is unique, deserving of individualized treatment. 
                     </p>
-                    <p>
+                    <p class="about-amanda-second-p">
                         My goal for you is to be symptom free so you can simply 
                         spend more time enjoying every day. I am excited to offer 
                         you a more natural approach and work with you on your journey 
@@ -45,28 +46,14 @@ get_header(); ?>
         </section>
         <section class="education">
             <section class="amanda-road-map-wrapper">
-                <img class="amanda-road-map" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line-shape.png" alt="gradient line">
-                <img class="road-dot-1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse-bg.png" alt="filled in circle">
-                <img class="road-dot-2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse-bg.png" alt="filled in circle">
-                <img class="road-dot-3" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse-bg.png" alt="filled in circle">
-                <img class="road-dot-4" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse-bg.png" alt="filled in circle">
-                <img class="road-dot-5" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse-bg.png" alt="filled in circle">
-                <img class="road-dot-6" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse-bg.png" alt="filled in circle">
-
-                <img class="road-circle-1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse.png" alt="filled in circle">
-                <img class="road-circle-2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse.png" alt="filled in circle">
-                <img class="road-circle-3" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse.png" alt="filled in circle">
-                <img class="road-circle-4" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse.png" alt="filled in circle">
-                <img class="road-circle-5" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse.png" alt="filled in circle">
-                <img class="road-circle-6" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/ellipse.png" alt="filled in circle">
-
+                <img class="amanda-road-map" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line+dots.png" alt="gradient line">
             </section>
-            <div>
+            <div class="one">
                 <h4>Doctor of Naturopathic Medicine</h4>
                 <p>Boucher Institute of Naturopathic Medicine</p>
             </div>
             
-            <div>
+            <div class= "two">
                 <h4>BA Psychology</h4>
                 <p>University of Regina</p>
             </div>
@@ -99,7 +86,10 @@ get_header(); ?>
             <h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
         <div class="primary-button book-appointment"><a href="#">Book an appointment</a></div>
         </section> 
+
 	</main><!-- #main -->
+
 </div><!-- #primary -->
+ <img class="green-mountains" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/footer_mountain.png" alt="green and white image that looks like mountains">
 
 <?php get_footer(); ?>
