@@ -509,7 +509,8 @@ header {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding-bottom: 5px; }
   header p {
     margin: 0; }
 
@@ -523,13 +524,20 @@ header {
   display: flex;
   -ms-flex-flow: column;
       flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   position: absolute;
-  background: white;
+  background: url(../../MTH-Assets/other/organic-bg.png), white;
+  background-size: cover;
+  opacity: .9;
   width: 320px;
   text-align: center;
   height: 100vh; }
   #primary-menu a {
-    color: #1a9481; }
+    color: #1a9481;
+    font-family: "oswald", "san-serif";
+    text-transform: uppercase;
+    font-size: 17px; }
 
 .search-and-patient-portal {
   display: -ms-flexbox;
@@ -548,6 +556,8 @@ header {
 .patient-portal {
   display: -ms-flexbox;
   display: flex; }
+  .patient-portal a {
+    font-family: "oswald", "san-serif"; }
   .patient-portal .external-link-icon {
     width: 21px;
     height: 18px;
@@ -563,15 +573,20 @@ header {
     padding-right: 5px;
     padding-top: 1px; }
   .search p {
-    margin: 0; }
+    margin: 0;
+    font-family: "oswald", "san-serif"; }
 
 .phone-and-number {
   display: -ms-flexbox;
   display: flex;
   padding-left: 30px;
   padding-right: 30px; }
+  .phone-and-number p {
+    font-family: "open_sans", "san-serif";
+    color: #003A5F; }
   .phone-and-number img {
-    padding-right: 8px; }
+    padding-right: 8px;
+    padding-top: 2px; }
 
 .mobile-menu-wrapper {
   display: -ms-flexbox;
@@ -1088,7 +1103,7 @@ object {
     margin-bottom: 60px; }
 
 .front-page-slider h2 {
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
   text-transform: uppercase;
   padding-top: 60px; }
@@ -1128,7 +1143,7 @@ object {
     .did-you-know .number-circle p {
       box-shadow: none;
       margin: 0;
-      font-size: 18px; }
+      font-size: 17px; }
 
 .did-you-know .did-you-know-bg {
   width: 280px;
@@ -1290,11 +1305,11 @@ object {
     color: black;
     font-size: 24px; }
   .education h4 {
-    font-size: 18px;
+    font-size: 17px;
     color: #677257;
     margin: 0; }
   .education p {
-    font-size: 14px;
+    font-size: 15px;
     margin: 0; }
 
 .what-we-do {
@@ -1526,20 +1541,20 @@ object {
   .contact-us h2 {
     text-transform: uppercase;
     color: #677257;
-    font-size: 18px; }
+    font-size: 17px; }
   .contact-us p {
     color: #003A5F;
-    font-size: 14px; }
+    font-size: 15px; }
   .contact-us .phone-number {
     color: #003A5F;
-    font-size: 18px;
+    font-size: 17px;
     text-decoration: none; }
   .contact-us .wpcf7-form {
     text-align: left;
     width: 280px;
     margin: 0 auto; }
   .contact-us label {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 19px;
     color: #003d5c; }
   .contact-us input {
@@ -1600,7 +1615,7 @@ p.line-around {
   text-align: center;
   margin-bottom: 30px; }
   .resources-hero h1 {
-    font-size: 18px;
+    font-size: 17px;
     color: white;
     font-family: 'Oswald';
     font-weight: normal;
@@ -1620,7 +1635,7 @@ p.line-around {
 .resources-paragraph p {
   text-align: center;
   color: #003A5F;
-  font-size: 18px; }
+  font-size: 17px; }
 
 .news-events, .articles-research, .recipes-nutrition {
   display: -ms-flexbox;
@@ -1647,7 +1662,7 @@ p.line-around {
   margin-bottom: 0; }
 
 .news-events h2, .articles-research h2, .recipes-nutrition h2 {
-  font-size: 18px;
+  font-size: 17px;
   color: #677257;
   text-transform: uppercase;
   margin-top: 30px;
