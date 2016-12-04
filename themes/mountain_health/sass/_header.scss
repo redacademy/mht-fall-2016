@@ -87,6 +87,13 @@ header {
         margin: 0;
         font-family: "oswald", "san-serif";
     }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.header-hide {
+    display: none;
 }
 
 .phone-and-number {

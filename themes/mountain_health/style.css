@@ -588,6 +588,11 @@ header {
   .search p {
     margin: 0;
     font-family: "oswald", "san-serif"; }
+  .search:hover {
+    cursor: pointer; }
+
+.header-hide {
+  display: none; }
 
 .phone-and-number {
   display: -ms-flexbox;
@@ -866,6 +871,24 @@ object {
 
 .gallery-caption {
   display: block; }
+
+.search-field-mobile {
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 320px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  box-shadow: 0px 10px 5px #888888;
+  padding: 0 25px; }
+  .search-field-mobile fieldset {
+    border: none; }
+  .search-field-mobile .search-field {
+    border: none; }
+  .search-field-mobile .fa {
+    display: none; }
 
 /*--------------------------------------------------------------
 # Page Templates
