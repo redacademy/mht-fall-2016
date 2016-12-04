@@ -83,10 +83,24 @@ get_header(); ?>
                 traditionally through clinical experience.</p>
                 <button class="front-button flex-button">See our treatments</button>
             </div>
-            <div class="front-page-slider">
-                <h2>What is a Naturopathic physician?</h2>
-                <p>A primary care provider trained in both natural and pharmaceutical therapies. Naturopathic physicians can prescribe</p>
-                <a href="#" class="front-button">Read More</a>
+            <div class="front-page-slide main-carousel" data-flickity='{ "cellAlign": "center", "contain": true }'>
+                <div class="carousel-cell front-page-slide">
+                    <h2>What is a Naturopathic physician?</h2>
+                    <p>A primary care provider trained in both natural and pharmaceutical therapies. Naturopathic physicians can prescribe</p>
+                    <a href="#" class="front-button">Read More</a>
+                </div>
+
+                <div class="carousel-cell front-page-slide">
+                    <h2>What is a Naturopathic physician?</h2>
+                    <p>A primary care provider trained in both natural and pharmaceutical therapies. Naturopathic physicians can prescribe</p>
+                    <a href="#" class="front-button">Read More</a>
+                </div>
+                
+                <div class="carousel-cell front-page-slide">
+                    <h2>What is a Naturopathic physician?</h2>
+                    <p>A primary care provider trained in both natural and pharmaceutical therapies. Naturopathic physicians can prescribe</p>
+                    <a href="#" class="front-button">Read More</a>
+                </div>
             </div>
         </section>
         <section class="did-you-know">
