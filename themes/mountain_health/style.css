@@ -2355,3 +2355,42 @@ header.entry-header-article {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center; }
+
+.search-results .page-header {
+  height: 123px;
+  background: url(../../MTH-Assets/photos/search-results-hero.png);
+  background-size: cover;
+  background-position: center center; }
+  .search-results .page-header .page-title {
+    padding-top: 40px;
+    text-align: center;
+    width: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: normal; }
+
+.search-results article {
+  text-align: center; }
+  .search-results article .entry-header {
+    background-color: black;
+    height: 150px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto; }
+  .search-results article h2 {
+    font-size: 15px;
+    padding-top: 62px;
+    text-transform: uppercase; }
+    .search-results article h2 a {
+      color: white; }
+
+.search-results article p {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #003A5F;
+  line-height: 1.2; }
