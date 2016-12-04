@@ -1,37 +1,103 @@
-    header {
-        height: 75px;
-        z-index: 1;
-        display: flex;
-        justify-content: space-around;
-        p {
-            margin: 0;
-        }
+header {
+    width: 320px;
+    height: 46px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    // position: fixed;
+    p {
+        margin: 0;
     }
-    
-    .MTH-logo {
-        width: 40px;
-        height: 40px;
+}
+
+.MTH-logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+#primary-menu {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    background: white;
+    width: 320px;
+    text-align: center;
+    height: 100vh;
+    a {
+        color: #1a9481;
     }
-    
-    #primary-menu {
-        display: flex;
-        flex-flow: column;
-        position: absolute;
-        background: blue;
-        // width: 100%;
-        height: 100%;
-        // margin-top: 50px;
+    // margin-top: 50px;
+}
+
+.search-and-patient-portal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #003d5c, #1a9481);
+    height: 45px;
+    width: 320px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.patient-portal {
+    display: flex;
+    .external-link-icon {
+        width: 21px;
+        height: 18px;
+        padding-left: 4px;
+        padding-top: 1px;
     }
-    
-    .mobile-menu-wrapper {
-        display: flex;
-        flex-flow: column;
-        flex-wrap: wrap;
-        height: 100vh;
-        // width: 150px;
+}
+
+.search {
+    display: flex;
+    .search-icon {
+        height: 16px;
+        width: 20px;
+        padding-right: 5px;
+        padding-top: 1px;
     }
-    
-    .search-form {
-        // margin-top: 70px;
-        // z-index: 3;
+    p {
+        margin: 0;
     }
+}
+
+.phone-and-number {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    img {
+        padding-right: 8px;
+    }
+}
+
+.mobile-menu-wrapper {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    position: relative;
+    // width: 150px;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 50px;
+}
+
+.search-form {
+    // margin-top: 70px;
+    // z-index: 3;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    height: auto;
+    color: #1a9481;
+}
