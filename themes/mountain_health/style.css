@@ -913,11 +913,13 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.site-main p, .site-main li {
+.site-main p,
+.site-main li {
   font-size: 15px;
   font-family: 'open_sans'; }
 
-.site-main h2, .site-main h3 {
+.site-main h2,
+.site-main h3 {
   font-family: 'oswald';
   font-weight: normal; }
 
@@ -1145,6 +1147,7 @@ body {
 
 .front-page-slider {
   height: 300px;
+  width: 320px;
   text-align: center;
   background: url(../../MTH-Assets/photos/carousal-01.png);
   background-size: cover;
@@ -1157,12 +1160,17 @@ body {
     margin-right: auto;
     line-height: 1.27;
     margin-bottom: 60px; }
+  .front-page-slider h2 {
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 60px; }
 
-.front-page-slider h2 {
-  font-size: 17px;
-  color: #fff;
-  text-transform: uppercase;
-  padding-top: 60px; }
+.carousel {
+  width: 100%; }
+
+.flickity-prev-next-button:disabled {
+  display: none; }
 
 .did-you-know h2 {
   color: #677257;
