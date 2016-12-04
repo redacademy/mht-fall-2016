@@ -16,6 +16,8 @@ h2,h3{
 }
 .home{
     max-width: 320px;
+    background: url(../../MTH-Assets/photos/main-bg.png);
+    background-position: center center;
 }
 // css for hero banner section
 .hero-banner{
@@ -345,6 +347,7 @@ h2,h3{
     .did-you-know-bg{
         width:280px;
         box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+        background-color: white;
     p{
         text-align: center;
         margin-left: auto;

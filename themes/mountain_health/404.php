@@ -13,18 +13,17 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 		<section class="secondary-hero error-hero">
 			<h1>404</h1>
-			<p>We're sorry!<br>
-			Looks like we sent you to the wrong place.</p>
+			<p>We're sorry! Looks like we sent you to the wrong place.</p>
 		</section>
 		<section class="not-found-content">
 			<div class="not-found-div">
-				<img src="#" alt="apple">
+				<div class="not-found-apple"></div>
 				<p>Would a snack help?</p>
 				<a href="#" class="primarry-button not-found-button">View Recipies</a>
 			</div>
 			<div class="not-found-div">
-				<img src="#" alt="text-bubble" class="text-bubble">
-				<p>Send us a message here.</p>
+				<div class="text-bubble"></div>
+				<p>Can we answer a question?</p>
 				<a href="#" class="primarry-button not-found-button">Contact Us</a>
 			</div>
 		</section>
