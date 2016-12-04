@@ -1,5 +1,63 @@
+.hero-article-image img{
+  width:100%;
+  height: 100%;
 
+}
+.single-article-content {
+width: 500px;
+margin: 0 auto;
+@media (min-width: 600px) {
+  width: 700px;
+}
+}
+.entry-content-article{
 
+  font-family: 'pen_sans';
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: left;
+  color: #003d5c;
+}
+.entry-title-article{
+font-family: 'oswald';
+line-height: 1.24;
+text-align: center;
+color: #6a7059;
+display: block;
+width: 100%;
+}
+header.entry-header-article {
+  flex-direction: column;
+}
+.entry-meta-article{
+font-family: 'open_oans';
+line-height: 2;
+text-align: center;
+font-size: 20px;
+color: #003d5c;
+}
 
+// styling the tow mountains
+.mountain2 {
+width: 100%;
+position: relative;
+left: 0;
+bottom: 0;
 
+}
+.mountain1 {
+width: 100%;
+position: absolute;
+left: 0;
+bottom: 0;
+
+}
+.mountains {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  }
 // @media (min-width: 600px) {
