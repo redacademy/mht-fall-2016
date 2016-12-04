@@ -869,7 +869,7 @@ object {
 .list-span {
   font-size: 15px; }
 
-.home {
+body {
   max-width: 320px;
   background: url(../../MTH-Assets/photos/main-bg.png);
   background-position: center center; }
@@ -1484,7 +1484,7 @@ object {
   .book-appointment-hero h1 {
     color: white;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: normal; }
 
 .contact-us {
@@ -1873,7 +1873,7 @@ input::-webkit-input-placeholder {
     line-height: 1.2; }
 
 .error-hero h1 {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: normal;
   margin: 0px;
   padding-top: 25px; }
@@ -1909,7 +1909,7 @@ input::-webkit-input-placeholder {
 
 .not-found-content p {
   color: #003A5F;
-  font-size: 14px; }
+  font-size: 15px; }
 
 .not-found-button {
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);

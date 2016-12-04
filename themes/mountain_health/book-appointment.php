@@ -30,6 +30,7 @@ get_header(); ?>
                 <h3>Email address</h3>
                 <form>
                     <input type="text" name="email" placeholder="Example@example.com">
+                    <button class="book-appointments-submit-button" type="submit">Go to SmartND</button>
                 </form>
                 
             </div>
