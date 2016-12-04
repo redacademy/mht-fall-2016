@@ -12,7 +12,7 @@ margin: 0 auto;
 }
 .entry-content-article{
 
-  font-family: 'pen_sans';
+  font-family: 'open_sans';
   font-size: 15px;
   line-height: 1.2;
   text-align: left;
@@ -60,4 +60,17 @@ bottom: 0;
   left: 0;
   bottom: 0;
   }
-// @media (min-width: 600px) {
+
+  .article-nav-links{
+    color: #1a9481;
+    font-family: 'open_sans';
+    display: flex;
+    p{
+      margin: 0;
+      font-weight: bold;
+    }
+    a {
+     color: #1a9481;
+    font-size: small;
+}
+  }

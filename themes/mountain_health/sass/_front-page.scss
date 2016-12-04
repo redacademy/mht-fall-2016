@@ -15,7 +15,7 @@ h2,h3{
     font-size: 15px;
 }
 body{
-    max-width: 320px;
+    // max-width: 320px;
     background: url(../../MTH-Assets/photos/main-bg.png);
     background-position: center center;
 }
@@ -58,7 +58,7 @@ body{
     .what-is-hero{
         font-size: 17px;
         text-align: center;
-    } 
+    }
 }
 .hero-banner{
     .keep-scrolling{
@@ -80,7 +80,7 @@ body{
         font-family: 'open_sans';
     }
 }
-    
+
     .underline-strip {
         width: 160px;
         height: 4px;
@@ -88,7 +88,7 @@ body{
         border-radius: 2px;
         margin: 0 auto;
     }
-    
+
 .front-button{
         background: linear-gradient(90deg, #003557 0%, #009B84 100%);
         padding-top:13px;

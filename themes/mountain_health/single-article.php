@@ -5,7 +5,8 @@
  * @package RED_Starter_Theme
  */
 
-get_header(); ?>
+get_header();
+?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -15,6 +16,14 @@ get_header(); ?>
 					<?php the_post_thumbnail( 'original' ); ?>
 				<?php endif; ?>
 			</section>
+
+			<section class="article-nav-links">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+				<a href="<?php echo get_page_link(10); ?>">Resources &gt; </a>
+				<a href="<?php echo get_post_type_archive_link( 'article' ); ?>">Articles and research &gt; </a>
+				<?php the_title( '<p class="">', '</p>' ); ?>
+			</section>
+
 		<section class="single-article-content container-text">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content', 'single-article' ); ?>
@@ -28,5 +37,6 @@ get_header(); ?>
 
 	<div class="mountains">
 		<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
-		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo"></div>
+		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
+	</div>
 <?php get_footer(); ?>

@@ -85,13 +85,13 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
 function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 
-	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'); 
+	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 	wp_enqueue_script( 'jquery');
-	wp_enqueue_script('main', get_template_directory_uri() . '/build/js/main.min.js', array( 'jquery' ), 
+	wp_enqueue_script('main', get_template_directory_uri() . '/build/js/main.min.js', array( 'jquery' ),
 	'1.0', true);
-	wp_enqueue_script('css-pop', get_template_directory_uri() . '/build/js/css-pop.min.js', array( 'jquery' ), 
+	wp_enqueue_script('css-pop', get_template_directory_uri() . '/build/js/css-pop.min.js', array( 'jquery' ),
 	'1.0', true);
-	
+
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -123,7 +123,7 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
    * This first part of our function is a fallback
    * for custom pagination inside a regular loop that
    * uses the global $paged and global $wp_query variables.
-   * 
+   *
    * It's good because we can now override default pagination
    * in our theme, and use this function in default quries
    * and custom queries.
@@ -140,9 +140,9 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
     }
   }
 
-  /** 
+  /**
    * We construct the pagination arguments to enter into our paginate_links
-   * function. 
+   * function.
    */
   $pagination_args = array(
     'base'            => get_pagenum_link(1) . '%_%',
@@ -170,3 +170,10 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
   }
 
 }
+
+// Control Excerpt Length Using Filters
+
+function custom_excerpt_length( $length ) {
+	return 24;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
