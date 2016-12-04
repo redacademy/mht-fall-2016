@@ -27,7 +27,14 @@
 					<a href="#" onclick="popup('popUpDiv')"><img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="MTH logo"></a>
 					<p>1-562-867-5309</p>
 				</div>
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
+					<div id="hamburger" class="hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></div>
+					<div class="x-logo-none">
+						<img class="x-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/x-logo-1.png" alt="x logo">
+						<img class="x-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/x-logo-2.png" alt="x logo">
+					</div>
+					
+					</button>
 
 				<div class="site-branding">
 					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
