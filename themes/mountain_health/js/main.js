@@ -12,11 +12,13 @@
         $('.hamburger').toggle();
         $('.x-logo').toggle();
     });
+    //hides everything when search is clicked and brings up search field
     $('.search-field-mobile').hide();
     $(".search").on('click', function() {
         $('header, #primary, .mobile-menu, footer').hide();
         $('.search-field-mobile').show();
     });
+    // cancel button for search field
     $('.search-cancel').on('click', function() {
         $('.search-field-mobile').hide();
         $('header, #primary, .mobile-menu, footer').show();
