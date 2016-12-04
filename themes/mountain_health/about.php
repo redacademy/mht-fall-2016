@@ -22,10 +22,12 @@ get_header(); ?>
             <div class ="about-amanda">
                 <img class=".amanda-bg" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/amanda-bg.png" alt="Dr. Amanda Chay">
                 <div class="about-amanda-text">
-                    <span class="i-in-about">I </span> 
+                    <div></div> 
                     <p>
-                        am a Naturopathic Physician and owner of Mountain 
-                        Health. Prior to this, I completed pre-medical studies 
+                        <span class="i-in-about">I </span>
+                        <p class="first-sentence">am a Naturopathic Physician and owner of Mountain 
+                        Health. Prior to this, I</p> 
+                            <p>completed pre-medical studies 
                         and a degree in Psychology at the University of Regina 
                         in Saskatchewan.
                         Combining my love of medicine, psychology and nature I 
