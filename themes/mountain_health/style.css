@@ -500,18 +500,23 @@ ul {
   margin: 0; }
 
 header {
+  width: 320px;
+  height: 46px;
   z-index: 1;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-top: 5px; }
   header p {
     margin: 0; }
-  header img {
-    width: 40px;
-    height: 40px; }
 
 .MTH-logo {
   width: 40px;
-  height: 40px; }
+  height: 40px;
+  margin-left: 20px; }
 
 #primary-menu {
   display: -ms-flexbox;
@@ -519,16 +524,74 @@ header {
   -ms-flex-flow: column;
       flex-flow: column;
   position: absolute;
-  background: blue;
-  width: 150px; }
+  background: white;
+  width: 320px;
+  text-align: center;
+  height: 100vh; }
+  #primary-menu a {
+    color: #1a9481; }
 
-.mobile-menu {
+.search-and-patient-portal {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  background: linear-gradient(to right, #003d5c, #1a9481);
+  height: 45px;
+  width: 320px;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 20px; }
+
+.patient-portal {
+  display: -ms-flexbox;
+  display: flex; }
+  .patient-portal .external-link-icon {
+    width: 21px;
+    height: 18px;
+    padding-left: 4px;
+    padding-top: 1px; }
+
+.search {
+  display: -ms-flexbox;
+  display: flex; }
+  .search .search-icon {
+    height: 16px;
+    width: 20px;
+    padding-right: 5px;
+    padding-top: 1px; }
+  .search p {
+    margin: 0; }
+
+.phone-and-number {
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px; }
+  .phone-and-number img {
+    padding-right: 8px; }
+
+.mobile-menu-wrapper {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column;
       flex-flow: column;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  height: 100vh;
+  position: relative; }
+
+.mobile-menu {
+  position: absolute;
+  top: 50px; }
+
+.menu-toggle {
+  background: none;
+  border: none;
+  height: auto;
+  color: #1a9481; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -1670,7 +1733,7 @@ p.line-around {
   *background: none;
   position: absolute;
   z-index: 2;
-  top: 0px;
+  top: 0;
   left: 0px;
   width: 100%; }
 
@@ -1680,7 +1743,8 @@ p.line-around {
   width: 375px;
   height: 200px;
   border: 5px solid #000;
-  z-index: 3; }
+  z-index: 3;
+  top: 45px; }
 
 #popUpDiv a {
   position: relative;
