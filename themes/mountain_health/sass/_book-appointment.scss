@@ -1,7 +1,7 @@
 //I AM A... Book Appointment Page 
 
 .page-template-book-appointment{
-    max-width: 375px;
+    max-width: 320px;
 }
 .book-appointment-hero{
     height: 123px;
@@ -16,5 +16,91 @@
         text-transform: uppercase;
         font-size: $medium-font;
         font-weight: normal;
+    }
+}
+
+.book-appointment-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    h2{
+        color:$header-color;
+        font-size: $medium-font;
+        text-transform: uppercase;
+    }
+}
+.book-appointment-content{
+    h3{
+        color:$body-color;
+        font-size: $small-font;
+        font-family: "open_sans";
+        font-weight: bold;
+    }
+}
+
+.book-appointment-content{
+    a{
+        color:#1a9481;
+    }
+}
+.book-appointment-content{
+    a:visited{
+        color:#1a9481;
+    }
+}
+.book-appointment-call{
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        color:#1a9481;
+        font-size: $medium-font;
+        margin:0px;
+    }
+}
+
+.book-appointment-call{
+    .book-appointment-phone-icon{
+        height: 28px;
+        width: 28px;
+        background: url(../../MTH-Assets/icons/phone.png);
+        background-size: cover;
+        background-position: center center;
+        margin-right: 8px;
+    }
+}
+
+.book-appointment-or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .or-line{
+        width: 120px;
+        height: 1px;
+        background-color: #003d5c;
+    }
+}
+.book-appointment-or{
+    h3{
+        text-transform: uppercase;
+        font-weight: normal;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.book-appointment-email{
+    h3{
+        margin-bottom: 9px;
+        text-align: left;
+        margin-left:20px;
+    }
+}
+
+.book-appointment-email{
+    input{
+        width: 280px;
+        height: 42px;
     }
 }
