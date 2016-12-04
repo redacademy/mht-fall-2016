@@ -1,3 +1,4 @@
+
 .main-header {
     header {
         width: 320px;
@@ -106,9 +107,13 @@
     top: 50px;
 }
 
+.search-form {
+    // margin-top: 70px;
+    // z-index: 3;
+}
+
 .menu-toggle {
     background: none;
     border: none;
     height: auto;
     color: #1a9481;
-}
