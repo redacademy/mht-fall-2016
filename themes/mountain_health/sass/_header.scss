@@ -1,7 +1,7 @@
 .main-header {
     header {
         width: 320px;
-        height: 50px;
+        height: 40px;
         z-index: 1;
         display: flex;
         justify-content: space-between;
@@ -17,88 +17,98 @@
             outline: none;
         }
     }
-    .MTH-logo-wrapper {
-        width: 40px;
-        height: 40px;
-        margin-left: 20px;
-    }
-    .x-logo {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-    }
-    #primary-menu {
-        display: flex;
-        flex-flow: column;
-        justify-content: space-around;
-        position: absolute;
-        background: url(../../MTH-Assets/other/organic-bg.png), white;
-        background-size: cover;
-        opacity: .95;
-        width: 320px;
-        text-align: center;
-        height: 100vh;
-        z-index: 1;
-        a {
-            color: #1a9481;
-            font-family: "oswald", "san-serif";
-            text-transform: uppercase;
-            font-size: $medium-font;
-        }
-        // margin-top: 50px;
-    }
-    .search-and-patient-portal {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: linear-gradient(to right, #003d5c, #1a9481);
-        height: 45px;
-        width: 320px;
-        color: white;
-        text-transform: uppercase;
-        padding: 0 20px;
-    }
-    .patient-portal {
-        display: flex;
-        a {
-            font-family: "oswald", "san-serif";
-        }
-        .external-link-icon {
-            width: 21px;
-            height: 18px;
-            padding-left: 4px;
-            padding-top: 1px;
-        }
-    }
-    .phone-and-number {
-        display: flex;
-        padding-left: 30px;
-        padding-right: 30px;
-        p {
-            font-family: "open_sans", "san-serif";
-            color: $body-color;
-        }
-        img {
-            padding-right: 8px;
-            padding-top: 2px;
-        }
-    }
-    .mobile-menu-wrapper {
-        display: flex;
-        flex-flow: column;
-        flex-wrap: wrap;
-        height: 100vh;
-        position: relative;
-        // width: 150px;
-    }
-    .mobile-menu {
-        position: absolute;
-        top: 50px;
-    }
-    .menu-toggle {
-        background: none;
-        border: none;
-        height: auto;
+}
+
+.MTH-logo-wrapper {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+.x-logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#primary-menu {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    position: absolute;
+    background: url(../../MTH-Assets/other/organic-bg.png), white;
+    background-size: cover;
+    opacity: .95;
+    width: 320px;
+    text-align: center;
+    height: 100vh;
+    z-index: 1;
+    a {
         color: #1a9481;
+        font-family: "oswald", "san-serif";
+        text-transform: uppercase;
+        font-size: $medium-font;
     }
+    // margin-top: 50px;
+}
+
+.search-and-patient-portal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #003d5c, #1a9481);
+    height: 45px;
+    width: 320px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.patient-portal {
+    display: flex;
+    a {
+        font-family: "oswald", "san-serif";
+    }
+    .external-link-icon {
+        width: 21px;
+        height: 18px;
+        padding-left: 4px;
+        padding-top: 1px;
+    }
+}
+
+.phone-and-number {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    p {
+        font-family: "open_sans", "san-serif";
+        color: $body-color;
+    }
+    img {
+        padding-right: 8px;
+        padding-top: 2px;
+    }
+}
+
+.mobile-menu-wrapper {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    position: relative;
+    // width: 150px;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 50px;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    height: auto;
+    color: #1a9481;
 }

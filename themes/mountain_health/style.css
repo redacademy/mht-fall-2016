@@ -503,9 +503,9 @@ body {
   background: url(../../MTH-Assets/other/organic-bg.png), white;
   background-size: cover; }
 
-header {
+.main-header header {
   width: 320px;
-  height: 50px;
+  height: 40px;
   z-index: 1;
   display: -ms-flexbox;
   display: flex;
@@ -516,15 +516,16 @@ header {
   padding-top: 5px;
   padding-bottom: 5px;
   background: white; }
-  header p {
+  .main-header header p {
     margin: 0; }
-  header button:focus {
+  .main-header header button:focus {
     outline: none; }
 
 .MTH-logo-wrapper {
   width: 40px;
   height: 40px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  padding-top: 3px; }
 
 .x-logo {
   position: absolute;
