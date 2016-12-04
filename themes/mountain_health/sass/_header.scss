@@ -36,10 +36,11 @@ header {
     position: absolute;
     background: url(../../MTH-Assets/other/organic-bg.png), white;
     background-size: cover;
-    // opacity: .98;
+    opacity: .95;
     width: 320px;
     text-align: center;
     height: 100vh;
+    z-index: 1;
     a {
         color: #1a9481;
         font-family: "oswald", "san-serif";

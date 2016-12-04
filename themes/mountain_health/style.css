@@ -499,6 +499,10 @@ ul {
   padding: 0;
   margin: 0; }
 
+body {
+  background: url(../../MTH-Assets/other/organic-bg.png), white;
+  background-size: cover; }
+
 header {
   width: 320px;
   height: 50px;
@@ -537,9 +541,11 @@ header {
   position: absolute;
   background: url(../../MTH-Assets/other/organic-bg.png), white;
   background-size: cover;
+  opacity: .95;
   width: 320px;
   text-align: center;
-  height: 100vh; }
+  height: 100vh;
+  z-index: 1; }
   #primary-menu a {
     color: #1a9481;
     font-family: "oswald", "san-serif";
