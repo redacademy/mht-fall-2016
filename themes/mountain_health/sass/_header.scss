@@ -6,6 +6,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 5px;
+    padding-bottom: 5px;
     // position: fixed;
     p {
         margin: 0;
@@ -21,13 +22,19 @@ header {
 #primary-menu {
     display: flex;
     flex-flow: column;
+    justify-content: space-around;
     position: absolute;
-    background: white;
+    background: url(../../MTH-Assets/other/organic-bg.png), white;
+    background-size: cover;
+    opacity: .9;
     width: 320px;
     text-align: center;
     height: 100vh;
     a {
         color: #1a9481;
+        font-family: "oswald", "san-serif";
+        text-transform: uppercase;
+        font-size: $medium-font;
     }
     // margin-top: 50px;
 }
@@ -46,6 +53,9 @@ header {
 
 .patient-portal {
     display: flex;
+    a {
+        font-family: "oswald", "san-serif";
+    }
     .external-link-icon {
         width: 21px;
         height: 18px;
@@ -64,6 +74,7 @@ header {
     }
     p {
         margin: 0;
+        font-family: "oswald", "san-serif";
     }
 }
 
@@ -71,8 +82,13 @@ header {
     display: flex;
     padding-left: 30px;
     padding-right: 30px;
+    p {
+        font-family: "open_sans", "san-serif";
+        color: $body-color;
+    }
     img {
         padding-right: 8px;
+        padding-top: 2px;
     }
 }
 
