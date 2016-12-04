@@ -521,18 +521,18 @@ body {
   .main-header header button:focus {
     outline: none; }
 
-.main-header .MTH-logo-wrapper {
+.MTH-logo-wrapper {
   width: 40px;
   height: 40px;
   margin-left: 20px;
   padding-top: 3px; }
 
-.main-header .x-logo {
+.x-logo {
   position: absolute;
   top: 15px;
   right: 15px; }
 
-.main-header #primary-menu {
+#primary-menu {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column;
@@ -547,13 +547,13 @@ body {
   text-align: center;
   height: 100vh;
   z-index: 1; }
-  .main-header #primary-menu a {
+  #primary-menu a {
     color: #1a9481;
     font-family: "oswald", "san-serif";
     text-transform: uppercase;
     font-size: 17px; }
 
-.main-header .search-and-patient-portal {
+.search-and-patient-portal {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -567,30 +567,30 @@ body {
   text-transform: uppercase;
   padding: 0 20px; }
 
-.main-header .patient-portal {
+.patient-portal {
   display: -ms-flexbox;
   display: flex; }
-  .main-header .patient-portal a {
+  .patient-portal a {
     font-family: "oswald", "san-serif"; }
-  .main-header .patient-portal .external-link-icon {
+  .patient-portal .external-link-icon {
     width: 21px;
     height: 18px;
     padding-left: 4px;
     padding-top: 1px; }
 
-.main-header .phone-and-number {
+.phone-and-number {
   display: -ms-flexbox;
   display: flex;
   padding-left: 30px;
   padding-right: 30px; }
-  .main-header .phone-and-number p {
+  .phone-and-number p {
     font-family: "open_sans", "san-serif";
     color: #003A5F; }
-  .main-header .phone-and-number img {
+  .phone-and-number img {
     padding-right: 8px;
     padding-top: 2px; }
 
-.main-header .mobile-menu-wrapper {
+.mobile-menu-wrapper {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column;
@@ -600,11 +600,11 @@ body {
   height: 100vh;
   position: relative; }
 
-.main-header .mobile-menu {
+.mobile-menu {
   position: absolute;
   top: 50px; }
 
-.main-header .menu-toggle {
+.menu-toggle {
   background: none;
   border: none;
   height: auto;
