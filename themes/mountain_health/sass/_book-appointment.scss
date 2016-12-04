@@ -3,73 +3,18 @@
 .page-template-book-appointment{
     max-width: 375px;
 }
-
-.appointment-hero-links{
+.book-appointment-hero{
+    height: 123px;
+    background: url(../../MTH-Assets/photos/book-appointment-hero.png);
+    background-size: cover;
+    background-position: center center;
     display: flex;
-    justify-content: space-between;
-}
-
-// Book Appointment Page SmartMD Section 
-
-.smartnd{
-    h2{
-        text-align: center;
+    justify-content: center;
+    align-items:center;
+    h1{
+        color:white;
         text-transform: uppercase;
+        font-size: $medium-font;
         font-weight: normal;
-        font-family: 'Oswald';
-    }
-}
-
-.smartnd{
-    .smartnd-span{
-        color:rgba(126, 211, 33, 1.0);
-    }
-}
-
-.smartnd{
-    .smartnd-content{
-        display: flex;
-        justify-content: space-between;
-        img{
-            width: 50px;
-            height: 50px;
-            background-color: black;
-            transform:translateY(25px);
-        }
-    }
-}
-
-.smartnd-content{
-    p{
-        color: $body-color;
-        text-align: center;
-        font-size: 12px;
-        margin:0px;
-        height: 51px;
-    }
-}
-
-.smartnd-content{
-    .smartnd-items{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        div{
-            border:1px solid rgba(0, 143, 127, 1.0);
-            height: 75px;
-            width: 80px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
-    }
-}
-
-.smartnd{
-    .uses-smartmd{
-        text-align: center;
-        font-size: 20px;
-        color: #4A4A4A;
-        font-family: 'Oswald';
     }
 }

@@ -1477,62 +1477,22 @@ object {
 .page-template-book-appointment {
   max-width: 375px; }
 
-.appointment-hero-links {
+.book-appointment-hero {
+  height: 123px;
+  background: url(../../MTH-Assets/photos/book-appointment-hero.png);
+  background-size: cover;
+  background-position: center center;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-
-.smartnd h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-family: 'Oswald'; }
-
-.smartnd .smartnd-span {
-  color: #7ed321; }
-
-.smartnd .smartnd-content {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-  .smartnd .smartnd-content img {
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    transform: translateY(25px); }
-
-.smartnd-content p {
-  color: #003A5F;
-  text-align: center;
-  font-size: 12px;
-  margin: 0px;
-  height: 51px; }
-
-.smartnd-content .smartnd-items {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
   -ms-flex-align: center;
       align-items: center; }
-  .smartnd-content .smartnd-items div {
-    border: 1px solid #008f7f;
-    height: 75px;
-    width: 80px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: end;
-        justify-content: flex-end; }
-
-.smartnd .uses-smartmd {
-  text-align: center;
-  font-size: 20px;
-  color: #4A4A4A;
-  font-family: 'Oswald'; }
+  .book-appointment-hero h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal; }
 
 .contact-us {
   text-align: center;
