@@ -2118,6 +2118,29 @@ header.entry-header-article {
   border-radius: 20000px;
   color: white; }
 
+.archive-recipe-hero-image {
+  color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: url(../../MTH-Assets/photos/visual-hero-banner-recipe@3x.png) no-repeat top;
+  background-size: cover;
+  height: 40vh; }
+  .archive-recipe-hero-image h1 {
+    text-transform: uppercase; }
+  .archive-recipe-hero-image p {
+    text-align: center;
+    font-family: 'open_sans';
+    font-size: 15px; }
+    @media (min-width: 600px) {
+      .archive-recipe-hero-image p {
+        max-width: 800px; } }
+
 .archive-article-hero-image {
   color: #ffffff;
   display: -ms-flexbox;
@@ -2186,6 +2209,10 @@ header.entry-header-article {
   .article-grid-content h2 {
     text-transform: uppercase;
     font-size: 25px; }
+    .article-grid-content h2 a {
+      color: white; }
+    .article-grid-content h2:visited {
+      color: white; }
 
 .article-archive-title {
   text-align: center; }
