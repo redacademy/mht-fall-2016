@@ -22,7 +22,7 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 			<div class="search-field-mobile">
 				<?php get_search_form(); ?>
-				<p>Cancel</p>
+				<p class="search-cancel">Cancel</p>
 			</div>
 
 			<header id="masthead" class="site-header" role="banner">

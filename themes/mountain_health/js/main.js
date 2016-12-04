@@ -16,7 +16,10 @@
     $(".search").on('click', function() {
         $('header, #primary, .mobile-menu, footer').hide();
         $('.search-field-mobile').show();
-
+    });
+    $('.search-cancel').on('click', function() {
+        $('.search-field-mobile').hide();
+        $('header, #primary, .mobile-menu, footer').show();
     });
     // news and events button to show/hide news/events
     $(".events-section").on('click', function() {

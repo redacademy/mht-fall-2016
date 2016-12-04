@@ -577,23 +577,6 @@ header {
     padding-left: 4px;
     padding-top: 1px; }
 
-.search {
-  display: -ms-flexbox;
-  display: flex; }
-  .search .search-icon {
-    height: 16px;
-    width: 20px;
-    padding-right: 5px;
-    padding-top: 1px; }
-  .search p {
-    margin: 0;
-    font-family: "oswald", "san-serif"; }
-  .search:hover {
-    cursor: pointer; }
-
-.header-hide {
-  display: none; }
-
 .phone-and-number {
   display: -ms-flexbox;
   display: flex;
@@ -882,13 +865,48 @@ object {
   -ms-flex-align: center;
       align-items: center;
   box-shadow: 0px 10px 5px #888888;
-  padding: 0 25px; }
+  padding-right: 25px;
+  padding-top: 5px;
+  background: white; }
+  .search-field-mobile p {
+    font-family: open_sans, 'sans-serif';
+    color: #003A5F; }
   .search-field-mobile fieldset {
     border: none; }
   .search-field-mobile .search-field {
-    border: none; }
+    border: none;
+    color: #1a9481; }
+    .search-field-mobile .search-field:focus {
+      color: #1a9481; }
+  .search-field-mobile input {
+    font-family: 'oswald', 'sans-serif';
+    font-size: 15px;
+    text-transform: uppercase; }
+    .search-field-mobile input:focus {
+      outline: none; }
+    .search-field-mobile input::-webkit-input-placeholder {
+      font-family: 'oswald', 'sans-serif';
+      font-size: 17px;
+      color: grey; }
   .search-field-mobile .fa {
     display: none; }
+
+.search {
+  display: -ms-flexbox;
+  display: flex; }
+  .search .search-icon {
+    height: 16px;
+    width: 20px;
+    padding-right: 5px;
+    padding-top: 1px; }
+  .search p {
+    margin: 0;
+    font-family: "oswald", "san-serif"; }
+  .search:hover {
+    cursor: pointer; }
+
+.header-hide {
+  display: none; }
 
 /*--------------------------------------------------------------
 # Page Templates

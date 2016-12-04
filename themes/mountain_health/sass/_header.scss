@@ -75,27 +75,6 @@ header {
     }
 }
 
-.search {
-    display: flex;
-    .search-icon {
-        height: 16px;
-        width: 20px;
-        padding-right: 5px;
-        padding-top: 1px;
-    }
-    p {
-        margin: 0;
-        font-family: "oswald", "san-serif";
-    }
-    &:hover {
-        cursor: pointer;
-    }
-}
-
-.header-hide {
-    display: none;
-}
-
 .phone-and-number {
     display: flex;
     padding-left: 30px;
@@ -122,11 +101,6 @@ header {
 .mobile-menu {
     position: absolute;
     top: 50px;
-}
-
-.search-form {
-    // margin-top: 70px;
-    // z-index: 3;
 }
 
 .menu-toggle {
