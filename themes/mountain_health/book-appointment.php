@@ -23,18 +23,21 @@ get_header(); ?>
                 <div class="or-line"></div>
                 <h3>Or</h3>
                 <div class="or-line"></div>
+            </div>
                 <h3>Use SmartND</h3>
                 <p>Create your free account</p>
-            </div>
             <div class="book-appointment-email">
                 <h3>Email address</h3>
                 <form>
                     <input type="text" name="email" placeholder="Example@example.com">
                     <button class="book-appointments-submit-button" type="submit">Go to SmartND</button>
                 </form>
-                
             </div>
-
+            <div class="already-smartnd">
+                <p>Already have a SmartND account? <a href="#">Click here</a>to go to your Patient Portal.</p>
+                <p>Stay in control of your healthcare with</p>
+                <p>SmartND</p>
+            </div>
         </section>
 
 		</main><!-- #main -->
