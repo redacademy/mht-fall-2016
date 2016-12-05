@@ -1524,6 +1524,39 @@ body {
     margin: 0;
     margin-bottom: 20px; }
 
+.appointments-hero-image {
+  color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: url(../../MTH-Assets/photos/visual-hero-banner@3x-appointment.png) no-repeat top;
+  background-size: cover;
+  height: 40vh; }
+  .appointments-hero-image h1 {
+    text-transform: uppercase; }
+  .appointments-hero-image p {
+    text-align: center;
+    font-family: 'open_sans';
+    font-size: 15px; }
+    @media (min-width: 600px) {
+      .appointments-hero-image p {
+        max-width: 800px; } }
+
+.text-stroke-box {
+  position: absolute; }
+
+.stroke-box, .stroke-box2, .stroke-box3, .stroke-box4, .stroke-box5 {
+  position: relative; }
+
+.appointments-wrapper {
+  width: 450px;
+  margin: 0 auto; }
+
 .book-appointment-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/book-appointment-hero.png);
@@ -1897,7 +1930,9 @@ body {
   -ms-flex-align: center;
       align-items: center;
   width: 280px;
-  border: 2px solid lawngreen;
+  background: url(../../MTH-Assets/photos/stroke.png);
+  background-size: cover;
+  background-position: center center;
   height: 252px;
   margin-right: auto;
   margin-left: auto;
@@ -1907,7 +1942,7 @@ body {
     text-align: center;
     font-size: 14px;
     color: #003A5F;
-    line-height: 18px; }
+    line-height: 1.2; }
 
 .news-events h2, .news-events p, .articles-research h2, .articles-research p, .recipes-nutrition h2, .recipes-nutrition p {
   margin-top: 0;
@@ -1922,11 +1957,11 @@ body {
 
 .news-events a, .articles-research a, .recipes-nutrition a {
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 12px;
-  padding-right: 12px;
-  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-radius: 2000px;
   color: white;
   position: absolute;
   bottom: -23px;
