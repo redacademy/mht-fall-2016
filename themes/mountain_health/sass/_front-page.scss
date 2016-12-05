@@ -46,7 +46,8 @@
     margin-left:auto;
     margin-right: auto;
     @include mobile-break-width{
-        max-width: 1200px;
+        max-width: 1764px;
+        height: 770px;
         background:url(../../MTH-Assets/photos/front-page-desktop-hero.png);
         background-size: cover;
         background-position:center center;
@@ -62,6 +63,12 @@
         font-family: 'Oswald';
         text-transform: uppercase;
         text-align: center;
+        @include mobile-break-width{
+            font-size: 72px;
+            letter-spacing: normal;
+            padding-top: 375px;
+            margin-bottom: 40px;
+        }
     }
 }
 
@@ -76,6 +83,12 @@
         width: 273px;
         margin-left: auto;
         margin-right: auto;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+            width: 1050px;
+            line-height: 1.22;
+            margin-bottom: 125px;
+        }
     }
 }
 
@@ -95,6 +108,10 @@
         background-color: #1a9481;
         margin: 0 auto;
         border-radius: 20000px;
+        @include mobile-break-width{
+            width: 50px;
+            height: 50px;
+        }
     }
 }
 
