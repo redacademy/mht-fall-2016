@@ -19,6 +19,7 @@
 }
 
 .parallax-scroll {
+    top: 40px;
     height: 300%;
     width: 320px;
     margin: 0 auto;
@@ -26,7 +27,6 @@
     background-size: 320px 480px;
     z-index: -1;
     position: fixed;
-    top: 0;
 }
 
 .hero-banner {
@@ -41,16 +41,15 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
-    @include mobile-break-width{
+    @include mobile-break-width {
         max-width: 1764px;
         height: 770px;
-        background:url(../../MTH-Assets/photos/front-page-desktop-hero.png);
+        background: url(../../MTH-Assets/photos/front-page-desktop-hero.png);
         background-size: cover;
-        background-position:center center;
+        background-position: center center;
     }
->>>>>>> 776917a869b561aaa5c4339ec5413db12e275a17
     .hero-header {
         font-size: 28px;
         text-align: right;
@@ -61,7 +60,7 @@
         font-family: 'Oswald';
         text-transform: uppercase;
         text-align: center;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: 72px;
             letter-spacing: normal;
             padding-top: 375px;
@@ -81,7 +80,7 @@
         width: 273px;
         margin-left: auto;
         margin-right: auto;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $medium-font-dt;
             width: 1050px;
             line-height: 1.22;
@@ -106,7 +105,7 @@
         background-color: #1a9481;
         margin: 0 auto;
         border-radius: 20000px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             width: 50px;
             height: 50px;
         }

@@ -16,7 +16,7 @@
     // Parallax scroll function
     function parallax() {
         var scrolled = $(window).scrollTop();
-        $('.parallax-scroll, .parallax-scroll-about').css('top', -(scrolled * 0.75) + 'px');
+        $('.parallax-scroll, .parallax-scroll-about').css('top', -(scrolled * 0.85) + 'px');
     };
     $(window).scroll(function(e) {
         parallax();
