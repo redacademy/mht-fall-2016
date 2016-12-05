@@ -26,7 +26,13 @@
     color: white;
     margin-bottom: 30px;
     margin-left:auto;
-    margin-right: auto;x
+    margin-right: auto;
+    @include mobile-break-width{
+        max-width: 1200px;
+        background:url(../../MTH-Assets/photos/front-page-desktop-hero.png);
+        background-size: cover;
+        background-position:center center;
+    }
     .hero-header {
         font-size: 28px;
         text-align: right;
