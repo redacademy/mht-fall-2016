@@ -12,6 +12,15 @@
         $('.hamburger').toggle();
         $('.x-logo').toggle();
     });
+
+    // Parallax scroll function
+    function parallax() {
+        var scrolled = $(window).scrollTop();
+        $('.parallax-scroll, .parallax-scroll-about').css('top', -(scrolled * 0.75) + 'px');
+    };
+    $(window).scroll(function(e) {
+        parallax();
+    });
     //hides everything when search is clicked and brings up search field
     $('.search-field-mobile').hide();
     $(".search").on('click', function() {
@@ -66,7 +75,5 @@
       $(this).next('.labtesting-single-wrapper-active').stop().show();
     });
 
+
 })(jQuery);
-
-
-// e(this).parent().addClass("active").siblings().removeClass("active")

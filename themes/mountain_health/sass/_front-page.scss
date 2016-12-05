@@ -18,26 +18,55 @@
     font-size: 15px;
 }
 
+.parallax-scroll {
+    height: 300%;
+    width: 320px;
+    margin: 0 auto;
+    background: url(../../MTH-Assets/photos/mobile-front-hero.png) no-repeat;
+    background-size: 320px 480px;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+
 .hero-banner {
     max-width: 320px;
     height: 480px;
-    background: url(../../MTH-Assets/photos/mobile-front-hero.png);
     background-size: cover;
     color: white;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     margin-left:auto;
-    margin-right: auto;x
+    margin-right: auto;
+    @include mobile-break-width{
+        max-width: 1764px;
+        height: 770px;
+        background:url(../../MTH-Assets/photos/front-page-desktop-hero.png);
+        background-size: cover;
+        background-position:center center;
+    }
+>>>>>>> 776917a869b561aaa5c4339ec5413db12e275a17
     .hero-header {
         font-size: 28px;
         text-align: right;
         margin-bottom: 20px;
         margin-top: 0px;
         line-height: 41px;
-        padding-top: 213px;
         letter-spacing: 3px;
         font-family: 'Oswald';
         text-transform: uppercase;
         text-align: center;
+        @include mobile-break-width{
+            font-size: 72px;
+            letter-spacing: normal;
+            padding-top: 375px;
+            margin-bottom: 40px;
+        }
     }
 }
 
@@ -52,6 +81,12 @@
         width: 273px;
         margin-left: auto;
         margin-right: auto;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+            width: 1050px;
+            line-height: 1.22;
+            margin-bottom: 125px;
+        }
     }
 }
 
@@ -71,6 +106,10 @@
         background-color: #1a9481;
         margin: 0 auto;
         border-radius: 20000px;
+        @include mobile-break-width{
+            width: 50px;
+            height: 50px;
+        }
     }
 }
 
@@ -117,6 +156,7 @@
 
 .booking {
     div {
+        margin-top: 330px;
         width: 280px;
         height: 105px;
         background: url(../../MTH-Assets/photos/naturopathy-visual.png);
