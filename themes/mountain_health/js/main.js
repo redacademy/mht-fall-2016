@@ -23,6 +23,27 @@
         $('.search-field-mobile').hide();
         $('header, #primary, .mobile-menu, footer').show();
     });
+    // hide/show treatment through flickity carousel
+    // $('.treatment-description').hide();
+
+
+    // display/function for X upon contact form completetion;
+    $('.x-icon').hide();
+    $(".wpcf7-submit").on('click', function() {
+        $('.contact-us').addClass('.grey-background');
+        $('.x-icon').show();
+        window.scrollTo(0, 0);
+    });
+
+
+    $(".x-icon").on('click', function() {
+        $('.wpcf7-response-output').hide();
+        $('.x-icon').hide();
+        $('.contact-us').removeClass('.grey-background');
+    });
+
+
+
     // news and events button to show/hide news/events
     $(".events-section").on('click', function() {
         event.preventDefault();
@@ -40,15 +61,15 @@
         $(".events-lists").hide();
     });
     /////////
+    // $(".labtesting-btn-off").on('click' 'button', function(){
+    //   event.preventDefault();
+    //  var x = $(".labtesting-btn-off").text().trim();
+    //  var y = $(".test-wraper").children('h3').val();
+    //  if (x == y){
+    //    (".test-wraper").show();
+    //  } else {
+    //    (".test-wraper").hide();
+    //  }
+    // });
 
-// $(".labtesting-btn-off").on('click' 'button', function(){
-//   event.preventDefault();
-//  console.log($(".labtesting-btn-off").text().trim())
-//  var y = $(".test-wraper").children('h3').val();
-//  if (x == y){
-//    (".test-wraper").show();
-//  } else {
-//    (".test-wraper").hide();
-//  }
-// });
 })(jQuery);

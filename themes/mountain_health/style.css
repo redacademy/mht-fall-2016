@@ -503,6 +503,13 @@ body {
   background: url(../../MTH-Assets/other/organic-bg.png), white;
   background-size: cover; }
 
+.site-main,
+.main-header,
+.content-area,
+.main-navigation {
+  width: 320px;
+  margin: 0 auto; }
+
 .main-header header {
   width: 320px;
   height: 40px;
@@ -1780,6 +1787,15 @@ body {
     -ms-flex-pack: center;
         justify-content: center;
     color: white; }
+  .contact-us .x-icon {
+    position: absolute;
+    top: 196px;
+    left: 53.5%;
+    z-index: 3; }
+  .contact-us h1 {
+    font-weight: normal;
+    font-size: 17px;
+    text-transform: uppercase; }
   .contact-us h2 {
     text-transform: uppercase;
     color: #677257;
@@ -1787,14 +1803,43 @@ body {
   .contact-us p {
     color: #003A5F;
     font-size: 15px; }
-  .contact-us .phone-number {
-    color: #003A5F;
-    font-size: 17px;
-    text-decoration: none; }
+  .contact-us .call,
+  .contact-us .send-us-a-message,
+  .contact-us .open-hours {
+    font-weight: bold; }
+  .contact-us .number-and-icon {
+    display: -ms-flexbox;
+    display: flex;
+    width: 280px;
+    height: 35px;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 0 auto; }
+    .contact-us .number-and-icon .phone-number {
+      color: #003A5F;
+      font-size: 17px;
+      text-decoration: none;
+      padding-left: 8px; }
   .contact-us .wpcf7-form {
     text-align: left;
     width: 280px;
     margin: 0 auto; }
+  .contact-us div.wpcf7-mail-sent-ok {
+    padding: 0.2em 1em;
+    position: absolute;
+    top: 0;
+    position: absolute;
+    top: 86px;
+    width: 320px;
+    height: 125px;
+    margin: 0 auto;
+    left: 0;
+    color: white;
+    text-align: center;
+    background: url(../../MTH-Assets/other/message-sent-bg.png);
+    border: none; }
   .contact-us label {
     font-size: 15px;
     line-height: 19px;
@@ -1814,37 +1859,36 @@ body {
     border: 1px solid #919191;
     border-radius: 4px; }
   .contact-us input[type="submit"] {
-    width: 150px;
+    width: 180px;
     height: 40px;
     border-radius: 20px;
     color: #fff;
-    margin: 0 65px;
+    margin: 0 50px;
     box-shadow: none;
-    border: none; }
+    border: none;
+    padding: 0;
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+    font-family: 'open_sans', 'sans-serif'; }
     .contact-us input[type="submit"] p {
       margin: 0; }
+  .contact-us .hours {
+    color: #677257; }
 
-p.line-around {
-  position: relative;
-  z-index: 1; }
-  p.line-around:before {
-    border-top: 2px solid #003A5F;
-    content: "";
-    margin: 0 auto;
-    /* this centers the line to the full width specified */
-    position: absolute;
-    /* positioning must be absolute here, and relative positioning must be applied to the parent */
-    top: 50%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 95%;
-    z-index: -1; }
-  p.line-around span {
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */
-    background: #fff;
-    padding: 0 15px;
-    text-transform: uppercase; }
+.or {
+  display: -ms-flexbox;
+  display: flex;
+  width: 320px;
+  margin: 0 auto;
+  padding: 19px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  text-transform: uppercase;
+  color: #003d5c; }
+  .or p {
+    padding-top: 5px; }
+
+.grey-background {
+  background: #eee; }
 
 .page-template-resources {
   max-width: 375px;

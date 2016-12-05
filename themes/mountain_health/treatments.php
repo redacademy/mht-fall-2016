@@ -17,14 +17,20 @@ get_header(); ?>
 
             <?php $fields = CFS()->get( 'treatment'); ?>
 
-                <?php   foreach ( $fields as $field ) : ?>
+				<div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "prevNextButtons": false}'>
+					<?php   foreach ( $fields as $field ) : ?>	
+						<div class="carousel-cell">
 									<button> <?php   echo $field['treatment_title']; ?> </button>
-								<?php endforeach; ?>
-									<?php   foreach ( $fields as $field ) : ?>
-            <img src="<?php  echo $field['treatment_img']; ?>"/>
-                <h3> <?php   echo $field['treatment_title']; ?> </h3>
-               <p>  <?php   echo $field['treatment_text']; ?> </p>
+						</div>
+					<?php endforeach; ?>
+				</div>
+			<?php   foreach ( $fields as $field ) : ?>
+			<div class="treatment-description">
+            	<img src="<?php  echo $field['treatment_img']; ?>"/>
+				<h3> <?php   echo $field['treatment_title']; ?> </h3>
+				<p>  <?php   echo $field['treatment_text']; ?> </p>
                 <p>  <?php   echo $field['treatment_price']; ?> </p>
+			</div>
                 <?php endforeach; ?>
 
 			<?php endwhile; // End of the loop. ?>
