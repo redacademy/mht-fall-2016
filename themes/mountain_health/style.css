@@ -942,11 +942,14 @@ object {
 .hero-banner {
   max-width: 320px;
   height: 480px;
-  background: url(../../MTH-Assets/photos/mobile-overlay.png);
+  background: url(../../MTH-Assets/photos/mobile-front-hero.png);
   background-size: cover;
   color: white;
-  margin-bottom: 30px; }
-  .hero-banner .hero-header {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto; }
+  .hero-banner x
+.hero-header {
     font-size: 28px;
     text-align: right;
     margin-bottom: 20px;
@@ -1134,7 +1137,7 @@ object {
   height: 292px;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: url(../../MTH-Assets/photos/Front-Page-BG.png);
+  background: url(../../MTH-Assets/photos/front-page-bg.png);
   background-size: cover;
   background-position: center; }
   .what-is-header p {
@@ -1189,7 +1192,7 @@ object {
   margin-bottom: 0px; }
 
 .did-you-know .did-you-know-pic {
-  background: url(../../MTH-Assets/photos/Amanda-Visual.png);
+  background: url(../../MTH-Assets/photos/amanda-visual.png);
   background-size: cover;
   width: 280px;
   height: 196px; }
@@ -1900,7 +1903,7 @@ object {
 
 .resources-hero {
   height: 123px;
-  background: url(../../MTH-Assets/photos/Resources-Hero.png);
+  background: url(../../MTH-Assets/photos/resources-hero.png);
   background-size: cover;
   background-position: center center;
   text-align: center;
@@ -2704,3 +2707,10 @@ header.entry-header-article {
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4); }
+
+.labtesting-single-wrapper {
+  display: none; }
+
+.labtesting-wrapper {
+  display: -ms-flexbox;
+  display: flex; }
