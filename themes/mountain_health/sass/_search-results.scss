@@ -1,0 +1,54 @@
+.search-results{
+    .page-header{
+        height: 123px;
+        background: url(../../MTH-Assets/photos/search-results-hero.png);
+        background-size: cover;
+        background-position: center center;
+        .page-title{
+            padding-top: 40px;
+            text-align: center;
+            width: 145px;
+            margin-left: auto;
+            margin-right: auto;
+            color:white;
+            font-size: $medium-font;
+            text-transform: uppercase;
+            font-weight: normal;
+    
+        }
+    }
+}
+
+.search-results{
+    article{
+        text-align: center;
+        .entry-header{
+            background-color:black;
+            height: 150px;
+            width: 280px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2{
+            font-size: $small-font;
+            padding-top: 62px;
+            text-transform: uppercase;
+            a{
+                color:white;
+            }
+        }
+    }
+}
+
+.search-results{
+    article{
+        p{
+            width: 270px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            color:$body-color;
+            line-height: 1.2;
+        }
+    }
+}
