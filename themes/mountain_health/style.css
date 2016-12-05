@@ -1263,10 +1263,9 @@ object {
     position: fixed;
 }
 
-.hero-banner {
+.hero-banner .hero-header {
     max-width: 320px;
     height: 480px;
-    background: url(../../MTH-Assets/photos/mobile-front-hero.png);
     background-size: cover;
     color: white;
     margin-bottom: 30px;
@@ -1291,6 +1290,7 @@ object {
         background: url(../../MTH-Assets/photos/front-page-desktop-hero.png);
         background-size: cover;
         background-position: center center;
+        margin-bottom: 80px;
     }
 }
 
@@ -1339,6 +1339,13 @@ object {
 .booking .what-is-hero {
     font-size: 17px;
     text-align: center;
+}
+
+@media (min-width: 480px) {
+    .booking .what-is-hero {
+        font-size: 36px;
+        text-transform: uppercase;
+    }
 }
 
 .hero-banner .keep-scrolling {
@@ -1404,7 +1411,7 @@ object {
 }
 
 .booking div {
-    margin-top: 330px;
+    <<<<<<< HEAD margin-top: 330px;
     width: 280px;
     height: 105px;
     background: url(../../MTH-Assets/photos/naturopathy-visual.png);
@@ -1412,7 +1419,23 @@ object {
     margin-top: 0px;
 }
 
-.benifits {
+=======margin-top: 330px;
+width: 280px;
+height: 105px;
+background: url(../../MTH-Assets/photos/naturopathy-visual.png);
+background-size: cover;
+margin-top: 0px;
+
+}
+@media (min-width: 480px) {
+    .booking div {
+        max-width: 1324px;
+        width: 75%;
+        height: 500px;
+        background: url(../../MTH-Assets/photos/naturopathy-visual-desktop.png);
+    }
+}
+>>>>>>>efe4894dc7c6f787f16eb3702abf472083ff1ad9 .benifits {
     background: url(../../MTH-Assets/photos/icons-bg.png);
     background-size: cover;
     height: 299px;
@@ -1421,7 +1444,6 @@ object {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-
 .benifits h2 {
     color: white;
     text-align: left;
@@ -1434,7 +1456,6 @@ object {
     line-height: 21px;
     text-transform: uppercase;
 }
-
 .benifits-list {
     line-height: 22px;
     color: white;
@@ -1442,7 +1463,6 @@ object {
     font-size: 15px;
     list-style-image: url(../../MTH-Assets/other/leaf.png);
 }
-
 .checkboard {
     max-width: 29px;
     height: 37px;
@@ -1453,7 +1473,6 @@ object {
     margin-left: 35px;
     margin-right: 8px;
 }
-
 .compare-to-traditional h2 {
     font-size: 17px;
     text-align: center;
@@ -1465,7 +1484,6 @@ object {
     margin-top: 29px;
     margin-bottom: 20px;
 }
-
 .compare-to-traditional .compare-content {
     display: -ms-flexbox;
     display: flex;
@@ -1474,32 +1492,27 @@ object {
     -ms-flex-align: center;
     align-items: center;
 }
-
 .compare-content p {
     text-align: center;
 }
-
 .compare-content .note {
     font-size: 11px;
     color: #677257;
     margin-top: 0px;
     display: none;
 }
-
 .compare-to-traditional .clock {
     width: 75px;
     height: 75px;
     background: url(../../MTH-Assets/icons/time.png);
     background-size: contain;
 }
-
 .compare-to-traditional .silouette {
     width: 60px;
     height: 75px;
     background: url(../../MTH-Assets/icons/user.png);
     background-size: cover;
 }
-
 .compare-to-traditional h3 {
     color: #003A5F;
     font-size: 18px;
@@ -1507,7 +1520,6 @@ object {
     margin-bottom: 19px;
     margin-top: 20px;
 }
-
 .compare-content ul {
     color: #003A5F;
     margin-top: 20px;
@@ -1516,7 +1528,6 @@ object {
     line-height: 22px;
     list-style-image: url(../../MTH-Assets/other/leaf.png);
 }
-
 .silouette-ul {
     color: #003A5F;
     margin-top: 20px;
@@ -1527,7 +1538,6 @@ object {
     line-height: 22px;
     list-style-image: url(../../MTH-Assets/other/leaf.png);
 }
-
 .what-is-header {
     display: -ms-flexbox;
     display: flex;
@@ -1538,7 +1548,6 @@ object {
     background-size: cover;
     background-position: center;
 }
-
 .what-is-header p {
     max-width: 246px;
     font-size: 15px;
@@ -1549,16 +1558,13 @@ object {
     margin-top: 50px;
     margin-bottom: 20px;
 }
-
 .what-is-button {
     margin-bottom: 30px;
 }
-
 .flex-button {
     margin: 0 auto;
     border: 0;
 }
-
 .front-page-slider {
     height: 300px;
     width: 320px;
@@ -1568,7 +1574,6 @@ object {
     background-position: center center;
     margin-bottom: 30px;
 }
-
 .front-page-slider p {
     color: white;
     width: 278px;
@@ -1577,22 +1582,18 @@ object {
     line-height: 1.27;
     margin-bottom: 60px;
 }
-
 .front-page-slider h2 {
     font-size: 17px;
     color: #fff;
     text-transform: uppercase;
     padding-top: 60px;
 }
-
 .carousel {
     width: 100%;
 }
-
 .flickity-prev-next-button:disabled {
     display: none;
 }
-
 .did-you-know h2 {
     color: #677257;
     font-size: 18px;
@@ -1600,14 +1601,12 @@ object {
     text-transform: uppercase;
     margin-bottom: 0px;
 }
-
 .did-you-know .did-you-know-pic {
     background: url(../../MTH-Assets/photos/amanda-visual.png);
     background-size: cover;
     width: 280px;
     height: 196px;
 }
-
 .did-you-know {
     display: -ms-flexbox;
     display: flex;
@@ -1616,7 +1615,6 @@ object {
     -ms-flex-align: center;
     align-items: center;
 }
-
 .did-you-know .number-circle {
     background: url(../../MTH-Assets/other/number-bg.png);
     width: 46px;
@@ -1630,62 +1628,50 @@ object {
     align-items: center;
     transform: translateY(25px);
 }
-
 .did-you-know .number-circle p {
     box-shadow: none;
     margin: 0;
     font-size: 17px;
 }
-
 .did-you-know .did-you-know-bg {
     width: 280px;
     box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
     background-color: white;
 }
-
 .did-you-know .did-you-know-bg p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.2;
 }
-
 .did-you-know .did-you-know-bg-1 {
     height: 155px;
 }
-
 .did-you-know .did-you-know-bg-1 p {
     width: 256px;
     margin-top: 33px;
 }
-
 .did-you-know .did-you-know-bg-2 {
     height: 123px;
 }
-
 .did-you-know .did-you-know-bg-2 p {
     width: 238px;
     margin-top: 33px;
 }
-
 .did-you-know .did-you-know-bg-3 {
     height: 141px;
 }
-
 .did-you-know .did-you-know-bg-3 p {
     width: 255px;
     margin-top: 33px;
 }
-
 .how-can {
     text-align: center;
     margin-bottom: 15px;
 }
-
 .about-page {
     width: 320px;
 }
-
 .about-page .about-hero {
     height: 415px;
     text-align: center;
@@ -1699,7 +1685,6 @@ object {
     -ms-flex-align: center;
     align-items: center;
 }
-
 .about-page .about-hero .parallax-scroll-about {
     height: 300%;
     width: 320px;
@@ -1711,7 +1696,6 @@ object {
     top: 0;
     background-position-y: -15px;
 }
-
 .about-page .about-hero h1 {
     color: white;
     text-transform: uppercase;
@@ -1720,26 +1704,22 @@ object {
     line-height: 41px;
     letter-spacing: 1p;
 }
-
 .about-page .about-hero p {
     font-size: 17px;
     line-height: 21px;
 }
-
 .about-page h5 {
     font-size: 17px;
     line-height: 24px;
     margin: 0;
     margin-bottom: 20px;
 }
-
 .amanda-photo {
     width: 280px;
     height: 290px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
-
 .amanda-name-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -1747,7 +1727,6 @@ object {
     justify-content: center;
     margin-bottom: 15px;
 }
-
 .about-amanda {
     position: relative;
     display: -ms-flexbox;
@@ -1757,7 +1736,6 @@ object {
     line-height: 18px;
     padding: 10px;
 }
-
 .about-amanda .about-amanda-text {
     padding: 10px;
     display: -ms-flexbox;
@@ -1765,24 +1743,20 @@ object {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-
 .about-amanda p {
     margin-bottom: 0;
     margin-top: 0;
     background: rgba(255, 255, 255, 0.7);
     color: #003A5F;
 }
-
 .about-amanda .first-sentence {
     padding-left: 37px;
     margin: 0;
     margin-top: 13px;
 }
-
 .about-amanda .about-amanda-second-p {
     margin: 0;
 }
-
 .i-in-about {
     font-family: "Brush Script MT";
     font-size: 56px;
@@ -1791,22 +1765,18 @@ object {
     position: absolute;
     top: 48px;
 }
-
 .about-amanda-text {
     position: absolute;
     top: 0;
     width: 270px;
 }
-
 .amanda-bg {
     margin: 0 auto;
 }
-
 .education {
     text-align: center;
     padding: 0 25px;
 }
-
 .education .amanda-road-map-wrapper {
     position: relative;
     width: 300px;
@@ -1816,41 +1786,33 @@ object {
     -ms-flex-pack: center;
     justify-content: center;
 }
-
 .education .amanda-road-map {
     position: absolute;
     top: -13px;
     left: 36.5%;
 }
-
 .education .one {
     margin-top: 55px;
 }
-
 .education .two {
     margin-top: 65px;
 }
-
 .education .three,
 .education .four {
     margin-top: 58px;
 }
-
 .education .five {
     margin-top: 84px;
 }
-
 .education .six {
     margin-top: 80px;
     margin-bottom: 30px;
 }
-
 .education h3 {
     text-transform: uppercase;
     color: black;
     font-size: 24px;
 }
-
 .education h4 {
     font-size: 17px;
     color: #677257;
@@ -1858,22 +1820,18 @@ object {
     font-weight: normal;
     margin: 0;
 }
-
 .education p {
     font-size: 15px;
     margin: 0;
     line-height: 1.2;
 }
-
 .green-mountains {
     position: absolute;
     top: 2110px;
 }
-
 .what-we-do {
     width: 320px;
 }
-
 .what-we-do .what-we-do-hero {
     background: url(../../MTH-Assets/photos/what-we-do-hero.jpg);
     width: 320px;
@@ -1891,27 +1849,23 @@ object {
     margin-bottom: 52px;
     padding: 18px;
 }
-
 .what-we-do .what-we-do-hero h1 {
     font-size: 17px;
     margin: 0;
     font-weight: normal;
     text-transform: uppercase;
 }
-
 .what-we-do .what-we-do-hero p {
     font-size: 15px;
     line-height: 19px;
     margin: 0;
 }
-
 .what-we-do h2 {
     text-transform: uppercase;
     color: #677257;
     font-size: 17px;
     line-height: 26px;
 }
-
 .what-we-do .experience {
     width: 280px;
     height: 330px;
@@ -1922,7 +1876,6 @@ object {
     margin: 0 auto;
     margin-bottom: 20px;
 }
-
 .what-we-do .experience h3 {
     font-family: Oswald;
     font-size: 17px;
@@ -1930,30 +1883,25 @@ object {
     text-transform: uppercase;
     line-height: 1.41;
 }
-
 .what-we-do .experience h4 {
     text-transform: uppercase;
     line-height: 26px;
     font-size: 18px;
 }
-
 .what-we-do .experience ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 .what-we-do .experience ul li {
     font-size: 15px;
     line-height: 18px;
 }
-
 .what-we-do .experience p {
     margin: 0;
     margin-top: 15px;
     font-weight: bold;
 }
-
 .treatments-testing-appointments .treatments,
 .treatments-testing-appointments .testing,
 .treatments-testing-appointments .appointments {
@@ -1972,20 +1920,17 @@ object {
     padding: 28px;
     margin-bottom: 50px;
 }
-
 .treatments-testing-appointments .treatments .gradient-border-box,
 .treatments-testing-appointments .testing .gradient-border-box,
 .treatments-testing-appointments .appointments .gradient-border-box {
     position: absolute;
 }
-
 .treatments-testing-appointments .treatments p,
 .treatments-testing-appointments .testing p,
 .treatments-testing-appointments .appointments p {
     text-align: center;
     color: #003A5F;
 }
-
 .learn-more {
     width: 180px;
     height: 42px;
@@ -2002,7 +1947,6 @@ object {
     right: 50px;
     top: 215px;
 }
-
 .learn-more a {
     font-size: 14px;
     text-align: center;
@@ -2010,16 +1954,13 @@ object {
     color: #FFFFFF;
     text-decoration: none;
 }
-
 .care-conditions {
     text-align: center;
 }
-
 .care-conditions h2 {
     margin: 0;
     margin-bottom: 10px;
 }
-
 .care-conditions ul {
     list-style: none;
     margin: 0;
@@ -2027,7 +1968,6 @@ object {
     line-height: 19px;
     color: #003A5F;
 }
-
 .care-conditions .underline-strip {
     width: 120px;
     height: 3px;
@@ -2036,11 +1976,9 @@ object {
     margin: 0 auto;
     margin-bottom: 20px;
 }
-
 .care-conditions p {
     font-weight: bold;
 }
-
 .picture-of-remedies {
     height: 145px;
     width: 280px;
@@ -2048,7 +1986,6 @@ object {
     margin: 0 auto;
     margin-top: 30px;
 }
-
 .what-is-naturopathic-medicine {
     height: 165px;
     width: 280px;
@@ -2058,12 +1995,10 @@ object {
     padding-top: 10px;
     color: #003A5F;
 }
-
 .what-is-naturopathic-medicine h2 {
     margin: 0;
     margin-bottom: 20px;
 }
-
 .appointments-hero-image {
     color: #ffffff;
     display: -ms-flexbox;
@@ -2078,23 +2013,19 @@ object {
     background-size: cover;
     height: 40vh;
 }
-
 .appointments-hero-image h1 {
     text-transform: uppercase;
 }
-
 .appointments-hero-image p {
     text-align: center;
     font-family: 'open_sans';
     font-size: 15px;
 }
-
 @media (min-width: 600px) {
     .appointments-hero-image p {
         max-width: 800px;
     }
 }
-
 .stroke-box,
 .stroke-box2,
 .stroke-box3,
@@ -2102,12 +2033,10 @@ object {
 .stroke-box5 {
     position: relative;
 }
-
 .appointments-wrapper {
     width: 450px;
     margin: 0 auto;
 }
-
 .book-appointment-hero {
     height: 123px;
     background: url(../../MTH-Assets/photos/book-appointment-hero.png);
@@ -2120,14 +2049,12 @@ object {
     -ms-flex-align: center;
     align-items: center;
 }
-
 .book-appointment-hero h1 {
     color: white;
     text-transform: uppercase;
     font-size: 17px;
     font-weight: normal;
 }
-
 .book-appointment-content {
     text-align: center;
     display: -ms-flexbox;
@@ -2135,28 +2062,23 @@ object {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
 .book-appointment-content h2 {
     color: #677257;
     font-size: 17px;
     text-transform: uppercase;
 }
-
 .book-appointment-content h3 {
     color: #003A5F;
     font-size: 15px;
     font-family: "open_sans";
     font-weight: bold;
 }
-
 .book-appointment-content a {
     color: #1a9481;
 }
-
 .book-appointment-content a:visited {
     color: #1a9481;
 }
-
 .book-appointment-call {
     height: 28px;
     display: -ms-flexbox;
@@ -2166,13 +2088,11 @@ object {
     -ms-flex-align: center;
     align-items: center;
 }
-
 .book-appointment-call p {
     color: #1a9481;
     font-size: 17px;
     margin: 0px;
 }
-
 .book-appointment-call .book-appointment-phone-icon {
     height: 28px;
     width: 28px;
@@ -2181,7 +2101,6 @@ object {
     background-position: center center;
     margin-right: 8px;
 }
-
 .book-appointment-or {
     display: -ms-flexbox;
     display: flex;
@@ -2190,33 +2109,28 @@ object {
     -ms-flex-pack: center;
     justify-content: center;
 }
-
 .book-appointment-or .or-line {
     width: 120px;
     height: 1px;
     background-color: #003d5c;
 }
-
 .book-appointment-or h3 {
     text-transform: uppercase;
     font-weight: normal;
     margin-left: 10px;
     margin-right: 10px;
 }
-
 .book-appointment-email h3 {
     margin-bottom: 9px;
     text-align: left;
     margin-left: 20px;
     font-weight: normal;
 }
-
 .book-appointment-email input {
     width: 280px;
     height: 42px;
     border: solid 1px #919191;
 }
-
 .book-appointment-email button {
     color: white;
     background: linear-gradient(90deg, #003557 0%, #009B84 100%);
@@ -2228,26 +2142,21 @@ object {
     border: none;
     margin-top: 30px;
 }
-
 .book-appointment-use-smart h3 {
     margin: 0px;
 }
-
 .book-appointment-use-smart p {
     margin: 0px;
     color: #003d5c;
 }
-
 .already-smartnd {
     color: #003A5F;
 }
-
 .already-smartnd p:first-child {
     width: 265px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .smartnd-logo {
     width: 133px;
     height: 22px;
@@ -2258,13 +2167,11 @@ object {
     margin-right: auto;
     margin-bottom: 50px;
 }
-
 .why-use-smartnd {
     height: 299px;
     background-image: linear-gradient(to right, #1a9481, #9bcc93);
     line-height: 18px;
 }
-
 .why-use-smartnd h2 {
     color: white;
     text-align: center;
@@ -2273,7 +2180,6 @@ object {
     padding-top: 20px;
     margin-top: 0px;
 }
-
 .why-use-smartnd h3 {
     color: white;
     text-align: center;
@@ -2281,7 +2187,6 @@ object {
     font-weight: normal;
     font-family: "open_sans";
 }
-
 .wavy-arrows {
     height: 31px;
     width: 26px;
@@ -2289,7 +2194,6 @@ object {
     background-size: cover;
     background-position: center center;
 }
-
 .update-patient-pic {
     height: 31px;
     width: 37px;
@@ -2297,7 +2201,6 @@ object {
     background-size: cover;
     background-position: center center;
 }
-
 .smartnd-clipboard {
     height: 31px;
     width: 23px;
@@ -2305,7 +2208,6 @@ object {
     background-size: cover;
     background-position: center center;
 }
-
 .smartnd-form-img {
     height: 31px;
     width: 25px;
@@ -2313,33 +2215,27 @@ object {
     background-size: cover;
     background-position: center center;
 }
-
 .why-use-upper {
     display: -ms-flexbox;
     display: flex;
 }
-
 .why-use-lower {
     display: -ms-flexbox;
     display: flex;
 }
-
 .why-use-smartnd-content {
     width: 160px;
 }
-
 .smart-nd-forms h3 {
     width: 95px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .smart-nd-plans h3 {
     width: 118px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .smartnd-icon-bg {
     width: 60px;
     height: 60px;
@@ -2355,16 +2251,13 @@ object {
     align-items: center;
     border: 1px solid white;
 }
-
 .mountains {
     transform: translateY(7px);
 }
-
 .contact-us {
     text-align: center;
     width: 320px;
 }
-
 .contact-us .contact-us-hero {
     background: url(../../MTH-Assets/photos/contact-us-hero.jpg);
     width: 320px;
@@ -2377,37 +2270,31 @@ object {
     justify-content: center;
     color: white;
 }
-
 .contact-us .x-icon {
     position: absolute;
     top: 196px;
     left: 53.5%;
     z-index: 3;
 }
-
 .contact-us h1 {
     font-weight: normal;
     font-size: 17px;
     text-transform: uppercase;
 }
-
 .contact-us h2 {
     text-transform: uppercase;
     color: #677257;
     font-size: 17px;
 }
-
 .contact-us p {
     color: #003A5F;
     font-size: 15px;
 }
-
 .contact-us .call,
 .contact-us .send-us-a-message,
 .contact-us .open-hours {
     font-weight: bold;
 }
-
 .contact-us .number-and-icon {
     display: -ms-flexbox;
     display: flex;
@@ -2419,20 +2306,17 @@ object {
     justify-content: center;
     margin: 0 auto;
 }
-
 .contact-us .number-and-icon .phone-number {
     color: #003A5F;
     font-size: 17px;
     text-decoration: none;
     padding-left: 8px;
 }
-
 .contact-us .wpcf7-form {
     text-align: left;
     width: 280px;
     margin: 0 auto;
 }
-
 .contact-us div.wpcf7-mail-sent-ok {
     padding: 0.2em 1em;
     position: absolute;
@@ -2448,13 +2332,11 @@ object {
     background: url(../../MTH-Assets/other/message-sent-bg.png);
     border: none;
 }
-
 .contact-us label {
     font-size: 15px;
     line-height: 19px;
     color: #003d5c;
 }
-
 .contact-us input {
     width: 280px;
     height: 41px;
@@ -2464,7 +2346,6 @@ object {
     color: rgba(155, 155, 155, 0.6);
     padding-left: 15px;
 }
-
 .contact-us textarea {
     width: 280px;
     height: 280px;
@@ -2472,7 +2353,6 @@ object {
     border: 1px solid #919191;
     border-radius: 4px;
 }
-
 .contact-us input[type="submit"] {
     width: 180px;
     height: 40px;
@@ -2485,15 +2365,12 @@ object {
     background: linear-gradient(90deg, #003557 0%, #009B84 100%);
     font-family: 'open_sans', 'sans-serif';
 }
-
 .contact-us input[type="submit"] p {
     margin: 0;
 }
-
 .contact-us .hours {
     color: #677257;
 }
-
 .or {
     display: -ms-flexbox;
     display: flex;
@@ -2505,22 +2382,18 @@ object {
     text-transform: uppercase;
     color: #003d5c;
 }
-
 .or p {
     padding-top: 5px;
 }
-
 .grey-background {
     background: #eee;
 }
-
 .page-template-resources {
     max-width: 375px;
     background: url(../../MTH-Assets/photos/main-bg.png);
     background-size: cover;
     background-position: center center;
 }
-
 .resources-hero {
     height: 123px;
     background: url(../../MTH-Assets/photos/resources-hero.png);
@@ -2529,7 +2402,6 @@ object {
     text-align: center;
     margin-bottom: 30px;
 }
-
 .resources-hero h1 {
     font-size: 17px;
     color: white;
@@ -2540,7 +2412,6 @@ object {
     margin-bottom: 0px;
     padding-top: 20px;
 }
-
 .resources-hero p {
     color: #fff;
     width: 266px;
@@ -2549,13 +2420,11 @@ object {
     margin-top: 0px;
     line-height: 18px;
 }
-
 .resources-paragraph p {
     text-align: center;
     color: #003A5F;
     font-size: 17px;
 }
-
 .news-events,
 .articles-research,
 .recipes-nutrition {
@@ -2575,7 +2444,6 @@ object {
     margin-bottom: 45px;
     position: relative;
 }
-
 .news-events p,
 .articles-research p,
 .recipes-nutrition p {
@@ -2584,7 +2452,6 @@ object {
     color: #003A5F;
     line-height: 1.2;
 }
-
 .news-events h2,
 .news-events p,
 .articles-research h2,
@@ -2594,7 +2461,6 @@ object {
     margin-top: 0;
     margin-bottom: 0;
 }
-
 .news-events h2,
 .articles-research h2,
 .recipes-nutrition h2 {
@@ -2604,7 +2470,6 @@ object {
     margin-top: 30px;
     margin-bottom: 20px;
 }
-
 .news-events a,
 .articles-research a,
 .recipes-nutrition a {
@@ -2619,19 +2484,15 @@ object {
     bottom: -23px;
     font-size: 15px;
 }
-
 .news-events p {
     width: 210px;
 }
-
 .articles-research p {
     width: 252px;
 }
-
 .recipes-nutrition p {
     width: 249px;
 }
-
 .resources-newspaper {
     width: 75px;
     height: 70px;
@@ -2640,7 +2501,6 @@ object {
     background-position: center center;
     margin-bottom: 20px;
 }
-
 .resources-microscope {
     width: 58px;
     height: 70px;
@@ -2649,7 +2509,6 @@ object {
     background-position: center center;
     margin-bottom: 20px;
 }
-
 .resources-apple {
     width: 70px;
     height: 70px;
@@ -2659,14 +2518,11 @@ object {
     margin-bottom: 20px;
 }
 
-
 /* footer */
-
 .newsletter {
     background-color: #e5e5e5;
     text-align: center;
 }
-
 .newsletter p {
     width: 170px;
     font-family: 'open_sans';
@@ -2678,17 +2534,14 @@ object {
     color: #6a7059;
     margin: 0 auto;
 }
-
 @media (min-width: 600px) {
     .newsletter p {
         width: 100%;
     }
 }
-
 .mountain-logo-footer {
     width: 100%;
 }
-
 .footer-title {
     font-family: 'oswald';
     text-transform: uppercase;
@@ -2700,11 +2553,9 @@ object {
     margin: 0;
     font-weight: normal;
 }
-
 .copy-footer {
     background-color: #003A5F;
 }
-
 .copy-footer p {
     font-size: 12px;
     text-align: center;
@@ -2713,7 +2564,6 @@ object {
     margin: 0;
     padding: 14px 0;
 }
-
 .footer-form {
     display: -ms-flexbox;
     display: flex;
@@ -2721,7 +2571,6 @@ object {
     flex-direction: column;
     margin: 0 20px;
 }
-
 .footer-form .footer-email {
     border-radius: 4px;
     background-image: linear-gradient(to top, #ffffff, #ffffff);
@@ -2729,13 +2578,11 @@ object {
     margin: 20px;
     height: 45px;
 }
-
 @media (min-width: 600px) {
     .footer-form .footer-email {
         width: 400px;
     }
 }
-
 @media (min-width: 600px) {
     .footer-form {
         display: -ms-flexbox;
@@ -2746,7 +2593,6 @@ object {
         justify-content: center;
     }
 }
-
 input::-webkit-input-placeholder {
     font-family: 'open_sans';
     font-size: 14px;
@@ -2755,37 +2601,31 @@ input::-webkit-input-placeholder {
     color: #d1d0d0;
     padding-left: 14px;
 }
-
 .primary-button-subscribe {
     padding: 0 3rem;
     height: 45px;
 }
-
 @media (min-width: 600px) {
     .primary-button-subscribe {
         margin: 20px 20px 20px 0;
     }
 }
-
 .footer-info {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
 @media (min-width: 600px) {
     .footer-info {
         -ms-flex-direction: row;
         flex-direction: row;
     }
 }
-
 .footer_wrapper {
     margin: 25px;
     text-align: center;
 }
-
 .footer_wrapper p {
     margin-top: 0;
     font-family: 'open_sans';
@@ -2794,49 +2634,44 @@ input::-webkit-input-placeholder {
     color: #003d5c;
     padding: 0 3rem;
 }
-
 @media (min-width: 600px) {
     .footer_wrapper {
         -ms-flex-preferred-size: 33%;
         flex-basis: 33%;
         text-align: left;
     }
+    
     .footer_wrapper h2 {
         text-align: left;
         padding-left: 0;
     }
+    
     .footer_wrapper p {
         padding: 0;
     }
 }
-
 .link-footer {
     font-family: 'open_sans';
     top: -6px;
     position: relative;
     color: #1a9481;
 }
-
 .thick-span {
     font-weight: bold;
 }
-
 .hero-article-image img {
     width: 100%;
     height: 100%;
 }
-
 .single-article-content {
     width: 500px;
     margin: 0 auto;
 }
-
 @media (min-width: 600px) {
     .single-article-content {
         width: 700px;
     }
 }
-
 .entry-content-article {
     font-family: 'open_sans';
     font-size: 15px;
@@ -2844,7 +2679,6 @@ input::-webkit-input-placeholder {
     text-align: left;
     color: #003d5c;
 }
-
 .entry-title-article {
     font-family: 'oswald';
     line-height: 1.24;
@@ -2853,12 +2687,10 @@ input::-webkit-input-placeholder {
     display: block;
     width: 100%;
 }
-
 header.entry-header-article {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
 .entry-meta-article {
     font-family: 'open_oans';
     line-height: 2;
@@ -2866,21 +2698,18 @@ header.entry-header-article {
     font-size: 20px;
     color: #003d5c;
 }
-
 .mountain2 {
     width: 100%;
     position: relative;
     left: 0;
     bottom: 0;
 }
-
 .mountain1 {
     width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
 }
-
 .mountains {
     text-align: center;
     width: 100%;
@@ -2889,30 +2718,25 @@ header.entry-header-article {
     left: 0;
     bottom: 0;
 }
-
 .article-nav-links {
     color: #1a9481;
     font-family: 'open_sans';
     display: -ms-flexbox;
     display: flex;
 }
-
 .article-nav-links p {
     margin: 0;
     font-weight: bold;
 }
-
 .article-nav-links a {
     color: #1a9481;
     font-size: small;
 }
-
 .error404 {
     max-width: 375px;
     background: url(../../MTH-Assets/photos/main-bg.png);
     background-position: center center;
 }
-
 .error-hero {
     height: 123px;
     text-align: center;
@@ -2921,7 +2745,6 @@ header.entry-header-article {
     background-size: cover;
     background-position: center center;
 }
-
 .error-hero p {
     text-align: center;
     font-size: 15px;
@@ -2932,14 +2755,12 @@ header.entry-header-article {
     font-family: 'open_sans';
     line-height: 1.2;
 }
-
 .error-hero h1 {
     font-size: 17px;
     font-weight: normal;
     margin: 0px;
     padding-top: 25px;
 }
-
 .not-found-content {
     margin-top: 34.2px;
     display: -ms-flexbox;
@@ -2947,7 +2768,6 @@ header.entry-header-article {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
 .not-found-content .not-found-apple {
     width: 80px;
     height: 96px;
@@ -2955,7 +2775,6 @@ header.entry-header-article {
     background-size: cover;
     background-position: center center;
 }
-
 .not-found-content .text-bubble {
     width: 80px;
     height: 74px;
@@ -2963,7 +2782,6 @@ header.entry-header-article {
     background-size: cover;
     background-position: center center;
 }
-
 .not-found-div {
     display: -ms-flexbox;
     display: flex;
@@ -2973,12 +2791,10 @@ header.entry-header-article {
     align-items: center;
     text-align: center;
 }
-
 .not-found-content p {
     color: #003A5F;
     font-size: 15px;
 }
-
 .not-found-button {
     background: linear-gradient(90deg, #003557 0%, #009B84 100%);
     padding-top: 14px;
@@ -2989,7 +2805,6 @@ header.entry-header-article {
     border-radius: 20000px;
     color: white;
 }
-
 .archive-recipe-hero-image {
     color: #ffffff;
     display: -ms-flexbox;
@@ -3004,23 +2819,19 @@ header.entry-header-article {
     background-size: cover;
     height: 40vh;
 }
-
 .archive-recipe-hero-image h1 {
     text-transform: uppercase;
 }
-
 .archive-recipe-hero-image p {
     text-align: center;
     font-family: 'open_sans';
     font-size: 15px;
 }
-
 @media (min-width: 600px) {
     .archive-recipe-hero-image p {
         max-width: 800px;
     }
 }
-
 .archive-article-hero-image {
     color: #ffffff;
     display: -ms-flexbox;
@@ -3035,23 +2846,19 @@ header.entry-header-article {
     background-size: cover;
     height: 40vh;
 }
-
 .archive-article-hero-image h1 {
     text-transform: uppercase;
 }
-
 .archive-article-hero-image p {
     text-align: center;
     font-family: 'open_sans';
     font-size: 15px;
 }
-
 @media (min-width: 600px) {
     .archive-article-hero-image p {
         max-width: 800px;
     }
 }
-
 @media (min-width: 600px) {
     .grid-archive-article {
         width: 1300px;
@@ -3064,7 +2871,6 @@ header.entry-header-article {
         justify-content: center;
     }
 }
-
 .article-nav-links-archive {
     display: -ms-flexbox;
     display: flex;
@@ -3072,19 +2878,16 @@ header.entry-header-article {
     justify-content: center;
     padding-top: 10px;
 }
-
 .article-single-wrapper {
     width: 500px;
     margin: 0 auto;
     padding-top: 2rem;
 }
-
 @media (min-width: 600px) {
     .article-single-wrapper {
         margin: 20px;
     }
 }
-
 .article-wrapper {
     position: relative;
     overflow: hidden;
@@ -3093,40 +2896,32 @@ header.entry-header-article {
     -ms-flex-pack: center;
     justify-content: center;
 }
-
 .article-single-image {
     width: 100%;
 }
-
 .article-grid-content {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
 .article-grid-content h2 {
     text-transform: uppercase;
     font-size: 25px;
 }
-
 .article-grid-content h2 a {
     color: white;
 }
-
 .article-grid-content h2:visited {
     color: white;
 }
-
 .article-archive-title {
     text-align: center;
 }
-
 .archive-entry-content p {
     font-size: 20px;
     color: #003d5c;
 }
-
 .load-more {
     display: -ms-flexbox;
     display: flex;
@@ -3135,20 +2930,17 @@ header.entry-header-article {
     padding: 1.5rem 1.5rem;
     color: #1a9481;
 }
-
 .load-more a {
     margin: 0;
     padding-left: .75rem;
     color: #1a9481;
 }
-
 .link-read-more-archive {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
 }
-
 .archive-news-hero-image {
     color: #ffffff;
     display: -ms-flexbox;
@@ -3163,23 +2955,19 @@ header.entry-header-article {
     background-size: cover;
     height: 40vh;
 }
-
 .archive-news-hero-image h1 {
     text-transform: uppercase;
 }
-
 .archive-news-hero-image p {
     text-align: center;
     font-family: 'open_sans';
     font-size: 15px;
 }
-
 @media (min-width: 600px) {
     .archive-news-hero-image p {
         max-width: 800px;
     }
 }
-
 .news-events-btns {
     display: -ms-flexbox;
     display: flex;
@@ -3191,7 +2979,6 @@ header.entry-header-article {
     border: solid 4px #1a9481;
     border-radius: 10px 10px 0px 10px;
 }
-
 .news-events-wrapper {
     padding: 2rem 2rem;
     display: -ms-flexbox;
@@ -3199,7 +2986,6 @@ header.entry-header-article {
     -ms-flex-pack: center;
     justify-content: center;
 }
-
 .news-section-on {
     font-size: xx-large;
     border: none;
@@ -3212,7 +2998,6 @@ header.entry-header-article {
     color: white;
     height: 80px;
 }
-
 .events-section-off {
     font-size: xx-large;
     border: none;
@@ -3222,7 +3007,6 @@ header.entry-header-article {
     height: 80px;
     color: #003d5c;
 }
-
 .news-section-off {
     font-size: xx-large;
     border: none;
@@ -3232,7 +3016,6 @@ header.entry-header-article {
     height: 80px;
     color: #003d5c;
 }
-
 .events-section-on {
     font-size: xx-large;
     border: none;
@@ -3245,7 +3028,6 @@ header.entry-header-article {
     color: white;
     height: 80px;
 }
-
 .single-event-wrapper {
     width: 380px;
     margin: 0 auto;
@@ -3254,7 +3036,6 @@ header.entry-header-article {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
 @media (min-width: 600px) {
     .single-event-wrapper {
         width: 1200px;
@@ -3262,15 +3043,12 @@ header.entry-header-article {
         flex-direction: row;
     }
 }
-
 .single-eventinfo-wrapper {
     padding-bottom: 1rem;
 }
-
 .single-eventinfo-wrapper .content {
     color: #003d5c;
 }
-
 .single-eventinfo-wrapper h1 {
     margin: 0;
     font-family: 'oswald';
@@ -3279,26 +3057,23 @@ header.entry-header-article {
     color: #6a7059;
     text-transform: uppercase;
 }
-
 @media (min-width: 600px) {
     .single-eventinfo-wrapper {
         width: 1040px;
         padding: 40px;
     }
+    
     .single-eventinfo-wrapper .link-read-more-archive {
         float: left;
     }
 }
-
 .custom-data-event {
     display: -ms-flexbox;
     display: flex;
 }
-
 .custom-data-event img {
     padding: 0 1rem .2rem 0;
 }
-
 .custom-data-event p {
     font-family: 'open_sans';
     font-weight: bold;
@@ -3307,21 +3082,18 @@ header.entry-header-article {
     color: #003d5c;
     margin: 0;
 }
-
 @media (min-width: 600px) {
     .event-img-wrapper {
         width: 1040px;
         padding: 40px;
     }
 }
-
 .search-results .page-header {
     height: 123px;
     background: url(../../MTH-Assets/photos/search-results-hero.png);
     background-size: cover;
     background-position: center center;
 }
-
 .search-results .page-header .page-title {
     padding-top: 40px;
     text-align: center;
@@ -3333,11 +3105,9 @@ header.entry-header-article {
     text-transform: uppercase;
     font-weight: normal;
 }
-
 .search-results article {
     text-align: center;
 }
-
 .search-results article .entry-header {
     background-color: black;
     height: 150px;
@@ -3345,17 +3115,14 @@ header.entry-header-article {
     margin-left: auto;
     margin-right: auto;
 }
-
 .search-results article h2 {
     font-size: 15px;
     padding-top: 62px;
     text-transform: uppercase;
 }
-
 .search-results article h2 a {
     color: white;
 }
-
 .search-results article p {
     width: 270px;
     margin-left: auto;
@@ -3364,43 +3131,35 @@ header.entry-header-article {
     color: #003A5F;
     line-height: 1.2;
 }
-
 .redirect {
     text-align: center;
 }
-
 .redirect h2 {
     font-size: 15px;
     color: #003d5c;
     font-family: "opens_sans";
     margin-bottom: 10px;
 }
-
 .redirect h3 {
     margin-top: 10px;
     font-size: 17px;
     color: #003d5c;
     line-height: 1.2;
 }
-
 .redirect h3 span {
     font-size: 24px;
 }
-
 .redirect p {
     margin-top: 0px;
     margin-bottom: 30px;
 }
-
 .redirect a {
     color: #1a9481;
     font-size: 12px;
 }
-
 .redirect a:visited {
     color: #1a9481;
 }
-
 .labtesting-hero-image {
     color: #ffffff;
     display: -ms-flexbox;
@@ -3415,23 +3174,19 @@ header.entry-header-article {
     background-size: cover;
     height: 40vh;
 }
-
 .labtesting-hero-image h1 {
     text-transform: uppercase;
 }
-
 .labtesting-hero-image p {
     text-align: center;
     font-family: 'open_sans';
     font-size: 15px;
 }
-
 @media (min-width: 600px) {
     .labtesting-hero-image p {
         max-width: 800px;
     }
 }
-
 .labtesting-btn-off {
     font-size: 30px;
     border: none;
@@ -3447,7 +3202,6 @@ header.entry-header-article {
     font-family: 'oswald';
     line-height: 1.33;
 }
-
 .labtesting-btn-on {
     font-size: 30px;
     border: none;
@@ -3463,18 +3217,15 @@ header.entry-header-article {
     font-family: 'oswald';
     line-height: 1.33;
 }
-
 .labtesting-btn-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: wrap;
     flex-flow: wrap;
 }
-
 .labtesting-book-appointment {
     background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat top;
 }
-
 .lab-did-u-no {
     width: 280px;
     height: 122px;
@@ -3482,11 +3233,9 @@ header.entry-header-article {
     background-color: #ffffff;
     box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
 }
-
 .labtesting-single-wrapper {
     display: none;
 }
-
 .labtesting-wrapper {
     display: -ms-flexbox;
     display: flex;
