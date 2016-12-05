@@ -41,7 +41,7 @@ get_header(); ?>
                 <div class="smartnd-logo"></div>
             </div>
         </section>
-        <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/footer_mountain.png" alt="green and white image that looks like mountains">
+        <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/footer_mountain.png" class="mountains" alt="green and white image that looks like mountains">
         <section class="why-use-smartnd">
             <h2>Why using smartND?</h2>
             <div class="why-use-upper">

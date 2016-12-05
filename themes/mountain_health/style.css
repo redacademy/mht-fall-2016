@@ -1733,6 +1733,9 @@ body {
       align-items: center;
   border: 1px solid white; }
 
+.mountains {
+  transform: translateY(7px); }
+
 .contact-us {
   text-align: center;
   width: 320px; }
