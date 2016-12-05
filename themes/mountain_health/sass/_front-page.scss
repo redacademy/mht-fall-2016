@@ -18,20 +18,15 @@
     font-size: 15px;
 }
 
-body {
-    // max-width: 320px;
-    background: url(../../MTH-Assets/photos/main-bg.png);
-    background-position: center center;
-}
-
-// css for hero banner section
 .hero-banner {
     max-width: 320px;
     height: 480px;
-    background: url(../../MTH-Assets/photos/mobile-overlay.png);
+    background: url(../../MTH-Assets/photos/mobile-front-hero.png);
     background-size: cover;
     color: white;
     margin-bottom: 30px;
+    margin-left:auto;
+    margin-right: auto;x
     .hero-header {
         font-size: 28px;
         text-align: right;
@@ -261,7 +256,7 @@ body {
     display: flex;
     height: 292px;
     flex-direction: column;
-    background: url(../../MTH-Assets/photos/Front-Page-BG.png);
+    background: url(../../MTH-Assets/photos/front-page-bg.png);
     background-size: cover;
     background-position: center;
     p {
@@ -331,7 +326,7 @@ body {
 
 .did-you-know {
     .did-you-know-pic {
-        background: url(../../MTH-Assets/photos/Amanda-Visual.png);
+        background: url(../../MTH-Assets/photos/amanda-visual.png);
         background-size: cover;
         width: 280px;
         height: 196px;
