@@ -1,0 +1,64 @@
+.labtesting-hero-image{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../../MTH-Assets/photos/visual-hero-banner-labtesting@3x.png) no-repeat top;
+  background-size: cover;
+  height: 40vh;
+h1 {
+  text-transform: uppercase;
+}
+p {
+  text-align: center;
+  font-family: 'open_sans';
+font-size: 15px;
+@media (min-width: 600px) {
+max-width: 800px;
+}}
+}
+.labtesting-btn-off{
+  font-size: 30px;
+  border: none;
+  background-color: white;
+  width: 316px;
+  height: 134px;
+  text-align: center;
+  color: #003d5c;
+  border: solid 4px #1a9481;
+  border-radius: 10px 10px 0px 10px;
+  padding: 0.75rem 1rem;
+  margin: 20px;
+  font-family: 'oswald';
+  line-height: 1.33;
+}
+.labtesting-btn-on{
+  font-size: 30px;
+  border: none;
+  background-color: #1a9481;
+  width: 316px;
+  height: 134px;
+  text-align: center;
+  color: white;
+  border: solid 4px #1a9481;
+  border-radius: 10px 10px 0px 10px;
+  padding: 0.75rem 1rem;
+  margin: 20px;
+  font-family: 'oswald';
+  line-height: 1.33;
+}
+.labtesting-btn-wrapper{
+  display: flex;
+  flex-flow: wrap;
+}
+.labtesting-book-appointment{
+  background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat top;
+}
+.lab-did-u-no{
+  width: 280px;
+height: 122px;
+  border-radius: 4px;
+background-color: #ffffff;
+box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+}

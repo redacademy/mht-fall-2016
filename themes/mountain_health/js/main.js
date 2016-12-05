@@ -61,5 +61,15 @@
         $(".events-lists").hide();
     });
     /////////
+    // $(".labtesting-btn-off").on('click' 'button', function(){
+    //   event.preventDefault();
+    //  var x = $(".labtesting-btn-off").text().trim();
+    //  var y = $(".test-wraper").children('h3').val();
+    //  if (x == y){
+    //    (".test-wraper").show();
+    //  } else {
+    //    (".test-wraper").hide();
+    //  }
+    // });
 
 })(jQuery);
