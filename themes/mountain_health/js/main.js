@@ -69,7 +69,7 @@
         $(".news-lists").show();
         $(".events-lists").hide();
     });
-    /////////
+    ///////// lab testing data from loop 
     $('.labtesting-btn-off').on('click', function(){
       $('.labtesting-single-wrapper-active').stop().hide();
       $(this).next('.labtesting-single-wrapper-active').stop().show();
