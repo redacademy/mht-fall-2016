@@ -48,14 +48,17 @@ ul {
 }
 
 body {
-    background: url(../../MTH-Assets/other/organic-bg.png), white;
-    background-size: cover;
+    background: rgba(255, 255, 255, 0.5), url(../../MTH-Assets/other/organic-bg.png), white;
+    background-size: cover cover cover;
 }
 
 .site-main,
 .main-header,
 .content-area,
 .main-navigation {
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
+    @include mobile-break-width {
+        max-width: 1200px;
+    }
 }
