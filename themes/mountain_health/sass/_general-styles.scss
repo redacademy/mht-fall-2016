@@ -48,8 +48,8 @@ ul {
 }
 
 body {
-    background: rgba(255, 255, 255, 0.5), url(../../MTH-Assets/other/organic-bg.png), white;
-    background-size: cover cover cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png);
+    background-size: cover cover;
 }
 
 .site-main,
