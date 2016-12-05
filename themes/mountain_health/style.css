@@ -500,8 +500,8 @@ ul {
   margin: 0; }
 
 body {
-  background: rgba(255, 255, 255, 0.5), url(../../MTH-Assets/other/organic-bg.png), white;
-  background-size: cover cover cover; }
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png);
+  background-size: cover cover; }
 
 .site-main,
 .main-header,
@@ -553,7 +553,7 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   position: absolute;
-  background: url(../../MTH-Assets/other/organic-bg.png), white;
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png), white;
   background-size: cover;
   width: 320px;
   text-align: center;
@@ -938,10 +938,6 @@ object {
 
 .list-span {
   font-size: 15px; }
-
-body {
-  background: url(../../MTH-Assets/photos/main-bg.png);
-  background-position: center center; }
 
 .hero-banner {
   max-width: 320px;

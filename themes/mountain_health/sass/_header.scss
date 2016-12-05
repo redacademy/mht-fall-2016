@@ -37,7 +37,7 @@
     flex-flow: column;
     justify-content: space-around;
     position: absolute;
-    background: url(../../MTH-Assets/other/organic-bg.png), white;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png), white;
     background-size: cover;
     // opacity: .95;
     width: 320px;
