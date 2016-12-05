@@ -1659,7 +1659,8 @@ body {
   text-align: center;
   font-size: 17px;
   text-transform: uppercase;
-  padding-top: 20px; }
+  padding-top: 20px;
+  margin-top: 0px; }
 
 .why-use-smartnd h3 {
   color: white;
@@ -2394,3 +2395,30 @@ header.entry-header-article {
   text-align: left;
   color: #003A5F;
   line-height: 1.2; }
+
+.redirect {
+  text-align: center; }
+  .redirect h2 {
+    font-size: 15px;
+    color: #003d5c;
+    font-family: "opens_sans";
+    margin-bottom: 10px; }
+
+.redirect h3 {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #003d5c;
+  line-height: 1.2; }
+  .redirect h3 span {
+    font-size: 24px; }
+
+.redirect p {
+  margin-top: 0px;
+  margin-bottom: 30px; }
+
+.redirect a {
+  color: #1a9481;
+  font-size: 12px; }
+
+.redirect a:visited {
+  color: #1a9481; }
