@@ -939,20 +939,38 @@ object {
 .list-span {
   font-size: 15px; }
 
+.parallax-scroll {
+  height: 300%;
+  width: 320px;
+  margin: 0 auto;
+  background: url(../../MTH-Assets/photos/mobile-front-hero.png) no-repeat;
+  background-size: 320px 480px;
+  z-index: -1;
+  position: fixed;
+  top: 0; }
+
 .hero-banner {
   max-width: 320px;
   height: 480px;
-  background: url(../../MTH-Assets/photos/mobile-overlay.png);
   background-size: cover;
   color: white;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
   .hero-banner .hero-header {
     font-size: 28px;
     text-align: right;
     margin-bottom: 20px;
     margin-top: 0px;
     line-height: 41px;
-    padding-top: 213px;
     letter-spacing: 3px;
     font-family: 'Oswald';
     text-transform: uppercase;
@@ -1020,6 +1038,7 @@ object {
     margin-top: 0px; }
 
 .booking div {
+  margin-top: 330px;
   width: 280px;
   height: 105px;
   background: url(../../MTH-Assets/photos/naturopathy-visual.png);
@@ -1253,17 +1272,27 @@ object {
 .about-page {
   width: 320px; }
   .about-page .about-hero {
+    height: 415px;
     text-align: center;
     color: #fff;
     width: 320px;
     height: 415px;
-    background: url(../../MTH-Assets/photos/about-hero.jpg);
     background-position-y: -66px;
     margin-bottom: 30px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
         align-items: center; }
+    .about-page .about-hero .parallax-scroll-about {
+      height: 300%;
+      width: 320px;
+      margin: 0 auto;
+      background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
+      background-size: 320px 480px;
+      z-index: -1;
+      position: fixed;
+      top: 0;
+      background-position-y: -15px; }
     .about-page .about-hero h1 {
       color: white;
       text-transform: uppercase;
@@ -2005,56 +2034,6 @@ object {
   background-size: cover;
   background-position: center center;
   margin-bottom: 20px; }
-
-/*WebDesignAndSuch.com*/
-/*LINKS*/
-#mainContent a:link,
-#mainContent a:visited {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  background: #000000;
-  padding: 5px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px; }
-
-#mainContent a:hover,
-#mainContent a:active {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  background: #333333;
-  padding: 5px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px; }
-
-/*STYLES FOR CSS POPUP*/
-#blanket {
-  background-color: #111;
-  opacity: 0.65;
-  *background: none;
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0px;
-  width: 100%; }
-
-#popUpDiv {
-  position: absolute;
-  background: aquamarine;
-  width: 375px;
-  height: 200px;
-  border: 5px solid #000;
-  z-index: 3;
-  top: 45px; }
-
-#popUpDiv a {
-  position: relative;
-  top: 20px;
-  left: 20px; }
-
-a:visited {
-  color: white; }
 
 /* footer */
 .newsletter {

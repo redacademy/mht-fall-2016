@@ -4,6 +4,7 @@ get_header(); ?>
 <div id="primary" class="content-area about-page">
 	<main id="main" class="site-main" role="main">
         <section class="about-hero">
+            <div class="parallax-scroll-about"></div>
             <div class="about-title">	
                 <h1>Mounatain Health</h1>
                 <p>
@@ -46,7 +47,7 @@ get_header(); ?>
         </section>
         <section class="education">
             <section class="amanda-road-map-wrapper">
-                <img class="amanda-road-map" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line+dots.png" alt="gradient line">
+                <img class="amanda-road-map" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line-and-dots.png" alt="gradient line">
             </section>
             <div class="one">
                 <h4>Doctor of Naturopathic Medicine</h4>

@@ -2,17 +2,27 @@
 .about-page {
     width: 320px;
     .about-hero {
+        height: 415px;
+        .parallax-scroll-about {
+            height: 300%;
+            width: 320px;
+            margin: 0 auto;
+            background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
+            background-size: 320px 480px;
+            z-index: -1;
+            position: fixed;
+            top: 0;
+            background-position-y: -15px;
+        }
         text-align: center;
         color: #fff;
         width: 320px;
         height: 415px;
-        background: url(../../MTH-Assets/photos/about-hero.jpg);
         background-position-y: -66px;
         // border: 1px solid #979797;
         margin-bottom: 30px;
         display: flex;
         align-items: center;
-        .about-title {}
         h1 {
             color: white;
             text-transform: uppercase;

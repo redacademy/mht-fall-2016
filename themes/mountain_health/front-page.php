@@ -11,14 +11,15 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
 
         <section class="hero-banner"> <!--Front page banner-->
-            <h2 class="hero-header">Mountain
-            Health</h2>
+            <div class="parallax-scroll"></div>
+                <h2 class="hero-header">Mountain Health</h2>
             <div class="header-text">
                 <p>To empower every person to have a fulfilling healthy life and feel connected
-                to their community and their environment.</p>
+                    to their community and their environment.</p>
             </div>
             <div class="keep-scrolling"></div>
         </section><!--End of hero-banner-->
+        
 
         <section class="booking"><!--Booking for front page-->
             <div></div>

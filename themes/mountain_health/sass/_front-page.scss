@@ -18,22 +18,35 @@
     font-size: 15px;
 }
 
+.parallax-scroll {
+    height: 300%;
+    width: 320px;
+    margin: 0 auto;
+    background: url(../../MTH-Assets/photos/mobile-front-hero.png) no-repeat;
+    background-size: 320px 480px;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+
 .hero-banner {
     max-width: 320px;
     height: 480px;
-    background: url(../../MTH-Assets/photos/mobile-front-hero.png);
     background-size: cover;
     color: white;
     margin-bottom: 30px;
-    margin-left:auto;
-    margin-right: auto;x
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     .hero-header {
         font-size: 28px;
         text-align: right;
         margin-bottom: 20px;
         margin-top: 0px;
         line-height: 41px;
-        padding-top: 213px;
         letter-spacing: 3px;
         font-family: 'Oswald';
         text-transform: uppercase;
@@ -117,6 +130,7 @@
 
 .booking {
     div {
+        margin-top: 330px;
         width: 280px;
         height: 105px;
         background: url(../../MTH-Assets/photos/naturopathy-visual.png);
