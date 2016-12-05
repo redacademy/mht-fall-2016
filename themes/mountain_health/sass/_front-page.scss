@@ -35,14 +35,12 @@
     background-size: cover;
     color: white;
     margin-bottom: 30px;
-<<<<<<< HEAD
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-=======
     margin-left:auto;
     margin-right: auto;
     @include mobile-break-width{

@@ -952,15 +952,10 @@ object {
 .hero-banner {
   max-width: 320px;
   height: 480px;
-<<<<<<< HEAD
-=======
-  background: url(../../MTH-Assets/photos/mobile-front-hero.png);
->>>>>>> 776917a869b561aaa5c4339ec5413db12e275a17
   background-size: cover;
   color: white;
   margin-bottom: 30px;
   margin-left: auto;
-<<<<<<< HEAD
   margin-right: auto;
   display: -ms-flexbox;
   display: flex;
@@ -969,8 +964,8 @@ object {
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
-      justify-content: center; }
-=======
+      justify-content: center;
+  margin-left: auto;
   margin-right: auto; }
   @media (min-width: 480px) {
     .hero-banner {
@@ -979,8 +974,8 @@ object {
       background: url(../../MTH-Assets/photos/front-page-desktop-hero.png);
       background-size: cover;
       background-position: center center; } }
->>>>>>> 776917a869b561aaa5c4339ec5413db12e275a17
-  .hero-banner .hero-header {
+  .hero-banner > > > > > > > 776917a869b561aaa5c4339ec5413db12e275a17
+.hero-header {
     font-size: 28px;
     text-align: right;
     margin-bottom: 20px;
@@ -991,7 +986,8 @@ object {
     text-transform: uppercase;
     text-align: center; }
     @media (min-width: 480px) {
-      .hero-banner .hero-header {
+      .hero-banner > > > > > > > 776917a869b561aaa5c4339ec5413db12e275a17
+.hero-header {
         font-size: 72px;
         letter-spacing: normal;
         padding-top: 375px;
