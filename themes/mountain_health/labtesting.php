@@ -57,12 +57,14 @@ get_header(); ?>
 						<div class="">
 				<div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "prevNextButtons": false}'>
 						<?php   foreach ( $fields as $field ) : ?>
+
 						<div class="carousel-cell">
-							<button class="labtesting-btn-off"> <?php   echo $field['labtesting_title']; ?> </button>
+						<button class="labtesting-btn-off"> <?php   echo $field['labtesting_title']; ?> </button>
 						</div>
+						
 						<?php endforeach; ?>
-					</div>
-</div>
+				</div>
+            </div>
                 <?php   foreach ( $fields as $field ) : ?>
 									<div class="test-wraper">
             <img src="<?php  echo $field['labtesting_img']; ?>"/>
