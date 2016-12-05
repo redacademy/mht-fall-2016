@@ -1,90 +1,129 @@
-    .contact-us {
-        text-align: center;
+.contact-us {
+    text-align: center;
+    width: 320px;
+    .contact-us-hero {
+        background: url(../../MTH-Assets/photos/contact-us-hero.jpg);
         width: 320px;
-        .contact-us-hero {
-            background: url(../../MTH-Assets/photos/contact-us-hero.jpg);
-            width: 320px;
-            height: 123px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-        }
-        h2 {
-            text-transform: uppercase;
-            color: $header-color;
-            font-size: $medium-font;
-        }
-        p {
-            color: $body-color;
-            font-size: $small-font;
-        }
+        height: 123px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .x-icon {
+        position: absolute;
+        top: 196px;
+        left: 53.5%;
+        z-index: 3
+    }
+    h1 {
+        font-weight: normal;
+        font-size: $medium-font;
+        text-transform: uppercase;
+    }
+    h2 {
+        text-transform: uppercase;
+        color: $header-color;
+        font-size: $medium-font;
+    }
+    p {
+        color: $body-color;
+        font-size: $small-font;
+    }
+    .call,
+    .send-us-a-message,
+    .open-hours {
+        font-weight: bold;
+    }
+    .number-and-icon {
+        display: flex;
+        width: 280px;
+        height: 35px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
         .phone-number {
             color: $body-color;
             font-size: $medium-font;
             text-decoration: none;
-        }
-        .wpcf7-form {
-            text-align: left;
-            width: 280px;
-            margin: 0 auto;
-        }
-        label {
-            font-size: $small-font;
-            line-height: 19px;
-            color: #003d5c;
-        }
-        input {
-            width: 280px;
-            height: 41px;
-            background-color: #FFFFFF;
-            border: 1px solid #919191;
-            border-radius: 4px;
-            color: rgba(155, 155, 155, 0.6);
-            padding-left: 15px;
-        }
-        textarea {
-            width: 280px;
-            height: 280px;
-            background-color: #FFFFFF;
-            border: 1px solid #919191;
-            border-radius: 4px;
-        }
-        input[type="submit"] {
-            width: 150px;
-            height: 40px;
-            border-radius: 20px;
-            color: #fff;
-            margin: 0 65px;
-            box-shadow: none;
-            border: none;
-            p {
-                margin: 0;
-            }
+            padding-left: 8px;
         }
     }
-    
-    p.line-around {
-        position: relative;
-        z-index: 1;
-        &:before {
-            border-top: 2px solid $body-color;
-            content: "";
-            margin: 0 auto;
-            /* this centers the line to the full width specified */
-            position: absolute;
-            /* positioning must be absolute here, and relative positioning must be applied to the parent */
-            top: 50%;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 95%;
-            z-index: -1;
-        }
-        span {
-            /* to hide the lines from behind the text, you have to set the background color the same as the container */
-            background: #fff;
-            padding: 0 15px;
-            text-transform: uppercase;
+    .wpcf7-form {
+        text-align: left;
+        width: 280px;
+        margin: 0 auto;
+    }
+    div.wpcf7-mail-sent-ok {
+        padding: 0.2em 1em;
+        position: absolute;
+        top: 0;
+        position: absolute;
+        top: 86px;
+        width: 320px;
+        height: 125px;
+        margin: 0 auto;
+        left: 0;
+        color: white;
+        text-align: center;
+        background: url(../../MTH-Assets/other/message-sent-bg.png);
+        border: none;
+        ;
+    }
+    label {
+        font-size: $small-font;
+        line-height: 19px;
+        color: #003d5c;
+    }
+    input {
+        width: 280px;
+        height: 41px;
+        background-color: #FFFFFF;
+        border: 1px solid #919191;
+        border-radius: 4px;
+        color: rgba(155, 155, 155, 0.6);
+        padding-left: 15px;
+    }
+    textarea {
+        width: 280px;
+        height: 280px;
+        background-color: #FFFFFF;
+        border: 1px solid #919191;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        color: #fff;
+        margin: 0 50px;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+        font-family: 'open_sans', 'sans-serif';
+        p {
+            margin: 0;
         }
     }
+    .hours {
+        color: $header-color;
+    }
+}
+
+.or {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+    padding: 19px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #003d5c;
+    p {
+        padding-top: 5px;
+    }
+}
+
+.grey-background {
+    background: #eee;
+}
