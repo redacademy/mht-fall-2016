@@ -49,8 +49,8 @@
         background:url(../../MTH-Assets/photos/front-page-desktop-hero.png);
         background-size: cover;
         background-position:center center;
+        margin-bottom: 80px;
     }
->>>>>>> 776917a869b561aaa5c4339ec5413db12e275a17
     .hero-header {
         font-size: 28px;
         text-align: right;
@@ -94,6 +94,10 @@
     .what-is-hero {
         font-size: 17px;
         text-align: center;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+            text-transform: uppercase;
+        }
     }
 }
 
@@ -162,6 +166,12 @@
         background: url(../../MTH-Assets/photos/naturopathy-visual.png);
         background-size: cover;
         margin-top: 0px;
+        @include mobile-break-width{
+            max-width: 1324px;
+            width: 75%;
+            height: 500px;
+            background: url(../../MTH-Assets/photos/naturopathy-visual-desktop.png);
+        }
     }
 }
 
