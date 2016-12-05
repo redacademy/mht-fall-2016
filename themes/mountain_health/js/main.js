@@ -26,12 +26,16 @@
     // news and events button to show/hide news/events
     $(".events-section").on('click', function() {
         event.preventDefault();
+        $(".events-section").removeClass('events-section-off').addClass('events-section-on');
+        $(".news-section").removeClass('news-section-on').addClass('news-section-off');
         $(".events-lists").show();
         $(".news-lists").hide();
     });
 
     $(".news-section").on('click', function() {
         event.preventDefault();
+        $(".news-section").removeClass('news-section-off').addClass('news-section-on');
+        $(".events-section").removeClass('events-section-on').addClass('events-section-off');
         $(".news-lists").show();
         $(".events-lists").hide();
     });

@@ -8,45 +8,114 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-			<button class="news-section">News</button>
-            <button class="events-section">Events</button>
-
-
-            <div class="events-lists" style="display:none;"> 
-               <p>test events</p>  
-<?php 
-
-  $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-
+			<section class="archive-news-hero-image">
+			<h1>News &amp; Events</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+			</section>
+			<section class="article-nav-links article-nav-links-archive">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+				<a href="<?php echo get_page_link(10); ?>">Resources &gt; </a>
+				<p><?php wp_title( '' ); ?></p>
+			</section>
+			<div class="news-events-wrapper">
+		<div class="news-events-btns">
+			<button class="news-section news-section-on">News</button>
+      <button class="events-section events-section-off">Events</button>
+		</div>
+	</div>
+<div class="events-lists" style="display:none;">
+	<?php
+	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
   $custom_args = array(
       'post_type' => 'event',
       'posts_per_page' => 3,
       'paged' => $paged
     );
-
   $custom_query = new WP_Query( $custom_args ); ?>
-
   <?php if ( $custom_query->have_posts() ) : ?>
-
     <!-- the loop -->
     <?php while ( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
-      <article class="loop">
-    <a href="<?php the_permalink(); ?>" >
-    <h1><?php echo the_title(); ?></h1>
-    </a>
-        <div>
-    <?php if ( has_post_thumbnail() ) : ?>
-	<?php the_post_thumbnail( 'original' ); ?>
-	<?php endif; ?>
-    </div>
-    <div class="content">
-    <?php the_excerpt(); ?>
-<p><?php echo CFS()->get( 'event_date' );?></p>
-<p><?php echo CFS()->get( 'event_time' );?></p>
-<p><?php echo CFS()->get( 'event_location' );?></p>
-    </div>
+
+			<article class="single-event-wrapper">
+				<div class="event-img-wrapper">
+					<?php if ( has_post_thumbnail() ) : ?>
+					<?php the_post_thumbnail( 'original' ); ?>
+					<?php endif; ?>
+				</div>
+				<div class="single-eventinfo-wrapper">
+					<a href="<?php the_permalink(); ?>" >
+    				<h1><?php echo the_title(); ?></h1>
+    			</a>
+					<div class="content">
+					<?php the_excerpt(); ?>
+					</div>
+				<div class="custom-data-event">
+					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/date-icn.png" alt="">
+					<p><?php echo CFS()->get( 'event_date' );?>,
+					<?php echo CFS()->get( 'event_time' );?></p>
+				</div>
+				<div class="custom-data-event">
+					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/location-block-icn.png" alt="">
+					<p><?php echo CFS()->get( 'event_location' );?></p>
+				</div>
+				</div>
       </article>
+
+    <?php endwhile; ?>
+    <!-- end of the loop -->
+    <!-- pagination here -->
+    <?php
+      if (function_exists('custom_pagination')) {
+        custom_pagination($custom_query->max_num_pages,"",$paged);}?>
+  		<?php wp_reset_postdata(); ?>
+  	<?php else:  ?>
+    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+  	<?php endif; ?>
+</div>
+
+
+
+
+<!-- news loop start here -->
+
+<div class="news-lists">
+               <?php
+
+  $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+  $custom_args = array(
+      'post_type' => 'news',
+      'posts_per_page' => 3,
+      'paged' => $paged
+    );
+  $custom_query = new WP_Query( $custom_args ); ?>
+  <?php if ( $custom_query->have_posts() ) : ?>
+    <!-- the loop -->
+    <?php while ( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
+<article class="single-event-wrapper">
+	<div class="event-img-wrapper">
+		<?php if ( has_post_thumbnail() ) : ?>
+		<?php the_post_thumbnail( 'original' ); ?>
+		<?php endif; ?>
+	</div>
+	<div class="single-eventinfo-wrapper">
+				<?php if ( 'news' === get_post_type() ) : ?>
+				<div class="custom-data-event">
+					<?php red_starter_posted_on(); ?>
+				</div><!-- .entry-meta -->
+				<?php endif; ?>
+				<h1><?php the_title(); ?></h1>
+        <div class="content">
+          <?php the_excerpt(); ?>
+        </div>
+				<div class="link-read-more-archive">
+						<a href="<?php the_permalink(); ?>">
+					<button class="primary-button primary-button-subscribe">
+						Read More
+					</button>
+				</a>
+			</div>
+</div>
+</article>
     <?php endwhile; ?>
     <!-- end of the loop -->
 
@@ -62,61 +131,17 @@ get_header(); ?>
   <?php else:  ?>
     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
   <?php endif; ?>
-
-            </div>
-            
-            <div class="news-lists"> 
-               <?php 
-
-  $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-
-  $custom_args = array(
-      'post_type' => 'news',
-      'posts_per_page' => 3,
-      'paged' => $paged
-    );
-
-  $custom_query = new WP_Query( $custom_args ); ?>
-
-  <?php if ( $custom_query->have_posts() ) : ?>
-
-    <!-- the loop -->
-    <?php while ( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
-      <article class="loop">
-        <h3><?php the_title(); ?></h3>
-        <div>
-    <?php if ( has_post_thumbnail() ) : ?>
-	<?php the_post_thumbnail( 'original' ); ?>
-	<?php endif; ?>
-    </div>
-        <div class="content">
-          <?php the_excerpt(); ?>
-        </div>
-    <a href="<?php the_permalink(); ?>" >
-	<button class="">
-	Read more
-	</button>
-	</a>
-      </article>
-    <?php endwhile; ?>
-    <!-- end of the loop -->
-
-    <!-- pagination here -->
-    <?php
-      if (function_exists('custom_pagination')) {
-        custom_pagination($custom_query->max_num_pages,"",$paged);
-      }
-    ?>
-
-  <?php wp_reset_postdata(); ?>
-
-  <?php else:  ?>
-    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-  <?php endif; ?> 
             </div>
 
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	<div class="load-more">
+		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/down-arrow-load-more.png" alt="logo">
+		<a href="#">Load More</a>
+	</div>
+	<div class="mountains">
+		<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
+		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
+	</div>
 <?php get_footer(); ?>

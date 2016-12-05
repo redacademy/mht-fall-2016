@@ -2360,6 +2360,137 @@ header.entry-header-article {
   -ms-flex-pack: center;
       justify-content: center; }
 
+.archive-news-hero-image {
+  color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: url(../../MTH-Assets/photos/visual-hero-banner@3x-news_event.png) no-repeat top;
+  background-size: cover;
+  height: 40vh; }
+  .archive-news-hero-image h1 {
+    text-transform: uppercase; }
+  .archive-news-hero-image p {
+    text-align: center;
+    font-family: 'open_sans';
+    font-size: 15px; }
+    @media (min-width: 600px) {
+      .archive-news-hero-image p {
+        max-width: 800px; } }
+
+.news-events-btns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  cursor: pointer;
+  width: 446px;
+  text-align: center;
+  border: solid 4px #1a9481;
+  border-radius: 10px 10px 0px 10px; }
+
+.news-events-wrapper {
+  padding: 2rem 2rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.news-section-on {
+  font-size: xx-large;
+  border: none;
+  background-color: #1a9481;
+  width: 223px;
+  text-align: center;
+  border: solid 4px #1a9481;
+  border-radius: 4px 0px 0px 4px;
+  padding: 0.75rem 1rem;
+  color: white;
+  height: 80px; }
+
+.events-section-off {
+  font-size: xx-large;
+  border: none;
+  background-color: transparent;
+  width: 223px;
+  text-align: center;
+  height: 80px;
+  color: #003d5c; }
+
+.news-section-off {
+  font-size: xx-large;
+  border: none;
+  background-color: transparent;
+  width: 223px;
+  text-align: center;
+  height: 80px;
+  color: #003d5c; }
+
+.events-section-on {
+  font-size: xx-large;
+  border: none;
+  background-color: #1a9481;
+  width: 223px;
+  text-align: center;
+  border: solid 4px #1a9481;
+  border-radius: 0px 4px 0px 0px;
+  padding: 0.75rem 1rem;
+  color: white;
+  height: 80px; }
+
+.single-event-wrapper {
+  width: 380px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  @media (min-width: 600px) {
+    .single-event-wrapper {
+      width: 1200px;
+      -ms-flex-direction: row;
+          flex-direction: row; } }
+
+.single-eventinfo-wrapper {
+  padding-bottom: 1rem; }
+  .single-eventinfo-wrapper .content {
+    color: #003d5c; }
+  .single-eventinfo-wrapper h1 {
+    margin: 0;
+    font-family: 'oswald';
+    line-height: 1.53;
+    text-align: left;
+    color: #6a7059;
+    text-transform: uppercase; }
+  @media (min-width: 600px) {
+    .single-eventinfo-wrapper {
+      width: 1040px;
+      padding: 40px; }
+      .single-eventinfo-wrapper .link-read-more-archive {
+        float: left; } }
+
+.custom-data-event {
+  display: -ms-flexbox;
+  display: flex; }
+  .custom-data-event img {
+    padding: 0 1rem .2rem 0; }
+  .custom-data-event p {
+    font-family: 'open_sans';
+    font-weight: bold;
+    line-height: 1.73;
+    letter-spacing: 0.8px;
+    color: #003d5c;
+    margin: 0; }
+
+@media (min-width: 600px) {
+  .event-img-wrapper {
+    width: 1040px;
+    padding: 40px; } }
 .search-results .page-header {
   height: 123px;
   background: url(../../MTH-Assets/photos/search-results-hero.png);
