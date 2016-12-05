@@ -70,13 +70,10 @@
         $(".events-lists").hide();
     });
     /////////
-    // $(".labtesting-btn-off").on('click', 'button', function(){
-    //   console.log($(".labtesting-btn-off").text());
-    // });
+    $('.labtesting-btn-off').on('click', function(){
+      $('.labtesting-single-wrapper-active').stop().hide();
+      $(this).next('.labtesting-single-wrapper-active').stop().show();
+    });
 
 
 })(jQuery);
-// $('.prize-categories').on('click', '.category-name', function () {
-//    $(this).siblings().children().slideToggle('fast');
-//    $(this).siblings().children().next().toggle('fast');
-//  });
