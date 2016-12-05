@@ -913,11 +913,13 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.site-main p, .site-main li {
+.site-main p,
+.site-main li {
   font-size: 15px;
   font-family: 'open_sans'; }
 
-.site-main h2, .site-main h3 {
+.site-main h2,
+.site-main h3 {
   font-family: 'oswald';
   font-weight: normal; }
 
@@ -1145,6 +1147,7 @@ body {
 
 .front-page-slider {
   height: 300px;
+  width: 320px;
   text-align: center;
   background: url(../../MTH-Assets/photos/carousal-01.png);
   background-size: cover;
@@ -1157,12 +1160,17 @@ body {
     margin-right: auto;
     line-height: 1.27;
     margin-bottom: 60px; }
+  .front-page-slider h2 {
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 60px; }
 
-.front-page-slider h2 {
-  font-size: 17px;
-  color: #fff;
-  text-transform: uppercase;
-  padding-top: 60px; }
+.carousel {
+  width: 100%; }
+
+.flickity-prev-next-button:disabled {
+  display: none; }
 
 .did-you-know h2 {
   color: #677257;
@@ -1516,9 +1524,6 @@ body {
     margin: 0;
     margin-bottom: 20px; }
 
-.page-template-book-appointment {
-  max-width: 320px; }
-
 .book-appointment-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/book-appointment-hero.png);
@@ -1601,11 +1606,135 @@ body {
 .book-appointment-email h3 {
   margin-bottom: 9px;
   text-align: left;
-  margin-left: 20px; }
+  margin-left: 20px;
+  font-weight: normal; }
 
 .book-appointment-email input {
   width: 280px;
-  height: 42px; }
+  height: 42px;
+  border: solid 1px #919191; }
+
+.book-appointment-email button {
+  color: white;
+  background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+  border-radius: 30000px;
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  margin-top: 30px; }
+
+.book-appointment-use-smart h3 {
+  margin: 0px; }
+
+.book-appointment-use-smart p {
+  margin: 0px;
+  color: #003d5c; }
+
+.already-smartnd {
+  color: #003A5F; }
+  .already-smartnd p:first-child {
+    width: 265px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.smartnd-logo {
+  width: 133px;
+  height: 22px;
+  background-image: url(../../MTH-Assets/logos/snd-logo.png);
+  background-size: cover;
+  background-position: center center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px; }
+
+.why-use-smartnd {
+  height: 299px;
+  background-image: linear-gradient(to right, #1a9481, #9bcc93);
+  line-height: 18px; }
+
+.why-use-smartnd h2 {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-top: 0px; }
+
+.why-use-smartnd h3 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "open_sans"; }
+
+.wavy-arrows {
+  height: 31px;
+  width: 26px;
+  background-image: url(../../MTH-Assets/icons/change-icon.png);
+  background-size: cover;
+  background-position: center center; }
+
+.update-patient-pic {
+  height: 31px;
+  width: 37px;
+  background-image: url(../../MTH-Assets/icons/update.png);
+  background-size: cover;
+  background-position: center center; }
+
+.smartnd-clipboard {
+  height: 31px;
+  width: 23px;
+  background-image: url(../../MTH-Assets/icons/form.png);
+  background-size: cover;
+  background-position: center center; }
+
+.smartnd-form-img {
+  height: 31px;
+  width: 25px;
+  background-image: url(../../MTH-Assets/icons/treatment.png);
+  background-size: cover;
+  background-position: center center; }
+
+.why-use-upper {
+  display: -ms-flexbox;
+  display: flex; }
+
+.why-use-lower {
+  display: -ms-flexbox;
+  display: flex; }
+
+.why-use-smartnd-content {
+  width: 160px; }
+
+.smart-nd-forms h3 {
+  width: 95px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.smart-nd-plans h3 {
+  width: 118px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.smartnd-icon-bg {
+  width: 60px;
+  height: 60px;
+  background-color: #1a9481;
+  border-radius: 2000000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 1px solid white; }
+
+.mountains {
+  transform: translateY(7px); }
 
 .contact-us {
   text-align: center;
@@ -2362,3 +2491,68 @@ header.entry-header-article {
   .event-img-wrapper {
     width: 1040px;
     padding: 40px; } }
+.search-results .page-header {
+  height: 123px;
+  background: url(../../MTH-Assets/photos/search-results-hero.png);
+  background-size: cover;
+  background-position: center center; }
+  .search-results .page-header .page-title {
+    padding-top: 40px;
+    text-align: center;
+    width: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: normal; }
+
+.search-results article {
+  text-align: center; }
+  .search-results article .entry-header {
+    background-color: black;
+    height: 150px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto; }
+  .search-results article h2 {
+    font-size: 15px;
+    padding-top: 62px;
+    text-transform: uppercase; }
+    .search-results article h2 a {
+      color: white; }
+
+.search-results article p {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #003A5F;
+  line-height: 1.2; }
+
+.redirect {
+  text-align: center; }
+  .redirect h2 {
+    font-size: 15px;
+    color: #003d5c;
+    font-family: "opens_sans";
+    margin-bottom: 10px; }
+
+.redirect h3 {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #003d5c;
+  line-height: 1.2; }
+  .redirect h3 span {
+    font-size: 24px; }
+
+.redirect p {
+  margin-top: 0px;
+  margin-bottom: 30px; }
+
+.redirect a {
+  color: #1a9481;
+  font-size: 12px; }
+
+.redirect a:visited {
+  color: #1a9481; }
