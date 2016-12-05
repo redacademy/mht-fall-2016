@@ -51,3 +51,11 @@ body {
     background: url(../../MTH-Assets/other/organic-bg.png), white;
     background-size: cover;
 }
+
+.site-main,
+.main-header,
+.content-area,
+.main-navigation {
+    width: 320px;
+    margin: 0 auto;
+}
