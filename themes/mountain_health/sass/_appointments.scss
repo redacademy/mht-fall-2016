@@ -1,0 +1,30 @@
+.appointments-hero-image {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../../MTH-Assets/photos/visual-hero-banner@3x-appointment.png) no-repeat top;
+  background-size: cover;
+  height: 40vh;
+h1 {
+  text-transform: uppercase;
+}
+p {
+  text-align: center;
+  font-family: 'open_sans';
+font-size: 15px;
+@media (min-width: 600px) {
+max-width: 800px;
+}}
+}
+.text-stroke-box{
+position: absolute;
+}
+.stroke-box, .stroke-box2, .stroke-box3, .stroke-box4, .stroke-box5{
+position: relative;
+}
+.appointments-wrapper{
+  width: 450px;
+  margin: 0 auto;
+}

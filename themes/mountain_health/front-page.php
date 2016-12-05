@@ -26,7 +26,7 @@ get_header(); ?>
                 <p>Naturopathic medicine is a type of healthcare that offers individualized,
                 natural healthcare. It combines the best of traditional treatments with
                 evidence-based medicine. </p>
-            <a href="#" class="front-button what-is-button">Book an appointment</a>  
+            <a href="#" class="front-button what-is-button">Book an appointment</a>
         </section>
 
         <section class="benifits">
@@ -95,7 +95,7 @@ get_header(); ?>
                     <p>A primary care provider trained in both natural and pharmaceutical therapies. Naturopathic physicians can prescribe</p>
                     <a href="#" class="front-button">Read More</a>
                 </div>
-                
+
                 <div class="carousel-cell front-page-slider">
                     <h2>What is a Naturopathic physician?</h2>
                     <p>A primary care provider trained in both natural and pharmaceutical therapies. Naturopathic physicians can prescribe</p>
@@ -131,5 +131,8 @@ get_header(); ?>
         </div>
     </main><!-- #main -->
 </div><!-- #primary -->
-
+<div class="mountains">
+  <img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
+  <img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
+</div>
 <?php get_footer(); ?>

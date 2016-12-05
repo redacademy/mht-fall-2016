@@ -1524,6 +1524,39 @@ body {
     margin: 0;
     margin-bottom: 20px; }
 
+.appointments-hero-image {
+  color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: url(../../MTH-Assets/photos/visual-hero-banner@3x-appointment.png) no-repeat top;
+  background-size: cover;
+  height: 40vh; }
+  .appointments-hero-image h1 {
+    text-transform: uppercase; }
+  .appointments-hero-image p {
+    text-align: center;
+    font-family: 'open_sans';
+    font-size: 15px; }
+    @media (min-width: 600px) {
+      .appointments-hero-image p {
+        max-width: 800px; } }
+
+.text-stroke-box {
+  position: absolute; }
+
+.stroke-box, .stroke-box2, .stroke-box3, .stroke-box4, .stroke-box5 {
+  position: relative; }
+
+.appointments-wrapper {
+  width: 450px;
+  margin: 0 auto; }
+
 .book-appointment-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/book-appointment-hero.png);
@@ -2491,6 +2524,7 @@ header.entry-header-article {
   .event-img-wrapper {
     width: 1040px;
     padding: 40px; } }
+
 .search-results .page-header {
   height: 123px;
   background: url(../../MTH-Assets/photos/search-results-hero.png);
