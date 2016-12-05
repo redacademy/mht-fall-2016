@@ -1872,7 +1872,7 @@ p.line-around {
     text-align: center;
     font-size: 14px;
     color: #003A5F;
-    line-height: 18px; }
+    line-height: 1.2; }
 
 .news-events h2, .news-events p, .articles-research h2, .articles-research p, .recipes-nutrition h2, .recipes-nutrition p {
   margin-top: 0;
