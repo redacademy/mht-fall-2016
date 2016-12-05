@@ -18,23 +18,15 @@
     font-size: 15px;
 }
 
-<<<<<<< HEAD
-// body {
-//     // max-width: 320px;
-//     background: url(../../MTH-Assets/photos/main-bg.png);
-//     background-position: center center;
-// }
-
-// css for hero banner section
-=======
->>>>>>> a9f834f6d25d19e7d6b0b49557272c7aaf62db16
 .hero-banner {
     max-width: 320px;
     height: 480px;
-    background: url(../../MTH-Assets/photos/mobile-overlay.png);
+    background: url(../../MTH-Assets/photos/mobile-front-hero.png);
     background-size: cover;
     color: white;
     margin-bottom: 30px;
+    margin-left:auto;
+    margin-right: auto;x
     .hero-header {
         font-size: 28px;
         text-align: right;
