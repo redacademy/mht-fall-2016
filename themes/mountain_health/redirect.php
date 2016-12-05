@@ -13,7 +13,7 @@ get_header(); ?>
             <h3>in <span class="number-countdown">5</span>s</h3>
             <p><a href="#">Go to SmartND now</a></p>
         </section>
-        <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/footer_mountain.png" alt="green and white image that looks like mountains">
+        <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/footer_mountain.png" class="mountains" alt="green and white image that looks like mountains">
         <section class="why-use-smartnd">
             <h2>Why using smartND?</h2>
             <div class="why-use-upper">
