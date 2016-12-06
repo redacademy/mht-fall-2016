@@ -2377,7 +2377,6 @@ header.entry-header-article {
     font-size: small; }
 
 .error404 {
-  max-width: 375px;
   background: url(../../MTH-Assets/photos/main-bg.png);
   background-position: center center; }
 
@@ -2388,6 +2387,10 @@ header.entry-header-article {
   background: url(../../MTH-Assets/photos/404-hero.png);
   background-size: cover;
   background-position: center center; }
+  @media (min-width: 480px) {
+    .error-hero {
+      height: 320px;
+      background: url(../../MTH-Assets/photos/404-hero-desktop.png); } }
   .error-hero p {
     text-align: center;
     font-size: 15px;
@@ -2397,12 +2400,20 @@ header.entry-header-article {
     margin-right: auto;
     font-family: 'open_sans';
     line-height: 1.2; }
+    @media (min-width: 480px) {
+      .error-hero p {
+        font-size: 22px;
+        width: 100%; } }
 
 .error-hero h1 {
   font-size: 17px;
   font-weight: normal;
   margin: 0px;
   padding-top: 25px; }
+  @media (min-width: 480px) {
+    .error-hero h1 {
+      font-size: 48px;
+      padding-top: 108px; } }
 
 .not-found-content {
   margin-top: 34.2px;
@@ -2410,12 +2421,24 @@ header.entry-header-article {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column; }
+  @media (min-width: 480px) {
+    .not-found-content {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: end;
+          align-items: flex-end; } }
   .not-found-content .not-found-apple {
     width: 80px;
     height: 96px;
     background: url(../../MTH-Assets/icons/apple.png);
     background-size: cover;
     background-position: center center; }
+    @media (min-width: 480px) {
+      .not-found-content .not-found-apple {
+        width: 115px;
+        height: 138px; } }
 
 .not-found-content .text-bubble {
   width: 80px;
@@ -2423,6 +2446,10 @@ header.entry-header-article {
   background: url(../../MTH-Assets/icons/message.png);
   background-size: cover;
   background-position: center center; }
+  @media (min-width: 480px) {
+    .not-found-content .text-bubble {
+      width: 124px;
+      height: 114px; } }
 
 .not-found-div {
   display: -ms-flexbox;
@@ -2432,10 +2459,20 @@ header.entry-header-article {
   -ms-flex-align: center;
       align-items: center;
   text-align: center; }
+  @media (min-width: 480px) {
+    .not-found-div {
+      margin-top: 141px;
+      margin-left: 8.2%;
+      margin-right: 8.2%;
+      margin-bottom: 79px; } }
 
 .not-found-content p {
   color: #003A5F;
   font-size: 15px; }
+  @media (min-width: 480px) {
+    .not-found-content p {
+      font-size: 22px;
+      width: 100%; } }
 
 .not-found-button {
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
@@ -2446,6 +2483,13 @@ header.entry-header-article {
   margin-bottom: 30px;
   border-radius: 20000px;
   color: white; }
+
+.mountain-not-found {
+  height: 20px; }
+  @media (min-width: 480px) {
+    .mountain-not-found {
+      height: 109px;
+      width: 100%; } }
 
 .archive-recipe-hero-image {
   color: #ffffff;

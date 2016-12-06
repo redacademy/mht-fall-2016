@@ -27,6 +27,9 @@ get_header(); ?>
 				<a href="#" class="primarry-button not-found-button">Contact Us</a>
 			</div>
 		</section>
+		<div>
+			<img class="mountain-not-found" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/mountains-desktop.png" alt="green mountains">
+		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
