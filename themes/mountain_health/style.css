@@ -2749,6 +2749,10 @@ header.entry-header-article {
   background: url(../../MTH-Assets/photos/search-results-hero.png);
   background-size: cover;
   background-position: center center; }
+  @media (min-width: 480px) {
+    .search-results .page-header {
+      background: url(../../MTH-Assets/photos/search-results-hero-desktop.png);
+      height: 320px; } }
   .search-results .page-header .page-title {
     padding-top: 40px;
     text-align: center;
@@ -2759,19 +2763,44 @@ header.entry-header-article {
     font-size: 17px;
     text-transform: uppercase;
     font-weight: normal; }
+    @media (min-width: 480px) {
+      .search-results .page-header .page-title {
+        font-size: 43px;
+        width: 409px;
+        padding-top: 102px; } }
 
 .search-results article {
   text-align: center; }
+  @media (min-width: 480px) {
+    .search-results article {
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+      width: 632px; } }
   .search-results article .entry-header {
     background-color: black;
     height: 150px;
     width: 280px;
     margin-left: auto;
     margin-right: auto; }
+    @media (min-width: 480px) {
+      .search-results article .entry-header {
+        width: 632px;
+        height: 342px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center; } }
   .search-results article h2 {
     font-size: 15px;
     padding-top: 62px;
     text-transform: uppercase; }
+    @media (min-width: 480px) {
+      .search-results article h2 {
+        font-size: 36px;
+        margin: 0px;
+        padding: 0px; } }
     .search-results article h2 a {
       color: white; }
 
@@ -2782,6 +2811,18 @@ header.entry-header-article {
   text-align: left;
   color: #003A5F;
   line-height: 1.2; }
+  @media (min-width: 480px) {
+    .search-results article p {
+      width: 632px;
+      font-size: 22px; } }
+
+@media (min-width: 480px) {
+  .search-results-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 224px; } }
 
 .redirect {
   text-align: center; }
