@@ -1,6 +1,5 @@
 .site-main {
-    p,
-    li {
+    p{
         font-size: 15px;
         font-family: 'open_sans';
     }
@@ -14,9 +13,6 @@
     }
 }
 
-.list-span {
-    font-size: 15px;
-}
 
 .parallax-scroll {
     height: 300%;
@@ -155,6 +151,11 @@
         width: 277px;
         text-align: center;
         margin-top: 0px;
+        @include mobile-break-width{
+            font-size: $small-font-dt;
+            width: 807px;
+
+        }
     }
 }
 
@@ -182,6 +183,11 @@
     height: 299px;
     display: flex;
     flex-wrap: wrap;
+    @include mobile-break-width{
+        background:  linear-gradient(to right, #1a9481, #9bcc93);
+        width: 1764px;
+        height: 598px;
+    }
     h2 {
         color: white;
         text-align: left;
@@ -192,6 +198,12 @@
         margin-bottom: 19px;
         line-height: 21px;
         text-transform: uppercase;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+            flex: 1 0 100%;
+            max-width: 693px;
+            width:693px;
+        }
     }
 }
 
@@ -200,7 +212,10 @@
     color: white;
     margin-left: 62px;
     font-size: 15px;
-    list-style-image: url(../../MTH-Assets/other/leaf.png)
+    list-style-image: url(../../MTH-Assets/other/leaf.png);
+    @include mobile-break-width{
+        font-size: $small-font-dt;
+    }
 }
 
 .checkboard {
@@ -211,6 +226,14 @@
     margin-top: 20px;
     margin-left: 35px;
     margin-right: 8px;
+    @include mobile-break-width{
+        width: 296px;
+        max-width: 296px;
+        height: 366px;
+        background: url(../../MTH-Assets/icons/checkmark-icon-desktop.png);
+        background-size: cover;
+        background-position: center center;
+    }
 }
 
 // Front Page Compared to Traditional Section
@@ -323,6 +346,10 @@
 
 .what-is-button {
     margin-bottom: 30px;
+}
+
+.what-is-button:visited{
+    color: white;
 }
 
 .flex-button {

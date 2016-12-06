@@ -32,8 +32,7 @@ get_header(); ?>
 
         <section class="benifits">
             <div class="checkboard"></div>
-            <h2>Benifits of Naturopathic
-            Medical Treatment</h2>
+            <h2>Benifits of Naturopathic Medical Treatment</h2>
             <ul class="benifits-list">
                 <li><span class="list-span">Increased energy</span></li>
                 <li><span class="list-span">Weight loss</span></li>

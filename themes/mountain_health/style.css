@@ -926,8 +926,7 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.site-main p,
-.site-main li {
+.site-main p {
   font-size: 15px;
   font-family: 'open_sans'; }
 
@@ -935,9 +934,6 @@ object {
 .site-main h3 {
   font-family: 'oswald';
   font-weight: normal; }
-
-.list-span {
-  font-size: 15px; }
 
 .parallax-scroll {
   height: 300%;
@@ -1066,6 +1062,10 @@ object {
     width: 277px;
     text-align: center;
     margin-top: 0px; }
+    @media (min-width: 480px) {
+      .booking p {
+        font-size: 22px;
+        width: 807px; } }
 
 .booking div {
   margin-top: 330px;
@@ -1089,6 +1089,11 @@ object {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+  @media (min-width: 480px) {
+    .benifits {
+      background: linear-gradient(to right, #1a9481, #9bcc93);
+      width: 1764px;
+      height: 598px; } }
   .benifits h2 {
     color: white;
     text-align: left;
@@ -1100,6 +1105,13 @@ object {
     margin-bottom: 19px;
     line-height: 21px;
     text-transform: uppercase; }
+    @media (min-width: 480px) {
+      .benifits h2 {
+        font-size: 36px;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+        max-width: 693px;
+        width: 693px; } }
 
 .benifits-list {
   line-height: 22px;
@@ -1107,6 +1119,9 @@ object {
   margin-left: 62px;
   font-size: 15px;
   list-style-image: url(../../MTH-Assets/other/leaf.png); }
+  @media (min-width: 480px) {
+    .benifits-list {
+      font-size: 22px; } }
 
 .checkboard {
   max-width: 29px;
@@ -1117,6 +1132,14 @@ object {
   margin-top: 20px;
   margin-left: 35px;
   margin-right: 8px; }
+  @media (min-width: 480px) {
+    .checkboard {
+      width: 296px;
+      max-width: 296px;
+      height: 366px;
+      background: url(../../MTH-Assets/icons/checkmark-icon-desktop.png);
+      background-size: cover;
+      background-position: center center; } }
 
 .compare-to-traditional h2 {
   font-size: 17px;
@@ -1204,6 +1227,9 @@ object {
 
 .what-is-button {
   margin-bottom: 30px; }
+
+.what-is-button:visited {
+  color: white; }
 
 .flex-button {
   margin: 0 auto;
