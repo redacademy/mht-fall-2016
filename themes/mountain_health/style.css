@@ -2716,6 +2716,10 @@ header.entry-header-article {
   display: -ms-flexbox;
   display: flex; }
 
+.treatments-main {
+  width: 320px;
+  padding-top: 60px; }
+
 .treatments-wrapper {
   display: -ms-flexbox;
   display: flex;
@@ -2726,7 +2730,6 @@ header.entry-header-article {
   width: 110px;
   height: 50px;
   margin-right: 10px;
-  background: #1a9481;
   border: solid 2px #1a9481;
   line-height: 0;
   border-radius: 5px;
@@ -2738,24 +2741,23 @@ header.entry-header-article {
       justify-content: center; }
   .treatment-btn-off button {
     width: 110px;
-    color: white;
     line-height: 1;
     font-size: 12px;
     text-transform: uppercase;
     padding: 0;
-    background: #1a9481;
+    background: none;
     border: none; }
-
-.treatments-main {
-  height: 1000px;
-  padding-top: 60px; }
+    .treatment-btn-off button:focus {
+      color: white;
+      background-color: #1a9481;
+      outline: none; }
 
 .treatment-description {
   position: absolute;
   width: 280px;
   height: 150px;
   margin: 0 auto;
-  top: 200px;
+  top: 449px;
   left: 6.25%;
   color: white;
   text-align: center; }
@@ -2769,3 +2771,48 @@ header.entry-header-article {
     font-size: 15px; }
   .treatment-description .treatment-price {
     font-weight: bold; }
+
+.amanda-face-wrapper {
+  margin: 0 auto;
+  margin-top: 201px; }
+
+.amanda-face {
+  margin: 0 20px;
+  margin-top: 200px; }
+
+.also-lab-testing-div {
+  height: 190px;
+  width: 280px;
+  margin: 0 auto;
+  background: url(../../MTH-Assets/other/lab-icons.jpg) no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+  padding: 20px 25px;
+  margin-top: -7px; }
+  .also-lab-testing-div h3 {
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0; }
+  .also-lab-testing-div p {
+    margin: 0;
+    line-height: 1; }
+  .also-lab-testing-div .discover-more {
+    width: 220px;
+    height: 42px;
+    margin: 0 auto;
+    border-radius: 21px;
+    background-color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .also-lab-testing-div .discover-more a {
+      color: #1a9481; }

@@ -11,8 +11,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section class="labtesting-hero-image">
-			<h1>Lab Testing</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+				<h1>Lab Testing</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
 			</section>
 			<section class="article-nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
