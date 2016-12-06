@@ -32,8 +32,7 @@ get_header(); ?>
 
         <section class="benifits">
             <div class="checkboard"></div>
-            <h2>Benifits of Naturopathic
-            Medical Treatment</h2>
+            <h2>Benifits of Naturopathic Medical Treatment</h2>
             <ul class="benifits-list">
                 <li><span class="list-span">Increased energy</span></li>
                 <li><span class="list-span">Weight loss</span></li>
@@ -48,41 +47,45 @@ get_header(); ?>
 
         <section class="compare-to-traditional">
             <h2>Naturopathy compared to traditional health care</h2>
-            <div class="compare-content">
-                <div class="clock"></div>
-                <h3>Better appointments</h3>
-                <div class="underline-strip"></div>
-                <ul>
-                    <li>Minimal wait times</li>
-                    <li>Longer visits*</li>
-                    <li>Time spent listening to all of<br>
-                    your concerns</li>
-                </ul>
-                <a href="#" class="front-button what-is-button">Book an appointment</a>
-                <p class="note">*all inital visits are limited to one hour,<br>
-                to avoid taking too much time out of your day</p>
-            </div>
-            <div class="compare-content">
-                <div class="silouette"></div>
-                <h3>More control</h3>
-                <div class="underline-strip"></div>
-                <ul class="silouette-ul">
-                    <li><span class="list-span">A large range of treatment options</span></li>
-                    <li><span class="list-span">Explanations of treatment and
-                    your concerns</span></li>
-                    <li><span class="list-span">Individualized treatment</span></li>
-                </ul>
-                <a href="#" class="front-button what-is-button">See our treatments</a>
-            </div>
+            <div class="compare-flex">
+                <div class="compare-content">
+                    <div class="clock"></div>
+                    <h3>Better appointments</h3>
+                    <div class="underline-strip"></div>
+                    <ul>
+                        <li>Minimal wait times</li>
+                        <li>Longer visits*</li>
+                        <li>Time spent listening to all of<br>
+                        your concerns</li>
+                    </ul>
+                    <a href="#" class="front-button what-is-button">Book an appointment</a>
+                    <p class="note">*all inital visits are limited to one hour,<br>
+                    to avoid taking too much time out of your day</p>
+                </div>
+                <div class="compare-content">
+                    <div class="silouette"></div>
+                    <h3>More control</h3>
+                    <div class="underline-strip"></div>
+                    <ul class="silouette-ul">
+                        <li><span class="list-span">A large range of treatment options</span></li>
+                        <li><span class="list-span">Explanations of treatment and
+                        your concerns</span></li>
+                        <li><span class="list-span">Individualized treatment</span></li>
+                    </ul>
+                    <a href="#" class="front-button what-is-button">See our treatments</a>
+                </div>
+            </div>  
         </section>
 
         <section class="what-is">
             <div class="what-is-header">
-                <p>Naturopathic doctors use both
-                treatments and testing that are
-                evidence based and also those that have been proven to work
-                traditionally through clinical experience.</p>
-                <button class="front-button flex-button">See our treatments</button>
+                <div class="white-box">
+                    <p>Naturopathic doctors use both
+                    treatments and testing that are
+                    evidence based and also those that have been proven to work
+                    traditionally through clinical experience.</p>
+                    <button class="front-button flex-button">See our treatments</button>
+                </div>
             </div>
             <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "prevNextButtons": false, "pageDots": false}'>
                 <div class="carousel-cell front-page-slider">
