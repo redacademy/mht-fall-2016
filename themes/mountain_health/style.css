@@ -530,10 +530,32 @@ body {
   padding-bottom: 5px;
   background: white;
   position: fixed; }
-  .main-header header p {
-    margin: 0; }
-  .main-header header button:focus {
-    outline: none; }
+  .main-header header .search-icon-dt {
+    display: none; }
+  .main-header header .header-button {
+    display: none; }
+  @media (min-width: 480px) {
+    .main-header header {
+      width: 100%;
+      max-width: 1364px;
+      height: 110px;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .main-header header .header-button {
+        display: block; }
+      .main-header header .search-icon-dt {
+        display: block; }
+      .main-header header .search-and-patient-portal {
+        display: none; }
+      .main-header header p {
+        margin: 0; }
+      .main-header header button:focus {
+        outline: none; }
+      .main-header header .phone-and-number {
+        display: -ms-flexbox;
+        display: flex;
+        paddining: 0;
+        width: 200px; } }
 
 .MTH-logo-wrapper {
   width: 40px;
@@ -551,19 +573,54 @@ body {
   display: flex;
   -ms-flex-flow: column;
       flex-flow: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   position: absolute;
   background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png), white;
   background-size: cover;
   width: 320px;
   text-align: center;
-  z-index: 1; }
+  height: 85vh;
+  z-index: 1;
+  line-height: 1; }
   #primary-menu a {
     color: #1a9481;
     font-family: "oswald", "san-serif";
     text-transform: uppercase;
     font-size: 17px; }
+  #primary-menu li {
+    margin: 10px 0; }
+  #primary-menu li:first-child {
+    margin-top: 30px; }
+  #primary-menu .sub-menu {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    margin: 0; }
+    #primary-menu .sub-menu a {
+      color: #9bcc93;
+      margin: 0; }
+  @media (min-width: 480px) {
+    #primary-menu {
+      -ms-flex-flow: row;
+          flex-flow: row;
+      width: 45%;
+      height: 10px; }
+      #primary-menu li {
+        margin: 0 5px; }
+      #primary-menu li:first-child {
+        margin: 0 5px; } }
+
+.mobile-menu-hide {
+  display: none; }
+
+.desktop-menu {
+  display: none; }
+  @media (min-width: 480px) {
+    .desktop-menu {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row;
+          flex-flow: row; } }
 
 .search-and-patient-portal {
   display: -ms-flexbox;
@@ -583,7 +640,10 @@ body {
   display: -ms-flexbox;
   display: flex; }
   .patient-portal a {
-    font-family: "oswald", "san-serif"; }
+    font-family: "oswald", "san-serif";
+    color: white; }
+    .patient-portal a:visited {
+      color: white; }
   .patient-portal .external-link-icon {
     width: 21px;
     height: 18px;
@@ -602,6 +662,18 @@ body {
     padding-right: 8px;
     padding-top: 2px; }
 
+.phone-and-number-green {
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px; }
+  .phone-and-number-green p {
+    font-family: "open_sans", "san-serif";
+    color: #009B84; }
+  .phone-and-number-green img {
+    padding-right: 8px;
+    padding-top: 2px; }
+
 .mobile-menu-wrapper {
   display: -ms-flexbox;
   display: flex;
@@ -614,7 +686,7 @@ body {
 
 .mobile-menu {
   position: absolute;
-  top: 50px; }
+  top: 40px; }
 
 .menu-toggle {
   background: none;
@@ -638,37 +710,44 @@ a {
     outline: 0; }
 
 /* Menus */
-.main-navigation ul {
-  display: none;
-  list-style: none;
-  margin: 0;
-  padding-left: 0; }
-  .main-navigation ul ul {
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+@media (min-width: 480px) {
+  .main-navigation {
+    clear: both;
+    display: block;
     float: left;
-    position: absolute;
-    top: 1.5em;
-    left: -999em;
-    z-index: 99999; }
-    .main-navigation ul ul ul {
-      left: -999em;
-      top: 0; }
-    .main-navigation ul ul li:hover > ul,
-    .main-navigation ul ul li.focus > ul {
-      left: 100%; }
-    .main-navigation ul ul a {
-      width: 200px; }
-  .main-navigation ul li:hover > ul,
-  .main-navigation ul li.focus > ul {
-    left: auto; }
-
-.main-navigation li {
-  float: left;
-  position: relative; }
-
-.main-navigation a {
-  display: block;
-  text-decoration: none; }
+    width: 100%; }
+    .main-navigation ul {
+      display: none;
+      display: block;
+      list-style: none;
+      margin: 0;
+      padding-left: 0; }
+      .main-navigation ul ul {
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+        float: left;
+        position: absolute;
+        top: 1.5em;
+        left: -999em;
+        z-index: 99999; }
+        .main-navigation ul ul ul {
+          left: -999em;
+          top: 0; }
+        .main-navigation ul ul li:hover > ul,
+        .main-navigation ul ul li.focus > ul {
+          left: 100%; }
+        .main-navigation ul ul a {
+          width: 200px; }
+      .main-navigation ul li:hover > ul,
+      .main-navigation ul li.focus > ul {
+        left: auto; }
+        .main-navigation ul li:hover > ul li,
+        .main-navigation ul li.focus > ul li {
+          float: left;
+          position: relative; }
+        .main-navigation ul li:hover > ul a,
+        .main-navigation ul li.focus > ul a {
+          display: block;
+          text-decoration: none; } }
 
 /* Small menu. */
 .menu-toggle,
@@ -2967,7 +3046,7 @@ header.entry-header-article {
 
 .treatment-description {
   position: absolute;
-  width: 280px;
+  width: 86%;
   height: 150px;
   margin: 0 auto;
   top: 449px;
