@@ -2725,6 +2725,8 @@ header.entry-header-article {
   display: flex;
   overflow: scroll;
   max-width: 3000px; }
+  .treatments-wrapper::-webkit-scrollbar {
+    display: none; }
 
 .treatment-btn-off {
   width: 110px;

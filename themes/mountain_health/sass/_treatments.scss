@@ -7,6 +7,9 @@
     display: flex;
     overflow: scroll;
     max-width: 3000px;
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 // .treatment-description-single-active {
