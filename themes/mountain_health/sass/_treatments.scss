@@ -1,0 +1,64 @@
+.treatments-wrapper {
+    display: flex;
+    overflow: scroll;
+    max-width: 3000px;
+}
+
+// .treatment-description-single-active {
+//     display: none;
+//     &:nth-child(2n) {
+//         display: block
+//     }
+// }
+.treatment-btn-off {
+    width: 110px;
+    height: 50px;
+    margin-right: 10px;
+    background: #1a9481;
+    border: solid 2px #1a9481;
+    line-height: 0;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    button {
+        width: 110px;
+        color: white;
+        line-height: 1;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 0;
+        background: #1a9481;
+        border: none;
+    }
+}
+
+.treatments-main {
+    height: 1000px;
+    padding-top: 60px;
+}
+
+.treatment-description {
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    margin: 0 auto;
+    top: 200px;
+    left: 6.25%;
+    color: white;
+    text-align: center;
+    &:first-child {
+        display: block;
+    }
+    h3 {
+        font-size: $medium-font;
+        text-transform: uppercase;
+    }
+    p {
+        line-height: 1;
+        font-size: $small-font;
+    }
+    .treatment-price {
+        font-weight: bold;
+    }
+}
