@@ -1007,6 +1007,9 @@ object {
 .booking .what-is-hero {
   font-size: 17px;
   text-align: center; }
+  @media (min-width: 480px) {
+    .booking .what-is-hero {
+      font-size: 36px; } }
 
 .hero-banner .keep-scrolling {
   background: url(../../MTH-Assets/icons/down-arrow.png);
@@ -1069,6 +1072,10 @@ object {
   background: url(../../MTH-Assets/photos/naturopathy-visual.png);
   background-size: cover;
   margin-top: 0px; }
+  @media (min-width: 480px) {
+    .booking div {
+      width: 75%;
+      height: 500px; } }
 
 .benifits {
   background: url(../../MTH-Assets/photos/icons-bg.png);
@@ -1081,8 +1088,11 @@ object {
   @media (min-width: 480px) {
     .benifits {
       background: linear-gradient(to right, #1a9481, #9bcc93);
-      width: 1764px;
-      height: 598px; } }
+      max-width: 1764px;
+      height: 598px;
+      position: relative;
+      -ms-flex-pack: center;
+          justify-content: center; } }
   .benifits h2 {
     color: white;
     text-align: left;
@@ -1100,7 +1110,9 @@ object {
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
         max-width: 693px;
-        width: 693px; } }
+        width: 693px;
+        position: absolute;
+        margin-top: 76px; } }
 
 .benifits-list {
   line-height: 22px;
@@ -1110,7 +1122,9 @@ object {
   list-style-image: url(../../MTH-Assets/other/leaf.png); }
   @media (min-width: 480px) {
     .benifits-list {
-      font-size: 22px; } }
+      font-size: 22px;
+      margin-top: 152px;
+      line-height: 1.8; } }
 
 .checkboard {
   max-width: 29px;
@@ -1126,9 +1140,17 @@ object {
       width: 296px;
       max-width: 296px;
       height: 366px;
-      background: url(../../MTH-Assets/icons/checkmark-icon-desktop.png);
+      background: url(../../MTH-Assets/icons/benefits-icon-desktop.png);
       background-size: cover;
-      background-position: center center; } }
+      background-position: center center;
+      margin-top: 152px; } }
+
+@media (min-width: 480px) {
+  .compare-flex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; } }
 
 .compare-to-traditional h2 {
   font-size: 17px;
@@ -1140,6 +1162,10 @@ object {
   margin-right: auto;
   margin-top: 29px;
   margin-bottom: 20px; }
+  @media (min-width: 480px) {
+    .compare-to-traditional h2 {
+      font-size: 36px;
+      width: 100%; } }
 
 .compare-to-traditional .compare-content {
   display: -ms-flexbox;
@@ -1163,12 +1189,22 @@ object {
   height: 75px;
   background: url(../../MTH-Assets/icons/time.png);
   background-size: contain; }
+  @media (min-width: 480px) {
+    .compare-to-traditional .clock {
+      width: 158px;
+      height: 158px;
+      background: url(../../MTH-Assets/icons/time-desktop.png); } }
 
 .compare-to-traditional .silouette {
   width: 60px;
   height: 75px;
   background: url(../../MTH-Assets/icons/user.png);
   background-size: cover; }
+  @media (min-width: 480px) {
+    .compare-to-traditional .silouette {
+      background: url(../../MTH-Assets/icons/user-desktop.png);
+      width: 125px;
+      height: 158px; } }
 
 .compare-to-traditional h3 {
   color: #003A5F;
@@ -1176,6 +1212,9 @@ object {
   text-transform: uppercase;
   margin-bottom: 19px;
   margin-top: 20px; }
+  @media (min-width: 480px) {
+    .compare-to-traditional h3 {
+      font-size: 22px; } }
 
 .compare-content ul {
   color: #003A5F;
@@ -1184,6 +1223,10 @@ object {
   font-size: 15px;
   line-height: 22px;
   list-style-image: url(../../MTH-Assets/other/leaf.png); }
+  @media (min-width: 480px) {
+    .compare-content ul {
+      font-size: 22px;
+      line-height: 2.05; } }
 
 .silouette-ul {
   color: #003A5F;
@@ -1194,6 +1237,21 @@ object {
   font-size: 15px;
   line-height: 22px;
   list-style-image: url(../../MTH-Assets/other/leaf.png); }
+  @media (min-width: 480px) {
+    .silouette-ul {
+      width: 70%; } }
+
+.white-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  @media (min-width: 480px) {
+    .white-box {
+      background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+      height: 428px;
+      width: 1760px;
+      max-width: 62%; } }
 
 .what-is-header {
   display: -ms-flexbox;
@@ -1204,6 +1262,16 @@ object {
   background: url(../../MTH-Assets/photos/front-page-bg.png);
   background-size: cover;
   background-position: center; }
+  @media (min-width: 480px) {
+    .what-is-header {
+      height: 770px;
+      background: url(../../MTH-Assets/photos/inside-visual-desktop.png);
+      background-size: cover;
+      background-position: center center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center; } }
   .what-is-header p {
     max-width: 246px;
     font-size: 15px;
@@ -1213,6 +1281,11 @@ object {
     line-height: 1.2;
     margin-top: 50px;
     margin-bottom: 20px; }
+    @media (min-width: 480px) {
+      .what-is-header p {
+        font-size: 36px;
+        max-width: 77.6%;
+        margin-bottom: 40px; } }
 
 .what-is-button {
   margin-bottom: 30px; }
@@ -1257,12 +1330,20 @@ object {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 0px; }
+  @media (min-width: 480px) {
+    .did-you-know h2 {
+      font-size: 36px; } }
 
 .did-you-know .did-you-know-pic {
   background: url(../../MTH-Assets/photos/amanda-visual.png);
   background-size: cover;
   width: 280px;
   height: 196px; }
+  @media (min-width: 480px) {
+    .did-you-know .did-you-know-pic {
+      max-width: 24.26%;
+      height: 300px;
+      background-position: center center; } }
 
 .did-you-know {
   display: -ms-flexbox;
@@ -1292,33 +1373,52 @@ object {
   width: 280px;
   box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
   background-color: white; }
+  @media (min-width: 480px) {
+    .did-you-know .did-you-know-bg {
+      width: 49.77%;
+      height: 139px; } }
   .did-you-know .did-you-know-bg p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.2; }
+    @media (min-width: 480px) {
+      .did-you-know .did-you-know-bg p {
+        font-size: 22px; } }
 
 .did-you-know .did-you-know-bg-1 {
   height: 155px; }
   .did-you-know .did-you-know-bg-1 p {
     width: 256px;
     margin-top: 33px; }
+    @media (min-width: 480px) {
+      .did-you-know .did-you-know-bg-1 p {
+        width: 93%; } }
 
 .did-you-know .did-you-know-bg-2 {
   height: 123px; }
   .did-you-know .did-you-know-bg-2 p {
     width: 238px;
     margin-top: 33px; }
+    @media (min-width: 480px) {
+      .did-you-know .did-you-know-bg-2 p {
+        width: 86.6%; } }
 
 .did-you-know .did-you-know-bg-3 {
   height: 141px; }
   .did-you-know .did-you-know-bg-3 p {
     width: 255px;
     margin-top: 33px; }
+    @media (min-width: 480px) {
+      .did-you-know .did-you-know-bg-3 p {
+        width: 93.1%; } }
 
 .how-can {
   text-align: center;
   margin-bottom: 15px; }
+  @media (min-width: 480px) {
+    .how-can h4 {
+      font-size: 36px; } }
 
 .about-page {
   width: 320px; }
