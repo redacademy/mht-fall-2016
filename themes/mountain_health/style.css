@@ -528,7 +528,8 @@ body {
       align-items: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  background: white; }
+  background: white;
+  position: fixed; }
   .main-header header p {
     margin: 0; }
   .main-header header button:focus {
@@ -557,7 +558,6 @@ body {
   background-size: cover;
   width: 320px;
   text-align: center;
-  height: 100vh;
   z-index: 1; }
   #primary-menu a {
     color: #1a9481;
@@ -936,14 +936,14 @@ object {
   font-weight: normal; }
 
 .parallax-scroll {
+  top: 40px;
   height: 300%;
   width: 320px;
   margin: 0 auto;
   background: url(../../MTH-Assets/photos/mobile-front-hero.png) no-repeat;
   background-size: 320px 480px;
   z-index: -1;
-  position: fixed;
-  top: 0; }
+  position: fixed; }
 
 .hero-banner {
   max-width: 320px;
@@ -969,8 +969,7 @@ object {
       height: 770px;
       background: url(../../MTH-Assets/photos/front-page-desktop-hero.png);
       background-size: cover;
-      background-position: center center;
-      margin-bottom: 80px; } }
+      background-position: center center; } }
   .hero-banner .hero-header {
     font-size: 28px;
     text-align: right;
@@ -1008,10 +1007,6 @@ object {
 .booking .what-is-hero {
   font-size: 17px;
   text-align: center; }
-  @media (min-width: 480px) {
-    .booking .what-is-hero {
-      font-size: 36px;
-      text-transform: uppercase; } }
 
 .hero-banner .keep-scrolling {
   background: url(../../MTH-Assets/icons/down-arrow.png);
@@ -1074,12 +1069,6 @@ object {
   background: url(../../MTH-Assets/photos/naturopathy-visual.png);
   background-size: cover;
   margin-top: 0px; }
-  @media (min-width: 480px) {
-    .booking div {
-      max-width: 1324px;
-      width: 75%;
-      height: 500px;
-      background: url(../../MTH-Assets/photos/naturopathy-visual-desktop.png); } }
 
 .benifits {
   background: url(../../MTH-Assets/photos/icons-bg.png);
@@ -2752,3 +2741,106 @@ header.entry-header-article {
 .labtesting-wrapper {
   display: -ms-flexbox;
   display: flex; }
+
+.treatments-main {
+  width: 320px;
+  padding-top: 60px; }
+
+.treatments-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+  max-width: 3000px; }
+  .treatments-wrapper::-webkit-scrollbar {
+    display: none; }
+
+.treatment-btn-off {
+  width: 110px;
+  height: 50px;
+  margin-right: 10px;
+  border: solid 2px #1a9481;
+  line-height: 0;
+  border-radius: 5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .treatment-btn-off button {
+    width: 110px;
+    line-height: 1;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0;
+    background: none;
+    border: none; }
+    .treatment-btn-off button:focus {
+      color: white;
+      background-color: #1a9481;
+      outline: none; }
+
+.treatment-description {
+  position: absolute;
+  width: 280px;
+  height: 150px;
+  margin: 0 auto;
+  top: 449px;
+  left: 6.25%;
+  color: white;
+  text-align: center; }
+  .treatment-description:first-child {
+    display: block; }
+  .treatment-description h3 {
+    font-size: 17px;
+    text-transform: uppercase; }
+  .treatment-description p {
+    line-height: 1;
+    font-size: 15px; }
+  .treatment-description .treatment-price {
+    font-weight: bold; }
+
+.amanda-face-wrapper {
+  margin: 0 auto;
+  margin-top: 201px; }
+
+.amanda-face {
+  margin: 0 20px;
+  margin-top: 200px; }
+
+.also-lab-testing-div {
+  height: 190px;
+  width: 280px;
+  margin: 0 auto;
+  background: url(../../MTH-Assets/other/lab-icons.jpg) no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+  padding: 20px 25px;
+  margin-top: -7px; }
+  .also-lab-testing-div h3 {
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0; }
+  .also-lab-testing-div p {
+    margin: 0;
+    line-height: 1; }
+  .also-lab-testing-div .discover-more {
+    width: 220px;
+    height: 42px;
+    margin: 0 auto;
+    border-radius: 21px;
+    background-color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .also-lab-testing-div .discover-more a {
+      color: #1a9481; }

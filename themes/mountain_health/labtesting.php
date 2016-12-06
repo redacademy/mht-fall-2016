@@ -11,8 +11,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section class="labtesting-hero-image">
-			<h1>Lab Testing</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+				<h1>Lab Testing</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
 			</section>
 			<section class="article-nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
@@ -56,15 +56,15 @@ get_header(); ?>
             <?php $fields = CFS()->get( 'labtesting'); ?>
 
 				<div class="labtesting-wrapper">
-                <?php   foreach ( $fields as $field ) : ?>
-									<button class="labtesting-btn-off"> <?php   echo $field['labtesting_title']; ?> </button>
-									<div class="labtesting-single-wrapper-active" style="display: none" >
-										<!-- style="display: none;" -->
-            			   <img src="<?php  echo $field['labtesting_img']; ?>"/>
-                	   <h3> <?php   echo $field['labtesting_title']; ?> </h3>
-               		   <p>  <?php   echo $field['labtesting_text']; ?> </p>
-						 			</div>
-                <?php endforeach; ?>
+					<?php   foreach ( $fields as $field ) : ?>
+						<button class="labtesting-btn-off"> <?php   echo $field['labtesting_title']; ?> </button>
+						<div class="labtesting-single-wrapper-active" style="display: none" >
+												<!-- style="display: none;" -->
+							<img src="<?php  echo $field['labtesting_img']; ?>"/>
+							<h3> <?php   echo $field['labtesting_title']; ?> </h3>
+							<p>  <?php   echo $field['labtesting_text']; ?> </p>
+						</div>
+					<?php endforeach; ?>
 				</div>
 			<?php endwhile; // End of the loop. ?>
 
