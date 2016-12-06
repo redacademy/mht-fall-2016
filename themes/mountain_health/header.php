@@ -25,7 +25,7 @@
 				<p class="search-cancel">Cancel</p>
 			</div>
 			<section class="main-header">
-				<header id="masthead" class="site-header"" role="banner">
+				<header id="masthead" class="site-header" role="banner">
 						<div class="MTH-logo-wrapper">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 							<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green.png" alt="MTH logo">
@@ -55,6 +55,8 @@
 								
 							</div>	
 						</nav><!-- #site-navigation -->
+
+						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="x logo">
 						<div class="phone-and-number">
 							<a href="#"><img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon"></a>
 							<p>1-562-867-5309</p>
@@ -76,6 +78,7 @@
 							<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 							<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 						</div><!-- .site-branding -->
+						<a href="#" class="primary-button header-button">Book an appointment</a>
 
 				</header><!-- #masthead -->
 			</section>
@@ -102,5 +105,4 @@
 						
 					</div>	
 				</nav><!-- #site-navigation -->
-
 			<div id="content" class="site-content">
