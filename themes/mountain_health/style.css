@@ -586,7 +586,8 @@ body {
   text-align: center;
   height: 85vh;
   z-index: 1;
-  line-height: 1; }
+  line-height: 1;
+  position: fixed; }
   #primary-menu a {
     color: #1a9481;
     font-family: "oswald", "san-serif";
@@ -617,7 +618,8 @@ body {
         margin: 0 5px; } }
 
 .mobile-menu-hide {
-  display: none; }
+  display: none;
+  position: fixed; }
 
 .desktop-menu {
   display: none; }
