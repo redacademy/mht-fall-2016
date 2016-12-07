@@ -2357,11 +2357,21 @@ object {
   margin-left: auto;
   margin-bottom: 45px;
   position: relative; }
+  @media (min-width: 480px) {
+    .news-events, .articles-research, .recipes-nutrition {
+      width: 23.5%;
+      background: url(../../MTH-Assets/photos/stroke-desktop.png);
+      background-size: 100% 100%;
+      background-position: center center;
+      height: 416px; } }
   .news-events p, .articles-research p, .recipes-nutrition p {
     text-align: center;
     font-size: 14px;
     color: #003A5F;
     line-height: 1.2; }
+    @media (min-width: 480px) {
+      .news-events p, .articles-research p, .recipes-nutrition p {
+        font-size: 22px; } }
 
 .news-events h2, .news-events p, .articles-research h2, .articles-research p, .recipes-nutrition h2, .recipes-nutrition p {
   margin-top: 0;
@@ -2373,6 +2383,9 @@ object {
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 20px; }
+  @media (min-width: 480px) {
+    .news-events h2, .articles-research h2, .recipes-nutrition h2 {
+      font-size: 36px; } }
 
 .news-events a, .articles-research a, .recipes-nutrition a {
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
@@ -2402,6 +2415,10 @@ object {
   background-size: cover;
   background-position: center center;
   margin-bottom: 20px; }
+  @media (min-width: 480px) {
+    .resources-newspaper {
+      width: 136px;
+      height: 130px; } }
 
 .resources-microscope {
   width: 58px;
@@ -2410,6 +2427,10 @@ object {
   background-size: cover;
   background-position: center center;
   margin-bottom: 20px; }
+  @media (min-width: 480px) {
+    .resources-microscope {
+      width: 108px;
+      height: 130px; } }
 
 .resources-apple {
   width: 70px;
@@ -2418,6 +2439,10 @@ object {
   background-size: cover;
   background-position: center center;
   margin-bottom: 20px; }
+  @media (min-width: 480px) {
+    .resources-apple {
+      width: 130px;
+      height: 130px; } }
 
 /* footer */
 .newsletter {
