@@ -10,11 +10,37 @@
         padding-bottom: 5px;
         background: white;
         position: fixed;
-        p {
-            margin: 0;
+        .search-icon-dt {
+            display: none;
         }
-        button:focus {
-            outline: none;
+        .header-button {
+            display: none;
+        }
+        @include mobile-break-width {
+            width: 100%;
+            max-width: 1364px;
+            height: 110px;
+            justify-content: center;
+            .header-button {
+                display: block;
+            }
+            .search-icon-dt {
+                display: block;
+            }
+            .search-and-patient-portal {
+                display: none;
+            }
+            p {
+                margin: 0;
+            }
+            button:focus {
+                outline: none;
+            }
+            .phone-and-number {
+                display: flex;
+                paddining: 0;
+                width: 200px;
+            }
         }
     }
 }
@@ -35,22 +61,59 @@
 #primary-menu {
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
     position: absolute;
     background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png), white;
     background-size: cover;
     // opacity: .95;
     width: 320px;
     text-align: center;
-    // height: 100vh;
+    height: 85vh;
     z-index: 1;
+    line-height: 1;
     a {
         color: #1a9481;
         font-family: "oswald", "san-serif";
         text-transform: uppercase;
         font-size: $medium-font;
     }
-    // margin-top: 50px;
+    li {
+        margin: 10px 0;
+    }
+    li:first-child {
+        margin-top: 30px;
+    }
+    .sub-menu {
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        a {
+            color: #9bcc93;
+            margin: 0;
+        }
+    }
+    @include mobile-break-width {
+        flex-flow: row;
+        width: 45%;
+        height: 10px;
+        li {
+            margin: 0 5px;
+        }
+        li:first-child {
+            margin: 0 5px;
+        }
+    }
+}
+
+.mobile-menu-hide {
+    display: none;
+}
+
+.desktop-menu {
+    display: none;
+    @include mobile-break-width {
+        display: flex;
+        flex-flow: row;
+    }
 }
 
 .search-and-patient-portal {
@@ -69,6 +132,10 @@
     display: flex;
     a {
         font-family: "oswald", "san-serif";
+        color: white;
+        &:visited {
+            color: white;
+        }
     }
     .external-link-icon {
         width: 21px;
@@ -92,6 +159,20 @@
     }
 }
 
+.phone-and-number-green {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    p {
+        font-family: "open_sans", "san-serif";
+        color: $nav-color;
+    }
+    img {
+        padding-right: 8px;
+        padding-top: 2px;
+    }
+}
+
 .mobile-menu-wrapper {
     display: flex;
     flex-flow: column;
@@ -103,7 +184,7 @@
 
 .mobile-menu {
     position: absolute;
-    top: 50px;
+    top: 40px;
 }
 
 .search-form {

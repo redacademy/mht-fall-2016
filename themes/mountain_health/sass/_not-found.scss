@@ -1,6 +1,5 @@
 //404 Page Section 
 .error404{
-    max-width: 375px;
     background: url(../../MTH-Assets/photos/main-bg.png);
     background-position: center center;
 }
@@ -11,6 +10,10 @@
     background: url(../../MTH-Assets/photos/404-hero.png);
     background-size: cover;
     background-position: center center;
+    @include mobile-break-width{
+        height: 320px;
+        background: url(../../MTH-Assets/photos/404-hero-desktop.png);
+    }
     p{
         text-align: center;
         font-size: 15px;
@@ -20,6 +23,10 @@
         margin-right:auto;
         font-family: 'open_sans';
         line-height:1.2;
+        @include mobile-break-width{
+            font-size: $small-font-dt;
+            width: 100%;
+        }
     }
 }
 
@@ -29,6 +36,10 @@
         font-weight: normal;
         margin:0px;
         padding-top:25px;
+        @include mobile-break-width{
+            font-size: $large-font-dt;
+            padding-top: 108px;
+        }
     }
 }
 
@@ -36,12 +47,21 @@
     margin-top: 34.2px;
     display:flex;
     flex-direction: column;
+    @include mobile-break-width{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
     .not-found-apple{
         width:80px;
         height:96px;
         background:url(../../MTH-Assets/icons/apple.png);
         background-size: cover;
         background-position: center center;
+        @include mobile-break-width{
+            width: 115px;
+            height: 138px;
+        }
     }
 }
 
@@ -52,6 +72,10 @@
         background:url(../../MTH-Assets/icons/message.png);
         background-size: cover;
         background-position: center center;
+        @include mobile-break-width{
+            width: 124px;
+            height: 114px;
+        }
     }
 }
 
@@ -60,12 +84,22 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    @include mobile-break-width{
+        margin-top: 141px;
+        margin-left: 8.2%;
+        margin-right: 8.2%;
+        margin-bottom: 79px;
+    }
 }
 
 .not-found-content{
     p{
         color:$body-color;
         font-size: $small-font;
+        @include mobile-break-width{
+            font-size: $small-font-dt;
+            width: 100%;
+        }
     }
 }
 
@@ -78,4 +112,12 @@
     margin-bottom: 30px;
     border-radius: 20000px;
     color: white;
+}
+
+.mountain-not-found{
+    height: 20px;
+    @include mobile-break-width{
+    height: 109px;
+    width: 100%;
+    }
 }

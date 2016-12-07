@@ -1,16 +1,23 @@
 (function($) {
-    $('.mobile-menu').hide();
+    // shows the navigation when hamburger is clicked
+    // changes phone number and logo from blue to green
+    $('.phone-and-number-green').hide();
+    // $('.mobile-menu').hide();
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
         $('.mobile-menu').animate({ height: 'toggle' });
-        // shows the navigation when hamburger is clicked
+        $('.mobile-menu').removeClass('.mobile-menu-hide')
+
     });
     // toggles hamburger when clicked and shows X on menu bar
+
     $('.x-logo').hide();
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
         $('.hamburger').toggle();
         $('.x-logo').toggle();
+        $('.phone-and-number').toggle();
+        $('.phone-and-number-green').toggle();
     });
 
     // Parallax scroll function
@@ -76,8 +83,8 @@
     });
     // treatment  data from loop
     $(".treatments-wrapper div:nth-child(2)").stop().show();
-    // $(".treatments-wrapper div:first-child button:first-child").focus()
-    // $(".treatments-wrapper div:first-child").css("margin-left", "20px");
+    $(".treatments-wrapper div:first-child button:first-child").focus();
+    $(".treatments-wrapper div:first-child").css("margin-left", "20px");
     $('.treatment-btn-off').on('click', function() {
         $('.treatment-description-single-active').stop().hide();
         $(this).next('.treatment-description-single-active').stop().show();
