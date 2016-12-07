@@ -1,8 +1,18 @@
 // ********************** About styling section***
 .about-page {
     width: 320px;
+    @include mobile-break-width{
+        width: 100%;
+    }
     .about-hero {
         height: 415px;
+        @include mobile-break-width{
+            height: 770px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
         .parallax-scroll-about {
             height: 300%;
             width: 320px;
@@ -13,6 +23,13 @@
             position: fixed;
             top: 0;
             background-position-y: -15px;
+            @include mobile-break-width{
+                background: url(../../MTH-Assets/photos/about-hero-desktop.png);
+                width: 100%;
+                background-size: cover;
+                height: 770px;
+                background-position: center center;
+            }
         }
         text-align: center;
         color: #fff;
@@ -29,11 +46,19 @@
             font-size: 28px;
             font-weight: normal;
             line-height: 41px;
-            letter-spacing: 1p
+            letter-spacing: 1p;
+            @include mobile-break-width{
+                font-size: 72px;
+            }
         }
         p {
             font-size: 17px;
             line-height: 21px;
+            @include mobile-break-width{
+                font-size: $medium-font-dt;
+                width: 936px;
+                line-height: 1.22;
+            }
         }
     }
     h5 {
@@ -49,6 +74,18 @@
     height: 290px;
     margin: 0 auto;
     margin-bottom: 10px;
+    @include mobile-break-width{
+        background:url(../../MTH-Assets/photos/amanda-large.png);
+        width: 541px;
+        height: 560px;
+        background-position: center center;
+        background-size: cover;
+        img{
+            @include mobile-break-width{
+            display: none;
+            }
+        }
+    }
 }
 
 .amanda-name-wrapper {
