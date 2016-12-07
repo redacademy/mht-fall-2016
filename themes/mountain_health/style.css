@@ -1530,6 +1530,9 @@ object {
 
 .about-page {
   width: 320px; }
+  @media (min-width: 480px) {
+    .about-page {
+      width: 100%; } }
   .about-page .about-hero {
     height: 415px;
     text-align: center;
@@ -1542,6 +1545,16 @@ object {
     display: flex;
     -ms-flex-align: center;
         align-items: center; }
+    @media (min-width: 480px) {
+      .about-page .about-hero {
+        height: 770px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        width: 100%; } }
     .about-page .about-hero .parallax-scroll-about {
       height: 300%;
       width: 320px;
@@ -1552,6 +1565,13 @@ object {
       position: fixed;
       top: 0;
       background-position-y: -15px; }
+      @media (min-width: 480px) {
+        .about-page .about-hero .parallax-scroll-about {
+          background: url(../../MTH-Assets/photos/about-hero-desktop.png);
+          width: 100%;
+          background-size: cover;
+          height: 770px;
+          background-position: center center; } }
     .about-page .about-hero h1 {
       color: white;
       text-transform: uppercase;
@@ -1559,9 +1579,17 @@ object {
       font-weight: normal;
       line-height: 41px;
       letter-spacing: 1p; }
+      @media (min-width: 480px) {
+        .about-page .about-hero h1 {
+          font-size: 72px; } }
     .about-page .about-hero p {
       font-size: 17px;
       line-height: 21px; }
+      @media (min-width: 480px) {
+        .about-page .about-hero p {
+          font-size: 36px;
+          width: 936px;
+          line-height: 1.22; } }
   .about-page h5 {
     font-size: 17px;
     line-height: 24px;
@@ -1573,6 +1601,16 @@ object {
   height: 290px;
   margin: 0 auto;
   margin-bottom: 10px; }
+  @media (min-width: 480px) {
+    .amanda-photo {
+      background: url(../../MTH-Assets/photos/amanda-large.png);
+      width: 541px;
+      height: 560px;
+      background-position: center center;
+      background-size: cover; } }
+  @media (min-width: 480px) and (min-width: 480px) {
+    .amanda-photo img {
+      display: none; } }
 
 .amanda-name-wrapper {
   display: -ms-flexbox;
