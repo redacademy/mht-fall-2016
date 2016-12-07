@@ -449,13 +449,13 @@
 }
 
 .front-page-slide-2 {
-    background: url(../../MTH-Assets/photos/carousal-2.png);
+    background: url(../../MTH-Assets/photos/carousal-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .front-page-slide-3 {
-    background: url(../../MTH-Assets/photos/carousal-3.png);
+    background: url(../../MTH-Assets/photos/carousal-3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -476,102 +476,109 @@
             font-size: $medium-font-dt;
         }
     }
-    .did-you-know {
-        .did-you-know-pic {
-            background: url(../../MTH-Assets/photos/amanda-visual.png);
-            background-size: cover;
-            width: 280px;
-            height: 196px;
-            @include mobile-break-width {
-                max-width: 24.26%;
-                height: 300px;
-                background-position: center center;
-            }
+}
+
+.did-you-know {
+    .did-you-know-pic {
+        background: url(../../MTH-Assets/photos/amanda-visual.png);
+        background-size: cover;
+        width: 280px;
+        height: 196px;
+        @include mobile-break-width {
+            max-width: 24.26%;
+            height: 300px;
+            background-position: center center;
         }
     }
-    .did-you-know {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .number-circle {
-            background: url(../../MTH-Assets/other/number-bg.png);
-            width: 46px;
-            height: 46px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform: translateY(25px);
-            p {
-                box-shadow: none;
-                margin: 0;
-                font-size: $medium-font;
-            }
-        }
-    }
-    .did-you-know {
-        .did-you-know-bg {
-            width: 280px;
-            box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
-            background-color: white;
-            @include mobile-break-width {
-                width: 49.77%;
-                height: 139px;
-            }
-            p {
-                text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-                line-height: 1.2;
-                @include mobile-break-width {
-                    font-size: $small-font-dt;
-                }
-            }
-        }
-    }
-    .did-you-know {
-        .did-you-know-bg-1 {
-            height: 155px;
-            p {
-                width: 256px;
-                margin-top: 33px;
-                @include mobile-break-width {
-                    width: 93%;
-                }
-            }
-        }
-    }
-    .did-you-know {
-        .did-you-know-bg-2 {
-            height: 123px;
-            p {
-                width: 238px;
-                margin-top: 33px;
-                @include mobile-break-width {
-                    width: 86.6%;
-                }
-            }
-        }
-    }
-    .did-you-know {
-        .did-you-know-bg-3 {
-            height: 141px;
-            p {
-                width: 255px;
-                margin-top: 33px;
-                @include mobile-break-width {
-                    width: 93.1%;
-                }
-            }
-        }
-    }
-    .how-can {
+}
+
+.did-you-know {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .number-circle {
+        background: url(../../MTH-Assets/other/number-bg.png);
+        width: 46px;
+        height: 46px;
         text-align: center;
-        margin-bottom: 15px;
-        h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(25px);
+        p {
+            box-shadow: none;
+            margin: 0;
+            font-size: $medium-font;
+        }
+    }
+}
+
+.did-you-know {
+    .did-you-know-bg {
+        width: 280px;
+        box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+        background-color: white;
+        @include mobile-break-width {
+            width: 49.77%;
+            height: 139px;
+        }
+        p {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.2;
             @include mobile-break-width {
-                font-size: $medium-font-dt;
+                font-size: $small-font-dt;
             }
+        }
+    }
+}
+
+.did-you-know {
+    .did-you-know-bg-1 {
+        height: 155px;
+        p {
+            width: 256px;
+            margin-top: 33px;
+            @include mobile-break-width {
+                width: 93%;
+            }
+        }
+    }
+}
+
+.did-you-know {
+    .did-you-know-bg-2 {
+        height: 123px;
+        p {
+            width: 238px;
+            margin-top: 33px;
+            @include mobile-break-width {
+                width: 86.6%;
+            }
+        }
+    }
+}
+
+.did-you-know {
+    .did-you-know-bg-3 {
+        height: 141px;
+        p {
+            width: 255px;
+            margin-top: 33px;
+            @include mobile-break-width {
+                width: 93.1%;
+            }
+        }
+    }
+}
+
+.how-can {
+    text-align: center;
+    margin-bottom: 15px;
+    h4 {
+        @include mobile-break-width {
+            font-size: $medium-font-dt;
         }
     }
 }
