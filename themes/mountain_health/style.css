@@ -2138,8 +2138,8 @@ object {
       font-size: 22px; } }
 
 .wavy-arrows {
-  height: 31px;
-  width: 26px;
+  height: 60px;
+  width: 60px;
   background-image: url(../../MTH-Assets/icons/change-icon.png);
   background-size: cover;
   background-position: center center; }
@@ -2152,8 +2152,8 @@ object {
       height: 92px; } }
 
 .update-patient-pic {
-  height: 31px;
-  width: 37px;
+  height: 60px;
+  width: 60px;
   background-image: url(../../MTH-Assets/icons/update-icon.png);
   background-size: cover;
   background-position: center center; }
@@ -2165,8 +2165,8 @@ object {
       height: 92px; } }
 
 .smartnd-clipboard {
-  height: 31px;
-  width: 23px;
+  height: 60px;
+  width: 60px;
   background-image: url(../../MTH-Assets/icons/form-icon.png);
   background-size: cover;
   background-position: center center; }
@@ -2178,8 +2178,8 @@ object {
       height: 92px; } }
 
 .smartnd-form-img {
-  height: 31px;
-  width: 25px;
+  height: 60px;
+  width: 60px;
   background-image: url(../../MTH-Assets/icons/treatment-icon.png);
   background-size: cover;
   background-position: center center; }
@@ -2190,14 +2190,13 @@ object {
       width: 92px;
       height: 92px; } }
 
-.why-use-all {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
-  @media (min-width: 480px) {
-    .why-use-all {
-      line-height: 1.18; } }
+@media (min-width: 480px) {
+  .why-use-all {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    line-height: 1.18; } }
 
 .why-use-upper {
   display: -ms-flexbox;
@@ -2208,7 +2207,15 @@ object {
   display: flex; }
 
 .why-use-smartnd-content {
-  width: 160px; }
+  width: 160px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
   @media (min-width: 480px) {
     .why-use-smartnd-content {
       width: 177px;
@@ -2421,9 +2428,10 @@ object {
   color: #003A5F;
   font-size: 17px; }
 
-.resources {
-  display: -ms-flexbox;
-  display: flex; }
+@media (min-width: 480px) {
+  .resources {
+    display: -ms-flexbox;
+    display: flex; } }
 
 .news-events, .articles-research, .recipes-nutrition {
   display: -ms-flexbox;
