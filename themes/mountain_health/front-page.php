@@ -74,10 +74,10 @@ get_header(); ?>
                         <li><span class="list-span">Individualized treatment</span></li>
                     </ul>
                     <a href="#" class="front-button what-is-button">See Our Treatments</a>
-                    <p>*All initial visits are one hour, to avoid taking too much time out of your day</p>
                                                 <!--button above links to treatments 2.2-->
                 </div>
-            </div>  
+            </div>
+            <p class="all-visits">*All initial visits are one hour, to avoid taking too much time out of your day</p>
         </section>
 
         <section class="what-is">

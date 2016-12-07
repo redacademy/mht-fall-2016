@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 <section class="archive-recipe-hero-image">
 <h1>Recipes &amp; Nutrition</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+<p>All our recipes have been picked by Dr. Chay to complement your lifestyle changes and support your best health.</p>
 </section>
 
 			<section class="article-nav-links article-nav-links-archive">
