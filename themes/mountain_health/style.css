@@ -2294,12 +2294,6 @@ object {
 .grey-background {
   background: #eee; }
 
-.page-template-resources {
-  max-width: 375px;
-  background: url(../../MTH-Assets/photos/main-bg.png);
-  background-size: cover;
-  background-position: center center; }
-
 .resources-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/resources-hero.png);
@@ -2307,6 +2301,10 @@ object {
   background-position: center center;
   text-align: center;
   margin-bottom: 30px; }
+  @media (min-width: 480px) {
+    .resources-hero {
+      background: url(../../MTH-Assets/photos/resources-hero-desktop.png);
+      height: 320px; } }
   .resources-hero h1 {
     font-size: 17px;
     color: white;
@@ -2316,6 +2314,11 @@ object {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px; }
+    @media (min-width: 480px) {
+      .resources-hero h1 {
+        font-size: 48px;
+        padding-top: 95px;
+        margin-bottom: 40px; } }
 
 .resources-hero p {
   color: #fff;
@@ -2324,11 +2327,19 @@ object {
   margin-right: auto;
   margin-top: 0px;
   line-height: 18px; }
+  @media (min-width: 480px) {
+    .resources-hero p {
+      width: 48%;
+      line-height: 1.36; } }
 
 .resources-paragraph p {
   text-align: center;
   color: #003A5F;
   font-size: 17px; }
+
+.resources {
+  display: -ms-flexbox;
+  display: flex; }
 
 .news-events, .articles-research, .recipes-nutrition {
   display: -ms-flexbox;
