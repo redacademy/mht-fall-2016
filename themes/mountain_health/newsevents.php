@@ -133,14 +133,18 @@ get_header(); ?>
   <?php endif; ?>
             </div>
 
+						<?php while ( have_posts() ) : the_post(); ?>
 
+							<?php get_template_part( 'template-parts/content', 'page' ); ?>
+
+						<?php endwhile; // End of the loop. ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	<div class="load-more">
 		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/down-arrow-load-more.png" alt="logo">
 		<a href="#">Load More</a>
 	</div>
-	
+
 	<div class="mountains">
 		<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
 		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">

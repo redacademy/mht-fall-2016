@@ -2,6 +2,9 @@
     p{
         font-size: 15px;
         font-family: 'open_sans';
+        @include mobile-break-width{
+            font-size: $small-font-dt;
+        }
     }
 }
 
