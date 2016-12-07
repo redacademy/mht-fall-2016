@@ -273,6 +273,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        @include mobile-break-width{
+            width: 500px;
+        }
     }
 }
 
@@ -567,6 +570,18 @@
     h4{
         @include mobile-break-width{
             font-size: $medium-font-dt;
+        }
+    }
+}
+.site-main{
+.all-visits{
+    display: none;
+    @include mobile-break-width{
+        display: initial;
+        display: flex;
+        justify-content: center;
+        margin:0px;
+        font-size: 18px;
         }
     }
 }

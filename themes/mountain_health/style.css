@@ -1266,6 +1266,9 @@ object {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center; }
+  @media (min-width: 480px) {
+    .compare-to-traditional .compare-content {
+      width: 500px; } }
 
 .compare-content p {
   text-align: center; }
@@ -1511,6 +1514,18 @@ object {
   @media (min-width: 480px) {
     .how-can h4 {
       font-size: 36px; } }
+
+.site-main .all-visits {
+  display: none; }
+  @media (min-width: 480px) {
+    .site-main .all-visits {
+      display: initial;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      margin: 0px;
+      font-size: 18px; } }
 
 .about-page {
   width: 320px; }
