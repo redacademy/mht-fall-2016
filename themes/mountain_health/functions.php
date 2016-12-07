@@ -86,7 +86,7 @@ function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 
 
-	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'); 
+	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
   wp_enqueue_style('flickity', '//unpkg.com/flickity@2/dist/flickity.min.css');
 	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
@@ -180,7 +180,29 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
 
 // Control Excerpt Length Using Filters
 
-function custom_excerpt_length( $length ) {
-	return 24;
-}
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+function excerpt($limit) {
+      $excerpt = explode(' ', get_the_excerpt(), $limit);
+      if (count($excerpt)>=$limit) {
+        array_pop($excerpt);
+        $excerpt = implode(" ",$excerpt).'...';
+      } else {
+        $excerpt = implode(" ",$excerpt);
+      }
+      $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
+      return $excerpt;
+    }
+
+    function content($limit) {
+      $content = explode(' ', get_the_content(), $limit);
+      if (count($content)>=$limit) {
+        array_pop($content);
+        $content = implode(" ",$content).'...';
+      } else {
+        $content = implode(" ",$content);
+      }
+      $content = preg_replace('/\[.+\]/','', $content);
+      $content = apply_filters('the_content', $content);
+      $content = str_replace(']]>', ']]&gt;', $content);
+      return $content;
+    }
+		//////////

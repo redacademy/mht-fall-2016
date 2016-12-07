@@ -2397,12 +2397,18 @@ input::-webkit-input-placeholder {
     .single-article-content {
       width: 700px; } }
 
-.entry-content-article {
+.entry-content-article p {
   font-family: 'open_sans';
   font-size: 15px;
   line-height: 1.2;
   text-align: left;
   color: #003d5c; }
+  .entry-content-article p:nth-child(1):first-letter {
+    float: left;
+    line-height: 70px;
+    padding: 0px 25px 1px 3px;
+    font-size: 6rem;
+    font-family: "Edwardian Script ITC", "Brush Script MT", cursive; }
 
 .entry-title-article {
   font-family: 'oswald';
