@@ -59,6 +59,14 @@ body {
     max-width: 320px;
     margin: 0 auto;
     @include mobile-break-width {
-        max-width: 1764px;
+        max-width: 1364px;
+    }
+}
+
+.content-area,
+{
+    padding-top: 40px;
+    @include mobile-break-width {
+        padding-top: 110px;
     }
 }
