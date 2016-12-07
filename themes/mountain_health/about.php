@@ -6,10 +6,10 @@ get_header(); ?>
         <section class="about-hero">
             <div class="parallax-scroll-about"></div>
             <div class="about-title">	
-                <h1>Mounatain Health</h1>
+                <h1>Mountain Health</h1>
                 <p>
-                Remain curious about each individual and improve
-                their quality of life with dedication and passion.
+                 Remaining curious about each individual and improving their 
+                 quality of life with dedication and passion.
                 </p>
             </div>
         </section>
@@ -28,19 +28,15 @@ get_header(); ?>
                         <span class="i-in-about">I </span>
                         <p class="first-sentence">am a Naturopathic Physician and owner of Mountain 
                         Health. Prior to this, I</p> 
-                            <p>completed pre-medical studies 
-                        and a degree in Psychology at the University of Regina 
-                        in Saskatchewan.
-                        Combining my love of medicine, psychology and nature I 
-                        was driven to a career in Naturopathic Medicine. I truly 
-                        believe in the body’s innate desire to heal and that each 
-                        patient is unique, deserving of individualized treatment. 
+                            <p>completed pre-medical studies and a degree in Psychology at the University 
+                                of Regina in Saskatchewan. Combining my love of medicine, psychology and 
+                                nature I was driven to a career in Naturopathic Medicine. I truly believe 
+                                in the body’s innate desire to heal and that each patient is unique, deserving 
+                                of individualized treatment.
                     </p>
                     <p class="about-amanda-second-p">
-                        My goal for you is to be symptom free so you can simply 
-                        spend more time enjoying every day. I am excited to offer 
-                        you a more natural approach and work with you on your journey 
-                        to optimal health.
+                        My goal for you is to be symptom free so you can simply spend more time enjoying every day. I am 
+                        excited to offer you a more natural approach and work with you on your journey to optimal health.
                     </p>
                 </div>
             </div>
@@ -86,6 +82,7 @@ get_header(); ?>
             </div>
             <h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
         <div class="primary-button book-appointment"><a href="#">Book an appointment</a></div>
+                                                <!--Button above needs to link to appointment page-->
         </section> 
 
 	</main><!-- #main -->
