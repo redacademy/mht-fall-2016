@@ -46,15 +46,17 @@ get_header(); ?>
   			<img class="amanda-face" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/amanda-pic-treatments.jpg" alt="Photo of Amanda">
 		</div>
 		<div class="also-lab-testing-div"> 
-			<h3>We also offer lab testing</h3>
-			<p>Adrenal Functional Panel Cardiac Risk Assessment Panel CDSA</p>
+			<h3>Learn more about our treatments</h3>
+			<p>See more details about treatments and how they can help you.</p>
 			<div class="discover-more">
 				<a href="">Discover More</a>
+				<!--Button links to 3.4x article "details about our treatments"-->
 			</div>
 		</div>
 		<section>
 			<h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
     	    <div class="primary-button book-appointment"><a href="#">Book an appointment</a></div>
+										<!--Button links to 5.0 book appointment-->
 		</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->

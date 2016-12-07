@@ -70,6 +70,7 @@
     height: 85vh;
     z-index: 1;
     line-height: 1;
+    position: fixed;
     a {
         color: #1a9481;
         font-family: "oswald", "san-serif";
@@ -106,6 +107,7 @@
 
 .mobile-menu-hide {
     display: none;
+    position: fixed;
 }
 
 .desktop-menu {
