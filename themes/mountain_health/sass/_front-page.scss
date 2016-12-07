@@ -1,8 +1,8 @@
-.site-main {
-    p{
+    .site-main {
+    p {
         font-size: 15px;
         font-family: 'open_sans';
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $small-font-dt;
         }
     }
@@ -15,7 +15,6 @@
         font-weight: normal;
     }
 }
-
 
 .parallax-scroll {
     top: 40px;
@@ -92,7 +91,7 @@
     .what-is-hero {
         font-size: 17px;
         text-align: center;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $medium-font-dt;
         }
     }
@@ -152,10 +151,9 @@
         width: 277px;
         text-align: center;
         margin-top: 0px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $small-font-dt;
             width: 807px;
-
         }
     }
 }
@@ -168,7 +166,7 @@
         background: url(../../MTH-Assets/photos/naturopathy-visual.png);
         background-size: cover;
         margin-top: 0px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             width: 75%;
             height: 500px;
         }
@@ -182,8 +180,8 @@
     height: 299px;
     display: flex;
     flex-wrap: wrap;
-    @include mobile-break-width{
-        background:  linear-gradient(to right, #1a9481, #9bcc93);
+    @include mobile-break-width {
+        background: linear-gradient(to right, #1a9481, #9bcc93);
         max-width: 1764px;
         height: 598px;
         position: relative;
@@ -199,11 +197,11 @@
         margin-bottom: 19px;
         line-height: 21px;
         text-transform: uppercase;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $medium-font-dt;
             flex: 1 0 100%;
             max-width: 693px;
-            width:693px;
+            width: 693px;
             position: absolute;
             margin-top: 76px;
         }
@@ -216,7 +214,7 @@
     margin-left: 62px;
     font-size: 15px;
     list-style-image: url(../../MTH-Assets/other/leaf.png);
-    @include mobile-break-width{
+    @include mobile-break-width {
         font-size: $small-font-dt;
         margin-top: 152px;
         line-height: 1.8;
@@ -231,7 +229,7 @@
     margin-top: 20px;
     margin-left: 35px;
     margin-right: 8px;
-    @include mobile-break-width{
+    @include mobile-break-width {
         width: 296px;
         max-width: 296px;
         height: 366px;
@@ -243,13 +241,13 @@
 }
 
 // Front Page Compared to Traditional Section
-
-.compare-flex{
-    @include mobile-break-width{
+.compare-flex {
+    @include mobile-break-width {
         display: flex;
         justify-content: center;
     }
 }
+
 .compare-to-traditional {
     h2 {
         font-size: 17px;
@@ -261,9 +259,9 @@
         margin-right: auto;
         margin-top: 29px;
         margin-bottom: 20px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $medium-font-dt;
-            width:100%;
+            width: 100%;
         }
     }
 }
@@ -297,10 +295,10 @@
         height: 75px;
         background: url(../../MTH-Assets/icons/time.png);
         background-size: contain;
-        @include mobile-break-width{
+        @include mobile-break-width {
             width: 158px;
             height: 158px;
-            background:url(../../MTH-Assets/icons/time-desktop.png);
+            background: url(../../MTH-Assets/icons/time-desktop.png);
         }
     }
 }
@@ -311,7 +309,7 @@
         height: 75px;
         background: url(../../MTH-Assets/icons/user.png);
         background-size: cover;
-        @include mobile-break-width{
+        @include mobile-break-width {
             background: url(../../MTH-Assets/icons/user-desktop.png);
             width: 125px;
             height: 158px;
@@ -326,7 +324,7 @@
         text-transform: uppercase;
         margin-bottom: 19px;
         margin-top: 20px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $small-font-dt;
         }
     }
@@ -340,7 +338,7 @@
         font-size: 15px;
         line-height: 22px;
         list-style-image: url(../../MTH-Assets/other/leaf.png);
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $small-font-dt;
             line-height: 2.05;
         }
@@ -356,23 +354,23 @@
     font-size: 15px;
     line-height: 22px;
     list-style-image: url(../../MTH-Assets/other/leaf.png);
-    @include mobile-break-width{
-        width:70%;
+    @include mobile-break-width {
+        width: 70%;
     }
 }
 
 //Front Page What is section
-
-.white-box{
+.white-box {
     display: flex;
     flex-direction: column;
-    @include mobile-break-width{
-        background: linear-gradient(rgba(255,255,255, 0.5),rgba(255,255,255, 0.5));
+    @include mobile-break-width {
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
         height: 428px;
-        width:1760px;
+        width: 1760px;
         max-width: 62%;
     }
 }
+
 .what-is-header {
     display: flex;
     height: 292px;
@@ -380,7 +378,7 @@
     background: url(../../MTH-Assets/photos/front-page-bg.png);
     background-size: cover;
     background-position: center;
-    @include mobile-break-width{
+    @include mobile-break-width {
         height: 770px;
         background: url(../../MTH-Assets/photos/inside-visual-desktop.png);
         background-size: cover;
@@ -397,7 +395,7 @@
         line-height: 1.2;
         margin-top: 50px;
         margin-bottom: 20px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $medium-font-dt;
             max-width: 77.6%;
             margin-bottom: 40px;
@@ -409,7 +407,7 @@
     margin-bottom: 30px;
 }
 
-.what-is-button:visited{
+.what-is-button:visited {
     color: white;
 }
 
@@ -419,7 +417,9 @@
 }
 
 //Front page slider div
-.front-page-slider {
+.front-page-slider,
+.front-page-slide-2,
+.front-page-slide-3 {
     height: 300px;
     width: 320px;
     text-align: center;
@@ -443,130 +443,126 @@
     }
 }
 
-.carousel {
-    width: 100%;
+.front-page-slide-2 {
+    background: url();
 }
 
-.flickity-prev-next-button:disabled {
-    display: none;
-}
-
-//Front Page Did You Know Section
-.did-you-know {
-    h2 {
-        color: #677257;
-        font-size: 18px;
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: 0px;
-        @include mobile-break-width{
-            font-size: $medium-font-dt;
-
-        }
+.front-page-slide-3 {
+    background: url();
+    .carousel {
+        width: 100%;
     }
-}
-
-.did-you-know {
-    .did-you-know-pic {
-        background: url(../../MTH-Assets/photos/amanda-visual.png);
-        background-size: cover;
-        width: 280px;
-        height: 196px;
-        @include mobile-break-width{
-            max-width: 24.26%;
-            height: 300px;
-            background-position: center center;
-        }
+    .flickity-prev-next-button:disabled {
+        display: none;
     }
-}
-
-.did-you-know {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .number-circle {
-        background: url(../../MTH-Assets/other/number-bg.png);
-        width: 46px;
-        height: 46px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translateY(25px);
-        p {
-            box-shadow: none;
-            margin: 0;
-            font-size: $medium-font;
-        }
-    }
-}
-
-.did-you-know {
-    .did-you-know-bg {
-        width: 280px;
-        box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
-        background-color: white;
-        @include mobile-break-width{
-            width: 49.77%;
-            height: 139px;
-        }
-        p {
+    //Front Page Did You Know Section
+    .did-you-know {
+        h2 {
+            color: #677257;
+            font-size: 18px;
             text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.2;
-            @include mobile-break-width{
-                font-size: $small-font-dt;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+            @include mobile-break-width {
+                font-size: $medium-font-dt;
             }
         }
     }
-}
-
-.did-you-know {
-    .did-you-know-bg-1 {
-        height: 155px;
-        p {
-            width: 256px;
-            margin-top: 33px;
-            @include mobile-break-width{
-                width:93%;
+    .did-you-know {
+        .did-you-know-pic {
+            background: url(../../MTH-Assets/photos/amanda-visual.png);
+            background-size: cover;
+            width: 280px;
+            height: 196px;
+            @include mobile-break-width {
+                max-width: 24.26%;
+                height: 300px;
+                background-position: center center;
             }
         }
     }
-}
-
-.did-you-know {
-    .did-you-know-bg-2 {
-        height: 123px;
-        p {
-            width: 238px;
-            margin-top: 33px;
-            @include mobile-break-width{
-                width: 86.6%;
+    .did-you-know {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .number-circle {
+            background: url(../../MTH-Assets/other/number-bg.png);
+            width: 46px;
+            height: 46px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(25px);
+            p {
+                box-shadow: none;
+                margin: 0;
+                font-size: $medium-font;
             }
         }
     }
-}
-
-.did-you-know {
-    .did-you-know-bg-3 {
-        height: 141px;
-        p {
-            width: 255px;
-            margin-top: 33px;
-            @include mobile-break-width{
-                width: 93.1%;
+    .did-you-know {
+        .did-you-know-bg {
+            width: 280px;
+            box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+            background-color: white;
+            @include mobile-break-width {
+                width: 49.77%;
+                height: 139px;
+            }
+            p {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                line-height: 1.2;
+                @include mobile-break-width {
+                    font-size: $small-font-dt;
+                }
             }
         }
     }
-}
-
-.how-can {
-    text-align: center;
-    margin-bottom: 15px;
-    h4{
-        @include mobile-break-width{
-            font-size: $medium-font-dt;
+    .did-you-know {
+        .did-you-know-bg-1 {
+            height: 155px;
+            p {
+                width: 256px;
+                margin-top: 33px;
+                @include mobile-break-width {
+                    width: 93%;
+                }
+            }
         }
     }
-}
+    .did-you-know {
+        .did-you-know-bg-2 {
+            height: 123px;
+            p {
+                width: 238px;
+                margin-top: 33px;
+                @include mobile-break-width {
+                    width: 86.6%;
+                }
+            }
+        }
+    }
+    .did-you-know {
+        .did-you-know-bg-3 {
+            height: 141px;
+            p {
+                width: 255px;
+                margin-top: 33px;
+                @include mobile-break-width {
+                    width: 93.1%;
+                }
+            }
+        }
+    }
+    .how-can {
+        text-align: center;
+        margin-bottom: 15px;
+        h4 {
+            @include mobile-break-width {
+                font-size: $medium-font-dt;
+            }
+        }
+    }

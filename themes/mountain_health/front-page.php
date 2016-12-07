@@ -99,7 +99,7 @@ get_header(); ?>
                     <!--button links to Lab testing 2.3-->
                 </div>
 
-                <div class="carousel-cell front-page-slider">
+                <div class="carousel-cell front-page-slider-2">
                     <h2>What is a Naturopathic Physician?</h2>
                     <p>“As a primary care provider, they can also perform minor surgery, IV therapy and take 
                         blood samples.”
@@ -108,7 +108,7 @@ get_header(); ?>
                     <!--button links to Lab testing 2.3-->
                 </div>
 
-                <div class="carousel-cell front-page-slider">
+                <div class="carousel-cell front-page-slider-3">
                     <h2>What is a Naturopathic physician?</h2>
                     <p>“Naturopathic physicians have access to life labs as well as various other private, 
                         innovative lab companies.”
