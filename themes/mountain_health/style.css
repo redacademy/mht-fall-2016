@@ -507,7 +507,6 @@ body {
 .main-header,
 .content-area,
 .main-navigation {
-  max-width: 320px;
   margin: 0 auto; }
   @media (min-width: 480px) {
     .site-main,
