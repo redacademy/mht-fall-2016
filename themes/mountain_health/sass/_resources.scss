@@ -1,9 +1,4 @@
-.page-template-resources{
-    max-width: 375px;
-    background: url(../../MTH-Assets/photos/main-bg.png);
-    background-size: cover;
-    background-position: center center;
-}
+
 
 .resources-hero{
     height:123px;
@@ -12,6 +7,10 @@
     background-position: center center;
     text-align: center;
     margin-bottom: 30px;
+    @include mobile-break-width{
+        background:url(../../MTH-Assets/photos/resources-hero-desktop.png);
+        height: 320px;
+    }
     h1{
         font-size: $medium-font;
         color:white;
@@ -21,6 +20,11 @@
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 20px;
+        @include mobile-break-width{
+            font-size: $large-font-dt;
+            padding-top: 95px;
+            margin-bottom: 40px;
+        }
     }
 }
 
@@ -32,6 +36,10 @@
         margin-right: auto;
         margin-top:0px;
         line-height: 18px;
+        @include mobile-break-width{
+            width: 48%;
+            line-height: 1.36;
+        }
     }
 }
 .resources-paragraph{
@@ -41,6 +49,11 @@
     font-size: $medium-font;
     }
 }
+
+.resources{
+    display: flex;
+}
+
 .news-events,.articles-research,.recipes-nutrition{
     display: flex;
     flex-direction: column;

@@ -7,22 +7,7 @@ get_header(); ?>
 	<h1>Resources</h1>
 	<p>We are always here to help, but sometimes you have questions in between appointments. Knowledge is</p>
 </div>
-<!--<div class="resources-paragraph">
-	<p>
-	We are always here to help, but<br>
-	sometimes you have questions in<br>
-	between appointments.
-	</p>
-	<p>
-	Knowledge is key in taking<br>
-	control of your health, so we<br>
-	provide you with additional<br>
-	articles from Dr. Chay, recipes,<br>
-	and the latests news from<br>
-	Mountain Health.
-	</p>
-</div>-->
-	
+<section class="resources">
 	<div class="news-events">
 		<h2>News + Events</h2>
 		<div class="resources-newspaper"></div>
@@ -52,10 +37,7 @@ get_header(); ?>
 		</p>
 		<a href="#">Read More</a>
 	</div>
-<!--<a href="#">
-	<h2 class="learn-more-resource">Learn more about 
-	conditions and evidence-based treatments >>
-</a>-->
+</section>
 	</main><!-- #main -->
 </div><!-- #primary -->
 
