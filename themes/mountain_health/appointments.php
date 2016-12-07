@@ -11,7 +11,7 @@ get_header(); ?>
 
           <section class="appointments-hero-image">
           <h1>Appointments</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+          <p>We believe your time is valuable and are here to listen to all your concerns and find how we can best help you.</p>
           </section>
           <section class="article-nav-links article-nav-links-archive">
     				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
@@ -65,6 +65,7 @@ get_header(); ?>
     <div class="how-can">
         <h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
         <a  class="front-button flex-button" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
+                                      <!--button links to 5.0 book appointment-->
     </div>
     <div class="mountains">
       <img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
