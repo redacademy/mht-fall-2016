@@ -26,7 +26,6 @@ get_header(); ?>
                     <div></div>
                     <p>
                         <span class="i-in-about">I </span>
-<<<<<<< HEAD
                         <p class="first-sentence">am a Naturopathic Physician and owner of Mountain
                         Health. Prior to this, I</p>
                             <p>completed pre-medical studies
