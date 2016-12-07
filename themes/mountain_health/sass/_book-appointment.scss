@@ -210,6 +210,8 @@
     margin-bottom: 50px;
     @include mobile-break-width{
         background-image: url(../../MTH-Assets/logos/snd-logo-desktop.png);
+        width: 178px;
+        height: 29px;
     }
 }
 .why-use-smartnd{
@@ -253,7 +255,12 @@
     background-size: cover;
     background-position: center center;
     @include mobile-break-width{
-        //background-image: url(../../MTH-Assets/icons/change-icon-desktop.png);
+        background-image: url(../../MTH-Assets/icons/change-icon-desktop.png);
+        background-size: cover;
+        background-position: center center;
+        width: 92px;
+        height: 92px;
+        
     }
 
 }
@@ -306,6 +313,9 @@
 }
 .why-use-smartnd-content{
     width:160px;
+    @include mobile-break-width{
+        width: 177px;
+    }
 }
 
 .smart-nd-forms{
@@ -339,7 +349,4 @@
 
 .mountains{
     transform: translateY(7px);
-    @include mobile-break-width{
-        //background-image: url(../../MTH-Assets/photos/mountains-dekstop.png);
-    }
 }
