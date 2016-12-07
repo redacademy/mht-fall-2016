@@ -1385,7 +1385,9 @@ object {
   margin: 0 auto;
   border: 0; }
 
-.front-page-slider {
+.front-page-slider,
+.front-page-slide-2,
+.front-page-slide-3 {
   height: 300px;
   width: 320px;
   text-align: center;
@@ -1393,120 +1395,120 @@ object {
   background-size: cover;
   background-position: center center;
   margin-bottom: 30px; }
-  .front-page-slider p {
+  .front-page-slider p,
+  .front-page-slide-2 p,
+  .front-page-slide-3 p {
     color: white;
     width: 278px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.27;
     margin-bottom: 60px; }
-  .front-page-slider h2 {
+  .front-page-slider h2,
+  .front-page-slide-2 h2,
+  .front-page-slide-3 h2 {
     font-size: 17px;
     color: #fff;
     text-transform: uppercase;
     padding-top: 60px; }
 
-.carousel {
-  width: 100%; }
+.front-page-slide-2 {
+  background: url(); }
 
-.flickity-prev-next-button:disabled {
-  display: none; }
-
-.did-you-know h2 {
-  color: #677257;
-  font-size: 18px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 0px; }
-  @media (min-width: 480px) {
-    .did-you-know h2 {
-      font-size: 36px; } }
-
-.did-you-know .did-you-know-pic {
-  background: url(../../MTH-Assets/photos/amanda-visual.png);
-  background-size: cover;
-  width: 280px;
-  height: 196px; }
-  @media (min-width: 480px) {
-    .did-you-know .did-you-know-pic {
-      max-width: 24.26%;
-      height: 300px;
-      background-position: center center; } }
-
-.did-you-know {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center; }
-  .did-you-know .number-circle {
-    background: url(../../MTH-Assets/other/number-bg.png);
-    width: 46px;
-    height: 46px;
+.front-page-slide-3 {
+  background: url(); }
+  .front-page-slide-3 .carousel {
+    width: 100%; }
+  .front-page-slide-3 .flickity-prev-next-button:disabled {
+    display: none; }
+  .front-page-slide-3 .did-you-know h2 {
+    color: #677257;
+    font-size: 18px;
     text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px; }
+    @media (min-width: 480px) {
+      .front-page-slide-3 .did-you-know h2 {
+        font-size: 36px; } }
+  .front-page-slide-3 .did-you-know .did-you-know-pic {
+    background: url(../../MTH-Assets/photos/amanda-visual.png);
+    background-size: cover;
+    width: 280px;
+    height: 196px; }
+    @media (min-width: 480px) {
+      .front-page-slide-3 .did-you-know .did-you-know-pic {
+        max-width: 24.26%;
+        height: 300px;
+        background-position: center center; } }
+  .front-page-slide-3 .did-you-know {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
     -ms-flex-align: center;
-        align-items: center;
-    transform: translateY(25px); }
-    .did-you-know .number-circle p {
-      box-shadow: none;
-      margin: 0;
-      font-size: 17px; }
-
-.did-you-know .did-you-know-bg {
-  width: 280px;
-  box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
-  background-color: white; }
-  @media (min-width: 480px) {
-    .did-you-know .did-you-know-bg {
-      width: 49.77%;
-      height: 139px; } }
-  .did-you-know .did-you-know-bg p {
+        align-items: center; }
+    .front-page-slide-3 .did-you-know .number-circle {
+      background: url(../../MTH-Assets/other/number-bg.png);
+      width: 46px;
+      height: 46px;
+      text-align: center;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      transform: translateY(25px); }
+      .front-page-slide-3 .did-you-know .number-circle p {
+        box-shadow: none;
+        margin: 0;
+        font-size: 17px; }
+  .front-page-slide-3 .did-you-know .did-you-know-bg {
+    width: 280px;
+    box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+    background-color: white; }
+    @media (min-width: 480px) {
+      .front-page-slide-3 .did-you-know .did-you-know-bg {
+        width: 49.77%;
+        height: 139px; } }
+    .front-page-slide-3 .did-you-know .did-you-know-bg p {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.2; }
+      @media (min-width: 480px) {
+        .front-page-slide-3 .did-you-know .did-you-know-bg p {
+          font-size: 22px; } }
+  .front-page-slide-3 .did-you-know .did-you-know-bg-1 {
+    height: 155px; }
+    .front-page-slide-3 .did-you-know .did-you-know-bg-1 p {
+      width: 256px;
+      margin-top: 33px; }
+      @media (min-width: 480px) {
+        .front-page-slide-3 .did-you-know .did-you-know-bg-1 p {
+          width: 93%; } }
+  .front-page-slide-3 .did-you-know .did-you-know-bg-2 {
+    height: 123px; }
+    .front-page-slide-3 .did-you-know .did-you-know-bg-2 p {
+      width: 238px;
+      margin-top: 33px; }
+      @media (min-width: 480px) {
+        .front-page-slide-3 .did-you-know .did-you-know-bg-2 p {
+          width: 86.6%; } }
+  .front-page-slide-3 .did-you-know .did-you-know-bg-3 {
+    height: 141px; }
+    .front-page-slide-3 .did-you-know .did-you-know-bg-3 p {
+      width: 255px;
+      margin-top: 33px; }
+      @media (min-width: 480px) {
+        .front-page-slide-3 .did-you-know .did-you-know-bg-3 p {
+          width: 93.1%; } }
+  .front-page-slide-3 .how-can {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.2; }
+    margin-bottom: 15px; }
     @media (min-width: 480px) {
-      .did-you-know .did-you-know-bg p {
-        font-size: 22px; } }
-
-.did-you-know .did-you-know-bg-1 {
-  height: 155px; }
-  .did-you-know .did-you-know-bg-1 p {
-    width: 256px;
-    margin-top: 33px; }
-    @media (min-width: 480px) {
-      .did-you-know .did-you-know-bg-1 p {
-        width: 93%; } }
-
-.did-you-know .did-you-know-bg-2 {
-  height: 123px; }
-  .did-you-know .did-you-know-bg-2 p {
-    width: 238px;
-    margin-top: 33px; }
-    @media (min-width: 480px) {
-      .did-you-know .did-you-know-bg-2 p {
-        width: 86.6%; } }
-
-.did-you-know .did-you-know-bg-3 {
-  height: 141px; }
-  .did-you-know .did-you-know-bg-3 p {
-    width: 255px;
-    margin-top: 33px; }
-    @media (min-width: 480px) {
-      .did-you-know .did-you-know-bg-3 p {
-        width: 93.1%; } }
-
-.how-can {
-  text-align: center;
-  margin-bottom: 15px; }
-  @media (min-width: 480px) {
-    .how-can h4 {
-      font-size: 36px; } }
+      .front-page-slide-3 .how-can h4 {
+        font-size: 36px; } }
 
 .site-main .all-visits {
   display: none; }
@@ -2130,8 +2132,8 @@ object {
       font-size: 22px; } }
 
 .wavy-arrows {
-  height: 31px;
-  width: 26px;
+  height: 60px;
+  width: 60px;
   background-image: url(../../MTH-Assets/icons/change-icon.png);
   background-size: cover;
   background-position: center center; }
@@ -2144,8 +2146,8 @@ object {
       height: 92px; } }
 
 .update-patient-pic {
-  height: 31px;
-  width: 37px;
+  height: 60px;
+  width: 60px;
   background-image: url(../../MTH-Assets/icons/update-icon.png);
   background-size: cover;
   background-position: center center; }
@@ -2157,8 +2159,8 @@ object {
       height: 92px; } }
 
 .smartnd-clipboard {
-  height: 31px;
-  width: 23px;
+  height: 60px;
+  width: 60px;
   background-image: url(../../MTH-Assets/icons/form-icon.png);
   background-size: cover;
   background-position: center center; }
@@ -2170,8 +2172,8 @@ object {
       height: 92px; } }
 
 .smartnd-form-img {
-  height: 31px;
-  width: 25px;
+  height: 60px;
+  width: 60px;
   background-image: url(../../MTH-Assets/icons/treatment-icon.png);
   background-size: cover;
   background-position: center center; }
@@ -2182,14 +2184,13 @@ object {
       width: 92px;
       height: 92px; } }
 
-.why-use-all {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
-  @media (min-width: 480px) {
-    .why-use-all {
-      line-height: 1.18; } }
+@media (min-width: 480px) {
+  .why-use-all {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    line-height: 1.18; } }
 
 .why-use-upper {
   display: -ms-flexbox;
@@ -2200,7 +2201,15 @@ object {
   display: flex; }
 
 .why-use-smartnd-content {
-  width: 160px; }
+  width: 160px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
   @media (min-width: 480px) {
     .why-use-smartnd-content {
       width: 177px;
@@ -2413,9 +2422,10 @@ object {
   color: #003A5F;
   font-size: 17px; }
 
-.resources {
-  display: -ms-flexbox;
-  display: flex; }
+@media (min-width: 480px) {
+  .resources {
+    display: -ms-flexbox;
+    display: flex; } }
 
 .news-events, .articles-research, .recipes-nutrition {
   display: -ms-flexbox;

@@ -254,8 +254,8 @@
     }
 }
 .wavy-arrows{
-    height: 31px;
-    width: 26px;
+    height: 60px;
+    width: 60px;
     background-image: url(../../MTH-Assets/icons/change-icon.png);
     background-size: cover;
     background-position: center center;
@@ -271,8 +271,8 @@
 }
 
 .update-patient-pic{
-    height: 31px;
-    width: 37px;
+    height: 60px;
+    width: 60px;
     background-image: url(../../MTH-Assets/icons/update-icon.png);
     background-size: cover;
     background-position: center center;
@@ -286,8 +286,8 @@
 }
 
 .smartnd-clipboard{
-    height: 31px;
-    width: 23px;
+    height: 60px;
+    width: 60px;
     background-image: url(../../MTH-Assets/icons/form-icon.png);
     background-size: cover;
     background-position: center center;
@@ -301,8 +301,8 @@
 }
 
 .smartnd-form-img{
-    height:31px;
-    width:25px;
+    height:60px;
+    width:60px;
     background-image: url(../../MTH-Assets/icons/treatment-icon.png);
     background-size: cover;
     background-position: center center;
@@ -317,9 +317,9 @@
 }
 
 .why-use-all{
-    display: flex;
-    justify-content: center;
     @include mobile-break-width{
+            display: flex;
+    justify-content: center;
         line-height: 1.18;
     }
 }
@@ -331,6 +331,10 @@
 }
 .why-use-smartnd-content{
     width:160px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     @include mobile-break-width{
         width: 177px;
         display: flex;
