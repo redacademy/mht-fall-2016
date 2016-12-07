@@ -7,7 +7,6 @@ get_header(); ?>
             <div class="parallax-scroll-about"></div>
             <div class="about-title">
                 <h1>Mounatain Health</h1>
-
                 <p>
                  Remaining curious about each individual and improving their
                  quality of life with dedication and passion.
