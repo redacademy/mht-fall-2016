@@ -20,7 +20,7 @@
 	</div>
 
 	<div class="archive-entry-content">
-		<?php the_excerpt(); ?>
+		<?php echo excerpt(25); ?>
 	</div><!-- .entry-content -->
 	<div class="link-read-more-archive">
 			<a href="<?php the_permalink(); ?>">

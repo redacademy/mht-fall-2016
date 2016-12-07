@@ -514,7 +514,13 @@ body {
     .main-header,
     .content-area,
     .main-navigation {
-      max-width: 1764px; } }
+      max-width: 1364px; } }
+
+.content-area {
+  padding-top: 40px; }
+  @media (min-width: 480px) {
+    .content-area {
+      padding-top: 110px; } }
 
 .main-header header {
   width: 320px;
@@ -554,7 +560,7 @@ body {
       .main-header header .phone-and-number {
         display: -ms-flexbox;
         display: flex;
-        paddining: 0;
+        padding: 0;
         width: 200px; } }
 
 .MTH-logo-wrapper {
@@ -660,7 +666,7 @@ body {
     color: #003A5F; }
   .phone-and-number img {
     padding-right: 8px;
-    padding-top: 2px; }
+    padding-top: 18px; }
 
 .phone-and-number-green {
   display: -ms-flexbox;
@@ -672,7 +678,7 @@ body {
     color: #009B84; }
   .phone-and-number-green img {
     padding-right: 8px;
-    padding-top: 2px; }
+    padding-top: 18px; }
 
 .mobile-menu-wrapper {
   display: -ms-flexbox;
@@ -693,6 +699,8 @@ body {
   border: none;
   height: auto;
   color: #1a9481; }
+  .menu-toggle:focus {
+    outline: none; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -2486,12 +2494,18 @@ input::-webkit-input-placeholder {
     .single-article-content {
       width: 700px; } }
 
-.entry-content-article {
+.entry-content-article p {
   font-family: 'open_sans';
   font-size: 15px;
   line-height: 1.2;
   text-align: left;
   color: #003d5c; }
+  .entry-content-article p:nth-child(1):first-letter {
+    float: left;
+    line-height: 70px;
+    padding: 0px 25px 1px 3px;
+    font-size: 6rem;
+    font-family: "Edwardian Script ITC", "Brush Script MT", cursive; }
 
 .entry-title-article {
   font-family: 'oswald';
