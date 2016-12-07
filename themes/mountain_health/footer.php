@@ -26,6 +26,8 @@
 						<br>1037 Cornwall Street
 						<br>New Westminster, BC V3M 1S1</p>
 					<div class="contact_icon_img">
+						<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="Phone logo">
+						<a class="link-footer" href="tel:XXX-XXX-XXXX">XXX-XXX-XXXX</a>
 						<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone.png" alt="Phone logo">
 						<a class="link-footer" href="tel: 604-442-5864"> 604-442-5864</a>
 					</div>
