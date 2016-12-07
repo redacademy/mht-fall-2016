@@ -27,11 +27,11 @@
 						<br>New Westminster, BC V3M 1S1</p>
 					<div class="contact_icon_img">
 						<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone.png" alt="Phone logo">
-						<a class="link-footer" href="tel:XXX-XXX-XXXX">XXX-XXX-XXXX</a>
+						<a class="link-footer" href="tel: 604-442-5864"> 604-442-5864</a>
 					</div>
 					<div class="contact_icon_img">
 						<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/email.png" alt="Email logo">
-						<a class="link-footer"href="mailto:info@mountainhealth.com">info@mountainhealth.com</a>
+						<a class="link-footer"href="mailto:amandajchay@gmail.com">amandajchay@gmail.com</a>
 					</div>
 				</div>
 				<div class="footer_wrapper">
