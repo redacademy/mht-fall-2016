@@ -7,7 +7,6 @@ get_header(); ?>
             <div class="parallax-scroll-about"></div>
             <div class="about-title">
                 <h1>Mounatain Health</h1>
-
                 <p>
                  Remaining curious about each individual and improving their
                  quality of life with dedication and passion.
@@ -27,7 +26,6 @@ get_header(); ?>
                     <div></div>
                     <p>
                         <span class="i-in-about">I </span>
-<<<<<<< HEAD
                         <p class="first-sentence">am a Naturopathic Physician and owner of Mountain
                         Health. Prior to this, I</p>
                             <p>completed pre-medical studies
@@ -87,8 +85,7 @@ get_header(); ?>
                 <p>OHM Medical Training Services Inc.</p>
             </div>
             <h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
-        <div class="primary-button book-appointment"><a href="#">Book an appointment</a></div>
-                                                <!--Button above needs to link to appointment page-->
+        <div class="primary-button book-appointment"><a href="<?php echo get_page_link(29); ?>">Book an appointment</a></div>
     </section>
     
 

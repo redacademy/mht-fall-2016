@@ -16,8 +16,7 @@
                 <img class="lab-beaker" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/lab.png" alt="lab beaker">
                 <p>Learn about the types of phlebotomy and lab testing we offer as a part of our services</p>
                 <div class="learn-more">
-                <a href="#">Learn More</a>
-                <!--button links to 2.3 lab testing-->
+                <a href="<?php echo get_page_link(27); ?>">Learn More</a>
                 </div>
             </div>
             <div class="appointments">
@@ -26,8 +25,7 @@
                 <img class="calendar-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/appointment.png" alt="calendar logo">
                 <p>See the types of appointments we offer to create a personalized health plan just for you</p>
                 <div class="learn-more">
-                <a href="#">Learn More</a>
-                <!--button links to 2.4 appointments-->
+                <a href="<?php echo get_page_link(29); ?>">Learn More</a>
                 </div>
             </div>
             <div class="treatments">
@@ -36,8 +34,7 @@
                 <img class="stethascope-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/stethascope.png" alt="stethascope logo">
                 <p>See the treatments we offer based on based on your personalized health plan.</p>
                 <div class="learn-more">
-                <a href="#">Learn More</a>
-                <!--button links to 2.2 treatments-->
+                <a href="<?php echo get_page_link(25); ?>">Learn More</a>
                 </div>
             </div>
         </section> 
@@ -92,10 +89,8 @@
         
         <h4 class="how-can-we-help-you">Want to know how we can help you?</h4>
         <div class ="primary-button book-appointment">
-            <a href="#">Book an appointment</a>
-                <!--Button will link to Appointments page-->
+            <a href="<?php echo get_page_link(29); ?>">Book an appointment</a>
         </div>
-
 	</main><!-- #main -->
 </div><!-- #primary -->
 

@@ -51,7 +51,9 @@
 }
 
 .resources{
+    @include mobile-break-width{
     display: flex;
+    }
 }
 
 .news-events,.articles-research,.recipes-nutrition{
