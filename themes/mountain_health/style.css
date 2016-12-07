@@ -2026,6 +2026,9 @@ object {
   height: 299px;
   background-image: linear-gradient(to right, #1a9481, #9bcc93);
   line-height: 18px; }
+  @media (min-width: 480px) {
+    .why-use-smartnd {
+      height: 388px; } }
 
 .why-use-smartnd h2 {
   color: white;
@@ -2036,7 +2039,9 @@ object {
   margin-top: 0px; }
   @media (min-width: 480px) {
     .why-use-smartnd h2 {
-      font-size: 36px; } }
+      font-size: 36px;
+      padding-top: 80px;
+      margin-bottom: 40px; } }
 
 .why-use-smartnd h3 {
   color: white;
@@ -2065,29 +2070,50 @@ object {
 .update-patient-pic {
   height: 31px;
   width: 37px;
-  background-image: url(../../MTH-Assets/icons/update.png);
+  background-image: url(../../MTH-Assets/icons/update-icon.png);
   background-size: cover;
   background-position: center center; }
+  @media (min-width: 480px) {
+    .update-patient-pic {
+      background-size: cover;
+      background-position: center center;
+      width: 92px;
+      height: 92px; } }
 
 .smartnd-clipboard {
   height: 31px;
   width: 23px;
-  background-image: url(../../MTH-Assets/icons/form.png);
+  background-image: url(../../MTH-Assets/icons/form-icon.png);
   background-size: cover;
   background-position: center center; }
+  @media (min-width: 480px) {
+    .smartnd-clipboard {
+      background-size: cover;
+      background-position: center center;
+      width: 92px;
+      height: 92px; } }
 
 .smartnd-form-img {
   height: 31px;
   width: 25px;
-  background-image: url(../../MTH-Assets/icons/treatment.png);
+  background-image: url(../../MTH-Assets/icons/treatment-icon.png);
   background-size: cover;
   background-position: center center; }
+  @media (min-width: 480px) {
+    .smartnd-form-img {
+      background-size: cover;
+      background-position: center center;
+      width: 92px;
+      height: 92px; } }
 
 .why-use-all {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center; }
+  @media (min-width: 480px) {
+    .why-use-all {
+      line-height: 1.18; } }
 
 .why-use-upper {
   display: -ms-flexbox;
@@ -2101,17 +2127,37 @@ object {
   width: 160px; }
   @media (min-width: 480px) {
     .why-use-smartnd-content {
-      width: 177px; } }
+      width: 177px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      margin-left: 75px;
+      margin-right: 75px; } }
+
+@media (min-width: 480px) {
+  .smart-nd-change h3 {
+    width: 180px; } }
 
 .smart-nd-forms h3 {
   width: 95px;
   margin-left: auto;
   margin-right: auto; }
+  @media (min-width: 480px) {
+    .smart-nd-forms h3 {
+      width: 135px; } }
 
 .smart-nd-plans h3 {
   width: 118px;
   margin-left: auto;
   margin-right: auto; }
+  @media (min-width: 480px) {
+    .smart-nd-plans h3 {
+      width: 177px; } }
 
 .smartnd-icon-bg {
   width: 60px;
