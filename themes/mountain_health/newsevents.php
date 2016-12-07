@@ -10,7 +10,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<section class="archive-news-hero-image">
 			<h1>News &amp; Events</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+			<p>Check back frequently for updates on Mountain Health or subscribe to our newsletter for updates delivered directly to your inbox.</p>
 			</section>
 			<section class="article-nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
