@@ -5,6 +5,10 @@
         color:#003d5c;
         font-family: "opens_sans";
         margin-bottom: 10px;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+            font-family: "open_sans";
+        }
     }
 }
 
@@ -14,8 +18,18 @@
         font-size: $medium-font;
         color: #003d5c;
         line-height: 1.2;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+            font-weight: normal;
+            font-family: "open_sans";
+            margin-bottom: 40px;
+        }
         span{
             font-size: 24px;
+            @include mobile-break-width{
+                font-size: $medium-font-dt;
+                font-weight: bold;
+            }
         }
     }
 }
@@ -24,6 +38,9 @@
     p{
         margin-top:0px;
         margin-bottom: 30px;
+        @include mobile-break-width{
+            font-family: "open_sans";
+        }
     }
 }
 
@@ -31,6 +48,9 @@
     a{
         color:#1a9481;
         font-size:12px;
+        @include mobile-break-width{
+            font-size: $small-font-dt;
+        }
     }
 }
 
@@ -38,4 +58,21 @@
     a:visited{
         color: #1a9481;
     }
+}
+
+.redirect{
+    img{
+        @include mobile-break-width{
+            width: 179px;
+            height: 29px;
+            transform: translateY(10px);
+            margin-left: 15px;
+        }
+    }
+}
+
+.redirect-head-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

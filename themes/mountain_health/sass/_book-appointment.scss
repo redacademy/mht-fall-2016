@@ -220,6 +220,9 @@
     background-image: -o-linear-gradient(left, #1a9481, #9bcc93);
     background-image: linear-gradient(to right, #1a9481, #9bcc93);
     line-height: 18px;
+    @include mobile-break-width{
+        height: 388px;
+    }
 }
 
 .why-use-smartnd{
@@ -232,6 +235,8 @@
         margin-top:0px;
         @include mobile-break-width{
             font-size: $medium-font-dt;
+            padding-top: 80px;
+            margin-bottom: 40px;
         }
     }
 }
@@ -268,11 +273,14 @@
 .update-patient-pic{
     height: 31px;
     width: 37px;
-    background-image: url(../../MTH-Assets/icons/update.png);
+    background-image: url(../../MTH-Assets/icons/update-icon.png);
     background-size: cover;
     background-position: center center;
     @include mobile-break-width{
-        //background-image: url(../../MTH-Assets/icons/update-desktop.png);
+        background-size: cover;
+        background-position: center center;
+        width: 92px;
+        height: 92px;
     }
 
 }
@@ -280,11 +288,14 @@
 .smartnd-clipboard{
     height: 31px;
     width: 23px;
-    background-image: url(../../MTH-Assets/icons/form.png);
+    background-image: url(../../MTH-Assets/icons/form-icon.png);
     background-size: cover;
     background-position: center center;
     @include mobile-break-width{
-        //background-image: url(../../MTH-Assets/icons/form-desktop.png);
+        background-size: cover;
+        background-position: center center;
+        width: 92px;
+        height: 92px;
     }
 
 }
@@ -292,11 +303,15 @@
 .smartnd-form-img{
     height:31px;
     width:25px;
-    background-image: url(../../MTH-Assets/icons/treatment.png);
+    background-image: url(../../MTH-Assets/icons/treatment-icon.png);
     background-size: cover;
     background-position: center center;
     @include mobile-break-width{
-        //background-image: url(../../MTH-Assets/icons/treatment-desktop.png);
+        background-size: cover;
+        background-position: center center;
+        width: 92px;
+        height: 92px;
+        
     }
 
 }
@@ -304,6 +319,9 @@
 .why-use-all{
     display: flex;
     justify-content: center;
+    @include mobile-break-width{
+        line-height: 1.18;
+    }
 }
 .why-use-upper{
     display: flex;
@@ -315,14 +333,29 @@
     width:160px;
     @include mobile-break-width{
         width: 177px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 75px;
+        margin-right: 75px;
     }
 }
-
+.smart-nd-change{
+    h3{
+        @include mobile-break-width{
+            width: 180px;
+        }
+    }
+}
 .smart-nd-forms{
     h3{
         width: 95px;
         margin-left: auto;
         margin-right: auto;
+        @include mobile-break-width{
+            width: 135px;
+        }
     }
 }
 
@@ -331,6 +364,9 @@
         width:118px;
         margin-left: auto;
         margin-right: auto;
+        @include mobile-break-width{
+            width: 177px;
+        }
     }
 }
 

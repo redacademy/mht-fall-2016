@@ -1,9 +1,4 @@
-.page-template-resources{
-    max-width: 375px;
-    background: url(../../MTH-Assets/photos/main-bg.png);
-    background-size: cover;
-    background-position: center center;
-}
+
 
 .resources-hero{
     height:123px;
@@ -12,6 +7,10 @@
     background-position: center center;
     text-align: center;
     margin-bottom: 30px;
+    @include mobile-break-width{
+        background:url(../../MTH-Assets/photos/resources-hero-desktop.png);
+        height: 320px;
+    }
     h1{
         font-size: $medium-font;
         color:white;
@@ -21,6 +20,11 @@
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 20px;
+        @include mobile-break-width{
+            font-size: $large-font-dt;
+            padding-top: 95px;
+            margin-bottom: 40px;
+        }
     }
 }
 
@@ -32,6 +36,10 @@
         margin-right: auto;
         margin-top:0px;
         line-height: 18px;
+        @include mobile-break-width{
+            width: 48%;
+            line-height: 1.36;
+        }
     }
 }
 .resources-paragraph{
@@ -41,6 +49,11 @@
     font-size: $medium-font;
     }
 }
+
+.resources{
+    display: flex;
+}
+
 .news-events,.articles-research,.recipes-nutrition{
     display: flex;
     flex-direction: column;
@@ -54,11 +67,21 @@
     margin-left:auto;
     margin-bottom: 45px;
     position: relative;
+    @include mobile-break-width{
+        width:23.5%;
+        background: url(../../MTH-Assets/photos/stroke-desktop.png);
+        background-size: 100% 100%;
+        background-position: center center;
+        height: 416px;
+    }
     p{
         text-align: center;
         font-size: 14px;
         color: $body-color;
         line-height: 1.2;
+        @include mobile-break-width{
+            font-size: $small-font-dt;
+            }
         }
     }
 
@@ -77,6 +100,9 @@
         text-transform: uppercase;
         margin-top:30px;
         margin-bottom: 20px;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+        }
     }
 }
 
@@ -118,6 +144,10 @@
         background-size: cover;
         background-position: center center;
         margin-bottom: 20px;
+        @include mobile-break-width{
+            width: 136px;
+            height: 130px;
+        }
     }
 
     .resources-microscope{
@@ -127,6 +157,10 @@
         background-size: cover;
         background-position: center center;
         margin-bottom: 20px;
+        @include mobile-break-width{
+            width: 108px;
+            height: 130px;
+        }
 
     }
     .resources-apple{
@@ -136,4 +170,8 @@
         background-size: cover;
         background-position: center center;
         margin-bottom: 20px;
+        @include mobile-break-width{
+            width: 130px;
+            height: 130px;
+        }
     }

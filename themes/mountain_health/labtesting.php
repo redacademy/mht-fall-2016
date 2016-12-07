@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<section class="labtesting-hero-image">
 				<h1>Lab Testing</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+				<p>We offer a range of life labs to best help you make choices concerning your health and best treatment options for you.</p>
 			</section>
 			<section class="article-nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
@@ -23,28 +23,28 @@ get_header(); ?>
 			<p>No extra cost.</p>
 			<div class="">
 				<div class="">
-					<h3>STREP A TEST</h3>
+					<h3>Strep A Test</h3>
 					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>If Strep is suspected</p>
 				</div>
 				<div class="">
-					<h3>PREGNACY TEST</h3>
+					<h3>Pregnancy Test</h3>
 					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>To rule out in some acute cases, and determine in others</p>
 				</div>
 				<div class="">
-					<h3>URINANALYSIS</h3>
+					<h3>Urinanalysis</h3>
 					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
-					<p>TIf a urinary tract infection is suspected.</p>
+					<p>If a urinary tract infection is suspected.</p>
 				</div>
 				<div class="">
-					<h3>RANDOM GLUCOSE TESTING</h3>
+					<h3>Random Glucose Testing</h3>
 					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>To determine blood sugar level.</p>
 				</div>
 			</div>
 			<div class="">
-				<h2>SPECIALIZED TESTS</h2>
+				<h2>Specialized Tests</h2>
 				<p>Additional cost (per recommendation of Dr. Chay).</p>
 			</div>
 
@@ -72,21 +72,29 @@ get_header(); ?>
 	</div><!-- #primary -->
 	<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/overlay-amanda@3x.png" alt="logo">
 <div class="labtesting-book-appointment">
-	<h3>Book An Appointment</h3>
-	<p>We offer various types of<br>
-appointmentsAcute visit<br>
-Follow up<br>
-Full physical exam<br>
+	<h3>Book an appointment that suits your concerns</h3>
+	<p>We offer various types of appointments<br>
+		Acute visit<br>
+		Follow up<br>
+		Full physical exam<br>
 </p>
 <a href="<?php echo get_page_link(29); ?>">
 <button type="button" name="button">Discover More</button></a>
+<!--Button links to 2.4 Appointments-->
 </div>
-<h2>DID YOU KNOW?</h2>
+<h2>Did you know?</h2>
 <div class="lab-did-u-no">
-Naturopathic physicians must attend the same pre-medical studies as MDs and, they must obtain a four year degree prior to applying to one of the seven accredited schools in North America.</div>
-	<div class="how-can">
+<p>
+Although Naturopathic physicians can write lab requisitions, it is not covered by the government 
+and therefore is paid for by the patient. The benefit to this is that Naturopathic doctors can ask 
+for labs that normally wouldn’t be covered by Medicare that your MD might not be able to request. 
+Dr. Chay is happy to work with your MD to determine the best labs for you and your budget.
+</p>
+</div>
+<div class="how-can">
 			<h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
 			<a  class="front-button flex-button" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
+													<!--Button links to book an appointment 5.0-->
 	</div>
 	<div class="mountains">
 		<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
