@@ -507,7 +507,6 @@ body {
 .main-header,
 .content-area,
 .main-navigation {
-  max-width: 320px;
   margin: 0 auto; }
   @media (min-width: 480px) {
     .site-main,
@@ -1819,8 +1818,10 @@ object {
   background-size: cover;
   height: 40vh; }
   .appointments-hero-image h1 {
+    font-size: 17px;
     text-transform: uppercase; }
   .appointments-hero-image p {
+    font-size: 15px;
     text-align: center;
     font-family: 'open_sans';
     font-size: 15px; }
@@ -1834,9 +1835,11 @@ object {
   background-image: linear-gradient(to top, #003d5c, #1a9481);
   border-image-source: linear-gradient(to top, #003d5c, #1a9481);
   border-image-slice: 1;
-  margin: 15px; }
+  margin-top: 15px;
+  margin-bottom: 15px; }
   @media (min-width: 480px) {
     .text-stroke-box {
+      margin: 15px;
       width: 1324px/2;
       margin: 15px 0 15px 0;
       width: 49%; } }
@@ -1844,12 +1847,10 @@ object {
 .stroke-box, .stroke-box2, .stroke-box3, .stroke-box4, .stroke-box5 {
   position: relative; }
 
-.appointments-wrapper {
-  width: 450px;
-  margin: 0 auto; }
-  @media (min-width: 480px) {
-    .appointments-wrapper {
-      width: 1364px; } }
+@media (min-width: 480px) {
+  .appointments-wrapper {
+    padding-top: 80px;
+    width: 1364px; } }
 
 .text-stroke-box-middle {
   height: 100%;
@@ -1866,12 +1867,11 @@ object {
     margin: 1rem;
     margin-left: 0;
     font-family: 'open_sans';
-    font-size: 22px;
     line-height: 1.36;
     color: #003d5c; }
     .text-stroke-box-middle p:nth-child(3), .text-stroke-box-middle p:nth-child(4) {
       margin-bottom: 0;
-      font-size: 25px;
+      font-size: 15px;
       font-weight: bold;
       line-height: 0.69;
       color: #1a9481; }

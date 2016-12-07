@@ -8,9 +8,11 @@
   background-size: cover;
   height: 40vh;
 h1 {
+  font-size: 17px;
   text-transform: uppercase;
 }
 p {
+  font-size: 15px;
   text-align: center;
   font-family: 'open_sans';
 font-size: 15px;
@@ -24,11 +26,12 @@ padding: 4px;
 background-image: linear-gradient(to top, #003d5c, #1a9481);
 border-image-source: linear-gradient(to top, #003d5c, #1a9481);
 border-image-slice: 1;
-margin: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
 @include mobile-break-width{
+margin: 15px;
 width: 1324px/2;
 margin: 15px 0 15px 0;
-
 width: 49%;
 
 }
@@ -37,9 +40,8 @@ width: 49%;
 position: relative;
 }
 .appointments-wrapper{
-  width: 450px;
-  margin: 0 auto;
   @include mobile-break-width{
+    padding-top: 80px;
 width: 1364px;
 }
 }
@@ -59,13 +61,12 @@ color: #6a7059;
     margin: 1rem;;
     margin-left: 0;
     font-family: 'open_sans';
-font-size: 22px;
 line-height: 1.36;
 color: #003d5c;
 
 &:nth-child(3), &:nth-child(4){
   margin-bottom: 0;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 0.69;
   color: #1a9481;
@@ -87,7 +88,6 @@ width: 100%;
 .appointments-wrapper-inner{
   width: 280px;
   margin: 0 auto;
-
   @include mobile-break-width{
     width: 1324px;
     display: flex;
