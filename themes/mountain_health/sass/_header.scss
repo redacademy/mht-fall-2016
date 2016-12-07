@@ -151,13 +151,15 @@
     display: flex;
     padding-left: 30px;
     padding-right: 30px;
+    a {
+        display: flex;
+    }
     p {
         font-family: "open_sans", "san-serif";
         color: $body-color;
     }
     img {
         padding-right: 8px;
-        padding-top: 18px;
     }
 }
 

@@ -656,12 +656,14 @@ body {
   display: flex;
   padding-left: 30px;
   padding-right: 30px; }
+  .phone-and-number a {
+    display: -ms-flexbox;
+    display: flex; }
   .phone-and-number p {
     font-family: "open_sans", "san-serif";
     color: #003A5F; }
   .phone-and-number img {
-    padding-right: 8px;
-    padding-top: 18px; }
+    padding-right: 8px; }
 
 .phone-and-number-green {
   display: -ms-flexbox;

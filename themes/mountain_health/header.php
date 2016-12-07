@@ -58,14 +58,15 @@
 
 						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="x logo">
 						<div class="phone-and-number">
+							
+							<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
 							<a href="tel:604-442-5864">
-								<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
 								<p>1-604-442-5864</p>
 							</a>
 						</div>
 						<div class="phone-and-number-green">
-							<a href="tel:604-442-5864">
-								<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="green phone icon">
+							<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="green phone icon">
+							<a href="tel:604-442-5864"
 								<p>1-604-442-5864</p>
 							</a>
 						</div>
