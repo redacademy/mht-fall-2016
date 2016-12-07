@@ -1008,6 +1008,9 @@ object {
 .site-main p {
   font-size: 15px;
   font-family: 'open_sans'; }
+  @media (min-width: 480px) {
+    .site-main p {
+      font-size: 22px; } }
 
 .site-main h2,
 .site-main h3 {
@@ -2007,7 +2010,9 @@ object {
   margin-bottom: 50px; }
   @media (min-width: 480px) {
     .smartnd-logo {
-      background-image: url(../../MTH-Assets/logos/snd-logo-desktop.png); } }
+      background-image: url(../../MTH-Assets/logos/snd-logo-desktop.png);
+      width: 178px;
+      height: 29px; } }
 
 .why-use-smartnd {
   height: 299px;
@@ -2041,6 +2046,13 @@ object {
   background-image: url(../../MTH-Assets/icons/change-icon.png);
   background-size: cover;
   background-position: center center; }
+  @media (min-width: 480px) {
+    .wavy-arrows {
+      background-image: url(../../MTH-Assets/icons/change-icon-desktop.png);
+      background-size: cover;
+      background-position: center center;
+      width: 92px;
+      height: 92px; } }
 
 .update-patient-pic {
   height: 31px;
@@ -2079,6 +2091,9 @@ object {
 
 .why-use-smartnd-content {
   width: 160px; }
+  @media (min-width: 480px) {
+    .why-use-smartnd-content {
+      width: 177px; } }
 
 .smart-nd-forms h3 {
   width: 95px;
