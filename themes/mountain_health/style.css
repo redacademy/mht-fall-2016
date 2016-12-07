@@ -3097,25 +3097,60 @@ header.entry-header-article {
     color: #003d5c;
     font-family: "opens_sans";
     margin-bottom: 10px; }
+    @media (min-width: 480px) {
+      .redirect h2 {
+        font-size: 36px;
+        font-family: "open_sans"; } }
 
 .redirect h3 {
   margin-top: 10px;
   font-size: 17px;
   color: #003d5c;
   line-height: 1.2; }
+  @media (min-width: 480px) {
+    .redirect h3 {
+      font-size: 36px;
+      font-weight: normal;
+      font-family: "open_sans";
+      margin-bottom: 40px; } }
   .redirect h3 span {
     font-size: 24px; }
+    @media (min-width: 480px) {
+      .redirect h3 span {
+        font-size: 36px;
+        font-weight: bold; } }
 
 .redirect p {
   margin-top: 0px;
   margin-bottom: 30px; }
+  @media (min-width: 480px) {
+    .redirect p {
+      font-family: "open_sans"; } }
 
 .redirect a {
   color: #1a9481;
   font-size: 12px; }
+  @media (min-width: 480px) {
+    .redirect a {
+      font-size: 22px; } }
 
 .redirect a:visited {
   color: #1a9481; }
+
+@media (min-width: 480px) {
+  .redirect img {
+    width: 179px;
+    height: 29px;
+    transform: translateY(10px);
+    margin-left: 15px; } }
+
+.redirect-head-img {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
 
 .labtesting-hero-image {
   color: #ffffff;
