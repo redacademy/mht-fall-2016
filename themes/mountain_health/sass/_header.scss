@@ -155,7 +155,7 @@
     }
     img {
         padding-right: 8px;
-        padding-top: 2px;
+        padding-top: 18px;
     }
 }
 
@@ -169,7 +169,7 @@
     }
     img {
         padding-right: 8px;
-        padding-top: 2px;
+        padding-top: 18px;
     }
 }
 
@@ -197,4 +197,7 @@
     border: none;
     height: auto;
     color: #1a9481;
+    &:focus {
+        outline: none;
+    }
 }

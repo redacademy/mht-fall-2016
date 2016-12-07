@@ -660,7 +660,7 @@ body {
     color: #003A5F; }
   .phone-and-number img {
     padding-right: 8px;
-    padding-top: 2px; }
+    padding-top: 18px; }
 
 .phone-and-number-green {
   display: -ms-flexbox;
@@ -672,7 +672,7 @@ body {
     color: #009B84; }
   .phone-and-number-green img {
     padding-right: 8px;
-    padding-top: 2px; }
+    padding-top: 18px; }
 
 .mobile-menu-wrapper {
   display: -ms-flexbox;
@@ -693,6 +693,8 @@ body {
   border: none;
   height: auto;
   color: #1a9481; }
+  .menu-toggle:focus {
+    outline: none; }
 
 /*--------------------------------------------------------------
 # Navigation
