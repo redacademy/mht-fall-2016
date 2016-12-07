@@ -20,43 +20,43 @@ get_header(); ?>
     			</section>
           <section class="appointments-wrapper">
 <?php $i = 1;?>
-<?php echo '<div>'; ?>
+<?php echo '<div class="appointments-wrapper-inner">'; ?>
             <?php while ( have_posts() ) : the_post(); ?>
             <?php get_template_part( 'template-parts/content', 'page' ); ?>
             <?php $fields = CFS()->get( 'appointment'); ?>
             <?php   foreach ( $fields as $field ) : ?>
 <?php if($i === 1) { ?>
-  <img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-1@3x.png" alt="">
-  <img class="stroke-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/stroke@3x.png" alt="">
+  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-1@3x.png" alt="">
 <?php  ;} ?>
 <?php if($i === 3) { ?>
-  <img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-2@3x.png" alt="">
-  <img class="stroke-box2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/stroke@3x.png" alt="">
+  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-2@3x.png" alt="">
 <?php  ;} ?>
 <?php if($i === 5) { ?>
-  <img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-3@3x.png" alt="">
-  <img class="stroke-box3" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/stroke@3x.png" alt="">
+  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-3@3x.png" alt="">
 <?php  ;} ?>
 <?php if($i === 7) { ?>
-  <img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-4@3x.png" alt="">
-  <img class="stroke-box4" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/stroke@3x.png" alt="">
+  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-4@3x.png" alt="">
 <?php  ;} ?>
 
 <?php  if($i!==7 & $i!==5 & $i!==3 & $i!==1) { ?>
-  <img class="stroke-box5" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/stroke@3x.png" alt="">
   <?php  ;} ?>
             <div class="text-stroke-box">
+              <div class="text-stroke-box-middle">
+                <div class="text-stroke-box-inner">
                 <h3> <?php   echo $field['appointment_title']; ?> </h3>
                <p>  <?php   echo $field['appointment_text']; ?> </p>
               <p>  <?php   echo $field['appointment_price']; ?> </p>
-               <p> <?php   echo $field['appointment_duration']; ?> </p>
+               <p><span class="duration-style">Duration: </span><?php   echo $field['appointment_duration']; ?> </p>
+               <img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/timeline@3x.png" alt="">
              </div>
+             </div>
+           </div>
                <?php $i++;; // End of the loop. ?>
 
                 <?php endforeach; ?>
 
             <?php endwhile; // End of the loop. ?>
-            <?php echo '<div>'; ?>
+            <?php echo '</div>'; ?>
             </section>
         </main>
         <!-- #main -->

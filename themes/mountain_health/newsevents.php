@@ -10,7 +10,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<section class="archive-news-hero-image">
 			<h1>News &amp; Events</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+			<p>Check back frequently for updates on Mountain Health or subscribe to our newsletter for updates delivered directly to your inbox.</p>
 			</section>
 			<section class="article-nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
@@ -143,6 +143,9 @@ get_header(); ?>
 	<div class="load-more">
 		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/down-arrow-load-more.png" alt="logo">
 		<a href="#">Load More</a>
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php get_template_part( 'template-parts/content', 'page' ); ?>
+		<?php endwhile; // End of the loop. ?>
 	</div>
 
 	<div class="mountains">

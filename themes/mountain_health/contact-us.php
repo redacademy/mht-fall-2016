@@ -15,7 +15,7 @@
         
         <div class="number-and-icon">
             <img class="phone-icon" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone.png" alt="phone icon">
-            <a href="tel:+13174562564" class="phone-number">317-456-2564</a>
+            <a href="tel:+604-442-5864" class="phone-number">604-442-5864</a>
         </div>
         <div class="or">
             <img class="blue-line" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/divider-right.svg" alt="blue line">

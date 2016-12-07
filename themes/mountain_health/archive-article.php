@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 <section class="archive-article-hero-image">
 <h1>ARTICLE &amp; RESEARCH</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+<p>Read more about Naturopathy, alternative medicine and the research behind what we do here at Mountain Health.</p>
 </section>
 
 			<section class="article-nav-links article-nav-links-archive">
