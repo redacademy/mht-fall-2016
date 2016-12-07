@@ -44,32 +44,34 @@ get_header(); ?>
         <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/footer_mountain.png" class="mountains" alt="green and white image that looks like mountains">
         <section class="why-use-smartnd">
             <h2>Why using smartND?</h2>
-            <div class="why-use-upper">
-                <div class="why-use-smartnd-content smart-nd-change">
-                    <div class="smartnd-icon-bg">
-                        <div class="wavy-arrows"></div>
+            <div class="why-use-all">
+                <div class="why-use-upper">
+                    <div class="why-use-smartnd-content smart-nd-change">
+                        <div class="smartnd-icon-bg">
+                            <div class="wavy-arrows"></div>
+                        </div>
+                        <h3>Cancel or Change Appointments</h3>
                     </div>
-                    <h3>Cancel or Change Appointments</h3>
+                    <div class="why-use-smartnd-content smart-nd-patient">
+                        <div class="smartnd-icon-bg">
+                            <div class="update-patient-pic"></div>
+                        </div>
+                        <h3>Update Patient Information</h3>
+                    </div>
                 </div>
-                <div class="why-use-smartnd-content smart-nd-patient">
-                    <div class="smartnd-icon-bg">
-                        <div class="update-patient-pic"></div>
+                <div class="why-use-lower">
+                    <div class="why-use-smartnd-content smart-nd-forms">
+                        <div class="smartnd-icon-bg">
+                            <div class="smartnd-clipboard"></div>
+                        </div>
+                        <h3>Fill Out Intake Forms</h3>
                     </div>
-                    <h3>Update Patient Information</h3>
-                </div>
-            </div>
-            <div class="why-use-lower">
-                <div class="why-use-smartnd-content smart-nd-forms">
-                    <div class="smartnd-icon-bg">
-                        <div class="smartnd-clipboard"></div>
+                    <div class="why-use-smartnd-content smart-nd-plans">
+                        <div class="smartnd-icon-bg">
+                            <div class="smartnd-form-img"></div>
+                        </div>
+                        <h3>View Treatment Plans</h3>
                     </div>
-                    <h3>Fill Out Intake Forms</h3>
-                </div>
-                <div class="why-use-smartnd-content smart-nd-plans">
-                    <div class="smartnd-icon-bg">
-                        <div class="smartnd-form-img"></div>
-                    </div>
-                    <h3>View Treatment Plans</h3>
                 </div>
             </div>
         </section>
