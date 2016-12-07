@@ -19,31 +19,33 @@ get_header(); ?>
 				<a href="<?php echo get_page_link(23); ?>">What We Do &gt;</a>
 				<p><?php wp_title( '' ); ?></p>
 			</section>
+			<div class="text-labtesting">
 			<h2>Standard In-office Tests</h2>
 			<p>No extra cost.</p>
-			<div class="">
-				<div class="">
+		</div>
+			<div class="general-test-wrapper">
+				<div class="general-test-single">
 					<h3>Strep A Test</h3>
-					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
+					<img class="line-labtesting" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>If Strep is suspected</p>
 				</div>
-				<div class="">
+				<div class="general-test-single">
 					<h3>Pregnancy Test</h3>
-					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
+					<img class="line-labtesting" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>To rule out in some acute cases, and determine in others</p>
 				</div>
-				<div class="">
+				<div class="general-test-single">
 					<h3>Urinanalysis</h3>
-					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
+					<img class="line-labtesting" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>If a urinary tract infection is suspected.</p>
 				</div>
-				<div class="">
+				<div class="general-test-single">
 					<h3>Random Glucose Testing</h3>
-					<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
+					<img class="line-labtesting" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>To determine blood sugar level.</p>
 				</div>
 			</div>
-			<div class="">
+			<div class="text-labtesting">
 				<h2>Specialized Tests</h2>
 				<p>Additional cost (per recommendation of Dr. Chay).</p>
 			</div>
@@ -70,24 +72,26 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/overlay-amanda@3x.png" alt="logo">
+	<div class="laptesting-imag-text">
+		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/overlay-amanda@3x.png" alt="logo">
 <div class="labtesting-book-appointment">
-	<h3>Book an appointment that suits your concerns</h3>
+	<h3>Book an appointment</h3>
 	<p>We offer various types of appointments<br>
-		Acute visit<br>
+		<span class="labtesting-thick-style">Acute visit<br>
 		Follow up<br>
-		Full physical exam<br>
+		Full physical exam</span>
 </p>
 <a href="<?php echo get_page_link(29); ?>">
 <button type="button" name="button">Discover More</button></a>
 <!--Button links to 2.4 Appointments-->
 </div>
+</div>
 <h2>Did you know?</h2>
 <div class="lab-did-u-no">
 <p>
-Although Naturopathic physicians can write lab requisitions, it is not covered by the government 
-and therefore is paid for by the patient. The benefit to this is that Naturopathic doctors can ask 
-for labs that normally wouldn’t be covered by Medicare that your MD might not be able to request. 
+Although Naturopathic physicians can write lab requisitions, it is not covered by the government
+and therefore is paid for by the patient. The benefit to this is that Naturopathic doctors can ask
+for labs that normally wouldn’t be covered by Medicare that your MD might not be able to request.
 Dr. Chay is happy to work with your MD to determine the best labs for you and your budget.
 </p>
 </div>

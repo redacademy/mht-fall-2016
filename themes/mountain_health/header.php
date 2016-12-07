@@ -44,7 +44,7 @@
 										<p>Search</p>
 									</div>
 									<div class="patient-portal">
-										<a href="#">Patient portal</a>
+										<a href="<?php echo get_page_link(119); ?>">Patient portal</a>
 										<div class="external-link-icon">
 											<img class="external-link-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/external-link.png" alt="external link icon">
 										</div>
@@ -58,12 +58,16 @@
 
 						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="x logo">
 						<div class="phone-and-number">
-							<a href="#"><img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon"></a>
-							<p>1-562-867-5309</p>
+							<a href="tel:604-442-5864">
+								<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
+								<p>1-604-442-5864</p>
+							</a>
 						</div>
 						<div class="phone-and-number-green">
-							<a href="#"><img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="green phone icon"></a>
-							<p>1-562-867-5309</p>
+							<a href="tel:604-442-5864">
+								<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="green phone icon">
+								<p>1-604-442-5864</p>
+							</a>
 						</div>
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
 							<div id="hamburger" class="hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></div>
@@ -78,7 +82,7 @@
 							<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 							<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 						</div><!-- .site-branding -->
-						<a href="#" class="primary-button header-button">Book an appointment</a>
+						<a href="<?php echo get_page_link(48); ?>" class="primary-button header-button">Book an appointment</a>
 
 				</header><!-- #masthead -->
 			</section>
@@ -94,7 +98,7 @@
 								<p>Search</p>
 							</div>
 							<div class="patient-portal">
-								<a href="#">Patient portal</a>
+								<a href="<?php echo get_page_link(119); ?>">Patient portal</a>
 								<div class="external-link-icon">
 									<img class="external-link-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/external-link.png" alt="external link icon">
 								</div>

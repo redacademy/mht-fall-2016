@@ -14,8 +14,7 @@ get_header(); ?>
 		<p>
 		Learn about what’s new at Mountain Health and discover upcoming events.
 		</p>
-		<a href="#" >Read More</a>
-		<!--Button links to 3.1 News and events-->
+		<a href="<?php echo get_post_type_archive_link('news-events')?>" >Read More</a>
 	</div>
 	
 	<div class="articles-research">
@@ -24,8 +23,7 @@ get_header(); ?>
 		<p>
 		Read our articles from Dr. Chay and find more information about health.
 		</p>
-		<a href="#">Read More</a>
-		<!--button links to 3.4 articles and research-->
+		<a href="<?php echo get_post_type_archive_link('article')?>">Read More</a>
 	</div>
 
 	<div class="recipes-nutrition">
@@ -35,8 +33,7 @@ get_header(); ?>
 		Healthy recipes and 
 		nutritional tips.
 		</p>
-		<a href="#">Read More</a>
-		<!--button links to 3.3 recipes and nutrition-->
+		<a href="<?php echo get_post_type_archive_link('recipe')?>">Read More</a>
 	</div>
 </section>
 	</main><!-- #main -->

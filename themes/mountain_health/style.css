@@ -508,12 +508,6 @@ body {
 .content-area,
 .main-navigation {
   margin: 0 auto; }
-  @media (min-width: 480px) {
-    .site-main,
-    .main-header,
-    .content-area,
-    .main-navigation {
-      max-width: 1364px; } }
 
 .content-area {
   padding-top: 40px; }
@@ -3340,7 +3334,30 @@ header.entry-header-article {
       flex-flow: wrap; }
 
 .labtesting-book-appointment {
-  background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat top; }
+  border-radius: 6px 6px 0 0;
+  background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
+  background-size: 280px 228px;
+  width: 280px;
+  margin: 0 auto; }
+  .labtesting-book-appointment img {
+    border-radius: 6px 6px 0 0; }
+  .labtesting-book-appointment h3 {
+    font-family: 'oswald';
+    font-size: 17px;
+    line-height: 0.3;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase; }
+  .labtesting-book-appointment p {
+    width: 175px;
+    margin: 0 auto;
+    font-family: 'open_sans';
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: center;
+    color: #ffffff; }
+    .labtesting-book-appointment p .labtesting-thick-style {
+      font-weight: bold; }
 
 .lab-did-u-no {
   width: 280px;
@@ -3355,6 +3372,59 @@ header.entry-header-article {
 .labtesting-wrapper {
   display: -ms-flexbox;
   display: flex; }
+
+.general-test-wrapper {
+  background-color: #e5e5e5;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.text-labtesting h2 {
+  text-transform: uppercase;
+  font-family: 'oswald';
+  font-size: 17px;
+  line-height: 1.76;
+  text-align: center;
+  color: #6a7059;
+  padding-top: 10px;
+  margin-bottom: 0; }
+
+.text-labtesting p {
+  font-family: 'open_sans';
+  margin-top: 0;
+  font-size: 15px;
+  line-height: 2;
+  text-align: center;
+  color: #003d5c; }
+
+.general-test-single {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  .general-test-single h3 {
+    font-family: 'oswald';
+    line-height: 2;
+    text-align: center;
+    color: #003d5c; }
+  .general-test-single p {
+    text-align: center; }
+
+.line-labtesting {
+  width: 120px; }
+
+.laptesting-imag-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 260px;
+  margin: 0 auto; }
 
 .treatments-main {
   width: 320px;

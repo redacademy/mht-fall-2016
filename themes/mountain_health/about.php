@@ -85,8 +85,7 @@ get_header(); ?>
                 <p>OHM Medical Training Services Inc.</p>
             </div>
             <h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
-        <div class="primary-button book-appointment"><a href="#">Book an appointment</a></div>
-                                                <!--Button above needs to link to appointment page-->
+        <div class="primary-button book-appointment"><a href="<?php echo get_page_link(29); ?>">Book an appointment</a></div>
     </section>
     
 
