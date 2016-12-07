@@ -1522,6 +1522,9 @@ object {
       margin: 0px;
       font-size: 18px; } }
 
+.amanda-section {
+  position: relative; }
+
 .about-page {
   width: 320px; }
   @media (min-width: 480px) {
@@ -1601,7 +1604,10 @@ object {
       width: 541px;
       height: 560px;
       background-position: center center;
-      background-size: cover; } }
+      background-size: cover;
+      position: absolute;
+      bottom: 60px;
+      z-index: 1; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .amanda-photo img {
       display: none; } }
@@ -1612,6 +1618,23 @@ object {
   -ms-flex-pack: center;
       justify-content: center;
   margin-bottom: 15px; }
+  @media (min-width: 480px) {
+    .amanda-name-wrapper {
+      width: 847px;
+      height: 68px; } }
+
+@media (min-width: 480px) {
+  .amanda-name {
+    display: none; } }
+
+.amanda-name-desktop {
+  display: none; }
+  @media (min-width: 480px) {
+    .amanda-name-desktop {
+      display: initial;
+      position: absolute;
+      right: 22px;
+      z-index: 2; } }
 
 .about-amanda {
   position: relative;
@@ -1627,6 +1650,11 @@ object {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
+    @media (min-width: 480px) {
+      .about-amanda .about-amanda-text {
+        width: 705px;
+        font-size: 22px;
+        line-height: 1.36; } }
   .about-amanda p {
     margin-bottom: 0;
     margin-top: 0;
@@ -1652,8 +1680,24 @@ object {
   top: 0;
   width: 270px; }
 
+@media (min-width: 480px) {
+  .amanda-bg-mobile {
+    display: none; } }
+
 .amanda-bg {
   margin: 0 auto; }
+  @media (min-width: 480px) {
+    .amanda-bg {
+      width: 1054px;
+      height: 392px;
+      background: url(../../MTH-Assets/photos/amanda-bg.png);
+      background-size: cover;
+      background-position: center center;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+      margin-right: 0px; } }
 
 .education {
   text-align: center;

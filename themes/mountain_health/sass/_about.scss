@@ -1,4 +1,7 @@
 // ********************** About styling section***
+.amanda-section{
+    position: relative;
+}
 .about-page {
     width: 320px;
     @include mobile-break-width{
@@ -80,6 +83,9 @@
         height: 560px;
         background-position: center center;
         background-size: cover;
+        position: absolute;
+        bottom: 60px;
+        z-index: 1; 
         img{
             @include mobile-break-width{
             display: none;
@@ -92,8 +98,25 @@
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+    @include mobile-break-width{
+        width: 847px;
+        height: 68px;
+    }
 }
-
+.amanda-name{
+    @include mobile-break-width{
+        display: none;
+    }
+}
+.amanda-name-desktop{
+    display: none;
+    @include mobile-break-width{
+        display: initial;
+        position: absolute;
+        right: 22px;
+        z-index: 2;
+    }
+}
 .about-amanda {
     position: relative;
     display: flex;
@@ -104,6 +127,11 @@
         padding: 10px;
         display: flex;
         flex-wrap: wrap;
+        @include mobile-break-width{
+            width: 705px;
+            font-size: $small-font-dt;
+            line-height: 1.36;
+        }
     }
     p {
         margin-bottom: 0;
@@ -135,9 +163,23 @@
     top: 0;
     width: 270px;
 }
-
+.amanda-bg-mobile{
+    @include mobile-break-width{
+        display: none;
+    }
+}
 .amanda-bg {
     margin: 0 auto;
+    @include mobile-break-width{
+        width: 1054px;
+        height: 392px;
+        background: url(../../MTH-Assets/photos/amanda-bg.png);
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content:flex-end;
+        margin-right: 0px;
+    }
 }
 
 .education {
