@@ -66,7 +66,9 @@
 							</a>
 						</div>
 						<div class="phone-and-number-green">
-							<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="green phone icon">
+							<img class="phone-green" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="green phone icon">
+							<img class="phone-white"src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-white.png" alt="white phone icon">
+
 							<a href="tel:604-442-5864">
 								<p class="phone-number-white">1-604-442-5864</p>
 							</a>
