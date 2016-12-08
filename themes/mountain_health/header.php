@@ -28,7 +28,8 @@
 				<header id="masthead" class="site-header" role="banner">
 						<div class="MTH-logo-wrapper">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green.png" alt="MTH logo">
+							<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green.png" alt="MTH logo green">
+							<img class="MTH-logo-white" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-white.png" alt="MTH logo white">
 						</a>
 						</div>
 						
@@ -58,8 +59,8 @@
 
 						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="x logo">
 						<div class="phone-and-number">
-							
-							<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
+							<img class="phone-blue" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
+							<img class="phone-white"src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-white.png" alt="white phone icon">
 							<a href="tel:604-442-5864">
 								<p>1-604-442-5864</p>
 							</a>
@@ -67,11 +68,11 @@
 						<div class="phone-and-number-green">
 							<img src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="green phone icon">
 							<a href="tel:604-442-5864">
-								<p>1-604-442-5864</p>
+								<p class="phone-number-white">1-604-442-5864</p>
 							</a>
 						</div>
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
-							<div id="hamburger" class="hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></div>
+							<div id="hamburger" class="hamburger hamburger-white"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></div>
 							<div class="x-logo-none">
 								<img class="x-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/x-logo-1.png" alt="x logo">
 								<img class="x-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/x-logo-2.png" alt="x logo">

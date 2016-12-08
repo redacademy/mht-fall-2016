@@ -4,12 +4,49 @@
 }
 
 .about-page {
-    width: 320px;
+    width: 100%;
+    padding-top: 0;
     @include mobile-break-width {
         width: 100%;
     }
+    .main-header header {
+        background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
+        background-position-y: -75px;
+        background-size: 100%;
+        width: 100%;
+        margin: 0 auto;
+        @include mobile-break-width {
+            width: 100%;
+            background: grey;
+        }
+        .phone-number-white {
+            color: white;
+            padding-right: 13px;
+        }
+    }
+    .MTH-logo-white {
+        display: block;
+        width: 30px;
+    }
+    .phone-white {
+        display: block;
+        height: 20px;
+    }
+    .hamburger {
+        color: white;
+    }
     .about-hero {
         height: 415px;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        height: 415px;
+        background-position-y: -75px;
+        // border: 1px solid #979797;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         @include mobile-break-width {
             height: 770px;
             display: flex;
@@ -19,14 +56,14 @@
         }
         .parallax-scroll-about {
             height: 300%;
-            width: 320px;
+            width: 100%;
             margin: 0 auto;
             background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
-            background-size: 320px 480px;
+            background-size: 100%;
             z-index: -1;
             position: fixed;
             top: 0;
-            background-position-y: -15px;
+            background-position-y: -75px;
             @include mobile-break-width {
                 background: url(../../MTH-Assets/photos/about-hero-desktop.png);
                 width: 100%;
@@ -35,15 +72,6 @@
                 background-position: center center;
             }
         }
-        text-align: center;
-        color: #fff;
-        width: 320px;
-        height: 415px;
-        background-position-y: -66px;
-        // border: 1px solid #979797;
-        margin-bottom: 30px;
-        display: flex;
-        align-items: center;
         h1 {
             color: white;
             text-transform: uppercase;
@@ -58,6 +86,8 @@
         p {
             font-size: 17px;
             line-height: 21px;
+            width: 280px;
+            margin: 0 auto;
             @include mobile-break-width {
                 font-size: $medium-font-dt;
                 width: 936px;
@@ -74,10 +104,13 @@
 }
 
 .amanda-photo {
-    width: 280px;
+    width: 100%;
     height: 290px;
     margin: 0 auto;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background: white;
     @include mobile-break-width {
         background: url(../../MTH-Assets/photos/amanda-large.png);
         width: 541px;
@@ -133,7 +166,7 @@
         flex-wrap: wrap;
         position: absolute;
         top: 0;
-        left: 20px;
+        left: 40px;
         width: 270px;
         @include mobile-break-width {
             width: 705px;
@@ -150,7 +183,7 @@
     .first-sentence {
         padding-left: 37px;
         margin: 0;
-        margin-top: 13px;
+        margin-top: 5px;
     }
     .about-amanda-second-p {
         margin: 0;
@@ -163,7 +196,7 @@
     color: $body-color;
     line-height: 0;
     position: absolute;
-    top: 48px;
+    top: 43px;
 }
 
 .amanda-bg-mobile {
@@ -174,6 +207,8 @@
 
 .amanda-bg {
     margin: 0 auto;
+    position: absolute;
+    left: 10px;
     @include mobile-break-width {
         width: 1054px;
         height: 392px;
@@ -202,12 +237,14 @@
         left: 36.5%;
     }
     .one {
-        margin-top: 55px;
+        margin-top: 70px;
     }
     .two {
         margin-top: 65px;
     }
-    .three,
+    .three {
+        margin-top: 70px;
+    }
     .four {
         margin-top: 58px;
     }
