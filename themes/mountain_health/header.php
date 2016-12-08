@@ -37,32 +37,22 @@
 					
 					
 							<div class="desktop-menu mobile-menu-hide">
-								<div class="search-and-patient-portal">
-									<div class="search">
-										<div class="search-icon">
-											<img class="search-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="search icon">
-										</div>
-										<p>Search</p>
-									</div>
-									<div class="patient-portal">
-										<a href="<?php echo get_page_link(119); ?>">Patient portal</a>
-										<div class="external-link-icon">
-											<img class="external-link-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/external-link.png" alt="external link icon">
-										</div>
-									</div>
-								</div>
-									<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+								<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 								
-								
-							</div>	
-						</nav><!-- #site-navigation -->
+							</div>		
+						</nav>
 
+						<div class="patient-portal-desktop">
+							<a href="<?php echo get_page_link(119); ?>">Patient portal</a>
+								<img class="external-link-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/external-link.png" alt="external link icon">
+						</div>
 						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="x logo">
+
 						<div class="phone-and-number">
 							<img class="phone-blue" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
 							<img class="phone-white"src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-white.png" alt="white phone icon">
 							<a href="tel:604-442-5864">
-								<p>1-604-442-5864</p>
+								<p><span>Call </span>604-442-5864</p>
 							</a>
 						</div>
 						<div class="phone-and-number-green">
@@ -86,8 +76,10 @@
 							<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 							<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 						</div><!-- .site-branding -->
-						<a href="<?php echo get_page_link(48); ?>" class="primary-button header-button">Book an appointment</a>
-
+						<p class="header-or">or</p>
+						<div class="header-book-button header-button">
+							<a href="<?php echo get_page_link(48); ?>">Book an appointment</a>
+						</div>
 				</header><!-- #masthead -->
 			</section>
 			<nav id="site-navigation" class="main-navigation" role="navigation">

@@ -505,7 +505,7 @@ ul {
 
 body {
   background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png);
-  background-size: cover cover; }
+  background-size: cover; }
 
 .site-main,
 .main-header,
@@ -517,6 +517,9 @@ body {
   @media (min-width: 480px) {
     .content-area {
       padding-top: 110px; } }
+
+.front-button:hover {
+  color: #fdeea7; }
 
 .main-header header {
   width: 100%;
@@ -539,16 +542,28 @@ body {
   @media (min-width: 480px) {
     .main-header header {
       width: 100%;
+      padding: 0;
       max-width: 1364px;
-      height: 110px;
-      -ms-flex-pack: center;
-          justify-content: center; }
+      height: 110px; }
       .main-header header .header-button {
-        display: block; }
+        display: block;
+        width: 20%;
+        background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        margin-right: 200px;
+        font-size: 15px; }
+        .main-header header .header-button a {
+          color: white; }
       .main-header header .search-icon-dt {
         display: block; }
-      .main-header header .search-and-patient-portal {
-        display: none; }
       .main-header header p {
         margin: 0; }
       .main-header header button:focus {
@@ -557,7 +572,24 @@ body {
         display: -ms-flexbox;
         display: flex;
         padding: 0;
-        width: 200px; } }
+        margin-left: 40px;
+        width: 17%; }
+        .main-header header .phone-and-number span {
+          color: #003A5F; } }
+
+.patient-portal-desktop {
+  color: #1a9481;
+  width: 15%;
+  text-transform: uppercase;
+  font-family: oswald, "san-serif"; }
+  .patient-portal-desktop a:visited {
+    color: #1a9481;
+    font-family: oswald, "san-serif";
+    padding-right: 3px; }
+
+.header-or {
+  color: #003A5F;
+  padding-right: 20px; }
 
 .header-white {
   background: white !important; }
@@ -615,12 +647,16 @@ body {
     #primary-menu {
       -ms-flex-flow: row;
           flex-flow: row;
-      width: 45%;
-      height: 10px; }
+      width: 33%;
+      height: 0;
+      -ms-flex-align: center;
+          align-items: center; }
       #primary-menu li {
-        margin: 0 5px; }
+        margin: 0 12px; }
       #primary-menu li:first-child {
-        margin: 0 5px; } }
+        margin: 0 12px; }
+      #primary-menu a {
+        font-size: 16px; } }
 
 .mobile-menu-hide {
   display: none;
@@ -676,6 +712,9 @@ body {
   .phone-and-number img {
     height: 20px;
     padding-right: 8px; }
+  @media (min-width: 480px) {
+    .phone-and-number p {
+      color: #1a9481; } }
 
 .phone-and-number-green {
   display: -ms-flexbox;
@@ -707,6 +746,9 @@ body {
   top: 40px;
   position: fixed; }
 
+.search-submit {
+  display: none; }
+
 .menu-toggle {
   background: none;
   border: none;
@@ -736,7 +778,7 @@ a {
     clear: both;
     display: block;
     float: left;
-    width: 100%; }
+    width: 40%; }
     .main-navigation ul {
       display: none;
       display: block;
@@ -1166,6 +1208,9 @@ object {
   border-radius: 200px;
   color: white; }
 
+.front-button:visited {
+  color: white; }
+
 .booking {
   display: -ms-flexbox;
   display: flex;
@@ -1237,9 +1282,10 @@ object {
   color: white;
   margin-left: 62px;
   font-size: 15px;
-  list-style-image: url(../../MTH-Assets/other/leaf.png); }
+  list-style-image: url(../../MTH-Assets/other/leaf-mobile.png); }
   @media (min-width: 480px) {
     .benifits-list {
+      list-style-image: url(../../MTH-Assets/other/leaf.png);
       font-size: 22px;
       margin-top: 152px;
       line-height: 1.8; } }
@@ -1343,11 +1389,12 @@ object {
   margin-bottom: 20px;
   font-size: 15px;
   line-height: 22px;
-  list-style-image: url(../../MTH-Assets/other/leaf.png); }
+  list-style-image: url(../../MTH-Assets/other/leaf-mobile.png); }
   @media (min-width: 480px) {
     .compare-content ul {
       font-size: 22px;
-      line-height: 2.05; } }
+      line-height: 2.05;
+      list-style-image: url(../../MTH-Assets/other/leaf.png); } }
 
 .silouette-ul {
   color: #003A5F;
@@ -1879,10 +1926,10 @@ object {
     text-align: left; } }
 
 .what-we-do {
-  width: 320px; }
+  margin: 0 auto; }
   .what-we-do .what-we-do-hero {
     background: url(../../MTH-Assets/photos/what-we-do-hero.jpg);
-    width: 320px;
+    width: 100%;
     height: 125px;
     display: -ms-flexbox;
     display: flex;
@@ -1896,20 +1943,36 @@ object {
     color: white;
     margin-bottom: 52px;
     padding: 18px; }
+    @media (min-width: 480px) {
+      .what-we-do .what-we-do-hero {
+        background: url(../../MTH-Assets/photos/what-we-do-desktop.png);
+        height: 320px; } }
     .what-we-do .what-we-do-hero h1 {
       font-size: 17px;
       margin: 0;
       font-weight: normal;
       text-transform: uppercase; }
+      @media (min-width: 480px) {
+        .what-we-do .what-we-do-hero h1 {
+          font-size: 48px;
+          margin-bottom: 20px; } }
     .what-we-do .what-we-do-hero p {
       font-size: 15px;
       line-height: 19px;
       margin: 0; }
+      @media (min-width: 480px) {
+        .what-we-do .what-we-do-hero p {
+          font-size: 22px;
+          width: 812px;
+          line-height: 1.36; } }
   .what-we-do h2 {
     text-transform: uppercase;
     color: #677257;
     font-size: 17px;
     line-height: 26px; }
+    @media (min-width: 480px) {
+      .what-we-do h2 {
+        font-size: 36px; } }
   .what-we-do .experience {
     width: 280px;
     height: 330px;
@@ -1919,12 +1982,19 @@ object {
     padding: 20px 25px;
     margin: 0 auto;
     margin-bottom: 20px; }
+    @media (min-width: 480px) {
+      .what-we-do .experience {
+        width: 100%; } }
     .what-we-do .experience h3 {
       font-family: Oswald;
       font-size: 17px;
       line-height: 36px;
       text-transform: uppercase;
       line-height: 1.41; }
+      @media (min-width: 480px) {
+        .what-we-do .experience h3 {
+          font-size: 36px;
+          margin-bottom: 20px; } }
     .what-we-do .experience h4 {
       text-transform: uppercase;
       line-height: 26px;
@@ -1936,37 +2006,75 @@ object {
       .what-we-do .experience ul li {
         font-size: 15px;
         line-height: 18px; }
+        @media (min-width: 480px) {
+          .what-we-do .experience ul li {
+            font-size: 22px;
+            line-height: 1.36; } }
     .what-we-do .experience p {
       margin: 0;
       margin-top: 15px;
       font-weight: bold; }
 
-.treatments-testing-appointments .treatments,
-.treatments-testing-appointments .testing,
-.treatments-testing-appointments .appointments {
-  width: 280px;
-  height: 240px;
+.treatments-testing-appointments {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: column;
-      flex-flow: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  position: relative;
-  margin: 0 20px;
-  padding: 28px;
-  margin-bottom: 50px; }
-  .treatments-testing-appointments .treatments .gradient-border-box,
-  .treatments-testing-appointments .testing .gradient-border-box,
-  .treatments-testing-appointments .appointments .gradient-border-box {
-    position: absolute; }
-  .treatments-testing-appointments .treatments p,
-  .treatments-testing-appointments .testing p,
-  .treatments-testing-appointments .appointments p {
-    text-align: center;
-    color: #003A5F; }
+      align-items: center; }
+  @media (min-width: 480px) {
+    .treatments-testing-appointments {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: center;
+          justify-content: center; } }
+  .treatments-testing-appointments .treatments,
+  .treatments-testing-appointments .testing,
+  .treatments-testing-appointments .appointments {
+    width: 280px;
+    height: 240px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: relative;
+    margin: 0 20px;
+    padding: 28px;
+    margin-bottom: 50px; }
+    @media (min-width: 480px) {
+      .treatments-testing-appointments .treatments,
+      .treatments-testing-appointments .testing,
+      .treatments-testing-appointments .appointments {
+        width: 428px;
+        height: 446px;
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 108px; } }
+    .treatments-testing-appointments .treatments .gradient-border-box,
+    .treatments-testing-appointments .testing .gradient-border-box,
+    .treatments-testing-appointments .appointments .gradient-border-box {
+      position: absolute; }
+      @media (min-width: 480px) {
+        .treatments-testing-appointments .treatments .gradient-border-box,
+        .treatments-testing-appointments .testing .gradient-border-box,
+        .treatments-testing-appointments .appointments .gradient-border-box {
+          width: 428px;
+          height: 446px; } }
+    .treatments-testing-appointments .treatments p,
+    .treatments-testing-appointments .testing p,
+    .treatments-testing-appointments .appointments p {
+      text-align: center;
+      color: #003A5F; }
+      @media (min-width: 480px) {
+        .treatments-testing-appointments .treatments p,
+        .treatments-testing-appointments .testing p,
+        .treatments-testing-appointments .appointments p {
+          font-size: 22px; } }
 
 .learn-more {
   width: 180px;
@@ -1983,12 +2091,23 @@ object {
   position: absolute;
   right: 50px;
   top: 215px; }
+  @media (min-width: 480px) {
+    .learn-more {
+      top: initial;
+      left: 105px;
+      bottom: -20px;
+      width: 220px;
+      height: 60px;
+      border-radius: 30px; } }
   .learn-more a {
     font-size: 14px;
     text-align: center;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none; }
+    @media (min-width: 480px) {
+      .learn-more a {
+        font-size: 22px; } }
 
 .care-conditions {
   text-align: center; }
@@ -2029,6 +2148,51 @@ object {
   .what-is-naturopathic-medicine h2 {
     margin: 0;
     margin-bottom: 20px; }
+
+@media (min-width: 480px) {
+  .treatments {
+    -ms-flex-order: 1;
+        order: 1; } }
+
+@media (min-width: 480px) {
+  .testing {
+    -ms-flex-order: 2;
+        order: 2; } }
+
+@media (min-width: 480px) {
+  .appointments {
+    -ms-flex-order: 3;
+        order: 3; } }
+
+@media (min-width: 480px) {
+  .lab-beaker {
+    display: none; } }
+
+.lab-desktop {
+  display: none; }
+  @media (min-width: 480px) {
+    .lab-desktop {
+      display: initial; } }
+
+@media (min-width: 480px) {
+  .calendar-logo {
+    display: none; } }
+
+.appointments-desktop {
+  display: none; }
+  @media (min-width: 480px) {
+    .appointments-desktop {
+      display: initial; } }
+
+@media (min-width: 480px) {
+  .stethascope-logo {
+    display: none; } }
+
+.treatment-desktop {
+  display: none; }
+  @media (min-width: 480px) {
+    .treatment-desktop {
+      display: initial; } }
 
 .appointments-hero-image {
   color: #ffffff;
