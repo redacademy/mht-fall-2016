@@ -57,12 +57,19 @@
         padding: 20px 25px;
         margin: 0 auto;
         margin-bottom: 20px;
+        @include mobile-break-width{
+            width:100%;
+        }
         h3 {
             font-family: Oswald;
             font-size: 17px;
             line-height: 36px;
             text-transform: uppercase;
             line-height: 1.41;
+            @include mobile-break-width{
+                font-size: $medium-font-dt;
+                margin-bottom: 20px;
+            }
         }
         h4 {
             text-transform: uppercase;
@@ -76,6 +83,10 @@
             li {
                 font-size: 15px;
                 line-height: 18px;
+                @include mobile-break-width{
+                    font-size: $small-font-dt;
+                    line-height: 1.36;
+                }
             }
         }
         p {
@@ -113,6 +124,7 @@
         margin:0;
         margin-left: 10px;
         margin-right: 10px;
+        margin-bottom: 108px;
     }
         .gradient-border-box {
             position: absolute;

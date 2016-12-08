@@ -1943,12 +1943,19 @@ object {
     padding: 20px 25px;
     margin: 0 auto;
     margin-bottom: 20px; }
+    @media (min-width: 480px) {
+      .what-we-do .experience {
+        width: 100%; } }
     .what-we-do .experience h3 {
       font-family: Oswald;
       font-size: 17px;
       line-height: 36px;
       text-transform: uppercase;
       line-height: 1.41; }
+      @media (min-width: 480px) {
+        .what-we-do .experience h3 {
+          font-size: 36px;
+          margin-bottom: 20px; } }
     .what-we-do .experience h4 {
       text-transform: uppercase;
       line-height: 26px;
@@ -1960,6 +1967,10 @@ object {
       .what-we-do .experience ul li {
         font-size: 15px;
         line-height: 18px; }
+        @media (min-width: 480px) {
+          .what-we-do .experience ul li {
+            font-size: 22px;
+            line-height: 1.36; } }
     .what-we-do .experience p {
       margin: 0;
       margin-top: 15px;
@@ -2003,7 +2014,8 @@ object {
         height: 446px;
         margin: 0;
         margin-left: 10px;
-        margin-right: 10px; } }
+        margin-right: 10px;
+        margin-bottom: 108px; } }
     .treatments-testing-appointments .treatments .gradient-border-box,
     .treatments-testing-appointments .testing .gradient-border-box,
     .treatments-testing-appointments .appointments .gradient-border-box {
