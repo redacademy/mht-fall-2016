@@ -76,7 +76,7 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	<div class="laptesting-imag-text">
-		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/overlay-amanda@3x.png" alt="logo">
+		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/amanda-visual@3x.png" alt="logo">
 <div class="labtesting-book-appointment">
 	<h3>Book an appointment</h3>
 	<p>We offer various types of appointments<br>
@@ -92,8 +92,7 @@ get_header(); ?>
 <h2 class="did-u-know-header">Did you know?</h2>
 <div class="lab-did-u-no">
 <p>
-Naturopathic physicians must attend the same pre-medical studies as MDs and, they must obtain a four year degree prior to applying to one of the seven accredited schools in North America.
-</p>
+Although Naturopathic physicians can write lab requisitions, it is not covered by the government and therefore is paid for by the patient. The benefit to this is that Naturopathic doctors can ask for labs that normally wouldn’t be covered by Medicare that your MD might not be able to request. Dr. Chay is happy to work with your MD to determine the best labs for you and your budget.</p>
 </div>
 <div class="how-can how-can-position">
 			<h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>

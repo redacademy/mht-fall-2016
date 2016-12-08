@@ -3389,6 +3389,17 @@ header.entry-header-article {
         flex-wrap: wrap;
     margin-top: 224px; } }
 
+.search-count {
+  font-family: 'open_sans';
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  color: #003d5c;
+  padding: 30px; }
+  @media (min-width: 480px) {
+    .search-count {
+      font-size: 36px; } }
+
 .redirect {
   text-align: center; }
   .redirect h2 {
@@ -3541,6 +3552,9 @@ header.entry-header-article {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase; }
+    @media (min-width: 480px) {
+      .labtesting-book-appointment h3 {
+        font-size: 36px; } }
   .labtesting-book-appointment p {
     width: 175px;
     margin: 0 auto;
@@ -3549,11 +3563,14 @@ header.entry-header-article {
     line-height: 1.2;
     text-align: center;
     color: #ffffff; }
+    @media (min-width: 480px) {
+      .labtesting-book-appointment p {
+        font-size: 22px; } }
     .labtesting-book-appointment p .labtesting-thick-style {
       font-weight: bold; }
   @media (min-width: 480px) {
     .labtesting-book-appointment {
-      background-size: 999px 368px; } }
+      background-size: 100% 100%; } }
 
 .lab-did-u-no {
   width: 280px;
@@ -3568,6 +3585,11 @@ header.entry-header-article {
     font-size: 15px;
     line-height: 1.2;
     color: #003d5c; }
+  @media (min-width: 480px) {
+    .lab-did-u-no {
+      width: 876px; }
+      .lab-did-u-no p {
+        font-size: 22px; } }
 
 .labtesting-single-wrapper {
   display: none; }
@@ -3682,17 +3704,29 @@ header.entry-header-article {
   margin: 0 auto; }
   @media (min-width: 480px) {
     .laptesting-imag-text {
-      margin: 0;
-      margin-top: 32rem;
+      margin-top: 35rem;
       -ms-flex-direction: row;
-          flex-direction: row;
-      width: 1539px;
-      height: 368px;
+      flex-direction: row;
+      /* align-items: flex-end; */
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+      width: 91%;
       margin-left: 225px; }
       .laptesting-imag-text img {
+        height: 368px;
         width: 540px; }
       .laptesting-imag-text .labtesting-book-appointment {
-        width: 999px; } }
+        width: 100%; } }
+    @media (min-width: 480px) and (min-width: 480px) {
+      .laptesting-imag-text .labtesting-book-appointment {
+        -ms-flex-align: start;
+            align-items: flex-start;
+        -ms-flex-pack: center;
+            justify-content: center;
+        padding-left: 10px; }
+        .laptesting-imag-text .labtesting-book-appointment p {
+          margin: 0;
+          text-align: left; } }
 
 .discover-more-btn {
   text-align: center;
