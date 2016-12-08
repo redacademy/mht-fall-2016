@@ -18,17 +18,27 @@
         }
         @include mobile-break-width {
             width: 100%;
+            padding: 0;
             max-width: 1364px;
             height: 110px;
-            justify-content: center;
             .header-button {
                 display: block;
+                width: 20%;
+                background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+                height: 40px;
+                width: 200px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 200px;
+                font-size: 15px;
+                a {
+                    color: white;
+                }
             }
             .search-icon-dt {
                 display: block;
-            }
-            .search-and-patient-portal {
-                display: none;
             }
             p {
                 margin: 0;
@@ -39,10 +49,31 @@
             .phone-and-number {
                 display: flex;
                 padding: 0;
-                width: 200px;
+                margin-left: 40px;
+                width: 17%;
+                span {
+                    color: $body-color;
+                }
             }
         }
     }
+}
+
+.patient-portal-desktop {
+    color: #1a9481;
+    width: 15%;
+    text-transform: uppercase;
+    font-family: oswald, "san-serif";
+    a:visited {
+        color: #1a9481;
+        font-family: oswald, "san-serif";
+        padding-right: 3px;
+    }
+}
+
+.header-or {
+    color: $body-color;
+    padding-right: 20px;
 }
 
 .header-white {
@@ -106,13 +137,17 @@
     }
     @include mobile-break-width {
         flex-flow: row;
-        width: 45%;
-        height: 10px;
+        width: 33%;
+        height: 0;
+        align-items: center;
         li {
-            margin: 0 5px;
+            margin: 0 12px;
         }
         li:first-child {
-            margin: 0 5px;
+            margin: 0 12px;
+        }
+        a {
+            font-size: 16px;
         }
     }
 }
@@ -172,6 +207,12 @@
         height: 20px;
         padding-right: 8px;
     }
+    @include mobile-break-width {
+        p {
+            color: #1a9481;
+            ;
+        }
+    }
 }
 
 .phone-and-number-green {
@@ -205,9 +246,8 @@
     position: fixed;
 }
 
-.search-form {
-    // margin-top: 70px;
-    // z-index: 3;
+.search-submit {
+    display: none;
 }
 
 .menu-toggle {
