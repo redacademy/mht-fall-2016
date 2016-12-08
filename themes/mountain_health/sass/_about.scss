@@ -16,6 +16,7 @@
             justify-content: center;
             align-items: center;
             width: 100%;
+            margin-bottom: 125px;
         }
         .parallax-scroll-about {
             height: 300%;
@@ -139,6 +140,8 @@
             width: 705px;
             font-size: $small-font-dt;
             line-height: 1.36;
+            left:initial;
+            right:50px;
         }
     }
     p {
@@ -200,12 +203,31 @@
         position: absolute;
         top: -13px;
         left: 36.5%;
+        @include mobile-break-width{
+            display:none;
+        }
+    }
+
+    .amanda-road-map-desktop{
+        display: none;
+        @include mobile-break-width{
+            position: absolute;
+            top: -13px;
+            left: 36.5%;
+            display: inherit;
+        }
     }
     .one {
         margin-top: 55px;
+        @include mobile-break-width{
+            width:528px;
+        }
     }
     .two {
         margin-top: 65px;
+        @include mobile-break-width{
+            width: 236px;
+        }
     }
     .three,
     .four {
@@ -229,16 +251,45 @@
         text-transform: uppercase;
         font-weight: normal;
         margin: 0;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+        }
     }
     p {
         font-size: $small-font;
         margin: 0;
         line-height: 1.2;
-        ;
+        @include mobile-break-width{
+            margin-bottom: 80px;
+            font-size: $small-font-dt;
+        }
     }
 }
 
 .green-mountains {
     position: absolute;
     top: 2110px;
+}
+.three{
+    @include mobile-break-width{
+        width: 574px;
+        p{
+            @include mobile-break-width{
+                width: 367px;
+            }
+        }
+    }
+}
+.one,.three,.five{
+    @include mobile-break-width{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+.two,.four,.six{
+    @include mobile-break-width{
+        text-align: left;
+    }
 }

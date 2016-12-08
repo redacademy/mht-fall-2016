@@ -1562,7 +1562,8 @@ object {
             justify-content: center;
         -ms-flex-align: center;
             align-items: center;
-        width: 100%; } }
+        width: 100%;
+        margin-bottom: 125px; } }
     .about-page .about-hero .parallax-scroll-about {
       height: 300%;
       width: 320px;
@@ -1669,7 +1670,9 @@ object {
       .about-amanda .about-amanda-text {
         width: 705px;
         font-size: 22px;
-        line-height: 1.36; } }
+        line-height: 1.36;
+        left: initial;
+        right: 50px; } }
   .about-amanda p {
     margin-bottom: 0;
     margin-top: 0;
@@ -1724,10 +1727,27 @@ object {
     position: absolute;
     top: -13px;
     left: 36.5%; }
+    @media (min-width: 480px) {
+      .education .amanda-road-map {
+        display: none; } }
+  .education .amanda-road-map-desktop {
+    display: none; }
+    @media (min-width: 480px) {
+      .education .amanda-road-map-desktop {
+        position: absolute;
+        top: -13px;
+        left: 36.5%;
+        display: inherit; } }
   .education .one {
     margin-top: 55px; }
+    @media (min-width: 480px) {
+      .education .one {
+        width: 528px; } }
   .education .two {
     margin-top: 65px; }
+    @media (min-width: 480px) {
+      .education .two {
+        width: 236px; } }
   .education .three,
   .education .four {
     margin-top: 58px; }
@@ -1746,14 +1766,41 @@ object {
     text-transform: uppercase;
     font-weight: normal;
     margin: 0; }
+    @media (min-width: 480px) {
+      .education h4 {
+        font-size: 36px; } }
   .education p {
     font-size: 15px;
     margin: 0;
     line-height: 1.2; }
+    @media (min-width: 480px) {
+      .education p {
+        margin-bottom: 80px;
+        font-size: 22px; } }
 
 .green-mountains {
   position: absolute;
   top: 2110px; }
+
+@media (min-width: 480px) {
+  .three {
+    width: 574px; } }
+  @media (min-width: 480px) and (min-width: 480px) {
+    .three p {
+      width: 367px; } }
+
+@media (min-width: 480px) {
+  .one, .three, .five {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: end;
+        align-items: flex-end; } }
+
+@media (min-width: 480px) {
+  .two, .four, .six {
+    text-align: left; } }
 
 .what-we-do {
   width: 320px; }
