@@ -77,14 +77,16 @@
         $(".events-lists").hide();
     });
     // lab testing data from loop
+    $(".labtesting-wrapper div:nth-child(2)").stop().show();
+    $(".labtesting-wrapper div:first-child button:first-child").focus();
     $('.labtesting-btn-off').on('click', function() {
         $('.labtesting-single-wrapper-active').stop().hide();
         $(this).next('.labtesting-single-wrapper-active').stop().show();
     });
     // treatment  data from loop
     $(".treatments-wrapper div:nth-child(2)").stop().show();
-    // $(".treatments-wrapper div:first-child button:first-child").focus();
-    // $(".treatments-wrapper div:first-child").css("margin-left", "20px");
+    $(".treatments-wrapper div:first-child button:first-child").focus();
+    $(".treatments-wrapper div:first-child").css("margin-left", "20px");
     $('.treatment-btn-off').on('click', function() {
         $('.treatment-description-single-active').stop().hide();
         $(this).next('.treatment-description-single-active').stop().show();
