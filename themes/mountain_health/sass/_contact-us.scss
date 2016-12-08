@@ -1,15 +1,49 @@
 .contact-us {
     text-align: center;
-    width: 320px;
     .contact-us-hero {
-        background: url(../../MTH-Assets/photos/contact-us-hero.jpg);
-        width: 320px;
-        height: 123px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
+          color: #ffffff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background: url(../../MTH-Assets/photos/hero-visual-banner-contact-us@3x.png) no-repeat top;
+          background-size: cover;
+          height: 319px;
+        h1 {
+          text-transform: uppercase;
+          @include mobile-break-width {
+          font-size: 48px;
+}
+        }
+        p {
+          text-align: center;
+          font-family: 'open_sans';
+        font-size: 15px;
+        @include mobile-break-width {
+        max-width: 800px;
+        }
+        }
     }
+iframe{
+  width: 280px;
+    height: 159px;
+    margin: 10px;
+    border: 0;
+    box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+    @include mobile-break-width {
+    width: 960px;
+    height: 482px;
+  }
+}
+.external-link{
+font-family: 'open_sans';
+font-size: 12px;
+line-height: 1.5;
+color: #1a9481;
+cursor: pointer;
+}
+
+
     .x-icon {
         position: absolute;
         top: 196px;
@@ -25,9 +59,11 @@
         text-transform: uppercase;
         color: $header-color;
         font-size: $medium-font;
+        @include mobile-break-width {
+        font-size: 36px;
+}
     }
     p {
-        color: $body-color;
         font-size: $small-font;
     }
     .call,
@@ -43,17 +79,43 @@
         justify-content: center;
         margin: 0 auto;
         .phone-number {
-            color: $body-color;
+          color: #1a9481;
             font-size: $medium-font;
             text-decoration: none;
             padding-left: 8px;
         }
     }
     .wpcf7-form {
-        text-align: left;
-        width: 280px;
-        margin: 0 auto;
+      width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
+      @include mobile-break-width {
+        justify-content: space-between;
+flex-direction: row;
+flex-flow: wrap;
+ p:nth-child(8){
+   width: 1100px;
+   textarea{
+     width: 100%;
+   }}
+   p:nth-child(2), p:nth-child(3),p:nth-child(4),p:nth-child(5),p:nth-child(6),p:nth-child(7){
+     width: 494px;
+     input{
+       width: 100%;
+     }
+}
+p:nth-child(9){
+  width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
     }
+
     div.wpcf7-mail-sent-ok {
         padding: 0.2em 1em;
         position: absolute;
@@ -113,15 +175,30 @@
 
 .or {
     display: flex;
-    width: 320px;
     margin: 0 auto;
     padding: 19px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
     color: #003d5c;
     p {
         padding-top: 5px;
+        border: 8px solid white;
     }
+    img{
+      width: 120px;
+    }
+    @include mobile-break-width {
+    img{
+      width: 525px;
+      height: 2px;
+      background-color: #003d5c;
+    }
+    p{
+      border: 15px solid white;
+
+    }
+  }
 }
 
 .grey-background {
