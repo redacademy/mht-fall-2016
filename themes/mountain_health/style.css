@@ -3499,13 +3499,17 @@ header.entry-header-article {
   justify-content: center;
   border-radius: 10px 10px 0px 10px; }
   .labtesting-btn-off button {
-    width: 110px;
+    width: 100%;
     line-height: 1;
     font-size: 12px;
     text-transform: uppercase;
     padding: 0;
     background: none;
     border: none; }
+    .labtesting-btn-off button:focus {
+      color: white;
+      background-color: #1a9481;
+      outline: none; }
   @media (min-width: 480px) {
     .labtesting-btn-off {
       width: 316px;

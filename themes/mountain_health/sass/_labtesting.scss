@@ -33,13 +33,18 @@ max-width: 800px;
       justify-content: center;
   border-radius: 10px 10px 0px 10px;
 button{
-  width: 110px;
+  width: 100%;
       line-height: 1;
       font-size: 12px;
       text-transform: uppercase;
       padding: 0;
       background: none;
       border: none;
+      &:focus {
+          color: white;
+          background-color: #1a9481;
+          outline: none;
+      }
 }
 
 @include mobile-break-width {
