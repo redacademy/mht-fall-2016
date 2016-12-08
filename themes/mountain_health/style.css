@@ -505,7 +505,7 @@ ul {
 
 body {
   background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png);
-  background-size: cover cover; }
+  background-size: cover; }
 
 .site-main,
 .main-header,
@@ -539,16 +539,28 @@ body {
   @media (min-width: 480px) {
     .main-header header {
       width: 100%;
+      padding: 0;
       max-width: 1364px;
-      height: 110px;
-      -ms-flex-pack: center;
-          justify-content: center; }
+      height: 110px; }
       .main-header header .header-button {
-        display: block; }
+        display: block;
+        width: 20%;
+        background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center;
+        margin-right: 200px;
+        font-size: 15px; }
+        .main-header header .header-button a {
+          color: white; }
       .main-header header .search-icon-dt {
         display: block; }
-      .main-header header .search-and-patient-portal {
-        display: none; }
       .main-header header p {
         margin: 0; }
       .main-header header button:focus {
@@ -557,7 +569,24 @@ body {
         display: -ms-flexbox;
         display: flex;
         padding: 0;
-        width: 200px; } }
+        margin-left: 40px;
+        width: 17%; }
+        .main-header header .phone-and-number span {
+          color: #003A5F; } }
+
+.patient-portal-desktop {
+  color: #1a9481;
+  width: 15%;
+  text-transform: uppercase;
+  font-family: oswald, "san-serif"; }
+  .patient-portal-desktop a:visited {
+    color: #1a9481;
+    font-family: oswald, "san-serif";
+    padding-right: 3px; }
+
+.header-or {
+  color: #003A5F;
+  padding-right: 20px; }
 
 .header-white {
   background: white !important; }
@@ -615,12 +644,16 @@ body {
     #primary-menu {
       -ms-flex-flow: row;
           flex-flow: row;
-      width: 45%;
-      height: 10px; }
+      width: 33%;
+      height: 0;
+      -ms-flex-align: center;
+          align-items: center; }
       #primary-menu li {
-        margin: 0 5px; }
+        margin: 0 12px; }
       #primary-menu li:first-child {
-        margin: 0 5px; } }
+        margin: 0 12px; }
+      #primary-menu a {
+        font-size: 16px; } }
 
 .mobile-menu-hide {
   display: none;
@@ -676,6 +709,9 @@ body {
   .phone-and-number img {
     height: 20px;
     padding-right: 8px; }
+  @media (min-width: 480px) {
+    .phone-and-number p {
+      color: #1a9481; } }
 
 .phone-and-number-green {
   display: -ms-flexbox;
@@ -707,6 +743,9 @@ body {
   top: 40px;
   position: fixed; }
 
+.search-submit {
+  display: none; }
+
 .menu-toggle {
   background: none;
   border: none;
@@ -736,7 +775,7 @@ a {
     clear: both;
     display: block;
     float: left;
-    width: 100%; }
+    width: 40%; }
     .main-navigation ul {
       display: none;
       display: block;
