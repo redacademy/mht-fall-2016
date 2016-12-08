@@ -56,19 +56,22 @@ get_header(); ?>
 
 
             <?php $fields = CFS()->get( 'labtesting'); ?>
+<div class="test">
 
 				<div class="labtesting-wrapper">
 					<?php   foreach ( $fields as $field ) : ?>
-						<button class="labtesting-btn-off"> <?php   echo $field['labtesting_title']; ?> </button>
-						<div class="labtesting-single-wrapper-active" style="display: none" >
-												<!-- style="display: none;" -->
-							<img src="<?php  echo $field['labtesting_img']; ?>"/>
-							<h3> <?php   echo $field['labtesting_title']; ?> </h3>
-							<p>  <?php   echo $field['labtesting_text']; ?> </p>
+<div class="labtesting-btn-off">
+	<button class=""> <?php   echo $field['labtesting_title']; ?> </button>
+
+</div>
+							<div class="labtesting-single-wrapper-active" style="display:none; background-image: url(<?php  echo $field['labtesting_img']; ?>);background-size:cover; display: flex; flex-direction:column; justify-content:center; align-items:center">
+									<h3> <?php   echo $field['labtesting_title']; ?> </h3>
+									<p>  <?php   echo $field['labtesting_text']; ?> </p>
 						</div>
 					<?php endforeach; ?>
 				</div>
 			<?php endwhile; // End of the loop. ?>
+		</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
@@ -81,21 +84,18 @@ get_header(); ?>
 		Follow up<br>
 		Full physical exam</span>
 </p>
-<a href="<?php echo get_page_link(29); ?>">
+<a class="discover-more-btn"href="<?php echo get_page_link(29); ?>">
 <button type="button" name="button">Discover More</button></a>
 <!--Button links to 2.4 Appointments-->
 </div>
 </div>
-<h2>Did you know?</h2>
+<h2 class="did-u-know-header">Did you know?</h2>
 <div class="lab-did-u-no">
 <p>
-Although Naturopathic physicians can write lab requisitions, it is not covered by the government
-and therefore is paid for by the patient. The benefit to this is that Naturopathic doctors can ask
-for labs that normally wouldn’t be covered by Medicare that your MD might not be able to request.
-Dr. Chay is happy to work with your MD to determine the best labs for you and your budget.
+Naturopathic physicians must attend the same pre-medical studies as MDs and, they must obtain a four year degree prior to applying to one of the seven accredited schools in North America.
 </p>
 </div>
-<div class="how-can">
+<div class="how-can how-can-position">
 			<h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
 			<a  class="front-button flex-button" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
 													<!--Button links to book an appointment 5.0-->

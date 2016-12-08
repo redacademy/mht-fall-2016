@@ -77,6 +77,8 @@
         $(".events-lists").hide();
     });
     // lab testing data from loop
+    $(".labtesting-wrapper div:nth-child(2)").stop().show();
+    $(".labtesting-wrapper div:first-child button:first-child").focus();
     $('.labtesting-btn-off').on('click', function() {
         $('.labtesting-single-wrapper-active').stop().hide();
         $(this).next('.labtesting-single-wrapper-active').stop().show();

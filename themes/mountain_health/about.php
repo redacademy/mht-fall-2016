@@ -51,6 +51,7 @@
         </section>
         <section class="education">
             <section class="amanda-road-map-wrapper">
+                <img class="amanda-road-map-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line-shape-full.png" alt="gradient line">
                 <img class="amanda-road-map" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line-and-dots.png" alt="gradient line">
             </section>
             <div class="one">
