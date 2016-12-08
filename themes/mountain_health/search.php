@@ -15,7 +15,20 @@ get_header(); ?>
 			<header class="page-header">
 				<h1 class="page-title"><?php printf( esc_html( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
-			<div class="search-results-content">
+
+			<section class="article-nav-links article-nav-links-archive">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+				<p><?php wp_title( '' ); ?></p>
+			</section>
+
+<div class="search-count">
+				<?php /* Search Count */
+			$allsearch = new WP_Query("s=$s&showposts=0");
+			echo $allsearch ->found_posts.' results found.';
+			 wp_reset_query(); ?>
+		 </div>
+
+			<div class="grid-archive-article">
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -24,7 +37,6 @@ get_header(); ?>
 				<?php endwhile; ?>
 
 				<?php red_starter_numbered_pagination(); ?>
-
 			<?php else : ?>
 
 				<?php get_template_part( 'template-parts/content', 'none' ); ?>
@@ -34,5 +46,7 @@ get_header(); ?>
 		</main><!-- #main -->
 	</section><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+	<div class="mountains">
+		<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
+		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
+	</div><?php get_footer(); ?>

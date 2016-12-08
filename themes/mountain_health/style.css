@@ -3376,6 +3376,17 @@ header.entry-header-article {
         flex-wrap: wrap;
     margin-top: 224px; } }
 
+.search-count {
+  font-family: 'open_sans';
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  color: #003d5c;
+  padding: 30px; }
+  @media (min-width: 480px) {
+    .search-count {
+      font-size: 36px; } }
+
 .redirect {
   text-align: center; }
   .redirect h2 {

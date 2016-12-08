@@ -23,7 +23,7 @@
                 width: 409px;
                 padding-top: 102px;
             }
-    
+
         }
     }
 }
@@ -35,7 +35,7 @@
             flex: 1 0 50%;
             width: 632px;
             }
-    
+
         .entry-header{
             background-color:black;
             height: 150px;
@@ -78,7 +78,7 @@
             @include mobile-break-width{
                 width: 632px;
                 font-size: $small-font-dt;
-                
+
             }
         }
     }
@@ -90,4 +90,16 @@
     flex-wrap: wrap;
     margin-top:224px;
     }
+}
+
+.search-count{
+font-family: 'open_sans';
+font-size: 18px;
+line-height: 1;
+text-align: center;
+color: #003d5c;
+padding: 30px;
+@include mobile-break-width{
+  font-size: 36px;
+}
 }
