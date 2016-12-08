@@ -1793,14 +1793,7 @@ object {
         left: 36.5%;
         display: inherit; } }
   .education .one {
-<<<<<<< HEAD
     margin-top: 70px; }
-  .education .two {
-    margin-top: 65px; }
-  .education .three {
-    margin-top: 70px; }
-=======
-    margin-top: 55px; }
     @media (min-width: 480px) {
       .education .one {
         width: 528px; } }
@@ -1809,8 +1802,8 @@ object {
     @media (min-width: 480px) {
       .education .two {
         width: 236px; } }
-  .education .three,
->>>>>>> c2bfa4030b7610517bc26f4aa71a0f12d992dfdd
+  .education .three {
+    margin-top: 70px; }
   .education .four {
     margin-top: 58px; }
   .education .five {
@@ -1855,7 +1848,9 @@ object {
       width: 367px; } }
 
 @media (min-width: 480px) {
-  .one, .three, .five {
+  .one,
+  .three,
+  .five {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1864,7 +1859,9 @@ object {
         align-items: flex-end; } }
 
 @media (min-width: 480px) {
-  .two, .four, .six {
+  .two,
+  .four,
+  .six {
     text-align: left; } }
 
 .what-we-do {
