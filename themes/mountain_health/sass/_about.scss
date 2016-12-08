@@ -275,6 +275,9 @@
     .six {
         margin-top: 80px;
         margin-bottom: 30px;
+        @include mobile-break-width{
+            width:550px;
+        }
     }
     h3 {
         text-transform: uppercase;
