@@ -1038,14 +1038,27 @@ object {
   .front-page .site-main h3 {
     font-family: 'oswald';
     font-weight: normal; }
+  .front-page .main-header header {
+    background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
+    background-size: cover; }
+    .front-page .main-header header .phone-number-white {
+      color: white; }
+    .front-page .main-header header .MTH-logo-white {
+      display: block;
+      width: 30px; }
+    .front-page .main-header header .phone-white {
+      display: block;
+      height: 20px; }
+    .front-page .main-header header .hamburger {
+      color: white; }
 
 .parallax-scroll {
   top: 40px;
   height: 300%;
-  width: 320px;
-  height: 480px;
+  width: 100%;
+  height: 450px;
   margin: 0 auto;
-  background: url(../../MTH-Assets/photos/mobile-front-hero.png) no-repeat;
+  background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
   background-size: cover;
   z-index: -1;
   position: fixed; }
