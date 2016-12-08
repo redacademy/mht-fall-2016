@@ -45,11 +45,23 @@
     }
 }
 
+.header-white {
+    background: white !important;
+}
+
 .MTH-logo-wrapper {
     width: 40px;
     height: 40px;
     margin-left: 20px;
     padding-top: 3px;
+}
+
+.MTH-logo-white {
+    display: none;
+}
+
+.phone-white {
+    display: none;
 }
 
 .x-logo {
@@ -154,6 +166,7 @@
         font-family: "open_sans", "san-serif";
         color: $body-color;
         margin: 0;
+        padding-right: 13px;
     }
     img {
         height: 20px;
@@ -168,6 +181,7 @@
         font-family: "open_sans", "san-serif";
         color: $nav-color;
         margin: 0;
+        padding-right: 13px;
     }
     img {
         padding-right: 8px;

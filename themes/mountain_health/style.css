@@ -475,6 +475,10 @@ textarea {
   .primary-button a {
     color: white;
     text-decoration: none; }
+    .primary-button a:visited {
+      color: white; }
+    .primary-button a:hover {
+      color: #fdeea7; }
 
 .book-appointment {
   width: 220px; }
@@ -492,7 +496,7 @@ a {
   a:visited {
     color: white; }
   a:hover {
-    color: white; }
+    color: #fdeea7; }
 
 ul {
   list-style: none;
@@ -555,11 +559,20 @@ body {
         padding: 0;
         width: 200px; } }
 
+.header-white {
+  background: white !important; }
+
 .MTH-logo-wrapper {
   width: 40px;
   height: 40px;
   margin-left: 20px;
   padding-top: 3px; }
+
+.MTH-logo-white {
+  display: none; }
+
+.phone-white {
+  display: none; }
 
 .x-logo {
   position: absolute;
@@ -658,7 +671,8 @@ body {
   .phone-and-number p {
     font-family: "open_sans", "san-serif";
     color: #003A5F;
-    margin: 0; }
+    margin: 0;
+    padding-right: 13px; }
   .phone-and-number img {
     height: 20px;
     padding-right: 8px; }
@@ -671,7 +685,8 @@ body {
   .phone-and-number-green p {
     font-family: "open_sans", "san-serif";
     color: #009B84;
-    margin: 0; }
+    margin: 0;
+    padding-right: 13px; }
   .phone-and-number-green img {
     padding-right: 8px;
     height: 20px; }
@@ -1391,7 +1406,7 @@ object {
 
 .carousel-cell {
   height: 300px;
-  width: 320px;
+  width: 100%;
   text-align: center;
   margin-bottom: 30px; }
   .carousel-cell p {
@@ -1406,18 +1421,24 @@ object {
     color: #fff;
     text-transform: uppercase;
     padding-top: 60px; }
+  .carousel-cell a {
+    color: white; }
+    .carousel-cell a:visited {
+      color: white; }
 
 .front-page-slider {
   background: url(../../MTH-Assets/photos/carousal-01.png);
   background-size: cover;
   background-position: center; }
+  .front-page-slider p {
+    margin-bottom: 30px; }
 
-.front-page-slide-2 {
+.front-page-slider-2 {
   background: url(../../MTH-Assets/photos/carousel-2.jpg);
   background-size: cover;
   background-position: center; }
 
-.front-page-slide-3 {
+.front-page-slider-3 {
   background: url(../../MTH-Assets/photos/carousel-3.jpg);
   background-size: cover;
   background-position: center; }
@@ -1537,22 +1558,46 @@ object {
   position: relative; }
 
 .about-page {
-  width: 320px; }
+  width: 100%;
+  padding-top: 0; }
   @media (min-width: 480px) {
     .about-page {
       width: 100%; } }
+  .about-page .main-header header {
+    background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
+    background-position-y: -75px;
+    background-size: 100%;
+    width: 100%;
+    margin: 0 auto; }
+    @media (min-width: 480px) {
+      .about-page .main-header header {
+        width: 100%;
+        background: grey; } }
+    .about-page .main-header header .phone-number-white {
+      color: white;
+      padding-right: 13px; }
+  .about-page .MTH-logo-white {
+    display: block;
+    width: 30px; }
+  .about-page .phone-white {
+    display: block;
+    height: 20px; }
+  .about-page .hamburger {
+    color: white; }
   .about-page .about-hero {
     height: 415px;
     text-align: center;
     color: #fff;
-    width: 320px;
+    width: 100%;
     height: 415px;
-    background-position-y: -66px;
-    margin-bottom: 30px;
+    background-position-y: -75px;
+    margin-bottom: 100px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
     @media (min-width: 480px) {
       .about-page .about-hero {
         height: 770px;
@@ -1566,14 +1611,14 @@ object {
         margin-bottom: 125px; } }
     .about-page .about-hero .parallax-scroll-about {
       height: 300%;
-      width: 320px;
+      width: 100%;
       margin: 0 auto;
       background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
-      background-size: 320px 480px;
+      background-size: 100%;
       z-index: -1;
       position: fixed;
       top: 0;
-      background-position-y: -15px; }
+      background-position-y: -75px; }
       @media (min-width: 480px) {
         .about-page .about-hero .parallax-scroll-about {
           background: url(../../MTH-Assets/photos/about-hero-desktop.png);
@@ -1593,7 +1638,9 @@ object {
           font-size: 72px; } }
     .about-page .about-hero p {
       font-size: 17px;
-      line-height: 21px; }
+      line-height: 21px;
+      width: 280px;
+      margin: 0 auto; }
       @media (min-width: 480px) {
         .about-page .about-hero p {
           font-size: 36px;
@@ -1606,10 +1653,15 @@ object {
     margin-bottom: 20px; }
 
 .amanda-photo {
-  width: 280px;
+  width: 100%;
   height: 290px;
   margin: 0 auto;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background: white; }
   @media (min-width: 480px) {
     .amanda-photo {
       background: url(../../MTH-Assets/photos/amanda-large.png);
@@ -1664,7 +1716,7 @@ object {
         flex-wrap: wrap;
     position: absolute;
     top: 0;
-    left: 20px;
+    left: 40px;
     width: 270px; }
     @media (min-width: 480px) {
       .about-amanda .about-amanda-text {
@@ -1681,7 +1733,7 @@ object {
   .about-amanda .first-sentence {
     padding-left: 37px;
     margin: 0;
-    margin-top: 13px; }
+    margin-top: 5px; }
   .about-amanda .about-amanda-second-p {
     margin: 0; }
 
@@ -1691,14 +1743,16 @@ object {
   color: #003A5F;
   line-height: 0;
   position: absolute;
-  top: 48px; }
+  top: 43px; }
 
 @media (min-width: 480px) {
   .amanda-bg-mobile {
     display: none; } }
 
 .amanda-bg {
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: absolute;
+  left: 10px; }
   @media (min-width: 480px) {
     .amanda-bg {
       width: 1054px;
@@ -1739,6 +1793,13 @@ object {
         left: 36.5%;
         display: inherit; } }
   .education .one {
+<<<<<<< HEAD
+    margin-top: 70px; }
+  .education .two {
+    margin-top: 65px; }
+  .education .three {
+    margin-top: 70px; }
+=======
     margin-top: 55px; }
     @media (min-width: 480px) {
       .education .one {
@@ -1749,6 +1810,7 @@ object {
       .education .two {
         width: 236px; } }
   .education .three,
+>>>>>>> c2bfa4030b7610517bc26f4aa71a0f12d992dfdd
   .education .four {
     margin-top: 58px; }
   .education .five {

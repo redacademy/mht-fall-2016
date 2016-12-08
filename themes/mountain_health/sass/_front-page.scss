@@ -423,7 +423,7 @@
 //Front page slider div
 .carousel-cell {
     height: 300px;
-    width: 320px;
+    width: 100%;
     text-align: center;
     margin-bottom: 30px;
     p {
@@ -440,21 +440,30 @@
         text-transform: uppercase;
         padding-top: 60px;
     }
+    a {
+        color: white;
+        &:visited {
+            color: white;
+        }
+    }
 }
 
 .front-page-slider {
     background: url(../../MTH-Assets/photos/carousal-01.png);
     background-size: cover;
     background-position: center;
+    p {
+        margin-bottom: 30px;
+    }
 }
 
-.front-page-slide-2 {
+.front-page-slider-2 {
     background: url(../../MTH-Assets/photos/carousel-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.front-page-slide-3 {
+.front-page-slider-3 {
     background: url(../../MTH-Assets/photos/carousel-3.jpg);
     background-size: cover;
     background-position: center;

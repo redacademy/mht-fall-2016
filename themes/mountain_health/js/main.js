@@ -90,8 +90,34 @@
     $('.treatment-btn-off').on('click', function() {
         $('.treatment-description-single-active').stop().hide();
         $(this).next('.treatment-description-single-active').stop().show();
+    });
+    // about page header color change
+    $(".about-page .main-header header p").addClass("phone-number-white");
+    $(".about-page .main-header header .phone-blue").hide();
+    $(".about-page .main-header header .MTH-logo").hide();
+    $(".about-page .main-header header .MTH-logo-white").show();
+    $(window).on("scroll", function() {
+        if ($(window).scrollTop() > 400) {
+            $(".about-page .main-header header").addClass("header-white");
+            $(".about-page .main-header header .hamburger").removeClass("hamburger");
+            $(".about-page .main-header header p").removeClass("phone-number-white");
+            $(".about-page .main-header header .phone-blue").show();
+            $(".about-page .main-header header .MTH-logo").show();
+            $(".about-page .main-header header .MTH-logo-white").hide();
+            $(".about-page .main-header header .phone-white").hide();
+
+        } else {
+            $(".about-page .main-header header").removeClass("header-white");
+            $(".about-page .main-header header .hamburger-white").addClass("hamburger");
+            $(".about-page .main-header header p").addClass("phone-number-white");
+            $(".about-page .main-header header .MTH-logo").hide();
+            $(".about-page .main-header header .MTH-logo-white").show();
+            $(".about-page .main-header header .phone-blue").hide();
+            $(".about-page .main-header header .phone-white").show();
 
 
+
+        }
     });
 
 })(jQuery);

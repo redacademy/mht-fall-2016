@@ -14,6 +14,12 @@
     a {
         color: white;
         text-decoration: none;
+        &:visited {
+            color: white;
+        }
+        &:hover {
+            color: #fdeea7;
+        }
     }
 }
 
@@ -37,7 +43,7 @@ a {
         color: white;
     }
     &:hover {
-        color: white;
+        color: #fdeea7;
     }
 }
 

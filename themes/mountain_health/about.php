@@ -1,8 +1,9 @@
 <?php /* Template Name: About Page */
-get_header(); ?>
+?>
 
 <div id="primary" class="content-area about-page">
 	<main id="main" class="site-main" role="main">
+        <?php get_header(); ?>
         <section class="about-hero">
             <div class="parallax-scroll-about"></div>
             <div class="about-title">
