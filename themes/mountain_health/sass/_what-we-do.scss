@@ -59,6 +59,7 @@
         margin-bottom: 20px;
         @include mobile-break-width{
             width:100%;
+            height: 394px;
         }
         h3 {
             font-family: Oswald;
@@ -261,7 +262,7 @@
     }
 }
 
-.appointments-desktop{
+.appointment-desktop{
     display: none;
     @include mobile-break-width{
         display: initial;
