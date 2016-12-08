@@ -1,15 +1,16 @@
 // ********************** About styling section***
-.amanda-section{
+.amanda-section {
     position: relative;
 }
+
 .about-page {
     width: 320px;
-    @include mobile-break-width{
+    @include mobile-break-width {
         width: 100%;
     }
     .about-hero {
         height: 415px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             height: 770px;
             display: flex;
             justify-content: center;
@@ -26,7 +27,7 @@
             position: fixed;
             top: 0;
             background-position-y: -15px;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 background: url(../../MTH-Assets/photos/about-hero-desktop.png);
                 width: 100%;
                 background-size: cover;
@@ -50,14 +51,14 @@
             font-weight: normal;
             line-height: 41px;
             letter-spacing: 1p;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 font-size: 72px;
             }
         }
         p {
             font-size: 17px;
             line-height: 21px;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 font-size: $medium-font-dt;
                 width: 936px;
                 line-height: 1.22;
@@ -77,18 +78,18 @@
     height: 290px;
     margin: 0 auto;
     margin-bottom: 10px;
-    @include mobile-break-width{
-        background:url(../../MTH-Assets/photos/amanda-large.png);
+    @include mobile-break-width {
+        background: url(../../MTH-Assets/photos/amanda-large.png);
         width: 541px;
         height: 560px;
         background-position: center center;
         background-size: cover;
         position: absolute;
         bottom: 60px;
-        z-index: 1; 
-        img{
-            @include mobile-break-width{
-            display: none;
+        z-index: 1;
+        img {
+            @include mobile-break-width {
+                display: none;
             }
         }
     }
@@ -98,25 +99,28 @@
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
-    @include mobile-break-width{
+    @include mobile-break-width {
         width: 847px;
         height: 68px;
     }
 }
-.amanda-name{
-    @include mobile-break-width{
+
+.amanda-name {
+    @include mobile-break-width {
         display: none;
     }
 }
-.amanda-name-desktop{
+
+.amanda-name-desktop {
     display: none;
-    @include mobile-break-width{
+    @include mobile-break-width {
         display: initial;
         position: absolute;
         right: 22px;
         z-index: 2;
     }
 }
+
 .about-amanda {
     position: relative;
     display: flex;
@@ -127,7 +131,11 @@
         padding: 10px;
         display: flex;
         flex-wrap: wrap;
-        @include mobile-break-width{
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 270px;
+        @include mobile-break-width {
             width: 705px;
             font-size: $small-font-dt;
             line-height: 1.36;
@@ -158,26 +166,22 @@
     top: 48px;
 }
 
-.about-amanda-text {
-    position: absolute;
-    top: 0;
-    width: 270px;
-}
-.amanda-bg-mobile{
-    @include mobile-break-width{
+.amanda-bg-mobile {
+    @include mobile-break-width {
         display: none;
     }
 }
+
 .amanda-bg {
     margin: 0 auto;
-    @include mobile-break-width{
+    @include mobile-break-width {
         width: 1054px;
         height: 392px;
         background: url(../../MTH-Assets/photos/amanda-bg.png);
         background-size: cover;
         background-position: center center;
         display: flex;
-        justify-content:flex-end;
+        justify-content: flex-end;
         margin-right: 0px;
     }
 }

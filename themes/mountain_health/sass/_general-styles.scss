@@ -55,7 +55,7 @@ body {
 .site-main,
 .main-header,
 .content-area,
-.main-navigation {
+{
     // max-width: 320px;
     margin: 0 auto;
     @include mobile-break-width {
