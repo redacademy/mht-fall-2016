@@ -1,18 +1,18 @@
-.site-main {
-    p {
-        font-size: 15px;
-        font-family: 'open_sans';
-        @include mobile-break-width {
-            font-size: $small-font-dt;
+.front-page {
+    padding-top: 0;
+    .site-main {
+        p {
+            font-size: 15px;
+            font-family: 'open_sans';
+            @include mobile-break-width {
+                font-size: $small-font-dt;
+            }
         }
-    }
-}
-
-.site-main {
-    h2,
-    h3 {
-        font-family: 'oswald';
-        font-weight: normal;
+        h2,
+        h3 {
+            font-family: 'oswald';
+            font-weight: normal;
+        }
     }
 }
 
