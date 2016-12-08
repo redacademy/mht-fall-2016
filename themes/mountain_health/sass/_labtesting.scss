@@ -11,8 +11,6 @@ h1 {
   text-transform: uppercase;
 }
 
-
-
 p {
   text-align: center;
   font-family: 'open_sans';
@@ -44,7 +42,7 @@ button{
       border: none;
 }
 
-@media (min-width: 600px) {
+@include mobile-break-width {
 width: 316px;
  height: 134px;
  margin: 5px;
