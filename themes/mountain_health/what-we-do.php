@@ -14,6 +14,7 @@
                 <img class="gradient-border-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/treatment-bg.png" alt="gradient border box">
                 <h2>Lab Testing</h2>
                 <img class="lab-beaker" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/lab.png" alt="lab beaker">
+                <img class="lab-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/lab-desktop.png" alt="lab beaker">
                 <p>Learn about the types of phlebotomy and lab testing we offer as a part of our services</p>
                 <div class="learn-more">
                 <a href="<?php echo get_page_link(27); ?>">Learn More</a>
@@ -23,6 +24,7 @@
                 <img class="gradient-border-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/treatment-bg.png" alt="gradient border box">
                 <h2>Appointments</h2>
                 <img class="calendar-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/appointment.png" alt="calendar logo">
+                <img class="appointment-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/appointment-desktop.png" alt="calendar logo">
                 <p>See the types of appointments we offer to create a personalized health plan just for you</p>
                 <div class="learn-more">
                 <a href="<?php echo get_page_link(29); ?>">Learn More</a>
@@ -32,6 +34,7 @@
                 <img class="gradient-border-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/treatment-bg.png" alt="gradient border box">
                 <h2>Treatments</h2>
                 <img class="stethascope-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/stethascope.png" alt="stethascope logo">
+                <img class="treatment-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/treatment-desktop.png" alt="stethascope logo">
                 <p>See the treatments we offer based on based on your personalized health plan.</p>
                 <div class="learn-more">
                 <a href="<?php echo get_page_link(25); ?>">Learn More</a>
