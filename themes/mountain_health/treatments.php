@@ -6,13 +6,14 @@
  */
 
 get_header(); ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main treatments-main" role="main">
-			<section class="labtesting-hero-image">
+
+			<section class="treatment-hero-image">
 				<h1>Treatments</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
 			</section>
+
 			<section class="article-nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
 				<a href="<?php echo get_page_link(23); ?>">What We Do &gt;</a>
@@ -22,36 +23,43 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-
             <?php $fields = CFS()->get( 'treatment'); ?>
+<div class="test">
+				<div class="treatments-wrapper">
 
-			<div class="treatments-wrapper">				
-				
 				<?php   foreach ( $fields as $field ) : ?>
 
 					<div class="treatment-btn-off">
 						<button class="treatment-buttons"> <?php   echo $field['treatment_title']; ?> </button>
 					</div>
-	
-					<div class="treatment-description-single-active treatment-description " style="display:none; background-image: url(<?php  echo $field['treatment_img']; ?>);background-size:cover;">
+
+					<div class="treatment-description-single-active treatment-description " style="display:none; background-image: url(<?php  echo $field['treatment_img']; ?>);background-size:cover;     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;">
 							<h3> <?php   echo $field['treatment_title']; ?> </h3>
 							<p>  <?php   echo $field['treatment_text']; ?> </p>
 							<p class="treatment-price">  <?php   echo $field['treatment_price']; ?> </p>
 					</div>
 				<?php endforeach; ?>
 			</div>
-
+</div>
 			<?php endwhile; // End of the loop. ?>
-		<div class-"amanda-face-wrapper">
-  			<img class="amanda-face" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/amanda-pic-treatments.jpg" alt="Photo of Amanda">
+
+			<div class="laptesting-imag-text">
+				<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/amanda-visual@3x.png" alt="logo">
+		<div class="also-lab-testing-div labtesting-book-appointment">
+			<h3>We also offer lab testing</h3>
+			<p>Adrenal Functional Panel Cardiac Risk Assessment Panel CDSA</p>
+
+		<a class="discover-more-btn"href="<?php echo get_page_link(25); ?>">
+		<button type="button" name="button">Discover More</button></a>
+		<!--Button links to 2.4 Appointments-->
 		</div>
-		<div class="also-lab-testing-div"> 
-			<h3>Learn more about our treatments</h3>
-			<p>See more details about treatments and how they can help you.</p>
-			<div class="discover-more">
-				<a href="<?php echo get_page_link(25); ?>">Discover More</a>
-			</div>
 		</div>
+
+
+
 		<section>
 			<h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
     	    <div class="primary-button book-appointment"><a href="<?php echo get_page_link(48); ?>">Book an appointment</a></div>
@@ -59,5 +67,8 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+</div>
+<div class="mountains">
+	<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
+	<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
+</div><?php get_footer(); ?>

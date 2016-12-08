@@ -1,10 +1,10 @@
 // What we do Styling Section ***********************************
 // **************************************************************
 .what-we-do {
-    width: 320px;
+    margin:0 auto;
     .what-we-do-hero {
         background: url(../../MTH-Assets/photos/what-we-do-hero.jpg);
-        width: 320px;
+        width: 100%;
         height: 125px;
         display: flex;
         text-align: center;
@@ -14,16 +14,29 @@
         color: white;
         margin-bottom: 52px;
         padding: 18px;
+        @include mobile-break-width{
+            background: url(../../MTH-Assets/photos/what-we-do-desktop.png);
+            height: 320px;
+        }
         h1 {
             font-size: 17px;
             margin: 0;
             font-weight: normal;
             text-transform: uppercase;
+            @include mobile-break-width{
+                font-size: $large-font-dt;
+                margin-bottom: 20px;
+            }
         }
         p {
             font-size: 15px;
             line-height: 19px;
             margin: 0;
+            @include mobile-break-width{
+                font-size: $small-font-dt;
+                width: 812px;
+                line-height: 1.36;
+            }
         }
     }
     h2 {
@@ -31,6 +44,9 @@
         color: #677257;
         font-size: 17px;
         line-height: 26px;
+        @include mobile-break-width{
+            font-size: $medium-font-dt;
+        }
     }
     .experience {
         width: 280px;
@@ -71,6 +87,13 @@
 }
 
 .treatments-testing-appointments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include mobile-break-width{
+        flex-direction: row;
+        justify-content: center;
+    }
     .treatments,
     .testing,
     .appointments {
@@ -84,12 +107,26 @@
         margin: 0 20px;
         padding: 28px;
         margin-bottom: 50px;
+        @include mobile-break-width{
+        width: 428px;
+        height: 446px;
+        margin:0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
         .gradient-border-box {
             position: absolute;
+            @include mobile-break-width{
+                width: 428px;
+                height: 446px;
+            }
         }
         p {
             text-align: center;
             color: $body-color;
+            @include mobile-break-width{
+                font-size: $small-font-dt;
+            }
         }
     }
 }
@@ -106,6 +143,14 @@
     position: absolute;
     right: 50px;
     top: 215px;
+    @include mobile-break-width{
+        top: initial;
+        left:105px;
+        bottom:-20px;
+        width: 220px;
+        height: 60px;
+        border-radius: 30px;
+    }
     a {
         // font-family: "Open Sans";
         font-size: 14px;
@@ -113,6 +158,9 @@
         line-height: 19px;
         color: #FFFFFF;
         text-decoration: none;
+        @include mobile-break-width{
+            font-size: $small-font-dt;
+        }
     }
 }
 
@@ -161,5 +209,62 @@
     h2 {
         margin: 0;
         margin-bottom: 20px;
+    }
+}
+
+.treatments{
+    @include mobile-break-width{
+    order:1;
+    }
+}
+
+.testing{
+    @include mobile-break-width{
+    order:2;
+    }
+}
+
+.appointments{
+    @include mobile-break-width{
+    order: 3;
+    }
+}
+
+.lab-beaker{
+    @include mobile-break-width{
+        display: none;
+    }
+}
+
+.lab-desktop{
+    display: none;
+    @include mobile-break-width{
+        display: initial;
+    }
+}
+
+.calendar-logo{
+    @include mobile-break-width{
+        display: none;
+    }
+}
+
+.appointments-desktop{
+    display: none;
+    @include mobile-break-width{
+        display: initial;
+    }
+}
+
+.stethascope-logo{
+    @include mobile-break-width{
+        display: none;
+    }
+}
+
+.treatment-desktop{
+    display: none;
+    @include mobile-break-width{
+        display: initial;
     }
 }

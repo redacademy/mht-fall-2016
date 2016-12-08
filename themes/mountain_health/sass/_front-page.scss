@@ -161,6 +161,10 @@
     color: white;
 }
 
+.front-button:visited{
+    color: white;
+}
+
 //Front Page Booking Section
 .booking {
     display: flex;
@@ -233,8 +237,9 @@
     color: white;
     margin-left: 62px;
     font-size: 15px;
-    list-style-image: url(../../MTH-Assets/other/leaf.png);
+    list-style-image: url(../../MTH-Assets/other/leaf-mobile.png);
     @include mobile-break-width {
+        list-style-image: url(../../MTH-Assets/other/leaf.png);
         font-size: $small-font-dt;
         margin-top: 152px;
         line-height: 1.8;
@@ -360,10 +365,11 @@
         margin-bottom: 20px;
         font-size: 15px;
         line-height: 22px;
-        list-style-image: url(../../MTH-Assets/other/leaf.png);
+        list-style-image: url(../../MTH-Assets/other/leaf-mobile.png);
         @include mobile-break-width {
             font-size: $small-font-dt;
             line-height: 2.05;
+            list-style-image: url(../../MTH-Assets/other/leaf.png);
         }
     }
 }

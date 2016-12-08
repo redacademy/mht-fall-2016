@@ -11,8 +11,6 @@ h1 {
   text-transform: uppercase;
 }
 
-
-
 p {
   text-align: center;
   font-family: 'open_sans';
@@ -35,16 +33,21 @@ max-width: 800px;
       justify-content: center;
   border-radius: 10px 10px 0px 10px;
 button{
-  width: 110px;
+  width: 100%;
       line-height: 1;
       font-size: 12px;
       text-transform: uppercase;
       padding: 0;
       background: none;
       border: none;
+      &:focus {
+          color: white;
+          background-color: #1a9481;
+          outline: none;
+      }
 }
 
-@media (min-width: 600px) {
+@include mobile-break-width {
 width: 316px;
  height: 134px;
  margin: 5px;
