@@ -1756,6 +1756,9 @@ object {
   .education .six {
     margin-top: 80px;
     margin-bottom: 30px; }
+    @media (min-width: 480px) {
+      .education .six {
+        width: 550px; } }
   .education h3 {
     text-transform: uppercase;
     color: black;
