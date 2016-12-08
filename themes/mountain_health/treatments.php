@@ -49,14 +49,12 @@ get_header(); ?>
 			<h3>Learn more about our treatments</h3>
 			<p>See more details about treatments and how they can help you.</p>
 			<div class="discover-more">
-				<a href="">Discover More</a>
-				<!--Button links to 3.4x article "details about our treatments"-->
+				<a href="<?php echo get_page_link(25); ?>">Discover More</a>
 			</div>
 		</div>
 		<section>
 			<h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
-    	    <div class="primary-button book-appointment"><a href="#">Book an appointment</a></div>
-										<!--Button links to 5.0 book appointment-->
+    	    <div class="primary-button book-appointment"><a href="<?php echo get_page_link(48); ?>">Book an appointment</a></div>
 		</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
