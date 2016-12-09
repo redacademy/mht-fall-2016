@@ -17,10 +17,10 @@ get_header();
 				<?php endif; ?>
 			</section>
 
-			<section class="article-nav-links">
+			<section class="nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
-				<a href="<?php echo get_page_link(10); ?>">Resources &gt; </a>
-				<a href="<?php echo get_post_type_archive_link( 'article' ); ?>">Articles and research &gt; </a>
+				<a href="<?php echo get_page_link(10); ?>">&nbsp;Resources &gt; </a>
+				<a href="<?php echo get_post_type_archive_link( 'article' ); ?>">&nbsp;Articles and research &gt; </a>
 				<?php the_title( '<p class="">', '</p>' ); ?>
 			</section>
 

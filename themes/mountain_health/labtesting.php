@@ -14,9 +14,9 @@ get_header(); ?>
 				<h1>Lab Testing</h1>
 				<p>We offer a range of life labs to best help you make choices concerning your health and best treatment options for you.</p>
 			</section>
-			<section class="article-nav-links article-nav-links-archive">
+			<section class="nav-links article-nav-links-archive bread-crumb-general">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
-				<a href="<?php echo get_page_link(23); ?>">What We Do &gt;</a>
+				<a href="<?php echo get_page_link(23); ?>">&nbsp;What We Do &gt;&nbsp;</a>
 				<p><?php wp_title( '' ); ?></p>
 			</section>
 			<div class="text-labtesting">

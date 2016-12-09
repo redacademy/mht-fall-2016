@@ -9,6 +9,11 @@
                 and options that will best assist your body in healing.
             </p>
         </div>
+        <section class="nav-links article-nav-links-archive bread-crumb-general what-we-do-bread">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"> Home page &gt; </a>
+				<a href="<?php echo get_page_link(23); ?>">
+				<p> &nbsp;<?php wp_title( '' ); ?></p>
+		</section>
         <section class="treatments-testing-appointments">
               <div class="testing">
                 <img class="gradient-border-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/treatment-bg.png" alt="gradient border box">

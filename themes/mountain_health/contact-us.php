@@ -8,9 +8,9 @@
             <h1>Contact Us</h1>
         </div>
 
-				<section class="article-nav-links article-nav-links-archive">
+				<section class="nav-links article-nav-links-archive">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
-					<p><?php wp_title( '' ); ?></p>
+					<p>&nbsp;<?php wp_title( '' ); ?></p>
 				</section>
 
          <img class="x-icon" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/close-btn.png" alt="x icon">

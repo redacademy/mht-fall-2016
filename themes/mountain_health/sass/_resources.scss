@@ -1,26 +1,23 @@
-
-
-.resources-hero{
-    height:123px;
+.resources-hero {
+    height: 123px;
     background: url(../../MTH-Assets/photos/resources-hero.png);
     background-size: cover;
     background-position: center center;
     text-align: center;
-    margin-bottom: 30px;
-    @include mobile-break-width{
-        background:url(../../MTH-Assets/photos/resources-hero-desktop.png);
+    @include mobile-break-width {
+        background: url(../../MTH-Assets/photos/resources-hero-desktop.png);
         height: 320px;
     }
-    h1{
+    h1 {
         font-size: $medium-font;
-        color:white;
+        color: white;
         font-family: 'Oswald';
         font-weight: normal;
         text-transform: uppercase;
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 20px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $large-font-dt;
             padding-top: 95px;
             margin-bottom: 40px;
@@ -28,35 +25,42 @@
     }
 }
 
-.resources-hero{
-    p{
-        color:$body-color2;
-        width:266px;
-        margin-left:auto;
+.resources-hero {
+    p {
+        color: $body-color2;
+        width: 266px;
+        margin-left: auto;
         margin-right: auto;
-        margin-top:0px;
+        margin-top: 0px;
         line-height: 18px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             width: 48%;
             line-height: 1.36;
         }
     }
 }
-.resources-paragraph{
-    p{
-    text-align: center;
-    color:$body-color;
-    font-size: $medium-font;
+
+.resources-paragraph {
+    p {
+        text-align: center;
+        color: $body-color;
+        font-size: $medium-font;
     }
 }
 
-.resources{
-    @include mobile-break-width{
-    display: flex;
+.bread-crumb-resources {
+    margin-bottom: 30px;
+}
+
+.resources {
+    @include mobile-break-width {
+        display: flex;
     }
 }
 
-.news-events,.articles-research,.recipes-nutrition{
+.news-events,
+.articles-research,
+.recipes-nutrition {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,115 +69,123 @@
     background-size: cover;
     background-position: center center;
     height: 252px;
-    margin-right:auto;
-    margin-left:auto;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 45px;
     position: relative;
-    @include mobile-break-width{
-        width:23.5%;
+    @include mobile-break-width {
+        width: 23.5%;
         background: url(../../MTH-Assets/photos/stroke-desktop.png);
         background-size: 100% 100%;
         background-position: center center;
         height: 416px;
     }
-    p{
+    p {
         text-align: center;
         font-size: 14px;
         color: $body-color;
         line-height: 1.2;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $small-font-dt;
-            }
         }
     }
+}
 
-
-.news-events,.articles-research,.recipes-nutrition{
-    h2,p{
+.news-events,
+.articles-research,
+.recipes-nutrition {
+    h2,
+    p {
         margin-top: 0;
         margin-bottom: 0;
     }
 }
 
-.news-events,.articles-research,.recipes-nutrition{
-    h2{
+.news-events,
+.articles-research,
+.recipes-nutrition {
+    h2 {
         font-size: $medium-font;
         color: $header-color;
         text-transform: uppercase;
-        margin-top:30px;
+        margin-top: 30px;
         margin-bottom: 20px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $medium-font-dt;
         }
     }
 }
 
-.news-events,.articles-research,.recipes-nutrition{
-    a{
+.news-events,
+.articles-research,
+.recipes-nutrition {
+    a {
         background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-        padding-top:15px;
-        padding-bottom:15px;
-        padding-left:55px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 55px;
         padding-right: 55px;
         border-radius: 2000px;
-        color:white;
+        color: white;
         position: absolute;
         bottom: -23px;
         font-size: 15px;
     }
 }
-.news-events{
-    p{
-        width:210px;
+
+.news-events {
+    p {
+        width: 210px;
     }
 }
 
-.articles-research{
-    p{
+.articles-research {
+    p {
         width: 252px;
     }
 }
 
-.recipes-nutrition{
-    p{
-        width:249px;
+.recipes-nutrition {
+    p {
+        width: 249px;
     }
 }
-    .resources-newspaper{
-        width:75px;
-        height: 70px;
-        background:url(../../MTH-Assets/icons/news.png);
-        background-size: cover;
-        background-position: center center;
-        margin-bottom: 20px;
-        @include mobile-break-width{
-            width: 136px;
-            height: 130px;
-        }
-    }
 
-    .resources-microscope{
-        width:58px;
-        height:70px;
-        background:url(../../MTH-Assets/icons/research.png);
-        background-size: cover;
-        background-position: center center;
-        margin-bottom: 20px;
-        @include mobile-break-width{
-            width: 108px;
-            height: 130px;
-        }
+.resources-newspaper {
+    width: 75px;
+    height: 70px;
+    background: url(../../MTH-Assets/icons/news.png);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 20px;
+    @include mobile-break-width {
+        width: 136px;
+        height: 130px;
+    }
+}
 
+.resources-microscope {
+    width: 58px;
+    height: 70px;
+    background: url(../../MTH-Assets/icons/research.png);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 20px;
+    @include mobile-break-width {
+        width: 108px;
+        height: 130px;
     }
-    .resources-apple{
-        width:70px;
-        height:70px;
-        background:url(../../MTH-Assets/icons/nutrition.png);
-        background-size: cover;
-        background-position: center center;
-        margin-bottom: 20px;
-        @include mobile-break-width{
-            width: 130px;
-            height: 130px;
-        }
+}
+
+.resources-apple {
+    width: 70px;
+    height: 70px;
+    background: url(../../MTH-Assets/icons/nutrition.png);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 20px;
+    @include mobile-break-width {
+        width: 130px;
+        height: 130px;
     }
+}
