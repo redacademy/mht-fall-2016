@@ -100,6 +100,8 @@ body {
     font-weight: light;
     font-size: 13px;
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     p {
         margin: 0;
         font-weight: bold;

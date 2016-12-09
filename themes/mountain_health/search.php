@@ -16,9 +16,9 @@ get_header(); ?>
 				<h1 class="page-title"><?php printf( esc_html( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
-			<section class="article-nav-links article-nav-links-archive">
+			<section class="nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
-				<p><?php wp_title( '' ); ?></p>
+				<p>&nbsp;Search results</p>
 			</section>
 
 <div class="search-count">

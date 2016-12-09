@@ -546,7 +546,10 @@ body {
   font-weight: light;
   font-size: 13px;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center; }
   .nav-links p {
     margin: 0;
     font-weight: bold; }
