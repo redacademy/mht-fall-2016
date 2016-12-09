@@ -7,7 +7,7 @@
         event.preventDefault();
         $('.mobile-menu').animate({ height: 'toggle' });
         $('.mobile-menu').removeClass('.mobile-menu-hide');
-        $(".about-page .main-header header .phone-and-number-green .phone-green, .front-page .main-header header .phone-and-number-green .phone-green").hide();
+        // $(".about-page .main-header header .phone-and-number-green .phone-green, .front-page .main-header header .phone-and-number-green .phone-green").hide();
         $(".about-page .main-header header .phone-white .front-page .main-header header .phone-white").show();
 
     });
@@ -16,7 +16,7 @@
     $('.x-logo').hide();
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
-        $('.hamburger').toggle();
+        $('.fa-bars').toggle();
         $('.x-logo').toggle();
         $('.phone-and-number').toggle();
         $('.phone-and-number-green').toggle();
@@ -112,7 +112,7 @@
 
         } else {
             $(".about-page .main-header header, .front-page .main-header header").removeClass("header-white");
-            $(".about-page .main-header header .hamburger-white, .front-page .main-header header .hamburger-white").addClass("hamburger");
+            $(".about-page .main-header header .hamburger-white, .front-page .main-header header ").addClass("hamburger");
             $(".about-page .main-header header p, .front-page .main-header header p").addClass("phone-number-white");
             $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo").hide();
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();

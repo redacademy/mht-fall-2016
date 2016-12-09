@@ -28,7 +28,7 @@
 				<header id="masthead" class="site-header" role="banner">
 						<div class="MTH-logo-wrapper">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green-dt.png" alt="MTH logo green">
+							<!--<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green-dt.png" alt="MTH logo green">-->
 							<img class="MTH-logo-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green-dt.png" alt="MTH logo green">
 
 							<img class="MTH-logo-white" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-white.png" alt="MTH logo white">

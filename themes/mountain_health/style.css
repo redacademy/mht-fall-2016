@@ -606,17 +606,11 @@ body {
   height: 35px;
   margin-left: 20px;
   padding-top: 1px; }
-  .MTH-logo-wrapper .MTH-logo-dt {
-    display: none; }
   @media (min-width: 480px) {
     .MTH-logo-wrapper {
       width: 72px;
       height: 80px;
-      margin-left: 100px; }
-      .MTH-logo-wrapper .MTH-logo {
-        display: none; }
-      .MTH-logo-wrapper .MTH-logo-dt {
-        display: block; } }
+      margin-left: 100px; } }
 
 .MTH-logo-white {
   display: none; }
@@ -673,9 +667,9 @@ body {
       -ms-flex-align: center;
           align-items: center; }
       #primary-menu li {
-        margin: 0 12px; }
+        margin: 0; }
       #primary-menu li:first-child {
-        margin: 0 12px; }
+        margin: 0 15px; }
       #primary-menu a {
         font-size: 16px; }
         #primary-menu a i {
@@ -748,7 +742,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-left: 80px;
-  margin-right: 48px;
+  margin-right: 46px;
   -ms-flex-align: center;
       align-items: center; }
   .phone-and-number-green p {
@@ -1118,6 +1112,9 @@ object {
     .front-page .main-header header .MTH-logo-white {
       display: block;
       width: 30px; }
+      @media (min-width: 480px) {
+        .front-page .main-header header .MTH-logo-white {
+          display: none; } }
     .front-page .main-header header .phone-white {
       display: block;
       height: 20px; }
@@ -1651,6 +1648,8 @@ object {
 .about-page {
   width: 100%;
   padding-top: 0; }
+  .about-page img {
+    z-index: 0; }
   @media (min-width: 480px) {
     .about-page {
       width: 100%; } }
@@ -1669,6 +1668,9 @@ object {
   .about-page .MTH-logo-white {
     display: block;
     width: 30px; }
+    @media (min-width: 480px) {
+      .about-page .MTH-logo-white {
+        display: none; } }
   .about-page .phone-white {
     display: block;
     height: 20px; }

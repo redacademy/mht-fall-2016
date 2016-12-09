@@ -93,19 +93,10 @@
     height: 35px;
     margin-left: 20px;
     padding-top: 1px;
-    .MTH-logo-dt {
-        display: none;
-    }
     @include mobile-break-width {
         width: 72px;
         height: 80px;
         margin-left: 100px;
-        .MTH-logo {
-            display: none;
-        }
-        .MTH-logo-dt {
-            display: block;
-        }
     }
 }
 
@@ -167,10 +158,10 @@
         height: 0;
         align-items: center;
         li {
-            margin: 0 12px;
+            margin: 0;
         }
         li:first-child {
-            margin: 0 12px;
+            margin: 0 15px;
         }
         a {
             font-size: 16px;
@@ -253,7 +244,7 @@
 .phone-and-number-green {
     display: flex;
     margin-left: 80px;
-    margin-right: 48px;
+    margin-right: 46px;
     align-items: center;
     p {
         font-family: "open_sans", "san-serif";

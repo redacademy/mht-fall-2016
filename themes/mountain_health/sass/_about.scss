@@ -6,6 +6,9 @@
 .about-page {
     width: 100%;
     padding-top: 0;
+    img {
+        z-index: 0;
+    }
     @include mobile-break-width {
         width: 100%;
     }
@@ -26,6 +29,9 @@
     .MTH-logo-white {
         display: block;
         width: 30px;
+        @include mobile-break-width {
+            display: none;
+        }
     }
     .phone-white {
         display: block;
