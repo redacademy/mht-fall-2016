@@ -1,32 +1,35 @@
-.redirect{
+.redirect {
     text-align: center;
-    h2{
+    h2 {
         font-size: $small-font;
-        color:#003d5c;
-        font-family: "opens_sans";
+        color: #003d5c;
+        font-family: "opens_sans", 'sans-serif';
+        font-weight: light;
         margin-bottom: 10px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $medium-font-dt;
-            font-family: "open_sans";
+            font-family: "open_sans", 'sans-serif';
+            font-weight: light;
         }
     }
 }
 
-.redirect{
-    h3{
+.redirect {
+    h3 {
         margin-top: 10px;
         font-size: $medium-font;
         color: #003d5c;
         line-height: 1.2;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: $medium-font-dt;
             font-weight: normal;
-            font-family: "open_sans";
+            font-family: "open_sans", 'sans-serif';
+            font-weight: light;
             margin-bottom: 40px;
         }
-        span{
+        span {
             font-size: 24px;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 font-size: $medium-font-dt;
                 font-weight: bold;
             }
@@ -34,35 +37,36 @@
     }
 }
 
-.redirect{
-    p{
-        margin-top:0px;
+.redirect {
+    p {
+        margin-top: 0px;
         margin-bottom: 30px;
-        @include mobile-break-width{
-            font-family: "open_sans";
+        @include mobile-break-width {
+            font-family: "open_sans", 'sans-serif';
+            font-weight: light;
         }
     }
 }
 
-.redirect{
-    a{
-        color:#1a9481;
-        font-size:12px;
-        @include mobile-break-width{
+.redirect {
+    a {
+        color: #1a9481;
+        font-size: 12px;
+        @include mobile-break-width {
             font-size: $small-font-dt;
         }
     }
 }
 
-.redirect{
-    a:visited{
+.redirect {
+    a:visited {
         color: #1a9481;
     }
 }
 
-.redirect{
-    img{
-        @include mobile-break-width{
+.redirect {
+    img {
+        @include mobile-break-width {
             width: 179px;
             height: 29px;
             transform: translateY(10px);
@@ -71,7 +75,7 @@
     }
 }
 
-.redirect-head-img{
+.redirect-head-img {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -10,7 +10,8 @@
     background: white;
     margin: 0 auto;
     p {
-        font-family: open_sans, 'sans-serif';
+        font-family: open_sans, 'sans-serif', 'sans-serif';
+        font-weight: light;
         color: $body-color;
     }
     fieldset {

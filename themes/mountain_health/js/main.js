@@ -96,7 +96,7 @@
     // about page header color change
     $(".about-page .main-header header p, .front-page .main-header header p").addClass("phone-number-white");
     $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").hide();
-    $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo").hide();
+    $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo-dt").hide();
     $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
     $(".about-page .main-header header .phone-and-number .phone-white .front-page .main-header header .phone-and-number .phone-white").show();
 
@@ -106,7 +106,7 @@
             $(".about-page .main-header header .hamburger, .front-page .main-header header .hamburger").removeClass("hamburger");
             $(".about-page .main-header header p, .front-page .main-header header p").removeClass("phone-number-white");
             $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").show();
-            $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo").show();
+            $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo-dt").show();
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").hide();
             $(".about-page .main-header header .phone-white, .front-page .main-header header .phone-white").hide();
 
@@ -114,7 +114,7 @@
             $(".about-page .main-header header, .front-page .main-header header").removeClass("header-white");
             $(".about-page .main-header header .hamburger-white, .front-page .main-header header ").addClass("hamburger");
             $(".about-page .main-header header p, .front-page .main-header header p").addClass("phone-number-white");
-            $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo").hide();
+            $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo-dt").hide();
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
             $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").hide();
             $(".about-page .main-header header .phone-and-number .phone-white, .front-page .main-header header .phone-and-number .phone-white").show();
