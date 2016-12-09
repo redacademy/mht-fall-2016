@@ -17,8 +17,12 @@ get_header(); ?>
 			</section>
 		<section class="single-article-content container-text">
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/content', 'single-article' ); ?>
+			<?php get_template_part( 'template-parts/content', 'single-recipe' ); ?>
 		<?php endwhile; // End of the loop. ?>
+		<p><?php echo CFS()->get( 'servings' );?></p>
+		<p>Ingredients: <?php echo CFS()->get( 'ingredients' );?></p>
+		<p>Directions: <?php echo CFS()->get( 'directions' );?></p>
+		<p><?php echo CFS()->get( 'source' );?></p>
 	</section>
 <section>
 	<h2 class="entry-title-article">Recipes you might also like</h2>

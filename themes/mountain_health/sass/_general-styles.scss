@@ -41,6 +41,9 @@
     line-height: 26px;
     color: #003A5F;
     font-weight: normal;
+    @include mobile-break-width{
+        font-size: $medium-font-dt;
+    }
 }
 
 a {

@@ -33,10 +33,14 @@ get_header(); ?>
 						<button class="treatment-buttons"> <?php   echo $field['treatment_title']; ?> </button>
 					</div>
 
-					<div class="treatment-description-single-active treatment-description " style="display:none; background-image: url(<?php  echo $field['treatment_img']; ?>);background-size:cover;     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;">
+					<div class="treatment-description-single-active treatment-description "
+					style="display:none;
+					background-image: url(<?php  echo $field['treatment_img']; ?>);
+					background-size:cover;
+					display: flex;
+     			flex-direction: column;
+    			justify-content: center;
+    			align-items: center;">
 							<h3> <?php   echo $field['treatment_title']; ?> </h3>
 							<p>  <?php   echo $field['treatment_text']; ?> </p>
 							<p class="treatment-price">  <?php   echo $field['treatment_price']; ?> </p>

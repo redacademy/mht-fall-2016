@@ -500,6 +500,9 @@ textarea {
   line-height: 26px;
   color: #003A5F;
   font-weight: normal; }
+  @media (min-width: 480px) {
+    .how-can-we-help-you {
+      font-size: 36px; } }
 
 a {
   text-decoration: none;
@@ -2127,7 +2130,8 @@ object {
     margin-bottom: 20px; }
     @media (min-width: 480px) {
       .what-we-do .experience {
-        width: 100%; } }
+        width: 100%;
+        height: 394px; } }
     .what-we-do .experience h3 {
       font-family: Oswald;
       font-size: 17px;
@@ -2142,6 +2146,9 @@ object {
       text-transform: uppercase;
       line-height: 26px;
       font-size: 18px; }
+      @media (min-width: 480px) {
+        .what-we-do .experience h4 {
+          font-size: 36px; } }
     .what-we-do .experience ul {
       list-style: none;
       padding: 0;
@@ -2157,6 +2164,9 @@ object {
       margin: 0;
       margin-top: 15px;
       font-weight: bold; }
+      @media (min-width: 480px) {
+        .what-we-do .experience p {
+          font-size: 22px; } }
 
 .treatments-testing-appointments {
   display: -ms-flexbox;
@@ -2254,6 +2264,12 @@ object {
 
 .care-conditions {
   text-align: center; }
+  @media (min-width: 480px) {
+    .care-conditions {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; } }
   .care-conditions h2 {
     margin: 0;
     margin-bottom: 10px; }
@@ -2279,6 +2295,14 @@ object {
   background: url(../../MTH-Assets/photos/picture-of-remedies.jpg);
   margin: 0 auto;
   margin-top: 30px; }
+  @media (min-width: 480px) {
+    .picture-of-remedies {
+      margin: 0px;
+      width: 540px;
+      height: 280px;
+      background: url(../../MTH-Assets/photos/naturopathy-visual-desktop.png);
+      background-size: cover;
+      background-position: center center; } }
 
 .what-is-naturopathic-medicine {
   height: 165px;
@@ -2288,9 +2312,21 @@ object {
   padding: 20px;
   padding-top: 10px;
   color: #003A5F; }
+  @media (min-width: 480px) {
+    .what-is-naturopathic-medicine {
+      margin: 0;
+      width: 729px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; } }
   .what-is-naturopathic-medicine h2 {
     margin: 0;
     margin-bottom: 20px; }
+    @media (min-width: 480px) {
+      .what-is-naturopathic-medicine h2 {
+        font-size: 32px;
+        text-align: left; } }
 
 @media (min-width: 480px) {
   .treatments {
@@ -2321,10 +2357,10 @@ object {
   .calendar-logo {
     display: none; } }
 
-.appointments-desktop {
+.appointment-desktop {
   display: none; }
   @media (min-width: 480px) {
-    .appointments-desktop {
+    .appointment-desktop {
       display: initial; } }
 
 @media (min-width: 480px) {
@@ -2336,6 +2372,23 @@ object {
   @media (min-width: 480px) {
     .treatment-desktop {
       display: initial; } }
+
+@media (min-width: 480px) {
+  .what-we-medicine {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    height: 280px; } }
+
+@media (min-width: 480px) {
+  .what-is-naturopathic-medicine p {
+    font-size: 22px;
+    width: 729px;
+    text-align: left; } }
+
+.what-we-do .how-can-we-help-you {
+  padding-top: 20px; }
 
 .appointments-hero-image {
   color: #ffffff;
@@ -2713,13 +2766,20 @@ object {
       width: 92px;
       height: 92px; } }
 
-@media (min-width: 480px) {
-  .why-use-all {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    line-height: 1.18; } }
+.why-use-all {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 480px) {
+    .why-use-all {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      line-height: 1.18; } }
 
 .why-use-upper {
   display: -ms-flexbox;
@@ -3479,7 +3539,7 @@ header.entry-header-article {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: url(../../MTH-Assets/photos/visual-hero-banner-recipe@3x.png) no-repeat top;
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-recipes-nutrition.png) no-repeat top;
   background-size: cover;
   height: 40vh; }
   .archive-recipe-hero-image h1 {
@@ -3503,7 +3563,7 @@ header.entry-header-article {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: url(../../MTH-Assets/photos/visual-hero-banner@3x.png) no-repeat top;
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-articles.png) no-repeat top;
   background-size: cover;
   height: 40vh; }
   .archive-article-hero-image h1 {
@@ -3536,12 +3596,12 @@ header.entry-header-article {
   padding-top: 10px; }
 
 .article-single-wrapper {
-  width: 500px;
+  width: 632px;
   margin: 0 auto;
   padding-top: 2rem; }
   @media (min-width: 600px) {
     .article-single-wrapper {
-      margin: 20px; } }
+      margin: 9px; } }
 
 .article-wrapper {
   position: relative;
@@ -3552,13 +3612,29 @@ header.entry-header-article {
       justify-content: center; }
 
 .article-single-image {
-  width: 100%; }
+  width: 100%;
+  height: 342px; }
+  .article-single-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 10px; }
 
 .article-grid-content {
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.44), rgba(0, 155, 132, 0.41));
+  width: 100%;
+  border-radius: 10px 10px 0 10px;
+  height: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   .article-grid-content h2 {
     text-transform: uppercase;
     font-size: 25px; }

@@ -316,10 +316,13 @@
     }
 }
 
-.why-use-all {
-    @include mobile-break-width {
-        display: flex;
-        justify-content: center;
+.why-use-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include mobile-break-width{
+            display: flex;
+    justify-content: center;
         line-height: 1.18;
     }
 }
