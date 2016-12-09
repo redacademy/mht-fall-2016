@@ -24,7 +24,7 @@
 					<h2 class="footer-title">Contact Us</h2>
 					<p><span class="thick-span">Mountain Health</span>
 						<br>1037 Cornwall Street
-						<br>New Westminster, BC V3M 1S1</p>
+						<br>New Westminster, BC<br> V3M 1S1</p>
 					<div class="contact_icon_img">
 						<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="Phone logo">
 						<a class="link-footer" href="tel: 604-442-5864"> 604-442-5864</a>
@@ -44,10 +44,7 @@
 			<p>Hours:<br>
 			<span class="thick-span">Tues - Fri 9am - 5pm </span><br>
 			Closed for lunch from 1pm - 2pm<br>
-			<br>
-			Exit Lorem ipsum dolor sit amet.
-			Located in Lorem ipsum dolor sit amet.
-			For wheelchair access, park in the back.<p>
+</p>
 			</div>
 		</div>
 				<div class="copy-footer">

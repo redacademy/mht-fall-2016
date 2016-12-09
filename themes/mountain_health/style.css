@@ -3412,7 +3412,7 @@ header.entry-header-article {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: url(../../MTH-Assets/photos/visual-hero-banner-recipe@3x.png) no-repeat top;
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-recipes-nutrition.png) no-repeat top;
   background-size: cover;
   height: 40vh; }
   .archive-recipe-hero-image h1 {
@@ -3436,7 +3436,7 @@ header.entry-header-article {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: url(../../MTH-Assets/photos/visual-hero-banner@3x.png) no-repeat top;
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-articles.png) no-repeat top;
   background-size: cover;
   height: 40vh; }
   .archive-article-hero-image h1 {
@@ -3469,12 +3469,12 @@ header.entry-header-article {
   padding-top: 10px; }
 
 .article-single-wrapper {
-  width: 500px;
+  width: 632px;
   margin: 0 auto;
   padding-top: 2rem; }
   @media (min-width: 600px) {
     .article-single-wrapper {
-      margin: 20px; } }
+      margin: 9px; } }
 
 .article-wrapper {
   position: relative;
@@ -3485,13 +3485,29 @@ header.entry-header-article {
       justify-content: center; }
 
 .article-single-image {
-  width: 100%; }
+  width: 100%;
+  height: 342px; }
+  .article-single-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 10px; }
 
 .article-grid-content {
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.44), rgba(0, 155, 132, 0.41));
+  width: 100%;
+  border-radius: 10px 10px 0 10px;
+  height: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   .article-grid-content h2 {
     text-transform: uppercase;
     font-size: 25px; }
