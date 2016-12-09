@@ -561,7 +561,7 @@ body {
 .main-header header {
   width: 100%;
   height: 45px;
-  z-index: 10;
+  z-index: 99;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -584,11 +584,10 @@ body {
       height: 110px; }
       .main-header header .header-button {
         display: block;
-        width: 20%;
-        background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-        height: 40px;
         width: 200px;
-        border-radius: 20px;
+        background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+        height: 50px;
+        border-radius: 25px;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: center;
@@ -651,6 +650,9 @@ body {
 
 .MTH-logo-white {
   display: none; }
+  @media (min-width: 480px) {
+    .MTH-logo-white {
+      display: none !important; } }
 
 .phone-white {
   display: none; }
@@ -660,6 +662,9 @@ body {
   top: 15px;
   right: 15px;
   margin-right: 15px; }
+
+#primary-menu ul li:focus > ul {
+  display: block; }
 
 #primary-menu {
   display: -ms-flexbox;
@@ -672,7 +677,7 @@ body {
   width: 100%;
   text-align: center;
   height: 85vh;
-  z-index: 1;
+  z-index: 99;
   line-height: 1;
   position: fixed; }
   #primary-menu a {
@@ -711,7 +716,68 @@ body {
         font-size: 16px; }
         #primary-menu a i {
           display: inline-block;
-          letter-spacing: 12px; } }
+          letter-spacing: 12px; }
+      #primary-menu .sub-menu {
+        text-align: left;
+        width: 220px;
+        height: 160px;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -ms-flex-align: center;
+            align-items: center;
+        padding: 0;
+        margin: 0;
+        background: rgba(255, 255, 255, 0.75); }
+        #primary-menu .sub-menu:hover {
+          background: white;
+          display: block; } }
+
+.search-state-dt {
+  position: relative;
+  height: 150px;
+  top: 110px;
+  background: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .search-state-dt fieldset {
+    border: none; }
+    .search-state-dt fieldset input {
+      border: none;
+      height: 50px;
+      margin-top: 50px;
+      font-family: Oswald;
+      font-size: 48px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: center;
+      color: #1a9481; }
+      .search-state-dt fieldset input::-webkit-input-placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input::-moz-placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input:-ms-input-placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input::placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input:focus {
+        outline: none;
+        color: #1a9481; }
 
 .mobile-menu-hide {
   display: none;
@@ -737,6 +803,7 @@ body {
   height: 45px;
   width: 100%;
   color: white;
+  z-index: 99;
   text-transform: uppercase;
   padding: 0 20px; }
 

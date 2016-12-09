@@ -118,8 +118,13 @@
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
             $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").hide();
             $(".about-page .main-header header .phone-and-number .phone-white, .front-page .main-header header .phone-and-number .phone-white").show();
-
         }
+    });
+    // search state desktop
+    $('.search-state-dt').hide();
+
+    $('.search-icon-dt').on('click', function() {
+        $('.search-state-dt').animate({ height: 'toggle' });
     });
 
 })(jQuery);
