@@ -55,31 +55,35 @@
             </ul>
         </div>
         <section class="care-conditions">
-            <h2>Chronic Conditions</h2>
-            <div class ="underline-strip"></div>
-            <ul>
-                <li>Acute and chronic pain conditions</li>
-                <li>Diabetes</li>
-                <li>HIV</li>
-                <li>Arthritis</li>
-                <li>Migraines and headaches</li>
-                <li>Interstitial cystiti</li>
-                <p>And more...</p>
-                
-            </ul>
-            <h2>Other Care</h2>
-            <div class ="underline-strip underline-strip-2"></div>
-            <ul>
-                <li>Skin conditions</li>
-                <li>Mental health</li>
-                <li>Lung conditions</li>
-                <li>Obstetrics patients</li>
-                <li>Autoimmune conditions</li>
-                <li>Geriatrics and graceful aging,</li>
-                <p>And more...</p>
-            </ul>
+            <div clas="care-div">
+                <h2>Chronic Conditions</h2>
+                <div class ="underline-strip"></div>
+                <ul>
+                    <li>Acute and chronic pain conditions</li>
+                    <li>Diabetes</li>
+                    <li>HIV</li>
+                    <li>Arthritis</li>
+                    <li>Migraines and headaches</li>
+                    <li>Interstitial cystiti</li>
+                    <p>And more...</p>
+                    
+                </ul>
+            </div>
+            <div class="care-div">
+                <h2>Other Care</h2>
+                <div class ="underline-strip underline-strip-2"></div>
+                <ul>
+                    <li>Skin conditions</li>
+                    <li>Mental health</li>
+                    <li>Lung conditions</li>
+                    <li>Obstetrics patients</li>
+                    <li>Autoimmune conditions</li>
+                    <li>Geriatrics and graceful aging,</li>
+                    <p>And more...</p>
+                </ul>
+            </div>
         </section>
-        <section>
+        <section class="what-we-medicine">
             <div class="picture-of-remedies"></div>
             <div class="what-is-naturopathic-medicine">
                 <h2>What is Naturopathic Medicine?</h2>

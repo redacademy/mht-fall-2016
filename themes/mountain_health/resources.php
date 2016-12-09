@@ -5,7 +5,7 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 <div class="resources-hero secondary-hero">	
 	<h1>Resources</h1>
-	<p>We are here to help, but sometimes you have questions in between appointments. We provide you with articles, recipes, and more.</p>
+	<p>Sometimes you have questions in between appointments. We provide you with articles, recipes, and more.</p>
 </div>
 <section class="resources">
 	<div class="news-events">

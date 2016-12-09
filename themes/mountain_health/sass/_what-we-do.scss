@@ -76,6 +76,9 @@
             text-transform: uppercase;
             line-height: 26px;
             font-size: 18px;
+            @include mobile-break-width{
+                font-size: $medium-font-dt;
+            }
         }
         ul {
             list-style: none;
@@ -94,6 +97,9 @@
             margin: 0;
             margin-top: 15px;
             font-weight: bold;
+            @include mobile-break-width{
+                font-size:$small-font-dt;
+            }
         }
     }
 }
@@ -179,6 +185,10 @@
 
 .care-conditions {
     text-align: center;
+    @include mobile-break-width{
+    display: flex;
+    justify-content: space-around;
+    }
     h2 {
         margin: 0;
         margin-bottom: 10px;
@@ -209,6 +219,14 @@
     background: url(../../MTH-Assets/photos/picture-of-remedies.jpg);
     margin: 0 auto;
     margin-top: 30px;
+    @include mobile-break-width{
+        margin: 0px;
+        width: 540px;
+        height: 280px;
+        background: url(../../MTH-Assets/photos/naturopathy-visual-desktop.png);
+        background-size: cover;
+        background-position: center center;
+    }
 }
 
 .what-is-naturopathic-medicine {
@@ -219,9 +237,19 @@
     padding: 20px;
     padding-top: 10px;
     color: $body-color;
+    @include mobile-break-width{
+        margin:0;
+        width: 729px;
+        display: flex;
+        flex-direction: column;
+    }
     h2 {
         margin: 0;
         margin-bottom: 20px;
+        @include mobile-break-width{
+            font-size: 32px;
+            text-align: left;
+        }
     }
 }
 
@@ -279,5 +307,23 @@
     display: none;
     @include mobile-break-width{
         display: initial;
+    }
+}
+
+.what-we-medicine{
+    @include mobile-break-width{
+        display: flex;
+        justify-content: center;
+        height: 280px;
+    }
+}
+
+.what-is-naturopathic-medicine{
+    p{
+        @include mobile-break-width{
+            font-size: $small-font-dt;
+            width: 729px;
+            text-align: left;
+        }
     }
 }
