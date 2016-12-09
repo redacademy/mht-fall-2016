@@ -500,6 +500,9 @@ textarea {
   line-height: 26px;
   color: #003A5F;
   font-weight: normal; }
+  @media (min-width: 480px) {
+    .how-can-we-help-you {
+      font-size: 36px; } }
 
 a {
   text-decoration: none;
@@ -2060,7 +2063,8 @@ object {
     margin-bottom: 20px; }
     @media (min-width: 480px) {
       .what-we-do .experience {
-        width: 100%; } }
+        width: 100%;
+        height: 394px; } }
     .what-we-do .experience h3 {
       font-family: Oswald;
       font-size: 17px;
@@ -2075,6 +2079,9 @@ object {
       text-transform: uppercase;
       line-height: 26px;
       font-size: 18px; }
+      @media (min-width: 480px) {
+        .what-we-do .experience h4 {
+          font-size: 36px; } }
     .what-we-do .experience ul {
       list-style: none;
       padding: 0;
@@ -2090,6 +2097,9 @@ object {
       margin: 0;
       margin-top: 15px;
       font-weight: bold; }
+      @media (min-width: 480px) {
+        .what-we-do .experience p {
+          font-size: 22px; } }
 
 .treatments-testing-appointments {
   display: -ms-flexbox;
@@ -2187,6 +2197,12 @@ object {
 
 .care-conditions {
   text-align: center; }
+  @media (min-width: 480px) {
+    .care-conditions {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; } }
   .care-conditions h2 {
     margin: 0;
     margin-bottom: 10px; }
@@ -2212,6 +2228,14 @@ object {
   background: url(../../MTH-Assets/photos/picture-of-remedies.jpg);
   margin: 0 auto;
   margin-top: 30px; }
+  @media (min-width: 480px) {
+    .picture-of-remedies {
+      margin: 0px;
+      width: 540px;
+      height: 280px;
+      background: url(../../MTH-Assets/photos/naturopathy-visual-desktop.png);
+      background-size: cover;
+      background-position: center center; } }
 
 .what-is-naturopathic-medicine {
   height: 165px;
@@ -2221,9 +2245,21 @@ object {
   padding: 20px;
   padding-top: 10px;
   color: #003A5F; }
+  @media (min-width: 480px) {
+    .what-is-naturopathic-medicine {
+      margin: 0;
+      width: 729px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; } }
   .what-is-naturopathic-medicine h2 {
     margin: 0;
     margin-bottom: 20px; }
+    @media (min-width: 480px) {
+      .what-is-naturopathic-medicine h2 {
+        font-size: 32px;
+        text-align: left; } }
 
 @media (min-width: 480px) {
   .treatments {
@@ -2254,10 +2290,10 @@ object {
   .calendar-logo {
     display: none; } }
 
-.appointments-desktop {
+.appointment-desktop {
   display: none; }
   @media (min-width: 480px) {
-    .appointments-desktop {
+    .appointment-desktop {
       display: initial; } }
 
 @media (min-width: 480px) {
@@ -2269,6 +2305,23 @@ object {
   @media (min-width: 480px) {
     .treatment-desktop {
       display: initial; } }
+
+@media (min-width: 480px) {
+  .what-we-medicine {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    height: 280px; } }
+
+@media (min-width: 480px) {
+  .what-is-naturopathic-medicine p {
+    font-size: 22px;
+    width: 729px;
+    text-align: left; } }
+
+.what-we-do .how-can-we-help-you {
+  padding-top: 20px; }
 
 .appointments-hero-image {
   color: #ffffff;
@@ -2646,13 +2699,20 @@ object {
       width: 92px;
       height: 92px; } }
 
-@media (min-width: 480px) {
-  .why-use-all {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    line-height: 1.18; } }
+.why-use-all {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 480px) {
+    .why-use-all {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      line-height: 1.18; } }
 
 .why-use-upper {
   display: -ms-flexbox;
