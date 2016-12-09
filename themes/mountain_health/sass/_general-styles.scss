@@ -1,11 +1,6 @@
 .primary-button {
-    // width: 175px;
-    height: 40px;
     background: linear-gradient(90deg, #003557 0%, #009B84 100%);
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     margin-bottom: 40px;
     border: none;
@@ -23,8 +18,20 @@
     }
 }
 
-.book-appointment {
+.small-button {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-button {
     width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .how-can-we-help-you {
@@ -79,6 +86,33 @@ body {
         padding-top: 110px;
     }
 }
-.front-button:hover{
+
+.front-button:hover {
     color: #fdeea7
+}
+
+.bread-crumb-general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links {
+    color: #1a9481;
+    font-family: 'open_sans', 'sans-serif';
+    font-weight: light;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    p {
+        margin: 0;
+        font-weight: bold;
+    }
+    a {
+        color: #1a9481;
+        &:visited {
+            color: #1a9481;
+        }
+    }
 }

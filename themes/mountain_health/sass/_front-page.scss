@@ -3,20 +3,22 @@
     .site-main {
         p {
             font-size: 15px;
-            font-family: 'open_sans';
+            font-family: 'open_sans', 'sans-serif';
+            font-weight: light;
             @include mobile-break-width {
                 font-size: $small-font-dt;
             }
         }
         h2,
         h3 {
-            font-family: 'oswald';
+            font-family: 'oswald', 'sans-serif';
             font-weight: normal;
         }
     }
     .main-header header {
         background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
         background-size: cover;
+        background-position-y: 0px;
         .phone-number-white {
             color: white;
             // padding-right: 13px;
@@ -24,6 +26,9 @@
         .MTH-logo-white {
             display: block;
             width: 30px;
+            @include mobile-break-width {
+                display: none;
+            }
         }
         .phone-white {
             display: block;
@@ -75,7 +80,7 @@
         margin-top: 0px;
         line-height: 41px;
         letter-spacing: 3px;
-        font-family: 'Oswald';
+        font-family: 'Oswald', 'sans-serif';
         text-transform: uppercase;
         text-align: center;
         @include mobile-break-width {
@@ -90,7 +95,8 @@
 .hero-banner {
     p {
         font-size: 14px;
-        font-family: 'open_sans';
+        font-family: 'open_sans', 'sans-serif';
+        font-weight: light;
         text-align: center;
         line-height: 21px;
         margin-top: 0px;
@@ -138,7 +144,8 @@
     a {
         text-decoration: none;
         color: white;
-        font-family: 'open_sans';
+        font-family: 'open_sans', 'sans-serif';
+        font-weight: light;
     }
 }
 
@@ -152,16 +159,13 @@
 
 .front-button {
     background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-    padding-top: 13px;
-    padding-bottom: 13px;
     font-size: 15px;
-    padding-left: 34px;
-    padding-right: 34px;
-    border-radius: 200px;
+    border-radius: 20px;
     color: white;
+    margin: 0 auto;
 }
 
-.front-button:visited{
+.front-button:visited {
     color: white;
 }
 

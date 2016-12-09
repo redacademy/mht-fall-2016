@@ -14,10 +14,10 @@ get_header(); ?>
 <p>All our recipes have been picked by Dr. Chay to complement your lifestyle changes and support your best health.</p>
 </section>
 
-			<section class="article-nav-links article-nav-links-archive">
+			<section class="nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
-				<a href="<?php echo get_page_link(10); ?>">Resources &gt; </a>
-				<p><?php wp_title( '' ); ?></p>
+				<a href="<?php echo get_page_link(10); ?>">&nbsp;Resources &gt; </a>
+				<p>&nbsp;Recipes & Nutrition</p>
 			</section>
 			<div class="grid-archive-article">
 			<?php if ( have_posts() ) : ?>

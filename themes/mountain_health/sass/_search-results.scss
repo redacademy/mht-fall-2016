@@ -1,48 +1,46 @@
-.search-results{
-    .page-header{
+.search-results {
+    .page-header {
         height: 123px;
         background: url(../../MTH-Assets/photos/search-results-hero.png);
         background-size: cover;
         background-position: center center;
-        @include mobile-break-width{
+        @include mobile-break-width {
             background: url(../../MTH-Assets/photos/search-results-hero-desktop.png);
             height: 320px;
         }
-        .page-title{
+        .page-title {
             padding-top: 40px;
             text-align: center;
             width: 145px;
             margin-left: auto;
             margin-right: auto;
-            color:white;
+            color: white;
             font-size: $medium-font;
             text-transform: uppercase;
             font-weight: normal;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 font-size: 43px;
                 width: 409px;
                 padding-top: 102px;
             }
-
         }
     }
 }
 
-.search-results{
-    article{
+.search-results {
+    article {
         text-align: center;
-        @include mobile-break-width{
+        @include mobile-break-width {
             flex: 1 0 50%;
             width: 632px;
-            }
-
-        .entry-header{
-            background-color:black;
+        }
+        .entry-header {
+            background-color: black;
             height: 150px;
             width: 280px;
             margin-left: auto;
             margin-right: auto;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 width: 632px;
                 height: 342px;
                 display: flex;
@@ -50,56 +48,56 @@
                 align-items: center;
             }
         }
-        h2{
+        h2 {
             font-size: $small-font;
             padding-top: 62px;
             text-transform: uppercase;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 font-size: $medium-font-dt;
-                margin:0px;
-                padding:0px;
+                margin: 0px;
+                padding: 0px;
             }
-            a{
-                color:white;
+            a {
+                color: white;
             }
         }
     }
 }
 
-.search-results{
-    article{
-        p{
+.search-results {
+    article {
+        p {
             width: 270px;
             margin-left: auto;
             margin-right: auto;
             text-align: left;
-            color:$body-color;
+            color: $body-color;
             line-height: 1.2;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 width: 632px;
                 font-size: $small-font-dt;
-
             }
         }
     }
 }
 
-.search-results-content{
-    @include mobile-break-width{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:224px;
+.search-results-content {
+    @include mobile-break-width {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 224px;
     }
 }
 
-.search-count{
-font-family: 'open_sans';
-font-size: 18px;
-line-height: 1;
-text-align: center;
-color: #003d5c;
-padding: 30px;
-@include mobile-break-width{
-  font-size: 36px;
-}
+.search-count {
+    font-family: 'open_sans', 'sans-serif';
+    font-weight: light;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    color: #003d5c;
+    padding: 30px;
+    @include mobile-break-width {
+        font-size: 36px;
+    }
 }

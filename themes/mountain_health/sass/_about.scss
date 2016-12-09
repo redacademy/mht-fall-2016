@@ -6,6 +6,9 @@
 .about-page {
     width: 100%;
     padding-top: 0;
+    img {
+        z-index: 0;
+    }
     @include mobile-break-width {
         width: 100%;
     }
@@ -21,12 +24,14 @@
         }
         .phone-number-white {
             color: white;
-            padding-right: 13px;
         }
     }
     .MTH-logo-white {
         display: block;
         width: 30px;
+        @include mobile-break-width {
+            display: none;
+        }
     }
     .phone-white {
         display: block;
@@ -104,6 +109,10 @@
     }
 }
 
+.fa-bars {
+    margin-right: 15px;
+}
+
 .amanda-photo {
     width: 100%;
     height: 290px;
@@ -112,6 +121,7 @@
     display: flex;
     justify-content: center;
     background: white;
+    z-index: 0;
     @include mobile-break-width {
         background: url(../../MTH-Assets/photos/amanda-large.png);
         width: 541px;
@@ -120,7 +130,7 @@
         background-size: cover;
         position: absolute;
         bottom: 60px;
-        z-index: 1;
+        z-index: 0;
         img {
             @include mobile-break-width {
                 display: none;
@@ -275,8 +285,8 @@
     .six {
         margin-top: 80px;
         margin-bottom: 30px;
-        @include mobile-break-width{
-            width:550px;
+        @include mobile-break-width {
+            width: 550px;
         }
     }
     h3 {

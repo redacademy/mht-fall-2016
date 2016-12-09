@@ -26,7 +26,7 @@
             <h2 class="what-is-hero"> What is Naturopathic Medicine? </h2>
                 <p>Naturopathy is a type of care that offers individualized, natural healthcare. 
                     It combines the best of traditional treatments with evidence-based medicine. </p>
-            <a href="<?php echo get_post_type_archive_link('article')?>" class="front-button what-is-button">Read More</a> 
+            <a href="<?php echo get_post_type_archive_link('article')?>" class="front-button what-is-button large-button">Read More</a> 
         </section>
 
         <section class="benifits">
@@ -71,7 +71,7 @@
                         your health concerns</span></li>
                         <li><span class="list-span">Individualized treatment</span></li>
                     </ul>
-                    <a href="<?php echo get_page_link(25); ?>" class="front-button what-is-button">See Our Treatments</a>
+                    <a href="<?php echo get_page_link(25); ?>" class="front-button what-is-button large-button">See Our Treatments</a>
                                                 <!--button above links to treatments 2.2-->
                 </div>
             </div>
@@ -83,7 +83,7 @@
                 <div class="white-box">
                     <p>Naturopathic doctors use both treatments and testing that are evidence based, 
                         and also those that have been proven to work traditionally through clinical experience.</p>
-                    <button class="front-button flex-button">See More About Us</button>
+                    <button class="front-button flex-button large-button">See More About Us</button>
                                             <!--Button above links to about 1.0-->
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     <p>"A primary care provider trained in both natural and pharmaceutical therapies. 
                         Naturopathic physicians can prescribe drugs, herbs, vitamins and exercise therapy.”
                     </p>
-                    <a href="<?php echo get_page_link(27); ?>" class="front-button">Our Lab Testing</a>
+                    <a href="<?php echo get_page_link(27); ?>" class="front-button small-button">Our Lab Testing</a>
                 </div>
 
                 <div class="carousel-cell front-page-slider-2">
@@ -101,7 +101,7 @@
                     <p>“As a primary care provider, they can also perform minor surgery, IV therapy and take 
                         blood samples.”
                     </p>
-                    <a href="<?php echo get_page_link(27); ?>" class="front-button">Our Lab Testing</a>
+                    <a href="<?php echo get_page_link(27); ?>" class="front-button small-button">Our Lab Testing</a>
 
                 </div>
 
@@ -110,7 +110,7 @@
                     <p>“Naturopathic physicians have access to life labs as well as various other private, 
                         innovative lab companies.”
                     </p>
-                    <a href="<?php echo get_page_link(27); ?>" class="front-button">Our Lab Testing</a>
+                    <a href="<?php echo get_page_link(27); ?>" class="front-button small-button">Our Lab Testing</a>
                 </div>
             </div>
         </section>
@@ -144,7 +144,7 @@
         </section>
         <div class="how-can">
             <h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
-            <a href="<?php echo get_page_link(29); ?>" class="front-button flex-button">Book an appointment</a>
+            <a href="<?php echo get_page_link(29); ?>" class="front-button flex-button large-button">Book an appointment</a>
         </div>
     </main><!-- #main -->
 </div><!-- #primary -->

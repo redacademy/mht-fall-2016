@@ -28,7 +28,9 @@
 				<header id="masthead" class="site-header" role="banner">
 						<div class="MTH-logo-wrapper">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green.png" alt="MTH logo green">
+							<!--<img class="MTH-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green-dt.png" alt="MTH logo green">-->
+							<img class="MTH-logo-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-green-dt.png" alt="MTH logo green">
+
 							<img class="MTH-logo-white" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-white.png" alt="MTH logo white">
 						</a>
 						</div>
@@ -52,7 +54,7 @@
 							<img class="phone-blue" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
 							<img class="phone-white"src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-white.png" alt="white phone icon">
 							<a href="tel:604-442-5864">
-								<p><span>Call </span>604-442-5864</p>
+								<p><span class="call-header">Call </span>604-442-5864</p>
 							</a>
 						</div>
 						<div class="phone-and-number-green">
@@ -60,7 +62,7 @@
 							<img class="phone-white"src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-white.png" alt="white phone icon">
 
 							<a href="tel:604-442-5864">
-								<p class="phone-number-white">1-604-442-5864</p>
+								<p class="phone-number-white">604-442-5864</p>
 							</a>
 						</div>
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>

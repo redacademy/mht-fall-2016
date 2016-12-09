@@ -1,19 +1,20 @@
 .main-header {
     header {
         width: 100%;
-        height: 40px;
+        height: 45px;
         z-index: 10;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
         background: white;
         position: fixed;
         .search-icon-dt {
             display: none;
         }
         .header-button {
+            display: none;
+        }
+        .call-header {
             display: none;
         }
         @include mobile-break-width {
@@ -31,7 +32,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-right: 200px;
+                margin-right: 100px;
                 font-size: 15px;
                 a {
                     color: white;
@@ -60,20 +61,27 @@
 }
 
 .patient-portal-desktop {
-    color: #1a9481;
-    width: 15%;
-    text-transform: uppercase;
-    font-family: oswald, "san-serif";
-    a:visited {
+    display: none;
+    @include mobile-break-width {
+        display: block;
         color: #1a9481;
+        width: 15%;
+        text-transform: uppercase;
         font-family: oswald, "san-serif";
-        padding-right: 3px;
+        a:visited {
+            color: #1a9481;
+            font-family: oswald, "san-serif";
+            padding-right: 3px;
+        }
     }
 }
 
 .header-or {
-    color: $body-color;
-    padding-right: 20px;
+    display: none;
+    @include mobile-break-width {
+        color: $body-color;
+        padding-right: 20px;
+    }
 }
 
 .header-white {
@@ -81,10 +89,15 @@
 }
 
 .MTH-logo-wrapper {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 35px;
     margin-left: 20px;
-    padding-top: 3px;
+    padding-top: 1px;
+    @include mobile-break-width {
+        width: 72px;
+        height: 80px;
+        margin-left: 100px;
+    }
 }
 
 .MTH-logo-white {
@@ -99,6 +112,7 @@
     position: absolute;
     top: 15px;
     right: 15px;
+    margin-right: 15px;
 }
 
 #primary-menu {
@@ -119,6 +133,9 @@
         font-family: "oswald", "san-serif";
         text-transform: uppercase;
         font-size: $medium-font;
+        i {
+            display: none;
+        }
     }
     li {
         margin: 10px 0;
@@ -137,17 +154,21 @@
     }
     @include mobile-break-width {
         flex-flow: row;
-        width: 33%;
+        width: 36%;
         height: 0;
         align-items: center;
         li {
-            margin: 0 12px;
+            margin: 0;
         }
         li:first-child {
-            margin: 0 12px;
+            margin: 0 15px;
         }
         a {
             font-size: 16px;
+            i {
+                display: inline-block;
+                letter-spacing: 12px;
+            }
         }
     }
 }
@@ -177,6 +198,10 @@
     padding: 0 20px;
 }
 
+.search p {
+    font-family: "oswald", "san-serif";
+}
+
 .patient-portal {
     display: flex;
     a {
@@ -197,11 +222,13 @@
 .phone-and-number {
     display: flex;
     align-items: center;
+    margin-left: 80px;
+    margin-right: 14px;
     p {
         font-family: "open_sans", "san-serif";
+        font-weight: light;
         color: $body-color;
         margin: 0;
-        padding-right: 13px;
     }
     img {
         height: 20px;
@@ -217,12 +244,14 @@
 
 .phone-and-number-green {
     display: flex;
+    margin-left: 80px;
+    margin-right: 46px;
     align-items: center;
     p {
         font-family: "open_sans", "san-serif";
+        font-weight: light;
         color: $nav-color;
         margin: 0;
-        padding-right: 13px;
     }
     img {
         padding-right: 8px;
