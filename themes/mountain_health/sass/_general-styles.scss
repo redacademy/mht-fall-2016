@@ -106,6 +106,8 @@ body {
     }
     a {
         color: #1a9481;
-        font-size: small;
+        &:visited {
+            color: #1a9481;
+        }
     }
 }

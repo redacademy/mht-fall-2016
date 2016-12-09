@@ -12,10 +12,10 @@ get_header(); ?>
 			<h1>News &amp; Events</h1>
 			<p>Check back frequently for updates on Mountain Health or subscribe to our newsletter for updates delivered directly to your inbox.</p>
 			</section>
-			<section class="article-nav-links article-nav-links-archive">
+			<section class="nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
-				<a href="<?php echo get_page_link(10); ?>">Resources &gt; </a>
-				<p><?php wp_title( '' ); ?></p>
+				<a href="<?php echo get_page_link(10); ?>">&nbsp;Resources &gt; </a>
+				<p>&nbsp;<?php wp_title( '' ); ?></p>
 			</section>
 			<div class="news-events-wrapper">
 		<div class="news-events-btns">

@@ -551,8 +551,9 @@ body {
     margin: 0;
     font-weight: bold; }
   .nav-links a {
-    color: #1a9481;
-    font-size: small; }
+    color: #1a9481; }
+    .nav-links a:visited {
+      color: #1a9481; }
 
 .main-header header {
   width: 100%;
@@ -2926,8 +2927,7 @@ object {
   background: url(../../MTH-Assets/photos/resources-hero.png);
   background-size: cover;
   background-position: center center;
-  text-align: center;
-  margin-bottom: 30px; }
+  text-align: center; }
   @media (min-width: 480px) {
     .resources-hero {
       background: url(../../MTH-Assets/photos/resources-hero-desktop.png);
@@ -2964,12 +2964,17 @@ object {
   color: #003A5F;
   font-size: 17px; }
 
+.bread-crumb-resources {
+  margin-bottom: 30px; }
+
 @media (min-width: 480px) {
   .resources {
     display: -ms-flexbox;
     display: flex; } }
 
-.news-events, .articles-research, .recipes-nutrition {
+.news-events,
+.articles-research,
+.recipes-nutrition {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -2986,36 +2991,53 @@ object {
   margin-bottom: 45px;
   position: relative; }
   @media (min-width: 480px) {
-    .news-events, .articles-research, .recipes-nutrition {
+    .news-events,
+    .articles-research,
+    .recipes-nutrition {
       width: 23.5%;
       background: url(../../MTH-Assets/photos/stroke-desktop.png);
       background-size: 100% 100%;
       background-position: center center;
       height: 416px; } }
-  .news-events p, .articles-research p, .recipes-nutrition p {
+  .news-events p,
+  .articles-research p,
+  .recipes-nutrition p {
     text-align: center;
     font-size: 14px;
     color: #003A5F;
     line-height: 1.2; }
     @media (min-width: 480px) {
-      .news-events p, .articles-research p, .recipes-nutrition p {
+      .news-events p,
+      .articles-research p,
+      .recipes-nutrition p {
         font-size: 22px; } }
 
-.news-events h2, .news-events p, .articles-research h2, .articles-research p, .recipes-nutrition h2, .recipes-nutrition p {
+.news-events h2,
+.news-events p,
+.articles-research h2,
+.articles-research p,
+.recipes-nutrition h2,
+.recipes-nutrition p {
   margin-top: 0;
   margin-bottom: 0; }
 
-.news-events h2, .articles-research h2, .recipes-nutrition h2 {
+.news-events h2,
+.articles-research h2,
+.recipes-nutrition h2 {
   font-size: 17px;
   color: #677257;
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 20px; }
   @media (min-width: 480px) {
-    .news-events h2, .articles-research h2, .recipes-nutrition h2 {
+    .news-events h2,
+    .articles-research h2,
+    .recipes-nutrition h2 {
       font-size: 36px; } }
 
-.news-events a, .articles-research a, .recipes-nutrition a {
+.news-events a,
+.articles-research a,
+.recipes-nutrition a {
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
   padding-top: 15px;
   padding-bottom: 15px;
@@ -3260,20 +3282,6 @@ header.entry-header-article {
   top: 0;
   left: 0;
   bottom: 0; }
-
-.nav-links {
-  color: #1a9481;
-  font-family: 'open_sans', 'sans-serif';
-  font-weight: light;
-  font-size: 13px;
-  display: -ms-flexbox;
-  display: flex; }
-  .nav-links p {
-    margin: 0;
-    font-weight: bold; }
-  .nav-links a {
-    color: #1a9481;
-    font-size: small; }
 
 .error404 {
   background: url(../../MTH-Assets/photos/main-bg.png);

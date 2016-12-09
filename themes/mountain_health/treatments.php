@@ -14,7 +14,7 @@ get_header(); ?>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
 			</section>
 
-			<section class="article-nav-links article-nav-links-archive bread-crumb-general">
+			<section class="nav-links article-nav-links-archive bread-crumb-general">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
 				<a href="<?php echo get_page_link(23); ?>">&nbsp;What We Do &gt; </a>
 				<p> &nbsp;<?php wp_title( '' ); ?></p>

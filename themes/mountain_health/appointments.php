@@ -13,10 +13,10 @@ get_header(); ?>
           <h1>Appointments</h1>
           <p>We believe your time is valuable and are here to listen to all your concerns and find how we can best help you.</p>
           </section>
-          <section class="article-nav-links article-nav-links-archive">
+          <section class="nav-links article-nav-links-archive">
     				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
-    				<a href="<?php echo get_page_link(23); ?>">What We Do &gt;</a>
-    				<p><?php wp_title( '' ); ?></p>
+    				<a href="<?php echo get_page_link(23); ?>">&nbsp;What We Do &gt;</a>
+    				<p>&nbsp;<?php wp_title( '' ); ?></p>
     			</section>
           <section class="appointments-wrapper">
 <?php $i = 1;?>
