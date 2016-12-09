@@ -2320,6 +2320,9 @@ object {
     width: 729px;
     text-align: left; } }
 
+.what-we-do .how-can-we-help-you {
+  padding-top: 20px; }
+
 .appointments-hero-image {
   color: #ffffff;
   display: -ms-flexbox;
