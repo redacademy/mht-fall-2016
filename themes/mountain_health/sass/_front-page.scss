@@ -17,6 +17,7 @@
     .main-header header {
         background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
         background-size: cover;
+        background-position-y: 0px;
         .phone-number-white {
             color: white;
             // padding-right: 13px;
@@ -161,7 +162,7 @@
     color: white;
 }
 
-.front-button:visited{
+.front-button:visited {
     color: white;
 }
 

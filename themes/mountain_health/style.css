@@ -523,7 +523,7 @@ body {
 
 .main-header header {
   width: 100%;
-  height: 40px;
+  height: 45px;
   z-index: 10;
   display: -ms-flexbox;
   display: flex;
@@ -531,13 +531,13 @@ body {
       justify-content: space-around;
   -ms-flex-align: center;
       align-items: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
   background: white;
   position: fixed; }
   .main-header header .search-icon-dt {
     display: none; }
   .main-header header .header-button {
+    display: none; }
+  .main-header header .call-header {
     display: none; }
   @media (min-width: 480px) {
     .main-header header {
@@ -558,7 +558,7 @@ body {
             justify-content: center;
         -ms-flex-align: center;
             align-items: center;
-        margin-right: 200px;
+        margin-right: 100px;
         font-size: 15px; }
         .main-header header .header-button a {
           color: white; }
@@ -578,27 +578,45 @@ body {
           color: #003A5F; } }
 
 .patient-portal-desktop {
-  color: #1a9481;
-  width: 15%;
-  text-transform: uppercase;
-  font-family: oswald, "san-serif"; }
-  .patient-portal-desktop a:visited {
-    color: #1a9481;
-    font-family: oswald, "san-serif";
-    padding-right: 3px; }
+  display: none; }
+  @media (min-width: 480px) {
+    .patient-portal-desktop {
+      display: block;
+      color: #1a9481;
+      width: 15%;
+      text-transform: uppercase;
+      font-family: oswald, "san-serif"; }
+      .patient-portal-desktop a:visited {
+        color: #1a9481;
+        font-family: oswald, "san-serif";
+        padding-right: 3px; } }
 
 .header-or {
-  color: #003A5F;
-  padding-right: 20px; }
+  display: none; }
+  @media (min-width: 480px) {
+    .header-or {
+      color: #003A5F;
+      padding-right: 20px; } }
 
 .header-white {
   background: white !important; }
 
 .MTH-logo-wrapper {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 35px;
   margin-left: 20px;
-  padding-top: 3px; }
+  padding-top: 1px; }
+  .MTH-logo-wrapper .MTH-logo-dt {
+    display: none; }
+  @media (min-width: 480px) {
+    .MTH-logo-wrapper {
+      width: 72px;
+      height: 80px;
+      margin-left: 100px; }
+      .MTH-logo-wrapper .MTH-logo {
+        display: none; }
+      .MTH-logo-wrapper .MTH-logo-dt {
+        display: block; } }
 
 .MTH-logo-white {
   display: none; }
@@ -609,7 +627,8 @@ body {
 .x-logo {
   position: absolute;
   top: 15px;
-  right: 15px; }
+  right: 15px;
+  margin-right: 15px; }
 
 #primary-menu {
   display: -ms-flexbox;
@@ -630,6 +649,8 @@ body {
     font-family: "oswald", "san-serif";
     text-transform: uppercase;
     font-size: 17px; }
+    #primary-menu a i {
+      display: none; }
   #primary-menu li {
     margin: 10px 0; }
   #primary-menu li:first-child {
@@ -647,7 +668,7 @@ body {
     #primary-menu {
       -ms-flex-flow: row;
           flex-flow: row;
-      width: 33%;
+      width: 36%;
       height: 0;
       -ms-flex-align: center;
           align-items: center; }
@@ -656,7 +677,10 @@ body {
       #primary-menu li:first-child {
         margin: 0 12px; }
       #primary-menu a {
-        font-size: 16px; } }
+        font-size: 16px; }
+        #primary-menu a i {
+          display: inline-block;
+          letter-spacing: 12px; } }
 
 .mobile-menu-hide {
   display: none;
@@ -685,6 +709,9 @@ body {
   text-transform: uppercase;
   padding: 0 20px; }
 
+.search p {
+  font-family: "oswald", "san-serif"; }
+
 .patient-portal {
   display: -ms-flexbox;
   display: flex; }
@@ -703,12 +730,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  margin-left: 80px;
+  margin-right: 14px; }
   .phone-and-number p {
     font-family: "open_sans", "san-serif";
     color: #003A5F;
-    margin: 0;
-    padding-right: 13px; }
+    margin: 0; }
   .phone-and-number img {
     height: 20px;
     padding-right: 8px; }
@@ -719,13 +747,14 @@ body {
 .phone-and-number-green {
   display: -ms-flexbox;
   display: flex;
+  margin-left: 80px;
+  margin-right: 48px;
   -ms-flex-align: center;
       align-items: center; }
   .phone-and-number-green p {
     font-family: "open_sans", "san-serif";
     color: #009B84;
-    margin: 0;
-    padding-right: 13px; }
+    margin: 0; }
   .phone-and-number-green img {
     padding-right: 8px;
     height: 20px; }
@@ -1082,7 +1111,8 @@ object {
     font-weight: normal; }
   .front-page .main-header header {
     background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position-y: 0px; }
     .front-page .main-header header .phone-number-white {
       color: white; }
     .front-page .main-header header .MTH-logo-white {
@@ -1635,8 +1665,7 @@ object {
         width: 100%;
         background: grey; } }
     .about-page .main-header header .phone-number-white {
-      color: white;
-      padding-right: 13px; }
+      color: white; }
   .about-page .MTH-logo-white {
     display: block;
     width: 30px; }
@@ -1713,6 +1742,9 @@ object {
     margin: 0;
     margin-bottom: 20px; }
 
+.fa-bars {
+  margin-right: 15px; }
+
 .amanda-photo {
   width: 100%;
   height: 290px;
@@ -1722,7 +1754,8 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  background: white; }
+  background: white;
+  z-index: 0; }
   @media (min-width: 480px) {
     .amanda-photo {
       background: url(../../MTH-Assets/photos/amanda-large.png);
@@ -1732,7 +1765,7 @@ object {
       background-size: cover;
       position: absolute;
       bottom: 60px;
-      z-index: 1; } }
+      z-index: 0; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .amanda-photo img {
       display: none; } }
