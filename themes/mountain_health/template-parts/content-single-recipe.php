@@ -11,7 +11,7 @@
 
 		<?php the_title( '<h1 class="entry-title-article">', '</h1>' ); ?>
 		<div class="entry-meta-article">
-			<?php red_starter_posted_by(); ?>
+			<p><?php echo CFS()->get( 'recipe_by' );?></p>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
