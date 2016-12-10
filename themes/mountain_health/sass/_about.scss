@@ -237,6 +237,7 @@
     padding: 0 25px;
     @include mobile-break-width{
         position: relative;
+        height: 1080px;
     }
     .amanda-road-map-wrapper {
         position: relative;
@@ -289,13 +290,20 @@
     .four {
         margin-top: 58px;
         @include mobile-break-width{
+            position: absolute;
+            top: 600px;
+            right: 22%;
             margin: 0px;
         }
     }
     .five {
         margin-top: 84px;
         @include mobile-break-width{
+            width: 360px;
             margin:0px;
+            position: absolute;
+            top: 790px;
+            left: 12%;
         }
     }
     .six {
@@ -304,6 +312,9 @@
         @include mobile-break-width {
             width: 550px;
             margin:0px;
+            position: absolute;
+            top: 940px;
+            right: 16%;
         }
     }
     h3 {
@@ -326,7 +337,6 @@
         margin: 0;
         line-height: 1.2;
         @include mobile-break-width {
-            margin-bottom: 80px;
             font-size: $small-font-dt;
         }
     }
@@ -339,7 +349,9 @@
 
 .three {
     @include mobile-break-width {
-        width: 574px;
+        position: absolute;
+        width: 546px;
+        top:388px;
         p {
             @include mobile-break-width {
                 width: 367px;
@@ -363,5 +375,73 @@
 .six {
     @include mobile-break-width {
         text-align: left;
+    }
+}
+
+.road-map-dot{
+    display: none;
+    @include mobile-break-width{
+    display: initial;
+    position: absolute;
+    }
+}
+
+.dot-1{
+    left: 39.2%;
+    top: 95px;
+    z-index: 1;
+}
+
+.dot-2{
+    left: 38.5%;
+    top: 250px;
+    z-index: 1;
+}
+
+.dot-3{
+    left: 37.55%;
+    top: 420px;
+    z-index: 1;
+}
+
+.dot-4{
+    left: 42.5%;
+    top: 631px;
+    z-index: 1;
+}
+
+.dot-5{
+    left: 40.6%;
+    top: 820px;
+    z-index: 1;
+}
+
+.dot-6{
+    left: 37.8%;
+    top: 980px;
+    z-index: 1;
+}
+
+.about-page{
+   .how-can-we-help-you{
+       @include mobile-break-width{
+           margin-top:80px;
+           font-size: $medium-font-dt;
+           margin-bottom: 40px;
+       }
+   } 
+}
+
+.about-page{
+    .book-appointment{
+        @include mobile-break-width{
+            width:280px;
+            height: 60px;
+            font-size: $small-font-dt;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 10000px
+        }
     }
 }

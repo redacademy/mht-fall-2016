@@ -95,10 +95,10 @@
                 </h4>
                 <p>OHM Medical Training Services Inc.</p>
             </div>
-            <h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
-        <div class="primary-button book-appointment"><a href="<?php echo get_page_link(29); ?>">Book an appointment</a></div>
+
     </section>
-    
+                <h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
+        <div class="primary-button book-appointment"><a href="<?php echo get_page_link(29); ?>">Book an appointment</a></div>
 
 	</main><!-- #main -->
 
