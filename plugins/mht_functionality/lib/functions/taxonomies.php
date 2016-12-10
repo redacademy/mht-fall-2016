@@ -44,7 +44,6 @@ function register_recipe_tag_taxonomy() {//s
 }
 add_action( 'init', 'register_recipe_tag_taxonomy', 0 );//s
 
-<?php
 
 function register_article_tag_taxonomy() {//s
 
