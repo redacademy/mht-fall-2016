@@ -26,6 +26,24 @@ get_header(); ?>
 	</section>
 <section>
 	<h2 class="entry-title-article">Recipes you might also like</h2>
+	<?php
+$values = CFS()->get( 'recipes_related' );
+foreach ( $values as $post_id ) {
+		$the_post = get_post( $post_id ); ?>
+		<div class="article-wrapper">
+			<div class="article-single-image">
+					<?php echo  get_the_post_thumbnail($post_id, 'large');?>
+			</div>
+				<div class="article-grid-content">
+			<a href="<?php echo get_post_permalink( $post_id );?>">
+			<?php echo $the_post->post_title; ?>
+			</a>
+				</div>
+			</div>
+
+
+	<?php	;
+} ?>
 </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
