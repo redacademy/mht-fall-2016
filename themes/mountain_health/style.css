@@ -317,7 +317,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'oswald', 'sans-serif'; }
+  font-family: 'oswald', 'sans-serif';
+  font-weight: normal; }
 
 /*--------------------------------------------------------------
 # Typography
@@ -1203,6 +1204,8 @@ object {
 /* Front page */
 .front-page {
   padding-top: 0; }
+  .front-page .hamburger {
+    color: white; }
   .front-page .site-main p {
     font-size: 15px;
     font-family: 'open_sans', 'sans-serif';
@@ -1229,8 +1232,6 @@ object {
     .front-page .main-header header .phone-white {
       display: block;
       height: 20px; }
-    .front-page .main-header header .hamburger {
-      color: white; }
 
 .parallax-scroll {
   top: 40px;
@@ -3984,8 +3985,6 @@ header.entry-header-article {
         max-width: 800px; } }
 
 .labtesting-btn-off {
-  width: 110px;
-  height: 50px;
   margin-right: 10px;
   border: 2px solid #1a9481;
   line-height: 0;
@@ -3995,10 +3994,13 @@ header.entry-header-article {
   align-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  border-radius: 10px 10px 0px 10px; }
+  border-radius: 5px 5px 0px 5px;
+  color: #003A5F; }
   .labtesting-btn-off button {
-    width: 100%;
-    line-height: 1;
+    font-family: "oswald", "sans-serif";
+    width: 110px;
+    height: 50px;
+    line-height: 1.2;
     font-size: 12px;
     text-transform: uppercase;
     padding: 0;
@@ -4167,6 +4169,7 @@ header.entry-header-article {
   line-height: 1.76;
   text-align: center;
   color: #6a7059;
+  line-height: 1;
   padding-top: 10px;
   margin-bottom: 0; }
 
@@ -4175,7 +4178,8 @@ header.entry-header-article {
   font-weight: light;
   margin-top: 0;
   font-size: 15px;
-  line-height: 2;
+  line-height: 1;
+  margin-top: 10px;
   text-align: center;
   color: #003d5c; }
 
@@ -4185,14 +4189,21 @@ header.entry-header-article {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  padding: 10px 0; }
   .general-test-single h3 {
     font-family: 'oswald', 'sans-serif';
-    line-height: 2;
+    text-transform: uppercase;
+    margin: 10px 0;
     text-align: center;
-    color: #003d5c; }
+    color: #003d5c;
+    line-height: 1.2; }
   .general-test-single p {
-    text-align: center; }
+    text-align: center;
+    margin: 10px 0;
+    max-width: 220px;
+    line-height: 1.2;
+    color: #003d5c; }
   @media (min-width: 480px) {
     .general-test-single {
       width: 20%; } }
@@ -4301,7 +4312,7 @@ header.entry-header-article {
   margin-right: 10px;
   border: solid 2px #1a9481;
   line-height: 0;
-  border-radius: 10px 10px 0 10px;
+  border-radius: 5px 5px 0 5px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: center;
@@ -4310,6 +4321,8 @@ header.entry-header-article {
       justify-content: center; }
   .treatment-btn-off button {
     width: 110px;
+    color: #003A5F;
+    font-family: "oswald";
     line-height: 1;
     font-size: 12px;
     text-transform: uppercase;
@@ -4343,14 +4356,18 @@ header.entry-header-article {
     font-size: 17px;
     line-height: 1.3;
     text-align: center;
-    color: #ffffff; }
+    color: #ffffff;
+    margin: 0;
+    margin: 15px 0; }
   .treatment-description p {
     font-family: 'open_sans', 'sans-serif';
     font-weight: light;
     font-size: 15px;
     line-height: 1.2;
     text-align: center;
-    color: #ffffff; }
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 10px; }
   @media (min-width: 600px) {
     .treatment-description {
       width: 1324px;

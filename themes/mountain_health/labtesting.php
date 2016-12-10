@@ -96,7 +96,7 @@ Although Naturopathic physicians can write lab requisitions, it is not covered b
 </div>
 <div class="how-can how-can-position">
 			<h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
-			<a  class="front-button flex-button" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
+			<a  class="front-button flex-button large-button" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
 													<!--Button links to book an appointment 5.0-->
 	</div>
 	<div class="mountains">
