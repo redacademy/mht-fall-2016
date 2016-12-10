@@ -1755,12 +1755,13 @@ object {
 
 .amanda-section {
   position: relative; }
+  @media (min-width: 480px) {
+    .amanda-section {
+      margin-top: 300px; } }
 
 .about-page {
   max-width: 1340px;
   padding-top: 0; }
-  .about-page img {
-    z-index: 0; }
   @media (min-width: 480px) {
     .about-page {
       width: 100%; } }
@@ -1878,7 +1879,7 @@ object {
       background-size: cover;
       position: absolute;
       bottom: 60px;
-      z-index: 0; } }
+      z-index: 1; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .amanda-photo img {
       display: none; } }
@@ -1928,7 +1929,8 @@ object {
         font-size: 22px;
         line-height: 1.36;
         left: initial;
-        right: 50px; } }
+        right: 50px;
+        margin-right: 40px; } }
   .about-amanda p {
     margin-bottom: 0;
     margin-top: 0;
@@ -1973,6 +1975,10 @@ object {
 .education {
   text-align: center;
   padding: 0 25px; }
+  @media (min-width: 480px) {
+    .education {
+      position: relative;
+      height: 1080px; } }
   .education .amanda-road-map-wrapper {
     position: relative;
     display: -ms-flexbox;
@@ -1998,24 +2004,52 @@ object {
     margin-top: 70px; }
     @media (min-width: 480px) {
       .education .one {
-        width: 528px; } }
+        width: 500px;
+        margin: 0px;
+        position: absolute;
+        left: 2%;
+        top: 65px; } }
   .education .two {
     margin-top: 65px; }
     @media (min-width: 480px) {
       .education .two {
-        width: 236px; } }
+        width: 236px;
+        top: 230;
+        right: 40%;
+        position: absolute;
+        margin: 0px; } }
   .education .three {
     margin-top: 70px; }
+    @media (min-width: 480px) {
+      .education .three {
+        margin: 0px; } }
   .education .four {
     margin-top: 58px; }
+    @media (min-width: 480px) {
+      .education .four {
+        position: absolute;
+        top: 600px;
+        right: 22%;
+        margin: 0px; } }
   .education .five {
     margin-top: 84px; }
+    @media (min-width: 480px) {
+      .education .five {
+        width: 360px;
+        margin: 0px;
+        position: absolute;
+        top: 790px;
+        left: 12%; } }
   .education .six {
     margin-top: 80px;
     margin-bottom: 30px; }
     @media (min-width: 480px) {
       .education .six {
-        width: 550px; } }
+        width: 550px;
+        margin: 0px;
+        position: absolute;
+        top: 940px;
+        right: 16%; } }
   .education h3 {
     text-transform: uppercase;
     color: black;
@@ -2035,7 +2069,6 @@ object {
     line-height: 1.2; }
     @media (min-width: 480px) {
       .education p {
-        margin-bottom: 80px;
         font-size: 22px; } }
 
 .green-mountains {
@@ -2044,7 +2077,9 @@ object {
 
 @media (min-width: 480px) {
   .three {
-    width: 574px; } }
+    position: absolute;
+    width: 546px;
+    top: 388px; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .three p {
       width: 367px; } }
@@ -2065,6 +2100,62 @@ object {
   .four,
   .six {
     text-align: left; } }
+
+.road-map-dot {
+  display: none; }
+  @media (min-width: 480px) {
+    .road-map-dot {
+      display: initial;
+      position: absolute; } }
+
+.dot-1 {
+  left: 39.2%;
+  top: 95px;
+  z-index: 1; }
+
+.dot-2 {
+  left: 38.5%;
+  top: 250px;
+  z-index: 1; }
+
+.dot-3 {
+  left: 37.55%;
+  top: 420px;
+  z-index: 1; }
+
+.dot-4 {
+  left: 42.5%;
+  top: 631px;
+  z-index: 1; }
+
+.dot-5 {
+  left: 40.6%;
+  top: 820px;
+  z-index: 1; }
+
+.dot-6 {
+  left: 37.8%;
+  top: 980px;
+  z-index: 1; }
+
+@media (min-width: 480px) {
+  .about-page .how-can-we-help-you {
+    margin-top: 80px;
+    font-size: 36px;
+    margin-bottom: 40px; } }
+
+@media (min-width: 480px) {
+  .about-page .book-appointment {
+    width: 280px;
+    height: 60px;
+    font-size: 22px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border-right: 10000px; } }
 
 .what-we-do {
   margin: 0 auto; }

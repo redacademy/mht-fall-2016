@@ -51,6 +51,12 @@
         </section>
         <section class="education">
             <div class="amanda-road-map-wrapper">
+                <img class="road-map-dot dot-1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/ellipse-bg.png" alt="dot for line image">
+                <img class="road-map-dot dot-2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/ellipse-bg.png" alt="dot for line image">
+                <img class="road-map-dot dot-3" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/ellipse-bg.png" alt="dot for line image">
+                <img class="road-map-dot dot-4" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/ellipse-bg.png" alt="dot for line image">
+                <img class="road-map-dot dot-5" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/ellipse-bg.png" alt="dot for line image">
+                <img class="road-map-dot dot-6" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/ellipse-bg.png" alt="dot for line image">
                 <img class="amanda-road-map-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line-shape-full.png" alt="gradient line">
                 <img class="amanda-road-map" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line-and-dots.png" alt="gradient line">
             </div>
@@ -89,10 +95,10 @@
                 </h4>
                 <p>OHM Medical Training Services Inc.</p>
             </div>
-            <h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
-        <div class="primary-button book-appointment"><a href="<?php echo get_page_link(29); ?>">Book an appointment</a></div>
+
     </section>
-    
+                <h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
+        <div class="primary-button book-appointment"><a href="<?php echo get_page_link(29); ?>">Book an appointment</a></div>
 
 	</main><!-- #main -->
 

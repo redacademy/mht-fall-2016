@@ -1,14 +1,14 @@
 // ********************** About styling section***
 .amanda-section {
     position: relative;
+    @include mobile-break-width{
+        margin-top: 300px;
+    }
 }
 
 .about-page {
     max-width: 1340px;
     padding-top: 0;
-    img {
-        z-index: 0;
-    }
     @include mobile-break-width {
         width: 100%;
     }
@@ -130,7 +130,7 @@
         background-size: cover;
         position: absolute;
         bottom: 60px;
-        z-index: 0;
+        z-index: 1;
         img {
             @include mobile-break-width {
                 display: none;
@@ -182,6 +182,7 @@
             line-height: 1.36;
             left: initial;
             right: 50px;
+            margin-right: 40px;
         }
     }
     p {
@@ -234,6 +235,10 @@
 .education {
     text-align: center;
     padding: 0 25px;
+    @include mobile-break-width{
+        position: relative;
+        height: 1080px;
+    }
     .amanda-road-map-wrapper {
         position: relative;
         display: flex;
@@ -259,29 +264,57 @@
     .one {
         margin-top: 70px;
         @include mobile-break-width {
-            width: 528px;
+            width: 500px;
+            margin: 0px;
+            position: absolute;
+            left:2%;
+            top:65px;
         }
     }
     .two {
         margin-top: 65px;
         @include mobile-break-width {
             width: 236px;
+            top: 230;
+            right: 40%;
+            position: absolute;
+            margin: 0px;
         }
     }
     .three {
         margin-top: 70px;
+        @include mobile-break-width{
+            margin:0px;
+        }
     }
     .four {
         margin-top: 58px;
+        @include mobile-break-width{
+            position: absolute;
+            top: 600px;
+            right: 22%;
+            margin: 0px;
+        }
     }
     .five {
         margin-top: 84px;
+        @include mobile-break-width{
+            width: 360px;
+            margin:0px;
+            position: absolute;
+            top: 790px;
+            left: 12%;
+        }
     }
     .six {
         margin-top: 80px;
         margin-bottom: 30px;
         @include mobile-break-width {
             width: 550px;
+            margin:0px;
+            position: absolute;
+            top: 940px;
+            right: 16%;
         }
     }
     h3 {
@@ -304,7 +337,6 @@
         margin: 0;
         line-height: 1.2;
         @include mobile-break-width {
-            margin-bottom: 80px;
             font-size: $small-font-dt;
         }
     }
@@ -317,7 +349,9 @@
 
 .three {
     @include mobile-break-width {
-        width: 574px;
+        position: absolute;
+        width: 546px;
+        top:388px;
         p {
             @include mobile-break-width {
                 width: 367px;
@@ -341,5 +375,73 @@
 .six {
     @include mobile-break-width {
         text-align: left;
+    }
+}
+
+.road-map-dot{
+    display: none;
+    @include mobile-break-width{
+    display: initial;
+    position: absolute;
+    }
+}
+
+.dot-1{
+    left: 39.2%;
+    top: 95px;
+    z-index: 1;
+}
+
+.dot-2{
+    left: 38.5%;
+    top: 250px;
+    z-index: 1;
+}
+
+.dot-3{
+    left: 37.55%;
+    top: 420px;
+    z-index: 1;
+}
+
+.dot-4{
+    left: 42.5%;
+    top: 631px;
+    z-index: 1;
+}
+
+.dot-5{
+    left: 40.6%;
+    top: 820px;
+    z-index: 1;
+}
+
+.dot-6{
+    left: 37.8%;
+    top: 980px;
+    z-index: 1;
+}
+
+.about-page{
+   .how-can-we-help-you{
+       @include mobile-break-width{
+           margin-top:80px;
+           font-size: $medium-font-dt;
+           margin-bottom: 40px;
+       }
+   } 
+}
+
+.about-page{
+    .book-appointment{
+        @include mobile-break-width{
+            width:280px;
+            height: 60px;
+            font-size: $small-font-dt;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 10000px
+        }
     }
 }
