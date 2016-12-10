@@ -102,8 +102,8 @@
 
 // General Font styling
 body {
-    font-family: "open_sans", 'sans-serif';
-    font-weight: light;
+    font-family: 'open_sans', serif;
+    font-weight: normal;
     font-size: 15px;
 }
 
@@ -113,5 +113,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'oswald', 'sans-serif';
+    font-family: 'oswald', sans-serif;
+    font-weight: normal;
 }

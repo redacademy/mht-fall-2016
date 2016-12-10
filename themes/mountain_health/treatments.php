@@ -8,7 +8,7 @@
 get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main treatments-main" role="main">
-
+		<div class="content">
 			<section class="treatment-hero-image">
 				<h1>Treatments</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
@@ -33,10 +33,14 @@ get_header(); ?>
 						<button class="treatment-buttons"> <?php   echo $field['treatment_title']; ?> </button>
 					</div>
 
-					<div class="treatment-description-single-active treatment-description " style="display:none; background-image: url(<?php  echo $field['treatment_img']; ?>);background-size:cover;     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;">
+					<div class="treatment-description-single-active treatment-description "
+					style="display:none;
+					background-image: url(<?php  echo $field['treatment_img']; ?>);
+					background-size:cover;
+					display: flex;
+     			flex-direction: column;
+    			justify-content: center;
+    			align-items: center;">
 							<h3> <?php   echo $field['treatment_title']; ?> </h3>
 							<p>  <?php   echo $field['treatment_text']; ?> </p>
 							<p class="treatment-price">  <?php   echo $field['treatment_price']; ?> </p>
@@ -68,7 +72,9 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 </div>
-<div class="mountains">
-	<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
-	<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
-</div><?php get_footer(); ?>
+		<div class="mountains">
+			<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
+			<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
+		</div>
+<?php get_footer(); ?>
+</div>

@@ -1,5 +1,8 @@
 .front-page {
     padding-top: 0;
+    .hamburger {
+        color: white;
+    }
     .site-main {
         p {
             font-size: 15px;
@@ -33,9 +36,6 @@
         .phone-white {
             display: block;
             height: 20px;
-        }
-        .hamburger {
-            color: white;
         }
     }
 }

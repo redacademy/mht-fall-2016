@@ -8,6 +8,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<div class="content">
 			<section class="archive-news-hero-image">
 			<h1>News &amp; Events</h1>
 			<p>Check back frequently for updates on Mountain Health or subscribe to our newsletter for updates delivered directly to your inbox.</p>
@@ -153,3 +154,4 @@ get_header(); ?>
 		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
 	</div>
 <?php get_footer(); ?>
+</div>

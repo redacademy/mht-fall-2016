@@ -9,10 +9,11 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-<section class="archive-article-hero-image">
-<h1>ARTICLE &amp; RESEARCH</h1>
-<p>Read more about Naturopathy, alternative medicine and the research behind what we do here at Mountain Health.</p>
-</section>
+			<div class="content">
+			<section class="archive-article-hero-image">
+				<h1>ARTICLE &amp; RESEARCH</h1>
+				<p>Read more about Naturopathy, alternative medicine and the research behind what we do here at Mountain Health.</p>
+			</section>
 
 			<section class="nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
@@ -39,12 +40,10 @@ get_header(); ?>
 	</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<div class="load-more">
-		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/down-arrow-load-more.png" alt="logo">
-		<a href="#">Load More</a>
-	</div>
+
 	<div class="mountains">
 		<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
 		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
 	</div>
 	<?php get_footer(); ?>
+</div>

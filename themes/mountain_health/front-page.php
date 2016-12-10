@@ -10,6 +10,7 @@
 <div id="primary" class="content-area front-page">
     <main id="main" class="site-main " role="main">
 <?get_header(); ?>
+    <div class="content">
         <section class="hero-banner"> <!--Front page banner-->
             <div class="parallax-scroll"></div>
                 <h2 class="hero-header">Mountain Health</h2>
@@ -153,3 +154,4 @@
   <img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
 </div>
 <?php get_footer(); ?>
+</div>
