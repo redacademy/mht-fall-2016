@@ -1975,6 +1975,9 @@ object {
 .education {
   text-align: center;
   padding: 0 25px; }
+  @media (min-width: 480px) {
+    .education {
+      position: relative; } }
   .education .amanda-road-map-wrapper {
     position: relative;
     display: -ms-flexbox;
@@ -2000,24 +2003,42 @@ object {
     margin-top: 70px; }
     @media (min-width: 480px) {
       .education .one {
-        width: 500px; } }
+        width: 500px;
+        margin: 0px;
+        position: absolute;
+        left: 2%;
+        top: 65px; } }
   .education .two {
     margin-top: 65px; }
     @media (min-width: 480px) {
       .education .two {
-        width: 236px; } }
+        width: 236px;
+        top: 230;
+        right: 40%;
+        position: absolute;
+        margin: 0px; } }
   .education .three {
     margin-top: 70px; }
+    @media (min-width: 480px) {
+      .education .three {
+        margin: 0px; } }
   .education .four {
     margin-top: 58px; }
+    @media (min-width: 480px) {
+      .education .four {
+        margin: 0px; } }
   .education .five {
     margin-top: 84px; }
+    @media (min-width: 480px) {
+      .education .five {
+        margin: 0px; } }
   .education .six {
     margin-top: 80px;
     margin-bottom: 30px; }
     @media (min-width: 480px) {
       .education .six {
-        width: 550px; } }
+        width: 550px;
+        margin: 0px; } }
   .education h3 {
     text-transform: uppercase;
     color: black;

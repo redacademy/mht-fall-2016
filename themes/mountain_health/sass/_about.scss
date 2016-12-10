@@ -235,6 +235,9 @@
 .education {
     text-align: center;
     padding: 0 25px;
+    @include mobile-break-width{
+        position: relative;
+    }
     .amanda-road-map-wrapper {
         position: relative;
         display: flex;
@@ -261,28 +264,46 @@
         margin-top: 70px;
         @include mobile-break-width {
             width: 500px;
+            margin: 0px;
+            position: absolute;
+            left:2%;
+            top:65px;
         }
     }
     .two {
         margin-top: 65px;
         @include mobile-break-width {
             width: 236px;
+            top: 230;
+            right: 40%;
+            position: absolute;
+            margin: 0px;
         }
     }
     .three {
         margin-top: 70px;
+        @include mobile-break-width{
+            margin:0px;
+        }
     }
     .four {
         margin-top: 58px;
+        @include mobile-break-width{
+            margin: 0px;
+        }
     }
     .five {
         margin-top: 84px;
+        @include mobile-break-width{
+            margin:0px;
+        }
     }
     .six {
         margin-top: 80px;
         margin-bottom: 30px;
         @include mobile-break-width {
             width: 550px;
+            margin:0px;
         }
     }
     h3 {
