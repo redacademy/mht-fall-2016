@@ -1755,12 +1755,13 @@ object {
 
 .amanda-section {
   position: relative; }
+  @media (min-width: 480px) {
+    .amanda-section {
+      margin-top: 300px; } }
 
 .about-page {
   max-width: 1340px;
   padding-top: 0; }
-  .about-page img {
-    z-index: 0; }
   @media (min-width: 480px) {
     .about-page {
       width: 100%; } }
@@ -1878,7 +1879,7 @@ object {
       background-size: cover;
       position: absolute;
       bottom: 60px;
-      z-index: 0; } }
+      z-index: 1; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .amanda-photo img {
       display: none; } }
@@ -1928,7 +1929,8 @@ object {
         font-size: 22px;
         line-height: 1.36;
         left: initial;
-        right: 50px; } }
+        right: 50px;
+        margin-right: 40px; } }
   .about-amanda p {
     margin-bottom: 0;
     margin-top: 0;
@@ -1998,7 +2000,7 @@ object {
     margin-top: 70px; }
     @media (min-width: 480px) {
       .education .one {
-        width: 528px; } }
+        width: 500px; } }
   .education .two {
     margin-top: 65px; }
     @media (min-width: 480px) {

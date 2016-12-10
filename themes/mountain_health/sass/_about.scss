@@ -1,14 +1,14 @@
 // ********************** About styling section***
 .amanda-section {
     position: relative;
+    @include mobile-break-width{
+        margin-top: 300px;
+    }
 }
 
 .about-page {
     max-width: 1340px;
     padding-top: 0;
-    img {
-        z-index: 0;
-    }
     @include mobile-break-width {
         width: 100%;
     }
@@ -130,7 +130,7 @@
         background-size: cover;
         position: absolute;
         bottom: 60px;
-        z-index: 0;
+        z-index: 1;
         img {
             @include mobile-break-width {
                 display: none;
@@ -182,6 +182,7 @@
             line-height: 1.36;
             left: initial;
             right: 50px;
+            margin-right: 40px;
         }
     }
     p {
@@ -259,7 +260,7 @@
     .one {
         margin-top: 70px;
         @include mobile-break-width {
-            width: 528px;
+            width: 500px;
         }
     }
     .two {
