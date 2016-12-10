@@ -15,6 +15,13 @@ get_header(); ?>
 					<?php the_post_thumbnail( 'original' ); ?>
 				<?php endif; ?>
 			</section>
+			<section class="nav-links article-nav-links-archive">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+				<a href="<?php echo get_page_link(10); ?>">&nbsp;Resources &gt; </a>
+				<a href="<?php echo get_post_type_archive_link( 'article' ); ?>">&nbsp;Articles &#38; Research &gt; </a>
+				<p><?php wp_title( '' ); ?></p>
+
+			</section>
 		<section class="single-article-content container-text">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content', 'single-recipe' ); ?>
@@ -26,11 +33,13 @@ get_header(); ?>
 	</section>
 <section>
 	<h2 class="entry-title-article">Recipes you might also like</h2>
-	<?php
+<div class="related-posts-wrapper">
+		<?php
 $values = CFS()->get( 'recipes_related' );
+
 foreach ( $values as $post_id ) {
 		$the_post = get_post( $post_id ); ?>
-		<div class="article-wrapper">
+		<div class="article-wrapper article-wrapper-related">
 			<div class="article-single-image">
 					<?php echo  get_the_post_thumbnail($post_id, 'large');?>
 			</div>
@@ -44,6 +53,7 @@ foreach ( $values as $post_id ) {
 
 	<?php	;
 } ?>
+</div>
 </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->

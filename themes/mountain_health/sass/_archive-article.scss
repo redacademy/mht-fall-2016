@@ -78,13 +78,19 @@
 
 .article-single-image {
     width: 100%;
-    height: 342px;
+    height: 146px;
+
     img{
       height: 100%;
       width: 100%;
       object-fit: cover;
       border-radius: 10px 10px 0 10px;
     }
+    @include mobile-break-width {
+      height: 342px;
+
+}
+
 }
 
 .article-grid-content {
@@ -105,11 +111,26 @@ align-items: center;
         font-size: 25px;
         a {
             color: white;
-        }
+
         &:visited {
             color: white;
-        }
+        }}
     }
+    a {
+      font-family: 'oswald';
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 17px;
+    &:visited {
+        color: white;
+    }
+    @include mobile-break-width {
+      font-size: 36px;
+      line-height: 1.25;
+
+}
+  }
 }
 
 .article-archive-title {
