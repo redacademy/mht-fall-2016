@@ -4,7 +4,7 @@
 }
 
 .about-page {
-    width: 100%;
+    max-width: 1340px;
     padding-top: 0;
     img {
         z-index: 0;
@@ -175,9 +175,6 @@
         padding: 10px;
         display: flex;
         flex-wrap: wrap;
-        position: absolute;
-        top: 0;
-        left: 40px;
         width: 270px;
         @include mobile-break-width {
             width: 705px;
@@ -221,7 +218,6 @@
 .amanda-bg {
     margin: 0 auto;
     position: absolute;
-    left: 10px;
     @include mobile-break-width {
         width: 1054px;
         height: 392px;
@@ -231,6 +227,7 @@
         display: flex;
         justify-content: flex-end;
         margin-right: 0px;
+        position: initial;
     }
 }
 
@@ -239,8 +236,6 @@
     padding: 0 25px;
     .amanda-road-map-wrapper {
         position: relative;
-        width: 300px;
-        margin: 0 auto;
         display: flex;
         justify-content: center;
     }

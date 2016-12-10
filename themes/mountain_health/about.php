@@ -27,7 +27,6 @@
                 <img class="amanda-bg-mobile" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/amanda-bg.png" alt="Dr. Amanda Chay">
                 <div class="amanda-bg">
                     <div class="about-amanda-text">
-                        <div></div>
                         <p>
                             <span class="i-in-about">I </span>
                             <p class="first-sentence">am a Naturopathic Physician and owner of Mountain
@@ -51,10 +50,10 @@
             </div>
         </section>
         <section class="education">
-            <section class="amanda-road-map-wrapper">
+            <div class="amanda-road-map-wrapper">
                 <img class="amanda-road-map-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line-shape-full.png" alt="gradient line">
                 <img class="amanda-road-map" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/line-and-dots.png" alt="gradient line">
-            </section>
+            </div>
             <div class="one">
                 <h4>Doctor of Naturopathic Medicine</h4>
                 <p>Boucher Institute of Naturopathic Medicine</p>
