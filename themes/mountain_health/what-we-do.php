@@ -3,6 +3,7 @@
 <?php get_header();?>
 <div id="primary" class="content-area what-we-do">
 	<main id="main" class="site-main" role="main">
+        <div class="content">
         <div class="what-we-do-hero">    
             <h1>What We Do</h1>
             <p>At Mountain Health, we focus on providing you the knowledge 
@@ -107,3 +108,4 @@
 </div><!-- #primary -->
 
 <?php get_footer(); ?>
+</div>

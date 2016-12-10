@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+            <div class="content">
         <section class="book-appointment-hero">
             <h1>Book An Appointment</h1>
         </section>
@@ -80,3 +80,4 @@ get_header(); ?>
 
 
 <?php get_footer(); ?>
+</div>

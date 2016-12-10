@@ -84,6 +84,7 @@
 						</div>
 				</header><!-- #masthead -->
 			</section>
+			<div class="search-state-dt"><?php get_search_form(); ?></div>
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 					
 					

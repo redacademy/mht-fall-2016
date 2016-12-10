@@ -11,6 +11,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<div class="content">
 			<section class="secondary-hero error-hero">
 				<h1>404</h1>
 				<p>We're sorry! Looks like we sent you to the wrong place.</p>
@@ -37,4 +38,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_footer(); ?>
+	<?php get_footer(); ?>
+</div>

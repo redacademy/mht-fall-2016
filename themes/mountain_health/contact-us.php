@@ -4,6 +4,7 @@
 
 <div id="primary" class="content-area contact-us">
 	<main id="main" class="site-main" role="main">
+    <div class="content">
         <div class="contact-us-hero">
             <h1>Contact Us</h1>
         </div>
@@ -57,3 +58,4 @@
 	<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
 </div>
 <?php get_footer(); ?>
+</div>

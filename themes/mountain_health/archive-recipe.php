@@ -9,10 +9,11 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-<section class="archive-recipe-hero-image">
-<h1>Recipes &amp; Nutrition</h1>
-<p>All our recipes have been picked by Dr. Chay to complement your lifestyle changes and support your best health.</p>
-</section>
+			<div class="content">
+			<section class="archive-recipe-hero-image">
+				<h1>Recipes &amp; Nutrition</h1>
+				<p>All our recipes have been picked by Dr. Chay to complement your lifestyle changes and support your best health.</p>
+			</section>
 
 			<section class="nav-links article-nav-links-archive">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
@@ -50,3 +51,4 @@ get_header(); ?>
 		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
 	</div>
 	<?php get_footer(); ?>
+</div>

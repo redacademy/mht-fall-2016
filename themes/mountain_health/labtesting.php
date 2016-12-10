@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+			<div class="content"
 			<section class="labtesting-hero-image">
 				<h1>Lab Testing</h1>
 				<p>We offer a range of life labs to best help you make choices concerning your health and best treatment options for you.</p>
@@ -96,7 +96,7 @@ Although Naturopathic physicians can write lab requisitions, it is not covered b
 </div>
 <div class="how-can how-can-position">
 			<h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
-			<a  class="front-button flex-button" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
+			<a  class="front-button flex-button large-button" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
 													<!--Button links to book an appointment 5.0-->
 	</div>
 	<div class="mountains">
@@ -104,3 +104,4 @@ Although Naturopathic physicians can write lab requisitions, it is not covered b
 		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
 	</div>
 <?php get_footer(); ?>
+</div>
