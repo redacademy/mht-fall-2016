@@ -7,6 +7,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+        <div class="content">
         <section class="redirect">
             <div class="redirect-head-img">
                 <h2>Redirecting to</h2>
@@ -53,3 +54,4 @@ get_header(); ?>
     	</main><!-- #main -->
 </div><!-- #primary -->
 <?php get_footer(); ?>
+</div>

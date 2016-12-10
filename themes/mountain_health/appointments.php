@@ -8,7 +8,7 @@
 get_header(); ?>
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
-
+          <div class="content">
           <section class="appointments-hero-image">
           <h1>Appointments</h1>
           <p>We believe your time is valuable and are here to listen to all your concerns and find how we can best help you.</p>
@@ -72,3 +72,4 @@ get_header(); ?>
       <img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
     </div>
     <?php get_footer(); ?>
+</div>

@@ -3,6 +3,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
+		<div class="content">
 		<div class="resources-hero secondary-hero">
 			<h1>Resources</h1>
 			<p>We are here to help, but sometimes you have questions in between appointments. We provide you with articles, recipes, and more.</p>
@@ -18,7 +19,7 @@ get_header(); ?>
 				<p>
 				Learn about what’s new at Mountain Health and discover upcoming events.
 				</p>
-				<a href="<?php echo get_post_type_archive_link('news-events')?>" >Read More</a>
+				<a href="<?php echo get_page_link(58); ?>" >Read More</a>
 			</div>
 
 			<div class="articles-research">
@@ -47,3 +48,4 @@ get_header(); ?>
 	<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
 </div>
 <?php get_footer(); ?>
+</div>

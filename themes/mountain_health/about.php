@@ -4,6 +4,7 @@
 <div id="primary" class="content-area about-page">
 	<main id="main" class="site-main" role="main">
         <?php get_header(); ?>
+        <div class="content">
         <section class="about-hero">
             <div class="parallax-scroll-about"></div>
             <div class="about-title">
@@ -102,3 +103,4 @@
 	<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo">
 </div>
 <?php get_footer(); ?>
+</div>

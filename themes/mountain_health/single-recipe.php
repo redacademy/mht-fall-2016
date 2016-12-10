@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+			<div class="content">
 			<section class="hero-article-image">
 				<?php if ( has_post_thumbnail() ) : ?>
 					<?php the_post_thumbnail( 'original' ); ?>
@@ -34,3 +34,4 @@ get_header(); ?>
 		<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">
 		<img class="mountain1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain-1@3x.png" alt="Phone logo"></div>
 <?php get_footer(); ?>
+</div>
