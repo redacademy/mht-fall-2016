@@ -1689,7 +1689,7 @@ object {
   position: relative; }
 
 .about-page {
-  width: 100%;
+  max-width: 1340px;
   padding-top: 0; }
   .about-page img {
     z-index: 0; }
@@ -1853,9 +1853,6 @@ object {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    position: absolute;
-    top: 0;
-    left: 40px;
     width: 270px; }
     @media (min-width: 480px) {
       .about-amanda .about-amanda-text {
@@ -1890,8 +1887,7 @@ object {
 
 .amanda-bg {
   margin: 0 auto;
-  position: absolute;
-  left: 10px; }
+  position: absolute; }
   @media (min-width: 480px) {
     .amanda-bg {
       width: 1054px;
@@ -1903,15 +1899,14 @@ object {
       display: flex;
       -ms-flex-pack: end;
           justify-content: flex-end;
-      margin-right: 0px; } }
+      margin-right: 0px;
+      position: initial; } }
 
 .education {
   text-align: center;
   padding: 0 25px; }
   .education .amanda-road-map-wrapper {
     position: relative;
-    width: 300px;
-    margin: 0 auto;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -2066,7 +2061,7 @@ object {
         width: 100%;
         height: 394px; } }
     .what-we-do .experience h3 {
-      font-family: Oswald;
+      font-family: 'Oswald', sans-serif;
       font-size: 17px;
       line-height: 36px;
       text-transform: uppercase;
@@ -2998,7 +2993,7 @@ object {
   .resources-hero h1 {
     font-size: 17px;
     color: white;
-    font-family: 'Oswald';
+    font-family: 'Oswald',sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     margin-top: 0px;
