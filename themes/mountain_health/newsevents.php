@@ -63,6 +63,7 @@ get_header(); ?>
       </article>
 
     <?php endwhile; ?>
+
     <!-- end of the loop -->
     <!-- pagination here -->
     <?php
@@ -70,7 +71,7 @@ get_header(); ?>
         custom_pagination($custom_query->max_num_pages,"",$paged);}?>
   		<?php wp_reset_postdata(); ?>
   	<?php else:  ?>
-    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    <p><?php _e( 'Check back later for upcoming events or subscribe to our newsletter for updates!' ); ?></p>
   	<?php endif; ?>
 </div>
 
@@ -141,13 +142,10 @@ get_header(); ?>
 						<?php endwhile; // End of the loop. ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<div class="load-more">
-		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/down-arrow-load-more.png" alt="logo">
-		<a href="#">Load More</a>
+
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content', 'page' ); ?>
 		<?php endwhile; // End of the loop. ?>
-	</div>
 
 	<div class="mountains">
 		<img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">

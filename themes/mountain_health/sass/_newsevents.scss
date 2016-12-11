@@ -1,34 +1,47 @@
 .archive-news-hero-image {
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url(../../MTH-Assets/photos/visual-hero-banner@3x-news_event.png) no-repeat top;
-    background-size: cover;
-    height: 40vh;
-    h1 {
-        text-transform: uppercase;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-news-event.png) no-repeat top;
+        background-size: cover;
+        height: 25vh;
+        h1 {
+            text-transform: uppercase;
+            font-size: 17px;
+            @include mobile-break-width {
+            font-size: 48px;
     }
-    p {
-        text-align: center;
-        font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
-        font-size: 15px;
-        @media (min-width: 600px) {
-            max-width: 800px;
         }
-    }
-}
+        p {
+            text-align: center;
+            font-family: 'open_sans', 'sans-serif';
+            font-weight: light;
+            font-size: 15px;
+            max-width: 80%;
+            @include mobile-break-width {
+              font-size: 22px;
+                max-width: 800px;
+            }
+        }
+        @include mobile-break-width {
 
+        height: 320px;
+    }
+    }
 .news-events-btns {
     display: flex;
     justify-content: center;
     cursor: pointer;
-    width: 223px*2;
+    width: 80%;
     text-align: center;
     border: solid 4px #1a9481;
     border-radius: 10px 10px 0px 10px;
+    @include mobile-break-width {
+      width: 223px*2;
+
+}
 }
 
 .news-events-wrapper {
@@ -38,7 +51,7 @@
 }
 
 .news-section-on {
-    font-size: xx-large;
+  font-size: x-large;
     border: none;
     background-color: #1a9481;
     width: 223px;
@@ -48,30 +61,42 @@
     padding: 0.75rem 1rem;
     color: white;
     height: 80px;
+    @include mobile-break-width {
+      font-size: xx-large;
+
+}
 }
 
 .events-section-off {
-    font-size: xx-large;
+    font-size: x-large;
     border: none;
     background-color: transparent;
     width: 223px;
     text-align: center;
     height: 80px;
     color: #003d5c;
+    @include mobile-break-width {
+      font-size: xx-large;
+
+}
 }
 
 .news-section-off {
-    font-size: xx-large;
+    font-size: x-large;
     border: none;
     background-color: transparent;
     width: 223px;
     text-align: center;
     height: 80px;
     color: #003d5c;
+    @include mobile-break-width {
+      font-size: xx-large;
+
+}
 }
 
 .events-section-on {
-    font-size: xx-large;
+    font-size: x-large;
     border: none;
     background-color: #1a9481;
     width: 223px;
@@ -81,11 +106,15 @@
     padding: 0.75rem 1rem;
     color: white;
     height: 80px;
+    @include mobile-break-width {
+      font-size: xx-large;
+
+}
 }
 
 .single-event-wrapper {
-    width: 380px;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
     display: flex;
     flex-direction: column;
     @include mobile-break-width {
@@ -96,8 +125,14 @@
 
 .single-eventinfo-wrapper {
     padding-bottom: 1rem;
+    @include mobile-break-width {
+}
     .content {
         color: #003d5c;
+        font-size: 15px;
+        @include mobile-break-width {
+        font-size: 22px;
+}
     }
     h1 {
         margin: 0;
@@ -106,10 +141,18 @@
         text-align: left;
         color: #6a7059;
         text-transform: uppercase;
+        font-size: 17px;
+        @include mobile-break-width {
+
+        font-size: 36px;
+}
+
     }
     @include mobile-break-width {
         width: 520px*2;
         padding: 40px;
+        padding-left: 0;
+
         .link-read-more-archive {
             float: left;
         }
@@ -136,4 +179,37 @@
         width: 520px*2;
         padding: 40px;
     }
+}
+.custom-pagination {
+  text-align: center;
+.page-numbers{
+  padding: 1rem;
+}
+a{
+color: #003557;
+&:visited{
+  color: #003557;
+
+}
+}
+  .current{
+  background: #003557;
+    border-radius: 50% 50%;
+    padding: 8px;
+    color: white;
+}
+.page-num{
+  display: none;
+}
+}
+.custom-data-event {
+  .posted-on{
+    font-size: 15;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem 0 .5rem 0;
+    @include mobile-break-width {
+    font-size: 22px;
+}
+  }
 }
