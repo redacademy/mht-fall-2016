@@ -519,8 +519,11 @@ ul {
   margin: 0; }
 
 body {
-  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
-  background-size: cover; }
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg-mobile.jpg);
+  background-size: contain; }
+  @media (min-width: 480px) {
+    body {
+      background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg); } }
 
 .site-main,
 .main-header,
