@@ -285,10 +285,13 @@
             @include mobile-break-width {
                 align-items: flex-start;
                 justify-content: center;
-                padding-left: 10px;
+                padding-left: 30px;
                 p {
                     margin: 0;
                     text-align: left;
+                }
+                h3{
+                  text-align: left;
                 }
             }
         }

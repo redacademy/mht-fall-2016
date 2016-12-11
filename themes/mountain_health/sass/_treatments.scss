@@ -48,6 +48,10 @@
             background-color: #1a9481;
             outline: none;
         }
+        @include mobile-break-width {
+          font-size: 22px;
+
+}
     }
     @include mobile-break-width {
         margin-left: 20px !important;
@@ -188,4 +192,12 @@
 }
 .treatment-price{
   font-weight: bold;
+  @include mobile-break-width {
+padding: 1.5rem;
 }
+}
+.book-appointment-btn{
+display: flex;
+    justify-content: center;
+    width: 21%;
+    padding: .75rem 1.5rem;}
