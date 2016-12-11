@@ -3023,6 +3023,9 @@ object {
         font-size: 36px; } }
   .contact-us p {
     font-size: 15px; }
+    @media (min-width: 480px) {
+      .contact-us p {
+        font-size: 22px; } }
   .contact-us .call,
   .contact-us .send-us-a-message,
   .contact-us .open-hours {
@@ -3104,6 +3107,9 @@ object {
     font-size: 15px;
     line-height: 19px;
     color: #003d5c; }
+    @media (min-width: 480px) {
+      .contact-us label {
+        font-size: 22px; } }
   .contact-us input {
     width: 280px;
     height: 41px;
@@ -3112,6 +3118,9 @@ object {
     border-radius: 4px;
     color: rgba(155, 155, 155, 0.6);
     padding-left: 15px; }
+    @media (min-width: 480px) {
+      .contact-us input {
+        font-size: 22px; } }
   .contact-us textarea {
     width: 280px;
     height: 280px;
