@@ -71,7 +71,7 @@ get_header(); ?>
         custom_pagination($custom_query->max_num_pages,"",$paged);}?>
   		<?php wp_reset_postdata(); ?>
   	<?php else:  ?>
-    <p><?php _e( 'Check back later for upcoming events or subscribe to our newsletter for updates!' ); ?></p>
+    <p class="no-data-msg"><?php _e( 'Check back later for upcoming events or subscribe to our newsletter for updates!' ); ?></p>
   	<?php endif; ?>
 </div>
 

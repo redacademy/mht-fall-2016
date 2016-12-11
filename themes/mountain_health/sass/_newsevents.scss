@@ -213,3 +213,11 @@ color: #003557;
 }
   }
 }
+.no-data-msg{
+  color: #003557;
+  text-align: center;
+  font-size: 15px;
+  @include mobile-break-width {
+font-size: 22px;
+}
+}

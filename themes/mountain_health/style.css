@@ -2487,21 +2487,28 @@ object {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: url(../../MTH-Assets/photos/visual-hero-banner@3x-appointment.png) no-repeat top;
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-appointments.png) no-repeat top;
   background-size: cover;
-  height: 40vh; }
+  height: 25vh; }
   .appointments-hero-image h1 {
-    font-size: 17px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 17px; }
+    @media (min-width: 480px) {
+      .appointments-hero-image h1 {
+        font-size: 48px; } }
   .appointments-hero-image p {
-    font-size: 15px;
     text-align: center;
     font-family: 'open_sans', 'sans-serif';
     font-weight: light;
-    font-size: 15px; }
+    font-size: 15px;
+    max-width: 80%; }
     @media (min-width: 480px) {
       .appointments-hero-image p {
+        font-size: 22px;
         max-width: 800px; } }
+  @media (min-width: 480px) {
+    .appointments-hero-image {
+      height: 320px; } }
 
 .text-stroke-box {
   border-radius: 10px 10px 0 10px;
@@ -2539,9 +2546,12 @@ object {
   .text-stroke-box-middle h3 {
     margin-top: 10px;
     font-family: 'oswald', 'sans-serif';
-    font-size: 36px;
+    font-size: 17px;
     line-height: 0.67;
     color: #6a7059; }
+    @media (min-width: 480px) {
+      .text-stroke-box-middle h3 {
+        font-size: 36px; } }
   .text-stroke-box-middle p {
     margin: 1rem;
     margin-left: 0;
@@ -2549,12 +2559,21 @@ object {
     font-weight: light;
     line-height: 1.36;
     color: #003d5c; }
+    .text-stroke-box-middle p:nth-child(2) {
+      font-size: 15px; }
+      @media (min-width: 480px) {
+        .text-stroke-box-middle p:nth-child(2) {
+          font-size: 22px; } }
     .text-stroke-box-middle p:nth-child(3), .text-stroke-box-middle p:nth-child(4) {
       margin-bottom: 0;
       font-size: 15px;
       font-weight: bold;
       line-height: 0.69;
       color: #1a9481; }
+      @media (min-width: 480px) {
+        .text-stroke-box-middle p:nth-child(3), .text-stroke-box-middle p:nth-child(4) {
+          font-size: 22px;
+          padding: 1rem; } }
     .text-stroke-box-middle p .duration-style {
       color: #003d5c; }
 
@@ -2563,10 +2582,11 @@ object {
 
 @media (min-width: 480px) {
   .photo-apointment1 {
-    width: 100%; } }
+    width: 100%;
+    object-fit: cover; } }
 
 .appointments-wrapper-inner {
-  width: 280px;
+  width: 85%;
   margin: 0 auto; }
   @media (min-width: 480px) {
     .appointments-wrapper-inner {
@@ -2579,6 +2599,9 @@ object {
           justify-content: space-between; }
       .appointments-wrapper-inner .photo-apointment1 {
         height: 480px; } }
+
+.front-button-appointments {
+  padding: .75rem 1.5rem; }
 
 .book-appointment-hero {
   height: 123px;
@@ -4036,6 +4059,14 @@ header.entry-header-article {
   padding: 1rem 0 .5rem 0; }
   @media (min-width: 480px) {
     .custom-data-event .posted-on {
+      font-size: 22px; } }
+
+.no-data-msg {
+  color: #003557;
+  text-align: center;
+  font-size: 15px; }
+  @media (min-width: 480px) {
+    .no-data-msg {
       font-size: 22px; } }
 
 .search-results .page-header {

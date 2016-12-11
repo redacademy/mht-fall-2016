@@ -64,7 +64,7 @@ get_header(); ?>
     <!-- #primary -->
     <div class="how-can">
         <h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
-        <a  class="front-button flex-button" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
+        <a  class="front-button flex-button front-button-appointments" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
                                       <!--button links to 5.0 book appointment-->
     </div>
     <div class="mountains">
