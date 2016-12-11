@@ -19,12 +19,9 @@
         }
     }
     .main-header header {
-        background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
-        background-size: cover;
-        background-position-y: 0px;
+        background: none;
         .phone-number-white {
             color: white;
-            // padding-right: 13px;
         }
         .MTH-logo-white {
             display: block;
@@ -79,7 +76,6 @@
         margin-bottom: 20px;
         margin-top: 0px;
         line-height: 41px;
-        letter-spacing: 3px;
         font-family: 'Oswald', 'sans-serif';
         text-transform: uppercase;
         text-align: center;

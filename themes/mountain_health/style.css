@@ -679,7 +679,7 @@ body {
   -ms-flex-flow: column;
       flex-flow: column;
   position: absolute;
-  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png), white;
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg-mobile.jpg);
   background-size: cover;
   width: 100%;
   text-align: center;
@@ -812,7 +812,9 @@ body {
   color: white;
   z-index: 99;
   text-transform: uppercase;
-  padding: 0 20px; }
+  padding: 0 40px;
+  font-size: 17px;
+  font-family: "oswald", "san-serif"; }
 
 .search p {
   font-family: "oswald", "san-serif"; }
@@ -1184,18 +1186,20 @@ object {
   .search-field-mobile .fa {
     display: none; }
 
-.search .search-icon {
-  height: 16px;
-  width: 20px;
-  padding-right: 5px;
-  padding-top: 1px; }
-
-.search p {
-  margin: 0;
-  font-family: "oswald", "san-serif"; }
-
-.search:hover {
-  cursor: pointer; }
+.search {
+  display: -ms-flexbox;
+  display: flex; }
+  .search .search-icon {
+    height: 16px;
+    width: 20px;
+    padding-right: 5px; }
+  .search .search-logo-white {
+    padding-top: 3px; }
+  .search p {
+    margin: 0;
+    font-family: "oswald", "san-serif"; }
+  .search:hover {
+    cursor: pointer; }
 
 .header-hide {
   display: none; }
@@ -1220,9 +1224,7 @@ object {
     font-family: 'oswald', 'sans-serif';
     font-weight: normal; }
   .front-page .main-header header {
-    background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
-    background-size: cover;
-    background-position-y: 0px; }
+    background: none; }
     .front-page .main-header header .phone-number-white {
       color: white; }
     .front-page .main-header header .MTH-logo-white {
@@ -1277,7 +1279,6 @@ object {
     margin-bottom: 20px;
     margin-top: 0px;
     line-height: 41px;
-    letter-spacing: 3px;
     font-family: 'Oswald', 'sans-serif';
     text-transform: uppercase;
     text-align: center; }
@@ -1768,15 +1769,8 @@ object {
     .about-page {
       width: 100%; } }
   .about-page .main-header header {
-    background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
-    background-position-y: -75px;
-    background-size: 100%;
-    width: 100%;
-    margin: 0 auto; }
-    @media (min-width: 480px) {
-      .about-page .main-header header {
-        width: 100%;
-        background: grey; } }
+    background: none;
+    width: 100%; }
     .about-page .main-header header .phone-number-white {
       color: white; }
   .about-page .MTH-logo-white {
@@ -1859,7 +1853,7 @@ object {
     margin-bottom: 20px; }
 
 .fa-bars {
-  margin-right: 15px; }
+  margin-right: 11px; }
 
 .amanda-photo {
   width: 100%;
@@ -3030,7 +3024,6 @@ object {
       .contact-us h2 {
         font-size: 36px; } }
   .contact-us p {
-<<<<<<< HEAD
     font-size: 15px;
     color: #003A5F; }
   .contact-us .bread-crumb-contact-us {
@@ -3042,14 +3035,9 @@ object {
   .contact-us .send-us-a-message {
     margin: 0;
     font-weight: bold; }
-=======
-    font-size: 15px; }
     @media (min-width: 480px) {
-      .contact-us p {
+      .contact-us .send-us-a-message {
         font-size: 22px; } }
-  .contact-us .call,
-  .contact-us .send-us-a-message,
->>>>>>> 8127855b6264c5d8a9e5fa1079d51ed27f7b14e8
   .contact-us .open-hours {
     font-weight: bold; }
   .contact-us .number-and-icon {
@@ -3806,6 +3794,7 @@ header.entry-header-article {
   padding-top: 10px; }
 
 .article-single-wrapper {
+  width: 632px;
   margin: 0 auto;
   padding-top: 2rem;
   display: -ms-flexbox;

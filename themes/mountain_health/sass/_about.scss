@@ -1,7 +1,7 @@
 // ********************** About styling section***
 .amanda-section {
     position: relative;
-    @include mobile-break-width{
+    @include mobile-break-width {
         margin-top: 300px;
     }
 }
@@ -13,15 +13,8 @@
         width: 100%;
     }
     .main-header header {
-        background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
-        background-position-y: -75px;
-        background-size: 100%;
+        background: none;
         width: 100%;
-        margin: 0 auto;
-        @include mobile-break-width {
-            width: 100%;
-            background: grey;
-        }
         .phone-number-white {
             color: white;
         }
@@ -110,7 +103,7 @@
 }
 
 .fa-bars {
-    margin-right: 15px;
+    margin-right: 11px;
 }
 
 .amanda-photo {
@@ -235,7 +228,7 @@
 .education {
     text-align: center;
     padding: 0 25px;
-    @include mobile-break-width{
+    @include mobile-break-width {
         position: relative;
         height: 1080px;
     }
@@ -267,8 +260,8 @@
             width: 500px;
             margin: 0px;
             position: absolute;
-            left:2%;
-            top:65px;
+            left: 2%;
+            top: 65px;
         }
     }
     .two {
@@ -283,13 +276,13 @@
     }
     .three {
         margin-top: 70px;
-        @include mobile-break-width{
-            margin:0px;
+        @include mobile-break-width {
+            margin: 0px;
         }
     }
     .four {
         margin-top: 58px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             position: absolute;
             top: 600px;
             right: 22%;
@@ -298,9 +291,9 @@
     }
     .five {
         margin-top: 84px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             width: 360px;
-            margin:0px;
+            margin: 0px;
             position: absolute;
             top: 790px;
             left: 12%;
@@ -311,7 +304,7 @@
         margin-bottom: 30px;
         @include mobile-break-width {
             width: 550px;
-            margin:0px;
+            margin: 0px;
             position: absolute;
             top: 940px;
             right: 16%;
@@ -351,7 +344,7 @@
     @include mobile-break-width {
         position: absolute;
         width: 546px;
-        top:388px;
+        top: 388px;
         p {
             @include mobile-break-width {
                 width: 367px;
@@ -378,64 +371,64 @@
     }
 }
 
-.road-map-dot{
+.road-map-dot {
     display: none;
-    @include mobile-break-width{
-    display: initial;
-    position: absolute;
+    @include mobile-break-width {
+        display: initial;
+        position: absolute;
     }
 }
 
-.dot-1{
+.dot-1 {
     left: 39.2%;
     top: 95px;
     z-index: 1;
 }
 
-.dot-2{
+.dot-2 {
     left: 38.5%;
     top: 250px;
     z-index: 1;
 }
 
-.dot-3{
+.dot-3 {
     left: 37.55%;
     top: 420px;
     z-index: 1;
 }
 
-.dot-4{
+.dot-4 {
     left: 42.5%;
     top: 631px;
     z-index: 1;
 }
 
-.dot-5{
+.dot-5 {
     left: 40.6%;
     top: 820px;
     z-index: 1;
 }
 
-.dot-6{
+.dot-6 {
     left: 37.8%;
     top: 980px;
     z-index: 1;
 }
 
-.about-page{
-   .how-can-we-help-you{
-       @include mobile-break-width{
-           margin-top:80px;
-           font-size: $medium-font-dt;
-           margin-bottom: 40px;
-       }
-   } 
+.about-page {
+    .how-can-we-help-you {
+        @include mobile-break-width {
+            margin-top: 80px;
+            font-size: $medium-font-dt;
+            margin-bottom: 40px;
+        }
+    }
 }
 
-.about-page{
-    .book-appointment{
-        @include mobile-break-width{
-            width:280px;
+.about-page {
+    .book-appointment {
+        @include mobile-break-width {
+            width: 280px;
             height: 60px;
             font-size: $small-font-dt;
             display: flex;

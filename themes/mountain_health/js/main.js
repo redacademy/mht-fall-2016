@@ -2,11 +2,12 @@
     // shows the navigation when hamburger is clicked
     // changes phone number and logo from blue to green
     $('.phone-and-number-green').hide();
+
+    $('.x-logo').hide();
     // $('.mobile-menu').hide();
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
         $('.content, footer, .mountains').toggle();
-
         $('.mobile-menu').animate({ height: 'toggle' });
         $('.mobile-menu').removeClass('.mobile-menu-hide');
         $('.fa-bars').toggle();
@@ -16,13 +17,8 @@
         $(".about-page .phone-green, .front-page .phone-green").hide();
         // $(".about-page .main-header header .phone-and-number-green .phone-green, .front-page .main-header header .phone-and-number-green .phone-green").hide();
         $(".about-page .main-header header .phone-white .front-page .main-header header .phone-white").show();
-
-    });
-    // toggles hamburger when clicked and shows X on menu bar
-
-    $('.x-logo').hide();
-    $('.menu-toggle').on('click', function(event) {
-        event.preventDefault();
+        $('.mth-logo-white').toggle();
+        $('.mth-logo-dt').toggle();
 
     });
 
@@ -133,12 +129,12 @@
 
     //adding counter to the redirect page
     function countdown() {
-    var i = document.getElementById('counter');
-    if (parseInt(i.innerHTML)<=0) {
-        location.href = 'login.php';
+        var i = document.getElementById('counter');
+        if (parseInt(i.innerHTML) <= 0) {
+            location.href = 'login.php';
+        }
+        i.innerHTML = parseInt(i.innerHTML) - 1;
     }
-    i.innerHTML = parseInt(i.innerHTML)-1;
-}
-setInterval(function(){ countdown(); },1000);
+    setInterval(function() { countdown(); }, 1000);
 
 })(jQuery);
