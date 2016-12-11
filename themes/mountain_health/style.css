@@ -2953,6 +2953,9 @@ object {
     background: url(../../MTH-Assets/photos/hero-visual-banner-contact-us@3x.png) no-repeat;
     background-size: cover;
     height: 125px; }
+    @media (min-width: 480px) {
+      .contact-us .contact-us-hero {
+        height: 320px; } }
     .contact-us .contact-us-hero h1 {
       text-transform: uppercase; }
       @media (min-width: 480px) {
@@ -2976,6 +2979,8 @@ object {
       .contact-us iframe {
         width: 960px;
         height: 482px; } }
+  .contact-us .contact-us-address {
+    padding: 0 75px; }
   .contact-us .external-link {
     font-family: 'open_sans', 'sans-serif';
     font-weight: light;
@@ -3737,6 +3742,8 @@ header.entry-header-article {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   padding-top: 10px; }
 
 .article-single-wrapper {

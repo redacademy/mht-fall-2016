@@ -4,8 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-recipes-nutrition.png) no-repeat top;
+    background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-recipes-nutrition.png) no-repeat top;
     background-size: cover;
     height: 40vh;
     h1 {
@@ -21,13 +20,14 @@
         }
     }
 }
+
 .archive-article-hero-image {
     color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-articles.png) no-repeat top;
+    background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-articles.png) no-repeat top;
     background-size: cover;
     height: 40vh;
     h1 {
@@ -45,7 +45,7 @@
 }
 
 .grid-archive-article {
-  @include mobile-break-width {
+    @include mobile-break-width {
         width: 1300px;
         margin: 0 auto;
         display: flex;
@@ -57,11 +57,12 @@
 .article-nav-links-archive {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 10px;
 }
 
 .article-single-wrapper {
-  width: 632px;
+    width: 632px;
     margin: 0 auto;
     padding-top: 2rem;
     @include mobile-break-width {
@@ -79,58 +80,54 @@
 .article-single-image {
     width: 100%;
     height: 146px;
-
-    img{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      border-radius: 10px 10px 0 10px;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 10px;
     }
     @include mobile-break-width {
-      height: 342px;
-
-}
-
+        height: 342px;
+    }
 }
 
 .article-grid-content {
-
-  background: linear-gradient(90deg,rgba(0, 53, 87, 0.44),rgba(0, 155, 132, 0.41));
-  width: 100%;
-border-radius: 10px 10px 0 10px;
-height: 100%;
+    background: linear-gradient(90deg, rgba(0, 53, 87, 0.44), rgba(0, 155, 132, 0.41));
+    width: 100%;
+    border-radius: 10px 10px 0 10px;
+    height: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
     h2 {
         text-transform: uppercase;
         font-size: 25px;
         a {
             color: white;
-
-        &:visited {
-            color: white;
-        }}
+            &:visited {
+                color: white;
+            }
+        }
     }
     a {
-      font-family: 'oswald';
+        font-family: 'oswald';
         color: white;
         text-align: center;
         text-transform: uppercase;
         font-size: 17px;
-    &:visited {
-        color: white;
+        &:visited {
+            color: white;
+        }
+        @include mobile-break-width {
+            font-size: 36px;
+            line-height: 1.25;
+            padding: 2rem;
+        }
     }
-    @include mobile-break-width {
-      font-size: 36px;
-      line-height: 1.25;
-padding: 2rem;
-}
-  }
 }
 
 .article-archive-title {

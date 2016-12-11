@@ -9,6 +9,9 @@
         background: url(../../MTH-Assets/photos/hero-visual-banner-contact-us@3x.png) no-repeat;
         background-size: cover;
         height: 125px;
+        @include mobile-break-width {
+            height: 320px;
+        }
         h1 {
             text-transform: uppercase;
             @include mobile-break-width {
@@ -35,6 +38,9 @@
             width: 960px;
             height: 482px;
         }
+    }
+    .contact-us-address {
+        padding: 0 75px;
     }
     .external-link {
         font-family: 'open_sans', 'sans-serif';
