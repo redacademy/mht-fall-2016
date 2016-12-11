@@ -1181,19 +1181,18 @@ object {
   .search-field-mobile .fa {
     display: none; }
 
-.search {
-  display: -ms-flexbox;
-  display: flex; }
-  .search .search-icon {
-    height: 16px;
-    width: 20px;
-    padding-right: 5px;
-    padding-top: 1px; }
-  .search p {
-    margin: 0;
-    font-family: "oswald", "san-serif"; }
-  .search:hover {
-    cursor: pointer; }
+.search .search-icon {
+  height: 16px;
+  width: 20px;
+  padding-right: 5px;
+  padding-top: 1px; }
+
+.search p {
+  margin: 0;
+  font-family: "oswald", "san-serif"; }
+
+.search:hover {
+  cursor: pointer; }
 
 .header-hide {
   display: none; }
@@ -4071,12 +4070,11 @@ header.entry-header-article {
 
 .search-results .page-header {
   height: 123px;
-  background: url(../../MTH-Assets/photos/search-results-hero.png);
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-search-result.png) no-repeat top;
   background-size: cover;
   background-position: center center; }
   @media (min-width: 480px) {
     .search-results .page-header {
-      background: url(../../MTH-Assets/photos/search-results-hero-desktop.png);
       height: 320px; } }
   .search-results .page-header .page-title {
     padding-top: 40px;
