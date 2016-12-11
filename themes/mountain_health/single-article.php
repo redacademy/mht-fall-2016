@@ -30,7 +30,7 @@ get_header();
 		<?php endwhile; // End of the loop. ?>
 	</section>
 <section>
-	<h2 class="entry-title-article">Article you might also like</h2>
+	<h2 class="entry-title-article">Articles you might also like</h2>
 	<div class="related-posts-wrapper">
 			<?php
 	$values = CFS()->get( 'article_related' );

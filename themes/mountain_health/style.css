@@ -3790,7 +3790,8 @@ header.entry-header-article {
     @media (min-width: 480px) {
       .article-grid-content a {
         font-size: 36px;
-        line-height: 1.25; } }
+        line-height: 1.25;
+        padding: 2rem; } }
 
 .article-archive-title {
   text-align: center; }
