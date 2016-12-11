@@ -3668,6 +3668,10 @@ header.entry-header-article {
   -ms-flex-align: center;
       align-items: center;
   text-align: center; }
+  .not-found-div a {
+    color: white; }
+    .not-found-div a:visited {
+      color: white; }
   @media (min-width: 480px) {
     .not-found-div {
       margin-top: 141px;
