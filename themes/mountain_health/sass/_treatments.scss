@@ -65,7 +65,7 @@
 .treatment-description {
     position: absolute;
     top: 150px;
-    width: 280px;
+    width: 90%;
     transform: translate(-50%, -50%);
     left: 50%;
     height: 150px;
@@ -88,10 +88,10 @@
         margin: 0;
         margin-bottom: 10px;
     }
-    @media (min-width: 600px) {
+    @include mobile-break-width {
         width: 1324px;
         height: 700px;
-        top: 38rem;
+        top: 42rem;
         h3 {
             font-size: 36px;
         }
@@ -117,7 +117,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-size: 280px 228px;
+    background-size: 100% 228px;
     img {
         border-radius: 6px 6px 0 0;
     }
@@ -128,6 +128,7 @@
         text-align: center;
         color: #ffffff;
         text-transform: uppercase;
+        padding: 1rem;
         @include mobile-break-width {
             font-size: 36px;
         }
@@ -159,19 +160,32 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(../../MTH-Assets/photos/visual-hero-banner-treatment@3x.png) no-repeat top;
+    background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-treatments.png) no-repeat top;
     background-size: cover;
-    height: 40vh;
+    height: 25vh;
     h1 {
         text-transform: uppercase;
+        font-size: 17px;
+        @include mobile-break-width {
+        font-size: 48px;
+  }
     }
     p {
         text-align: center;
         font-family: 'open_sans', 'sans-serif';
         font-weight: light;
         font-size: 15px;
-        @media (min-width: 600px) {
+        max-width: 80%;
+        @include mobile-break-width {
+          font-size: 22px;
             max-width: 800px;
         }
     }
+    @include mobile-break-width {
+
+    height: 320px;
+  }
+}
+.treatment-price{
+  font-weight: bold;
 }

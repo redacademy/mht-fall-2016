@@ -4484,7 +4484,7 @@ header.entry-header-article {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  width: 280px;
+  width: 90%;
   margin: 0 auto; }
   @media (min-width: 480px) {
     .laptesting-imag-text {
@@ -4614,7 +4614,7 @@ header.entry-header-article {
 .treatment-description {
   position: absolute;
   top: 150px;
-  width: 280px;
+  width: 90%;
   transform: translate(-50%, -50%);
   left: 50%;
   height: 150px; }
@@ -4635,11 +4635,11 @@ header.entry-header-article {
     color: #ffffff;
     margin: 0;
     margin-bottom: 10px; }
-  @media (min-width: 600px) {
+  @media (min-width: 480px) {
     .treatment-description {
       width: 1324px;
       height: 700px;
-      top: 38rem; }
+      top: 42rem; }
       .treatment-description h3 {
         font-size: 36px; }
       .treatment-description p {
@@ -4662,7 +4662,7 @@ header.entry-header-article {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center;
-  background-size: 280px 228px; }
+  background-size: 100% 228px; }
   .also-lab-testing-div img {
     border-radius: 6px 6px 0 0; }
   .also-lab-testing-div h3 {
@@ -4671,7 +4671,8 @@ header.entry-header-article {
     line-height: 0.3;
     text-align: center;
     color: #ffffff;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 1rem; }
     @media (min-width: 480px) {
       .also-lab-testing-div h3 {
         font-size: 36px; } }
@@ -4703,16 +4704,28 @@ header.entry-header-article {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: url(../../MTH-Assets/photos/visual-hero-banner-treatment@3x.png) no-repeat top;
+  background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-treatments.png) no-repeat top;
   background-size: cover;
-  height: 40vh; }
+  height: 25vh; }
   .treatment-hero-image h1 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 17px; }
+    @media (min-width: 480px) {
+      .treatment-hero-image h1 {
+        font-size: 48px; } }
   .treatment-hero-image p {
     text-align: center;
     font-family: 'open_sans', 'sans-serif';
     font-weight: light;
-    font-size: 15px; }
-    @media (min-width: 600px) {
+    font-size: 15px;
+    max-width: 80%; }
+    @media (min-width: 480px) {
       .treatment-hero-image p {
+        font-size: 22px;
         max-width: 800px; } }
+  @media (min-width: 480px) {
+    .treatment-hero-image {
+      height: 320px; } }
+
+.treatment-price {
+  font-weight: bold; }

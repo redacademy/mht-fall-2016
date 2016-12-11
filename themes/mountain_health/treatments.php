@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="content">
 			<section class="treatment-hero-image">
 				<h1>Treatments</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+				<p>We offer a variety of treatments custom tailored to your needs to help your body heal in the best way for you.</p>
 			</section>
 
 			<section class="nav-links article-nav-links-archive bread-crumb-general">
@@ -35,7 +35,7 @@ get_header(); ?>
 
 					<div class="treatment-description-single-active treatment-description "
 					style="display:none;
-					background-image: url(<?php  echo $field['treatment_img']; ?>);
+					background-image: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)),url(<?php  echo $field['treatment_img']; ?>);
 					background-size:cover;
 					display: flex;
      			flex-direction: column;
