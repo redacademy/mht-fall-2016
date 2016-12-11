@@ -4231,8 +4231,29 @@ header.entry-header-article {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
   -ms-flex-align: center;
       align-items: center; }
+  @media (min-width: 480px) {
+    .redirect-head-img {
+      -ms-flex-direction: row;
+          flex-direction: row; } }
+
+.why-use-all {
+  -ms-flex-flow: wrap;
+      flex-flow: wrap; }
+
+.why-use-smartnd-content {
+  margin: 0 4rem; }
+
+.why-use-upper {
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.why-use-lower {
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
 
 .labtesting-hero-image {
   color: #ffffff;
