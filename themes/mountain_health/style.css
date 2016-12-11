@@ -3592,13 +3592,12 @@ header.entry-header-article {
   height: 123px;
   text-align: center;
   color: white;
-  background: url(../../MTH-Assets/photos/404-hero.png);
+  background: url(../../MTH-Assets/photos/404-hero-desktop.png), no-repeat top;
   background-size: cover;
   background-position: center center; }
   @media (min-width: 480px) {
     .error-hero {
-      height: 320px;
-      background: url(../../MTH-Assets/photos/404-hero-desktop.png); } }
+      height: 320px; } }
   .error-hero p {
     text-align: center;
     font-size: 15px;

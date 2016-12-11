@@ -7,12 +7,11 @@
     height: 123px;
     text-align: center;
     color: white;
-    background: url(../../MTH-Assets/photos/404-hero.png);
+    background: url(../../MTH-Assets/photos/404-hero-desktop.png), no-repeat top;
     background-size: cover;
     background-position: center center;
     @include mobile-break-width {
         height: 320px;
-        background: url(../../MTH-Assets/photos/404-hero-desktop.png);
     }
     p {
         text-align: center;
