@@ -1,24 +1,34 @@
 .labtesting-hero-image {
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url(../../MTH-Assets/photos/visual-hero-banner-labtesting@3x.png) no-repeat top;
-    background-size: cover;
-    height: 40vh;
-    h1 {
-        text-transform: uppercase;
-    }
-    p {
-        text-align: center;
-        font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
-        font-size: 15px;
-        @media (min-width: 600px) {
-            max-width: 800px;
-        }
-    }
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-labtesting.png) no-repeat top;
+  background-size: cover;
+  height: 25vh;
+  h1 {
+      text-transform: uppercase;
+      font-size: 17px;
+      @include mobile-break-width {
+      font-size: 48px;
+}
+  }
+  p {
+      text-align: center;
+      font-family: 'open_sans', 'sans-serif';
+      font-weight: light;
+      font-size: 15px;
+      max-width: 80%;
+      @include mobile-break-width {
+        font-size: 22px;
+          max-width: 800px;
+      }
+  }
+  @include mobile-break-width {
+
+  height: 320px;
+}
 }
 
 .labtesting-btn-off {
@@ -48,6 +58,12 @@
             background-color: #1a9481;
             outline: none;
         }
+        @include mobile-break-width {
+
+        width: 100%;
+height: 100%;
+font-size: 22px;
+}
     }
     @include mobile-break-width {
         width: 316px;
@@ -83,7 +99,7 @@
     flex-direction: column;
     align-items: center;
     background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
-    background-size: 280px 228px;
+    background-size: 100% 228px;
     img {
         border-radius: 6px 6px 0 0;
     }
@@ -138,6 +154,7 @@
         width: 876px;
         p {
             font-size: 22px;
+            padding: 1.5rem;
         }
     }
 }
@@ -149,7 +166,7 @@
 .labtesting-single-wrapper-active {
     position: absolute;
     top: 150px;
-    width: 280px;
+    width: 90%;
     transform: translate(-50%, -50%);
     left: 50%;
     height: 150px;
@@ -186,6 +203,7 @@
     display: flex;
     justify-content: space-between;
     overflow: scroll;
+    padding-left: 1rem;
     @include mobile-break-width {
         width: 1324px;
         margin: 0 auto;
@@ -219,6 +237,9 @@
         line-height: 1;
         padding-top: 10px;
         margin-bottom: 0;
+        @include mobile-break-width {
+        font-size: 36px;
+}
     }
     p {
         font-family: 'open_sans', 'sans-serif';
@@ -229,6 +250,9 @@
         margin-top: 10px;
         text-align: center;
         color: #003d5c;
+        @include mobile-break-width {
+        font-size: 22px;
+}
     }
 }
 
@@ -244,6 +268,10 @@
         text-align: center;
         color: #003d5c;
         line-height: 1.2;
+
+        @include mobile-break-width {
+font-size: 22px;
+}
     }
     p {
         text-align: center;
@@ -251,6 +279,10 @@
         max-width: 220px;
         line-height: 1.2;
         color: #003d5c;
+
+        @include mobile-break-width {
+font-size: 22px;
+}
     }
     @include mobile-break-width {
         width: 20%;
@@ -337,4 +369,15 @@
     a:visited {
         color: white;
     }
+}
+
+.discover-more-btn button{
+  @include mobile-break-width {
+font-size: 22px;
+}
+}
+.did-u-know-header{
+  @include mobile-break-width {
+font-size: 36px;
+}
 }
