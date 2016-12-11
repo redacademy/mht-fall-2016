@@ -3450,10 +3450,10 @@ input::-webkit-input-placeholder {
 
 .single-article-content {
   margin: 0 auto;
-  max-width: 277px; }
+  max-width: 85%; }
   @media (min-width: 480px) {
     .single-article-content {
-      max-width: 866px; }
+      max-width: 60%; }
       .single-article-content p {
         font-size: 22px; } }
 
@@ -3474,6 +3474,9 @@ input::-webkit-input-placeholder {
       .entry-content-article p:nth-child(1):first-letter {
         padding: 0px 25px 5px 3px;
         font-size: 5rem; } }
+  @media (min-width: 480px) {
+    .entry-content-article p {
+      font-size: 22px; } }
 
 .entry-title-article {
   font-family: 'oswald', 'sans-serif';
@@ -3546,6 +3549,9 @@ header.entry-header-article {
 
 .article-wrapper-related {
   margin: 10px 20px; }
+
+.thick-single {
+  font-weight: bold; }
 
 .error404 {
   background: url(../../MTH-Assets/photos/main-bg.png);
@@ -3675,17 +3681,26 @@ header.entry-header-article {
       flex-direction: column;
   background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-recipes-nutrition.png) no-repeat top;
   background-size: cover;
-  height: 40vh; }
+  height: 25vh; }
   .archive-recipe-hero-image h1 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 17px; }
+    @media (min-width: 480px) {
+      .archive-recipe-hero-image h1 {
+        font-size: 48px; } }
   .archive-recipe-hero-image p {
     text-align: center;
     font-family: 'open_sans', 'sans-serif';
     font-weight: light;
-    font-size: 15px; }
+    font-size: 15px;
+    max-width: 80%; }
     @media (min-width: 480px) {
       .archive-recipe-hero-image p {
+        font-size: 22px;
         max-width: 800px; } }
+  @media (min-width: 480px) {
+    .archive-recipe-hero-image {
+      height: 320px; } }
 
 .archive-article-hero-image {
   color: #ffffff;
@@ -3713,6 +3728,7 @@ header.entry-header-article {
 
 @media (min-width: 480px) {
   .grid-archive-article {
+    width: 80%;
     width: 1300px;
     margin: 0 auto;
     display: -ms-flexbox;
@@ -3730,11 +3746,17 @@ header.entry-header-article {
   padding-top: 10px; }
 
 .article-single-wrapper {
-  width: 632px;
   margin: 0 auto;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
   @media (min-width: 480px) {
     .article-single-wrapper {
+      width: 632px;
       margin: 9px; } }
 
 .article-wrapper {
@@ -3743,7 +3765,8 @@ header.entry-header-article {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  margin: 20px; }
 
 .article-single-image {
   width: 100%;
@@ -3796,9 +3819,15 @@ header.entry-header-article {
 .article-archive-title {
   text-align: center; }
 
-.archive-entry-content p {
-  font-size: 20px;
-  color: #003d5c; }
+.archive-entry-content {
+  width: 80%;
+  padding-bottom: 20px; }
+  .archive-entry-content p {
+    font-size: 20px;
+    color: #003d5c; }
+    @media (min-width: 480px) {
+      .archive-entry-content p {
+        font-size: 22px; } }
 
 .load-more {
   display: -ms-flexbox;
