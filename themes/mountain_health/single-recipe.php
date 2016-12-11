@@ -27,8 +27,8 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'single-recipe' ); ?>
 		<?php endwhile; // End of the loop. ?>
 		<p><?php echo CFS()->get( 'servings' );?></p>
-		<p>Ingredients: <?php echo CFS()->get( 'ingredients' );?></p>
-		<p>Directions: <?php echo CFS()->get( 'directions' );?></p>
+		<p><span class="thick-single">Ingredients: </span><?php echo CFS()->get( 'ingredients' );?></p>
+		<p><span class="thick-single">Directions: </span><?php echo CFS()->get( 'directions' );?></p>
 		<p><?php echo CFS()->get( 'source' );?></p>
 	</section>
 <section>

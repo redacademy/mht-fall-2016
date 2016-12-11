@@ -78,5 +78,25 @@
 .redirect-head-img {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    @include mobile-break-width {
+flex-direction: row;
+}
+}
+.why-use-all{
+  flex-flow: wrap;
+  // justify-content: space-around;
+}
+.why-use-smartnd-content{
+  margin: 0 4rem;
+
+
+}
+.why-use-upper{
+  justify-content: space-around;
+}
+.why-use-lower{
+  justify-content: space-around;
+
 }

@@ -17,9 +17,9 @@ img{
 
 .single-article-content {
     margin: 0 auto;
-    max-width: 277px;
+    max-width: 85%;
     @include mobile-break-width {
-      max-width: 866px;
+      max-width: 60%;
 p{
   font-size: 22px;
 }
@@ -48,6 +48,11 @@ p{
         }
 
     }
+    @include mobile-break-width {
+      font-size: 22px;
+
+
+}
 }
 
 .entry-title-article {
@@ -126,4 +131,7 @@ header.entry-header-article {
 }
 .article-wrapper-related{
   margin: 10px 20px;
+}
+.thick-single{
+  font-weight: bold;
 }

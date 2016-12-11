@@ -84,6 +84,9 @@
     .send-us-a-message {
         margin: 0;
         font-weight: bold;
+        @include mobile-break-width {
+            font-size: 22px;
+        }
     }
     .open-hours {
         font-weight: bold;
@@ -161,6 +164,9 @@
         font-size: $small-font;
         line-height: 19px;
         color: #003d5c;
+        @include mobile-break-width {
+            font-size: 22px;
+        }
     }
     input {
         width: 280px;
@@ -170,6 +176,9 @@
         border-radius: 4px;
         color: rgba(155, 155, 155, 0.6);
         padding-left: 15px;
+        @include mobile-break-width {
+            font-size: 22px;
+        }
     }
     textarea {
         width: 280px;
