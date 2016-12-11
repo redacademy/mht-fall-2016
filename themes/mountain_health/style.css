@@ -2950,9 +2950,9 @@ object {
         align-items: center;
     -ms-flex-direction: column;
         flex-direction: column;
-    background: url(../../MTH-Assets/photos/hero-visual-banner-contact-us@3x.png) no-repeat top;
+    background: url(../../MTH-Assets/photos/hero-visual-banner-contact-us@3x.png) no-repeat;
     background-size: cover;
-    height: 319px; }
+    height: 125px; }
     .contact-us .contact-us-hero h1 {
       text-transform: uppercase; }
       @media (min-width: 480px) {
@@ -2985,8 +2985,8 @@ object {
     cursor: pointer; }
   .contact-us .x-icon {
     position: absolute;
-    top: 196px;
-    left: 53.5%;
+    top: 157px;
+    left: 46.5%;
     z-index: 3; }
   .contact-us h1 {
     font-weight: normal;
@@ -3000,9 +3000,17 @@ object {
       .contact-us h2 {
         font-size: 36px; } }
   .contact-us p {
-    font-size: 15px; }
-  .contact-us .call,
-  .contact-us .send-us-a-message,
+    font-size: 15px;
+    color: #003A5F; }
+  .contact-us .bread-crumb-contact-us {
+    color: #1a9481;
+    font-size: 13px; }
+  .contact-us .call {
+    font-weight: bold;
+    margin: 1rem; }
+  .contact-us .send-us-a-message {
+    margin: 0;
+    font-weight: bold; }
   .contact-us .open-hours {
     font-weight: bold; }
   .contact-us .number-and-icon {
@@ -3015,6 +3023,8 @@ object {
     -ms-flex-pack: center;
         justify-content: center;
     margin: 0 auto; }
+    .contact-us .number-and-icon .phone-icon {
+      height: 30px; }
     .contact-us .number-and-icon .phone-number {
       color: #1a9481;
       font-size: 17px;
@@ -3065,18 +3075,18 @@ object {
           -ms-flex-align: center;
               align-items: center; } }
   .contact-us div.wpcf7-mail-sent-ok {
-    padding: 0.2em 1em;
+    padding: 2rem;
     position: absolute;
-    top: 0;
     position: absolute;
-    top: 86px;
-    width: 320px;
+    top: 45px;
+    width: 100%;
     height: 125px;
     margin: 0 auto;
     left: 0;
     color: white;
     text-align: center;
-    background: url(../../MTH-Assets/other/message-sent-bg.png);
+    background: url(../../MTH-Assets/other/message-sent-bg.png) no-repeat;
+    background-size: cover;
     border: none; }
   .contact-us label {
     font-size: 15px;
@@ -3116,13 +3126,13 @@ object {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  padding: 19px;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
   text-transform: uppercase;
-  color: #003d5c; }
+  color: #003d5c;
+  line-height: 1; }
   .or p {
     padding-top: 5px;
     border: 8px solid white; }

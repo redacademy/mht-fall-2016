@@ -11,7 +11,7 @@
 
 				<section class="nav-links article-nav-links-archive">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
-					<p>&nbsp;<?php wp_title( '' ); ?></p>
+					<p class="bread-crumb-contact-us">&nbsp;<?php wp_title( '' ); ?></p>
 				</section>
 
          <img class="x-icon" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/close-btn.png" alt="x icon">
@@ -20,7 +20,7 @@
         <p class="call">Call</p>
 
         <div class="number-and-icon">
-            <img class="phone-icon" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-green.png" alt="phone icon">
+            <img class="phone-icon" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone@3x.png" alt="phone icon">
             <a href="tel:+604-442-5864" class="phone-number">604-442-5864</a>
         </div>
         <div class="or">
