@@ -1,28 +1,27 @@
 .hero-article-image {
-height: 280px;
-img{
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-  @include mobile-break-width {
-    width: 100%;
-    height: 100%;
+    height: 280px;
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    @include mobile-break-width {
+        width: 100%;
+        height: 100%;
         img {
-      width: 100%;
+            width: 100%;
+        }
     }
 }
-}
-
 
 .single-article-content {
     margin: 0 auto;
     max-width: 85%;
     @include mobile-break-width {
-      max-width: 60%;
-p{
-  font-size: 22px;
-}
+        max-width: 60%;
+        p {
+            font-size: 22px;
+        }
     }
 }
 
@@ -41,18 +40,14 @@ p{
             font-size: 4rem;
             font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
             @include mobile-break-width {
-              padding: 0px 25px 5px 3px;
-              font-size: 5rem;
-}
-
+                padding: 0px 25px 5px 3px;
+                font-size: 5rem;
+            }
         }
-
     }
     @include mobile-break-width {
-      font-size: 22px;
-
-
-}
+        font-size: 22px;
+    }
 }
 
 .entry-title-article {
@@ -63,8 +58,8 @@ p{
     display: block;
     width: 100%;
     @include mobile-break-width {
-font-size: 36px;
-}
+        font-size: 36px;
+    }
 }
 
 header.entry-header-article {
@@ -102,36 +97,41 @@ header.entry-header-article {
     top: 0;
     left: 0;
     bottom: 0;
+    margin-top: 40px;
 }
-.entry-header-article{
-  h1{
-    font-size: 1.5rem;
-    @include mobile-break-width {
-    font-size: 48px;
-    width: auto;
-}
-  }
 
+.entry-header-article {
+    h1 {
+        font-size: 1.5rem;
+        @include mobile-break-width {
+            font-size: 48px;
+            width: auto;
+        }
+    }
 }
-.article-nav-links-archive{
-  @include mobile-break-width {
-  font-size: 16px;
+
+.article-nav-links-archive {
+    @include mobile-break-width {
+        font-size: 16px;
+    }
 }
+
+.related-posts-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include mobile-break-width {
+        flex-direction: row;
+        width: 600*2px;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
 }
-.related-posts-wrapper{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  @include mobile-break-width {
-    flex-direction: row;
-    width: 600*2px;
-    margin: 0 auto;
-    padding-bottom: 2rem;
+
+.article-wrapper-related {
+    margin: 10px 20px;
 }
-}
-.article-wrapper-related{
-  margin: 10px 20px;
-}
-.thick-single{
-  font-weight: bold;
+
+.thick-single {
+    font-weight: bold;
 }
