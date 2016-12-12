@@ -17,7 +17,7 @@
     p {
         text-align: center;
         font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
         font-size: 15px;
         max-width: 80%;
         @include mobile-break-width {
@@ -45,7 +45,7 @@
     p {
         text-align: center;
         font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
         font-size: 15px;
         @include mobile-break-width {
             max-width: 800px;

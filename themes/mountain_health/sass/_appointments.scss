@@ -1,34 +1,33 @@
 .appointments-hero-image {
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-appointments.png) no-repeat top;
-  background-size: cover;
-  height: 25vh;
-  h1 {
-      text-transform: uppercase;
-      font-size: 17px;
-      @include mobile-break-width {
-      font-size: 48px;
-}
-  }
-  p {
-      text-align: center;
-      font-family: 'open_sans', 'sans-serif';
-      font-weight: light;
-      font-size: 15px;
-      max-width: 80%;
-      @include mobile-break-width {
-        font-size: 22px;
-          max-width: 800px;
-      }
-  }
-  @include mobile-break-width {
-
-  height: 320px;
-}
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-appointments.png) no-repeat top;
+    background-size: cover;
+    height: 25vh;
+    h1 {
+        text-transform: uppercase;
+        font-size: 17px;
+        @include mobile-break-width {
+            font-size: 48px;
+        }
+    }
+    p {
+        text-align: center;
+        font-family: 'open_sans', 'sans-serif';
+        font-weight: lighter;
+        font-size: 15px;
+        max-width: 80%;
+        @include mobile-break-width {
+            font-size: 22px;
+            max-width: 800px;
+        }
+    }
+    @include mobile-break-width {
+        height: 320px;
+    }
 }
 
 .text-stroke-box {
@@ -44,7 +43,6 @@
         width: 1324px/2;
         margin: 15px 0 15px 0;
         width: 49%;
-
     }
 }
 
@@ -76,21 +74,22 @@
         line-height: 0.67;
         color: #6a7059;
         @include mobile-break-width {
-          font-size: 36px;}
+            font-size: 36px;
+        }
     }
     p {
         margin: 1rem;
         ;
         margin-left: 0;
         font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
         line-height: 1.36;
         color: #003d5c;
-        &:nth-child(2){
-          font-size: 15px;
-          @include mobile-break-width {
-          font-size: 22px;
-}
+        &:nth-child(2) {
+            font-size: 15px;
+            @include mobile-break-width {
+                font-size: 22px;
+            }
         }
         &:nth-child(3),
         &:nth-child(4) {
@@ -100,9 +99,9 @@
             line-height: 0.69;
             color: #1a9481;
             @include mobile-break-width {
-            font-size: 22px;
-            padding: 1rem;
-  }
+                font-size: 22px;
+                padding: 1rem;
+            }
         }
         .duration-style {
             color: #003d5c;
@@ -118,7 +117,6 @@
     @include mobile-break-width {
         width: 100%;
         object-fit: cover;
-
     }
 }
 
@@ -135,6 +133,8 @@
         }
     }
 }
-.front-button-appointments{
-  padding: .75rem 1.5rem;;
+
+.front-button-appointments {
+    padding: .75rem 1.5rem;
+    ;
 }

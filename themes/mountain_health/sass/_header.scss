@@ -20,10 +20,10 @@
         @include mobile-break-width {
             width: 100%;
             padding: 0;
-            max-width: 1364px;
             height: 110px;
             .header-button {
                 display: block;
+                font-weight: lighter;
                 width: 200px;
                 background: linear-gradient(90deg, #003557 0%, #009B84 100%);
                 height: 50px;
@@ -67,6 +67,9 @@
         width: 15%;
         text-transform: uppercase;
         font-family: oswald, "san-serif";
+        a {
+            color: #1a9481;
+        }
         a:visited {
             color: #1a9481;
             font-family: oswald, "san-serif";
@@ -101,9 +104,6 @@
 
 .MTH-logo-white {
     display: none;
-    @include mobile-break-width {
-        display: none !important;
-    }
 }
 
 .phone-white {
@@ -164,10 +164,15 @@
         height: 0;
         align-items: center;
         li {
-            margin: 0;
+            margin: 0 15px;
         }
         li:first-child {
             margin: 0 15px;
+            margin-left: 30px;
+        }
+        li:nth-child(2),
+        li:nth-child(3) {
+            margin-right: 0;
         }
         a {
             font-size: 16px;
@@ -178,20 +183,28 @@
         }
         .sub-menu {
             text-align: left;
-            width: 220px;
+            width: 190px;
             height: 160px;
             justify-content: space-around;
             align-items: center;
+            text-align: center;
             padding: 0;
             margin: 0;
-            background: rgba(255, 255, 255, 0.75);
-            // background: rgba(255, 255, 255, 0.75);
+            background-color: rgba(255, 255, 255, 0.9);
+            li a {
+                color: $header-color;
+            }
             &:hover {
                 background: white;
                 display: block;
+                padding: 0;
             }
         }
     }
+}
+
+#primary-menu li:hover>ul {
+    display: block!important
 }
 
 .search-state-dt {
@@ -228,6 +241,15 @@
     }
 }
 
+.search-logo-white {
+    display: none;
+    @include mobile-break-width {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+
 .mobile-menu-hide {
     display: none;
     position: fixed;
@@ -258,6 +280,12 @@
 
 .search p {
     font-family: "oswald", "san-serif";
+}
+
+.external-link-logo-dt,
+.external-link-logo-white-dt {
+    width: 17px;
+    height: 17px;
 }
 
 .patient-portal {
@@ -295,6 +323,7 @@
     @include mobile-break-width {
         p {
             color: #1a9481;
+            font-size: 16px;
             ;
         }
     }

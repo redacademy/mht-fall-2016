@@ -58,7 +58,7 @@
                         <li>Time spent listening to all of<br>
                         your health concerns</li>
                     </ul>
-                    <a href="<?php echo get_page_link(29); ?>" class="front-button what-is-button">See Our Appointments</a>
+                    <a href="<?php echo get_page_link(29); ?>" class="front-button what-is-button large-button">See Our Appointments</a>
                     <p class="note">*all inital visits are limited to one hour,<br>
                     to avoid taking too much time out of your day</p>
                 </div>
@@ -73,7 +73,6 @@
                         <li><span class="list-span">Individualized treatment</span></li>
                     </ul>
                     <a href="<?php echo get_page_link(25); ?>" class="front-button what-is-button large-button">See Our Treatments</a>
-                                                <!--button above links to treatments 2.2-->
                 </div>
             </div>
             <p class="all-visits">*All initial visits are one hour, to avoid taking too much time out of your day</p>
@@ -85,7 +84,6 @@
                     <p>Naturopathic doctors use both treatments and testing that are evidence based, 
                         and also those that have been proven to work traditionally through clinical experience.</p>
                     <button class="front-button flex-button large-button">See More About Us</button>
-                                            <!--Button above links to about 1.0-->
                 </div>
             </div>
             <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "prevNextButtons": false, "pageDots": false}'>

@@ -59,6 +59,7 @@
         $('.x-icon').hide();
         $('.contact-us').removeClass('.grey-background');
     });
+    // drop down for desktop
 
 
 
@@ -99,6 +100,10 @@
     $(".about-page .main-header header .MTH-logo-dt, .front-page .main-header header .MTH-logo-dt").hide();
     $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
     $(".about-page .main-header header .phone-and-number .phone-white .front-page .main-header header .phone-and-number .phone-white").show();
+    $(".about-page .search-icon-dt, .front-page .search-icon-dt").hide();
+    $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
+    $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
+
 
     $(window).on("scroll", function() {
         if ($(window).scrollTop() > 1) {
@@ -109,6 +114,14 @@
             $(".about-page .main-header header .MTH-logo-dt, .front-page .main-header header .MTH-logo-dt").show();
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").hide();
             $(".about-page .main-header header .phone-white, .front-page .main-header header .phone-white").hide();
+            $(".about-page .search-icon-dt, .front-page .search-icon-dt").show();
+            $(".about-page .search-logo-white, .front-page .search-logo-white").hide();
+            $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").show();
+            $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").hide();
+            $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "#1a9481");
+            $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "#1a9481");
+
+
 
         } else {
             $(".about-page .main-header header, .front-page .main-header header").removeClass("header-white");
@@ -118,12 +131,22 @@
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
             $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").hide();
             $(".about-page .main-header header .phone-and-number .phone-white, .front-page .main-header header .phone-and-number .phone-white").show();
+            $(".about-page .search-icon-dt, .front-page .search-icon-dt").hide();
+            $(".about-page .search-logo-white, .front-page .search-logo-white").show();
+            $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
+            $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
+            $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "white");
+            $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
+
+
+
+
         }
     });
     // search state desktop
     $('.search-state-dt').hide();
 
-    $('.search-icon-dt').on('click', function() {
+    $('.search-icon-dt, .search-logo-white').on('click', function() {
         $('.search-state-dt').animate({ height: 'toggle' });
     });
 

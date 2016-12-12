@@ -5,9 +5,6 @@
     }
     .site-main {
         p {
-            font-size: 15px;
-            font-family: 'open_sans', 'sans-serif';
-            font-weight: light;
             @include mobile-break-width {
                 font-size: $small-font-dt;
             }
@@ -20,14 +17,24 @@
     }
     .main-header header {
         background: none;
+        a {
+            color: white;
+        }
+        #primary-menu a {
+            color: white;
+        }
         .phone-number-white {
             color: white;
+            @include mobile-break-width {
+                font-size: 16px;
+            }
         }
         .MTH-logo-white {
             display: block;
             width: 30px;
             @include mobile-break-width {
-                display: none;
+                width: 80px;
+                height: auto;
             }
         }
         .phone-white {
@@ -54,7 +61,7 @@
     height: 480px;
     background-size: cover;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -127,7 +134,9 @@
         width: 26px;
         background-color: #1a9481;
         margin: 0 auto;
-        border-radius: 20000px;
+        border-radius: 20px;
+        border: 2px solid;
+        border-color: rgba(26, 148, 129, .1);
         @include mobile-break-width {
             width: 50px;
             height: 50px;
@@ -141,7 +150,7 @@
         text-decoration: none;
         color: white;
         font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
     }
 }
 

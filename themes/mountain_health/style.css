@@ -587,10 +587,10 @@ body {
     .main-header header {
       width: 100%;
       padding: 0;
-      max-width: 1364px;
       height: 110px; }
       .main-header header .header-button {
         display: block;
+        font-weight: lighter;
         width: 200px;
         background: linear-gradient(90deg, #003557 0%, #009B84 100%);
         height: 50px;
@@ -629,6 +629,8 @@ body {
       width: 15%;
       text-transform: uppercase;
       font-family: oswald, "san-serif"; }
+      .patient-portal-desktop a {
+        color: #1a9481; }
       .patient-portal-desktop a:visited {
         color: #1a9481;
         font-family: oswald, "san-serif";
@@ -657,9 +659,6 @@ body {
 
 .MTH-logo-white {
   display: none; }
-  @media (min-width: 480px) {
-    .MTH-logo-white {
-      display: none !important; } }
 
 .phone-white {
   display: none; }
@@ -716,9 +715,13 @@ body {
       -ms-flex-align: center;
           align-items: center; }
       #primary-menu li {
-        margin: 0; }
-      #primary-menu li:first-child {
         margin: 0 15px; }
+      #primary-menu li:first-child {
+        margin: 0 15px;
+        margin-left: 30px; }
+      #primary-menu li:nth-child(2),
+      #primary-menu li:nth-child(3) {
+        margin-right: 0; }
       #primary-menu a {
         font-size: 16px; }
         #primary-menu a i {
@@ -726,18 +729,25 @@ body {
           letter-spacing: 12px; }
       #primary-menu .sub-menu {
         text-align: left;
-        width: 220px;
+        width: 190px;
         height: 160px;
         -ms-flex-pack: distribute;
             justify-content: space-around;
         -ms-flex-align: center;
             align-items: center;
+        text-align: center;
         padding: 0;
         margin: 0;
-        background: rgba(255, 255, 255, 0.75); }
+        background-color: rgba(255, 255, 255, 0.9); }
+        #primary-menu .sub-menu li a {
+          color: #677257; }
         #primary-menu .sub-menu:hover {
           background: white;
-          display: block; } }
+          display: block;
+          padding: 0; } }
+
+#primary-menu li:hover > ul {
+  display: block !important; }
 
 .search-state-dt {
   position: relative;
@@ -786,6 +796,14 @@ body {
         outline: none;
         color: #1a9481; }
 
+.search-logo-white {
+  display: none; }
+  @media (min-width: 480px) {
+    .search-logo-white {
+      display: block;
+      width: 20px;
+      height: 20px; } }
+
 .mobile-menu-hide {
   display: none;
   position: fixed; }
@@ -819,6 +837,11 @@ body {
 .search p {
   font-family: "oswald", "san-serif"; }
 
+.external-link-logo-dt,
+.external-link-logo-white-dt {
+  width: 17px;
+  height: 17px; }
+
 .patient-portal {
   display: -ms-flexbox;
   display: flex; }
@@ -850,7 +873,8 @@ body {
     padding-right: 8px; }
   @media (min-width: 480px) {
     .phone-and-number p {
-      color: #1a9481; } }
+      color: #1a9481;
+      font-size: 16px; } }
 
 .phone-and-number-green {
   display: -ms-flexbox;
@@ -948,7 +972,10 @@ a {
         .main-navigation ul li:hover > ul a,
         .main-navigation ul li.focus > ul a {
           display: block;
-          text-decoration: none; } }
+          text-decoration: none; }
+        .main-navigation ul li:hover > ul ul:hover,
+        .main-navigation ul li.focus > ul ul:hover {
+          display: block; } }
 
 /* Small menu. */
 .menu-toggle,
@@ -1212,27 +1239,31 @@ object {
   padding-top: 0; }
   .front-page .hamburger {
     color: white; }
-  .front-page .site-main p {
-    font-size: 15px;
-    font-family: 'open_sans', 'sans-serif';
-    font-weight: light; }
-    @media (min-width: 480px) {
-      .front-page .site-main p {
-        font-size: 22px; } }
+  @media (min-width: 480px) {
+    .front-page .site-main p {
+      font-size: 22px; } }
   .front-page .site-main h2,
   .front-page .site-main h3 {
     font-family: 'oswald', 'sans-serif';
     font-weight: normal; }
   .front-page .main-header header {
     background: none; }
+    .front-page .main-header header a {
+      color: white; }
+    .front-page .main-header header #primary-menu a {
+      color: white; }
     .front-page .main-header header .phone-number-white {
       color: white; }
+      @media (min-width: 480px) {
+        .front-page .main-header header .phone-number-white {
+          font-size: 16px; } }
     .front-page .main-header header .MTH-logo-white {
       display: block;
       width: 30px; }
       @media (min-width: 480px) {
         .front-page .main-header header .MTH-logo-white {
-          display: none; } }
+          width: 80px;
+          height: auto; } }
     .front-page .main-header header .phone-white {
       display: block;
       height: 20px; }
@@ -1253,7 +1284,7 @@ object {
   height: 480px;
   background-size: cover;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   display: -ms-flexbox;
@@ -1321,7 +1352,9 @@ object {
   width: 26px;
   background-color: #1a9481;
   margin: 0 auto;
-  border-radius: 20000px; }
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: rgba(26, 148, 129, 0.1); }
   @media (min-width: 480px) {
     .hero-banner .keep-scrolling {
       width: 50px;
@@ -1333,7 +1366,7 @@ object {
     text-decoration: none;
     color: white;
     font-family: 'open_sans', 'sans-serif';
-    font-weight: light; }
+    font-weight: lighter; }
 
 .underline-strip {
   width: 160px;
@@ -1771,14 +1804,22 @@ object {
   .about-page .main-header header {
     background: none;
     width: 100%; }
+    .about-page .main-header header a {
+      color: white; }
+    .about-page .main-header header #primary-menu a {
+      color: white; }
     .about-page .main-header header .phone-number-white {
       color: white; }
+      @media (min-width: 480px) {
+        .about-page .main-header header .phone-number-white {
+          font-size: 16px; } }
   .about-page .MTH-logo-white {
     display: block;
     width: 30px; }
     @media (min-width: 480px) {
       .about-page .MTH-logo-white {
-        display: none; } }
+        width: 80px;
+        height: auto; } }
   .about-page .phone-white {
     display: block;
     height: 20px; }
@@ -2495,7 +2536,7 @@ object {
   .appointments-hero-image p {
     text-align: center;
     font-family: 'open_sans', 'sans-serif';
-    font-weight: light;
+    font-weight: lighter;
     font-size: 15px;
     max-width: 80%; }
     @media (min-width: 480px) {
@@ -2552,7 +2593,7 @@ object {
     margin: 1rem;
     margin-left: 0;
     font-family: 'open_sans', 'sans-serif';
-    font-weight: light;
+    font-weight: lighter;
     line-height: 1.36;
     color: #003d5c; }
     .text-stroke-box-middle p:nth-child(2) {
@@ -2640,7 +2681,7 @@ object {
   color: #003A5F;
   font-size: 15px;
   font-family: "open_sans", 'sans-serif';
-  font-weight: light; }
+  font-weight: lighter; }
   @media (min-width: 480px) {
     .book-appointment-content h3 {
       font-size: 22px; } }
@@ -2813,7 +2854,7 @@ object {
   color: white;
   text-align: center;
   font-size: 15px;
-  font-weight: light;
+  font-weight: lighter;
   font-family: "open_sans", 'sans-serif'; }
   @media (min-width: 480px) {
     .why-use-smartnd h3 {
@@ -2957,230 +2998,363 @@ object {
 .mountains {
   transform: translateY(7px); }
 
-.contact-us {
-  text-align: center; }
-  .contact-us .contact-us-hero {
-    color: #ffffff;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    background: url(../../MTH-Assets/photos/hero-visual-banner-contact-us@3x.png) no-repeat;
-    background-size: cover;
-    height: 125px; }
-    @media (min-width: 480px) {
-      .contact-us .contact-us-hero {
-        height: 320px; } }
-    .contact-us .contact-us-hero h1 {
-      text-transform: uppercase; }
-      @media (min-width: 480px) {
-        .contact-us .contact-us-hero h1 {
-          font-size: 48px; } }
-    .contact-us .contact-us-hero p {
-      text-align: center;
-      font-family: 'open_sans', 'sans-serif';
-      font-weight: light;
-      font-size: 15px; }
-      @media (min-width: 480px) {
-        .contact-us .contact-us-hero p {
-          max-width: 800px; } }
-  .contact-us iframe {
-    width: 280px;
-    height: 159px;
-    margin: 10px;
-    border: 0;
-    box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4); }
-    @media (min-width: 480px) {
-      .contact-us iframe {
-        width: 960px;
-        height: 482px; } }
-  .contact-us .contact-us-address {
-    padding: 0 75px; }
-  .contact-us .external-link {
-    font-family: 'open_sans', 'sans-serif';
-    font-weight: light;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #1a9481;
-    cursor: pointer; }
-  .contact-us .x-icon {
-    position: absolute;
-    top: 157px;
-    left: 46.5%;
-    z-index: 3; }
-  .contact-us h1 {
-    font-weight: normal;
-    font-size: 17px;
-    text-transform: uppercase; }
-  .contact-us h2 {
-    text-transform: uppercase;
-    color: #677257;
-    font-size: 17px; }
-    @media (min-width: 480px) {
-      .contact-us h2 {
-        font-size: 36px; } }
-  .contact-us p {
-    font-size: 15px;
-    color: #003A5F; }
-  .contact-us .bread-crumb-contact-us {
-    color: #1a9481;
-    font-size: 13px; }
-  .contact-us .call {
-    font-weight: bold;
-    margin: 1rem; }
-  .contact-us .send-us-a-message {
-    margin: 0;
-    font-weight: bold; }
-    @media (min-width: 480px) {
-      .contact-us .send-us-a-message {
-        font-size: 22px; } }
-  .contact-us .open-hours {
-    font-weight: bold; }
-  .contact-us .number-and-icon {
-    display: -ms-flexbox;
-    display: flex;
-    width: 280px;
-    height: 35px;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-    margin: 0 auto; }
-    .contact-us .number-and-icon .phone-icon {
-      height: 30px; }
-    .contact-us .number-and-icon .phone-number {
-      color: #1a9481;
-      font-size: 17px;
-      text-decoration: none;
-      padding-left: 8px; }
-  .contact-us .wpcf7-form {
-    margin: 0 auto;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-align: center;
-        align-items: center;
-    text-align: left; }
-    @media (min-width: 480px) {
-      .contact-us .wpcf7-form {
-        width: 1100px;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-        -ms-flex-direction: row;
-            flex-direction: row;
-        -ms-flex-flow: wrap;
-            flex-flow: wrap; }
-        .contact-us .wpcf7-form p:nth-child(8) {
-          width: 1100px; }
-          .contact-us .wpcf7-form p:nth-child(8) textarea {
-            width: 100%; }
-        .contact-us .wpcf7-form p:nth-child(2),
-        .contact-us .wpcf7-form p:nth-child(3),
-        .contact-us .wpcf7-form p:nth-child(4),
-        .contact-us .wpcf7-form p:nth-child(5),
-        .contact-us .wpcf7-form p:nth-child(6),
-        .contact-us .wpcf7-form p:nth-child(7) {
-          width: 494px; }
-          .contact-us .wpcf7-form p:nth-child(2) input,
-          .contact-us .wpcf7-form p:nth-child(3) input,
-          .contact-us .wpcf7-form p:nth-child(4) input,
-          .contact-us .wpcf7-form p:nth-child(5) input,
-          .contact-us .wpcf7-form p:nth-child(6) input,
-          .contact-us .wpcf7-form p:nth-child(7) input {
-            width: 100%; }
-        .contact-us .wpcf7-form p:nth-child(9) {
-          width: 100%;
-          display: -ms-flexbox;
-          display: flex;
-          -ms-flex-pack: center;
-              justify-content: center;
-          -ms-flex-align: center;
-              align-items: center; } }
-  .contact-us div.wpcf7-mail-sent-ok {
-    padding: 2rem;
-    position: absolute;
-    position: absolute;
-    top: 45px;
-    width: 100%;
-    height: 125px;
-    margin: 0 auto;
-    left: 0;
-    color: white;
-    text-align: center;
-    background: url(../../MTH-Assets/other/message-sent-bg.png) no-repeat;
-    background-size: cover;
-    border: none; }
-  .contact-us label {
-    font-size: 15px;
-    line-height: 19px;
-    color: #003d5c; }
-    @media (min-width: 480px) {
-      .contact-us label {
-        font-size: 22px; } }
-  .contact-us input {
-    width: 280px;
-    height: 41px;
-    background-color: #FFFFFF;
-    border: 1px solid #919191;
-    border-radius: 4px;
-    color: rgba(155, 155, 155, 0.6);
-    padding-left: 15px; }
-    @media (min-width: 480px) {
-      .contact-us input {
-        font-size: 22px; } }
-  .contact-us textarea {
-    width: 280px;
-    height: 280px;
-    background-color: #FFFFFF;
-    border: 1px solid #919191;
-    border-radius: 4px; }
-  .contact-us input[type="submit"] {
-    width: 180px;
-    height: 40px;
-    border-radius: 20px;
-    color: #fff;
-    margin: 0 50px;
-    box-shadow: none;
-    border: none;
-    padding: 0;
-    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-    font-family: 'open_sans', 'sans-serif'; }
-    .contact-us input[type="submit"] p {
-      margin: 0; }
-  .contact-us .hours {
-    color: #677257; }
-
-.or {
+.book-appointment-hero {
+  height: 123px;
+  background: url(../../MTH-Assets/photos/book-appointment-hero.png);
+  background-size: cover;
+  background-position: center center;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 480px) {
+    .book-appointment-hero {
+      height: 320px; } }
+  .book-appointment-hero h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: normal; }
+    @media (min-width: 480px) {
+      .book-appointment-hero h1 {
+        font-size: 48px; } }
+
+.book-appointment-content {
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  .book-appointment-content h2 {
+    color: #677257;
+    font-size: 17px;
+    text-transform: uppercase; }
+    @media (min-width: 480px) {
+      .book-appointment-content h2 {
+        font-size: 36px; } }
+
+.book-appointment-content h3 {
+  color: #003A5F;
+  font-size: 15px;
+  font-family: "open_sans", 'sans-serif';
+  font-weight: lighter; }
+  @media (min-width: 480px) {
+    .book-appointment-content h3 {
+      font-size: 22px; } }
+
+.book-appointment-content a {
+  color: #1a9481; }
+
+.book-appointment-content a:visited {
+  color: #1a9481; }
+
+.book-appointment-call {
+  height: 28px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  .book-appointment-call p {
+    color: #1a9481;
+    font-size: 17px;
+    margin: 0px; }
+    @media (min-width: 480px) {
+      .book-appointment-call p {
+        font-size: 36px; } }
+
+.book-appointment-call .book-appointment-phone-icon {
+  height: 28px;
+  width: 28px;
+  background: url(../../MTH-Assets/icons/phone-green.png);
+  background-size: cover;
+  background-position: center center;
+  margin-right: 8px; }
+  @media (min-width: 480px) {
+    .book-appointment-call .book-appointment-phone-icon {
+      background: url(../../MTH-Assets/icons/phone-green-desktop.png);
+      height: 34px;
+      width: 34px;
+      background-size: cover; } }
+
+.book-appointment-or {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .book-appointment-or .or-line {
+    width: 120px;
+    height: 1px;
+    background-color: #003d5c; }
+    @media (min-width: 480px) {
+      .book-appointment-or .or-line {
+        width: 30%; } }
+
+.book-appointment-or h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-left: 10px;
+  margin-right: 10px; }
+  @media (min-width: 480px) {
+    .book-appointment-or h3 {
+      font-size: 22px; } }
+
+.book-appointment-email {
+  position: relative; }
+  .book-appointment-email h3 {
+    margin-bottom: 9px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: normal; }
+    @media (min-width: 480px) {
+      .book-appointment-email h3 {
+        position: absolute;
+        top: -18px;
+        left: 313px;
+        font-size: 22px; } }
+
+.book-appointment-email input {
+  width: 280px;
+  height: 42px;
+  border: solid 1px #919191; }
+  @media (min-width: 480px) {
+    .book-appointment-email input {
+      width: 28%;
+      height: 60px;
+      font-size: 22px;
+      margin-right: 20px; } }
+
+.book-appointment-email button {
+  color: white;
+  background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+  border-radius: 30000px;
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  margin-top: 30px; }
+  @media (min-width: 480px) {
+    .book-appointment-email button {
+      width: 280px;
+      font-size: 22px; } }
+
+.book-appointment-use-smart h3 {
+  margin: 0px; }
+  @media (min-width: 480px) {
+    .book-appointment-use-smart h3 {
+      font-size: 22px; } }
+
+.book-appointment-use-smart p {
+  margin: 0px;
+  color: #003d5c; }
+  @media (min-width: 480px) {
+    .book-appointment-use-smart p {
+      font-size: 22px; } }
+
+.already-smartnd {
+  color: #003A5F; }
+  @media (min-width: 480px) {
+    .already-smartnd {
+      font-size: 22px; } }
+  .already-smartnd p:first-child {
+    width: 265px;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 480px) {
+      .already-smartnd p:first-child {
+        width: 100%;
+        font-size: 22px;
+        margin-bottom: 189px; } }
+
+.smartnd-logo {
+  width: 133px;
+  height: 22px;
+  background-image: url(../../MTH-Assets/logos/snd-logo.png);
+  background-size: cover;
+  background-position: center center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px; }
+  @media (min-width: 480px) {
+    .smartnd-logo {
+      background-image: url(../../MTH-Assets/logos/snd-logo-desktop.png);
+      width: 178px;
+      height: 29px; } }
+
+.why-use-smartnd {
+  height: 299px;
+  background-image: linear-gradient(to right, #1a9481, #9bcc93);
+  line-height: 18px; }
+  @media (min-width: 480px) {
+    .why-use-smartnd {
+      height: 388px; } }
+
+.why-use-smartnd h2 {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-top: 0px; }
+  @media (min-width: 480px) {
+    .why-use-smartnd h2 {
+      font-size: 36px;
+      padding-top: 80px;
+      margin-bottom: 40px; } }
+
+.why-use-smartnd h3 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: "open_sans", 'sans-serif'; }
+  @media (min-width: 480px) {
+    .why-use-smartnd h3 {
+      font-size: 22px; } }
+
+.wavy-arrows {
+  height: 60px;
+  width: 60px;
+  background-image: url(../../MTH-Assets/icons/change-icon.png);
+  background-size: cover;
+  background-position: center center; }
+  @media (min-width: 480px) {
+    .wavy-arrows {
+      background-image: url(../../MTH-Assets/icons/change-icon-desktop.png);
+      background-size: cover;
+      background-position: center center;
+      width: 92px;
+      height: 92px; } }
+
+.update-patient-pic {
+  height: 60px;
+  width: 60px;
+  background-image: url(../../MTH-Assets/icons/update-icon.png);
+  background-size: cover;
+  background-position: center center; }
+  @media (min-width: 480px) {
+    .update-patient-pic {
+      background-size: cover;
+      background-position: center center;
+      width: 92px;
+      height: 92px; } }
+
+.smartnd-clipboard {
+  height: 60px;
+  width: 60px;
+  background-image: url(../../MTH-Assets/icons/form-icon.png);
+  background-size: cover;
+  background-position: center center; }
+  @media (min-width: 480px) {
+    .smartnd-clipboard {
+      background-size: cover;
+      background-position: center center;
+      width: 92px;
+      height: 92px; } }
+
+.smartnd-form-img {
+  height: 60px;
+  width: 60px;
+  background-image: url(../../MTH-Assets/icons/treatment-icon.png);
+  background-size: cover;
+  background-position: center center; }
+  @media (min-width: 480px) {
+    .smartnd-form-img {
+      background-size: cover;
+      background-position: center center;
+      width: 92px;
+      height: 92px; } }
+
+.why-use-all {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 480px) {
+    .why-use-all {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      line-height: 1.18; } }
+
+.why-use-upper {
+  display: -ms-flexbox;
+  display: flex; }
+
+.why-use-lower {
+  display: -ms-flexbox;
+  display: flex; }
+
+.why-use-smartnd-content {
+  width: 160px;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  text-transform: uppercase;
-  color: #003d5c;
-  line-height: 1; }
-  .or p {
-    padding-top: 5px;
-    border: 8px solid white; }
-  .or img {
-    width: 120px; }
+  -ms-flex-direction: column;
+      flex-direction: column; }
   @media (min-width: 480px) {
-    .or img {
-      width: 525px;
-      height: 2px;
-      background-color: #003d5c; }
-    .or p {
-      border: 15px solid white; } }
+    .why-use-smartnd-content {
+      width: 177px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      margin-left: 75px;
+      margin-right: 75px; } }
 
-.grey-background {
-  background: #eee; }
+@media (min-width: 480px) {
+  .smart-nd-change h3 {
+    width: 180px; } }
+
+.smart-nd-forms h3 {
+  width: 95px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 480px) {
+    .smart-nd-forms h3 {
+      width: 135px; } }
+
+.smart-nd-plans h3 {
+  width: 118px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 480px) {
+    .smart-nd-plans h3 {
+      width: 177px; } }
+
+.smartnd-icon-bg {
+  width: 60px;
+  height: 60px;
+  background-color: #1a9481;
+  border-radius: 2000000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 1px solid white; }
+
+.mountains {
+  transform: translateY(7px); }
 
 .resources-hero {
   height: 123px;
@@ -3737,7 +3911,7 @@ header.entry-header-article {
   .archive-recipe-hero-image p {
     text-align: center;
     font-family: 'open_sans', 'sans-serif';
-    font-weight: light;
+    font-weight: lighter;
     font-size: 15px;
     max-width: 80%; }
     @media (min-width: 480px) {
@@ -3766,7 +3940,7 @@ header.entry-header-article {
   .archive-article-hero-image p {
     text-align: center;
     font-family: 'open_sans', 'sans-serif';
-    font-weight: light;
+    font-weight: lighter;
     font-size: 15px; }
     @media (min-width: 480px) {
       .archive-article-hero-image p {
