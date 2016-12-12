@@ -127,14 +127,14 @@
     z-index: 0;
     @include mobile-break-width {
         background: url(../../MTH-Assets/photos/amanda-large.png);
-        width: 418px;
+        width: 541px;
         height: 560px;
         background-position: center center;
         background-size: cover;
         position: absolute;
         bottom: 60px;
         z-index: 1;
-        left: 12%;
+        left: 0%;
 
         img {
             @include mobile-break-width {
@@ -165,9 +165,9 @@
     @include mobile-break-width {
         display: initial;
         position: absolute;
-        right: 22px;
+        right: 12px;
         z-index: 2;
-        width: 655px;
+        width: 847px;
     }
 }
 
@@ -213,7 +213,7 @@
     color: $body-color;
     line-height: 0;
     position: absolute;
-    top: 43px;
+    top:70px;
 }
 
 .amanda-bg-mobile {
@@ -226,14 +226,14 @@
     margin: 0 auto;
     position: absolute;
     @include mobile-break-width {
-        width: 815px;
+        width: 1054px;
         height: 392px;
         background: url(../../MTH-Assets/photos/amanda-bg.png);
         background-size: 100% 100%;
         background-position: center center;
         display: flex;
         justify-content: flex-end;
-        margin-right: 12.4%;
+        margin-right: 0.4%;
         position: initial;
     }
 }
@@ -273,7 +273,7 @@
             width: 500px;
             margin: 0px;
             position: absolute;
-            left: 2%;
+            left:11%;
             top: 65px;
         }
     }
@@ -282,7 +282,7 @@
         @include mobile-break-width {
             width: 236px;
             top: 230;
-            right: 40%;
+            right: 28%;
             position: absolute;
             margin: 0px;
         }
@@ -291,6 +291,7 @@
         margin-top: 70px;
         @include mobile-break-width {
             margin: 0px;
+            left:6%;
         }
     }
     .four {
@@ -298,7 +299,7 @@
         @include mobile-break-width {
             position: absolute;
             top: 600px;
-            right: 22%;
+            right: 12%;
             margin: 0px;
         }
     }
@@ -393,37 +394,37 @@
 }
 
 .dot-1 {
-    left: 39.2%;
+    left: 50.6%;
     top: 95px;
     z-index: 1;
 }
 
 .dot-2 {
-    left: 38.5%;
+    left: 49.8%;
     top: 250px;
     z-index: 1;
 }
 
 .dot-3 {
-    left: 37.55%;
+    left: 49%;
     top: 420px;
     z-index: 1;
 }
 
 .dot-4 {
-    left: 42.5%;
+    left: 54%;
     top: 631px;
     z-index: 1;
 }
 
 .dot-5 {
-    left: 40.6%;
+    left: 52%;
     top: 820px;
     z-index: 1;
 }
 
 .dot-6 {
-    left: 37.8%;
+    left: 49.3%;
     top: 980px;
     z-index: 1;
 }
