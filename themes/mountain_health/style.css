@@ -1951,13 +1951,14 @@ object {
   @media (min-width: 480px) {
     .amanda-photo {
       background: url(../../MTH-Assets/photos/amanda-large.png);
-      width: 541px;
+      width: 30%;
       height: 560px;
       background-position: center center;
       background-size: cover;
       position: absolute;
       bottom: 60px;
-      z-index: 1; } }
+      z-index: 1;
+      left: 12%; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .amanda-photo img {
       display: none; } }
@@ -1984,7 +1985,8 @@ object {
       display: initial;
       position: absolute;
       right: 22px;
-      z-index: 2; } }
+      z-index: 2;
+      width: 48%; } }
 
 .about-amanda {
   position: relative;
@@ -2038,7 +2040,7 @@ object {
   position: absolute; }
   @media (min-width: 480px) {
     .amanda-bg {
-      width: 1054px;
+      width: 60%;
       height: 392px;
       background: url(../../MTH-Assets/photos/amanda-bg.png);
       background-size: cover;
@@ -2047,7 +2049,7 @@ object {
       display: flex;
       -ms-flex-pack: end;
           justify-content: flex-end;
-      margin-right: 0px;
+      margin-right: 12.4%;
       position: initial; } }
 
 .education {
