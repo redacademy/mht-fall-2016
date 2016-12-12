@@ -1865,9 +1865,6 @@ object {
 
 .about-page {
   padding-top: 0; }
-  @media (min-width: 480px) {
-    .about-page {
-      width: 100%; } }
   .about-page .main-header header {
     background: none;
     width: 100%; }
@@ -1984,7 +1981,7 @@ object {
       position: absolute;
       bottom: 60px;
       z-index: 1;
-      left: 0%; } }
+      left: 12px; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .amanda-photo img {
       display: none; } }
@@ -2010,7 +2007,7 @@ object {
     .amanda-name-desktop {
       display: initial;
       position: absolute;
-      right: 12px;
+      right: 24px;
       z-index: 2;
       width: 847px; } }
 
@@ -2046,8 +2043,14 @@ object {
     padding-left: 37px;
     margin: 0;
     margin-top: 5px; }
+    @media (min-width: 480px) {
+      .about-amanda .first-sentence {
+        display: none; } }
   .about-amanda .about-amanda-second-p {
     margin: 0; }
+    @media (min-width: 480px) {
+      .about-amanda .about-amanda-second-p {
+        display: none; } }
 
 .i-in-about {
   font-family: "Brush Script MT";
@@ -2055,7 +2058,10 @@ object {
   color: #003A5F;
   line-height: 0;
   position: absolute;
-  top: 70px; }
+  top: 48px; }
+  @media (min-width: 480px) {
+    .i-in-about {
+      top: 70px; } }
 
 @media (min-width: 480px) {
   .amanda-bg-mobile {
@@ -2146,7 +2152,7 @@ object {
         margin: 0px;
         position: absolute;
         top: 790px;
-        left: 12%; } }
+        left: 22%; } }
   .education .six {
     margin-top: 80px;
     margin-bottom: 30px; }
@@ -2156,7 +2162,7 @@ object {
         margin: 0px;
         position: absolute;
         top: 940px;
-        right: 16%; } }
+        right: 5%; } }
   .education h3 {
     text-transform: uppercase;
     color: black;
@@ -2216,32 +2222,32 @@ object {
       position: absolute; } }
 
 .dot-1 {
-  left: 50.6%;
+  left: 49.6%;
   top: 95px;
   z-index: 1; }
 
 .dot-2 {
-  left: 49.8%;
+  left: 49%;
   top: 250px;
   z-index: 1; }
 
 .dot-3 {
-  left: 49%;
+  left: 48.1%;
   top: 420px;
   z-index: 1; }
 
 .dot-4 {
-  left: 54%;
+  left: 53%;
   top: 631px;
   z-index: 1; }
 
 .dot-5 {
-  left: 52%;
+  left: 51%;
   top: 820px;
   z-index: 1; }
 
 .dot-6 {
-  left: 49.3%;
+  left: 48.3%;
   top: 980px;
   z-index: 1; }
 
@@ -2263,6 +2269,26 @@ object {
     -ms-flex-align: center;
         align-items: center;
     border-right: 10000px; } }
+
+.first-sentence-desktop {
+  padding-left: 37px;
+  margin: 0;
+  margin-top: 5px;
+  display: none; }
+  @media (min-width: 480px) {
+    .first-sentence-desktop {
+      display: initial; } }
+
+.about-amanda-second-p-desktop {
+  margin: 0;
+  display: none; }
+  @media (min-width: 480px) {
+    .about-amanda-second-p-desktop {
+      display: initial; } }
+
+@media (min-width: 480px) {
+  .amanda-p-mobile {
+    display: none; } }
 
 .what-we-do {
   margin: 0 auto; }

@@ -9,7 +9,7 @@
 .about-page {
     padding-top: 0;
     @include mobile-break-width {
-        width: 100%;
+
     }
     .main-header header {
         background: none;
@@ -133,8 +133,7 @@
         position: absolute;
         bottom: 60px;
         z-index: 1;
-
-        left: 0%;
+        left: 12px;
         img {
             @include mobile-break-width {
                 display: none;
@@ -164,7 +163,7 @@
     @include mobile-break-width {
         display: initial;
         position: absolute;
-        right: 12px;
+        right: 24px;
         z-index: 2;
         width: 847px;
     }
@@ -200,9 +199,15 @@
         padding-left: 37px;
         margin: 0;
         margin-top: 5px;
+        @include mobile-break-width{
+            display: none;
+        }
     }
     .about-amanda-second-p {
         margin: 0;
+        @include mobile-break-width{
+            display: none;
+        }
     }
 }
 
@@ -212,7 +217,10 @@
     color: $body-color;
     line-height: 0;
     position: absolute;
+    top: 48px;
+    @include mobile-break-width{
     top:70px;
+    }
 }
 
 .amanda-bg-mobile {
@@ -309,7 +317,7 @@
             margin: 0px;
             position: absolute;
             top: 790px;
-            left: 12%;
+            left: 22%;
         }
     }
     .six {
@@ -320,7 +328,7 @@
             margin: 0px;
             position: absolute;
             top: 940px;
-            right: 16%;
+            right: 5%;
         }
     }
     h3 {
@@ -393,37 +401,37 @@
 }
 
 .dot-1 {
-    left: 50.6%;
+    left: 49.6%;
     top: 95px;
     z-index: 1;
 }
 
 .dot-2 {
-    left: 49.8%;
+    left: 49%;
     top: 250px;
     z-index: 1;
 }
 
 .dot-3 {
-    left: 49%;
+    left: 48.1%;
     top: 420px;
     z-index: 1;
 }
 
 .dot-4 {
-    left: 54%;
+    left: 53%;
     top: 631px;
     z-index: 1;
 }
 
 .dot-5 {
-    left: 52%;
+    left: 51%;
     top: 820px;
     z-index: 1;
 }
 
 .dot-6 {
-    left: 49.3%;
+    left: 48.3%;
     top: 980px;
     z-index: 1;
 }
@@ -451,3 +459,26 @@
         }
     }
 }
+
+ .first-sentence-desktop {
+        padding-left: 37px;
+        margin: 0;
+        margin-top: 5px;
+        display: none;
+        @include mobile-break-width{
+            display: initial;
+        }
+    }
+    .about-amanda-second-p-desktop {
+        margin: 0;
+        display: none;
+        @include mobile-break-width{
+            display: initial;
+        }
+    }
+
+    .amanda-p-mobile{
+        @include mobile-break-width{
+            display: none;
+        }
+    }
