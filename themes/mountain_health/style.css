@@ -491,7 +491,8 @@ textarea {
     .small-button {
       height: 60px;
       width: 220px;
-      border-radius: 30px; }
+      border-radius: 30px;
+      font-size: 22px; }
       .small-button a {
         font-size: 22px; } }
 
@@ -510,7 +511,8 @@ textarea {
     .large-button {
       height: 60px;
       width: 280px;
-      border-radius: 30px; }
+      border-radius: 30px;
+      font-size: 22px; }
       .large-button a {
         font-size: 22px; } }
 
@@ -1347,8 +1349,7 @@ object {
   .hero-banner .hero-header {
     font-size: 28px;
     text-align: right;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin: 0px;
     line-height: 41px;
     font-family: 'Oswald', 'sans-serif';
     text-transform: uppercase;
@@ -1357,8 +1358,7 @@ object {
       .hero-banner .hero-header {
         font-size: 72px;
         letter-spacing: normal;
-        padding-top: 375px;
-        margin-bottom: 40px; } }
+        transform: translateY(60px); } }
 
 .hero-banner p {
   font-size: 15px;
@@ -1370,9 +1370,9 @@ object {
   @media (min-width: 480px) {
     .hero-banner p {
       font-size: 36px;
-      width: 1050px;
+      width: 950px;
       line-height: 1.22;
-      margin-bottom: 125px; } }
+      transform: translateY(60px); } }
 
 .booking .what-is-hero {
   font-size: 17px;
@@ -1390,13 +1390,14 @@ object {
   width: 26px;
   background-color: #1a9481;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.1);
-  transform: translateY(120px); }
+  transform: translateY(95px); }
   @media (min-width: 480px) {
     .hero-banner .keep-scrolling {
       width: 50px;
-      height: 50px; } }
+      height: 50px;
+      transform: translateY(200px); } }
 
 .header-text {
   text-align: center; }
@@ -1418,6 +1419,9 @@ object {
   font-size: 15px;
   color: white;
   margin: 0 auto; }
+  @media (min-width: 480px) {
+    .front-button {
+      font-size: 22px; } }
 
 .front-button:visited {
   color: white; }
@@ -1438,7 +1442,7 @@ object {
     @media (min-width: 480px) {
       .booking p {
         font-size: 22px;
-        width: 807px; } }
+        width: 707px; } }
 
 .booking div {
   margin-top: 330px;
@@ -1640,7 +1644,9 @@ object {
       background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
       height: 428px;
       width: 1760px;
-      max-width: 62%; } }
+      max-width: 62%;
+      -ms-flex-pack: center;
+          justify-content: center; } }
 
 .what-is-header {
   display: -ms-flexbox;
@@ -1660,7 +1666,8 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
       -ms-flex-align: center;
-          align-items: center; } }
+          align-items: center;
+      margin-bottom: 80px; } }
   .what-is-header p {
     max-width: 246px;
     font-size: 15px;
@@ -1741,9 +1748,6 @@ object {
   background: url(../../MTH-Assets/photos/carousel-3.jpg);
   background-size: cover;
   background-position: center; }
-
-.flickity-prev-next-button:disabled {
-  display: none; }
 
 .did-you-know h2 {
   color: #677257;
@@ -1855,7 +1859,8 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
       margin: 0px;
-      font-size: 18px; } }
+      font-size: 18px;
+      margin-bottom: 80px; } }
 
 .amanda-section {
   position: relative; }
@@ -3592,6 +3597,7 @@ input::-webkit-input-placeholder {
 .primary-button-subscribe {
   padding: 0 3rem;
   height: 40px;
+  font-weight: lighter;
   border-radius: 30px; }
   @media (min-width: 480px) {
     .primary-button-subscribe {
@@ -3746,7 +3752,8 @@ header.entry-header-article {
   position: relative;
   top: 0;
   left: 0;
-  bottom: 0; }
+  bottom: 0;
+  margin-top: 40px; }
 
 .entry-header-article h1 {
   font-size: 1.5rem; }
