@@ -84,8 +84,7 @@
     .hero-header {
         font-size: 28px;
         text-align: right;
-        margin-bottom: 20px;
-        margin-top: 0px;
+        margin: 0px;
         line-height: 41px;
         font-family: 'Oswald', 'sans-serif';
         text-transform: uppercase;
@@ -93,8 +92,7 @@
         @include mobile-break-width {
             font-size: 72px;
             letter-spacing: normal;
-            padding-top: 375px;
-            margin-bottom: 40px;
+            transform: translateY(60px);
         }
     }
 }
@@ -109,9 +107,9 @@
         width: 273px;
         @include mobile-break-width {
             font-size: $medium-font-dt;
-            width: 1050px;
+            width: 950px;
             line-height: 1.22;
-            margin-bottom: 125px;
+            transform: translateY(60px);
         }
     }
 }
@@ -136,12 +134,13 @@
         width: 26px;
         background-color: #1a9481;
         margin: 0 auto;
-        border-radius: 20px;
+        border-radius: 50%;
         border: 3px solid rgba(0, 0, 0, 0.1);
-        transform: translateY(120px);
+        transform: translateY(95px);
         @include mobile-break-width {
             width: 50px;
             height: 50px;
+            transform: translateY(200px);
         }
     }
 }
@@ -169,6 +168,9 @@
     font-size: 15px;
     color: white;
     margin: 0 auto;
+    @include mobile-break-width {
+        font-size: 22px;
+    }
 }
 
 .front-button:visited {
@@ -188,7 +190,7 @@
         line-height: 1.2;
         @include mobile-break-width {
             font-size: $small-font-dt;
-            width: 807px;
+            width: 707px;
         }
     }
 }
@@ -419,6 +421,7 @@
         height: 428px;
         width: 1760px;
         max-width: 62%;
+        justify-content: center;
     }
 }
 
@@ -436,6 +439,7 @@
         background-position: center center;
         justify-content: center;
         align-items: center;
+        margin-bottom: 80px;
     }
     p {
         max-width: 246px;
@@ -529,10 +533,6 @@
     background: url(../../MTH-Assets/photos/carousel-3.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.flickity-prev-next-button:disabled {
-    display: none;
 }
 
 //Front Page Did You Know Section
@@ -667,6 +667,7 @@
             justify-content: center;
             margin: 0px;
             font-size: 18px;
+            margin-bottom: 80px;
         }
     }
 }

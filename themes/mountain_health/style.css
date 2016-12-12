@@ -491,7 +491,8 @@ textarea {
     .small-button {
       height: 60px;
       width: 220px;
-      border-radius: 30px; }
+      border-radius: 30px;
+      font-size: 22px; }
       .small-button a {
         font-size: 22px; } }
 
@@ -510,7 +511,8 @@ textarea {
     .large-button {
       height: 60px;
       width: 280px;
-      border-radius: 30px; }
+      border-radius: 30px;
+      font-size: 22px; }
       .large-button a {
         font-size: 22px; } }
 
@@ -1350,8 +1352,7 @@ object {
   .hero-banner .hero-header {
     font-size: 28px;
     text-align: right;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin: 0px;
     line-height: 41px;
     font-family: 'Oswald', 'sans-serif';
     text-transform: uppercase;
@@ -1360,8 +1361,7 @@ object {
       .hero-banner .hero-header {
         font-size: 72px;
         letter-spacing: normal;
-        padding-top: 375px;
-        margin-bottom: 40px; } }
+        transform: translateY(60px); } }
 
 .hero-banner p {
   font-size: 15px;
@@ -1373,9 +1373,9 @@ object {
   @media (min-width: 480px) {
     .hero-banner p {
       font-size: 36px;
-      width: 1050px;
+      width: 950px;
       line-height: 1.22;
-      margin-bottom: 125px; } }
+      transform: translateY(60px); } }
 
 .booking .what-is-hero {
   font-size: 17px;
@@ -1393,13 +1393,14 @@ object {
   width: 26px;
   background-color: #1a9481;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.1);
-  transform: translateY(120px); }
+  transform: translateY(95px); }
   @media (min-width: 480px) {
     .hero-banner .keep-scrolling {
       width: 50px;
-      height: 50px; } }
+      height: 50px;
+      transform: translateY(200px); } }
 
 .header-text {
   text-align: center; }
@@ -1421,6 +1422,9 @@ object {
   font-size: 15px;
   color: white;
   margin: 0 auto; }
+  @media (min-width: 480px) {
+    .front-button {
+      font-size: 22px; } }
 
 .front-button:visited {
   color: white; }
@@ -1441,7 +1445,7 @@ object {
     @media (min-width: 480px) {
       .booking p {
         font-size: 22px;
-        width: 807px; } }
+        width: 707px; } }
 
 .booking div {
   margin-top: 330px;
@@ -1643,7 +1647,9 @@ object {
       background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
       height: 428px;
       width: 1760px;
-      max-width: 62%; } }
+      max-width: 62%;
+      -ms-flex-pack: center;
+          justify-content: center; } }
 
 .what-is-header {
   display: -ms-flexbox;
@@ -1663,7 +1669,8 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
       -ms-flex-align: center;
-          align-items: center; } }
+          align-items: center;
+      margin-bottom: 80px; } }
   .what-is-header p {
     max-width: 246px;
     font-size: 15px;
@@ -1744,9 +1751,6 @@ object {
   background: url(../../MTH-Assets/photos/carousel-3.jpg);
   background-size: cover;
   background-position: center; }
-
-.flickity-prev-next-button:disabled {
-  display: none; }
 
 .did-you-know h2 {
   color: #677257;
@@ -1858,7 +1862,8 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
       margin: 0px;
-      font-size: 18px; } }
+      font-size: 18px;
+      margin-bottom: 80px; } }
 
 .amanda-section {
   position: relative; }
@@ -1868,9 +1873,6 @@ object {
 
 .about-page {
   padding-top: 0; }
-  @media (min-width: 480px) {
-    .about-page {
-      width: 100%; } }
   .about-page .main-header header {
     background: none;
     width: 100%; }
@@ -1980,14 +1982,14 @@ object {
   @media (min-width: 480px) {
     .amanda-photo {
       background: url(../../MTH-Assets/photos/amanda-large.png);
-      width: 418px;
+      width: 541px;
       height: 560px;
       background-position: center center;
       background-size: cover;
       position: absolute;
       bottom: 60px;
       z-index: 1;
-      left: 12%; } }
+      left: 12px; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .amanda-photo img {
       display: none; } }
@@ -2013,9 +2015,9 @@ object {
     .amanda-name-desktop {
       display: initial;
       position: absolute;
-      right: 22px;
+      right: 24px;
       z-index: 2;
-      width: 655px; } }
+      width: 847px; } }
 
 .about-amanda {
   position: relative;
@@ -2049,8 +2051,14 @@ object {
     padding-left: 37px;
     margin: 0;
     margin-top: 5px; }
+    @media (min-width: 480px) {
+      .about-amanda .first-sentence {
+        display: none; } }
   .about-amanda .about-amanda-second-p {
     margin: 0; }
+    @media (min-width: 480px) {
+      .about-amanda .about-amanda-second-p {
+        display: none; } }
 
 .i-in-about {
   font-family: "Brush Script MT";
@@ -2058,7 +2066,10 @@ object {
   color: #003A5F;
   line-height: 0;
   position: absolute;
-  top: 43px; }
+  top: 48px; }
+  @media (min-width: 480px) {
+    .i-in-about {
+      top: 70px; } }
 
 @media (min-width: 480px) {
   .amanda-bg-mobile {
@@ -2069,7 +2080,7 @@ object {
   position: absolute; }
   @media (min-width: 480px) {
     .amanda-bg {
-      width: 815px;
+      width: 1054px;
       height: 392px;
       background: url(../../MTH-Assets/photos/amanda-bg.png);
       background-size: 100% 100%;
@@ -2078,7 +2089,7 @@ object {
       display: flex;
       -ms-flex-pack: end;
           justify-content: flex-end;
-      margin-right: 12.4%;
+      margin-right: 0.4%;
       position: initial; } }
 
 .education {
@@ -2116,7 +2127,7 @@ object {
         width: 500px;
         margin: 0px;
         position: absolute;
-        left: 2%;
+        left: 11%;
         top: 65px; } }
   .education .two {
     margin-top: 65px; }
@@ -2124,21 +2135,22 @@ object {
       .education .two {
         width: 236px;
         top: 230;
-        right: 40%;
+        right: 28%;
         position: absolute;
         margin: 0px; } }
   .education .three {
     margin-top: 70px; }
     @media (min-width: 480px) {
       .education .three {
-        margin: 0px; } }
+        margin: 0px;
+        left: 6%; } }
   .education .four {
     margin-top: 58px; }
     @media (min-width: 480px) {
       .education .four {
         position: absolute;
         top: 600px;
-        right: 22%;
+        right: 12%;
         margin: 0px; } }
   .education .five {
     margin-top: 84px; }
@@ -2148,7 +2160,7 @@ object {
         margin: 0px;
         position: absolute;
         top: 790px;
-        left: 12%; } }
+        left: 22%; } }
   .education .six {
     margin-top: 80px;
     margin-bottom: 30px; }
@@ -2158,7 +2170,7 @@ object {
         margin: 0px;
         position: absolute;
         top: 940px;
-        right: 16%; } }
+        right: 5%; } }
   .education h3 {
     text-transform: uppercase;
     color: black;
@@ -2218,32 +2230,32 @@ object {
       position: absolute; } }
 
 .dot-1 {
-  left: 39.2%;
+  left: 49.6%;
   top: 95px;
   z-index: 1; }
 
 .dot-2 {
-  left: 38.5%;
+  left: 49%;
   top: 250px;
   z-index: 1; }
 
 .dot-3 {
-  left: 37.55%;
+  left: 48.1%;
   top: 420px;
   z-index: 1; }
 
 .dot-4 {
-  left: 42.5%;
+  left: 53%;
   top: 631px;
   z-index: 1; }
 
 .dot-5 {
-  left: 40.6%;
+  left: 51%;
   top: 820px;
   z-index: 1; }
 
 .dot-6 {
-  left: 37.8%;
+  left: 48.3%;
   top: 980px;
   z-index: 1; }
 
@@ -2265,6 +2277,26 @@ object {
     -ms-flex-align: center;
         align-items: center;
     border-right: 10000px; } }
+
+.first-sentence-desktop {
+  padding-left: 37px;
+  margin: 0;
+  margin-top: 5px;
+  display: none; }
+  @media (min-width: 480px) {
+    .first-sentence-desktop {
+      display: initial; } }
+
+.about-amanda-second-p-desktop {
+  margin: 0;
+  display: none; }
+  @media (min-width: 480px) {
+    .about-amanda-second-p-desktop {
+      display: initial; } }
+
+@media (min-width: 480px) {
+  .amanda-p-mobile {
+    display: none; } }
 
 .what-we-do {
   margin: 0 auto; }
@@ -3577,6 +3609,7 @@ input::-webkit-input-placeholder {
 .primary-button-subscribe {
   padding: 0 3rem;
   height: 40px;
+  font-weight: lighter;
   border-radius: 30px; }
   @media (min-width: 480px) {
     .primary-button-subscribe {
@@ -3731,7 +3764,8 @@ header.entry-header-article {
   position: relative;
   top: 0;
   left: 0;
-  bottom: 0; }
+  bottom: 0;
+  margin-top: 40px; }
 
 .entry-header-article h1 {
   font-size: 1.5rem; }

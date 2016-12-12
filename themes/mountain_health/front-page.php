@@ -86,7 +86,7 @@
                     <button class="front-button flex-button large-button">See More About Us</button>
                 </div>
             </div>
-            <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "prevNextButtons": false, "pageDots": false}'>
+            <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "pageDots": false}'>
                 <div class="carousel-cell front-page-slider">
                     <h2>What is a Naturopathic Physician?</h2>
                     <p>"A primary care provider trained in both natural and pharmaceutical therapies. 
