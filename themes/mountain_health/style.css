@@ -461,12 +461,19 @@ textarea {
 
 .primary-button {
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-  border-radius: 20px;
   margin: 0 auto;
   margin-bottom: 40px;
   border: none;
   color: white;
-  padding: 0 5px; }
+  text-align: center;
+  border-radius: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 220px; }
+  @media (min-width: 480px) {
+    .primary-button {
+      font-size: 22px;
+      width: 280px; } }
   .primary-button a {
     color: white;
     text-decoration: none;
@@ -1915,7 +1922,7 @@ object {
         margin-bottom: 125px; } }
     .about-page .about-hero .parallax-scroll-about {
       height: 300%;
-      width: 100%;
+      width: 1340px;
       margin: 0 auto;
       background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
       background-size: 100%;
@@ -1926,7 +1933,7 @@ object {
       @media (min-width: 480px) {
         .about-page .about-hero .parallax-scroll-about {
           background: url(../../MTH-Assets/photos/about-hero-desktop.png);
-          width: 100%;
+          width: 1340px;
           background-size: cover;
           height: 770px;
           background-position: center center; } }
@@ -2460,7 +2467,8 @@ object {
     .treatments-testing-appointments .testing p,
     .treatments-testing-appointments .appointments p {
       text-align: center;
-      color: #003A5F; }
+      color: #003A5F;
+      width: 245px; }
       @media (min-width: 480px) {
         .treatments-testing-appointments .treatments p,
         .treatments-testing-appointments .testing p,
@@ -2622,9 +2630,12 @@ object {
   .what-we-medicine {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    height: 280px; } }
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    height: 280px;
+    box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+    width: 1200px;
+    margin: 0 auto; } }
 
 @media (min-width: 480px) {
   .what-is-naturopathic-medicine p {
@@ -2632,8 +2643,17 @@ object {
     width: 729px;
     text-align: left; } }
 
+@media (min-width: 480px) {
+  .what-is-naturopathic-medicine {
+    -ms-flex-pack: end;
+        justify-content: flex-end; } }
+
 .what-we-do .how-can-we-help-you {
   padding-top: 20px; }
+
+.what-btn {
+  padding: .75rem 1.5rem;
+  width: 15%; }
 
 .appointments-hero-image {
   color: #ffffff;
@@ -3432,7 +3452,7 @@ div.wpcf7-response-output {
     .news-events,
     .articles-research,
     .recipes-nutrition {
-      width: 23.5%;
+      width: 428px;
       background: url(../../MTH-Assets/photos/stroke-desktop.png);
       background-size: 100% 100%;
       background-position: center center;
@@ -3618,10 +3638,12 @@ input::-webkit-input-placeholder {
   padding: 0 3rem;
   height: 40px;
   font-weight: lighter;
-  border-radius: 30px; }
+  border-radius: 30px;
+  width: 180px; }
   @media (min-width: 480px) {
     .primary-button-subscribe {
-      margin: 20px 20px 20px 0; } }
+      margin: 20px 20px 20px 0;
+      width: 220px; } }
 
 .footer-info {
   display: -ms-flexbox;
