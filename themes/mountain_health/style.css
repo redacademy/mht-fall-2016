@@ -1982,14 +1982,14 @@ object {
   @media (min-width: 480px) {
     .amanda-photo {
       background: url(../../MTH-Assets/photos/amanda-large.png);
-      width: 418px;
+      width: 541px;
       height: 560px;
       background-position: center center;
       background-size: cover;
       position: absolute;
       bottom: 60px;
       z-index: 1;
-      left: 12%; } }
+      left: 0%; } }
   @media (min-width: 480px) and (min-width: 480px) {
     .amanda-photo img {
       display: none; } }
@@ -2015,9 +2015,9 @@ object {
     .amanda-name-desktop {
       display: initial;
       position: absolute;
-      right: 22px;
+      right: 12px;
       z-index: 2;
-      width: 655px; } }
+      width: 847px; } }
 
 .about-amanda {
   position: relative;
@@ -2060,7 +2060,7 @@ object {
   color: #003A5F;
   line-height: 0;
   position: absolute;
-  top: 43px; }
+  top: 70px; }
 
 @media (min-width: 480px) {
   .amanda-bg-mobile {
@@ -2071,7 +2071,7 @@ object {
   position: absolute; }
   @media (min-width: 480px) {
     .amanda-bg {
-      width: 815px;
+      width: 1054px;
       height: 392px;
       background: url(../../MTH-Assets/photos/amanda-bg.png);
       background-size: 100% 100%;
@@ -2080,7 +2080,7 @@ object {
       display: flex;
       -ms-flex-pack: end;
           justify-content: flex-end;
-      margin-right: 12.4%;
+      margin-right: 0.4%;
       position: initial; } }
 
 .education {
@@ -2118,7 +2118,7 @@ object {
         width: 500px;
         margin: 0px;
         position: absolute;
-        left: 2%;
+        left: 11%;
         top: 65px; } }
   .education .two {
     margin-top: 65px; }
@@ -2126,21 +2126,22 @@ object {
       .education .two {
         width: 236px;
         top: 230;
-        right: 40%;
+        right: 28%;
         position: absolute;
         margin: 0px; } }
   .education .three {
     margin-top: 70px; }
     @media (min-width: 480px) {
       .education .three {
-        margin: 0px; } }
+        margin: 0px;
+        left: 6%; } }
   .education .four {
     margin-top: 58px; }
     @media (min-width: 480px) {
       .education .four {
         position: absolute;
         top: 600px;
-        right: 22%;
+        right: 12%;
         margin: 0px; } }
   .education .five {
     margin-top: 84px; }
@@ -2220,32 +2221,32 @@ object {
       position: absolute; } }
 
 .dot-1 {
-  left: 39.2%;
+  left: 50.6%;
   top: 95px;
   z-index: 1; }
 
 .dot-2 {
-  left: 38.5%;
+  left: 49.8%;
   top: 250px;
   z-index: 1; }
 
 .dot-3 {
-  left: 37.55%;
+  left: 49%;
   top: 420px;
   z-index: 1; }
 
 .dot-4 {
-  left: 42.5%;
+  left: 54%;
   top: 631px;
   z-index: 1; }
 
 .dot-5 {
-  left: 40.6%;
+  left: 52%;
   top: 820px;
   z-index: 1; }
 
 .dot-6 {
-  left: 37.8%;
+  left: 49.3%;
   top: 980px;
   z-index: 1; }
 
@@ -3217,20 +3218,6 @@ object {
               justify-content: center;
           -ms-flex-align: center;
               align-items: center; } }
-  .contact-us div.wpcf7-mail-sent-ok {
-    padding: 0.2em 1em;
-    position: absolute;
-    top: 0;
-    position: absolute;
-    top: 86px;
-    width: 320px;
-    height: 125px;
-    margin: 0 auto;
-    left: 0;
-    color: white;
-    text-align: center;
-    background: url(../../MTH-Assets/other/message-sent-bg.png);
-    border: none; }
   .contact-us label {
     font-size: 15px;
     line-height: 19px;
@@ -3298,7 +3285,7 @@ object {
 .grey-background {
   background: #eee; }
 
-.wpcf7-response-output {
+div.wpcf7-response-output {
   font-size: 30px;
   color: white;
   display: -ms-flexbox;
@@ -3312,10 +3299,20 @@ object {
   padding: 0;
   border: 0;
   position: absolute;
-  top: 7rem;
-  background-image: linear-gradient(to right, #1a9481, #9bcc93);
+  top: 5rem;
+  height: 320px;
   width: 100%;
-  height: 320px; }
+  font-size: 15px; }
+  @media (min-width: 480px) {
+    div.wpcf7-response-output {
+      width: 1100px;
+      font-size: 22px; } }
+
+.contact-us .x-icon {
+  position: absolute;
+  top: 24.3rem;
+  left: 50%;
+  z-index: 3; }
 
 .resources-hero {
   height: 123px;
