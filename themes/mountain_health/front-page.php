@@ -15,19 +15,19 @@
             <div class="parallax-scroll"></div>
                 <h2 class="hero-header">Mountain Health</h2>
             <div class="header-text">
-                <p>Empowering every person to have a fulfilling, healthy life, 
+                <p>Empowering every person to have a fulfilling, healthy life,
                     and feel connected to their community and the environment.</p>
             </div>
             <div class="keep-scrolling"></div>
         </section><!--End of hero-banner-->
-        
+
 
         <section class="booking"><!--Booking for front page-->
             <div></div>
             <h2 class="what-is-hero"> What is Naturopathic Medicine? </h2>
-                <p>Naturopathy is a type of care that offers individualized, natural healthcare. 
+                <p>Naturopathy is a type of care that offers individualized, natural healthcare.
                     It combines the best of traditional treatments with evidence-based medicine. </p>
-            <a href="<?php echo get_post_type_archive_link('article')?>" class="front-button what-is-button large-button">Read More</a> 
+            <a href="<?php echo get_post_type_archive_link('article')?>" class="front-button what-is-button large-button">Read More</a>
         </section>
 
         <section class="benifits">
@@ -81,7 +81,7 @@
         <section class="what-is">
             <div class="what-is-header">
                 <div class="white-box">
-                    <p>Naturopathic doctors use both treatments and testing that are evidence based, 
+                    <p>Naturopathic doctors use both treatments and testing that are evidence based,
                         and also those that have been proven to work traditionally through clinical experience.</p>
                     <button class="front-button flex-button large-button">See More About Us</button>
                 </div>
@@ -89,7 +89,7 @@
             <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "pageDots": false}'>
                 <div class="carousel-cell front-page-slider">
                     <h2>What is a Naturopathic Physician?</h2>
-                    <p>"A primary care provider trained in both natural and pharmaceutical therapies. 
+                    <p>"A primary care provider trained in both natural and pharmaceutical therapies.
                         Naturopathic physicians can prescribe drugs, herbs, vitamins and exercise therapy.”
                     </p>
                     <a href="<?php echo get_page_link(27); ?>" class="front-button small-button">Our Lab Testing</a>
@@ -97,7 +97,7 @@
 
                 <div class="carousel-cell front-page-slider-2">
                     <h2>What is a Naturopathic Physician?</h2>
-                    <p>“As a primary care provider, they can also perform minor surgery, IV therapy and take 
+                    <p>“As a primary care provider, they can also perform minor surgery, IV therapy and take
                         blood samples.”
                     </p>
                     <a href="<?php echo get_page_link(27); ?>" class="front-button small-button">Our Lab Testing</a>
@@ -106,7 +106,7 @@
 
                 <div class="carousel-cell front-page-slider-3">
                     <h2>What is a Naturopathic physician?</h2>
-                    <p>“Naturopathic physicians have access to life labs as well as various other private, 
+                    <p>“Naturopathic physicians have access to life labs as well as various other private,
                         innovative lab companies.”
                     </p>
                     <a href="<?php echo get_page_link(27); ?>" class="front-button small-button">Our Lab Testing</a>
@@ -120,8 +120,8 @@
                 <p class="front-number">1</p>
             </div>
             <div class="did-you-know-bg did-you-know-bg-1">
-                <p>Naturopathic physicians must attend the same pre-medical studies as MDs, 
-                    and they must obtain a four year degree prior to applying to one of the 
+                <p>Naturopathic physicians must attend the same pre-medical studies as MDs,
+                    and they must obtain a four year degree prior to applying to one of the
                     seven accredited schools in North America.
                 </p>
             </div>
@@ -129,14 +129,14 @@
                 <p class="front-number">2</p>
             </div>
             <div class="did-you-know-bg did-you-know-bg-2">
-                <p>To obtain the title of Naturopathic Doctor (ND), the naturopathic physician 
+                <p>To obtain the title of Naturopathic Doctor (ND), the naturopathic physician
                     attends four years of full-time post graduate studies.</p>
             </div>
             <div class="number-circle">
                 <p class="front-number">3</p>
             </div>
             <div class="did-you-know-bg did-you-know-bg-3">
-                <p>Students of a Naturopathic Medical program cover the same physiology, pathology, 
+                <p>Students of a Naturopathic Medical program cover the same physiology, pathology,
                     and basic sciences as MDs, in addition to studies on herbal medicine, vitamins and lifestyle.
                 </p>
             </div>

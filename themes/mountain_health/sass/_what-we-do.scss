@@ -263,7 +263,7 @@
         }
     }
     p{
-      font-family: 'open_sans', sans-serif;  
+      font-family: 'open_sans', sans-serif;
     }
 }
 
@@ -327,8 +327,11 @@
 .what-we-medicine{
     @include mobile-break-width{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;;
         height: 280px;
+        box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+        width: 1200px;
+        margin: 0 auto;
     }
 }
 
@@ -340,6 +343,9 @@
             text-align: left;
         }
     }
+    @include mobile-break-width{
+      justify-content: flex-end;
+}
 }
 
 .what-we-do{
@@ -347,6 +353,7 @@
         padding-top: 20px;
     }
 }
-.care-div{
-
+.what-btn{
+padding: .75rem 1.5rem;
+width: 15%;
 }
