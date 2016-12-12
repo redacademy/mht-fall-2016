@@ -539,7 +539,9 @@ body {
   background-size: contain; }
   @media (min-width: 480px) {
     body {
-      background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg); } }
+      background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
+      width: 1364px;
+      overflow: scroll; } }
 
 .site-main,
 .main-header,
@@ -584,6 +586,11 @@ p {
     .nav-links a:visited {
       color: #1a9481; }
 
+@media (min-width: 480px) {
+  .main-header {
+    width: 1364px;
+    overflow: scroll; } }
+
 .main-header header {
   width: 100%;
   height: 45px;
@@ -604,7 +611,7 @@ p {
     display: none; }
   @media (min-width: 480px) {
     .main-header header {
-      width: 100%;
+      width: 1364px;
       padding: 0;
       height: 110px; }
       .main-header header .header-button {
@@ -769,16 +776,18 @@ p {
   display: block !important; }
 
 .search-state-dt {
-  position: relative;
+  position: fixed;
   height: 150px;
   top: 110px;
+  width: 100%;
   background: white;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  z-index: 99; }
   .search-state-dt fieldset {
     border: none; }
     .search-state-dt fieldset input {
@@ -1837,7 +1846,6 @@ object {
       margin-top: 300px; } }
 
 .about-page {
-  max-width: 1340px;
   padding-top: 0; }
   @media (min-width: 480px) {
     .about-page {
