@@ -77,15 +77,22 @@
         $(".events-lists").hide();
     });
     // lab testing data from loop
+
+
     $(".labtesting-single-wrapper-active:first-child").stop().show();
+    $(".labtesting-wrapper .labtesting-btn-off button:first-child").focus();
+
     $(".labtesting-btn-off").focus();
     $('.labtesting-btn-off').on('click', function() {
         $('.labtesting-single-wrapper-active').stop().hide();
         $(this).next('.labtesting-single-wrapper-active').stop().show();
     });
     // treatment  data from loop
+
+
+    //
     $(".treatments-wrapper div:nth-child(2)").stop().show();
-    $(".treatments-wrapper div:first-child button:first-child").focus();
+    $(".treatments-wrapper button:first-child").focus();
     $(".treatments-wrapper div:first-child").css("margin-left", "20px");
     $('.treatment-btn-off').on('click', function() {
         $('.treatment-description-single-active').stop().hide();
@@ -156,5 +163,12 @@
         i.innerHTML = parseInt(i.innerHTML) - 1;
     }
     setInterval(function() { countdown(); }, 1000);
+
+
+    //addinf contact us success message
+    $('.wpcf7-submit').on('click', function(){
+      $('.wpcf7-response-output').css('background-image', 'linear-gradient(to right, #1a9481, #9bcc93)');
+      // $('body').css('background-image','linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73))')
+    } );
 
 })(jQuery);

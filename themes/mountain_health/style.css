@@ -469,7 +469,8 @@ textarea {
   padding: 0 5px; }
   .primary-button a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: lighter; }
     .primary-button a:visited {
       color: white; }
     .primary-button a:hover {
@@ -484,7 +485,8 @@ textarea {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  border-radius: 20px; }
+  border-radius: 20px;
+  font-weight: lighter; }
   @media (min-width: 480px) {
     .small-button {
       height: 60px;
@@ -502,7 +504,8 @@ textarea {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  border-radius: 20px; }
+  border-radius: 20px;
+  font-weight: lighter; }
   @media (min-width: 480px) {
     .large-button {
       height: 60px;
@@ -539,7 +542,9 @@ body {
   background-size: contain; }
   @media (min-width: 480px) {
     body {
-      background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg); } }
+      background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
+      width: 1364px;
+      overflow: scroll; } }
 
 .site-main,
 .main-header,
@@ -584,6 +589,11 @@ p {
     .nav-links a:visited {
       color: #1a9481; }
 
+@media (min-width: 480px) {
+  .main-header {
+    width: 1364px;
+    overflow: scroll; } }
+
 .main-header header {
   width: 100%;
   height: 45px;
@@ -596,15 +606,15 @@ p {
       align-items: center;
   background: white;
   position: fixed; }
-  .main-header header .search-icon-dt {
-    display: none; }
+  .main-header header .search-logo-dt {
+    display: none !important; }
   .main-header header .header-button {
     display: none; }
   .main-header header .call-header {
     display: none; }
   @media (min-width: 480px) {
     .main-header header {
-      width: 100%;
+      width: 1364px;
       padding: 0;
       height: 110px; }
       .main-header header .header-button {
@@ -624,8 +634,8 @@ p {
         font-size: 15px; }
         .main-header header .header-button a {
           color: white; }
-      .main-header header .search-icon-dt {
-        display: block; }
+      .main-header header .search-logo-dt {
+        display: block !important; }
       .main-header header p {
         margin: 0; }
       .main-header header button:focus {
@@ -769,16 +779,18 @@ p {
   display: block !important; }
 
 .search-state-dt {
-  position: relative;
+  position: fixed;
   height: 150px;
   top: 110px;
+  width: 100%;
   background: white;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  z-index: 99; }
   .search-state-dt fieldset {
     border: none; }
     .search-state-dt fieldset input {
@@ -1261,11 +1273,15 @@ object {
 /* Front page */
 .front-page {
   padding-top: 0; }
+  .front-page .search-logo-white {
+    display: none; }
   .front-page .hamburger {
     color: white; }
-  @media (min-width: 480px) {
-    .front-page .site-main p {
-      font-size: 22px; } }
+  .front-page .site-main p {
+    font-weight: lighter; }
+    @media (min-width: 480px) {
+      .front-page .site-main p {
+        font-size: 22px; } }
   .front-page .site-main h2,
   .front-page .site-main h3 {
     font-family: 'oswald', 'sans-serif';
@@ -1350,11 +1366,7 @@ object {
   font-weight: lighter;
   text-align: center;
   line-height: 21px;
-  margin-top: 0px;
-  margin-bottom: 104px;
-  width: 273px;
-  margin-left: auto;
-  margin-right: auto; }
+  width: 273px; }
   @media (min-width: 480px) {
     .hero-banner p {
       font-size: 36px;
@@ -1364,7 +1376,9 @@ object {
 
 .booking .what-is-hero {
   font-size: 17px;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase;
+  color: #677257; }
   @media (min-width: 480px) {
     .booking .what-is-hero {
       font-size: 36px; } }
@@ -1377,8 +1391,8 @@ object {
   background-color: #1a9481;
   margin: 0 auto;
   border-radius: 20px;
-  border: 2px solid;
-  border-color: rgba(26, 148, 129, 0.1); }
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  transform: translateY(120px); }
   @media (min-width: 480px) {
     .hero-banner .keep-scrolling {
       width: 50px;
@@ -1419,7 +1433,8 @@ object {
     color: #003A5F;
     width: 277px;
     text-align: center;
-    margin-top: 0px; }
+    margin-top: 0px;
+    line-height: 1.2; }
     @media (min-width: 480px) {
       .booking p {
         font-size: 22px;
@@ -1479,7 +1494,10 @@ object {
   color: white;
   margin-left: 62px;
   font-size: 15px;
+  font-weight: lighter;
   list-style-image: url(../../MTH-Assets/other/leaf-mobile.png); }
+  .benifits-list h2 {
+    font-weight: lighter; }
   @media (min-width: 480px) {
     .benifits-list {
       list-style-image: url(../../MTH-Assets/other/leaf.png);
@@ -1518,7 +1536,7 @@ object {
   text-align: center;
   color: #677257;
   text-transform: uppercase;
-  width: 194px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 29px;
@@ -1527,6 +1545,11 @@ object {
     .compare-to-traditional h2 {
       font-size: 36px;
       width: 100%; } }
+
+.underline-strip-front {
+  height: 2px;
+  width: 80px;
+  background: linear-gradient(90deg, #003557 0%, #009B84 100%); }
 
 .compare-to-traditional .compare-content {
   display: -ms-flexbox;
@@ -1586,6 +1609,7 @@ object {
   margin-bottom: 20px;
   font-size: 15px;
   line-height: 22px;
+  font-weight: lighter;
   list-style-image: url(../../MTH-Assets/other/leaf-mobile.png); }
   @media (min-width: 480px) {
     .compare-content ul {
@@ -1749,7 +1773,8 @@ object {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  color: #003A5F; }
   .did-you-know .number-circle {
     background: url(../../MTH-Assets/other/number-bg.png);
     width: 46px;
@@ -1765,7 +1790,9 @@ object {
     .did-you-know .number-circle p {
       box-shadow: none;
       margin: 0;
-      font-size: 17px; }
+      font-size: 17px;
+      font-weight: bold;
+      color: #003A5F; }
 
 .did-you-know .did-you-know-bg {
   width: 280px;
@@ -1837,7 +1864,6 @@ object {
       margin-top: 300px; } }
 
 .about-page {
-  max-width: 1340px;
   padding-top: 0; }
   @media (min-width: 480px) {
     .about-page {
@@ -3187,20 +3213,6 @@ object {
               justify-content: center;
           -ms-flex-align: center;
               align-items: center; } }
-  .contact-us div.wpcf7-mail-sent-ok {
-    padding: 0.2em 1em;
-    position: absolute;
-    top: 0;
-    position: absolute;
-    top: 86px;
-    width: 320px;
-    height: 125px;
-    margin: 0 auto;
-    left: 0;
-    color: white;
-    text-align: center;
-    background: url(../../MTH-Assets/other/message-sent-bg.png);
-    border: none; }
   .contact-us label {
     font-size: 15px;
     line-height: 19px;
@@ -3268,7 +3280,7 @@ object {
 .grey-background {
   background: #eee; }
 
-.wpcf7-response-output {
+div.wpcf7-response-output {
   font-size: 30px;
   color: white;
   display: -ms-flexbox;
@@ -3282,10 +3294,20 @@ object {
   padding: 0;
   border: 0;
   position: absolute;
-  top: 7rem;
-  background-image: linear-gradient(to right, #1a9481, #9bcc93);
+  top: 5rem;
+  height: 320px;
   width: 100%;
-  height: 320px; }
+  font-size: 15px; }
+  @media (min-width: 480px) {
+    div.wpcf7-response-output {
+      width: 1100px;
+      font-size: 22px; } }
+
+.contact-us .x-icon {
+  position: absolute;
+  top: 24.3rem;
+  left: 50%;
+  z-index: 3; }
 
 .resources-hero {
   height: 123px;
@@ -3543,7 +3565,8 @@ input::-webkit-input-placeholder {
 
 .primary-button-subscribe {
   padding: 0 3rem;
-  height: 45px; }
+  height: 40px;
+  border-radius: 30px; }
   @media (min-width: 480px) {
     .primary-button-subscribe {
       margin: 20px 20px 20px 0; } }

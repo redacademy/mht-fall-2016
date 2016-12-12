@@ -51,7 +51,7 @@
                 <div class="compare-content">
                     <div class="clock"></div>
                     <h3>Better appointments</h3>
-                    <div class="underline-strip"></div>
+                    <div class="underline-strip-front"></div>
                     <ul>
                         <li>Minimal wait times</li>
                         <li>Longer visits*</li>
@@ -65,7 +65,7 @@
                 <div class="compare-content">
                     <div class="silouette"></div>
                     <h3>More control</h3>
-                    <div class="underline-strip"></div>
+                    <div class="underline-strip-front"></div>
                     <ul class="silouette-ul">
                         <li><span class="list-span">A large range of treatment options</span></li>
                         <li><span class="list-span">Explanations of treatments and

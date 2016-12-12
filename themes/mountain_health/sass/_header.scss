@@ -1,4 +1,8 @@
 .main-header {
+    @include mobile-break-width {
+        width: 1364px;
+        overflow: scroll;
+    }
     header {
         width: 100%;
         height: 45px;
@@ -8,8 +12,8 @@
         align-items: center;
         background: white;
         position: fixed;
-        .search-icon-dt {
-            display: none;
+        .search-logo-dt {
+            display: none !important;
         }
         .header-button {
             display: none;
@@ -18,7 +22,7 @@
             display: none;
         }
         @include mobile-break-width {
-            width: 100%;
+            width: 1364px;
             padding: 0;
             height: 110px;
             .header-button {
@@ -37,8 +41,8 @@
                     color: white;
                 }
             }
-            .search-icon-dt {
-                display: block;
+            .search-logo-dt {
+                display: block !important;
             }
             p {
                 margin: 0;
@@ -208,13 +212,15 @@
 }
 
 .search-state-dt {
-    position: relative;
+    position: fixed;
     height: 150px;
     top: 110px;
+    width: 100%;
     background: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 99;
     fieldset {
         border: none;
         input {

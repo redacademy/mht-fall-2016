@@ -7,7 +7,6 @@
 }
 
 .about-page {
-    max-width: 1340px;
     padding-top: 0;
     @include mobile-break-width {
         width: 100%;
@@ -134,8 +133,8 @@
         position: absolute;
         bottom: 60px;
         z-index: 1;
-        left: 0%;
 
+        left: 0%;
         img {
             @include mobile-break-width {
                 display: none;
