@@ -168,7 +168,11 @@
     //addinf contact us success message
     $('.wpcf7-submit').on('click', function(){
       $('.wpcf7-response-output').css('background-image', 'linear-gradient(to right, #1a9481, #9bcc93)');
-      // $('body').css('background-image','linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73))')
-    } );
+      // $('body').css('background-image', 'linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73))');
+      // $('body').css('z-index','-3');
 
+    } );
+    // $('.x-icon').on('click',function(){
+    //   $('body').removeClass('.body-shadow'));
+    // });
 })(jQuery);
