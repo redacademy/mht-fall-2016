@@ -483,7 +483,15 @@ textarea {
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  border-radius: 20px; }
+  @media (min-width: 480px) {
+    .small-button {
+      height: 60px;
+      width: 220px;
+      border-radius: 30px; }
+      .small-button a {
+        font-size: 22px; } }
 
 .large-button {
   width: 220px;
@@ -493,7 +501,15 @@ textarea {
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  border-radius: 20px; }
+  @media (min-width: 480px) {
+    .large-button {
+      height: 60px;
+      width: 280px;
+      border-radius: 30px; }
+      .large-button a {
+        font-size: 22px; } }
 
 .how-can-we-help-you {
   font-size: 18px;
@@ -1386,7 +1402,6 @@ object {
 .front-button {
   background: linear-gradient(90deg, #003557 0%, #009B84 100%);
   font-size: 15px;
-  border-radius: 20px;
   color: white;
   margin: 0 auto; }
 
@@ -1662,19 +1677,36 @@ object {
   .carousel-cell h2 {
     font-size: 17px;
     color: #fff;
-    text-transform: uppercase;
-    padding-top: 60px; }
+    text-transform: uppercase; }
   .carousel-cell a {
     color: white; }
     .carousel-cell a:visited {
       color: white; }
+  @media (min-width: 480px) {
+    .carousel-cell {
+      height: 700px;
+      margin: 0 auto; }
+      .carousel-cell h2 {
+        font-size: 32px; }
+      .carousel-cell p {
+        width: 700px; } }
+
+.front-page-slider,
+.front-page-slider-2,
+.front-page-slider-3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: space-around;
+      align-items: space-around; }
 
 .front-page-slider {
   background: url(../../MTH-Assets/photos/carousal-01.png);
   background-size: cover;
   background-position: center; }
-  .front-page-slider p {
-    margin-bottom: 30px; }
 
 .front-page-slider-2 {
   background: url(../../MTH-Assets/photos/carousel-2.jpg);
@@ -1706,9 +1738,10 @@ object {
   height: 196px; }
   @media (min-width: 480px) {
     .did-you-know .did-you-know-pic {
-      max-width: 24.26%;
+      background-position: center center;
+      width: 430px;
       height: 300px;
-      background-position: center center; } }
+      margin-top: 80px; } }
 
 .did-you-know {
   display: -ms-flexbox;

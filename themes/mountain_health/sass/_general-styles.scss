@@ -24,6 +24,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    @include mobile-break-width {
+        height: 60px;
+        width: 220px;
+        border-radius: 30px;
+        a {
+            font-size: 22px;
+        }
+    }
 }
 
 .large-button {
@@ -32,6 +41,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    @include mobile-break-width {
+        height: 60px;
+        width: 280px;
+        border-radius: 30px;
+        a {
+            font-size: 22px;
+        }
+    }
 }
 
 .how-can-we-help-you {
