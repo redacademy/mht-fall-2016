@@ -2788,7 +2788,10 @@ object {
       font-size: 22px; } }
 
 .book-appointment-email {
-  position: relative; }
+  position: relative;
+  margin: 0 auto;
+  width: 75%;
+  padding: 1rem 0; }
   .book-appointment-email h3 {
     margin-bottom: 9px;
     text-align: left;
@@ -2796,10 +2799,20 @@ object {
     font-weight: normal; }
     @media (min-width: 480px) {
       .book-appointment-email h3 {
-        position: absolute;
-        top: -18px;
-        left: 313px;
+        margin: 0;
         font-size: 22px; } }
+  @media (min-width: 480px) {
+    .book-appointment-email {
+      padding: 3rem;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      .book-appointment-email form {
+        display: -ms-flexbox;
+        display: flex; }
+        .book-appointment-email form button {
+          margin: 0; } }
 
 .book-appointment-email input {
   width: 280px;
@@ -2807,7 +2820,7 @@ object {
   border: solid 1px #919191; }
   @media (min-width: 480px) {
     .book-appointment-email input {
-      width: 28%;
+      width: 50%;
       height: 60px;
       font-size: 22px;
       margin-right: 20px; } }
@@ -2828,7 +2841,8 @@ object {
       font-size: 22px; } }
 
 .book-appointment-use-smart h3 {
-  margin: 0px; }
+  margin: 0px;
+  font-weight: bold; }
   @media (min-width: 480px) {
     .book-appointment-use-smart h3 {
       font-size: 22px; } }
@@ -3643,6 +3657,9 @@ input::-webkit-input-placeholder {
   text-align: left;
   color: #d1d0d0;
   padding-left: 14px; }
+  @media (min-width: 480px) {
+    input::-webkit-input-placeholder {
+      font-size: 22px; } }
 
 .primary-button-subscribe {
   padding: 0 3rem;
@@ -4478,7 +4495,7 @@ header.entry-header-article {
       flex-flow: wrap; }
 
 .why-use-smartnd-content {
-  margin: 0 4rem; }
+  margin: 0 2rem; }
 
 .why-use-upper {
   -ms-flex-pack: distribute;

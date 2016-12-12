@@ -76,6 +76,9 @@ input::-webkit-input-placeholder {
     text-align: left;
     color: #d1d0d0;
     padding-left: 14px;
+    @include mobile-break-width {
+font-size: 22px;
+}
 }
 
 .primary-button-subscribe {
