@@ -1,11 +1,10 @@
 .search-results {
     .page-header {
         height: 123px;
-        background: url(../../MTH-Assets/photos/search-results-hero.png);
+        background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-search-result.png) no-repeat top;
         background-size: cover;
         background-position: center center;
         @include mobile-break-width {
-            background: url(../../MTH-Assets/photos/search-results-hero-desktop.png);
             height: 320px;
         }
         .page-title {

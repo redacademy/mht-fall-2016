@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="content"
+			<div class="content">
 			<section class="labtesting-hero-image">
 				<h1>Lab Testing</h1>
 				<p>We offer a range of life labs to best help you make choices concerning your health and best treatment options for you.</p>
@@ -64,7 +64,7 @@ get_header(); ?>
 	<button class=""> <?php   echo $field['labtesting_title']; ?> </button>
 
 </div>
-							<div class="labtesting-single-wrapper-active" style="display:none; background-image: url(<?php  echo $field['labtesting_img']; ?>);background-size:cover; display: flex; flex-direction:column; justify-content:center; align-items:center">
+							<div class="labtesting-single-wrapper-active" style="display:none; background-image: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)),url(<?php  echo $field['labtesting_img']; ?>);background-size:cover; display: flex; flex-direction:column; justify-content:center; align-items:center">
 									<h3> <?php   echo $field['labtesting_title']; ?> </h3>
 									<p>  <?php   echo $field['labtesting_text']; ?> </p>
 						</div>

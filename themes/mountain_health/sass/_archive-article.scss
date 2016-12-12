@@ -4,30 +4,39 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-recipes-nutrition.png) no-repeat top;
+    background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-recipes-nutrition.png) no-repeat top;
     background-size: cover;
-    height: 40vh;
+    height: 25vh;
     h1 {
         text-transform: uppercase;
+        font-size: 17px;
+        @include mobile-break-width {
+            font-size: 48px;
+        }
     }
     p {
         text-align: center;
         font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
         font-size: 15px;
+        max-width: 80%;
         @include mobile-break-width {
+            font-size: 22px;
             max-width: 800px;
         }
     }
+    @include mobile-break-width {
+        height: 320px;
+    }
 }
+
 .archive-article-hero-image {
     color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-articles.png) no-repeat top;
+    background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-articles.png) no-repeat top;
     background-size: cover;
     height: 40vh;
     h1 {
@@ -36,7 +45,7 @@
     p {
         text-align: center;
         font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
         font-size: 15px;
         @include mobile-break-width {
             max-width: 800px;
@@ -45,7 +54,8 @@
 }
 
 .grid-archive-article {
-  @include mobile-break-width {
+    @include mobile-break-width {
+        width: 80%;
         width: 1300px;
         margin: 0 auto;
         display: flex;
@@ -57,14 +67,19 @@
 .article-nav-links-archive {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 10px;
 }
 
 .article-single-wrapper {
-  width: 632px;
+    width: 632px;
     margin: 0 auto;
     padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     @include mobile-break-width {
+        width: 632px;
         margin: 9px;
     }
 }
@@ -74,40 +89,59 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    margin: 20px;
+    @include mobile-break-width {}
 }
 
 .article-single-image {
     width: 100%;
-    height: 342px;
-    img{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      border-radius: 10px 10px 0 10px;
+    height: 146px;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 10px;
+    }
+    @include mobile-break-width {
+        height: 342px;
     }
 }
 
 .article-grid-content {
-
-  background: linear-gradient(90deg,rgba(0, 53, 87, 0.44),rgba(0, 155, 132, 0.41));
-  width: 100%;
-border-radius: 10px 10px 0 10px;
-height: 100%;
+    background: linear-gradient(90deg, rgba(0, 53, 87, 0.44), rgba(0, 155, 132, 0.41));
+    width: 100%;
+    border-radius: 10px 10px 0 10px;
+    height: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
     h2 {
         text-transform: uppercase;
         font-size: 25px;
         a {
             color: white;
+            &:visited {
+                color: white;
+            }
         }
+    }
+    a {
+        font-family: 'oswald';
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 17px;
         &:visited {
             color: white;
+        }
+        @include mobile-break-width {
+            font-size: 36px;
+            line-height: 1.25;
+            padding: 2rem;
         }
     }
 }
@@ -116,9 +150,16 @@ align-items: center;
     text-align: center;
 }
 
-.archive-entry-content p {
-    font-size: 20px;
-    color: #003d5c;
+.archive-entry-content {
+    width: 80%;
+    padding-bottom: 20px;
+    p {
+        font-size: 20px;
+        color: #003d5c;
+        @include mobile-break-width {
+            font-size: 22px;
+        }
+    }
 }
 
 .load-more {

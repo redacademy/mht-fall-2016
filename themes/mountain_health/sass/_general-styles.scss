@@ -24,6 +24,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    @include mobile-break-width {
+        height: 60px;
+        width: 220px;
+        border-radius: 30px;
+        a {
+            font-size: 22px;
+        }
+    }
 }
 
 .large-button {
@@ -32,6 +41,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    @include mobile-break-width {
+        height: 60px;
+        width: 280px;
+        border-radius: 30px;
+        a {
+            font-size: 22px;
+        }
+    }
 }
 
 .how-can-we-help-you {
@@ -41,7 +59,7 @@
     line-height: 26px;
     color: #003A5F;
     font-weight: normal;
-    @include mobile-break-width{
+    @include mobile-break-width {
         font-size: $medium-font-dt;
     }
 }
@@ -64,8 +82,11 @@ ul {
 }
 
 body {
-    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.png);
-    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg-mobile.jpg);
+    background-size: contain;
+    @include mobile-break-width {
+        background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
+    }
 }
 
 .site-main,
@@ -95,6 +116,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+p {
+    font-weight: lighter;
 }
 
 .nav-links {

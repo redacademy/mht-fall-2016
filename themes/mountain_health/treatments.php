@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="content">
 			<section class="treatment-hero-image">
 				<h1>Treatments</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna imperdiet mauris sodales tincidunt. Etiam port</p>
+				<p>We offer a variety of treatments custom tailored to your needs to help your body heal in the best way for you.</p>
 			</section>
 
 			<section class="nav-links article-nav-links-archive bread-crumb-general">
@@ -35,7 +35,7 @@ get_header(); ?>
 
 					<div class="treatment-description-single-active treatment-description "
 					style="display:none;
-					background-image: url(<?php  echo $field['treatment_img']; ?>);
+					background-image: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)),url(<?php  echo $field['treatment_img']; ?>);
 					background-size:cover;
 					display: flex;
      			flex-direction: column;
@@ -53,10 +53,11 @@ get_header(); ?>
 			<div class="laptesting-imag-text">
 				<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/amanda-visual@3x.png" alt="logo">
 		<div class="also-lab-testing-div labtesting-book-appointment">
-			<h3>We also offer lab testing</h3>
-			<p>Adrenal Functional Panel Cardiac Risk Assessment Panel CDSA</p>
+			<h3>Learn more about our treatments</h3>
+			<p>See more details about treatments
+and how they can help you.</p>
 
-		<a class="discover-more-btn"href="<?php echo get_page_link(25); ?>">
+		<a class="discover-more-btn"href="<?php echo get_page_link(138); ?>">
 		<button type="button" name="button">Discover More</button></a>
 		<!--Button links to 2.4 Appointments-->
 		</div>
@@ -66,7 +67,7 @@ get_header(); ?>
 
 		<section>
 			<h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
-    	    <div class="primary-button book-appointment"><a href="<?php echo get_page_link(48); ?>">Book an appointment</a></div>
+    	    <div class="primary-button book-appointment book-appointment-btn"><a href="<?php echo get_page_link(48); ?>">Book an appointment</a></div>
 		</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->

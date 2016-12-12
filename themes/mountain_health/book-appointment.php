@@ -13,11 +13,16 @@ get_header(); ?>
         </section>
 
         <section class="book-appointment-content">
-            <a href="#">Home page > <span>Book an appointment</span></a>
+					<section class="nav-links article-nav-links-archive bread-crumb-general">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+						<p> &nbsp;Book an appointment</p>
+					</section>
             <h2>Choose a Booking Method</h2>
             <h3>Call</h3>
             <div class="book-appointment-call">
-               <div class="book-appointment-phone-icon"></div><p>xxx-xxx-xxxx</p>
+               <div class="book-appointment-phone-icon"></div><a href="tel:604-442-5864">
+								<p>604-442-5864</p>
+							</a>
             </div>
             <div class="book-appointment-or">
                 <div class="or-line"></div>
@@ -36,7 +41,7 @@ get_header(); ?>
                 </form>
             </div>
             <div class="already-smartnd">
-                <p>Already have a SmartND account? <a href="#">Click here</a> to go to your Patient Portal.</p>
+                <p>Already have a SmartND account? <a href="https://www.smartnd.ca/patient-portal/login">Click here</a> to go to your Patient Portal.</p>
                 <p>Stay in control of your healthcare with</p>
                 <div class="smartnd-logo"></div>
             </div>

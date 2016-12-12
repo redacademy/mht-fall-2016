@@ -1,19 +1,17 @@
-//404 Page Section 
+//404 Page Section
 .error404 {
     background: url(../../MTH-Assets/photos/main-bg.png);
     background-position: center center;
 }
-
 .error-hero {
     height: 123px;
     text-align: center;
     color: white;
-    background: url(../../MTH-Assets/photos/404-hero.png);
+    background: url(../../MTH-Assets/photos/404-hero-desktop.png), no-repeat top;
     background-size: cover;
     background-position: center center;
     @include mobile-break-width {
         height: 320px;
-        background: url(../../MTH-Assets/photos/404-hero-desktop.png);
     }
     p {
         text-align: center;
@@ -86,6 +84,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    a{
+      color: white;
+      &:visited{
+        color: white;
+      }
+    }
     @include mobile-break-width {
         margin-top: 141px;
         margin-left: 8.2%;

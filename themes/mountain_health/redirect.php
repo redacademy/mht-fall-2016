@@ -4,6 +4,7 @@
  */
 
 get_header(); ?>
+<meta http-equiv="refresh" content="5;url=https://www.smartnd.ca/patient-portal/login" />
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -13,8 +14,8 @@ get_header(); ?>
                 <h2>Redirecting to</h2>
                 <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/snd-logo.png" alt="smartnd logo">
             </div>
-            <h3>in <span class="number-countdown">5</span>s</h3>
-            <p><a href="#">Go to SmartND now</a></p>
+            <h3>in <span class="number-countdown" id="counter">5</span>s</h3>
+            <p><a href="https://www.smartnd.ca/patient-portal/login">Go to SmartND now</a></p>
         </section>
         <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/mountains-desktop.png" class="mountains" alt="green and white image that looks like mountains">
         <section class="why-use-smartnd">
@@ -50,7 +51,7 @@ get_header(); ?>
                 </div>
             </div>
         </section>
-    
+
     	</main><!-- #main -->
 </div><!-- #primary -->
 <?php get_footer(); ?>

@@ -2,11 +2,12 @@
     // shows the navigation when hamburger is clicked
     // changes phone number and logo from blue to green
     $('.phone-and-number-green').hide();
+
+    $('.x-logo').hide();
     // $('.mobile-menu').hide();
     $('.menu-toggle').on('click', function(event) {
         event.preventDefault();
         $('.content, footer, .mountains').toggle();
-
         $('.mobile-menu').animate({ height: 'toggle' });
         $('.mobile-menu').removeClass('.mobile-menu-hide');
         $('.fa-bars').toggle();
@@ -16,13 +17,8 @@
         $(".about-page .phone-green, .front-page .phone-green").hide();
         // $(".about-page .main-header header .phone-and-number-green .phone-green, .front-page .main-header header .phone-and-number-green .phone-green").hide();
         $(".about-page .main-header header .phone-white .front-page .main-header header .phone-white").show();
-
-    });
-    // toggles hamburger when clicked and shows X on menu bar
-
-    $('.x-logo').hide();
-    $('.menu-toggle').on('click', function(event) {
-        event.preventDefault();
+        $('.mth-logo-white').toggle();
+        $('.mth-logo-dt').toggle();
 
     });
 
@@ -64,8 +60,6 @@
         $('.contact-us').removeClass('.grey-background');
     });
 
-
-
     // news and events button to show/hide news/events
     $(".events-section").on('click', function() {
         event.preventDefault();
@@ -100,9 +94,13 @@
     // about page header color change
     $(".about-page .main-header header p, .front-page .main-header header p").addClass("phone-number-white");
     $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").hide();
-    $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo-dt").hide();
+    $(".about-page .main-header header .MTH-logo-dt, .front-page .main-header header .MTH-logo-dt").hide();
     $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
     $(".about-page .main-header header .phone-and-number .phone-white .front-page .main-header header .phone-and-number .phone-white").show();
+    $(".about-page .search-icon-dt, .front-page .search-icon-dt").hide();
+    $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
+    $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
+
 
     $(window).on("scroll", function() {
         if ($(window).scrollTop() > 1) {
@@ -110,25 +108,53 @@
             $(".about-page .main-header header .hamburger-white, .front-page .main-header header .hamburger-white").removeClass("hamburger");
             $(".about-page .main-header header p, .front-page .main-header header p").removeClass("phone-number-white");
             $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").show();
-            $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo-dt").show();
+            $(".about-page .main-header header .MTH-logo-dt, .front-page .main-header header .MTH-logo-dt").show();
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").hide();
             $(".about-page .main-header header .phone-white, .front-page .main-header header .phone-white").hide();
+            $(".about-page .search-icon-dt, .front-page .search-icon-dt").show();
+            $(".about-page .search-logo-white, .front-page .search-logo-white").hide();
+            $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").show();
+            $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").hide();
+            $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "#1a9481");
+            $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "#1a9481");
+
+
 
         } else {
             $(".about-page .main-header header, .front-page .main-header header").removeClass("header-white");
             $(".about-page .hamburger-white, .front-page .main-header header .hamburger-white ").addClass("hamburger");
             $(".about-page .main-header header p, .front-page .main-header header p").addClass("phone-number-white");
-            $(".about-page .main-header header .MTH-logo, .front-page .main-header header .MTH-logo-dt").hide();
+            $(".about-page .main-header header .MTH-logo-dt, .front-page .main-header header .MTH-logo-dt").hide();
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
             $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").hide();
             $(".about-page .main-header header .phone-and-number .phone-white, .front-page .main-header header .phone-and-number .phone-white").show();
+            $(".about-page .search-icon-dt, .front-page .search-icon-dt").hide();
+            $(".about-page .search-logo-white, .front-page .search-logo-white").show();
+            $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
+            $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
+            $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "white");
+            $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
+
+
+
+
         }
     });
     // search state desktop
     $('.search-state-dt').hide();
 
-    $('.search-icon-dt').on('click', function() {
+    $('.search-icon-dt, .search-logo-white').on('click', function() {
         $('.search-state-dt').animate({ height: 'toggle' });
     });
+
+    //adding counter to the redirect page
+    // function countdown() {
+    //     var i = document.getElementById('counter');
+    //     if (parseInt(i.innerHTML) <= 0) {
+    //         location.href = 'login.php';
+    //     }
+    //     i.innerHTML = parseInt(i.innerHTML) - 1;
+    // }
+    // setInterval(function() { countdown(); }, 1000);
 
 })(jQuery);

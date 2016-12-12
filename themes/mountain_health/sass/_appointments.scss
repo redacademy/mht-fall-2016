@@ -4,22 +4,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(../../MTH-Assets/photos/visual-hero-banner@3x-appointment.png) no-repeat top;
+    background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-appointments.png) no-repeat top;
     background-size: cover;
-    height: 40vh;
+    height: 25vh;
     h1 {
-        font-size: 17px;
         text-transform: uppercase;
+        font-size: 17px;
+        @include mobile-break-width {
+            font-size: 48px;
+        }
     }
     p {
-        font-size: 15px;
         text-align: center;
         font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
         font-size: 15px;
+        max-width: 80%;
         @include mobile-break-width {
+            font-size: 22px;
             max-width: 800px;
         }
+    }
+    @include mobile-break-width {
+        height: 320px;
     }
 }
 
@@ -63,18 +70,27 @@
     h3 {
         margin-top: 10px;
         font-family: 'oswald', 'sans-serif';
-        font-size: 36px;
+        font-size: 17px;
         line-height: 0.67;
         color: #6a7059;
+        @include mobile-break-width {
+            font-size: 36px;
+        }
     }
     p {
         margin: 1rem;
         ;
         margin-left: 0;
         font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
         line-height: 1.36;
         color: #003d5c;
+        &:nth-child(2) {
+            font-size: 15px;
+            @include mobile-break-width {
+                font-size: 22px;
+            }
+        }
         &:nth-child(3),
         &:nth-child(4) {
             margin-bottom: 0;
@@ -82,6 +98,10 @@
             font-weight: bold;
             line-height: 0.69;
             color: #1a9481;
+            @include mobile-break-width {
+                font-size: 22px;
+                padding: 1rem;
+            }
         }
         .duration-style {
             color: #003d5c;
@@ -96,11 +116,12 @@
 .photo-apointment1 {
     @include mobile-break-width {
         width: 100%;
+        object-fit: cover;
     }
 }
 
 .appointments-wrapper-inner {
-    width: 280px;
+    width: 85%;
     margin: 0 auto;
     @include mobile-break-width {
         width: 1324px;
@@ -111,4 +132,9 @@
             height: 480px;
         }
     }
+}
+
+.front-button-appointments {
+    padding: .75rem 1.5rem;
+    ;
 }
