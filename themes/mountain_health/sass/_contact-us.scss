@@ -22,7 +22,6 @@
             font-size: 15px;
             @include mobile-break-width {
                 max-width: 800px;
-
             }
         }
     }
@@ -67,7 +66,8 @@
     p {
         font-size: $small-font;
         @include mobile-break-width {
-font-size: 22px;}
+            font-size: 22px;
+        }
     }
     .call,
     .send-us-a-message,
@@ -87,9 +87,8 @@ font-size: 22px;}
             text-decoration: none;
             padding-left: 8px;
         }
-        img{
-          width: 28px;
-
+        img {
+            width: 28px;
         }
     }
     .wpcf7-form {
@@ -149,8 +148,8 @@ font-size: 22px;}
         line-height: 19px;
         color: #003d5c;
         @include mobile-break-width {
-        font-size: 22px;
-      }
+            font-size: 22px;
+        }
     }
     input {
         width: 280px;
@@ -161,8 +160,8 @@ font-size: 22px;}
         color: rgba(155, 155, 155, 0.6);
         padding-left: 15px;
         @include mobile-break-width {
-        font-size: 22px;
-      }
+            font-size: 22px;
+        }
     }
     textarea {
         width: 280px;

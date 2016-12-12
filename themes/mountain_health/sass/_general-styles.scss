@@ -9,6 +9,7 @@
     a {
         color: white;
         text-decoration: none;
+        font-weight: lighter;
         &:visited {
             color: white;
         }
@@ -25,6 +26,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    font-weight: lighter;
     @include mobile-break-width {
         height: 60px;
         width: 220px;
@@ -42,6 +44,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    font-weight: lighter;
     @include mobile-break-width {
         height: 60px;
         width: 280px;
@@ -86,6 +89,8 @@ body {
     background-size: contain;
     @include mobile-break-width {
         background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
+        width: 1364px;
+        overflow: scroll;
     }
 }
 
