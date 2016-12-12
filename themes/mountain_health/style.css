@@ -1951,7 +1951,7 @@ object {
   @media (min-width: 480px) {
     .amanda-photo {
       background: url(../../MTH-Assets/photos/amanda-large.png);
-      width: 30%;
+      width: 418px;
       height: 560px;
       background-position: center center;
       background-size: cover;
@@ -1986,7 +1986,7 @@ object {
       position: absolute;
       right: 22px;
       z-index: 2;
-      width: 48%; } }
+      width: 655px; } }
 
 .about-amanda {
   position: relative;
@@ -2040,10 +2040,10 @@ object {
   position: absolute; }
   @media (min-width: 480px) {
     .amanda-bg {
-      width: 60%;
+      width: 815px;
       height: 392px;
       background: url(../../MTH-Assets/photos/amanda-bg.png);
-      background-size: cover;
+      background-size: 100% 100%;
       background-position: center center;
       display: -ms-flexbox;
       display: flex;
@@ -2078,7 +2078,7 @@ object {
       .education .amanda-road-map-desktop {
         position: absolute;
         top: -13px;
-        left: 36.5%;
+        left: 618px;
         display: inherit; } }
   .education .one {
     margin-top: 70px; }
