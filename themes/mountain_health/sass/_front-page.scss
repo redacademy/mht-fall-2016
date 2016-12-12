@@ -1,10 +1,14 @@
 .front-page {
     padding-top: 0;
+    .search-logo-white {
+        display: none;
+    }
     .hamburger {
         color: white;
     }
     .site-main {
         p {
+            font-weight: lighter;
             @include mobile-break-width {
                 font-size: $small-font-dt;
             }
@@ -102,11 +106,7 @@
         font-weight: lighter;
         text-align: center;
         line-height: 21px;
-        margin-top: 0px;
-        margin-bottom: 104px;
         width: 273px;
-        margin-left: auto;
-        margin-right: auto;
         @include mobile-break-width {
             font-size: $medium-font-dt;
             width: 1050px;
@@ -120,6 +120,8 @@
     .what-is-hero {
         font-size: 17px;
         text-align: center;
+        text-transform: uppercase;
+        color: $header-color;
         @include mobile-break-width {
             font-size: $medium-font-dt;
         }
@@ -135,8 +137,8 @@
         background-color: #1a9481;
         margin: 0 auto;
         border-radius: 20px;
-        border: 2px solid;
-        border-color: rgba(26, 148, 129, .1);
+        border: 3px solid rgba(0, 0, 0, 0.1);
+        transform: translateY(120px);
         @include mobile-break-width {
             width: 50px;
             height: 50px;
@@ -183,6 +185,7 @@
         width: 277px;
         text-align: center;
         margin-top: 0px;
+        line-height: 1.2;
         @include mobile-break-width {
             font-size: $small-font-dt;
             width: 807px;
@@ -241,10 +244,14 @@
 }
 
 .benifits-list {
+    h2 {
+        font-weight: lighter;
+    }
     line-height: 22px;
     color: white;
     margin-left: 62px;
     font-size: 15px;
+    font-weight: lighter;
     list-style-image: url(../../MTH-Assets/other/leaf-mobile.png);
     @include mobile-break-width {
         list-style-image: url(../../MTH-Assets/other/leaf.png);
@@ -287,7 +294,7 @@
         text-align: center;
         color: #677257;
         text-transform: uppercase;
-        width: 194px;
+        width: 200px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 29px;
@@ -297,6 +304,12 @@
             width: 100%;
         }
     }
+}
+
+.underline-strip-front {
+    height: 2px;
+    width: 80px;
+    background: linear-gradient(90deg, #003557 0%, #009B84 100%);
 }
 
 .compare-to-traditional {
@@ -373,6 +386,7 @@
         margin-bottom: 20px;
         font-size: 15px;
         line-height: 22px;
+        font-weight: lighter;
         list-style-image: url(../../MTH-Assets/other/leaf-mobile.png);
         @include mobile-break-width {
             font-size: $small-font-dt;
@@ -554,6 +568,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: $body-color;
     .number-circle {
         background: url(../../MTH-Assets/other/number-bg.png);
         width: 46px;
@@ -567,6 +582,8 @@
             box-shadow: none;
             margin: 0;
             font-size: $medium-font;
+            font-weight: bold;
+            color: $body-color;
         }
     }
 }

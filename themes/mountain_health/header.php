@@ -50,9 +50,10 @@
 								<img class="external-link-logo-white-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/external-link-white.png" alt="external link icon">
 
 						</div>
+					<div class="search-logo-dt">	
 						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="search logo">
-						<img class="search-logo-white" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/search-logo-white.png" alt="search icon white">
-
+						<img class="search-logo-white-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/search-logo-white.png" alt="search icon white">
+					</div>
 
 						<div class="phone-and-number">
 							<img class="phone-blue" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">

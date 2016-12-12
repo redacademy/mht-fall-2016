@@ -12,8 +12,8 @@
         align-items: center;
         background: white;
         position: fixed;
-        .search-icon-dt {
-            display: none;
+        .search-logo-dt {
+            display: none !important;
         }
         .header-button {
             display: none;
@@ -41,8 +41,8 @@
                     color: white;
                 }
             }
-            .search-icon-dt {
-                display: block;
+            .search-logo-dt {
+                display: block !important;
             }
             p {
                 margin: 0;
