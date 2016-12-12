@@ -3267,6 +3267,25 @@ object {
 .grey-background {
   background: #eee; }
 
+.wpcf7-response-output {
+  font-size: 30px;
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 7rem;
+  background-image: linear-gradient(to right, #1a9481, #9bcc93);
+  width: 100%;
+  height: 320px; }
+
 .resources-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/resources-hero.png);
