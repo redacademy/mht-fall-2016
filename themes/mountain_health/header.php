@@ -46,9 +46,13 @@
 
 						<div class="patient-portal-desktop">
 							<a href="<?php echo get_page_link(119); ?>">Patient portal</a>
-								<img class="external-link-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/external-link.png" alt="external link icon">
+								<img class="external-link-logo-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/external-link.png" alt="external link icon">
+								<img class="external-link-logo-white-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/external-link-white.png" alt="external link icon">
+
 						</div>
-						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="x logo">
+						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="search logo">
+						<img class="search-logo-white" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/search-logo-white.png" alt="search icon white">
+
 
 						<div class="phone-and-number">
 							<img class="phone-blue" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
@@ -92,7 +96,7 @@
 						<div class="search-and-patient-portal">
 							<div class="search">
 								<div class="search-icon">
-									<img class="search-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="search icon">
+									<img class="search-logo-white-mobile" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/search-logo-white.png" alt="search icon white">
 								</div>
 								<p>Search</p>
 							</div>

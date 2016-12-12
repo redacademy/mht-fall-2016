@@ -41,7 +41,7 @@
         color: $body-color;
         font-size: $small-font;
         font-family: "open_sans", 'sans-serif';
-        font-weight: light;
+        font-weight: lighter;
         // font-weight: bold;
         @include mobile-break-width {
             font-size: $small-font-dt;
@@ -265,7 +265,7 @@ button{
         color: white;
         text-align: center;
         font-size: $small-font;
-        font-weight: light;
+        font-weight: lighter;
         font-family: "open_sans", 'sans-serif';
         @include mobile-break-width {
             font-size: $small-font-dt;

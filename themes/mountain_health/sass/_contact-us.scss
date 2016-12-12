@@ -1,219 +1,400 @@
-.contact-us {
-    text-align: center;
-    .contact-us-hero {
-        color: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background: url(../../MTH-Assets/photos/hero-visual-banner-contact-us@3x.png) no-repeat top;
-        background-size: cover;
-        height: 319px;
-        h1 {
-            text-transform: uppercase;
-            @include mobile-break-width {
-                font-size: 48px;
-            }
-        }
-        p {
-            text-align: center;
-            font-family: 'open_sans', 'sans-serif';
-            font-weight: light;
-            font-size: 15px;
-            @include mobile-break-width {
-                max-width: 800px;
-
-            }
-        }
-    }
-    iframe {
-        width: 280px;
-        height: 159px;
-        margin: 10px;
-        border: 0;
-        box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
-        @include mobile-break-width {
-            width: 960px;
-            height: 482px;
-        }
-    }
-    .external-link {
-        font-family: 'open_sans', 'sans-serif';
-        font-weight: light;
-        font-size: 12px;
-        line-height: 1.5;
-        color: #1a9481;
-        cursor: pointer;
-    }
-    .x-icon {
-        position: absolute;
-        top: 196px;
-        left: 53.5%;
-        z-index: 3
-    }
-    h1 {
-        font-weight: normal;
-        font-size: $medium-font;
-        text-transform: uppercase;
-    }
-    h2 {
-        text-transform: uppercase;
-        color: $header-color;
-        font-size: $medium-font;
-        @include mobile-break-width {
-            font-size: 36px;
-        }
-    }
-    p {
-        font-size: $small-font;
-        @include mobile-break-width {
-font-size: 22px;}
-    }
-    .call,
-    .send-us-a-message,
-    .open-hours {
-        font-weight: bold;
-    }
-    .number-and-icon {
-        display: flex;
-        width: 280px;
-        height: 35px;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        .phone-number {
-            color: #1a9481;
-            font-size: $medium-font;
-            text-decoration: none;
-            padding-left: 8px;
-        }
-    }
-    .wpcf7-form {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: left;
-        @include mobile-break-width {
-            width: 1100px;
-            justify-content: space-between;
-            flex-direction: row;
-            flex-flow: wrap;
-            p:nth-child(8) {
-                width: 1100px;
-                textarea {
-                    width: 100%;
-                }
-            }
-            p:nth-child(2),
-            p:nth-child(3),
-            p:nth-child(4),
-            p:nth-child(5),
-            p:nth-child(6),
-            p:nth-child(7) {
-                width: 494px;
-                input {
-                    width: 100%;
-                }
-            }
-            p:nth-child(9) {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        }
-    }
-    div.wpcf7-mail-sent-ok {
-        padding: 0.2em 1em;
-        position: absolute;
-        top: 0;
-        position: absolute;
-        top: 86px;
-        width: 320px;
-        height: 125px;
-        margin: 0 auto;
-        left: 0;
-        color: white;
-        text-align: center;
-        background: url(../../MTH-Assets/other/message-sent-bg.png);
-        border: none;
-        ;
-    }
-    label {
-        font-size: $small-font;
-        line-height: 19px;
-        color: #003d5c;
-        @include mobile-break-width {
-        font-size: 22px;
-      }
-    }
-    input {
-        width: 280px;
-        height: 41px;
-        background-color: #FFFFFF;
-        border: 1px solid #919191;
-        border-radius: 4px;
-        color: rgba(155, 155, 155, 0.6);
-        padding-left: 15px;
-        @include mobile-break-width {
-        font-size: 22px;
-      }
-    }
-    textarea {
-        width: 280px;
-        height: 280px;
-        background-color: #FFFFFF;
-        border: 1px solid #919191;
-        border-radius: 4px;
-    }
-    input[type="submit"] {
-        width: 180px;
-        height: 40px;
-        border-radius: 20px;
-        color: #fff;
-        margin: 0 50px;
-        box-shadow: none;
-        border: none;
-        padding: 0;
-        background: linear-gradient(90deg, #003557 0%, #009B84 100%);
-        font-family: 'open_sans', 'sans-serif';
-        p {
-            margin: 0;
-        }
-    }
-    .hours {
-        color: $header-color;
-    }
-}
-
-.or {
+//Book Appointment Page 
+.book-appointment-hero {
+    height: 123px;
+    background: url(../../MTH-Assets/photos/book-appointment-hero.png);
+    background-size: cover;
+    background-position: center center;
     display: flex;
-    margin: 0 auto;
-    padding: 19px;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
-    color: #003d5c;
-    p {
-        padding-top: 5px;
-        border: 8px solid white;
-    }
-    img {
-        width: 120px;
-    }
     @include mobile-break-width {
-        img {
-            width: 525px;
-            height: 2px;
-            background-color: #003d5c;
-        }
-        p {
-            border: 15px solid white;
+        height: 320px;
+        //background:url(../../MTH-Assets/photos/book-appointment-hero-desktop.png);
+    }
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-size: $medium-font;
+        font-weight: normal;
+        @include mobile-break-width {
+            font-size: $large-font-dt;
         }
     }
 }
 
-.grey-background {
-    background: #eee;
+.book-appointment-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    h2 {
+        color: $header-color;
+        font-size: $medium-font;
+        text-transform: uppercase;
+        @include mobile-break-width {
+            font-size: $medium-font-dt;
+        }
+    }
+}
+
+.book-appointment-content {
+    h3 {
+        color: $body-color;
+        font-size: $small-font;
+        font-family: "open_sans", 'sans-serif';
+        font-weight: lighter;
+        // font-weight: bold;
+        @include mobile-break-width {
+            font-size: $small-font-dt;
+        }
+    }
+}
+
+.book-appointment-content {
+    a {
+        color: #1a9481;
+    }
+}
+
+.book-appointment-content {
+    a:visited {
+        color: #1a9481;
+    }
+}
+
+.book-appointment-call {
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: #1a9481;
+        font-size: $medium-font;
+        margin: 0px;
+        @include mobile-break-width {
+            font-size: $medium-font-dt;
+        }
+    }
+}
+
+.book-appointment-call {
+    .book-appointment-phone-icon {
+        height: 28px;
+        width: 28px;
+        background: url(../../MTH-Assets/icons/phone-green.png);
+        background-size: cover;
+        background-position: center center;
+        margin-right: 8px;
+        @include mobile-break-width {
+            background: url(../../MTH-Assets/icons/phone-green-desktop.png);
+            height: 34px;
+            width: 34px;
+            background-size: cover;
+        }
+    }
+}
+
+.book-appointment-or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .or-line {
+        width: 120px;
+        height: 1px;
+        background-color: #003d5c;
+        @include mobile-break-width {
+            width: 30%;
+        }
+    }
+}
+
+.book-appointment-or {
+    h3 {
+        text-transform: uppercase;
+        font-weight: normal;
+        margin-left: 10px;
+        margin-right: 10px;
+        @include mobile-break-width {
+            font-size: $small-font-dt;
+        }
+    }
+}
+
+.book-appointment-email {
+    position: relative;
+    h3 {
+        margin-bottom: 9px;
+        text-align: left;
+        margin-left: 20px;
+        font-weight: normal;
+        @include mobile-break-width {
+            position: absolute;
+            top: -18px;
+            left: 313px;
+            font-size: $small-font-dt;
+        }
+    }
+}
+
+.book-appointment-email {
+    input {
+        width: 280px;
+        height: 42px;
+        border: solid 1px #919191;
+        @include mobile-break-width {
+            width: 28%;
+            height: 60px;
+            font-size: $small-font-dt;
+            margin-right: 20px;
+        }
+    }
+}
+
+.book-appointment-email {
+    button {
+        color: white;
+        background: linear-gradient(90deg, #003557 0%, #009B84 100%);
+        border-radius: 30000px;
+        padding-left: 56px;
+        padding-right: 56px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: none;
+        margin-top: 30px;
+        @include mobile-break-width {
+            width: 280px;
+            font-size: $small-font-dt;
+        }
+    }
+}
+
+.book-appointment-use-smart {
+    h3 {
+        margin: 0px;
+        @include mobile-break-width {
+            font-size: $small-font-dt;
+        }
+    }
+}
+
+.book-appointment-use-smart {
+    p {
+        margin: 0px;
+        color: #003d5c;
+        @include mobile-break-width {
+            font-size: $small-font-dt;
+        }
+    }
+}
+
+.already-smartnd {
+    color: $body-color;
+    @include mobile-break-width {
+        font-size: $small-font-dt;
+    }
+    p:first-child {
+        width: 265px;
+        margin-left: auto;
+        margin-right: auto;
+        @include mobile-break-width {
+            width: 100%;
+            font-size: $small-font-dt;
+            margin-bottom: 189px;
+        }
+    }
+}
+
+.smartnd-logo {
+    width: 133px;
+    height: 22px;
+    background-image: url(../../MTH-Assets/logos/snd-logo.png);
+    background-size: cover;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    @include mobile-break-width {
+        background-image: url(../../MTH-Assets/logos/snd-logo-desktop.png);
+        width: 178px;
+        height: 29px;
+    }
+}
+
+.why-use-smartnd {
+    height: 299px;
+    background-image: -webkit-linear-gradient(left, #1a9481, #9bcc93);
+    background-image: -o-linear-gradient(left, #1a9481, #9bcc93);
+    background-image: linear-gradient(to right, #1a9481, #9bcc93);
+    line-height: 18px;
+    @include mobile-break-width {
+        height: 388px;
+    }
+}
+
+.why-use-smartnd {
+    h2 {
+        color: white;
+        text-align: center;
+        font-size: $medium-font;
+        text-transform: uppercase;
+        padding-top: 20px;
+        margin-top: 0px;
+        @include mobile-break-width {
+            font-size: $medium-font-dt;
+            padding-top: 80px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.why-use-smartnd {
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: $small-font;
+        font-weight: lighter;
+        font-family: "open_sans", 'sans-serif';
+        @include mobile-break-width {
+            font-size: $small-font-dt;
+        }
+    }
+}
+
+.wavy-arrows {
+    height: 60px;
+    width: 60px;
+    background-image: url(../../MTH-Assets/icons/change-icon.png);
+    background-size: cover;
+    background-position: center center;
+    @include mobile-break-width {
+        background-image: url(../../MTH-Assets/icons/change-icon-desktop.png);
+        background-size: cover;
+        background-position: center center;
+        width: 92px;
+        height: 92px;
+    }
+}
+
+.update-patient-pic {
+    height: 60px;
+    width: 60px;
+    background-image: url(../../MTH-Assets/icons/update-icon.png);
+    background-size: cover;
+    background-position: center center;
+    @include mobile-break-width {
+        background-size: cover;
+        background-position: center center;
+        width: 92px;
+        height: 92px;
+    }
+}
+
+.smartnd-clipboard {
+    height: 60px;
+    width: 60px;
+    background-image: url(../../MTH-Assets/icons/form-icon.png);
+    background-size: cover;
+    background-position: center center;
+    @include mobile-break-width {
+        background-size: cover;
+        background-position: center center;
+        width: 92px;
+        height: 92px;
+    }
+}
+
+.smartnd-form-img {
+    height: 60px;
+    width: 60px;
+    background-image: url(../../MTH-Assets/icons/treatment-icon.png);
+    background-size: cover;
+    background-position: center center;
+    @include mobile-break-width {
+        background-size: cover;
+        background-position: center center;
+        width: 92px;
+        height: 92px;
+    }
+}
+
+.why-use-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include mobile-break-width {
+        display: flex;
+        justify-content: center;
+        line-height: 1.18;
+    }
+}
+
+.why-use-upper {
+    display: flex;
+}
+
+.why-use-lower {
+    display: flex;
+}
+
+.why-use-smartnd-content {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @include mobile-break-width {
+        width: 177px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+
+.smart-nd-change {
+    h3 {
+        @include mobile-break-width {
+            width: 180px;
+        }
+    }
+}
+
+.smart-nd-forms {
+    h3 {
+        width: 95px;
+        margin-left: auto;
+        margin-right: auto;
+        @include mobile-break-width {
+            width: 135px;
+        }
+    }
+}
+
+.smart-nd-plans {
+    h3 {
+        width: 118px;
+        margin-left: auto;
+        margin-right: auto;
+        @include mobile-break-width {
+            width: 177px;
+        }
+    }
+}
+
+.smartnd-icon-bg {
+    width: 60px;
+    height: 60px;
+    background-color: #1a9481;
+    border-radius: 2000000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.mountains {
+    transform: translateY(7px);
 }
