@@ -4,9 +4,9 @@
 <div id="primary" class="content-area what-we-do">
 	<main id="main" class="site-main" role="main">
         <div class="content">
-        <div class="what-we-do-hero">    
+        <div class="what-we-do-hero">
             <h1>What We Do</h1>
-            <p>At Mountain Health, we focus on providing you the knowledge 
+            <p>At Mountain Health, we focus on providing you the knowledge
                 and options that will best assist your body in healing.
             </p>
         </div>
@@ -46,7 +46,7 @@
                 <a href="<?php echo get_page_link(25); ?>">Learn More</a>
                 </div>
             </div>
-        </section> 
+        </section>
         <div class="experience">
             <h3>We have experience working with general health</h3>
             <ul>
@@ -55,7 +55,7 @@
                 <li>Hypertension</li>
                 <li>Insomnia and fatigue</li>
                 <li>Digestive concerns</li>
-                <li>Allergies (food and environment)</li> 
+                <li>Allergies (food and environment)</li>
                 <p>Talk with Dr. Chay to learn more about how we can help you.</p>
                 <!--This last line above might change and link to an article with more detail-->
             </ul>
@@ -72,7 +72,7 @@
                     <li>Migraines and headaches</li>
                     <li>Interstitial cystiti</li>
                     <p>And more...</p>
-                    
+
                 </ul>
             </div>
             <div class="care-div">
@@ -90,18 +90,17 @@
             </div>
         </section>
         <section class="what-we-medicine">
-            <div class="picture-of-remedies"></div>
+					<div class="picture-of-remedies"></div>
             <div class="what-is-naturopathic-medicine">
                 <h2>What is Naturopathic Medicine?</h2>
-                <p>Naturopathy is a type of care that offers individualized, 
-                    natural healthcare. It combines the best of traditional 
+                <p>Naturopathy is a type of care that offers individualized,
+                    natural healthcare. It combines the best of traditional
                     treatments with evidence-based medicine.
                 </p>
-
         </section>
-        
+
         <h4 class="how-can-we-help-you">Want to know how we can help you?</h4>
-        <div class ="primary-button book-appointment">
+        <div class ="primary-button book-appointment what-btn">
             <a href="<?php echo get_page_link(29); ?>">Book an appointment</a>
         </div>
 	</main><!-- #main -->

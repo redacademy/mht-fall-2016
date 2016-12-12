@@ -2614,9 +2614,12 @@ object {
   .what-we-medicine {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    height: 280px; } }
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    height: 280px;
+    box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
+    width: 1200px;
+    margin: 0 auto; } }
 
 @media (min-width: 480px) {
   .what-is-naturopathic-medicine p {
@@ -2624,8 +2627,17 @@ object {
     width: 729px;
     text-align: left; } }
 
+@media (min-width: 480px) {
+  .what-is-naturopathic-medicine {
+    -ms-flex-pack: end;
+        justify-content: flex-end; } }
+
 .what-we-do .how-can-we-help-you {
   padding-top: 20px; }
+
+.what-btn {
+  padding: .75rem 1.5rem;
+  width: 15%; }
 
 .appointments-hero-image {
   color: #ffffff;
@@ -3424,7 +3436,7 @@ div.wpcf7-response-output {
     .news-events,
     .articles-research,
     .recipes-nutrition {
-      width: 23.5%;
+      width: 428px;
       background: url(../../MTH-Assets/photos/stroke-desktop.png);
       background-size: 100% 100%;
       background-position: center center;
