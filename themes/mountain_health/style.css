@@ -3461,18 +3461,22 @@ object {
 .footer-title {
   font-family: 'oswald', 'sans-serif';
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 17px;
   line-height: 1.41;
   text-align: center;
   color: #6a7059;
   padding: 1rem 1.5rem;
   margin: 0;
   font-weight: normal; }
+  @media (min-width: 480px) {
+    .footer-title {
+      font-size: 22px; } }
 
 .copy-footer {
   background-color: #003A5F; }
   .copy-footer p {
     font-size: 12px;
+    width: 90%;
     text-align: center;
     line-height: 15px;
     color: #FFFFFF;
@@ -3533,16 +3537,19 @@ input::-webkit-input-placeholder {
           flex-direction: row; } }
 
 .footer_wrapper {
-  margin: 25px;
+  margin: 15px 25px;
   text-align: center; }
   .footer_wrapper p {
     margin-top: 0;
     font-family: 'open_sans', 'sans-serif';
     font-weight: light;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.6;
     color: #003d5c;
     padding: 0 3rem; }
+    @media (min-width: 480px) {
+      .footer_wrapper p {
+        font-size: 16px; } }
   @media (min-width: 480px) {
     .footer_wrapper {
       -ms-flex-preferred-size: 33%;
@@ -3563,6 +3570,24 @@ input::-webkit-input-placeholder {
 
 .thick-span {
   font-weight: bold; }
+
+.contact_icon_img {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: baseline;
+      align-items: baseline;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  @media (min-width: 480px) {
+    .contact_icon_img {
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+      .contact_icon_img img {
+        width: 30px;
+        object-fit: contain; } }
+  .contact_icon_img img {
+    width: 25px;
+    margin-right: 1rem; }
 
 .hero-article-image {
   height: 280px; }
