@@ -519,7 +519,7 @@ textarea {
   font-weight: normal; }
   @media (min-width: 480px) {
     .how-can-we-help-you {
-      font-size: 36px; } }
+      font-size: 28px; } }
 
 a {
   text-decoration: none;
@@ -1265,7 +1265,7 @@ object {
     color: white; }
   @media (min-width: 480px) {
     .front-page .site-main p {
-      font-size: 22px; } }
+      font-size: 17px; } }
   .front-page .site-main h2,
   .front-page .site-main h3 {
     font-family: 'oswald', 'sans-serif';
@@ -1357,7 +1357,7 @@ object {
   margin-right: auto; }
   @media (min-width: 480px) {
     .hero-banner p {
-      font-size: 36px;
+      font-size: 28px;
       width: 1050px;
       line-height: 1.22;
       margin-bottom: 125px; } }
@@ -1367,7 +1367,7 @@ object {
   text-align: center; }
   @media (min-width: 480px) {
     .booking .what-is-hero {
-      font-size: 36px; } }
+      font-size: 28px; } }
 
 .hero-banner .keep-scrolling {
   background: url(../../MTH-Assets/icons/down-arrow.png);
@@ -1422,7 +1422,7 @@ object {
     margin-top: 0px; }
     @media (min-width: 480px) {
       .booking p {
-        font-size: 22px;
+        font-size: 17px;
         width: 807px; } }
 
 .booking div {
@@ -1466,7 +1466,7 @@ object {
     text-transform: uppercase; }
     @media (min-width: 480px) {
       .benifits h2 {
-        font-size: 36px;
+        font-size: 28px;
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
         max-width: 693px;
@@ -1483,7 +1483,7 @@ object {
   @media (min-width: 480px) {
     .benifits-list {
       list-style-image: url(../../MTH-Assets/other/leaf.png);
-      font-size: 22px;
+      font-size: 17px;
       margin-top: 152px;
       line-height: 1.8; } }
 
@@ -1525,7 +1525,7 @@ object {
   margin-bottom: 20px; }
   @media (min-width: 480px) {
     .compare-to-traditional h2 {
-      font-size: 36px;
+      font-size: 28px;
       width: 100%; } }
 
 .compare-to-traditional .compare-content {
@@ -1578,7 +1578,7 @@ object {
   margin-top: 20px; }
   @media (min-width: 480px) {
     .compare-to-traditional h3 {
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 .compare-content ul {
   color: #003A5F;
@@ -1589,7 +1589,7 @@ object {
   list-style-image: url(../../MTH-Assets/other/leaf-mobile.png); }
   @media (min-width: 480px) {
     .compare-content ul {
-      font-size: 22px;
+      font-size: 17px;
       line-height: 2.05;
       list-style-image: url(../../MTH-Assets/other/leaf.png); } }
 
@@ -1648,7 +1648,7 @@ object {
     margin-bottom: 20px; }
     @media (min-width: 480px) {
       .what-is-header p {
-        font-size: 36px;
+        font-size: 28px;
         max-width: 77.6%;
         margin-bottom: 40px; } }
 
@@ -1729,7 +1729,7 @@ object {
   margin-bottom: 0px; }
   @media (min-width: 480px) {
     .did-you-know h2 {
-      font-size: 36px; } }
+      font-size: 28px; } }
 
 .did-you-know .did-you-know-pic {
   background: url(../../MTH-Assets/photos/amanda-visual.png);
@@ -1782,7 +1782,7 @@ object {
     line-height: 1.2; }
     @media (min-width: 480px) {
       .did-you-know .did-you-know-bg p {
-        font-size: 22px; } }
+        font-size: 17px; } }
 
 .did-you-know .did-you-know-bg-1 {
   height: 170px; }
@@ -1816,7 +1816,7 @@ object {
   margin-bottom: 15px; }
   @media (min-width: 480px) {
     .how-can h4 {
-      font-size: 36px; } }
+      font-size: 28px; } }
 
 .site-main .all-visits {
   display: none; }
@@ -1925,7 +1925,7 @@ object {
       margin: 0 auto; }
       @media (min-width: 480px) {
         .about-page .about-hero p {
-          font-size: 36px;
+          font-size: 28px;
           width: 936px;
           line-height: 1.22; } }
   .about-page h5 {
@@ -2006,7 +2006,7 @@ object {
     @media (min-width: 480px) {
       .about-amanda .about-amanda-text {
         width: 705px;
-        font-size: 22px;
+        font-size: 17px;
         line-height: 1.36;
         left: initial;
         right: 50px;
@@ -2142,14 +2142,14 @@ object {
     margin: 0; }
     @media (min-width: 480px) {
       .education h4 {
-        font-size: 36px; } }
+        font-size: 28px; } }
   .education p {
     font-size: 15px;
     margin: 0;
     line-height: 1.2; }
     @media (min-width: 480px) {
       .education p {
-        font-size: 22px; } }
+        font-size: 17px; } }
 
 .green-mountains {
   position: absolute;
@@ -2221,14 +2221,14 @@ object {
 @media (min-width: 480px) {
   .about-page .how-can-we-help-you {
     margin-top: 80px;
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 40px; } }
 
 @media (min-width: 480px) {
   .about-page .book-appointment {
     width: 280px;
     height: 60px;
-    font-size: 22px;
+    font-size: 17px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -2265,7 +2265,7 @@ object {
       text-transform: uppercase; }
       @media (min-width: 480px) {
         .what-we-do .what-we-do-hero h1 {
-          font-size: 48px;
+          font-size: 37px;
           margin-bottom: 20px; } }
     .what-we-do .what-we-do-hero p {
       font-size: 15px;
@@ -2273,7 +2273,7 @@ object {
       margin: 0; }
       @media (min-width: 480px) {
         .what-we-do .what-we-do-hero p {
-          font-size: 22px;
+          font-size: 17px;
           width: 812px;
           line-height: 1.36; } }
   .what-we-do h2 {
@@ -2283,7 +2283,7 @@ object {
     line-height: 26px; }
     @media (min-width: 480px) {
       .what-we-do h2 {
-        font-size: 36px; } }
+        font-size: 28px; } }
   .what-we-do .what-we-do-bread {
     margin-bottom: 30px; }
   .what-we-do .experience {
@@ -2307,7 +2307,7 @@ object {
       line-height: 1.41; }
       @media (min-width: 480px) {
         .what-we-do .experience h3 {
-          font-size: 36px;
+          font-size: 28px;
           margin-bottom: 20px; } }
     .what-we-do .experience h4 {
       text-transform: uppercase;
@@ -2315,7 +2315,7 @@ object {
       font-size: 18px; }
       @media (min-width: 480px) {
         .what-we-do .experience h4 {
-          font-size: 36px; } }
+          font-size: 28px; } }
     .what-we-do .experience ul {
       list-style: none;
       padding: 0;
@@ -2325,7 +2325,7 @@ object {
         line-height: 18px; }
         @media (min-width: 480px) {
           .what-we-do .experience ul li {
-            font-size: 22px;
+            font-size: 17px;
             line-height: 1.36; } }
     .what-we-do .experience p {
       margin: 0;
@@ -2333,7 +2333,7 @@ object {
       font-weight: bold; }
       @media (min-width: 480px) {
         .what-we-do .experience p {
-          font-size: 22px; } }
+          font-size: 17px; } }
 
 .treatments-testing-appointments {
   display: -ms-flexbox;
@@ -2394,7 +2394,7 @@ object {
         .treatments-testing-appointments .treatments p,
         .treatments-testing-appointments .testing p,
         .treatments-testing-appointments .appointments p {
-          font-size: 22px; } }
+          font-size: 17px; } }
 
 .learn-more {
   width: 180px;
@@ -2427,7 +2427,7 @@ object {
     text-decoration: none; }
     @media (min-width: 480px) {
       .learn-more a {
-        font-size: 22px; } }
+        font-size: 17px; } }
 
 .care-conditions {
   text-align: center; }
@@ -2550,7 +2550,7 @@ object {
 
 @media (min-width: 480px) {
   .what-is-naturopathic-medicine p {
-    font-size: 22px;
+    font-size: 17px;
     width: 729px;
     text-align: left; } }
 
@@ -2704,7 +2704,7 @@ object {
     font-weight: normal; }
     @media (min-width: 480px) {
       .book-appointment-hero h1 {
-        font-size: 48px; } }
+        font-size: 37px; } }
 
 .book-appointment-content {
   text-align: center;
@@ -2718,7 +2718,7 @@ object {
     text-transform: uppercase; }
     @media (min-width: 480px) {
       .book-appointment-content h2 {
-        font-size: 36px; } }
+        font-size: 28px; } }
 
 .book-appointment-content h3 {
   color: #003A5F;
@@ -2727,7 +2727,7 @@ object {
   font-weight: lighter; }
   @media (min-width: 480px) {
     .book-appointment-content h3 {
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 .book-appointment-content a {
   color: #1a9481; }
@@ -2749,7 +2749,7 @@ object {
     margin: 0px; }
     @media (min-width: 480px) {
       .book-appointment-call p {
-        font-size: 36px; } }
+        font-size: 28px; } }
 
 .book-appointment-call .book-appointment-phone-icon {
   height: 28px;
@@ -2787,7 +2787,7 @@ object {
   margin-right: 10px; }
   @media (min-width: 480px) {
     .book-appointment-or h3 {
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 .book-appointment-email {
   position: relative;
@@ -2802,7 +2802,7 @@ object {
     @media (min-width: 480px) {
       .book-appointment-email h3 {
         margin: 0;
-        font-size: 22px; } }
+        font-size: 17px; } }
   @media (min-width: 480px) {
     .book-appointment-email {
       padding: 3rem;
@@ -2824,7 +2824,7 @@ object {
     .book-appointment-email input {
       width: 50%;
       height: 60px;
-      font-size: 22px;
+      font-size: 17px;
       margin-right: 20px; } }
 
 .book-appointment-email button {
@@ -2840,27 +2840,27 @@ object {
   @media (min-width: 480px) {
     .book-appointment-email button {
       width: 280px;
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 .book-appointment-use-smart h3 {
   margin: 0px;
   font-weight: bold; }
   @media (min-width: 480px) {
     .book-appointment-use-smart h3 {
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 .book-appointment-use-smart p {
   margin: 0px;
   color: #003d5c; }
   @media (min-width: 480px) {
     .book-appointment-use-smart p {
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 .already-smartnd {
   color: #003A5F; }
   @media (min-width: 480px) {
     .already-smartnd {
-      font-size: 22px; } }
+      font-size: 17px; } }
   .already-smartnd p:first-child {
     width: 265px;
     margin-left: auto;
@@ -2868,7 +2868,7 @@ object {
     @media (min-width: 480px) {
       .already-smartnd p:first-child {
         width: 100%;
-        font-size: 22px;
+        font-size: 17px;
         margin-bottom: 189px; } }
 
 .smartnd-logo {
@@ -2903,7 +2903,7 @@ object {
   margin-top: 0px; }
   @media (min-width: 480px) {
     .why-use-smartnd h2 {
-      font-size: 36px;
+      font-size: 28px;
       padding-top: 80px;
       margin-bottom: 40px; } }
 
@@ -2915,7 +2915,7 @@ object {
   font-family: "open_sans", 'sans-serif'; }
   @media (min-width: 480px) {
     .why-use-smartnd h3 {
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 .wavy-arrows {
   height: 60px;
@@ -3307,7 +3307,7 @@ object {
     padding-top: 20px; }
     @media (min-width: 480px) {
       .resources-hero h1 {
-        font-size: 48px;
+        font-size: 37px;
         padding-top: 95px;
         margin-bottom: 40px; } }
 
@@ -3374,7 +3374,7 @@ object {
       .news-events p,
       .articles-research p,
       .recipes-nutrition p {
-        font-size: 22px; } }
+        font-size: 17px; } }
 
 .news-events h2,
 .news-events p,
@@ -3397,7 +3397,7 @@ object {
     .news-events h2,
     .articles-research h2,
     .recipes-nutrition h2 {
-      font-size: 36px; } }
+      font-size: 28px; } }
 
 .news-events a,
 .articles-research a,
@@ -3756,7 +3756,7 @@ header.entry-header-article {
     line-height: 1.2; }
     @media (min-width: 480px) {
       .error-hero p {
-        font-size: 22px;
+        font-size: 17px;
         width: 100%; } }
 
 .error-hero h1 {
@@ -3766,7 +3766,7 @@ header.entry-header-article {
   padding-top: 25px; }
   @media (min-width: 480px) {
     .error-hero h1 {
-      font-size: 48px;
+      font-size: 37px;
       padding-top: 108px; } }
 
 .not-found-content {
@@ -3829,7 +3829,7 @@ header.entry-header-article {
   font-size: 15px; }
   @media (min-width: 480px) {
     .not-found-content p {
-      font-size: 22px;
+      font-size: 17px;
       width: 100%; } }
 
 .not-found-button {
@@ -4282,7 +4282,7 @@ header.entry-header-article {
     text-transform: uppercase; }
     @media (min-width: 480px) {
       .search-results article h2 {
-        font-size: 36px;
+        font-size: 28px;
         margin: 0px;
         padding: 0px; } }
     .search-results article h2 a {
@@ -4298,7 +4298,7 @@ header.entry-header-article {
   @media (min-width: 480px) {
     .search-results article p {
       width: 632px;
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 @media (min-width: 480px) {
   .search-results-content {
@@ -4330,7 +4330,7 @@ header.entry-header-article {
     margin-bottom: 10px; }
     @media (min-width: 480px) {
       .redirect h2 {
-        font-size: 36px;
+        font-size: 28px;
         font-family: "open_sans", 'sans-serif';
         font-weight: light; } }
 
@@ -4341,7 +4341,7 @@ header.entry-header-article {
   line-height: 1.2; }
   @media (min-width: 480px) {
     .redirect h3 {
-      font-size: 36px;
+      font-size: 28px;
       font-weight: normal;
       font-family: "open_sans", 'sans-serif';
       font-weight: light;
@@ -4350,7 +4350,7 @@ header.entry-header-article {
     font-size: 24px; }
     @media (min-width: 480px) {
       .redirect h3 span {
-        font-size: 36px;
+        font-size: 28px;
         font-weight: bold; } }
 
 .redirect p {
@@ -4366,7 +4366,7 @@ header.entry-header-article {
   font-size: 12px; }
   @media (min-width: 480px) {
     .redirect a {
-      font-size: 22px; } }
+      font-size: 17px; } }
 
 .redirect a:visited {
   color: #1a9481; }
