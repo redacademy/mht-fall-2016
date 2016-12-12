@@ -59,9 +59,6 @@
         $('.x-icon').hide();
         $('.contact-us').removeClass('.grey-background');
     });
-    // drop down for desktop
-
-
 
     // news and events button to show/hide news/events
     $(".events-section").on('click', function() {

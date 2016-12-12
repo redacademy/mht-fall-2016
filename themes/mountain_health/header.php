@@ -96,7 +96,7 @@
 						<div class="search-and-patient-portal">
 							<div class="search">
 								<div class="search-icon">
-									<img class="search-logo-white" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/search-logo-white.png" alt="search icon white">
+									<img class="search-logo-white-mobile" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/search-logo-white.png" alt="search icon white">
 								</div>
 								<p>Search</p>
 							</div>

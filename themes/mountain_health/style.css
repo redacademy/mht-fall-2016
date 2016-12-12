@@ -547,6 +547,9 @@ body {
   -ms-flex-pack: center;
       justify-content: center; }
 
+p {
+  font-weight: lighter; }
+
 .nav-links {
   color: #1a9481;
   font-family: 'open_sans', 'sans-serif';
@@ -880,7 +883,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-left: 80px;
-  margin-right: 46px;
+  margin-right: 44px;
   -ms-flex-align: center;
       align-items: center; }
   .phone-and-number-green p {
@@ -891,6 +894,14 @@ body {
   .phone-and-number-green img {
     padding-right: 8px;
     height: 20px; }
+
+.search-logo-white,
+.search-icon-dt {
+  display: none; }
+  @media (min-width: 480px) {
+    .search-logo-white,
+    .search-icon-dt {
+      display: block; } }
 
 .mobile-menu-wrapper {
   display: -ms-flexbox;
@@ -972,10 +983,7 @@ a {
         .main-navigation ul li:hover > ul a,
         .main-navigation ul li.focus > ul a {
           display: block;
-          text-decoration: none; }
-        .main-navigation ul li:hover > ul ul:hover,
-        .main-navigation ul li.focus > ul ul:hover {
-          display: block; } }
+          text-decoration: none; } }
 
 /* Small menu. */
 .menu-toggle,
@@ -1321,9 +1329,9 @@ object {
         margin-bottom: 40px; } }
 
 .hero-banner p {
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'open_sans', 'sans-serif';
-  font-weight: light;
+  font-weight: lighter;
   text-align: center;
   line-height: 21px;
   margin-top: 0px;
@@ -1744,7 +1752,7 @@ object {
         font-size: 22px; } }
 
 .did-you-know .did-you-know-bg-1 {
-  height: 155px; }
+  height: 170px; }
   .did-you-know .did-you-know-bg-1 p {
     width: 256px;
     margin-top: 33px; }
@@ -1762,7 +1770,7 @@ object {
         width: 86.6%; } }
 
 .did-you-know .did-you-know-bg-3 {
-  height: 141px; }
+  height: 155px; }
   .did-you-know .did-you-know-bg-3 p {
     width: 255px;
     margin-top: 33px; }
