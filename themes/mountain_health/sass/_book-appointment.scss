@@ -1,4 +1,4 @@
-//Book Appointment Page 
+//Book Appointment Page
 .book-appointment-hero {
     height: 123px;
     background: url(../../MTH-Assets/photos/book-appointment-hero.png);
@@ -121,17 +121,30 @@
 
 .book-appointment-email {
     position: relative;
+    margin: 0 auto;
+    width: 75%;
+    padding: 1rem 0;
     h3 {
         margin-bottom: 9px;
         text-align: left;
         margin-left: 20px;
         font-weight: normal;
         @include mobile-break-width {
-            position: absolute;
-            top: -18px;
-            left: 313px;
+          margin: 0;
             font-size: $small-font-dt;
         }
+    }
+    @include mobile-break-width {
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+form{
+  display: flex;
+button{
+  margin: 0;
+
+}
+}
     }
 }
 
@@ -141,7 +154,7 @@
         height: 42px;
         border: solid 1px #919191;
         @include mobile-break-width {
-            width: 28%;
+            width: 50%;
             height: 60px;
             font-size: $small-font-dt;
             margin-right: 20px;
@@ -170,6 +183,7 @@
 .book-appointment-use-smart {
     h3 {
         margin: 0px;
+        font-weight: bold;
         @include mobile-break-width {
             font-size: $small-font-dt;
         }
