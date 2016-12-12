@@ -97,6 +97,9 @@ font-size: 22px;
     flex-direction: column;
     @include mobile-break-width {
         flex-direction: row;
+        justify-content: space-around;
+        width: 1300px;
+        margin: 0 auto;
     }
 }
 
@@ -117,7 +120,7 @@ font-size: 22px;
 
     }
     @include mobile-break-width {
-        flex-basis: 33%;
+        // flex-basis: 33%;
         text-align: left;
         h2 {
             text-align: left;

@@ -3534,7 +3534,11 @@ input::-webkit-input-placeholder {
   @media (min-width: 480px) {
     .footer-info {
       -ms-flex-direction: row;
-          flex-direction: row; } }
+          flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      width: 1300px;
+      margin: 0 auto; } }
 
 .footer_wrapper {
   margin: 15px 25px;
@@ -3552,8 +3556,6 @@ input::-webkit-input-placeholder {
         font-size: 16px; } }
   @media (min-width: 480px) {
     .footer_wrapper {
-      -ms-flex-preferred-size: 33%;
-          flex-basis: 33%;
       text-align: left; }
       .footer_wrapper h2 {
         text-align: left;
