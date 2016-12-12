@@ -1,11 +1,10 @@
 .resources-hero {
     height: 123px;
-    background: url(../../MTH-Assets/photos/resources-hero.png);
+    background: url(../../MTH-Assets/photos/resources-hero-desktop.png), no-repeat top;
     background-size: cover;
     background-position: center center;
     text-align: center;
     @include mobile-break-width {
-        background: url(../../MTH-Assets/photos/resources-hero-desktop.png);
         height: 320px;
     }
     h1 {
