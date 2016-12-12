@@ -36,18 +36,18 @@
                 <a href="<?php echo get_page_link(29); ?>">Learn More</a>
                 </div>
             </div>
-            <div class="treatments">
+            <div class="treatments container">
                 <img class="gradient-border-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/treatment-bg.png" alt="gradient border box">
                 <h2>Treatments</h2>
                 <img class="stethascope-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/stethascope.png" alt="stethascope logo">
                 <img class="treatment-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/treatment-desktop.png" alt="stethascope logo">
-                <p>See the treatments we offer based on based on your personalized health plan.</p>
+                <p class="treatments-p">See the treatments we offer based on based on your personalized health plan.</p>
                 <div class="learn-more">
                 <a href="<?php echo get_page_link(25); ?>">Learn More</a>
                 </div>
             </div>
         </section>
-        <div class="experience">
+        <div class="experience container">
             <h3>We have experience working with general health</h3>
             <ul>
                 <li>Common cold and flu (influenza), sinus and ear infections</li>

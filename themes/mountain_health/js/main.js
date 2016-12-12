@@ -107,6 +107,8 @@
     $(".about-page .search-icon-dt, .front-page .search-icon-dt").hide();
     $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
     $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
+    $(".search-logo-white-dt").hide();
+    $(".about-page header .search-logo-white-dt").show();
 
 
     $(window).on("scroll", function() {
@@ -119,7 +121,7 @@
             $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").hide();
             $(".about-page .main-header header .phone-white, .front-page .main-header header .phone-white").hide();
             $(".about-page .search-icon-dt, .front-page .search-icon-dt").show();
-            $(".about-page .search-logo-white, .front-page .search-logo-white").hide();
+            $(".about-page .search-logo-white-dt, .front-page .search-logo-white-dt").hide();
             $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").show();
             $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").hide();
             $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "#1a9481");
@@ -140,8 +142,8 @@
             $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
             $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
             $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "white");
-            $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
-
+            // $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
+            $(".about-page header .search-logo-white-dt").show();
 
 
 
@@ -173,12 +175,12 @@
 
 
     //addinf contact us success message
-    $('.wpcf7-submit').on('click', function(){
-      $('.wpcf7-response-output').css('background-image', 'linear-gradient(to right, #1a9481, #9bcc93)');
-      // $('body').css('background-image', 'linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73))');
-      // $('body').css('z-index','-3');
+    $('.wpcf7-submit').on('click', function() {
+        $('.wpcf7-response-output').css('background-image', 'linear-gradient(to right, #1a9481, #9bcc93)');
+        // $('body').css('background-image', 'linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73))');
+        // $('body').css('z-index','-3');
 
-    } );
+    });
     // $('.x-icon').on('click',function(){
     //   $('body').removeClass('.body-shadow'));
     // });
