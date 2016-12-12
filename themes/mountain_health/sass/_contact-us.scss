@@ -128,22 +128,22 @@ font-size: 22px;}
             }
         }
     }
-    div.wpcf7-mail-sent-ok {
-        padding: 0.2em 1em;
-        position: absolute;
-        top: 0;
-        position: absolute;
-        top: 86px;
-        width: 320px;
-        height: 125px;
-        margin: 0 auto;
-        left: 0;
-        color: white;
-        text-align: center;
-        background: url(../../MTH-Assets/other/message-sent-bg.png);
-        border: none;
-        ;
-    }
+    // div.wpcf7-mail-sent-ok {
+    //     padding: 0.2em 1em;
+    //     position: absolute;
+    //     top: 0;
+    //     position: absolute;
+    //     top: 86px;
+    //     width: 320px;
+    //     height: 125px;
+    //     margin: 0 auto;
+    //     left: 0;
+    //     color: white;
+    //     text-align: center;
+    //     background: url(../../MTH-Assets/other/message-sent-bg.png);
+    //     border: none;
+    //     ;
+    // }
     label {
         font-size: $small-font;
         line-height: 19px;
@@ -221,7 +221,7 @@ font-size: 22px;}
 .grey-background {
     background: #eee;
 }
-.wpcf7-response-output{
+div.wpcf7-response-output{
   font-size: 30px;
   color: white;
   display: flex;
@@ -232,11 +232,18 @@ font-size: 22px;}
   padding: 0;
   border: 0;
 position: absolute;
-top: 7rem;
-background-image: linear-gradient(to right, #1a9481, #9bcc93);
-width: 100%;
+top: 5rem;
 height: 320px;
+width: 100%;
+font-size: 15px;
+@include mobile-break-width {
+width: 1100px;
+font-size: 22px;
 }
-.x-icon{
-  // display: flex;
 }
+.contact-us .x-icon{
+  position: absolute;
+      top: 24.3rem;
+      left: 50%;
+      z-index: 3;
+    }
