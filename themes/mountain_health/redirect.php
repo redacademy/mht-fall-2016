@@ -4,7 +4,6 @@
  */
 
 get_header(); ?>
-<meta http-equiv="refresh" content="5;url=https://www.smartnd.ca/patient-portal/login" />
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

@@ -154,15 +154,22 @@
         $('.search-state-dt').animate({ height: 'toggle' });
     });
 
-    // adding counter to the redirect page
-    function countdown() {
-        var i = document.getElementById('counter');
-        if (parseInt(i.innerHTML) <= 0) {
-            location.href = 'login.php';
+
+    // Countdown
+    if ( $('body').hasClass('page-template-redirect') ) {
+
+      var $counter = $('#counter');
+      var countDown = setInterval(function() {
+
+        if ( parseInt($counter.text()) === 0 ) {
+          clearInterval(countDown);
+          window.location.href = 'https://www.smartnd.ca/patient-portal/login';
+        } else if ( parseInt($counter.text()) > 0 ) {
+          $counter.text(parseInt($counter.text()) - 1);
         }
-        i.innerHTML = parseInt(i.innerHTML) - 1;
+      }, 1000);
+
     }
-    setInterval(function() { countdown(); }, 1000);
 
 
     //addinf contact us success message
