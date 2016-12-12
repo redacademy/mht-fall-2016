@@ -187,6 +187,7 @@
             left: initial;
             right: 50px;
             margin-right: 40px;
+            justify-content: flex-end;
         }
     }
     p {
@@ -220,6 +221,8 @@
     top: 48px;
     @include mobile-break-width{
     top:70px;
+    left: 616px;
+    font-size: 105px;
     }
 }
 
@@ -480,5 +483,20 @@
     .amanda-p-mobile{
         @include mobile-break-width{
             display: none;
+        }
+    }
+
+    .amanda-p-desktop{
+        display: none;
+        @include mobile-break-width{
+            display: initial;
+        }
+    }
+
+    .amanda-text-desktop{
+        display: none;
+        @include mobile-break-width{
+            display: initial;
+            width: 622px;
         }
     }

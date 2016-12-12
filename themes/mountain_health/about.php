@@ -52,7 +52,7 @@
                             completed pre-medical studies
                             and a degree in Psychology at the University of Regina
                             in Saskatchewan.</p>
-                            <p>Combining my love of medicine, psychology and nature I
+                            <p class="amanda-p-desktop">Combining my love of medicine, psychology and nature I
                             was driven to a career in Naturopathic Medicine. I truly
                             believe in the body’s innate desire to heal and that each
                             patient is unique, deserving of individualized treatment.

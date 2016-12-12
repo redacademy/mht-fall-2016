@@ -2038,7 +2038,9 @@ object {
         line-height: 1.36;
         left: initial;
         right: 50px;
-        margin-right: 40px; } }
+        margin-right: 40px;
+        -ms-flex-pack: end;
+            justify-content: flex-end; } }
   .about-amanda p {
     margin-bottom: 0;
     margin-top: 0;
@@ -2066,7 +2068,9 @@ object {
   top: 48px; }
   @media (min-width: 480px) {
     .i-in-about {
-      top: 70px; } }
+      top: 70px;
+      left: 616px;
+      font-size: 105px; } }
 
 @media (min-width: 480px) {
   .amanda-bg-mobile {
@@ -2294,6 +2298,19 @@ object {
 @media (min-width: 480px) {
   .amanda-p-mobile {
     display: none; } }
+
+.amanda-p-desktop {
+  display: none; }
+  @media (min-width: 480px) {
+    .amanda-p-desktop {
+      display: initial; } }
+
+.amanda-text-desktop {
+  display: none; }
+  @media (min-width: 480px) {
+    .amanda-text-desktop {
+      display: initial;
+      width: 622px; } }
 
 .what-we-do {
   margin: 0 auto; }
