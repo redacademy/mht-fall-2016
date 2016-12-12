@@ -90,8 +90,10 @@ input::-webkit-input-placeholder {
     height: 40px;
     font-weight: lighter;
     border-radius: 30px;
+    width: 180px;
     @include mobile-break-width {
         margin: 20px 20px 20px 0;
+        width: 220px;
     }
 }
 
