@@ -601,6 +601,11 @@ p {
 .body-shadow {
   background-image: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)) !important; }
 
+.container {
+  margin-left: auto;
+  width: 1324px;
+  margin-right: auto; }
+
 @media (min-width: 480px) {
   .main-header {
     width: 1364px;
@@ -2371,7 +2376,9 @@ object {
     line-height: 26px; }
     @media (min-width: 480px) {
       .what-we-do h2 {
-        font-size: 36px; } }
+        font-size: 36px;
+        margin-top: 0;
+        padding-top: 60px; } }
   .what-we-do .what-we-do-bread {
     margin-bottom: 30px; }
   .what-we-do .experience {
@@ -2434,7 +2441,8 @@ object {
       -ms-flex-direction: row;
           flex-direction: row;
       -ms-flex-pack: center;
-          justify-content: center; } }
+          justify-content: center;
+      margin-bottom: 140px; } }
   .treatments-testing-appointments .treatments,
   .treatments-testing-appointments .testing,
   .treatments-testing-appointments .appointments {
@@ -2461,7 +2469,9 @@ object {
         margin: 0;
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 108px; } }
+        margin-bottom: 0px;
+        -ms-flex-pack: start;
+            justify-content: flex-start; } }
     .treatments-testing-appointments .treatments .gradient-border-box,
     .treatments-testing-appointments .testing .gradient-border-box,
     .treatments-testing-appointments .appointments .gradient-border-box {
@@ -2476,8 +2486,7 @@ object {
     .treatments-testing-appointments .testing p,
     .treatments-testing-appointments .appointments p {
       text-align: center;
-      color: #003A5F;
-      width: 245px; }
+      color: #003A5F; }
       @media (min-width: 480px) {
         .treatments-testing-appointments .treatments p,
         .treatments-testing-appointments .testing p,
@@ -2501,7 +2510,7 @@ object {
   top: 215px; }
   @media (min-width: 480px) {
     .learn-more {
-      top: initial;
+      top: 439px;
       left: 105px;
       bottom: -20px;
       width: 220px;
@@ -2663,6 +2672,24 @@ object {
 .what-btn {
   padding: .75rem 1.5rem;
   width: 15%; }
+
+.treatments-p {
+  width: 245px; }
+  @media (min-width: 480px) {
+    .treatments-p {
+      width: 395px; } }
+
+.appointments p {
+  width: 245px; }
+  @media (min-width: 480px) {
+    .appointments p {
+      width: 346px; } }
+
+.testing p {
+  width: 245px; }
+  @media (min-width: 480px) {
+    .testing p {
+      width: 314px; } }
 
 .appointments-hero-image {
   color: #ffffff;
