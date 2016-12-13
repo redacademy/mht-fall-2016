@@ -13,7 +13,10 @@
                  Remaining curious about each individual and improving their
                  quality of life with dedication and passion.
                 </p>
+								<div class="keep-scrolling">
+								</div>
             </div>
+
         </section>
         <section class="amanda-section container">
             <div class="amanda-photo">

@@ -9,7 +9,6 @@
 .about-page {
     padding-top: 0;
     @include mobile-break-width {
-
     }
     .main-header header {
         background: none;
@@ -63,23 +62,21 @@
             margin-bottom: 125px;
         }
         .parallax-scroll-about {
-            height: 300%;
+            height: 65vh;
             width: 100%;
-            margin: 0 auto;
-            background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
-            background-size: 100%;
+            background: url(../../MTH-Assets/photos/about-hero-desktop.png) no-repeat top;
+            background-size: cover;
             z-index: -1;
             position: fixed;
             top: 0;
-            background-position-y: -75px;
+            // background-position-y: -75px;
             @include mobile-break-width {
-                background: url(../../MTH-Assets/photos/about-hero-desktop.png);
-                width: 1344px;
-                background-size: cover;
-                height: 770px;
-                background-position: center center;
+                height: 100vh;
+                // background-position: center center;
             }
         }
+
+
         h1 {
             color: white;
             text-transform: uppercase;
