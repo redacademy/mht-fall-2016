@@ -3408,13 +3408,12 @@ div.wpcf7-response-output {
 
 .resources-hero {
   height: 123px;
-  background: url(../../MTH-Assets/photos/resources-hero.png);
+  background: url(../../MTH-Assets/photos/resources-hero-desktop.png), no-repeat top;
   background-size: cover;
   background-position: center center;
   text-align: center; }
   @media (min-width: 480px) {
     .resources-hero {
-      background: url(../../MTH-Assets/photos/resources-hero-desktop.png);
       height: 320px; } }
   .resources-hero h1 {
     font-size: 17px;
