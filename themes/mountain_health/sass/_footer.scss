@@ -94,6 +94,7 @@ input::-webkit-input-placeholder {
     @include mobile-break-width {
         margin: 20px 20px 20px 0;
         width: 220px;
+        height: 60px;
     }
 }
 

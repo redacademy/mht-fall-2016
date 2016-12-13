@@ -34,6 +34,9 @@
                 font-size: 15px;
                 a {
                     color: white;
+                    &:hover {
+                        color: #fdeea7;
+                    }
                 }
             }
             .header-button-white {
