@@ -3838,9 +3838,11 @@ input::-webkit-input-placeholder {
 .external-link-logo-white-dt {
   display: none; }
 
-.single-article-content-wrapper {
+.single-article-page {
   margin-top: 0;
   padding-top: 0; }
+  .single-article-page header {
+    background: none; }
 
 .single-article-content {
   margin: 0 auto;
