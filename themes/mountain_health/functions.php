@@ -82,7 +82,7 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
 /**
  * Enqueue scripts and styles.
  */
-function red_starter_scripts() {
+function mht_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 
 
@@ -93,8 +93,7 @@ function red_starter_scripts() {
 	wp_enqueue_script( 'jquery');
 
   wp_enqueue_script('flickity', '//unpkg.com/flickity@2/dist/flickity.pkgd.min.js');
-	wp_enqueue_script('main', get_template_directory_uri() . '/build/js/main.min.js', array( 'jquery' ),
-	'1.0', true);
+	wp_enqueue_script('main', get_template_directory_uri() . '/build/js/main.min.js', array( 'jquery' ), '1.0', true);
 
 	wp_enqueue_script('css-pop', get_template_directory_uri() . '/build/js/css-pop.min.js', array( 'jquery' ),
 	'1.0', true);
@@ -105,7 +104,7 @@ function red_starter_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
+add_action( 'wp_enqueue_scripts', 'mht_scripts' );
 
 /**
  * Custom template tags for this theme.
