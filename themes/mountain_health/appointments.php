@@ -64,7 +64,7 @@ get_header(); ?>
     <!-- #primary -->
     <div class="how-can">
         <h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
-        <a  class="primary-button flex-button front-button-appointments" href="<?php echo get_page_link(48); ?>">Book an appointment</a>
+        <div class="primary-button flex-button front-button-appointments"><a href="<?php echo get_page_link(48); ?>">Book an appointment</a></div>
     </div>
     <div class="mountains">
       <img class="mountain2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/mountain2-2@3x.png" alt="Phone logo">

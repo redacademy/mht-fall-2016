@@ -3,8 +3,8 @@
 .what-we-do {
     margin: 0 auto;
     .what-we-do-hero {
-      background: url(../../MTH-Assets/photos/what-we-do-desktop.png) no-repeat top;
-      background-size: cover;
+        background: url(../../MTH-Assets/photos/what-we-do-desktop.png) no-repeat top;
+        background-size: cover;
         width: 100%;
         height: 125px;
         display: flex;
@@ -17,9 +17,8 @@
         @include mobile-break-width {
             height: 320px;
         }
-
         h1 {
-          font-family: 'oswald';
+            font-family: 'oswald';
             font-size: 17px;
             margin: 0;
             font-weight: normal;
@@ -50,7 +49,7 @@
         @include mobile-break-width {
             font-size: $medium-font-dt;
             margin-top: 0;
-            padding-top:60px;
+            padding-top: 60px;
         }
     }
     .what-we-do-bread {
@@ -64,8 +63,8 @@
         padding: 20px 25px;
         margin: 0 auto;
         margin-bottom: 20px;
-        @include mobile-break-width{
-            width:100%;
+        @include mobile-break-width {
+            width: 100%;
             height: 394px;
         }
         h3 {
@@ -83,12 +82,12 @@
             text-transform: uppercase;
             line-height: 26px;
             font-size: 18px;
-            @include mobile-break-width{
+            @include mobile-break-width {
                 font-size: $medium-font-dt;
             }
         }
         ul {
-          font-family: 'open_sans';
+            font-family: 'open_sans';
             list-style: none;
             padding: 0;
             margin: 0;
@@ -104,8 +103,8 @@
             margin: 0;
             margin-top: 15px;
             font-weight: bold;
-            @include mobile-break-width{
-                font-size:$small-font-dt;
+            @include mobile-break-width {
+                font-size: $small-font-dt;
             }
         }
     }
@@ -186,17 +185,21 @@
         line-height: 19px;
         color: #FFFFFF;
         text-decoration: none;
+        font-weight: lighter;
         @include mobile-break-width {
             font-size: $small-font-dt;
+        }
+        &:hover {
+            color: #fdeea7;
         }
     }
 }
 
 .care-conditions {
     text-align: center;
-    @include mobile-break-width{
-    display: flex;
-    justify-content: space-around;
+    @include mobile-break-width {
+        display: flex;
+        justify-content: space-around;
     }
     h2 {
         margin: 0;
@@ -208,7 +211,8 @@
         padding: 0;
         line-height: 19px;
         color: #003A5F;
-        font-family: 'open_sans', sans-serif;;
+        font-family: 'open_sans', sans-serif;
+        ;
         font-size: 15px;
         line-height: 1.4;
         text-align: center;
@@ -233,7 +237,7 @@
     background: url(../../MTH-Assets/photos/picture-of-remedies.jpg);
     margin: 0 auto;
     margin-top: 30px;
-    @include mobile-break-width{
+    @include mobile-break-width {
         margin: 0px;
         width: 540px;
         height: 280px;
@@ -251,8 +255,8 @@
     padding-top: 10px;
     color: $body-color;
     box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
-    @include mobile-break-width{
-        margin:0;
+    @include mobile-break-width {
+        margin: 0;
         width: 729px;
         display: flex;
         flex-direction: column;
@@ -260,20 +264,19 @@
     h2 {
         margin: 0;
         margin-bottom: 20px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             font-size: 32px;
             text-align: left;
         }
     }
-    p{
-      font-family: 'open_sans', sans-serif;
+    p {
+        font-family: 'open_sans', sans-serif;
     }
 }
 
 .treatments {
     @include mobile-break-width {
         order: 1;
-        
     }
 }
 
@@ -308,7 +311,7 @@
     }
 }
 
-.appointment-desktop{
+.appointment-desktop {
     display: none;
     @include mobile-break-width {
         display: initial;
@@ -328,10 +331,11 @@
     }
 }
 
-.what-we-medicine{
-    @include mobile-break-width{
+.what-we-medicine {
+    @include mobile-break-width {
         display: flex;
-        justify-content: flex-start;;
+        justify-content: flex-start;
+        ;
         height: 280px;
         box-shadow: 0px 6px 12px 0 rgba(144, 144, 144, 0.4);
         width: 1200px;
@@ -339,49 +343,50 @@
     }
 }
 
-.what-is-naturopathic-medicine{
-    p{
-        @include mobile-break-width{
+.what-is-naturopathic-medicine {
+    p {
+        @include mobile-break-width {
             font-size: $small-font-dt;
             width: 729px;
             text-align: left;
         }
     }
-    @include mobile-break-width{
-      justify-content: flex-end;
-}
+    @include mobile-break-width {
+        justify-content: flex-end;
+    }
 }
 
-.what-we-do{
-    .how-can-we-help-you{
+.what-we-do {
+    .how-can-we-help-you {
         padding-top: 20px;
     }
 }
-.what-btn{
-padding: .75rem 1.5rem;
-width: 15%;
+
+.what-btn {
+    padding: .75rem 1.5rem;
+    width: 15%;
 }
 
-.treatments-p{
+.treatments-p {
     width: 245px;
-    @include mobile-break-width{
+    @include mobile-break-width {
         width: 395px;
     }
 }
 
-.appointments{
-    p{
+.appointments {
+    p {
         width: 245px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             width: 346px;
         }
     }
 }
 
-.testing{
-    p{
+.testing {
+    p {
         width: 245px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             width: 314px;
         }
     }

@@ -109,6 +109,7 @@
     $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
     $(".search-logo-white-dt").hide();
     $(".about-page header .search-logo-white-dt, .front-page header .search-logo-white-dt").show();
+    $(".about-page #primary-menu li ul li, .front-page #primary-menu li ul li").children().css("color", "#6a7059");
     $(".about-page .header-button, .front-page .header-button").addClass("header-button-white");
 
     $(window).on("scroll", function() {
@@ -124,7 +125,9 @@
             $(".about-page .search-logo-white-dt, .front-page .search-logo-white-dt").hide();
             $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").show();
             $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").hide();
-            $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "#1a9481");
+            $(".about-page #primary-menu li, .front-page #primary-menu li").children().css("color", "#1a9481");
+            $(".about-page #primary-menu li ul li, .front-page #primary-menu li ul li").children().css("color", "#6a7059");
+
             $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "#1a9481");
             $(".about-page .header-button, .front-page .header-button").removeClass("header-button-white");
 
@@ -147,6 +150,8 @@
             $(".about-page header .search-logo-white-dt").show();
             $(".about-page header .search-logo-white-dt, .front-page header .search-logo-white-dt").show();
             $(".about-page .header-button, .front-page .header-button").addClass("header-button-white");
+            $(".about-page #primary-menu li ul li, .front-page #primary-menu li ul li").children().css("color", "#6a7059");
+
 
 
 
@@ -192,10 +197,10 @@
     // });
 
     if ($('body').hasClass('page-template-what-we-do')) {
-// $('.menu a::after').on('click', function(){
-//   this.rotate(180);
-// console.log('hi');
-// };
-}
+        // $('.menu a::after').on('click', function(){
+        //   this.rotate(180);
+        // console.log('hi');
+        // };
+    }
 
 })(jQuery);
