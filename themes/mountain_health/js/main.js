@@ -158,11 +158,6 @@
             }
         });
         // search state desktop
-        $('.search-state-dt').hide();
-
-        $('.search-icon-dt, .search-logo-white-dt').on('click', function() {
-            $('.search-state-dt').animate({ height: 'toggle' });
-        });
 
 
         // Countdown
@@ -193,15 +188,24 @@
         //   $('body').removeClass('.body-shadow'));
         // });
 
-        $('.menu-item-34 , .menu-item-33').mouseenter(function(e) {
+        $('.menu-item-34').mouseenter(function(e) {
             e.preventDefault
             console.log('h1');
-            $('.menu .menu-item a i').addClass('rotateMenu');
+            $('.menu .menu-item-34 a i').addClass('rotateMenu');
         });
-        $('.menu-item-34 , .menu-item-33').mouseleave(function(e) {
+        $('.menu-item-33').mouseenter(function(e) {
             e.preventDefault
-            $('.menu .menu-item a i').removeClass('rotateMenu');
+            console.log('h1');
+            $('.menu .menu-item-33 a i').addClass('rotateMenu');
+        });
 
+        $('.menu-item-34').mouseleave(function(e) {
+            e.preventDefault
+            $('.menu .menu-item-34 a i').removeClass('rotateMenu');
+        });
+        $('.menu-item-33').mouseleave(function(e) {
+            e.preventDefault
+            $('.menu .menu-item-33 a i').removeClass('rotateMenu');
         });
 
     }); // end of check for document ready
