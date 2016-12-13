@@ -18,9 +18,12 @@
     display: none;
 }
 
-.single-article-content-wrapper {
+.single-article-page {
     margin-top: 0;
     padding-top: 0;
+    header {
+        background: none;
+    }
 }
 
 .single-article-content {

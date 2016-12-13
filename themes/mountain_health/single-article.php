@@ -7,7 +7,7 @@
 
 ?>
 
-	<div id="primary" class="content-area single-article-content-wrapper">
+	<div id="primary" class="content-area single-article-page">
 		<?php get_header();?>
 		<main id="main" class="site-main" role="main">
 			<div class="content">
