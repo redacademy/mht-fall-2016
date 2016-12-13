@@ -410,10 +410,3 @@
         outline: none;
     }
 }
-
-.menu li.has-children > a:after {
- color: rgb(26, 148, 129);
- content: ' ▼';
- font-size: 10px;
- vertical-align: 1px;
-}
