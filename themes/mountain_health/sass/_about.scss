@@ -281,7 +281,7 @@
         }
     }
     .one {
-        margin-top: 50px;
+        margin-top: 60px;
         @include mobile-break-width {
             width: 500px;
             margin: 0px;
@@ -291,7 +291,7 @@
         }
     }
     .two {
-        margin-top: 65px;
+        margin-top: 77px;
         @include mobile-break-width {
             width: 236px;
             top: 230;
@@ -301,14 +301,14 @@
         }
     }
     .three {
-        margin-top: 60px;
+        margin-top: 65px;
         @include mobile-break-width {
             margin: 0px;
             left:6%;
         }
     }
     .four {
-        margin-top: 58px;
+        margin-top: 74px;
         @include mobile-break-width {
             position: absolute;
             top: 600px;
@@ -317,7 +317,7 @@
         }
     }
     .five {
-        margin-top: 84px;
+        margin-top: 81px;
         @include mobile-break-width {
             width: 360px;
             margin: 0px;
