@@ -59,7 +59,7 @@
 							<img class="phone-blue" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
 							<img class="phone-white"src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-white.png" alt="white phone icon">
 							<a href="tel:604-442-5864">
-								<p><span class="call-header">Call </span>604-442-5864</p>
+								<p class="phone-header"><span class="call-header">Call </span>604-442-5864</p>
 							</a>
 						</div>
 						<div class="phone-and-number-green">

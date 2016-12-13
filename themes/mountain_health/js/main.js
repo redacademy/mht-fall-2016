@@ -108,8 +108,8 @@
     $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
     $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
     $(".search-logo-white-dt").hide();
-    $(".about-page header .search-logo-white-dt").show();
-
+    $(".about-page header .search-logo-white-dt, .front-page header .search-logo-white-dt").show();
+    $(".about-page .header-button, .front-page .header-button").addClass("header-button-white");
 
     $(window).on("scroll", function() {
         if ($(window).scrollTop() > 1) {
@@ -126,6 +126,7 @@
             $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").hide();
             $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "#1a9481");
             $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "#1a9481");
+            $(".about-page .header-button, .front-page .header-button").removeClass("header-button-white");
 
 
 
@@ -141,9 +142,14 @@
             $(".about-page .search-logo-white, .front-page .search-logo-white").show();
             $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
             $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
-            $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "white");
-            // $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
+            $(".about-page .desktop-menu a, .front-page .desktop-menu a").css("color", "white");
+            $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
             $(".about-page header .search-logo-white-dt").show();
+            $(".about-page header .search-logo-white-dt, .front-page header .search-logo-white-dt").show();
+            $(".about-page .header-button, .front-page .header-button").addClass("header-button-white");
+
+
+
 
 
 
@@ -152,7 +158,7 @@
     // search state desktop
     $('.search-state-dt').hide();
 
-    $('.search-icon-dt, .search-logo-white').on('click', function() {
+    $('.search-icon-dt, .search-logo-white-dt').on('click', function() {
         $('.search-state-dt').animate({ height: 'toggle' });
     });
 
@@ -184,4 +190,12 @@
     // $('.x-icon').on('click',function(){
     //   $('body').removeClass('.body-shadow'));
     // });
+
+    if ($('body').hasClass('page-template-what-we-do')) {
+// $('.menu a::after').on('click', function(){
+//   this.rotate(180);
+// console.log('hi');
+// };
+}
+
 })(jQuery);

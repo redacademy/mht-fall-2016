@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: Mountain Health Theme
 Theme URI: http://underscores.me/
@@ -473,7 +474,8 @@ textarea {
   @media (min-width: 480px) {
     .primary-button {
       font-size: 22px;
-      width: 280px; } }
+      width: 280px;
+      height: 60px; } }
   .primary-button a {
     color: white;
     text-decoration: none;
@@ -644,6 +646,11 @@ p {
         font-size: 15px; }
         .main-header header .header-button a {
           color: white; }
+          .main-header header .header-button a:hover {
+            color: #fdeea7; }
+      .main-header header .header-button-white {
+        background: none;
+        border: 2px solid white; }
       .main-header header .search-logo-dt {
         display: block !important; }
       .main-header header p {
@@ -793,56 +800,58 @@ p {
             background: #1a9481; }
             #primary-menu .sub-menu li:hover a {
               color: #fdeea7; } }
-  #primary-menu #primary-menu li:hover > ul {
-    display: block !important; }
-  #primary-menu .search-state-dt {
-    position: fixed;
-    height: 150px;
-    top: 110px;
-    width: 100%;
-    background: white;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-    z-index: 99; }
-    #primary-menu .search-state-dt fieldset {
-      border: none; }
-      #primary-menu .search-state-dt fieldset input {
-        border: none;
-        height: 50px;
-        margin-top: 50px;
-        font-family: Oswald;
+
+#primary-menu li:hover > ul {
+  display: block !important; }
+
+.search-state-dt {
+  position: fixed;
+  height: 150px;
+  top: 110px;
+  width: 100%;
+  background: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  z-index: 99; }
+  .search-state-dt fieldset {
+    border: none; }
+    .search-state-dt fieldset input {
+      border: none;
+      height: 50px;
+      margin-top: 50px;
+      font-family: Oswald;
+      font-size: 48px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: center;
+      color: #1a9481; }
+      .search-state-dt fieldset input::-webkit-input-placeholder {
+        color: #919191;
         font-size: 48px;
-        font-weight: normal;
-        font-style: normal;
-        text-align: center;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input::-moz-placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input:-ms-input-placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input::placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input:focus {
+        outline: none;
         color: #1a9481; }
-        #primary-menu .search-state-dt fieldset input::-webkit-input-placeholder {
-          color: #919191;
-          font-size: 48px;
-          font-family: Oswald;
-          text-align: center; }
-        #primary-menu .search-state-dt fieldset input::-moz-placeholder {
-          color: #919191;
-          font-size: 48px;
-          font-family: Oswald;
-          text-align: center; }
-        #primary-menu .search-state-dt fieldset input:-ms-input-placeholder {
-          color: #919191;
-          font-size: 48px;
-          font-family: Oswald;
-          text-align: center; }
-        #primary-menu .search-state-dt fieldset input::placeholder {
-          color: #919191;
-          font-size: 48px;
-          font-family: Oswald;
-          text-align: center; }
-        #primary-menu .search-state-dt fieldset input:focus {
-          outline: none;
-          color: #1a9481; }
 
 .search-logo-white {
   display: none; }
@@ -978,6 +987,12 @@ p {
   color: #1a9481; }
   .menu-toggle:focus {
     outline: none; }
+
+.menu li.has-children > a:after {
+  color: #1a9481;
+  content: ' ▼';
+  font-size: 10px;
+  vertical-align: 1px; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -1285,10 +1300,12 @@ object {
   .front-page .hamburger {
     color: white; }
   .front-page .site-main p {
-    font-weight: lighter; }
+    font-weight: lighter;
+    font-family: 'open_sans',sans-serif; }
     @media (min-width: 480px) {
       .front-page .site-main p {
-        font-size: 22px; } }
+        font-size: 33px;
+        line-height: 1.2; } }
   .front-page .site-main h2,
   .front-page .site-main h3 {
     font-family: 'oswald', 'sans-serif';
@@ -1316,22 +1333,24 @@ object {
       height: 20px; }
 
 .parallax-scroll {
-  top: 40px;
-  height: 300%;
   width: 100%;
-  height: 450px;
-  margin: 0 auto;
-  background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
+  height: 85vh;
+  top: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(../../MTH-Assets/photos/front-page-desktop-hero.png) no-repeat top;
   background-size: cover;
   z-index: -1;
+  position: fixed;
+  z-index: -1;
   position: fixed; }
+  @media (min-width: 480px) {
+    .parallax-scroll {
+      height: 100vh; } }
 
 .hero-banner {
   max-width: 320px;
-  height: 480px;
+  height: 100vh;
   background-size: cover;
   color: white;
-  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   display: -ms-flexbox;
@@ -1346,9 +1365,9 @@ object {
   margin-right: auto; }
   @media (min-width: 480px) {
     .hero-banner {
+      margin-bottom: 40px;
       max-width: 1764px;
       height: 770px;
-      background: url(../../MTH-Assets/photos/front-page-desktop-hero.png);
       background-size: cover;
       background-position: center center; } }
   .hero-banner .hero-header {
@@ -1388,21 +1407,25 @@ object {
     .booking .what-is-hero {
       font-size: 36px; } }
 
-.hero-banner .keep-scrolling {
-  background: url(../../MTH-Assets/icons/down-arrow.png);
+.keep-scrolling {
+  background: url(../../MTH-Assets/icons/down-arrow@3x.png);
+  box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
   background-size: cover;
   height: 26px;
   width: 26px;
   background-color: #1a9481;
   margin: 0 auto;
   border-radius: 50%;
-  border: 3px solid rgba(0, 0, 0, 0.1);
-  transform: translateY(95px); }
+  transform: translateY(134px); }
   @media (min-width: 480px) {
-    .hero-banner .keep-scrolling {
+    .keep-scrolling {
+      box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
       width: 50px;
       height: 50px;
       transform: translateY(200px); } }
+
+.phone-header {
+  font-size: 16px !important; }
 
 .header-text {
   text-align: center; }
@@ -1448,6 +1471,9 @@ object {
       .booking p {
         font-size: 22px;
         width: 707px; } }
+  @media (min-width: 480px) {
+    .booking {
+      padding-top: 2rem; } }
 
 .booking div {
   margin-top: 330px;
@@ -1472,7 +1498,6 @@ object {
   @media (min-width: 480px) {
     .benifits {
       background: linear-gradient(to right, #1a9481, #9bcc93);
-      max-width: 1764px;
       height: 598px;
       position: relative;
       -ms-flex-pack: center;
@@ -1740,17 +1765,17 @@ object {
       align-items: space-around; }
 
 .front-page-slider {
-  background: url(../../MTH-Assets/photos/carousal-01.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../MTH-Assets/photos/carousal-01.png);
   background-size: cover;
   background-position: center; }
 
 .front-page-slider-2 {
-  background: url(../../MTH-Assets/photos/carousel-2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../MTH-Assets/photos/carousel-2.jpg);
   background-size: cover;
   background-position: center; }
 
 .front-page-slider-3 {
-  background: url(../../MTH-Assets/photos/carousel-3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../MTH-Assets/photos/carousel-3.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -1854,10 +1879,11 @@ object {
     .how-can h4 {
       font-size: 36px; } }
 
-.site-main .all-visits {
-  display: none; }
+.site-main #all-visits {
+  display: none;
+  color: #919191; }
   @media (min-width: 480px) {
-    .site-main .all-visits {
+    .site-main #all-visits {
       display: initial;
       display: -ms-flexbox;
       display: flex;
@@ -1865,7 +1891,18 @@ object {
           justify-content: center;
       margin: 0px;
       font-size: 18px;
-      margin-bottom: 80px; } }
+      margin-bottom: 80px; }
+      .site-main #all-visits p {
+        font-family: 'open_sans';
+        font-size: 18px;
+        line-height: 1.67; } }
+
+.main-carousel {
+  width: 100%; }
+  @media (min-width: 480px) {
+    .main-carousel {
+      width: 80%;
+      margin: 0 auto; } }
 
 .amanda-section {
   position: relative; }
@@ -1900,13 +1937,11 @@ object {
   .about-page .hamburger {
     color: white; }
   .about-page .about-hero {
-    height: 415px;
+    height: 100%;
     text-align: center;
     color: #fff;
     width: 100%;
-    height: 415px;
     background-position-y: -75px;
-    margin-bottom: 100px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -1925,22 +1960,16 @@ object {
         width: 100%;
         margin-bottom: 125px; } }
     .about-page .about-hero .parallax-scroll-about {
-      height: 300%;
+      height: 85vh;
       width: 100%;
-      margin: 0 auto;
-      background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
-      background-size: 100%;
+      background: url(../../MTH-Assets/photos/about-hero-desktop.png) no-repeat top;
+      background-size: cover;
       z-index: -1;
       position: fixed;
-      top: 0;
-      background-position-y: -75px; }
+      top: 0; }
       @media (min-width: 480px) {
         .about-page .about-hero .parallax-scroll-about {
-          background: url(../../MTH-Assets/photos/about-hero-desktop.png);
-          width: 1344px;
-          background-size: cover;
-          height: 770px;
-          background-position: center center; } }
+          height: 100vh; } }
     .about-page .about-hero h1 {
       color: white;
       text-transform: uppercase;
@@ -2052,12 +2081,17 @@ object {
     background: rgba(255, 255, 255, 0.7);
     color: #003A5F; }
   .about-amanda .first-sentence {
-    padding-left: 37px;
     margin: 0;
-    margin-top: 5px; }
+    margin-top: 0px; }
     @media (min-width: 480px) {
       .about-amanda .first-sentence {
         display: none; } }
+    .about-amanda .first-sentence:first-letter {
+      float: left;
+      line-height: 50px;
+      padding: 0px 10px 0px 0px;
+      font-size: 4rem;
+      font-family: "Edwardian Script ITC", "Brush Script MT", cursive; }
   .about-amanda .about-amanda-second-p {
     margin: 0; }
     @media (min-width: 480px) {
@@ -2127,7 +2161,7 @@ object {
         left: 618px;
         display: inherit; } }
   .education .one {
-    margin-top: 50px; }
+    margin-top: 60px; }
     @media (min-width: 480px) {
       .education .one {
         width: 500px;
@@ -2136,7 +2170,7 @@ object {
         left: 11%;
         top: 65px; } }
   .education .two {
-    margin-top: 65px; }
+    margin-top: 77px; }
     @media (min-width: 480px) {
       .education .two {
         width: 236px;
@@ -2145,13 +2179,13 @@ object {
         position: absolute;
         margin: 0px; } }
   .education .three {
-    margin-top: 60px; }
+    margin-top: 65px; }
     @media (min-width: 480px) {
       .education .three {
         margin: 0px;
         left: 6%; } }
   .education .four {
-    margin-top: 58px; }
+    margin-top: 74px; }
     @media (min-width: 480px) {
       .education .four {
         position: absolute;
@@ -2159,7 +2193,7 @@ object {
         right: 12%;
         margin: 0px; } }
   .education .five {
-    margin-top: 84px; }
+    margin-top: 81px; }
     @media (min-width: 480px) {
       .education .five {
         width: 360px;
@@ -2316,6 +2350,16 @@ object {
     .amanda-text-desktop {
       display: initial;
       width: 622px; } }
+  .amanda-text-desktop:first-letter {
+    float: left;
+    line-height: 70px;
+    padding: 0px 19px 0px 0px;
+    font-size: 4rem;
+    font-family: "Edwardian Script ITC", "Brush Script MT", cursive; }
+    @media (min-width: 480px) {
+      .amanda-text-desktop:first-letter {
+        padding: 0px 25px 5px 3px;
+        font-size: 5rem; } }
 
 .what-we-do {
   margin: 0 auto; }
@@ -2943,7 +2987,8 @@ object {
 .book-appointment-email input {
   width: 280px;
   height: 42px;
-  border: solid 1px #919191; }
+  border: solid 1px #919191;
+  padding-left: 15px; }
   @media (min-width: 480px) {
     .book-appointment-email input {
       width: 50%;
@@ -3616,11 +3661,11 @@ div.wpcf7-response-output {
   background-color: #003A5F; }
   .copy-footer p {
     font-size: 12px;
-    width: 90%;
+    width: 60%;
     text-align: center;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 0 auto;
     padding: 14px 0; }
 
 .footer-form {
@@ -3645,7 +3690,9 @@ div.wpcf7-response-output {
       -ms-flex-direction: row;
           flex-direction: row;
       -ms-flex-pack: center;
-          justify-content: center; } }
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center; } }
 
 input::-webkit-input-placeholder {
   font-family: 'open_sans', 'sans-serif';
@@ -3668,7 +3715,8 @@ input::-webkit-input-placeholder {
   @media (min-width: 480px) {
     .primary-button-subscribe {
       margin: 20px 20px 20px 0;
-      width: 220px; } }
+      width: 220px;
+      height: 60px; } }
 
 .footer-info {
   display: -ms-flexbox;

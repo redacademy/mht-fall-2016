@@ -9,7 +9,6 @@
 .about-page {
     padding-top: 0;
     @include mobile-break-width {
-
     }
     .main-header header {
         background: none;
@@ -43,14 +42,11 @@
         color: white;
     }
     .about-hero {
-        height: 415px;
+      height: 100%;
         text-align: center;
         color: #fff;
         width: 100%;
-        height: 415px;
         background-position-y: -75px;
-        // border: 1px solid #979797;
-        margin-bottom: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -63,23 +59,21 @@
             margin-bottom: 125px;
         }
         .parallax-scroll-about {
-            height: 300%;
+            height: 85vh;
             width: 100%;
-            margin: 0 auto;
-            background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
-            background-size: 100%;
+            background: url(../../MTH-Assets/photos/about-hero-desktop.png) no-repeat top;
+            background-size: cover;
             z-index: -1;
             position: fixed;
             top: 0;
-            background-position-y: -75px;
+            // background-position-y: -75px;
             @include mobile-break-width {
-                background: url(../../MTH-Assets/photos/about-hero-desktop.png);
-                width: 1344px;
-                background-size: cover;
-                height: 770px;
-                background-position: center center;
+                height: 100vh;
+                // background-position: center center;
             }
         }
+
+
         h1 {
             color: white;
             text-transform: uppercase;
@@ -197,11 +191,17 @@
         color: $body-color;
     }
     .first-sentence {
-        padding-left: 37px;
         margin: 0;
-        margin-top: 5px;
+        margin-top: 0px;
         @include mobile-break-width{
             display: none;
+        }
+        &:first-letter {
+            float: left;
+            line-height: 50px;
+            padding: 0px 10px 0px 0px;
+            font-size: 4rem;
+            font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
         }
     }
     .about-amanda-second-p {
@@ -278,7 +278,7 @@
         }
     }
     .one {
-        margin-top: 50px;
+        margin-top: 60px;
         @include mobile-break-width {
             width: 500px;
             margin: 0px;
@@ -288,7 +288,7 @@
         }
     }
     .two {
-        margin-top: 65px;
+        margin-top: 77px;
         @include mobile-break-width {
             width: 236px;
             top: 230;
@@ -298,14 +298,14 @@
         }
     }
     .three {
-        margin-top: 60px;
+        margin-top: 65px;
         @include mobile-break-width {
             margin: 0px;
             left:6%;
         }
     }
     .four {
-        margin-top: 58px;
+        margin-top: 74px;
         @include mobile-break-width {
             position: absolute;
             top: 600px;
@@ -314,7 +314,7 @@
         }
     }
     .five {
-        margin-top: 84px;
+        margin-top: 81px;
         @include mobile-break-width {
             width: 360px;
             margin: 0px;
@@ -499,4 +499,15 @@
             display: initial;
             width: 622px;
         }
-    }
+        &:first-letter {
+                    float: left;
+                    line-height: 70px;
+                    padding: 0px 19px 0px 0px;
+                    font-size: 4rem;
+                    font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+                    @include mobile-break-width {
+                        padding: 0px 25px 5px 3px;
+                        font-size: 5rem;
+                    }
+                }
+            }

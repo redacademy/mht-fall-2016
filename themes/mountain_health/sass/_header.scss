@@ -34,7 +34,14 @@
                 font-size: 15px;
                 a {
                     color: white;
+                    &:hover {
+                        color: #fdeea7;
+                    }
                 }
+            }
+            .header-button-white {
+                background: none;
+                border: 2px solid white;
             }
             .search-logo-dt {
                 display: block !important;
@@ -214,41 +221,43 @@
             }
         }
     }
-    #primary-menu li:hover>ul {
-        display: block!important
-    }
-    .search-state-dt {
-        position: fixed;
-        height: 150px;
-        top: 110px;
-        width: 100%;
-        background: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 99;
-        fieldset {
+}
+
+#primary-menu li:hover>ul {
+    display: block!important
+}
+
+.search-state-dt {
+    position: fixed;
+    height: 150px;
+    top: 110px;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    fieldset {
+        border: none;
+        input {
             border: none;
-            input {
-                border: none;
-                height: 50px;
-                margin-top: 50px;
-                font-family: Oswald;
+            height: 50px;
+            margin-top: 50px;
+            font-family: Oswald;
+            font-size: 48px;
+            font-weight: normal;
+            font-style: normal;
+            text-align: center;
+            color: #1a9481;
+            &::placeholder {
+                color: #919191;
                 font-size: 48px;
-                font-weight: normal;
-                font-style: normal;
+                font-family: Oswald;
                 text-align: center;
+            }
+            &:focus {
+                outline: none;
                 color: #1a9481;
-                &::placeholder {
-                    color: #919191;
-                    font-size: 48px;
-                    font-family: Oswald;
-                    text-align: center;
-                }
-                &:focus {
-                    outline: none;
-                    color: #1a9481;
-                }
             }
         }
     }

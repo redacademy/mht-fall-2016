@@ -130,21 +130,20 @@
         margin-left: 20px;
         font-weight: normal;
         @include mobile-break-width {
-          margin: 0;
+            margin: 0;
             font-size: $small-font-dt;
         }
     }
     @include mobile-break-width {
-      padding: 3rem;
-      display: flex;
-      flex-direction: column;
-form{
-  display: flex;
-button{
-  margin: 0;
-
-}
-}
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        form {
+            display: flex;
+            button {
+                margin: 0;
+            }
+        }
     }
 }
 
@@ -153,6 +152,7 @@ button{
         width: 280px;
         height: 42px;
         border: solid 1px #919191;
+        padding-left: 15px;
         @include mobile-break-width {
             width: 50%;
             height: 60px;
@@ -330,13 +330,13 @@ button{
     }
 }
 
-.why-use-all{
+.why-use-all {
     display: flex;
     flex-direction: column;
     align-items: center;
-    @include mobile-break-width{
-            display: flex;
-    justify-content: center;
+    @include mobile-break-width {
+        display: flex;
+        justify-content: center;
         line-height: 1.18;
     }
 }
