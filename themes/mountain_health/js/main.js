@@ -190,4 +190,12 @@
     // $('.x-icon').on('click',function(){
     //   $('body').removeClass('.body-shadow'));
     // });
+
+    if ($('body').hasClass('page-template-what-we-do')) {
+// $('.menu a::after').on('click', function(){
+//   this.rotate(180);
+// console.log('hi');
+// };
+}
+
 })(jQuery);

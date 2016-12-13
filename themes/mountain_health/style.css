@@ -989,7 +989,7 @@ p {
     outline: none; }
 
 .menu li.has-children > a:after {
-  color: #fff;
+  color: #1a9481;
   content: ' ▼';
   font-size: 10px;
   vertical-align: 1px; }
