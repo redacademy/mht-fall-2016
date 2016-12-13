@@ -6,13 +6,13 @@
     color: white;
     text-align: center;
     border-radius: 200px;
-    padding-top:15px;
+    padding-top: 15px;
     padding-bottom: 15px;
     width: 220px;
-    @include mobile-break-width{
+    @include mobile-break-width {
         font-size: $small-font-dt;
-
         width: 280px;
+        height: 60px;
     }
     a {
         color: white;
@@ -99,9 +99,7 @@ body {
     background-size: contain;
     @include mobile-break-width {
         background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
-        // width: 1364px;
         overflow: scroll;
-        margin: 0 auto;
     }
 }
 
@@ -157,12 +155,16 @@ p {
         }
     }
 }
-.body-shadow{
-  background-image: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)) !important;
+
+.body-shadow {
+    background-image: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)) !important;
 }
 
-.container{
-    margin-left: auto;
-    width: 1324px;
-    margin-right: auto;
+
+.container {
+    @include mobile-break-width {
+        margin-left: auto;
+        max-width: 1324px;
+        margin-right: auto;
+    }
 }

@@ -15,7 +15,7 @@
 				<a href="<?php echo get_page_link(23); ?>"></a>
 				<p> &nbsp;<?php wp_title( '' ); ?></p>
 		</section>
-        <section class="treatments-testing-appointments">
+        <section class="treatments-testing-appointments container">
               <div class="testing">
                 <img class="gradient-border-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/treatment-bg.png" alt="gradient border box">
                 <h2>Lab Testing</h2>
@@ -26,7 +26,7 @@
                 <a href="<?php echo get_page_link(27); ?>">Learn More</a>
                 </div>
             </div>
-            <div class="appointments">
+            <div class="appointments container">
                 <img class="gradient-border-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/treatment-bg.png" alt="gradient border box">
                 <h2>Appointments</h2>
                 <img class="calendar-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/appointment.png" alt="calendar logo">
@@ -60,7 +60,7 @@
                 <!--This last line above might change and link to an article with more detail-->
             </ul>
         </div>
-        <section class="care-conditions">
+        <section class="care-conditions container">
             <div clas="care-div">
                 <h2>Chronic Conditions</h2>
                 <div class ="underline-strip"></div>
@@ -89,7 +89,7 @@
                 </ul>
             </div>
         </section>
-        <section class="what-we-medicine">
+        <section class="what-we-medicine container">
 					<div class="picture-of-remedies"></div>
             <div class="what-is-naturopathic-medicine">
                 <h2>What is Naturopathic Medicine?</h2>
@@ -100,7 +100,7 @@
         </section>
 
         <h4 class="how-can-we-help-you">Want to know how we can help you?</h4>
-        <div class ="primary-button book-appointment what-btn">
+        <div class ="primary-button book-appointment">
             <a href="<?php echo get_page_link(29); ?>">Book an appointment</a>
         </div>
 	</main><!-- #main -->

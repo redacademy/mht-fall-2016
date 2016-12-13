@@ -473,7 +473,8 @@ textarea {
   @media (min-width: 480px) {
     .primary-button {
       font-size: 22px;
-      width: 280px; } }
+      width: 280px;
+      height: 60px; } }
   .primary-button a {
     color: white;
     text-decoration: none;
@@ -552,8 +553,7 @@ body {
   @media (min-width: 480px) {
     body {
       background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
-      overflow: scroll;
-      margin: 0 auto; } }
+      overflow: scroll; } }
 
 .site-main,
 .main-header,
@@ -601,10 +601,11 @@ p {
 .body-shadow {
   background-image: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)) !important; }
 
-.container {
-  margin-left: auto;
-  width: 1324px;
-  margin-right: auto; }
+@media (min-width: 480px) {
+  .container {
+    margin-left: auto;
+    max-width: 1324px;
+    margin-right: auto; } }
 
 .main-header header {
   width: 100%;
@@ -644,6 +645,11 @@ p {
         font-size: 15px; }
         .main-header header .header-button a {
           color: white; }
+          .main-header header .header-button a:hover {
+            color: #fdeea7; }
+      .main-header header .header-button-white {
+        background: none;
+        border: 2px solid white; }
       .main-header header .search-logo-dt {
         display: block !important; }
       .main-header header p {
@@ -1405,6 +1411,9 @@ object {
       height: 50px;
       transform: translateY(200px); } }
 
+.phone-header {
+  font-size: 16px !important; }
+
 .header-text {
   text-align: center; }
   .header-text a {
@@ -1928,7 +1937,7 @@ object {
         margin-bottom: 125px; } }
     .about-page .about-hero .parallax-scroll-about {
       height: 300%;
-      width: 1340px;
+      width: 100%;
       margin: 0 auto;
       background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
       background-size: 100%;
@@ -1939,7 +1948,7 @@ object {
       @media (min-width: 480px) {
         .about-page .about-hero .parallax-scroll-about {
           background: url(../../MTH-Assets/photos/about-hero-desktop.png);
-          width: 1340px;
+          width: 1344px;
           background-size: cover;
           height: 770px;
           background-position: center center; } }
@@ -2129,7 +2138,7 @@ object {
         left: 618px;
         display: inherit; } }
   .education .one {
-    margin-top: 70px; }
+    margin-top: 50px; }
     @media (min-width: 480px) {
       .education .one {
         width: 500px;
@@ -2147,7 +2156,7 @@ object {
         position: absolute;
         margin: 0px; } }
   .education .three {
-    margin-top: 70px; }
+    margin-top: 60px; }
     @media (min-width: 480px) {
       .education .three {
         margin: 0px;
@@ -2238,32 +2247,32 @@ object {
       position: absolute; } }
 
 .dot-1 {
-  left: 49.6%;
+  left: 653px;
   top: 95px;
   z-index: 1; }
 
 .dot-2 {
-  left: 49%;
+  left: 644px;
   top: 250px;
   z-index: 1; }
 
 .dot-3 {
-  left: 48.1%;
+  left: 632px;
   top: 420px;
   z-index: 1; }
 
 .dot-4 {
-  left: 53%;
+  left: 697px;
   top: 631px;
   z-index: 1; }
 
 .dot-5 {
-  left: 51%;
+  left: 671px;
   top: 820px;
   z-index: 1; }
 
 .dot-6 {
-  left: 48.3%;
+  left: 635px;
   top: 980px;
   z-index: 1; }
 
@@ -3670,7 +3679,8 @@ input::-webkit-input-placeholder {
   @media (min-width: 480px) {
     .primary-button-subscribe {
       margin: 20px 20px 20px 0;
-      width: 220px; } }
+      width: 220px;
+      height: 60px; } }
 
 .footer-info {
   display: -ms-flexbox;

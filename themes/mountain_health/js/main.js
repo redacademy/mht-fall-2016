@@ -15,8 +15,8 @@
         $('.phone-and-number').toggle();
         $('.phone-and-number-green').toggle();
         $(".about-page .phone-green, .front-page .phone-green").hide();
-        // $(".about-page .main-header header .phone-and-number-green .phone-green, .front-page .main-header header .phone-and-number-green .phone-green").hide();
-        $(".about-page .main-header header .phone-white .front-page .main-header header .phone-white").show();
+        // $(".about-page  header .phone-and-number-green .phone-green, .front-page  header .phone-and-number-green .phone-green").hide();
+        $(".about-page  header .phone-white .front-page  header .phone-white").show();
         $('.mth-logo-white').toggle();
         $('.mth-logo-dt').toggle();
 
@@ -99,51 +99,57 @@
         $(this).next('.treatment-description-single-active').stop().show();
     });
     // about page header color change
-    $(".about-page .main-header header p, .front-page .main-header header p").addClass("phone-number-white");
-    $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").hide();
-    $(".about-page .main-header header .MTH-logo-dt, .front-page .main-header header .MTH-logo-dt").hide();
-    $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
-    $(".about-page .main-header header .phone-and-number .phone-white .front-page .main-header header .phone-and-number .phone-white").show();
+    $(".about-page  header p, .front-page  header p").addClass("phone-number-white");
+    $(".about-page  header .phone-blue, .front-page  header .phone-blue").hide();
+    $(".about-page  header .MTH-logo-dt, .front-page  header .MTH-logo-dt").hide();
+    $(".about-page  header .MTH-logo-white, .front-page  header .MTH-logo-white").show();
+    $(".about-page  header .phone-and-number .phone-white .front-page  header .phone-and-number .phone-white").show();
     $(".about-page .search-icon-dt, .front-page .search-icon-dt").hide();
     $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
     $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
     $(".search-logo-white-dt").hide();
-    $(".about-page header .search-logo-white-dt").show();
-
+    $(".about-page header .search-logo-white-dt, .front-page header .search-logo-white-dt").show();
+    $(".about-page .header-button, .front-page .header-button").addClass("header-button-white");
 
     $(window).on("scroll", function() {
         if ($(window).scrollTop() > 1) {
-            $(".about-page .main-header header, .front-page .main-header header").addClass("header-white");
-            $(".about-page .main-header header .hamburger-white, .front-page .main-header header .hamburger-white").removeClass("hamburger");
-            $(".about-page .main-header header p, .front-page .main-header header p").removeClass("phone-number-white");
-            $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").show();
-            $(".about-page .main-header header .MTH-logo-dt, .front-page .main-header header .MTH-logo-dt").show();
-            $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").hide();
-            $(".about-page .main-header header .phone-white, .front-page .main-header header .phone-white").hide();
+            $(".about-page  header, .front-page header").addClass("header-white");
+            $(".about-page  header .hamburger-white, .front-page  header .hamburger-white").removeClass("hamburger");
+            $(".about-page  header p, .front-page  header p").removeClass("phone-number-white");
+            $(".about-page  header .phone-blue, .front-page  header .phone-blue").show();
+            $(".about-page  header .MTH-logo-dt, .front-page  header .MTH-logo-dt").show();
+            $(".about-page  header .MTH-logo-white, .front-page  header .MTH-logo-white").hide();
+            $(".about-page  header .phone-white, .front-page  header .phone-white").hide();
             $(".about-page .search-icon-dt, .front-page .search-icon-dt").show();
             $(".about-page .search-logo-white-dt, .front-page .search-logo-white-dt").hide();
             $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").show();
             $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").hide();
             $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "#1a9481");
             $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "#1a9481");
+            $(".about-page .header-button, .front-page .header-button").removeClass("header-button-white");
 
 
 
         } else {
-            $(".about-page .main-header header, .front-page .main-header header").removeClass("header-white");
-            $(".about-page .hamburger-white, .front-page .main-header header .hamburger-white ").addClass("hamburger");
-            $(".about-page .main-header header p, .front-page .main-header header p").addClass("phone-number-white");
-            $(".about-page .main-header header .MTH-logo-dt, .front-page .main-header header .MTH-logo-dt").hide();
-            $(".about-page .main-header header .MTH-logo-white, .front-page .main-header header .MTH-logo-white").show();
-            $(".about-page .main-header header .phone-blue, .front-page .main-header header .phone-blue").hide();
-            $(".about-page .main-header header .phone-and-number .phone-white, .front-page .main-header header .phone-and-number .phone-white").show();
+            $(".about-page  header, .front-page  header").removeClass("header-white");
+            $(".about-page .hamburger-white, .front-page  header .hamburger-white ").addClass("hamburger");
+            $(".about-page  header p, .front-page  header p").addClass("phone-number-white");
+            $(".about-page  header .MTH-logo-dt, .front-page  header .MTH-logo-dt").hide();
+            $(".about-page  header .MTH-logo-white, .front-page  header .MTH-logo-white").show();
+            $(".about-page  header .phone-blue, .front-page  header .phone-blue").hide();
+            $(".about-page  header .phone-and-number .phone-white, .front-page  header .phone-and-number .phone-white").show();
             $(".about-page .search-icon-dt, .front-page .search-icon-dt").hide();
             $(".about-page .search-logo-white, .front-page .search-logo-white").show();
             $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
             $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
-            $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "white");
-            // $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
+            $(".about-page .desktop-menu a, .front-page .desktop-menu a").css("color", "white");
+            $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
             $(".about-page header .search-logo-white-dt").show();
+            $(".about-page header .search-logo-white-dt, .front-page header .search-logo-white-dt").show();
+            $(".about-page .header-button, .front-page .header-button").addClass("header-button-white");
+
+
+
 
 
 
@@ -158,18 +164,18 @@
 
 
     // Countdown
-    if ( $('body').hasClass('page-template-redirect') ) {
+    if ($('body').hasClass('page-template-redirect')) {
 
-      var $counter = $('#counter');
-      var countDown = setInterval(function() {
+        var $counter = $('#counter');
+        var countDown = setInterval(function() {
 
-        if ( parseInt($counter.text()) === 0 ) {
-          clearInterval(countDown);
-          window.location.href = 'https://www.smartnd.ca/patient-portal/login';
-        } else if ( parseInt($counter.text()) > 0 ) {
-          $counter.text(parseInt($counter.text()) - 1);
-        }
-      }, 1000);
+            if (parseInt($counter.text()) === 0) {
+                clearInterval(countDown);
+                window.location.href = 'https://www.smartnd.ca/patient-portal/login';
+            } else if (parseInt($counter.text()) > 0) {
+                $counter.text(parseInt($counter.text()) - 1);
+            }
+        }, 1000);
 
     }
 

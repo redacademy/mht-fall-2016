@@ -15,7 +15,7 @@
                 </p>
             </div>
         </section>
-        <section class="amanda-section">
+        <section class="amanda-section container">
             <div class="amanda-photo">
                 <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/about-amanda-profile.jpg" alt="Dr. Amanda Chay"/>
             </div>
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </section>
-        <section class="education">
+        <section class="education container">
             <div class="amanda-road-map-wrapper">
                 <img class="road-map-dot dot-1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/ellipse-bg.png" alt="dot for line image">
                 <img class="road-map-dot dot-2" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/ellipse-bg.png" alt="dot for line image">

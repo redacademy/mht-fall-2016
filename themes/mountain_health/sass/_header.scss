@@ -34,7 +34,14 @@
                 font-size: 15px;
                 a {
                     color: white;
+                    &:hover {
+                        color: #fdeea7;
+                    }
                 }
+            }
+            .header-button-white {
+                background: none;
+                border: 2px solid white;
             }
             .search-logo-dt {
                 display: block !important;
