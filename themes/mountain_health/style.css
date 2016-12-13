@@ -2127,7 +2127,7 @@ object {
         left: 618px;
         display: inherit; } }
   .education .one {
-    margin-top: 70px; }
+    margin-top: 50px; }
     @media (min-width: 480px) {
       .education .one {
         width: 500px;
@@ -2145,7 +2145,7 @@ object {
         position: absolute;
         margin: 0px; } }
   .education .three {
-    margin-top: 70px; }
+    margin-top: 60px; }
     @media (min-width: 480px) {
       .education .three {
         margin: 0px;

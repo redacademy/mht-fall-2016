@@ -278,7 +278,7 @@
         }
     }
     .one {
-        margin-top: 70px;
+        margin-top: 50px;
         @include mobile-break-width {
             width: 500px;
             margin: 0px;
@@ -298,7 +298,7 @@
         }
     }
     .three {
-        margin-top: 70px;
+        margin-top: 60px;
         @include mobile-break-width {
             margin: 0px;
             left:6%;
