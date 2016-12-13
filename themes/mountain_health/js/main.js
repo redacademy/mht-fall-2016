@@ -108,7 +108,7 @@
     $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
     $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
     $(".search-logo-white-dt").hide();
-    $(".about-page header .search-logo-white-dt").show();
+    $(".about-page header .search-logo-white-dt, .front-page header .search-logo-white-dt").show();
 
 
     $(window).on("scroll", function() {
@@ -142,8 +142,11 @@
             $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt").hide();
             $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt").show();
             $(".about-page #primary-menu a, .front-page #primary-menu a").css("color", "white");
-            // $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
+            $(".about-page header .patient-portal-desktop a, .front-page header .patient-portal-desktop a").css("color", "white");
             $(".about-page header .search-logo-white-dt").show();
+            $(".about-page header .search-logo-white-dt, .front-page header .search-logo-white-dt").show();
+
+
 
 
 
