@@ -1327,9 +1327,9 @@ object {
 
 .parallax-scroll {
   width: 100%;
-  height: 65vh;
+  height: 85vh;
   top: 0;
-  background: url(../../MTH-Assets/photos/front-page-desktop-hero.png) no-repeat top;
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(../../MTH-Assets/photos/front-page-desktop-hero.png) no-repeat top;
   background-size: cover;
   z-index: -1;
   position: fixed;
@@ -1341,10 +1341,9 @@ object {
 
 .hero-banner {
   max-width: 320px;
-  height: 480px;
+  height: 100vh;
   background-size: cover;
   color: white;
-  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   display: -ms-flexbox;
@@ -1359,6 +1358,7 @@ object {
   margin-right: auto; }
   @media (min-width: 480px) {
     .hero-banner {
+      margin-bottom: 40px;
       max-width: 1764px;
       height: 770px;
       background-size: cover;
@@ -1409,7 +1409,7 @@ object {
   background-color: #1a9481;
   margin: 0 auto;
   border-radius: 50%;
-  transform: translateY(95px); }
+  transform: translateY(134px); }
   @media (min-width: 480px) {
     .keep-scrolling {
       box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
@@ -1453,8 +1453,7 @@ object {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center;
-  padding-top: 2rem; }
+      align-items: center; }
   .booking p {
     color: #003A5F;
     width: 277px;
@@ -1465,6 +1464,9 @@ object {
       .booking p {
         font-size: 22px;
         width: 707px; } }
+  @media (min-width: 480px) {
+    .booking {
+      padding-top: 2rem; } }
 
 .booking div {
   margin-top: 330px;
@@ -1889,8 +1891,11 @@ object {
         line-height: 1.67; } }
 
 .main-carousel {
-  width: 80%;
-  margin: 0 auto; }
+  width: 100%; }
+  @media (min-width: 480px) {
+    .main-carousel {
+      width: 80%;
+      margin: 0 auto; } }
 
 .amanda-section {
   position: relative; }
@@ -1925,13 +1930,11 @@ object {
   .about-page .hamburger {
     color: white; }
   .about-page .about-hero {
-    height: 415px;
+    height: 100%;
     text-align: center;
     color: #fff;
     width: 100%;
-    height: 415px;
     background-position-y: -75px;
-    margin-bottom: 100px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -1950,7 +1953,7 @@ object {
         width: 100%;
         margin-bottom: 125px; } }
     .about-page .about-hero .parallax-scroll-about {
-      height: 65vh;
+      height: 85vh;
       width: 100%;
       background: url(../../MTH-Assets/photos/about-hero-desktop.png) no-repeat top;
       background-size: cover;
