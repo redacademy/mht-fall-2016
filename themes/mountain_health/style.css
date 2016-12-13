@@ -556,9 +556,6 @@ body {
 
 .content-area {
   padding-top: 40px; }
-  @media (min-width: 480px) {
-    .content-area {
-      padding-top: 110px; } }
 
 .front-button:hover {
   color: #fdeea7; }
@@ -1268,23 +1265,38 @@ object {
   .search-field-mobile .fa {
     display: none; }
 
-.search {
-  display: -ms-flexbox;
-  display: flex; }
-  .search .search-icon {
-    height: 16px;
-    width: 20px;
-    padding-right: 5px; }
-  .search .search-logo-white {
-    padding-top: 3px; }
-  .search p {
-    margin: 0;
-    font-family: "oswald", "san-serif"; }
-  .search:hover {
-    cursor: pointer; }
+.search .search-icon {
+  height: 16px;
+  width: 20px;
+  padding-right: 5px; }
+
+.search .search-logo-white {
+  padding-top: 3px; }
+
+.search p {
+  margin: 0;
+  font-family: "oswald", "san-serif"; }
+
+.search:hover {
+  cursor: pointer; }
 
 .header-hide {
   display: none; }
+
+.page-content-search {
+  padding-top: 4rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  .page-content-search p {
+    font-size: 17px;
+    padding: 4rem 0; }
+    @media (min-width: 480px) {
+      .page-content-search p {
+        font-size: 22px; } }
 
 /*--------------------------------------------------------------
 # Page Templates
