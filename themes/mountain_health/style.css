@@ -661,7 +661,7 @@ p {
         display: flex;
         padding: 0;
         margin-left: 40px;
-        width: 17%; }
+        width: 14%; }
         .main-header header .phone-and-number span {
           color: #003A5F; } }
 
@@ -795,10 +795,9 @@ p {
           #primary-menu .sub-menu li:nth-child(3) {
             border-radius: 0px 0px 0px 10px; }
           #primary-menu .sub-menu li:hover {
-            padding: 0;
             background: #1a9481; }
             #primary-menu .sub-menu li:hover a {
-              color: #fdeea7; } }
+              color: #fdeea7 !important; } }
 
 #primary-menu li:hover > ul {
   display: block !important; }
@@ -2559,10 +2558,13 @@ object {
     text-align: center;
     line-height: 19px;
     color: #FFFFFF;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: lighter; }
     @media (min-width: 480px) {
       .learn-more a {
         font-size: 22px; } }
+    .learn-more a:hover {
+      color: #fdeea7; }
 
 .care-conditions {
   text-align: center; }
@@ -3386,7 +3388,7 @@ object {
   .contact-us input[type="submit"] {
     width: 180px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 30px;
     color: #fff;
     margin: 0 50px;
     box-shadow: none;
@@ -3396,6 +3398,10 @@ object {
     font-family: 'open_sans', 'sans-serif'; }
     .contact-us input[type="submit"] p {
       margin: 0; }
+    @media (min-width: 480px) {
+      .contact-us input[type="submit"] {
+        width: 200px;
+        height: 60px; } }
   .contact-us .hours {
     color: #677257; }
 
@@ -3721,6 +3727,8 @@ input::-webkit-input-placeholder {
       margin: 20px 20px 20px 0;
       width: 220px;
       height: 60px; } }
+  .primary-button-subscribe:hover {
+    color: #fdeea7; }
 
 .footer-info {
   display: -ms-flexbox;
