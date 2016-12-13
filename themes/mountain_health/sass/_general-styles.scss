@@ -99,7 +99,6 @@ body {
     @include mobile-break-width {
         background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
         overflow: scroll;
-        margin: 0 auto;
     }
 }
 
@@ -155,7 +154,14 @@ p {
         }
     }
 }
+.body-shadow{
+  background-image: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)) !important;
+}
 
-.body-shadow {
-    background-image: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)) !important;
+.container{
+    @include mobile-break-width{
+    margin-left: auto;
+    max-width: 1324px;
+    margin-right: auto;
+    }
 }

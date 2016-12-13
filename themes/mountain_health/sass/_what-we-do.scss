@@ -49,6 +49,8 @@
         line-height: 26px;
         @include mobile-break-width {
             font-size: $medium-font-dt;
+            margin-top: 0;
+            padding-top:60px;
         }
     }
     .what-we-do-bread {
@@ -116,6 +118,7 @@
     @include mobile-break-width {
         flex-direction: row;
         justify-content: center;
+        margin-bottom: 140px;
     }
     .treatments,
     .testing,
@@ -136,7 +139,8 @@
             margin: 0;
             margin-left: 10px;
             margin-right: 10px;
-            margin-bottom: 108px;
+            margin-bottom: 0px;
+            justify-content: flex-start;
         }
         .gradient-border-box {
             position: absolute;
@@ -148,7 +152,6 @@
         p {
             text-align: center;
             color: $body-color;
-            width: 245px;
             @include mobile-break-width {
                 font-size: $small-font-dt;
             }
@@ -169,7 +172,7 @@
     right: 50px;
     top: 215px;
     @include mobile-break-width {
-        top: initial;
+        top: 439px;
         left: 105px;
         bottom: -20px;
         width: 220px;
@@ -270,6 +273,7 @@
 .treatments {
     @include mobile-break-width {
         order: 1;
+        
     }
 }
 
@@ -356,4 +360,29 @@
 .what-btn{
 padding: .75rem 1.5rem;
 width: 15%;
+}
+
+.treatments-p{
+    width: 245px;
+    @include mobile-break-width{
+        width: 395px;
+    }
+}
+
+.appointments{
+    p{
+        width: 245px;
+        @include mobile-break-width{
+            width: 346px;
+        }
+    }
+}
+
+.testing{
+    p{
+        width: 245px;
+        @include mobile-break-width{
+            width: 314px;
+        }
+    }
 }
