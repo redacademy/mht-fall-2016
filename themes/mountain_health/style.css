@@ -2071,12 +2071,17 @@ object {
     background: rgba(255, 255, 255, 0.7);
     color: #003A5F; }
   .about-amanda .first-sentence {
-    padding-left: 37px;
     margin: 0;
-    margin-top: 5px; }
+    margin-top: 0px; }
     @media (min-width: 480px) {
       .about-amanda .first-sentence {
         display: none; } }
+    .about-amanda .first-sentence:first-letter {
+      float: left;
+      line-height: 50px;
+      padding: 0px 10px 0px 0px;
+      font-size: 4rem;
+      font-family: "Edwardian Script ITC", "Brush Script MT", cursive; }
   .about-amanda .about-amanda-second-p {
     margin: 0; }
     @media (min-width: 480px) {

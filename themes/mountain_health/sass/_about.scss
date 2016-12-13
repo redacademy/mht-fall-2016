@@ -194,11 +194,17 @@
         color: $body-color;
     }
     .first-sentence {
-        padding-left: 37px;
         margin: 0;
-        margin-top: 5px;
+        margin-top: 0px;
         @include mobile-break-width{
             display: none;
+        }
+        &:first-letter {
+            float: left;
+            line-height: 50px;
+            padding: 0px 10px 0px 0px;
+            font-size: 4rem;
+            font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
         }
     }
     .about-amanda-second-p {

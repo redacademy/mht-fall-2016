@@ -30,18 +30,15 @@
                 <img class="amanda-bg-mobile" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/amanda-bg.png" alt="Dr. Amanda Chay">
                 <div class="amanda-bg">
                     <div class="about-amanda-text">
-                        <p>
-                            <p class="first-sentence">am a Naturopathic Physician and owner of Mountain
-                            Health. Prior to this, I</p>
-                                <p class="amanda-p-mobile">completed pre-medical studies
+                            <p class="first-sentence">I am a Naturopathic Physician and owner of Mountain
+                            Health. Prior to this, I completed pre-medical studies
                             and a degree in Psychology at the University of Regina
                             in Saskatchewan.
                             Combining my love of medicine, psychology and nature I
                             was driven to a career in Naturopathic Medicine. I truly
                             believe in the body’s innate desire to heal and that each
                             patient is unique, deserving of individualized treatment.
-                        </p>
-                        <p class="about-amanda-second-p">
+														<br />
                             My goal for you is to be symptom free so you can simply
                             spend more time enjoying every day. I am excited to offer
                             you a more natural approach and work with you on your journey
@@ -52,12 +49,12 @@
                             Health. Prior to this, I
                             completed pre-medical studies
                             and a degree in Psychology at the University of Regina
-                            in Saskatchewan.<br>
+                            in Saskatchewan.<br />
 														Combining my love of medicine, psychology and nature I
                             was driven to a career in Naturopathic Medicine. I truly
                             believe in the body’s innate desire to heal and that each
                             patient is unique, deserving of individualized treatment.
-                        <br>
+                        <br />
                             My goal for you is to be symptom free so you can simply
                             spend more time enjoying every day. I am excited to offer
                             you a more natural approach and work with you on your journey
