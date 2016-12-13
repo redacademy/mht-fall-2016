@@ -12,7 +12,7 @@ get_header(); ?>
             <h1>Book An Appointment</h1>
         </section>
 
-        <section class="book-appointment-content">
+        <section class="book-appointment-content container">
 					<section class="nav-links article-nav-links-archive bread-crumb-general">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
 						<p> &nbsp;Book an appointment</p>
@@ -47,7 +47,7 @@ get_header(); ?>
             </div>
         </section>
         <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/mountains-desktop.png" class="mountains" alt="green and white image that looks like mountains">
-        <section class="why-use-smartnd">
+        <section class="why-use-smartnd container">
             <h2>Why using smartND?</h2>
             <div class="why-use-all">
                 <div class="why-use-upper">

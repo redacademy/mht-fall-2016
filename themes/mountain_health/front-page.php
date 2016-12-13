@@ -22,7 +22,7 @@
         </section><!--End of hero-banner-->
 
 
-        <section class="booking"><!--Booking for front page-->
+        <section class="booking container"><!--Booking for front page-->
             <div></div>
             <h2 class="what-is-hero"> What is Naturopathic Medicine? </h2>
                 <p>Naturopathy is a type of care that offers individualized, natural healthcare.
@@ -30,7 +30,7 @@
             <a href="<?php echo get_post_type_archive_link('article')?>" class="front-button what-is-button large-button">Read More</a>
         </section>
 
-        <section class="benifits">
+        <section class="benifits container">
             <div class="checkboard"></div>
             <h2>Benifits of Naturopathic Medical Treatment</h2>
             <ul class="benifits-list">
@@ -45,7 +45,7 @@
             </ul>
         </section>
 
-        <section class="compare-to-traditional">
+        <section class="compare-to-traditional container">
             <h2>Benifits of Working With Us</h2>
             <div class="compare-flex">
                 <div class="compare-content">
@@ -78,7 +78,7 @@
             <p class="all-visits">*All initial visits are one hour, to avoid taking too much time out of your day</p>
         </section>
 
-        <section class="what-is">
+        <section class="what-is container">
             <div class="what-is-header">
                 <div class="white-box">
                     <p>Naturopathic doctors use both treatments and testing that are evidence based,
@@ -113,7 +113,7 @@
                 </div>
             </div>
         </section>
-        <section class="did-you-know">
+        <section class="did-you-know container">
             <div class="did-you-know-pic"></div>
             <h2>Did You Know?</h2>
             <div class="number-circle">

@@ -15,12 +15,12 @@ get_header(); ?>
 				<p>All our recipes have been picked by Dr. Chay to complement your lifestyle changes and support your best health.</p>
 			</section>
 
-			<section class="nav-links article-nav-links-archive">
+			<section class="nav-links article-nav-links-archive container">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
 				<a href="<?php echo get_page_link(10); ?>">&nbsp;Resources &gt; </a>
 				<p>&nbsp;Recipes & Nutrition</p>
 			</section>
-			<div class="grid-archive-article">
+			<div class="grid-archive-article container">
 			<?php if ( have_posts() ) : ?>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>

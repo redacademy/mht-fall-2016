@@ -15,7 +15,7 @@ get_header(); ?>
 				<p>Read more about Naturopathy, alternative medicine and the research behind what we do here at Mountain Health.</p>
 			</section>
 
-			<section class="nav-links article-nav-links-archive">
+			<section class="nav-links article-nav-links-archive container">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
 				<a href="<?php echo get_page_link(10); ?>">&nbsp;Resources &gt; </a>
 				<p>&nbsp;Articles & Research</p>
