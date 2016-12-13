@@ -81,7 +81,7 @@
                     <a href="<?php echo get_page_link(25); ?>" class="front-button what-is-button large-button">See Our Treatments</a>
                 </div>
             </div>
-            <p class="all-visits">*All initial visits are one hour, to avoid taking too much time out of your day</p>
+            <p id="all-visits">*All initial visits are one hour, to avoid taking too much time out of your day</p>
         </section>
 
         <section class="what-is">
@@ -89,7 +89,9 @@
                 <div class="white-box">
                     <p>Naturopathic doctors use both treatments and testing that are evidence based,
                         and also those that have been proven to work traditionally through clinical experience.</p>
+                        <a href="<?php echo get_page_link(61); ?>">
                     <button class="front-button flex-button large-button">See More About Us</button>
+                  </a>
                 </div>
             </div>
             <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "pageDots": false}'>

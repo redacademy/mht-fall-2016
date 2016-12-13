@@ -53,6 +53,7 @@
 .parallax-scroll {
 width: 100%;
 height: 65vh;
+top: 0;
 background: url(../../MTH-Assets/photos/front-page-desktop-hero.png) no-repeat top;
 background-size: cover;
 z-index: -1;
@@ -228,7 +229,6 @@ position: fixed;
     flex-wrap: wrap;
     @include mobile-break-width {
         background: linear-gradient(to right, #1a9481, #9bcc93);
-        max-width: 1764px;
         height: 598px;
         position: relative;
         justify-content: center;
@@ -527,19 +527,19 @@ position: fixed;
 }
 
 .front-page-slider {
-    background: url(../../MTH-Assets/photos/carousal-01.png);
+   background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)), url(../../MTH-Assets/photos/carousal-01.png);
     background-size: cover;
     background-position: center;
 }
 
 .front-page-slider-2 {
-    background: url(../../MTH-Assets/photos/carousel-2.jpg);
+    background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)), url(../../MTH-Assets/photos/carousel-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .front-page-slider-3 {
-    background: url(../../MTH-Assets/photos/carousel-3.jpg);
+    background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)), url(../../MTH-Assets/photos/carousel-3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -668,8 +668,9 @@ position: fixed;
 }
 
 .site-main {
-    .all-visits {
+    #all-visits {
         display: none;
+        color: #919191;
         @include mobile-break-width {
             display: initial;
             display: flex;
@@ -677,6 +678,16 @@ position: fixed;
             margin: 0px;
             font-size: 18px;
             margin-bottom: 80px;
+            p{
+              font-family: 'open_sans';
+              font-size: 18px;
+              line-height: 1.67;
+            }
         }
     }
+}
+
+.main-carousel{
+  width: 80%;
+  margin: 0 auto;
 }
