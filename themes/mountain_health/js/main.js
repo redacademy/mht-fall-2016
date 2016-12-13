@@ -158,7 +158,11 @@
             }
         });
         // search state desktop
+        $('.search-state-dt').hide();
 
+        $('.search-icon-dt, .search-logo-white-dt').on('click', function() {
+            $('.search-state-dt').animate({ height: 'toggle' });
+        });
 
         // Countdown
         if ($('body').hasClass('page-template-redirect')) {
