@@ -496,4 +496,15 @@
             display: initial;
             width: 622px;
         }
-    }
+        &:first-letter {
+                    float: left;
+                    line-height: 70px;
+                    padding: 0px 19px 0px 0px;
+                    font-size: 4rem;
+                    font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+                    @include mobile-break-width {
+                        padding: 0px 25px 5px 3px;
+                        font-size: 5rem;
+                    }
+                }
+            }

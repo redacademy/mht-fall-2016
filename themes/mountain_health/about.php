@@ -31,7 +31,6 @@
                 <div class="amanda-bg">
                     <div class="about-amanda-text">
                         <p>
-                            <span class="i-in-about">I </span>
                             <p class="first-sentence">am a Naturopathic Physician and owner of Mountain
                             Health. Prior to this, I</p>
                                 <p class="amanda-p-mobile">completed pre-medical studies
@@ -49,18 +48,16 @@
                             to optimal health.
                         </p>
                         <p class="amanda-text-desktop">
-                            <span class="i-in-about">I </span>
-                            am a Naturopathic Physician and owner of Mountain
+                            I am a Naturopathic Physician and owner of Mountain
                             Health. Prior to this, I
                             completed pre-medical studies
                             and a degree in Psychology at the University of Regina
-                            in Saskatchewan.</p>
-                            <p class="amanda-p-desktop">Combining my love of medicine, psychology and nature I
+                            in Saskatchewan.<br>
+														Combining my love of medicine, psychology and nature I
                             was driven to a career in Naturopathic Medicine. I truly
                             believe in the body’s innate desire to heal and that each
                             patient is unique, deserving of individualized treatment.
-                        </p>
-                        <p class="about-amanda-second-p-desktop">
+                        <br>
                             My goal for you is to be symptom free so you can simply
                             spend more time enjoying every day. I am excited to offer
                             you a more natural approach and work with you on your journey

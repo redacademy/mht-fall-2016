@@ -2335,6 +2335,16 @@ object {
     .amanda-text-desktop {
       display: initial;
       width: 622px; } }
+  .amanda-text-desktop:first-letter {
+    float: left;
+    line-height: 70px;
+    padding: 0px 19px 0px 0px;
+    font-size: 4rem;
+    font-family: "Edwardian Script ITC", "Brush Script MT", cursive; }
+    @media (min-width: 480px) {
+      .amanda-text-desktop:first-letter {
+        padding: 0px 25px 5px 3px;
+        font-size: 5rem; } }
 
 .what-we-do {
   margin: 0 auto; }
@@ -2962,7 +2972,8 @@ object {
 .book-appointment-email input {
   width: 280px;
   height: 42px;
-  border: solid 1px #919191; }
+  border: solid 1px #919191;
+  padding-left: 15px; }
   @media (min-width: 480px) {
     .book-appointment-email input {
       width: 50%;
