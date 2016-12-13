@@ -1926,7 +1926,7 @@ object {
         margin-bottom: 125px; } }
     .about-page .about-hero .parallax-scroll-about {
       height: 300%;
-      width: 1340px;
+      width: 100%;
       margin: 0 auto;
       background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
       background-size: 100%;
@@ -1937,7 +1937,7 @@ object {
       @media (min-width: 480px) {
         .about-page .about-hero .parallax-scroll-about {
           background: url(../../MTH-Assets/photos/about-hero-desktop.png);
-          width: 1340px;
+          width: 1344px;
           background-size: cover;
           height: 770px;
           background-position: center center; } }

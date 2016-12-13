@@ -64,7 +64,7 @@
         }
         .parallax-scroll-about {
             height: 300%;
-            width: 1340px;
+            width: 100%;
             margin: 0 auto;
             background: url(../../MTH-Assets/photos/about-hero.jpg) no-repeat;
             background-size: 100%;
@@ -74,7 +74,7 @@
             background-position-y: -75px;
             @include mobile-break-width {
                 background: url(../../MTH-Assets/photos/about-hero-desktop.png);
-                width: 1340px;
+                width: 1344px;
                 background-size: cover;
                 height: 770px;
                 background-position: center center;
