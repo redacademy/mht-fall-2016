@@ -9,8 +9,10 @@
     .site-main {
         p {
             font-weight: lighter;
+            font-family: 'open_sans',sans-serif;
             @include mobile-break-width {
-                font-size: $small-font-dt;
+                font-size: 33px;
+                line-height: 1.2;
             }
         }
         h2,
@@ -79,7 +81,6 @@ position: fixed;
     @include mobile-break-width {
         max-width: 1764px;
         height: 770px;
-        // background: url(../../MTH-Assets/photos/front-page-desktop-hero.png);
         background-size: cover;
         background-position: center center;
     }
@@ -130,16 +131,17 @@ position: fixed;
 
 .hero-banner {
     .keep-scrolling {
-        background: url(../../MTH-Assets/icons/down-arrow.png);
+        background: url(../../MTH-Assets/icons/down-arrow@3x.png);
+        box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
         background-size: cover;
         height: 26px;
         width: 26px;
         background-color: #1a9481;
         margin: 0 auto;
         border-radius: 50%;
-        border: 3px solid rgba(0, 0, 0, 0.1);
         transform: translateY(95px);
         @include mobile-break-width {
+          box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
             width: 50px;
             height: 50px;
             transform: translateY(200px);
