@@ -799,56 +799,58 @@ p {
             background: #1a9481; }
             #primary-menu .sub-menu li:hover a {
               color: #fdeea7; } }
-  #primary-menu #primary-menu li:hover > ul {
-    display: block !important; }
-  #primary-menu .search-state-dt {
-    position: fixed;
-    height: 150px;
-    top: 110px;
-    width: 100%;
-    background: white;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-    z-index: 99; }
-    #primary-menu .search-state-dt fieldset {
-      border: none; }
-      #primary-menu .search-state-dt fieldset input {
-        border: none;
-        height: 50px;
-        margin-top: 50px;
-        font-family: Oswald;
+
+#primary-menu li:hover > ul {
+  display: block !important; }
+
+.search-state-dt {
+  position: fixed;
+  height: 150px;
+  top: 110px;
+  width: 100%;
+  background: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  z-index: 99; }
+  .search-state-dt fieldset {
+    border: none; }
+    .search-state-dt fieldset input {
+      border: none;
+      height: 50px;
+      margin-top: 50px;
+      font-family: Oswald;
+      font-size: 48px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: center;
+      color: #1a9481; }
+      .search-state-dt fieldset input::-webkit-input-placeholder {
+        color: #919191;
         font-size: 48px;
-        font-weight: normal;
-        font-style: normal;
-        text-align: center;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input::-moz-placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input:-ms-input-placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input::placeholder {
+        color: #919191;
+        font-size: 48px;
+        font-family: Oswald;
+        text-align: center; }
+      .search-state-dt fieldset input:focus {
+        outline: none;
         color: #1a9481; }
-        #primary-menu .search-state-dt fieldset input::-webkit-input-placeholder {
-          color: #919191;
-          font-size: 48px;
-          font-family: Oswald;
-          text-align: center; }
-        #primary-menu .search-state-dt fieldset input::-moz-placeholder {
-          color: #919191;
-          font-size: 48px;
-          font-family: Oswald;
-          text-align: center; }
-        #primary-menu .search-state-dt fieldset input:-ms-input-placeholder {
-          color: #919191;
-          font-size: 48px;
-          font-family: Oswald;
-          text-align: center; }
-        #primary-menu .search-state-dt fieldset input::placeholder {
-          color: #919191;
-          font-size: 48px;
-          font-family: Oswald;
-          text-align: center; }
-        #primary-menu .search-state-dt fieldset input:focus {
-          outline: none;
-          color: #1a9481; }
 
 .search-logo-white {
   display: none; }
@@ -3633,11 +3635,11 @@ div.wpcf7-response-output {
   background-color: #003A5F; }
   .copy-footer p {
     font-size: 12px;
-    width: 90%;
+    width: 60%;
     text-align: center;
     line-height: 15px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 0 auto;
     padding: 14px 0; }
 
 .footer-form {
@@ -3662,7 +3664,9 @@ div.wpcf7-response-output {
       -ms-flex-direction: row;
           flex-direction: row;
       -ms-flex-pack: center;
-          justify-content: center; } }
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center; } }
 
 input::-webkit-input-placeholder {
   font-family: 'open_sans', 'sans-serif';
