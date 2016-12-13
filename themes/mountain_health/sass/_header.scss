@@ -410,3 +410,10 @@
         outline: none;
     }
 }
+
+.menu li.has-children > a:after {
+ color: #fff;
+ content: ' ▼';
+ font-size: 10px;
+ vertical-align: 1px;
+}
