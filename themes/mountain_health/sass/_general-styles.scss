@@ -6,12 +6,11 @@
     color: white;
     text-align: center;
     border-radius: 200px;
-    padding-top:15px;
+    padding-top: 15px;
     padding-bottom: 15px;
     width: 220px;
-    @include mobile-break-width{
+    @include mobile-break-width {
         font-size: $small-font-dt;
-
         width: 280px;
     }
     a {
