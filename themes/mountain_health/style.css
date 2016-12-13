@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
 Theme Name: Mountain Health Theme
 Theme URI: http://underscores.me/
@@ -987,12 +986,6 @@ p {
   color: #1a9481; }
   .menu-toggle:focus {
     outline: none; }
-
-.menu li.has-children > a:after {
-  color: #1a9481;
-  content: ' ▼';
-  font-size: 10px;
-  vertical-align: 1px; }
 
 /*--------------------------------------------------------------
 # Navigation
