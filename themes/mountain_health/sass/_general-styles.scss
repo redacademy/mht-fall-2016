@@ -99,7 +99,7 @@ body {
     background-size: contain;
     @include mobile-break-width {
         background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../../MTH-Assets/other/organic-bg.jpg);
-        width: 1364px;
+        // width: 1364px;
         overflow: scroll;
         margin: 0 auto;
     }

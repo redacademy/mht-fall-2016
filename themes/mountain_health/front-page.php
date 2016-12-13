@@ -12,13 +12,19 @@
 <?get_header(); ?>
     <div class="content">
         <section class="hero-banner"> <!--Front page banner-->
-            <div class="parallax-scroll"></div>
-                <h2 class="hero-header">Mountain Health</h2>
-            <div class="header-text">
-                <p>Empowering every person to have a fulfilling, healthy life,
-                    and feel connected to their community and the environment.</p>
+
+            <div class="parallax-scroll">
             </div>
-            <div class="keep-scrolling"></div>
+
+              <h2 class="hero-header">Mountain Health</h2>
+              <div class="header-text">
+                    <p>Empowering every person to have a fulfilling, healthy life,
+                    and feel connected to their community and the environment.</p>
+              </div>
+
+            <div class="keep-scrolling">
+            </div>
+
         </section><!--End of hero-banner-->
 
 
