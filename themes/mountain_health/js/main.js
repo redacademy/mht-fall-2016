@@ -196,7 +196,7 @@
   $('.menu-item-34 , .menu-item-33').mouseenter(function(e){
     e.preventDefault
     console.log('h1');
-    $(.'menu .menu-item a i').addClass('rotateMenu');
+    $('.menu .menu-item a i').addClass('rotateMenu');
   });
   $('.menu-item-34 , .menu-item-33').mouseleave(function(e){
     e.preventDefault
