@@ -5,10 +5,10 @@
  * @package RED_Starter_Theme
  */
 
-get_header();
 ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area single-article-content-wrapper">
+		<?php get_header();?>
 		<main id="main" class="site-main" role="main">
 			<div class="content">
 			<section class="hero-article-image">

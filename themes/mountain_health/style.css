@@ -3808,6 +3808,13 @@ input::-webkit-input-placeholder {
       .hero-article-image img {
         width: 100%; } }
 
+.external-link-logo-white-dt {
+  display: none; }
+
+.single-article-content-wrapper {
+  margin-top: 0;
+  padding-top: 0; }
+
 .single-article-content {
   margin: 0 auto;
   max-width: 85%; }
