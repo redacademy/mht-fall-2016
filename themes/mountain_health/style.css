@@ -1293,10 +1293,12 @@ object {
   .front-page .hamburger {
     color: white; }
   .front-page .site-main p {
-    font-weight: lighter; }
+    font-weight: lighter;
+    font-family: 'open_sans',sans-serif; }
     @media (min-width: 480px) {
       .front-page .site-main p {
-        font-size: 22px; } }
+        font-size: 33px;
+        line-height: 1.2; } }
   .front-page .site-main h2,
   .front-page .site-main h3 {
     font-family: 'oswald', 'sans-serif';
@@ -1324,15 +1326,18 @@ object {
       height: 20px; }
 
 .parallax-scroll {
-  top: -5px;
-  height: 300%;
   width: 100%;
-  height: 450px;
-  margin: 0 auto;
-  background: url(../../MTH-Assets/photos/front-page-hero.jpg) no-repeat;
+  height: 65vh;
+  top: 0;
+  background: url(../../MTH-Assets/photos/front-page-desktop-hero.png) no-repeat top;
   background-size: cover;
   z-index: -1;
+  position: fixed;
+  z-index: -1;
   position: fixed; }
+  @media (min-width: 480px) {
+    .parallax-scroll {
+      height: 100vh; } }
 
 .hero-banner {
   max-width: 320px;
@@ -1356,7 +1361,6 @@ object {
     .hero-banner {
       max-width: 1764px;
       height: 770px;
-      background: url(../../MTH-Assets/photos/front-page-desktop-hero.png);
       background-size: cover;
       background-position: center center; } }
   .hero-banner .hero-header {
@@ -1397,17 +1401,18 @@ object {
       font-size: 36px; } }
 
 .hero-banner .keep-scrolling {
-  background: url(../../MTH-Assets/icons/down-arrow.png);
+  background: url(../../MTH-Assets/icons/down-arrow@3x.png);
+  box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
   background-size: cover;
   height: 26px;
   width: 26px;
   background-color: #1a9481;
   margin: 0 auto;
   border-radius: 50%;
-  border: 3px solid rgba(0, 0, 0, 0.1);
   transform: translateY(95px); }
   @media (min-width: 480px) {
     .hero-banner .keep-scrolling {
+      box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
       width: 50px;
       height: 50px;
       transform: translateY(200px); } }
@@ -1448,7 +1453,8 @@ object {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  padding-top: 2rem; }
   .booking p {
     color: #003A5F;
     width: 277px;
@@ -1483,7 +1489,6 @@ object {
   @media (min-width: 480px) {
     .benifits {
       background: linear-gradient(to right, #1a9481, #9bcc93);
-      max-width: 1764px;
       height: 598px;
       position: relative;
       -ms-flex-pack: center;
@@ -1751,17 +1756,17 @@ object {
       align-items: space-around; }
 
 .front-page-slider {
-  background: url(../../MTH-Assets/photos/carousal-01.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../MTH-Assets/photos/carousal-01.png);
   background-size: cover;
   background-position: center; }
 
 .front-page-slider-2 {
-  background: url(../../MTH-Assets/photos/carousel-2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../MTH-Assets/photos/carousel-2.jpg);
   background-size: cover;
   background-position: center; }
 
 .front-page-slider-3 {
-  background: url(../../MTH-Assets/photos/carousel-3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../MTH-Assets/photos/carousel-3.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -1865,10 +1870,11 @@ object {
     .how-can h4 {
       font-size: 36px; } }
 
-.site-main .all-visits {
-  display: none; }
+.site-main #all-visits {
+  display: none;
+  color: #919191; }
   @media (min-width: 480px) {
-    .site-main .all-visits {
+    .site-main #all-visits {
       display: initial;
       display: -ms-flexbox;
       display: flex;
@@ -1876,7 +1882,15 @@ object {
           justify-content: center;
       margin: 0px;
       font-size: 18px;
-      margin-bottom: 80px; } }
+      margin-bottom: 80px; }
+      .site-main #all-visits p {
+        font-family: 'open_sans';
+        font-size: 18px;
+        line-height: 1.67; } }
+
+.main-carousel {
+  width: 80%;
+  margin: 0 auto; }
 
 .amanda-section {
   position: relative; }
