@@ -1310,7 +1310,7 @@ object {
     color: white; }
   .front-page .site-main p {
     font-weight: lighter;
-    font-family: 'open_sans',sans-serif; }
+    font-family: 'open_sans', sans-serif; }
     @media (min-width: 480px) {
       .front-page .site-main p {
         font-size: 33px;
@@ -1354,6 +1354,44 @@ object {
   @media (min-width: 480px) {
     .parallax-scroll {
       height: 100vh; } }
+
+.flickity-prev-next-button {
+  display: none; }
+  @media (min-width: 480px) {
+    .flickity-prev-next-button {
+      display: block;
+      width: 75px !important;
+      height: 75px !important;
+      background: none !important; } }
+
+.arrowShape {
+  x0: 45;
+  x1: 45;
+  y1: 0;
+  x2: 65;
+  y2: 40;
+  x3: 0; }
+
+.flickity-prev-next-button:hover {
+  background: transparent; }
+
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white !important; }
+
+.flickity-prev-next-button.no-svg {
+  color: white; }
+
+.flickity-page-dots {
+  bottom: 35px !important; }
+  @media (min-width: 480px) {
+    .flickity-page-dots {
+      bottom: 25px !important; } }
+  .flickity-page-dots .dot {
+    background: none;
+    border: 1px solid white; }
+  .flickity-page-dots .is-selected {
+    background: white !important; }
 
 .hero-banner {
   max-width: 320px;
@@ -1743,7 +1781,7 @@ object {
     margin-left: auto;
     margin-right: auto;
     line-height: 1.27;
-    margin-bottom: 60px; }
+    margin-bottom: 40px; }
   .carousel-cell h2 {
     font-size: 17px;
     color: #fff;

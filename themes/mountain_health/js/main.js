@@ -159,7 +159,6 @@
         });
         // search state desktop
         $('.search-state-dt').hide();
-
            $('.search-icon-dt, .search-logo-white-dt').on('click', function() {
                $('.search-state-dt').animate({ height: 'toggle' });
            });
@@ -211,6 +210,17 @@
             e.preventDefault
             $('.menu .menu-item-33 a i').removeClass('rotateMenu');
         });
+        $('.carousel').flickity({
+            arrowShape: {
+                x0: 45,
+                x1: 45,
+                y1: 0,
+                x2: 65,
+                y2: 40,
+                x3: 0
+            }
+        });
+
 
     }); // end of check for document ready
 
