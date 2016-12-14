@@ -2890,7 +2890,14 @@ object {
       color: #003d5c; }
 
 .text-stroke-box-inner {
-  padding: 22px; }
+  padding: 22px;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
 
 @media (min-width: 480px) {
   .photo-apointment1 {
