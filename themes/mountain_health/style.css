@@ -1871,7 +1871,7 @@ object {
         align-items: center;
     transform: translateY(25px); }
     .did-you-know .number-circle p {
-      font-family: 'sans_open', serif;
+      font-family: 'open_sans', serif;
       font-weight: bold;
       box-shadow: none;
       margin: 0;
