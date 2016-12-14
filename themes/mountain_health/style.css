@@ -1354,8 +1354,8 @@ object {
   @media (min-width: 480px) {
     .flickity-prev-next-button {
       display: block;
-      width: 100px;
-      height: 100px;
+      width: 75px !important;
+      height: 75px !important;
       background: none !important; } }
 
 .arrowShape {

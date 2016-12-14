@@ -9,7 +9,7 @@
 
 <div id="primary" class="content-area front-page">
     <main id="main" class="site-main " role="main">
-<?get_header(); ?>
+<?php get_header(); ?>
     <div class="content">
         <section class="hero-banner"> <!--Front page banner-->
 
