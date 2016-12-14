@@ -164,6 +164,7 @@ p {
 .container {
     @include mobile-break-width {
         margin-left: auto;
+        width: 1324px;
         max-width: 1324px;
         margin-right: auto;
     }

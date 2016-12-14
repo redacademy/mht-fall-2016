@@ -20,6 +20,7 @@
         }
         @include mobile-break-width {
             height: 110px;
+            min-width: 1324px;
             .header-button {
                 display: block;
                 font-weight: lighter;
@@ -151,9 +152,11 @@
     }
     li {
         margin: 10px 0;
+        min-width: 100px;
     }
     li:first-child {
         margin-top: 30px;
+        margin-right: 0px;
     }
     .sub-menu {
         display: flex;

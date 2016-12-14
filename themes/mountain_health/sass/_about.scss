@@ -181,6 +181,7 @@
             left: initial;
             right: 50px;
             margin-right: 40px;
+            align-items: center;
             justify-content: flex-end;
         }
     }
@@ -212,6 +213,12 @@
     }
 }
 
+.about-amanda{
+    img{
+        height: 363px;
+
+    }
+}
 .i-in-about {
     font-family: "Brush Script MT";
     font-size: 56px;
@@ -283,7 +290,7 @@
             width: 500px;
             margin: 0px;
             position: absolute;
-            left:11%;
+            left:136px;
             top: 65px;
         }
     }
@@ -292,7 +299,7 @@
         @include mobile-break-width {
             width: 236px;
             top: 230;
-            right: 28%;
+            right: 340px;
             position: absolute;
             margin: 0px;
         }
@@ -301,7 +308,7 @@
         margin-top: 65px;
         @include mobile-break-width {
             margin: 0px;
-            left:6%;
+            left:75px;
         }
     }
     .four {
@@ -309,7 +316,7 @@
         @include mobile-break-width {
             position: absolute;
             top: 600px;
-            right: 12%;
+            right: 120px;
             margin: 0px;
         }
     }
@@ -320,7 +327,7 @@
             margin: 0px;
             position: absolute;
             top: 790px;
-            left: 22%;
+            left: 278px;
         }
     }
     .six {
@@ -331,7 +338,7 @@
             margin: 0px;
             position: absolute;
             top: 940px;
-            right: 5%;
+            right: 45px;
         }
     }
     h3 {

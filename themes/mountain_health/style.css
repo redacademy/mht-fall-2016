@@ -598,6 +598,7 @@ p {
 @media (min-width: 480px) {
   .container {
     margin-left: auto;
+    width: 1324px;
     max-width: 1324px;
     margin-right: auto; } }
 
@@ -621,7 +622,8 @@ p {
     display: none; }
   @media (min-width: 480px) {
     .main-header header {
-      height: 110px; }
+      height: 110px;
+      min-width: 1324px; }
       .main-header header .header-button {
         display: block;
         font-weight: lighter;
@@ -731,9 +733,11 @@ p {
     #primary-menu a i {
       display: none; }
   #primary-menu li {
-    margin: 10px 0; }
+    margin: 10px 0;
+    min-width: 100px; }
   #primary-menu li:first-child {
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-right: 0px; }
   #primary-menu .sub-menu {
     display: -ms-flexbox;
     display: flex;
@@ -2125,6 +2129,8 @@ object {
         left: initial;
         right: 50px;
         margin-right: 40px;
+        -ms-flex-align: center;
+            align-items: center;
         -ms-flex-pack: end;
             justify-content: flex-end; } }
   .about-amanda p {
@@ -2149,6 +2155,9 @@ object {
     @media (min-width: 480px) {
       .about-amanda .about-amanda-second-p {
         display: none; } }
+
+.about-amanda img {
+  height: 363px; }
 
 .i-in-about {
   font-family: "Brush Script MT";
@@ -2219,7 +2228,7 @@ object {
         width: 500px;
         margin: 0px;
         position: absolute;
-        left: 11%;
+        left: 136px;
         top: 65px; } }
   .education .two {
     margin-top: 77px; }
@@ -2227,7 +2236,7 @@ object {
       .education .two {
         width: 236px;
         top: 230;
-        right: 28%;
+        right: 340px;
         position: absolute;
         margin: 0px; } }
   .education .three {
@@ -2235,14 +2244,14 @@ object {
     @media (min-width: 480px) {
       .education .three {
         margin: 0px;
-        left: 6%; } }
+        left: 75px; } }
   .education .four {
     margin-top: 74px; }
     @media (min-width: 480px) {
       .education .four {
         position: absolute;
         top: 600px;
-        right: 12%;
+        right: 120px;
         margin: 0px; } }
   .education .five {
     margin-top: 81px; }
@@ -2252,7 +2261,7 @@ object {
         margin: 0px;
         position: absolute;
         top: 790px;
-        left: 22%; } }
+        left: 278px; } }
   .education .six {
     margin-top: 80px;
     margin-bottom: 30px; }
@@ -2262,7 +2271,7 @@ object {
         margin: 0px;
         position: absolute;
         top: 940px;
-        right: 5%; } }
+        right: 45px; } }
   .education h3 {
     text-transform: uppercase;
     color: black;
@@ -2747,7 +2756,7 @@ object {
 @media (min-width: 480px) {
   .what-is-naturopathic-medicine p {
     font-size: 22px;
-    width: 729px;
+    width: 700px;
     text-align: left; } }
 
 @media (min-width: 480px) {
