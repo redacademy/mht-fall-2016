@@ -750,14 +750,14 @@ p {
     #primary-menu {
       -ms-flex-flow: row;
           flex-flow: row;
-      width: 36%;
+      width: 40%;
       height: 0;
       -ms-flex-align: center;
           align-items: center; }
       #primary-menu li {
-        margin: 0 15px; }
+        margin: 0 2px; }
       #primary-menu li:first-child {
-        margin: 0 15px;
+        margin: 0;
         margin-left: 30px; }
       #primary-menu li:nth-child(2),
       #primary-menu li:nth-child(3) {
