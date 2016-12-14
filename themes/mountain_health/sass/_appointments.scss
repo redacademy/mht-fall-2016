@@ -111,6 +111,10 @@
 
 .text-stroke-box-inner {
     padding: 22px;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .photo-apointment1 {
