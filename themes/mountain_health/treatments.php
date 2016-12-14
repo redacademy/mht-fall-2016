@@ -14,7 +14,7 @@ get_header(); ?>
 				<p>We offer a variety of treatments custom tailored to your needs to help your body heal in the best way for you.</p>
 			</section>
 
-			<section class="nav-links article-nav-links-archive bread-crumb-general">
+			<section class="nav-links article-nav-links-archive bread-crumb-general container">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
 				<a href="<?php echo get_page_link(23); ?>">&nbsp;What We Do &gt; </a>
 				<p> &nbsp;<?php wp_title( '' ); ?></p>
