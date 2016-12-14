@@ -234,13 +234,6 @@ th {
 
 @font-face {
   font-family: 'oswald';
-  src: url("../../fonts/oswald-bolditalic-webfont.eot");
-  src: url("../../fonts/oswald-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/oswald-bolditalic-webfont.woff") format("woff"), url("../../fonts/oswald-bolditalic-webfont.svg#oswaldbold") format("svg");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'oswald';
   src: url("../../fonts/oswald-regular-webfont.eot");
   src: url("../../fonts/oswald-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-regular-webfont.woff2") format("woff2"), url("../../fonts/oswald-regular-webfont.woff") format("woff"), url("../../fonts/oswald-regular-webfont.svg#oswald_regularregular") format("svg");
   font-weight: normal;
@@ -248,38 +241,37 @@ th {
 
 @font-face {
   font-family: 'oswald';
-  src: url("../../fonts/oswald-regularitalic-webfont.eot");
-  src: url("../../fonts/oswald-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-regularitalic-webfont.woff2") format("woff2"), url("../../fonts/oswald-regularitalic-webfont.woff") format("woff"), url("../../fonts/oswald-regularitalic-webfont.svg#oswaldregular") format("svg");
-  font-weight: normal;
-  font-style: italic; }
-
-/* Lato */
-@font-face {
-  font-family: 'lato';
-  src: url("../../fonts/lato-bold-webfont.eot");
-  src: url("../../fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/lato-bold-webfont.woff2") format("woff2"), url("../../fonts/lato-bold-webfont.woff") format("woff"), url("../../fonts/lato-bold-webfont.svg#latobold") format("svg");
-  font-weight: bold;
+  src: url("../../fonts/oswald-medium-webfont.eot");
+  src: url("../../fonts/oswald-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-medium-webfont.woff2") format("woff2"), url("../../fonts/oswald-medium-webfont.woff") format("woff"), url("../../fonts/oswald-medium-webfont.svg#oswaldmedium") format("svg");
+  font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: 'lato';
-  src: url("../../fonts/lato-bolditalic-webfont.eot");
-  src: url("../../fonts/lato-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/lato-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/lato-bolditalic-webfont.woff") format("woff"), url("../../fonts/lato-bolditalic-webfont.svg#latobold_italic") format("svg");
-  font-weight: bold;
-  font-style: italic; }
+  font-family: 'oswald';
+  src: url("../../fonts/oswald-light-webfont.eot");
+  src: url("../../fonts/oswald-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-light-webfont.woff2") format("woff2"), url("../../fonts/oswald-light-webfont.woff") format("woff"), url("../../fonts/oswald-light-webfont.svg#oswaldlight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
 
 @font-face {
-  font-family: 'lato';
-  src: url("../../fonts/lato-italic-webfont.eot");
-  src: url("../../fonts/lato-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/lato-italic-webfont.woff2") format("woff2"), url("../../fonts/lato-italic-webfont.woff") format("woff"), url("../../fonts/lato-italic-webfont.svg#latoitalic") format("svg");
-  font-weight: normal;
-  font-style: italic; }
+  font-family: 'oswald';
+  src: url("../../fonts/oswald-heavy-webfont.eot");
+  src: url("../../fonts/oswald-heavy-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-heavy-webfont.woff2") format("woff2"), url("../../fonts/oswald-heavy-webfont.woff") format("woff"), url("../../fonts/oswald-heavy-webfont.svg#oswaldheavy") format("svg");
+  font-weight: 900;
+  font-style: normal; }
 
 @font-face {
-  font-family: 'lato';
-  src: url("../../fonts/lato-light-webfont.eot");
-  src: url("../../fonts/lato-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/lato-light-webfont.woff2") format("woff2"), url("../../fonts/lato-light-webfont.woff") format("woff"), url("../../fonts/lato-light-webfont.svg#latolight") format("svg");
-  font-weight: normal;
+  font-family: 'oswald';
+  src: url("../../fonts/oswald-extralight-webfont.eot");
+  src: url("../../fonts/oswald-extralight-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-extralight-webfont.woff2") format("woff2"), url("../../fonts/oswald-extralight-webfont.woff") format("woff"), url("../../fonts/oswald-extralight-webfont.svg#oswaldextralight") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'oswald';
+  src: url("../../fonts/oswald-demibold-webfont.eot");
+  src: url("../../fonts/oswald-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-demibold-webfont.woff2") format("woff2"), url("../../fonts/oswald-demibold-webfont.woff") format("woff"), url("../../fonts/oswald-demibold-webfont.svg#oswalddemibold") format("svg");
+  font-weight: 600;
   font-style: normal; }
 
 @font-face {
@@ -290,21 +282,23 @@ th {
 
 @font-face {
   font-family: 'open_sans';
-  src: url("../../fonts/opensans-italic-webfont.woff2") format("woff2"), url("../../fonts/opensans-italic-webfont.woff") format("woff"), url("../../fonts/opensans-italic-webfont.svg#open_sansitalic") format("svg");
-  font-weight: normal;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'open_sans';
   src: url("../../fonts/opensans-bold-webfont.woff2") format("woff2"), url("../../fonts/opensans-bold-webfont.woff") format("woff"), url("../../fonts/opensans-bold-webfont.svg#open_sansbold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'open_sans';
-  src: url("../../fonts/opensans-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/opensans-bolditalic-webfont.woff") format("woff"), url("../../fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic") format("svg");
-  font-weight: bold;
-  font-style: italic; }
+  src: url("../../fonts/opensans-light-webfont.eot");
+  src: url("../../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/opensans-light-webfont.woff2") format("woff2"), url("../../fonts/opensans-light-webfont.woff") format("woff"), url("../../fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sans';
+  src: url("../../fonts/opensans-semibold-webfont.eot");
+  src: url("../../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/opensans-semibold-webfont.woff2") format("woff2"), url("../../fonts/opensans-semibold-webfont.woff") format("woff"), url("../../fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
 
 body {
   font-family: 'open_sans', serif;
@@ -562,9 +556,6 @@ body {
 
 .content-area {
   padding-top: 40px; }
-  @media (min-width: 480px) {
-    .content-area {
-      padding-top: 110px; } }
 
 .front-button:hover {
   color: #fdeea7; }
@@ -1274,23 +1265,38 @@ object {
   .search-field-mobile .fa {
     display: none; }
 
-.search {
-  display: -ms-flexbox;
-  display: flex; }
-  .search .search-icon {
-    height: 16px;
-    width: 20px;
-    padding-right: 5px; }
-  .search .search-logo-white {
-    padding-top: 3px; }
-  .search p {
-    margin: 0;
-    font-family: "oswald", "san-serif"; }
-  .search:hover {
-    cursor: pointer; }
+.search .search-icon {
+  height: 16px;
+  width: 20px;
+  padding-right: 5px; }
+
+.search .search-logo-white {
+  padding-top: 3px; }
+
+.search p {
+  margin: 0;
+  font-family: "oswald", "san-serif"; }
+
+.search:hover {
+  cursor: pointer; }
 
 .header-hide {
   display: none; }
+
+.page-content-search {
+  padding-top: 4rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  .page-content-search p {
+    font-size: 17px;
+    padding: 4rem 0; }
+    @media (min-width: 480px) {
+      .page-content-search p {
+        font-size: 22px; } }
 
 /*--------------------------------------------------------------
 # Page Templates
@@ -1863,6 +1869,8 @@ object {
         align-items: center;
     transform: translateY(25px); }
     .did-you-know .number-circle p {
+      font-family: 'sans_open', serif;
+      font-weight: bold;
       box-shadow: none;
       margin: 0;
       font-size: 17px;
@@ -4159,7 +4167,6 @@ header.entry-header-article {
   padding-top: 10px; }
 
 .article-single-wrapper {
-  width: 632px;
   margin: 0 auto;
   padding-top: 2rem;
   display: -ms-flexbox;

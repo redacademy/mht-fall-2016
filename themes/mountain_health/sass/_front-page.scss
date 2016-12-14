@@ -636,6 +636,8 @@
         align-items: center;
         transform: translateY(25px);
         p {
+          font-family: 'sans_open', serif;
+          font-weight: bold;
             box-shadow: none;
             margin: 0;
             font-size: $medium-font;
