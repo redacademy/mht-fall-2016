@@ -75,15 +75,6 @@
     }
 }
 
-.arrowShape {
-    x0: 45;
-    x1: 45;
-    y1: 0;
-    x2: 65;
-    y2: 40;
-    x3: 0
-}
-
 .flickity-prev-next-button:hover {
     background: transparent;
 }
@@ -226,10 +217,12 @@
     @include mobile-break-width {
         font-size: 22px;
     }
-}
-
-.front-button:visited {
-    color: white;
+    &:hover {
+        color: #fdeea7;
+    }
+    &:visited {
+        color: white;
+    }
 }
 
 //Front Page Booking Section
@@ -636,8 +629,8 @@
         align-items: center;
         transform: translateY(25px);
         p {
-          font-family: 'sans_open', serif;
-          font-weight: bold;
+            font-family: 'sans_open', serif;
+            font-weight: bold;
             box-shadow: none;
             margin: 0;
             font-size: $medium-font;

@@ -42,6 +42,9 @@
         font-size: 22px;
         a {
             font-size: 22px;
+            &:hover {
+                color: #fdeea7;
+            }
         }
     }
 }
@@ -159,7 +162,6 @@ p {
 .body-shadow {
     background-image: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)) !important;
 }
-
 
 .container {
     @include mobile-break-width {
