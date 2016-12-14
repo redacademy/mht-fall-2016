@@ -556,6 +556,9 @@ body {
 
 .content-area {
   padding-top: 40px; }
+  @media (min-width: 480px) {
+    .content-area {
+      padding-top: 110px; } }
 
 .front-button:hover {
   color: #fdeea7; }
@@ -987,7 +990,6 @@ p {
 
 .dashicons-arrow-down::before {
   padding-left: 10px; }
-
 
 /*--------------------------------------------------------------
 # Navigation
@@ -5010,9 +5012,6 @@ header.entry-header-article {
 @media (min-width: 480px) {
   .did-u-know-header {
     font-size: 36px; } }
-
-.treatments-main {
-  padding-top: 60px; }
 
 .treatments-wrapper {
   display: -ms-flexbox;
