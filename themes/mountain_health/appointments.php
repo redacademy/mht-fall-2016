@@ -46,8 +46,9 @@ get_header(); ?>
                 <h3> <?php   echo $field['appointment_title']; ?> </h3>
                <p>  <?php   echo $field['appointment_text']; ?> </p>
               <p>  <?php   echo $field['appointment_price']; ?> </p>
+
                <p><span class="duration-style">Duration: </span><?php   echo $field['appointment_duration']; ?> </p>
-               <img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/timeline@3x.png" alt="">
+               <img class="time-line-duration" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/timeline@3x.png" alt="">
              </div>
              </div>
            </div>

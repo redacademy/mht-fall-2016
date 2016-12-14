@@ -2915,6 +2915,9 @@ object {
 .front-button-appointments {
   padding: .75rem 1.5rem; }
 
+.time-line-duration {
+  width: 17rem; }
+
 .book-appointment-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/book-appointment-hero.png);
