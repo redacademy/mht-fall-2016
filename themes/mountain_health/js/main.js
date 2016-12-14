@@ -124,7 +124,7 @@
                 $(".about-page  header .MTH-logo-white, .front-page  header .MTH-logo-white, .single-article-page header .MTH-logo-white").hide();
                 $(".about-page  header .phone-white, .front-page  header .phone-white, .single-article-page header .phone-white").hide();
                 $(".about-page .search-icon-dt, .front-page .search-icon-dt, .single-article-page .search-icon-dt").show();
-                $(".about-page .search-logo-white-dt, .front-page .search-logo-white-dt, .single-article-page .search-icon-dt").hide();
+                $(".about-page .search-logo-white-dt, .front-page .search-logo-white-dt, .single-article-page .search-logo-white-dt").hide();
                 $(".about-page .external-link-logo-dt, .front-page .external-link-logo-dt, .single-article-page .external-link-logo-dt").show();
                 $(".about-page .external-link-logo-white-dt, .front-page .external-link-logo-white-dt, .single-article-page .external-link-logo-white-dt").hide();
                 $(".about-page #primary-menu a, .front-page #primary-menu a, .single-article-page #primary-menu a").css("color", "#1a9481");
@@ -159,9 +159,9 @@
         });
         // search state desktop
         $('.search-state-dt').hide();
-           $('.search-icon-dt, .search-logo-white-dt').on('click', function() {
-               $('.search-state-dt').animate({ height: 'toggle' });
-           });
+        $('.search-icon-dt, .search-logo-white-dt').on('click', function() {
+            $('.search-state-dt').animate({ height: 'toggle' });
+        });
 
         // Countdown
         if ($('body').hasClass('page-template-redirect')) {
