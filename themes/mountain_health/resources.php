@@ -8,11 +8,11 @@ get_header(); ?>
 			<h1>Resources</h1>
 			<p>We are here to help, but sometimes you have questions in between appointments. We provide you with articles, recipes, and more.</p>
 		</div>
-		<section class="nav-links article-nav-links-archive bread-crumb-general bread-crumb-resources">				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+		<section class="nav-links article-nav-links-archive bread-crumb-general bread-crumb-resources container">				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
 			<a href="<?php echo get_page_link(23); ?>"></a>
 			<p> &nbsp;Resources</p>
 		</section>
-		<section class="resources">
+		<section class="resources container">
 			<div class="news-events">
 				<h2>News & Events</h2>
 				<div class="resources-newspaper"></div>

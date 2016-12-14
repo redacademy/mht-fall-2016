@@ -1,45 +1,24 @@
-# RED Starter
+# Mountain Health Team
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+![Alt text](MTH-Assets/other/mountain-desktop.jpg?raw=true "Desktop Screenshot")
+![Alt text](MTH-Assets/other/mountain-mobile.jpg?raw=true "Mobile Screenshot")
+![Alt text](MTH-Assets/other/mountain-mobile-2.jpg?raw=true "Mobile Screenshot 2")
 
-Download me, add me to your `wp-content` directory, rename me, and and start themin'!
+<h2>What it is</h2>
 
-## Using with VVV
+<p>Mountain Health Team is a website created for client Amanda Chey. Its purpose to premote her clinic and provide information on
+naturopathy</p>
 
-To get Browsersync working from within you VVV virtual machine (as configured this theme's `gulpfile.js`), you're going to need a bit of initial configuration.
+<h2>What it uses</h2>
 
-### 1. Add port forwarding to your Vagrantfile
+<p>Mountain Health Team's website uses many different things to achive its goal, including....</p>
 
-Just like with ScotchBox, we're going to need to set up port forwarding in our `Vagrantfile` so that `localhost:3000` on your VM can talk to `localhost:3000` on your host machine.
-
-Add the following line under the "Port Forwarding" section in your VVV `Vagrantfile`
-
-```ruby
-config.vm.network "forwarded_port", guest: 3000, host: 3000
-```
-
-Be sure to `vagrant reload` after this!
-
-### 2. Install Gulp inside VVV
-
-Unlike ScotchBox, VVV doesn't come with Gulp pre-installed.
-
-To install Gulp, `vagrant up` then `vagrant ssh` and run the following command:
-
-```bash
-sudo npm install --global gulp-cli
-```
-
-### 3. Install the dev dependencies
-
-Next you'll need to run `npm install` inside your theme directory next to install the node modules you'll need for Gulp, etc.
-
-You may have better luck with the package installation if you run `npm install` from your **host** machine (not from within the VM). This means that you will need to have Node installed on your actual computer to do this.
-
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy.
-
-Now you should be able to `vagrant ssh` into your cd into `/vagrant/www/YOUR_SITE_DIR/htdocs/wp-content/themes/YOUR_THEME_DIR` and run `gulp` to get Browsersync up and running.
-
-Note that you will have to manually navigate to `localhost:3000` to see your site (it won't automatically launch in your browser).
+<ul>
+    <li>HTML</li>
+    <li>SASS/CSS</li>
+    <li>Javascript</li>
+    <li>Jquery</li>
+    <li>Gulp</li>
+    <li>PHP</li>
+    <li>Wordpress</li>
+</ul>
