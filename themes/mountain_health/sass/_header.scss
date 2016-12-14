@@ -169,14 +169,14 @@
     }
     @include mobile-break-width {
         flex-flow: row;
-        width: 36%;
+        width: 40%;
         height: 0;
         align-items: center;
         li {
-            margin: 0 15px;
+            margin: 0 2px;
         }
         li:first-child {
-            margin: 0 15px;
+            margin: 0;
             margin-left: 30px;
         }
         li:nth-child(2),
@@ -412,14 +412,20 @@
         outline: none;
     }
 }
+
 .rotateMenu {
-  -webkit-transform: rotate(180deg);  /* Chrome, Safari 3.1+ */
-   -moz-transform: rotate(180deg);  /* Firefox 3.5-15 */
-   -ms-transform: rotate(180deg);  /* IE 9 */
-   -o-transform: rotate(180deg);  /* Opera 10.50-12.00 */
-   transform: rotate(180deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+    -webkit-transform: rotate(180deg);
+    /* Chrome, Safari 3.1+ */
+    -moz-transform: rotate(180deg);
+    /* Firefox 3.5-15 */
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -o-transform: rotate(180deg);
+    /* Opera 10.50-12.00 */
+    transform: rotate(180deg);
+    /* Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
-.dashicons-arrow-down::before{
-  padding-left: 10px;
+.dashicons-arrow-down::before {
+    padding-left: 10px;
 }
