@@ -9,7 +9,7 @@
 
 <div id="primary" class="content-area front-page">
     <main id="main" class="site-main " role="main">
-<?get_header(); ?>
+<?php get_header(); ?>
     <div class="content">
         <section class="hero-banner"> <!--Front page banner-->
 
@@ -94,7 +94,7 @@
                   </a>
                 </div>
             </div>
-            <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000, "pageDots": false}'>
+            <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "autoPlay": 3000}'>
                 <div class="carousel-cell front-page-slider">
                     <h2>What is a Naturopathic Physician?</h2>
                     <p>"A primary care provider trained in both natural and pharmaceutical therapies.

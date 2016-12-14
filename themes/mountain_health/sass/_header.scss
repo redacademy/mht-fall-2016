@@ -56,7 +56,7 @@
                 display: flex;
                 padding: 0;
                 margin-left: 40px;
-                width: 17%;
+                width: 14%;
                 span {
                     color: $body-color;
                 }
@@ -212,10 +212,9 @@
                     border-radius: 0px 0px 0px 10px;
                 }
                 &:hover {
-                    padding: 0;
                     background: #1a9481;
                     a {
-                        color: #fdeea7;
+                        color: #fdeea7!important;
                     }
                 }
             }
@@ -409,4 +408,15 @@
     &:focus {
         outline: none;
     }
+}
+.rotateMenu {
+  -webkit-transform: rotate(180deg);  /* Chrome, Safari 3.1+ */
+   -moz-transform: rotate(180deg);  /* Firefox 3.5-15 */
+   -ms-transform: rotate(180deg);  /* IE 9 */
+   -o-transform: rotate(180deg);  /* Opera 10.50-12.00 */
+   transform: rotate(180deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+.dashicons-arrow-down::before{
+  padding-left: 10px;
 }

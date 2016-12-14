@@ -9,7 +9,7 @@
     .site-main {
         p {
             font-weight: lighter;
-            font-family: 'open_sans',sans-serif;
+            font-family: 'open_sans', sans-serif;
             @include mobile-break-width {
                 font-size: 33px;
                 line-height: 1.2;
@@ -51,18 +51,66 @@
 }
 
 .parallax-scroll {
-width: 100%;
-height: 85vh;
-top: 0;
-background: linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.05)),url(../../MTH-Assets/photos/front-page-desktop-hero.png) no-repeat top;
-background-size: cover;
-z-index: -1;
-position: fixed;
+    width: 100%;
+    height: 85vh;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, .05)), url(../../MTH-Assets/photos/front-page-desktop-hero.png) no-repeat top;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
     z-index: -1;
     position: fixed;
     @include mobile-break-width {
-      height: 100vh;
+        height: 100vh;
+    }
 }
+
+.flickity-prev-next-button {
+    display: none;
+    @include mobile-break-width {
+        display: block;
+        width: 75px !important;
+        height: 75px !important;
+        background: none !important;
+    }
+}
+
+.arrowShape {
+    x0: 45;
+    x1: 45;
+    y1: 0;
+    x2: 65;
+    y2: 40;
+    x3: 0
+}
+
+.flickity-prev-next-button:hover {
+    background: transparent;
+}
+
+
+/* arrow color */
+
+.flickity-prev-next-button .arrow {
+    fill: white !important;
+}
+
+.flickity-prev-next-button.no-svg {
+    color: white;
+}
+
+.flickity-page-dots {
+    bottom: 35px !important;
+    @include mobile-break-width {
+        bottom: 25px !important;
+    }
+    .dot {
+        background: none;
+        border: 1px solid white;
+    }
+    .is-selected {
+        background: white !important;
+    }
 }
 
 .hero-banner {
@@ -79,7 +127,7 @@ position: fixed;
     margin-left: auto;
     margin-right: auto;
     @include mobile-break-width {
-      margin-bottom: 40px;
+        margin-bottom: 40px;
         max-width: 1764px;
         height: 770px;
         background-size: cover;
@@ -130,24 +178,23 @@ position: fixed;
     }
 }
 
-
-    .keep-scrolling {
-        background: url(../../MTH-Assets/icons/down-arrow@3x.png);
-        box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
-        background-size: cover;
-        height: 26px;
-        width: 26px;
-        background-color: #1a9481;
-        margin: 0 auto;
-        border-radius: 50%;
-        transform: translateY(134px);
-        @include mobile-break-width {
-          box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
-            width: 50px;
-            height: 50px;
-            transform: translateY(200px);
-        }
+.keep-scrolling {
+    background: url(../../MTH-Assets/icons/down-arrow@3x.png);
+    box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
+    background-size: cover;
+    height: 26px;
+    width: 26px;
+    background-color: #1a9481;
+    margin: 0 auto;
+    border-radius: 50%;
+    transform: translateY(134px);
+    @include mobile-break-width {
+        box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
+        width: 50px;
+        height: 50px;
+        transform: translateY(200px);
     }
+}
 
 .phone-header {
     font-size: 16px !important;
@@ -202,8 +249,8 @@ position: fixed;
         }
     }
     @include mobile-break-width {
-    padding-top: 2rem;
-}
+        padding-top: 2rem;
+    }
 }
 
 .booking {
@@ -493,7 +540,7 @@ position: fixed;
         margin-left: auto;
         margin-right: auto;
         line-height: 1.27;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
     h2 {
         font-size: $medium-font;
@@ -528,19 +575,19 @@ position: fixed;
 }
 
 .front-page-slider {
-   background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)), url(../../MTH-Assets/photos/carousal-01.png);
+    background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(../../MTH-Assets/photos/carousal-01.png);
     background-size: cover;
     background-position: center;
 }
 
 .front-page-slider-2 {
-    background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)), url(../../MTH-Assets/photos/carousel-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(../../MTH-Assets/photos/carousel-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .front-page-slider-3 {
-    background: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)), url(../../MTH-Assets/photos/carousel-3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(../../MTH-Assets/photos/carousel-3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -589,6 +636,8 @@ position: fixed;
         align-items: center;
         transform: translateY(25px);
         p {
+          font-family: 'sans_open', serif;
+          font-weight: bold;
             box-shadow: none;
             margin: 0;
             font-size: $medium-font;
@@ -679,18 +728,19 @@ position: fixed;
             margin: 0px;
             font-size: 18px;
             margin-bottom: 80px;
-            p{
-              font-family: 'open_sans';
-              font-size: 18px;
-              line-height: 1.67;
+            p {
+                font-family: 'open_sans';
+                font-size: 18px;
+                line-height: 1.67;
             }
         }
     }
 }
 
-.main-carousel{
-width: 100%;
-  @include mobile-break-width {
-  width: 80%;
-  margin: 0 auto;
-}}
+.main-carousel {
+    width: 100%;
+    @include mobile-break-width {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

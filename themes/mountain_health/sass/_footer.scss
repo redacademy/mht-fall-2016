@@ -97,6 +97,9 @@ input::-webkit-input-placeholder {
         width: 220px;
         height: 60px;
     }
+    &:hover {
+        color: #fdeea7;
+    }
 }
 
 .footer-info {
