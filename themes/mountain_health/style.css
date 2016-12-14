@@ -2123,6 +2123,8 @@ object {
         left: initial;
         right: 50px;
         margin-right: 40px;
+        -ms-flex-align: center;
+            align-items: center;
         -ms-flex-pack: end;
             justify-content: flex-end; } }
   .about-amanda p {
