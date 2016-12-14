@@ -595,6 +595,7 @@ p {
 @media (min-width: 480px) {
   .container {
     margin-left: auto;
+    width: 1324px;
     max-width: 1324px;
     margin-right: auto; } }
 
@@ -987,7 +988,6 @@ p {
 
 .dashicons-arrow-down::before {
   padding-left: 10px; }
-
 
 /*--------------------------------------------------------------
 # Navigation
@@ -2217,7 +2217,7 @@ object {
         width: 500px;
         margin: 0px;
         position: absolute;
-        left: 11%;
+        left: 136px;
         top: 65px; } }
   .education .two {
     margin-top: 77px; }
@@ -2225,7 +2225,7 @@ object {
       .education .two {
         width: 236px;
         top: 230;
-        right: 28%;
+        right: 340px;
         position: absolute;
         margin: 0px; } }
   .education .three {
@@ -2233,14 +2233,14 @@ object {
     @media (min-width: 480px) {
       .education .three {
         margin: 0px;
-        left: 6%; } }
+        left: 75px; } }
   .education .four {
     margin-top: 74px; }
     @media (min-width: 480px) {
       .education .four {
         position: absolute;
         top: 600px;
-        right: 12%;
+        right: 120px;
         margin: 0px; } }
   .education .five {
     margin-top: 81px; }
@@ -2250,7 +2250,7 @@ object {
         margin: 0px;
         position: absolute;
         top: 790px;
-        left: 22%; } }
+        left: 278px; } }
   .education .six {
     margin-top: 80px;
     margin-bottom: 30px; }
@@ -2260,7 +2260,7 @@ object {
         margin: 0px;
         position: absolute;
         top: 940px;
-        right: 5%; } }
+        right: 45px; } }
   .education h3 {
     text-transform: uppercase;
     color: black;
