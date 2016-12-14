@@ -558,6 +558,9 @@ body {
 
 .content-area {
   padding-top: 40px; }
+  @media (min-width: 480px) {
+    .content-area {
+      padding-top: 110px; } }
 
 .front-button:hover {
   color: #fdeea7; }
@@ -2907,6 +2910,9 @@ object {
 .front-button-appointments {
   padding: .75rem 1.5rem; }
 
+.time-line-duration {
+  width: 17rem; }
+
 .book-appointment-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/book-appointment-hero.png);
@@ -5013,9 +5019,6 @@ header.entry-header-article {
 @media (min-width: 480px) {
   .did-u-know-header {
     font-size: 36px; } }
-
-.treatments-main {
-  padding-top: 60px; }
 
 .treatments-wrapper {
   display: -ms-flexbox;

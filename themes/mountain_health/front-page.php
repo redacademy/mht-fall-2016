@@ -36,7 +36,7 @@
             <a href="<?php echo get_post_type_archive_link('article')?>" class="front-button what-is-button large-button">Read More</a>
         </section>
 
-        <section class="benifits container">
+        <section class="benifits">
             <div class="checkboard"></div>
             <h2>Benifits of Naturopathic Medical Treatment</h2>
             <ul class="benifits-list">
@@ -84,7 +84,7 @@
             <p id="all-visits">*All initial visits are one hour, to avoid taking too much time out of your day</p>
         </section>
 
-        <section class="what-is container">
+        <section class="what-is">
             <div class="what-is-header">
                 <div class="white-box">
                     <p>Naturopathic doctors use both treatments and testing that are evidence based,
