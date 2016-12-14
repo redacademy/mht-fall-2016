@@ -7,7 +7,7 @@
 
 ?>
 
-<section class="no-results not-found">
+<section class="no-results not-found content">
 	<header class="page-header">
 		<h1 class="page-title"><?php esc_html( 'Nothing Found' ); ?></h1>
 	</header><!-- .page-header -->
