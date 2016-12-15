@@ -537,6 +537,14 @@ a {
     color: white; }
   a:hover {
     color: #fdeea7; }
+  a:focus {
+    outline: none; }
+
+button:focus {
+  outline: none; }
+
+button:hover {
+  color: #fdeea7; }
 
 ul {
   list-style: none;
@@ -700,6 +708,10 @@ p {
       width: 72px;
       height: 80px;
       margin-left: 100px; } }
+
+.search-field-mobile fieldset {
+  padding: 0;
+  padding-top: 10px; }
 
 .MTH-logo-white {
   display: none; }
@@ -893,8 +905,14 @@ p {
   font-size: 17px;
   font-family: "oswald", "san-serif"; }
 
-.search p {
-  font-family: "oswald", "san-serif"; }
+.search {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  .search p {
+    font-family: "oswald", "san-serif" !important;
+    font-weight: normal !important; }
 
 .external-link-logo-dt,
 .external-link-logo-white-dt {

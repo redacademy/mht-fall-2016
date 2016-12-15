@@ -110,6 +110,11 @@
     }
 }
 
+.search-field-mobile fieldset {
+    padding: 0;
+    padding-top: 10px;
+}
+
 .MTH-logo-white {
     display: none;
 }
@@ -307,8 +312,13 @@
     font-family: "oswald", "san-serif";
 }
 
-.search p {
-    font-family: "oswald", "san-serif";
+.search {
+    display: flex;
+    align-items: center;
+    p {
+        font-family: "oswald", "san-serif" !important;
+        font-weight: normal !important;
+    }
 }
 
 .external-link-logo-dt,

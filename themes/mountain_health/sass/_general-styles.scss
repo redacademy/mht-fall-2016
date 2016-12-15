@@ -89,6 +89,17 @@ a {
     &:hover {
         color: #fdeea7;
     }
+    &:focus {
+        outline: none;
+    }
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    color: #fdeea7;
 }
 
 ul {
