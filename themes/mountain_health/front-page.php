@@ -36,10 +36,10 @@
             <a href="<?php echo get_post_type_archive_link('article')?>" class="front-button what-is-button large-button">Read More</a>
         </section>
 
-        <section class="benifits">
+        <section class="benefits">
             <div class="checkboard"></div>
-            <h2>Benifits of Naturopathic Medical Treatment</h2>
-            <ul class="benifits-list">
+            <h2>benefits of Naturopathic Medical Treatment</h2>
+            <ul class="benefits-list">
                 <li><span class="list-span">Increased energy</span></li>
                 <li><span class="list-span">Weight loss</span></li>
                 <li><span class="list-span">Decreased pain</span></li>
@@ -52,7 +52,7 @@
         </section>
 
         <section class="compare-to-traditional container">
-            <h2>Benifits of Working With Us</h2>
+            <h2>benefits of Working With Us</h2>
             <div class="compare-flex">
                 <div class="compare-content">
                     <div class="clock"></div>

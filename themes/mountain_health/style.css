@@ -1536,7 +1536,7 @@ object {
       width: 75%;
       height: 500px; } }
 
-.benifits {
+.benefits {
   background: url(../../MTH-Assets/photos/icons-bg.png);
   background-size: cover;
   height: 299px;
@@ -1545,13 +1545,13 @@ object {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
   @media (min-width: 480px) {
-    .benifits {
+    .benefits {
       background: linear-gradient(to right, #1a9481, #9bcc93);
       height: 598px;
       position: relative;
       -ms-flex-pack: center;
           justify-content: center; } }
-  .benifits h2 {
+  .benefits h2 {
     color: white;
     text-align: left;
     font-size: 17px;
@@ -1563,7 +1563,7 @@ object {
     line-height: 21px;
     text-transform: uppercase; }
     @media (min-width: 480px) {
-      .benifits h2 {
+      .benefits h2 {
         font-size: 36px;
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
@@ -1572,17 +1572,17 @@ object {
         position: absolute;
         margin-top: 76px; } }
 
-.benifits-list {
+.benefits-list {
   line-height: 22px;
   color: white;
   margin-left: 62px;
   font-size: 15px;
   font-weight: lighter;
   list-style-image: url(../../MTH-Assets/other/leaf-mobile.png); }
-  .benifits-list h2 {
+  .benefits-list h2 {
     font-weight: lighter; }
   @media (min-width: 480px) {
-    .benifits-list {
+    .benefits-list {
       list-style-image: url(../../MTH-Assets/other/leaf.png);
       font-size: 22px;
       margin-top: 152px;
