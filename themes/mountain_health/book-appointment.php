@@ -37,7 +37,9 @@ get_header(); ?>
                 <h3>Email address</h3>
                 <form>
                     <input type="text" name="email" placeholder="Example@example.com">
+										<a href="https://www.smartnd.ca/">
                     <button class="book-appointments-submit-button" type="submit">Go to SmartND</button>
+									</a>
                 </form>
             </div>
             <div class="already-smartnd">
@@ -64,6 +66,7 @@ get_header(); ?>
                         <h3>Update Patient Information</h3>
                     </div>
                 </div>
+
                 <div class="why-use-lower">
                     <div class="why-use-smartnd-content smart-nd-forms">
                         <!--<div class="smartnd-icon-bg">-->

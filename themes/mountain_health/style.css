@@ -1370,7 +1370,7 @@ object {
 
 .parallax-scroll {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   top: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(../../MTH-Assets/photos/front-page-desktop-hero.png) no-repeat top;
   background-size: cover;
@@ -1482,13 +1482,13 @@ object {
   background-color: #1a9481;
   margin: 0 auto;
   border-radius: 50%;
-  transform: translateY(134px); }
+  transform: translateY(14rem); }
   @media (min-width: 480px) {
     .keep-scrolling {
       box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
       width: 50px;
       height: 50px;
-      transform: translateY(200px); } }
+      transform: translateY(32rem); } }
 
 .phone-header {
   font-size: 16px !important; }
@@ -1527,7 +1527,8 @@ object {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  padding-top: 18vh; }
   .booking p {
     color: #003A5F;
     width: 277px;
@@ -1540,7 +1541,7 @@ object {
         width: 707px; } }
   @media (min-width: 480px) {
     .booking {
-      padding-top: 2rem; } }
+      padding-top: 29rem; } }
 
 .booking div {
   margin-top: 330px;
@@ -1923,14 +1924,12 @@ object {
       .did-you-know .did-you-know-bg-1 p {
         width: 93%; } }
 
-.did-you-know .did-you-know-bg-2 {
-  height: 123px; }
-  .did-you-know .did-you-know-bg-2 p {
-    width: 238px;
-    margin-top: 33px; }
-    @media (min-width: 480px) {
-      .did-you-know .did-you-know-bg-2 p {
-        width: 86.6%; } }
+.did-you-know .did-you-know-bg-2 p {
+  width: 238px;
+  margin-top: 33px; }
+  @media (min-width: 480px) {
+    .did-you-know .did-you-know-bg-2 p {
+      width: 86.6%; } }
 
 .did-you-know .did-you-know-bg-3 {
   height: 155px; }
@@ -2019,7 +2018,6 @@ object {
         justify-content: center; }
     @media (min-width: 480px) {
       .about-page .about-hero {
-        height: 770px;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: center;
@@ -2029,7 +2027,7 @@ object {
         width: 100%;
         margin-bottom: 125px; } }
     .about-page .about-hero .parallax-scroll-about {
-      height: 85vh;
+      height: 100vh;
       width: 100%;
       background: url(../../MTH-Assets/photos/about-hero-desktop.png) no-repeat top;
       background-size: cover;
@@ -2434,6 +2432,23 @@ object {
       .amanda-text-desktop:first-letter {
         padding: 0px 25px 5px 3px;
         font-size: 5rem; } }
+
+.keep-scrolling-about {
+  background: url(../../MTH-Assets/icons/down-arrow@3x.png);
+  box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
+  background-size: cover;
+  height: 26px;
+  width: 26px;
+  background-color: #1a9481;
+  margin: 0 auto;
+  border-radius: 50%;
+  transform: translateY(14rem); }
+  @media (min-width: 480px) {
+    .keep-scrolling-about {
+      box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
+      width: 50px;
+      height: 50px;
+      transform: translateY(18rem); } }
 
 .what-we-do {
   margin: 0 auto; }
@@ -3794,6 +3809,7 @@ input::-webkit-input-placeholder {
   line-height: 1.71;
   text-align: left;
   color: #d1d0d0;
+  padding: 30px 0;
   padding-left: 14px; }
   @media (min-width: 480px) {
     input::-webkit-input-placeholder {
@@ -3822,8 +3838,8 @@ input::-webkit-input-placeholder {
     .footer-info {
       -ms-flex-direction: row;
           flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
       width: 1300px;
       margin: 0 auto; } }
 
@@ -4898,7 +4914,9 @@ header.entry-header-article {
       -ms-flex-direction: row;
           flex-direction: row;
       -ms-flex-pack: distribute;
-          justify-content: space-around; } }
+          justify-content: space-around;
+      -ms-flex-align: baseline;
+          align-items: baseline; } }
 
 .text-labtesting h2 {
   text-transform: uppercase;
