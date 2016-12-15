@@ -3442,6 +3442,8 @@ object {
               justify-content: center;
           -ms-flex-align: center;
               align-items: center; } }
+  .contact-us .bread-crumb-contact-us {
+    font-size: 16px; }
   .contact-us label {
     font-size: 15px;
     line-height: 19px;
