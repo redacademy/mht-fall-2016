@@ -36,6 +36,7 @@
         $(".search").on('click', function() {
             $('.site-header, #primary-menu, .mobile-menu, footer').hide();
             $('.search-field-mobile').show();
+
         });
         // cancel button for search field
         $('.search-cancel').on('click', function() {

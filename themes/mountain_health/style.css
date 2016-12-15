@@ -909,7 +909,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  display: flex; }
   .search p {
     font-family: "oswald", "san-serif" !important;
     font-weight: normal !important; }
