@@ -67,7 +67,7 @@ and how they can help you.</p>
 
 		<section>
 			<h5 class="how-can-we-help-you">Want to know how we can help you?</h5>
-    	    <div class="primary-button book-appointment book-appointment-btn"><a href="<?php echo get_page_link(48); ?>">Book an appointment</a></div>
+    	    <div class="primary-button book-appointment"><a href="<?php echo get_page_link(48); ?>">Book an appointment</a></div>
 		</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
