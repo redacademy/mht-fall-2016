@@ -58,7 +58,7 @@
             margin-bottom: 125px;
         }
         .parallax-scroll-about {
-            height: 85vh;
+          height: 100vh;
             width: 100%;
             background: url(../../MTH-Assets/photos/about-hero-desktop.png) no-repeat top;
             background-size: cover;
@@ -527,7 +527,7 @@
                 background-color: #1a9481;
                 margin: 0 auto;
                 border-radius: 50%;
-                transform: translateY(134px);
+                transform: translateY(14rem);
                 @include mobile-break-width {
                     box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
                     width: 50px;
