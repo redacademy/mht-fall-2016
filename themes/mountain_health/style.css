@@ -4882,7 +4882,6 @@ header.entry-header-article {
   position: relative; }
 
 .general-test-wrapper {
-  background-color: #e5e5e5;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -4897,6 +4896,9 @@ header.entry-header-article {
           justify-content: space-around;
       -ms-flex-align: baseline;
           align-items: baseline; } }
+
+.general-test-wrapper-out {
+  background-color: #e5e5e5; }
 
 .text-labtesting h2 {
   text-transform: uppercase;
