@@ -1522,7 +1522,7 @@ object {
         width: 707px; } }
   @media (min-width: 480px) {
     .booking {
-      padding-top: 29rem; } }
+      padding-top: 26vh; } }
 
 .booking div {
   margin-top: 330px;
@@ -4894,7 +4894,9 @@ header.entry-header-article {
       -ms-flex-direction: row;
           flex-direction: row;
       -ms-flex-pack: distribute;
-          justify-content: space-around; } }
+          justify-content: space-around;
+      -ms-flex-align: baseline;
+          align-items: baseline; } }
 
 .text-labtesting h2 {
   text-transform: uppercase;

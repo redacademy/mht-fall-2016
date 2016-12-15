@@ -223,6 +223,8 @@ font-size: 22px;
     @include mobile-break-width {
         flex-direction: row;
         justify-content: space-around;
+        align-items: baseline;
+
     }
 }
 
