@@ -31,7 +31,7 @@
 					</div>
 					<div class="contact_icon_img">
 						<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/email.png" alt="Email logo">
-						<a class="link-footer"href="mailto:amandajchay@gmail.com">amandajchay@gmail.com</a>
+						<a class="link-footer" href="mailto:amandajchay@gmail.com">amandajchay@gmail.com</a>
 					</div>
 				</div>
 				<div class="footer_wrapper">

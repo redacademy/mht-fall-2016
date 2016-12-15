@@ -107,7 +107,7 @@ input::-webkit-input-placeholder {
     flex-direction: column;
     @include mobile-break-width {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 1300px;
         margin: 0 auto;
     }

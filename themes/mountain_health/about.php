@@ -13,7 +13,7 @@
                  Remaining curious about each individual and improving their
                  quality of life with dedication and passion.
                 </p>
-								<div class="keep-scrolling">
+								<div class="keep-scrolling-about">
 								</div>
             </div>
 
@@ -39,7 +39,7 @@
                             in the body's innate desire to heal. I also believe that
                             each patient is unique, deserving of individualized treatments.
 							<br />
-                            My goal is to help you enjoy a symptom-free life using a more 
+                            My goal is to help you enjoy a symptom-free life using a more
                             natural approach. I am excited to work with you on your journey to optimal health.
                         </p>
                         <p class="amanda-text-desktop">
@@ -53,7 +53,7 @@
                             believe in the body’s innate desire to heal. I also believe that
                             each patient is unique, deserving of individualized treatments.
                         <br />
-                            My goal is to help you enjoy a symptom-free life using a more 
+                            My goal is to help you enjoy a symptom-free life using a more
                             natural approach. I am excited to work with you on your journey to optimal health.
                         </p>
 

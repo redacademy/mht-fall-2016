@@ -1470,7 +1470,7 @@ object {
       box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
       width: 50px;
       height: 50px;
-      transform: translateY(200px); } }
+      transform: translateY(22rem); } }
 
 .phone-header {
   font-size: 16px !important; }
@@ -1522,7 +1522,7 @@ object {
         width: 707px; } }
   @media (min-width: 480px) {
     .booking {
-      padding-top: 2rem; } }
+      padding-top: 29rem; } }
 
 .booking div {
   margin-top: 330px;
@@ -2001,7 +2001,6 @@ object {
         justify-content: center; }
     @media (min-width: 480px) {
       .about-page .about-hero {
-        height: 770px;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: center;
@@ -2416,6 +2415,23 @@ object {
       .amanda-text-desktop:first-letter {
         padding: 0px 25px 5px 3px;
         font-size: 5rem; } }
+
+.keep-scrolling-about {
+  background: url(../../MTH-Assets/icons/down-arrow@3x.png);
+  box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
+  background-size: cover;
+  height: 26px;
+  width: 26px;
+  background-color: #1a9481;
+  margin: 0 auto;
+  border-radius: 50%;
+  transform: translateY(134px); }
+  @media (min-width: 480px) {
+    .keep-scrolling-about {
+      box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
+      width: 50px;
+      height: 50px;
+      transform: translateY(18rem); } }
 
 .what-we-do {
   margin: 0 auto; }
@@ -3802,8 +3818,8 @@ input::-webkit-input-placeholder {
     .footer-info {
       -ms-flex-direction: row;
           flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
       width: 1300px;
       margin: 0 auto; } }
 
