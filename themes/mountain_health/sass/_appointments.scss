@@ -143,5 +143,8 @@ justify-content: space-between;
     ;
 }
 .time-line-duration{
+  width: 11rem;
+  @include mobile-break-width {
   width: 17rem;
+}
 }

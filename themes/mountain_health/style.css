@@ -2933,7 +2933,10 @@ object {
   padding: .75rem 1.5rem; }
 
 .time-line-duration {
-  width: 17rem; }
+  width: 11rem; }
+  @media (min-width: 480px) {
+    .time-line-duration {
+      width: 17rem; } }
 
 .book-appointment-hero {
   height: 123px;
