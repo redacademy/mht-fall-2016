@@ -23,8 +23,10 @@ get_header(); ?>
 			<h2>Standard In-office Tests</h2>
 			<p>No extra cost.</p>
 		</div>
-			<div class="general-test-wrapper">
-				<div class="general-test-single">
+		<div class="general-test-wrapper-out">
+
+			<div class="general-test-wrapper container">
+									<div class="general-test-single">
 					<h3>Strep A Test</h3>
 					<img class="line-labtesting" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>If Strep is suspected</p>
@@ -44,7 +46,10 @@ get_header(); ?>
 					<img class="line-labtesting" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/line@3x.png" alt="Phone logo">
 					<p>To determine blood sugar level.</p>
 				</div>
-			</div>
+		</div>
+	</div>
+
+
 			<div class="text-labtesting">
 				<h2>Specialized Tests</h2>
 				<p>Additional cost (per recommendation of Dr. Chay).</p>
