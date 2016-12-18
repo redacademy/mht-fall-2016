@@ -4,7 +4,6 @@
 ![Mountain Health mobile](./themes/mountain_health/MTH-Assets/photos/Screen-Shot-mobile.png)
 
 
-<h2>What it is</h2>
 
  <h3>created by: </h3>
  <ul>
@@ -13,10 +12,11 @@
  <li>Kadyn Neale</li>
  </ul>
 
-<p>For the final project at Red Academy we built real world live website for community client. It was designed by the UX students at Red Academy. A mobile first responsive Wordpress CMS website was created by the web development group(). </p>
+ <h2>What it is</h2>
+<p>For the final project at Red Academy we built real world live website for community client. It was designed by the UX students at Red Academy. A mobile first responsive Wordpress CMS website was created by the web development group(McKenzie Eggers, Michael Lelli, Lily Yang, Alban Carmet). </p>
 
 <p>Mountain Health Team is a website created for client Amanda Chey. Its purpose to premote her clinic and provide information on
-naturopathy</p>
+naturopathy.</p>
 
 <p>The website was created using a mobile first approach, meaning that the mobile version of the website is designed first, and then additional CSS is written to create a desktop version when the screen size increases.
 <br>
