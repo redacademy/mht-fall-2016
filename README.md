@@ -34,3 +34,13 @@ The backend of the website was setup so that the client can access and make chan
     <li>PHP</li>
     <li>Wordpress</li>
 </ul>
+
+<h3>PLUGINS :</h3>
+
+<ul>
+    <li>Contact Form 7</li>
+    <li>WP Migrate DB Pro</li>
+    <li>Custom Field Suite</li>
+    <li>Hide Default Posts</li>
+    <li>Menu icons</li>
+    </ul>
