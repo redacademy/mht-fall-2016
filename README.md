@@ -1,7 +1,6 @@
 # Mountain Health Team
 
 ![Mountain Health desktop](./themes/mountain_health/MTH-Assets/photos/ScreenShot-descktop.png)
-![Mountain Health mobile](./themes/mountain_health/MTH-Assets/photos/Screen-Shot-mobile.png)
 
 
 
