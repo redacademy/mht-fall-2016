@@ -45,4 +45,4 @@ The backend of the website was setup so that the client can access and make chan
     <li>Menu icons</li>
     </ul>
 
-    <p>check the website <a href="mht.academy.red">here!</a></p>
+  check the website: mht.academy.red
