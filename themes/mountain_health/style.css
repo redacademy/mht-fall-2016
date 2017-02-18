@@ -1489,7 +1489,7 @@ object {
       box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
       width: 50px;
       height: 50px;
-      transform: translateY(32rem); } }
+      transform: translateY(7rem); } }
 
 .phone-header {
   font-size: 16px !important; }
@@ -1542,7 +1542,7 @@ object {
         width: 707px; } }
   @media (min-width: 480px) {
     .booking {
-      padding-top: 29rem; } }
+      padding-top: 0; } }
 
 .booking div {
   margin-top: 330px;
