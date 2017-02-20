@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="content">
 			<section class="archive-article-hero-image">
-				<h1>ARTICLE &amp; RESEARCH</h1>
+				<h1>ARTICLES &amp; RESEARCH</h1>
 				<p>Read more about Naturopathy, alternative medicine and the research behind what we do here at Mountain Health.</p>
 			</section>
 
