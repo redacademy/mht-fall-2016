@@ -8,8 +8,7 @@
 
 .about-page {
     padding-top: 0;
-    @include mobile-break-width {
-    }
+    @include mobile-break-width {}
     .main-header header {
         background: none;
         width: 100%;
@@ -42,7 +41,7 @@
         color: white;
     }
     .about-hero {
-      height: 100%;
+        height: 100%;
         text-align: center;
         color: #fff;
         width: 100%;
@@ -58,7 +57,7 @@
             margin-bottom: 125px;
         }
         .parallax-scroll-about {
-          height: 100vh;
+            height: 100vh;
             width: 100%;
             background: url(../../MTH-Assets/photos/about-hero-desktop.png) no-repeat top;
             background-size: cover;
@@ -71,8 +70,6 @@
                 // background-position: center center;
             }
         }
-
-
         h1 {
             color: white;
             text-transform: uppercase;
@@ -193,7 +190,7 @@
     .first-sentence {
         margin: 0;
         margin-top: 0px;
-        @include mobile-break-width{
+        @include mobile-break-width {
             display: none;
         }
         &:first-letter {
@@ -206,18 +203,18 @@
     }
     .about-amanda-second-p {
         margin: 0;
-        @include mobile-break-width{
+        @include mobile-break-width {
             display: none;
         }
     }
 }
 
-.about-amanda{
-    img{
+.about-amanda {
+    img {
         height: 363px;
-
     }
 }
+
 .i-in-about {
     font-family: "Brush Script MT";
     font-size: 56px;
@@ -225,10 +222,10 @@
     line-height: 0;
     position: absolute;
     top: 48px;
-    @include mobile-break-width{
-    top:70px;
-    left: 616px;
-    font-size: 105px;
+    @include mobile-break-width {
+        top: 70px;
+        left: 616px;
+        font-size: 105px;
     }
 }
 
@@ -289,7 +286,7 @@
             width: 500px;
             margin: 0px;
             position: absolute;
-            left:136px;
+            left: 136px;
             top: 65px;
         }
     }
@@ -307,7 +304,7 @@
         margin-top: 65px;
         @include mobile-break-width {
             margin: 0px;
-            left:75px;
+            left: 75px;
         }
     }
     .four {
@@ -469,69 +466,70 @@
     }
 }
 
- .first-sentence-desktop {
-        padding-left: 37px;
-        margin: 0;
-        margin-top: 5px;
+.first-sentence-desktop {
+    padding-left: 37px;
+    margin: 0;
+    margin-top: 5px;
+    display: none;
+    @include mobile-break-width {
+        display: initial;
+    }
+}
+
+.about-amanda-second-p-desktop {
+    margin: 0;
+    display: none;
+    @include mobile-break-width {
+        display: initial;
+    }
+}
+
+.amanda-p-mobile {
+    @include mobile-break-width {
         display: none;
-        @include mobile-break-width{
-            display: initial;
+    }
+}
+
+.amanda-p-desktop {
+    display: none;
+    @include mobile-break-width {
+        display: initial;
+    }
+}
+
+.amanda-text-desktop {
+    display: none;
+    @include mobile-break-width {
+        display: initial;
+        width: 622px;
+    }
+    &:first-letter {
+        float: left;
+        line-height: 70px;
+        padding: 0px 19px 0px 0px;
+        font-size: 4rem;
+        font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+        @include mobile-break-width {
+            padding: 0px 25px 5px 3px;
+            font-size: 5rem;
         }
     }
-    .about-amanda-second-p-desktop {
-        margin: 0;
-        display: none;
-        @include mobile-break-width{
-            display: initial;
-        }
+}
+
+.keep-scrolling-about {
+    background: url(../../MTH-Assets/icons/down-arrow@3x.png);
+    box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
+    background-size: cover;
+    height: 26px;
+    width: 26px;
+    background-color: #1a9481;
+    margin: 0 auto;
+    border-radius: 50%;
+    transform: translateY(14rem);
+    @include mobile-break-width {
+        box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
+        width: 50px;
+        height: 50px;
+        transform: translateY(10rem);
     }
-
-    .amanda-p-mobile{
-        @include mobile-break-width{
-            display: none;
-        }
-    }
-
-    .amanda-p-desktop{
-        display: none;
-        @include mobile-break-width{
-            display: initial;
-        }
-    }
-
-    .amanda-text-desktop{
-        display: none;
-        @include mobile-break-width{
-            display: initial;
-            width: 622px;
-        }
-        &:first-letter {
-                    float: left;
-                    line-height: 70px;
-                    padding: 0px 19px 0px 0px;
-                    font-size: 4rem;
-                    font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
-                    @include mobile-break-width {
-                        padding: 0px 25px 5px 3px;
-                        font-size: 5rem;
-                    }
-                }
-            }
-
-            .keep-scrolling-about {
-                background: url(../../MTH-Assets/icons/down-arrow@3x.png);
-                box-shadow: 0 0 0 2.6px rgba(0, 155, 132, 0.51);
-                background-size: cover;
-                height: 26px;
-                width: 26px;
-                background-color: #1a9481;
-                margin: 0 auto;
-                border-radius: 50%;
-                transform: translateY(14rem);
-                @include mobile-break-width {
-                    box-shadow: 0 0 0 6px rgba(0, 155, 132, 0.51);
-                    width: 50px;
-                    height: 50px;
-                    transform: translateY(18rem);
-                }
-            }
+}
