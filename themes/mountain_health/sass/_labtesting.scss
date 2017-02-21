@@ -73,6 +73,10 @@ font-size: 22px;
     }
 }
 
+.labtesting-btn-off:hover{
+    color:#fdeea7;
+}
+
 .labtesting-btn-on {
     font-size: 30px;
     border: none;
@@ -384,4 +388,8 @@ font-size: 22px;
   @include mobile-break-width {
 font-size: 36px;
 }
+}
+
+.treatment-buttons:hover{
+    color:#fdeea7;
 }
