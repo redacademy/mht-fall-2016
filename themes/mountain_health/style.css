@@ -4026,6 +4026,9 @@ header.entry-header-article {
 .thick-single {
   font-weight: bold; }
 
+.archive-entry-content {
+  font-family: 'open_sans', 'sans-serif'; }
+
 .error404 {
   background: url(../../MTH-Assets/photos/main-bg.png);
   background-position: center center; }
@@ -5135,7 +5138,7 @@ header.entry-header-article {
         margin-left: 0; } }
 
 .treatment-buttons:hover {
-  color: yellow; }
+  color: #fdeea7; }
 
 .treatment-description {
   position: absolute;
