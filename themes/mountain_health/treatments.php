@@ -50,17 +50,16 @@ get_header(); ?>
 </div>
 			<?php endwhile; // End of the loop. ?>
 
-			<div class="laptesting-imag-text">
+		<div class="laptesting-imag-text">
 				<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/amanda-visual@3x.png" alt="logo">
-		<div class="also-lab-testing-div labtesting-book-appointment">
-			<h3>Learn more about our treatments</h3>
-			<p>See more details about treatments
-and how they can help you.</p>
+			<div class="also-lab-testing-div labtesting-book-appointment">
+				<h3>Learn more about our treatments</h3>
+				<p>See more details about treatments and how they can help you.</p>
 
-		<a class="discover-more-btn"href="<?php echo get_page_link(138); ?>">
-		<button type="button" name="button">Discover More</button></a>
-		<!--Button links to 2.4 Appointments-->
-		</div>
+				<a class="discover-more-btn"href="<?php echo get_page_link(138); ?>">
+				<button type="button" name="button">Discover More</button></a>
+			<!--Button links to 2.4 Appointments-->
+			</div>
 		</div>
 
 
