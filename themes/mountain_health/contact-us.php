@@ -10,7 +10,7 @@
         </div>
 
 				<section class="nav-links article-nav-links-archive container">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Homepage &gt; </a>
 					<p class="bread-crumb-contact-us">&nbsp;<?php wp_title( '' ); ?></p>
 				</section>
 

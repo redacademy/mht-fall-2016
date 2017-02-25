@@ -15,7 +15,7 @@ get_header(); ?>
 				<p>We offer a range of life labs to best help you make choices concerning your health and best treatment options for you.</p>
 			</section>
 			<section class="nav-links article-nav-links-archive bread-crumb-general">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Homepage &gt; </a>
 				<a href="<?php echo get_page_link(23); ?>">&nbsp;What We Do &gt;&nbsp;</a>
 				<p><?php wp_title( '' ); ?></p>
 			</section>
@@ -86,7 +86,7 @@ get_header(); ?>
 	<h3>Book an appointment</h3>
 	<p>We offer various types of appointments<br>
 		<span class="labtesting-thick-style">Acute visit<br>
-		Follow up<br>
+		Follow-up<br>
 		Full physical exam</span>
 </p>
 <a class="discover-more-btn"href="<?php echo get_page_link(29); ?>">

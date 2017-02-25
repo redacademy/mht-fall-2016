@@ -11,7 +11,7 @@
             </p>
         </div>
         <section class="nav-links article-nav-links-archive bread-crumb-general what-we-do-bread">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"> Home page &gt; </a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"> Homepage &gt; </a>
 				<a href="<?php echo get_page_link(23); ?>"></a>
 				<p> &nbsp;<?php wp_title( '' ); ?></p>
 		</section>
@@ -39,9 +39,9 @@
             <div class="treatments container">
                 <img class="gradient-border-box" src="<?php echo get_template_directory_uri()?>/MTH-Assets/other/treatment-bg.png" alt="gradient border box">
                 <h2>Treatments</h2>
-                <img class="stethascope-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/stethascope.png" alt="stethascope logo">
-                <img class="treatment-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/treatment-desktop.png" alt="stethascope logo">
-                <p class="treatments-p">See the treatments we offer based on based on your personalized health plan.</p>
+                <img class="stethascope-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/stethascope.png" alt="stethoscope logo">
+                <img class="treatment-desktop" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/treatment-desktop.png" alt="stethoscope logo">
+                <p class="treatments-p">See the treatments we offer based on your personalized health plan.</p>
                 <div class="learn-more">
                 <a href="<?php echo get_page_link(25); ?>">Learn More</a>
                 </div>
@@ -70,7 +70,7 @@
                     <li>HIV</li>
                     <li>Arthritis</li>
                     <li>Migraines and headaches</li>
-                    <li>Interstitial cystiti</li>
+                    <li>Interstitial cystitis</li>
                     <p>And more...</p>
 
                 </ul>

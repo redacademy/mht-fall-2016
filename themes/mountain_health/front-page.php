@@ -44,7 +44,7 @@
                 <li><span class="list-span">Weight loss</span></li>
                 <li><span class="list-span">Decreased pain</span></li>
                 <li><span class="list-span">Decreased symptoms</span></li>
-                <li><span class="list-span">Less side effects from treatment</span></li>
+                <li><span class="list-span">Fewer side effects from treatment</span></li>
                 <li><span class="list-span">Better sleep</span></li>
                 <li><span class="list-span">Increased libido</span></li>
                 <li><span class="list-span">Optimal health & Lifestyle</span></li>
@@ -87,7 +87,7 @@
         <section class="what-is">
             <div class="what-is-header">
                 <div class="white-box">
-                    <p>Naturopathic doctors use both treatments and testing that are evidence based,
+                    <p>Naturopathic doctors use both treatments and testing that are evidence-based,
                         and also those that have been proven to work traditionally through clinical experience.</p>
                         <a href="<?php echo get_page_link(61); ?>">
                     <button class="front-button flex-button large-button">See More About Us</button>
@@ -129,7 +129,7 @@
             </div>
             <div class="did-you-know-bg did-you-know-bg-1">
                 <p>Naturopathic physicians must attend the same pre-medical studies as MDs,
-                    and they must obtain a four year degree prior to applying to one of the
+                    and they must obtain a four-year degree prior to applying to one of the
                     seven accredited schools in North America.
                 </p>
             </div>
@@ -138,14 +138,14 @@
             </div>
             <div class="did-you-know-bg did-you-know-bg-2">
                 <p>To obtain the title of Naturopathic Doctor (ND), the naturopathic physician
-                    attends four years of full-time post graduate studies.</p>
+                    attends four years of full-time post-graduate studies.</p>
             </div>
             <div class="number-circle">
                 <p class="front-number">3</p>
             </div>
             <div class="did-you-know-bg did-you-know-bg-3">
                 <p>Students of a Naturopathic Medical program cover the same physiology, pathology,
-                    and basic sciences as MDs, in addition to studies on herbal medicine, vitamins and lifestyle.
+                    and basic sciences as MDs, in addition to studies on herbal medicine, vitamins, and lifestyle.
                 </p>
             </div>
         </section>

@@ -14,7 +14,7 @@ get_header(); ?>
 
         <section class="book-appointment-content container">
 					<section class="nav-links article-nav-links-archive bread-crumb-general">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Homepage &gt; </a>
 						<p> &nbsp;Book an appointment</p>
 					</section>
             <h2>Choose a Booking Method</h2>

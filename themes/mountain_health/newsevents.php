@@ -14,7 +14,7 @@ get_header(); ?>
 			<p>Check back frequently for updates on Mountain Health or subscribe to our newsletter for updates delivered directly to your inbox.</p>
 			</section>
 			<section class="nav-links article-nav-links-archive">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Homepage &gt; </a>
 				<a href="<?php echo get_page_link(10); ?>">&nbsp;Resources &gt; </a>
 				<p>&nbsp;<?php wp_title( '' ); ?></p>
 			</section>

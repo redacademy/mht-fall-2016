@@ -34,7 +34,7 @@
                             Health. Prior to this, I completed pre-medical studies
                             and a degree in Psychology at the University of Regina
                             in Saskatchewan.
-                            Combining my love of medicine, psychology and nature I
+                            Combining my love of medicine, psychology, and nature I
                             chose a career in Naturopathic Medicine. I truly believe
                             in the body's innate desire to heal. I also believe that
                             each patient is unique, deserving of individualized treatments.
@@ -48,7 +48,7 @@
                             completed pre-medical studies
                             and a degree in Psychology at the University of Regina
                             in Saskatchewan.<br />
-														Combining my love of medicine, psychology and nature I
+														Combining my love of medicine, psychology, and nature I
                             chose a career in Naturopathic Medicine. I truly
                             believe in the body’s innate desire to heal. I also believe that
                             each patient is unique, deserving of individualized treatments.

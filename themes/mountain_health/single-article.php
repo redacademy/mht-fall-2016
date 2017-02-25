@@ -18,7 +18,7 @@
 			</section>
 
 			<section class="nav-links article-nav-links-archive">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Homepage &gt; </a>
 				<a href="<?php echo get_page_link(10); ?>">&nbsp;Resources &gt; </a>
 				<a href="<?php echo get_post_type_archive_link( 'article' ); ?>">&nbsp;Articles and research &gt; </a>
 				<?php the_title( '<p class="">', '</p>' ); ?>

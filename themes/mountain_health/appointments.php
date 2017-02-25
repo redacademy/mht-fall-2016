@@ -14,7 +14,7 @@ get_header(); ?>
           <p>We believe your time is valuable and are here to listen to all your concerns and find how we can best help you.</p>
           </section>
           <section class="nav-links article-nav-links-archive container">
-    				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+    				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Homepage &gt; </a>
     				<a href="<?php echo get_page_link(23); ?>">&nbsp;What We Do &gt;</a>
     				<p>&nbsp;<?php wp_title( '' ); ?></p>
     			</section>
