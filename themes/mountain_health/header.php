@@ -34,14 +34,14 @@
 							<img class="MTH-logo-white" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/logo-white.png" alt="MTH logo white">
 						</a>
 						</div>
-						
+
 						<nav id="site-navigation" class="main-navigation" role="navigation">
-					
-					
+
+
 							<div class="desktop-menu mobile-menu-hide">
 								<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-								
-							</div>		
+
+							</div>
 						</nav>
 
 						<div class="patient-portal-desktop">
@@ -50,7 +50,7 @@
 								<img class="external-link-logo-white-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/external-link-white.png" alt="external link icon">
 
 						</div>
-					<div class="search-logo-dt">	
+					<div class="search-logo-dt">
 						<img class="search-icon-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/search.png" alt="search logo">
 						<img class="search-logo-white-dt" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/search-logo-white.png" alt="search icon white">
 					</div>
@@ -59,7 +59,7 @@
 							<img class="phone-blue" src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-blue.png" alt="blue phone icon">
 							<img class="phone-white"src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-white.png" alt="white phone icon">
 							<a href="tel:604-442-5864">
-								<p class="phone-header"><span class="call-header">Call </span>604-442-5864</p>
+								<p class="phone-header"><span class="call-header">Call </span>604 442 5864</p>
 							</a>
 						</div>
 						<div class="phone-and-number-green">
@@ -67,7 +67,7 @@
 							<img class="phone-white"src="<?php echo get_template_directory_uri()?>/MTH-Assets/icons/phone-white.png" alt="white phone icon">
 
 							<a href="tel:604-442-5864">
-								<p class="phone-number-white">604-442-5864</p>
+								<p class="phone-number-white">604 442 5864</p>
 							</a>
 						</div>
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
@@ -76,7 +76,7 @@
 								<img class="x-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/x-logo-1.png" alt="x logo">
 								<img class="x-logo" src="<?php echo get_template_directory_uri()?>/MTH-Assets/logos/x-logo-2.png" alt="x logo">
 							</div>
-							
+
 							</button>
 
 						<div class="site-branding">
@@ -91,8 +91,8 @@
 			</section>
 			<div class="search-state-dt"><?php get_search_form(); ?></div>
 			<nav id="site-navigation" class="main-navigation" role="navigation">
-					
-					
+
+
 					<div class="mobile-menu mobile-menu-hide">
 						<div class="search-and-patient-portal">
 							<div class="search">
@@ -109,8 +109,8 @@
 							</div>
 						</div>
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-						
-						
-					</div>	
+
+
+					</div>
 				</nav><!-- #site-navigation -->
 			<div id="content" class="site-content">

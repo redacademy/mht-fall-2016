@@ -36,7 +36,7 @@
 				</div>
 				<div class="footer_wrapper">
 					<h2 class="footer-title">Find Us</h2>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31601.00220805475!2d-122.94492037113933!3d49.1974398107171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d879f04c5769%3A0xc677e8cb21b082da!2s1037+Cornwall+St%2C+New+Westminster%2C+BC+V3M+1S1!5e0!3m2!1sen!2sca!4v1481451221519" width="280" height="220"  frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31601.00220805475!2d-122.94492037113933!3d49.1974398107171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d879f04c5769%3A0xc677e8cb21b082da!2s1037+Cornwall+St%2C+New+Westminster%2C+BC+V3M+1S1!5e0!3m2!1sen!2sca!4v1481451221519" height="220"  frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			<div class="footer_wrapper">
 			<h2 class="footer-title">Information</h2>

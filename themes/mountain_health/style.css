@@ -632,6 +632,7 @@ p {
     display: none; }
   @media (min-width: 480px) {
     .main-header header {
+      font-weight: 300;
       height: 110px;
       min-width: 1324px; }
       .main-header header .header-button {
@@ -3750,7 +3751,8 @@ div.wpcf7-response-output {
     margin: 0 auto; }
     @media (min-width: 480px) {
       .newsletter p {
-        width: 100%; } }
+        width: 100%;
+        font-size: 22px; } }
 
 .mountain-logo-footer {
   width: 100%; }
@@ -3764,10 +3766,11 @@ div.wpcf7-response-output {
   color: #6a7059;
   padding: 1rem 1.5rem;
   margin: 0;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 22px; }
   @media (min-width: 480px) {
     .footer-title {
-      font-size: 22px; } }
+      font-size: 36px; } }
 
 .copy-footer {
   background-color: #003A5F; }
@@ -3779,6 +3782,9 @@ div.wpcf7-response-output {
     color: #FFFFFF;
     margin: 0 auto;
     padding: 14px 0; }
+    @media (min-width: 480px) {
+      .copy-footer p {
+        font-size: 16px; } }
 
 .footer-form {
   display: -ms-flexbox;
@@ -3845,7 +3851,9 @@ input::-webkit-input-placeholder {
       -ms-flex-pack: justify;
           justify-content: space-between;
       width: 1300px;
-      margin: 0 auto; } }
+      margin: 0 auto; }
+      .footer-info h2 {
+        font-size: 22px; } }
 
 .footer_wrapper {
   margin: 15px 25px;
