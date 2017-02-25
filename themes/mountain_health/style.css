@@ -1338,12 +1338,15 @@ object {
   .front-page .hamburger {
     color: white; }
   .front-page .site-main p {
-    font-weight: lighter;
     font-family: 'open_sans', sans-serif; }
     @media (min-width: 480px) {
       .front-page .site-main p {
-        font-size: 33px;
+        font-size: 22px;
         line-height: 1.2; } }
+  .front-page .site-main .hero-banner p {
+    font-size: 36px; }
+  .front-page .site-main .what-is-header p {
+    font-size: 36px; }
   .front-page .site-main h2,
   .front-page .site-main h3 {
     font-family: 'oswald', 'sans-serif';
@@ -1536,7 +1539,8 @@ object {
     width: 277px;
     text-align: center;
     margin-top: 0px;
-    line-height: 1.2; }
+    line-height: 1.2;
+    font-weight: 400; }
     @media (min-width: 480px) {
       .booking p {
         font-size: 22px;
@@ -1818,7 +1822,7 @@ object {
       height: 700px;
       margin: 0 auto; }
       .carousel-cell h2 {
-        font-size: 32px; }
+        font-size: 36px; }
       .carousel-cell p {
         width: 700px; } }
 
@@ -1899,6 +1903,10 @@ object {
       font-size: 17px;
       font-weight: bold;
       color: #003A5F; }
+      @media (min-width: 480px) {
+        .did-you-know .number-circle p {
+          font-size: 22px;
+          font-weight: 600; } }
 
 .did-you-know .did-you-know-bg {
   width: 280px;

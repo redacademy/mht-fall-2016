@@ -8,13 +8,21 @@
     }
     .site-main {
         p {
-            font-weight: lighter;
+            // font-weight: lighter;
             font-family: 'open_sans', sans-serif;
             @include mobile-break-width {
-                font-size: 33px;
+                font-size: 22px;
                 line-height: 1.2;
             }
         }
+        .hero-banner{
+          p{
+          font-size: 36px;
+        }}
+        .what-is-header{
+          p{
+          font-size: 36px;
+        }}
         h2,
         h3 {
             font-family: 'oswald', 'sans-serif';
@@ -237,6 +245,7 @@
         text-align: center;
         margin-top: 0px;
         line-height: 1.2;
+        font-weight: 400;
         @include mobile-break-width {
             font-size: $small-font-dt;
             width: 707px;
@@ -551,7 +560,7 @@
         height: 700px;
         margin: 0 auto;
         h2 {
-            font-size: 32px;
+            font-size: 36px;
         }
         p {
             width: 700px;
@@ -637,6 +646,11 @@
             font-size: $medium-font;
             font-weight: bold;
             color: $body-color;
+            @include mobile-break-width {
+              font-size: 22px;
+              font-weight: 600;
+
+}
         }
     }
 }
