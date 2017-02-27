@@ -29,7 +29,7 @@
     margin-right: 10px;
     border: solid 2px #1a9481;
     line-height: 0;
-    border-radius: 5px 5px 0 5px;
+    border-radius: 10px 10px 0 10px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -128,6 +128,10 @@
     img {
         border-radius: 6px 6px 0 0;
     }
+    a{
+      @include mobile-break-width {
+      margin-left: 0;
+    }}
     h3 {
         font-family: 'oswald', 'sans-serif';
         font-size: 17px;
@@ -136,6 +140,7 @@
         color: #ffffff;
         text-transform: uppercase;
         padding: 1rem;
+        padding-left: 0;
         @include mobile-break-width {
             font-size: 36px;
         }
@@ -151,6 +156,8 @@
         color: #ffffff;
         @include mobile-break-width {
             font-size: 22px;
+            width: 336px;
+
         }
         .labtesting-thick-style {
             font-weight: bold;
@@ -194,7 +201,7 @@
 }
 
 .treatment-price {
-    font-weight: bold;
+    font-weight: 600;
     @include mobile-break-width {
         padding: 1.5rem;
     }

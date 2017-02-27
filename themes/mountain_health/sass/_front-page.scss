@@ -126,7 +126,7 @@
     margin-left: auto;
     margin-right: auto;
     @include mobile-break-width {
-        margin-bottom: 40px;
+      margin-bottom: 15vh;
         max-width: 1764px;
         height: 770px;
         background-size: cover;
@@ -142,7 +142,7 @@
         text-align: center;
         @include mobile-break-width {
             font-size: 72px;
-            letter-spacing: normal;
+            letter-spacing: 2px;
             transform: translateY(60px);
         }
     }

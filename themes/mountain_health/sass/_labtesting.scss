@@ -41,7 +41,7 @@
     align-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-radius: 5px 5px 0px 5px;
+    border-radius: 10px 10px 0px 10px;
     color: $body-color;
     button {
         font-family: "oswald", "sans-serif";
@@ -104,6 +104,11 @@ font-size: 22px;
     align-items: center;
     background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
     background-size: 100% 228px;
+    a{
+      @include mobile-break-width {
+margin-left: 0;
+}
+    }
     img {
         border-radius: 6px 6px 0 0;
     }
@@ -119,7 +124,7 @@ font-size: 22px;
         }
     }
     p {
-        width: 175px;
+        // width: 175px;
         margin: 0 auto;
         font-family: 'open_sans', 'sans-serif';
         font-weight: light;
@@ -284,7 +289,7 @@ font-size: 22px;
     p {
         text-align: center;
         margin: 10px 0;
-        max-width: 220px;
+        // max-width: 220px;
         line-height: 1.2;
         color: #003d5c;
 
@@ -299,6 +304,9 @@ font-size: 22px;
 
 .line-labtesting {
     width: 120px;
+    @include mobile-break-width {
+width: 88px;
+}
 }
 
 .laptesting-imag-text {

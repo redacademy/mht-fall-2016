@@ -57,7 +57,7 @@
     }
     .experience {
         width: 280px;
-        background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
+        background-image: linear-gradient(to right, #1a9481, #9bcc93);
         text-align: center;
         color: #FFFFFF;
         padding: 20px 25px;
@@ -91,18 +91,20 @@
             list-style: none;
             padding: 0;
             margin: 0;
+            font-weight: 300;
             li {
                 font-size: 15px;
                 @include mobile-break-width {
                     font-size: $small-font-dt;
                     line-height: 1.36;
+
                 }
             }
         }
         p {
             margin: 0;
             margin-top: 15px;
-            font-weight: bold;
+            font-weight: 600;
             @include mobile-break-width {
                 font-size: $small-font-dt;
             }
@@ -217,6 +219,10 @@
         line-height: 1.4;
         text-align: center;
         color: #003d5c;
+        @include mobile-break-width {
+          font-size: 22px;
+}
+
     }
     .underline-strip {
         width: 120px;

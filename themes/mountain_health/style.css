@@ -1436,7 +1436,7 @@ object {
   margin-right: auto; }
   @media (min-width: 480px) {
     .hero-banner {
-      margin-bottom: 40px;
+      margin-bottom: 15vh;
       max-width: 1764px;
       height: 770px;
       background-size: cover;
@@ -1452,7 +1452,7 @@ object {
     @media (min-width: 480px) {
       .hero-banner .hero-header {
         font-size: 72px;
-        letter-spacing: normal;
+        letter-spacing: 2px;
         transform: translateY(60px); } }
 
 .hero-banner p {
@@ -2056,7 +2056,8 @@ object {
       letter-spacing: 1p; }
       @media (min-width: 480px) {
         .about-page .about-hero h1 {
-          font-size: 72px; } }
+          font-size: 72px;
+          letter-spacing: 2px; } }
     .about-page .about-hero p {
       font-size: 17px;
       line-height: 21px;
@@ -2516,7 +2517,7 @@ object {
     margin-bottom: 30px; }
   .what-we-do .experience {
     width: 280px;
-    background: linear-gradient(90deg, #479682 0%, #9ACC91 100%);
+    background-image: linear-gradient(to right, #1a9481, #9bcc93);
     text-align: center;
     color: #FFFFFF;
     padding: 20px 25px;
@@ -2547,7 +2548,8 @@ object {
       font-family: 'open_sans';
       list-style: none;
       padding: 0;
-      margin: 0; }
+      margin: 0;
+      font-weight: 300; }
       .what-we-do .experience ul li {
         font-size: 15px; }
         @media (min-width: 480px) {
@@ -2557,7 +2559,7 @@ object {
     .what-we-do .experience p {
       margin: 0;
       margin-top: 15px;
-      font-weight: bold; }
+      font-weight: 600; }
       @media (min-width: 480px) {
         .what-we-do .experience p {
           font-size: 22px; } }
@@ -2684,6 +2686,9 @@ object {
     line-height: 1.4;
     text-align: center;
     color: #003d5c; }
+    @media (min-width: 480px) {
+      .care-conditions ul {
+        font-size: 22px; } }
   .care-conditions .underline-strip {
     width: 120px;
     height: 3px;
@@ -4764,7 +4769,7 @@ header.entry-header-article {
   align-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  border-radius: 5px 5px 0px 5px;
+  border-radius: 10px 10px 0px 10px;
   color: #003A5F; }
   .labtesting-btn-off button {
     font-family: "oswald", "sans-serif";
@@ -4825,6 +4830,9 @@ header.entry-header-article {
       align-items: center;
   background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
   background-size: 100% 228px; }
+  @media (min-width: 480px) {
+    .labtesting-book-appointment a {
+      margin-left: 0; } }
   .labtesting-book-appointment img {
     border-radius: 6px 6px 0 0; }
   .labtesting-book-appointment h3 {
@@ -4838,7 +4846,6 @@ header.entry-header-article {
       .labtesting-book-appointment h3 {
         font-size: 36px; } }
   .labtesting-book-appointment p {
-    width: 175px;
     margin: 0 auto;
     font-family: 'open_sans', 'sans-serif';
     font-weight: light;
@@ -4994,7 +5001,6 @@ header.entry-header-article {
   .general-test-single p {
     text-align: center;
     margin: 10px 0;
-    max-width: 220px;
     line-height: 1.2;
     color: #003d5c; }
     @media (min-width: 480px) {
@@ -5006,6 +5012,9 @@ header.entry-header-article {
 
 .line-labtesting {
   width: 120px; }
+  @media (min-width: 480px) {
+    .line-labtesting {
+      width: 88px; } }
 
 .laptesting-imag-text {
   padding-top: 200px;
@@ -5118,7 +5127,7 @@ header.entry-header-article {
   margin-right: 10px;
   border: solid 2px #1a9481;
   line-height: 0;
-  border-radius: 5px 5px 0 5px;
+  border-radius: 10px 10px 0 10px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: center;
@@ -5210,6 +5219,9 @@ header.entry-header-article {
   background-size: 100% 228px; }
   .also-lab-testing-div img {
     border-radius: 6px 6px 0 0; }
+  @media (min-width: 480px) {
+    .also-lab-testing-div a {
+      margin-left: 0; } }
   .also-lab-testing-div h3 {
     font-family: 'oswald', 'sans-serif';
     font-size: 17px;
@@ -5217,7 +5229,8 @@ header.entry-header-article {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-    padding: 1rem; }
+    padding: 1rem;
+    padding-left: 0; }
     @media (min-width: 480px) {
       .also-lab-testing-div h3 {
         font-size: 36px; } }
@@ -5232,7 +5245,8 @@ header.entry-header-article {
     color: #ffffff; }
     @media (min-width: 480px) {
       .also-lab-testing-div p {
-        font-size: 22px; } }
+        font-size: 22px;
+        width: 336px; } }
     .also-lab-testing-div p .labtesting-thick-style {
       font-weight: bold; }
   @media (min-width: 480px) {
@@ -5273,7 +5287,7 @@ header.entry-header-article {
       height: 320px; } }
 
 .treatment-price {
-  font-weight: bold; }
+  font-weight: 600; }
   @media (min-width: 480px) {
     .treatment-price {
       padding: 1.5rem; } }
