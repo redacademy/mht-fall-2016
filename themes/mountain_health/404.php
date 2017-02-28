@@ -17,7 +17,7 @@ get_header(); ?>
 				<p>We're sorry! Looks like we sent you to the wrong place.</p>
 			</section>
 			<section class="nav-links article-nav-links-archive bread-crumb-general">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Homepage &gt; </a>
 				<a href="<?php echo get_page_link(23); ?>"></a>
 				<p> &nbsp;404</p>
 			</section>

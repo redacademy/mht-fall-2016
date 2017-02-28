@@ -1346,9 +1346,15 @@ object {
         font-size: 22px;
         line-height: 1.2; } }
   .front-page .site-main .hero-banner p {
-    font-size: 36px; }
+    font-size: 17px; }
+    @media (min-width: 480px) {
+      .front-page .site-main .hero-banner p {
+        font-size: 36px; } }
   .front-page .site-main .what-is-header p {
-    font-size: 36px; }
+    font-size: 15px; }
+    @media (min-width: 480px) {
+      .front-page .site-main .what-is-header p {
+        font-size: 36px; } }
   .front-page .site-main h2,
   .front-page .site-main h3 {
     font-family: 'oswald', 'sans-serif';
@@ -3727,9 +3733,14 @@ div.wpcf7-response-output {
   color: white;
   position: absolute;
   bottom: -23px;
-  font-size: 22px;
+  font-size: 15px;
   font-family: 'open_sans', 'sans-serif';
   font-weight: lighter; }
+  @media (min-width: 480px) {
+    .news-events a,
+    .articles-research a,
+    .recipes-nutrition a {
+      font-size: 22px; } }
 
 .news-events p {
   width: 210px; }
@@ -3971,12 +3982,16 @@ input::-webkit-input-placeholder {
 
 .single-article-content {
   margin: 0 auto;
-  max-width: 85%; }
+  max-width: 85%;
+  font-family: 'open_sans', 'sans-serif'; }
   @media (min-width: 480px) {
     .single-article-content {
       max-width: 60%; }
       .single-article-content p {
-        font-size: 22px; } }
+        font-family: 'open_sans', 'sans-serif';
+        font-size: 22px; }
+        .single-article-content p span {
+          font-weight: lighter; } }
 
 .entry-content-article p {
   font-family: 'open_sans', 'sans-serif';
@@ -4078,10 +4093,6 @@ header.entry-header-article {
 .archive-entry-content {
   font-family: 'open_sans', 'sans-serif'; }
 
-.error404 {
-  background: url(../../MTH-Assets/photos/main-bg.png);
-  background-position: center center; }
-
 .error-hero {
   height: 123px;
   text-align: center;
@@ -4162,15 +4173,15 @@ header.entry-header-article {
       align-items: center;
   text-align: center; }
   .not-found-div a {
-    color: white; }
+    color: white;
+    font-family: 'open_sans', 'sans-serif';
+    font-size: 22px;
+    font-weight: lighter; }
     .not-found-div a:visited {
       color: white; }
   @media (min-width: 480px) {
     .not-found-div {
-      margin-top: 141px;
-      margin-left: 8.2%;
-      margin-right: 8.2%;
-      margin-bottom: 79px; } }
+      margin: 2% 10%; } }
 
 .not-found-content p {
   color: #003A5F;
@@ -4335,8 +4346,10 @@ header.entry-header-article {
       align-items: center; }
   .article-grid-content h2 {
     text-transform: uppercase;
-    font-family: 'oswald';
-    margin: 0 10%; }
+    font-family: 'oswald'; }
+    @media (min-width: 480px) {
+      .article-grid-content h2 {
+        margin: 0 10%; } }
     .article-grid-content h2 a {
       color: white; }
       .article-grid-content h2 a:visited {
@@ -4348,9 +4361,12 @@ header.entry-header-article {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    font-size: 17px; }
+    font-size: 17px;
+    margin: 0 10%; }
     .article-grid-content a:visited {
       color: white; }
+    .article-grid-content a:hover {
+      color: #fdeea7; }
     @media (min-width: 480px) {
       .article-grid-content a {
         font-size: 36px;
@@ -4360,9 +4376,8 @@ header.entry-header-article {
   text-align: center; }
 
 .archive-entry-content {
-  width: 80%;
-  padding-bottom: 20px;
-  width: 100%; }
+  width: 85%;
+  padding-bottom: 20px; }
   .archive-entry-content p {
     font-size: 15px;
     font-family: 'open_sans', 'sans-serif';
@@ -4372,7 +4387,8 @@ header.entry-header-article {
         font-size: 22px; } }
   @media (min-width: 480px) {
     .archive-entry-content {
-      font-size: 22px; } }
+      font-size: 22px;
+      width: 100%; } }
 
 .load-more {
   display: -ms-flexbox;
@@ -5061,16 +5077,16 @@ header.entry-header-article {
       width: 88px; } }
 
 .laptesting-imag-text {
-  display: -ms-flexbox;
-  display: flex;
   width: 92%;
   margin: 0 auto;
+  margin-top: 12rem;
   background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
   background-size: cover; }
   @media (min-width: 480px) {
     .laptesting-imag-text {
       margin-top: 50rem;
-      /* align-items: flex-end; */ }
+      display: -ms-flexbox;
+      display: flex; }
       .laptesting-imag-text img {
         height: 368px;
         width: 540px; }
@@ -5341,14 +5357,15 @@ header.entry-header-article {
   padding: .75rem 1.5rem; }
 
 .treatment-book {
-  display: -ms-flexbox;
-  display: flex;
   width: 92%;
   margin: 0 auto;
+  margin-top: 12rem;
   background: url(../../MTH-Assets/photos/lab-bg@3x.png) no-repeat bottom;
   background-size: cover; }
   @media (min-width: 480px) {
     .treatment-book {
+      display: -ms-flexbox;
+      display: flex;
       margin-top: 50rem; }
       .treatment-book img {
         height: 368px;

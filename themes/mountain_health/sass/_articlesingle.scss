@@ -29,10 +29,15 @@
 .single-article-content {
     margin: 0 auto;
     max-width: 85%;
+    font-family: 'open_sans', 'sans-serif';
     @include mobile-break-width {
         max-width: 60%;
         p {
+          font-family: 'open_sans', 'sans-serif';
             font-size: 22px;
+            span{
+              font-weight: lighter;
+            }
         }
     }
 }

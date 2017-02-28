@@ -7,6 +7,7 @@
   background: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-labtesting.png) no-repeat top;
   background-size: cover;
   height: 25vh;
+
   h1 {
       text-transform: uppercase;
       font-size: 17px;
@@ -309,20 +310,14 @@ width: 88px;
 }
 
 .laptesting-imag-text {
-    display: flex;
-    width: 92%;
-    margin: 0 auto;
+  width: 92%;
+  margin: 0 auto;
+margin-top: 12rem;
     background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
     background-size: cover;
     @include mobile-break-width {
         margin-top: 50rem;
-        // -ms-flex-direction: row;
-        // flex-direction: row;
-        /* align-items: flex-end; */
-        // justify-content: flex-end;
-        // width: 91%;
-        // margin-left: 225px;
-        // height: 368px;
+        display: flex;
         img {
             height: 368px;
             width: 540px;

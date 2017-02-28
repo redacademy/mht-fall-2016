@@ -17,11 +17,18 @@
         }
         .hero-banner{
           p{
-          font-size: 36px;
+            font-size: 17px;
+
+          @include mobile-break-width {
+            font-size: 36px;
+
+}
         }}
         .what-is-header{
           p{
-          font-size: 36px;
+            font-size: 15px;
+            @include mobile-break-width {
+          font-size: 36px;}
         }}
         h2,
         h3 {

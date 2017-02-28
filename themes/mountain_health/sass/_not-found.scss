@@ -1,7 +1,6 @@
 //404 Page Section
 .error404 {
-    background: url(../../MTH-Assets/photos/main-bg.png);
-    background-position: center center;
+
 }
 .error-hero {
     height: 123px;
@@ -86,15 +85,15 @@
     text-align: center;
     a{
       color: white;
+      font-family: 'open_sans', 'sans-serif';
+      font-size: 22px;
+font-weight: lighter;
       &:visited{
         color: white;
       }
     }
     @include mobile-break-width {
-        margin-top: 141px;
-        margin-left: 8.2%;
-        margin-right: 8.2%;
-        margin-bottom: 79px;
+ margin: 2% 10%;
     }
 }
 

@@ -132,10 +132,13 @@ margin-right: auto;
         color: white;
         position: absolute;
         bottom: -23px;
-        font-size: 22px;
+        font-size: 15px;
         font-family: 'open_sans', 'sans-serif';
         font-weight: lighter;
+        @include mobile-break-width {
+          font-size: 22px;
 
+}
     }
 }
 

@@ -218,12 +218,13 @@
     padding: .75rem 1.5rem;
 }
 .treatment-book{
-  display: flex;
   width: 92%;
   margin: 0 auto;
+  margin-top: 12rem;
   background: url(../../MTH-Assets/photos/lab-bg@3x.png) no-repeat bottom;
   background-size: cover;
   @include mobile-break-width {
+    display: flex;
       margin-top: 50rem;
       img {
           height: 368px;
