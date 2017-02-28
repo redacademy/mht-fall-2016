@@ -18,7 +18,7 @@ get_header(); ?>
 						<p> &nbsp;Book an appointment</p>
 					</section>
             <h2>Choose a Booking Method</h2>
-            <h3>Call</h3>
+            <h3 id="call-book">Call</h3>
             <div class="book-appointment-call">
                <div class="book-appointment-phone-icon"></div><a href="tel:604-442-5864">
 								<p>604-442-5864</p>

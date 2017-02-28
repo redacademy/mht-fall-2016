@@ -9,6 +9,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     width: 220px;
+    font-family: 'open_sans', 'sans-serif';
     @include mobile-break-width {
         font-size: $small-font-dt;
         width: 280px;

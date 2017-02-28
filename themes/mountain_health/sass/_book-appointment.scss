@@ -70,6 +70,8 @@
         color: #1a9481;
         font-size: $medium-font;
         margin: 0px;
+        font-family: "open_sans", 'sans-serif';
+
         @include mobile-break-width {
             font-size: $medium-font-dt;
         }
@@ -173,6 +175,7 @@
         padding-bottom: 15px;
         border: none;
         margin-top: 30px;
+        font-weight: lighter;
         @include mobile-break-width {
             width: 280px;
             font-size: $small-font-dt;
@@ -193,6 +196,7 @@
 .book-appointment-use-smart {
     p {
         margin: 0px;
+        font-family: "open_sans", 'sans-serif';
         color: #003d5c;
         @include mobile-break-width {
             font-size: $small-font-dt;
@@ -202,6 +206,7 @@
 
 .already-smartnd {
     color: $body-color;
+    font-family: "open_sans", 'sans-serif';
     @include mobile-break-width {
         font-size: $small-font-dt;
     }
@@ -209,6 +214,7 @@
         width: 265px;
         margin-left: auto;
         margin-right: auto;
+        font-family: "open_sans", 'sans-serif';
         @include mobile-break-width {
             width: 100%;
             font-size: $small-font-dt;
@@ -411,4 +417,9 @@
 
 .mountains {
     transform: translateY(7px);
+}
+
+
+#call-book{
+  font-weight: 600;
 }

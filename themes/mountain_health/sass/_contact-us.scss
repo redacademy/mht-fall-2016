@@ -65,6 +65,7 @@
     }
     p {
         font-size: $small-font;
+        font-family: 'open_sans', 'sans-serif';
         @include mobile-break-width {
             font-size: 22px;
         }
@@ -72,7 +73,7 @@
     .call,
     .send-us-a-message,
     .open-hours {
-        font-weight: bold;
+        font-weight: 600;
     }
     .number-and-icon {
         display: flex;
@@ -86,6 +87,11 @@
             font-size: $medium-font;
             text-decoration: none;
             padding-left: 8px;
+            font-family: 'open_sans', 'sans-serif';
+            @include mobile-break-width {
+              font-size: 36px;
+}
+
         }
         img {
             width: 28px;
@@ -175,6 +181,10 @@
             width: 200px;
             height: 60px;
         }
+        &:hover{
+          color: #fdeea7;
+
+        }
     }
     .hours {
         color: $header-color;
@@ -238,4 +248,8 @@ div.wpcf7-response-output {
     top: 24.3rem;
     left: 50%;
     z-index: 3;
+}
+#link-google{
+  font-size: 18px;
+  margin: 0;
 }

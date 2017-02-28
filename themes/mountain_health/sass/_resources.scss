@@ -35,6 +35,8 @@
         @include mobile-break-width {
             width: 48%;
             line-height: 1.36;
+            font-family: 'open_sans', 'sans-serif';
+            font-size: 22px;
         }
     }
 }
@@ -68,11 +70,13 @@
     background-size: cover;
     background-position: center center;
     height: 252px;
-    margin-right: auto;
-    margin-left: auto;
+margin-left: auto;
+margin-right: auto;
     margin-bottom: 45px;
     position: relative;
     @include mobile-break-width {
+      margin-right: 10px;
+      margin-left: 10px;
       width: 428px;
         background: url(../../MTH-Assets/photos/stroke-desktop.png);
         background-size: 100% 100%;
@@ -128,7 +132,10 @@
         color: white;
         position: absolute;
         bottom: -23px;
-        font-size: 15px;
+        font-size: 22px;
+        font-family: 'open_sans', 'sans-serif';
+        font-weight: lighter;
+
     }
 }
 

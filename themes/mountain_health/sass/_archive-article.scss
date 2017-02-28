@@ -38,9 +38,12 @@
     flex-direction: column;
     background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-articles.png) no-repeat top;
     background-size: cover;
-    height: 40vh;
     h1 {
         text-transform: uppercase;
+        font-family: 'oswald', 'serif';
+        @include mobile-break-width {
+          font-size: 48px;
+}
     }
     p {
         text-align: center;
@@ -49,6 +52,7 @@
         font-size: 15px;
         @include mobile-break-width {
             max-width: 800px;
+            font-size: 22px;
         }
     }
 }
@@ -69,6 +73,11 @@
     justify-content: center;
     align-items: center;
     padding-top: 10px;
+    font-family: 'open_sans', 'sans-serif';
+
+    @include mobile-break-width {
+
+}
 }
 
 .article-single-wrapper {
@@ -78,8 +87,9 @@
     flex-direction: column;
     align-items: center;
     @include mobile-break-width {
-        width: 632px;
-        margin: 9px;
+
+        width: 610px;
+        margin: 20px;
     }
 }
 
@@ -89,7 +99,9 @@
     display: flex;
     justify-content: center;
     margin: 20px;
-    @include mobile-break-width {}
+    @include mobile-break-width {
+      width: 100%;
+    }
 }
 
 .article-single-image {
@@ -120,12 +132,16 @@
     align-items: center;
     h2 {
         text-transform: uppercase;
-        font-size: 25px;
+        font-family: 'oswald';
+        margin: 0 10%;
         a {
             color: white;
             &:visited {
                 color: white;
             }
+            &:hover {
+                color: #fdeea7;
+              }
         }
     }
     a {
@@ -140,7 +156,6 @@
         @include mobile-break-width {
             font-size: 36px;
             line-height: 1.25;
-            padding: 2rem;
         }
     }
 }
@@ -153,12 +168,18 @@
     width: 80%;
     padding-bottom: 20px;
     p {
-        font-size: 20px;
+        font-size: 15px;
+        font-family: 'open_sans', 'sans-serif';
         color: #003d5c;
         @include mobile-break-width {
             font-size: 22px;
         }
     }
+    width: 100%;
+    @include mobile-break-width {
+      font-size: 22px;
+
+}
 }
 
 .load-more {

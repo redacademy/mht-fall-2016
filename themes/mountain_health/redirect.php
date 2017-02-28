@@ -18,7 +18,7 @@ get_header(); ?>
         </section>
         <img src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/mountains-desktop.png" class="mountains" alt="green and white image that looks like mountains">
         <section class="why-use-smartnd">
-            <h2>Why use smartND?</h2>
+            <h2>More than just appointments</h2>
                        <div class="why-use-all">
                 <div class="why-use-upper">
                     <div class="why-use-smartnd-content smart-nd-change">

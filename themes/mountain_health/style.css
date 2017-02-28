@@ -463,7 +463,8 @@ textarea {
   border-radius: 200px;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 220px; }
+  width: 220px;
+  font-family: 'open_sans', 'sans-serif'; }
   @media (min-width: 480px) {
     .primary-button {
       font-size: 22px;
@@ -2928,7 +2929,8 @@ object {
       @media (min-width: 480px) {
         .text-stroke-box-middle p:nth-child(3), .text-stroke-box-middle p:nth-child(4) {
           font-size: 22px;
-          padding: 1rem; } }
+          padding: 1rem;
+          font-family: 'oswald', 'sans-serif'; } }
     .text-stroke-box-middle p .duration-style {
       color: #003d5c; }
 
@@ -3034,7 +3036,8 @@ object {
   .book-appointment-call p {
     color: #1a9481;
     font-size: 17px;
-    margin: 0px; }
+    margin: 0px;
+    font-family: "open_sans", 'sans-serif'; }
     @media (min-width: 480px) {
       .book-appointment-call p {
         font-size: 36px; } }
@@ -3125,7 +3128,8 @@ object {
   padding-top: 15px;
   padding-bottom: 15px;
   border: none;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-weight: lighter; }
   @media (min-width: 480px) {
     .book-appointment-email button {
       width: 280px;
@@ -3140,20 +3144,23 @@ object {
 
 .book-appointment-use-smart p {
   margin: 0px;
+  font-family: "open_sans", 'sans-serif';
   color: #003d5c; }
   @media (min-width: 480px) {
     .book-appointment-use-smart p {
       font-size: 22px; } }
 
 .already-smartnd {
-  color: #003A5F; }
+  color: #003A5F;
+  font-family: "open_sans", 'sans-serif'; }
   @media (min-width: 480px) {
     .already-smartnd {
       font-size: 22px; } }
   .already-smartnd p:first-child {
     width: 265px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    font-family: "open_sans", 'sans-serif'; }
     @media (min-width: 480px) {
       .already-smartnd p:first-child {
         width: 100%;
@@ -3344,6 +3351,9 @@ object {
 .mountains {
   transform: translateY(7px); }
 
+#call-book {
+  font-weight: 600; }
+
 .contact-us {
   text-align: center; }
   .contact-us .contact-us-hero {
@@ -3406,14 +3416,15 @@ object {
       .contact-us h2 {
         font-size: 36px; } }
   .contact-us p {
-    font-size: 15px; }
+    font-size: 15px;
+    font-family: 'open_sans', 'sans-serif'; }
     @media (min-width: 480px) {
       .contact-us p {
         font-size: 22px; } }
   .contact-us .call,
   .contact-us .send-us-a-message,
   .contact-us .open-hours {
-    font-weight: bold; }
+    font-weight: 600; }
   .contact-us .number-and-icon {
     display: -ms-flexbox;
     display: flex;
@@ -3428,7 +3439,11 @@ object {
       color: #1a9481;
       font-size: 17px;
       text-decoration: none;
-      padding-left: 8px; }
+      padding-left: 8px;
+      font-family: 'open_sans', 'sans-serif'; }
+      @media (min-width: 480px) {
+        .contact-us .number-and-icon .phone-number {
+          font-size: 36px; } }
     .contact-us .number-and-icon img {
       width: 28px; }
   .contact-us .wpcf7-form {
@@ -3518,6 +3533,8 @@ object {
       .contact-us input[type="submit"] {
         width: 200px;
         height: 60px; } }
+    .contact-us input[type="submit"]:hover {
+      color: #fdeea7; }
   .contact-us .hours {
     color: #677257; }
 
@@ -3577,6 +3594,10 @@ div.wpcf7-response-output {
   left: 50%;
   z-index: 3; }
 
+#link-google {
+  font-size: 18px;
+  margin: 0; }
+
 .resources-hero {
   height: 123px;
   background: url(../../MTH-Assets/photos/resources-hero-desktop.png), no-repeat top;
@@ -3611,7 +3632,9 @@ div.wpcf7-response-output {
   @media (min-width: 480px) {
     .resources-hero p {
       width: 48%;
-      line-height: 1.36; } }
+      line-height: 1.36;
+      font-family: 'open_sans', 'sans-serif';
+      font-size: 22px; } }
 
 .resources-paragraph p {
   text-align: center;
@@ -3640,14 +3663,16 @@ div.wpcf7-response-output {
   background-size: cover;
   background-position: center center;
   height: 252px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   margin-bottom: 45px;
   position: relative; }
   @media (min-width: 480px) {
     .news-events,
     .articles-research,
     .recipes-nutrition {
+      margin-right: 10px;
+      margin-left: 10px;
       width: 428px;
       background: url(../../MTH-Assets/photos/stroke-desktop.png);
       background-size: 100% 100%;
@@ -3701,7 +3726,9 @@ div.wpcf7-response-output {
   color: white;
   position: absolute;
   bottom: -23px;
-  font-size: 15px; }
+  font-size: 22px;
+  font-family: 'open_sans', 'sans-serif';
+  font-weight: lighter; }
 
 .news-events p {
   width: 210px; }
@@ -4213,10 +4240,13 @@ header.entry-header-article {
   -ms-flex-direction: column;
       flex-direction: column;
   background: linear-gradient(90deg, rgba(0, 53, 87, 0.76), rgba(0, 155, 132, 0.73)), url(../../MTH-Assets/photos/Hero-banner-articles.png) no-repeat top;
-  background-size: cover;
-  height: 40vh; }
+  background-size: cover; }
   .archive-article-hero-image h1 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: 'oswald', 'serif'; }
+    @media (min-width: 480px) {
+      .archive-article-hero-image h1 {
+        font-size: 48px; } }
   .archive-article-hero-image p {
     text-align: center;
     font-family: 'open_sans', 'sans-serif';
@@ -4224,7 +4254,8 @@ header.entry-header-article {
     font-size: 15px; }
     @media (min-width: 480px) {
       .archive-article-hero-image p {
-        max-width: 800px; } }
+        max-width: 800px;
+        font-size: 22px; } }
 
 @media (min-width: 480px) {
   .grid-archive-article {
@@ -4245,7 +4276,8 @@ header.entry-header-article {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-family: 'open_sans', 'sans-serif'; }
 
 .article-single-wrapper {
   margin: 0 auto;
@@ -4258,8 +4290,8 @@ header.entry-header-article {
       align-items: center; }
   @media (min-width: 480px) {
     .article-single-wrapper {
-      width: 632px;
-      margin: 9px; } }
+      width: 610px;
+      margin: 20px; } }
 
 .article-wrapper {
   position: relative;
@@ -4269,6 +4301,9 @@ header.entry-header-article {
   -ms-flex-pack: center;
       justify-content: center;
   margin: 20px; }
+  @media (min-width: 480px) {
+    .article-wrapper {
+      width: 100%; } }
 
 .article-single-image {
   width: 100%;
@@ -4299,11 +4334,14 @@ header.entry-header-article {
       align-items: center; }
   .article-grid-content h2 {
     text-transform: uppercase;
-    font-size: 25px; }
+    font-family: 'oswald';
+    margin: 0 10%; }
     .article-grid-content h2 a {
       color: white; }
       .article-grid-content h2 a:visited {
         color: white; }
+      .article-grid-content h2 a:hover {
+        color: #fdeea7; }
   .article-grid-content a {
     font-family: 'oswald';
     color: white;
@@ -4315,21 +4353,25 @@ header.entry-header-article {
     @media (min-width: 480px) {
       .article-grid-content a {
         font-size: 36px;
-        line-height: 1.25;
-        padding: 2rem; } }
+        line-height: 1.25; } }
 
 .article-archive-title {
   text-align: center; }
 
 .archive-entry-content {
   width: 80%;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  width: 100%; }
   .archive-entry-content p {
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'open_sans', 'sans-serif';
     color: #003d5c; }
     @media (min-width: 480px) {
       .archive-entry-content p {
         font-size: 22px; } }
+  @media (min-width: 480px) {
+    .archive-entry-content {
+      font-size: 22px; } }
 
 .load-more {
   display: -ms-flexbox;
@@ -4474,7 +4516,8 @@ header.entry-header-article {
   padding-bottom: 1rem; }
   .single-eventinfo-wrapper .content {
     color: #003d5c;
-    font-size: 15px; }
+    font-size: 15px;
+    font-family: 'open_sans', 'sans-serif'; }
     @media (min-width: 480px) {
       .single-eventinfo-wrapper .content {
         font-size: 22px; } }
@@ -4535,7 +4578,8 @@ header.entry-header-article {
   font-size: 15;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 1rem 0 .5rem 0; }
+  padding: 1rem 0 .5rem 0;
+  font-family: 'open_sans', 'sans-serif'; }
   @media (min-width: 480px) {
     .custom-data-event .posted-on {
       font-size: 22px; } }
@@ -4543,7 +4587,8 @@ header.entry-header-article {
 .no-data-msg {
   color: #003557;
   text-align: center;
-  font-size: 15px; }
+  font-size: 15px;
+  font-family: 'open_sans', 'sans-serif'; }
   @media (min-width: 480px) {
     .no-data-msg {
       font-size: 22px; } }
@@ -4857,7 +4902,7 @@ header.entry-header-article {
       .labtesting-book-appointment p {
         font-size: 22px; } }
     .labtesting-book-appointment p .labtesting-thick-style {
-      font-weight: bold; }
+      font-weight: 600; }
   @media (min-width: 480px) {
     .labtesting-book-appointment {
       background-size: 100% 100%; } }

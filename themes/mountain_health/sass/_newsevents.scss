@@ -130,6 +130,7 @@
     .content {
         color: #003d5c;
         font-size: 15px;
+        font-family: 'open_sans', 'sans-serif';
         @include mobile-break-width {
         font-size: 22px;
 }
@@ -208,6 +209,7 @@ color: #003557;
     font-weight: bold;
     text-transform: uppercase;
     padding: 1rem 0 .5rem 0;
+    font-family: 'open_sans', 'sans-serif';
     @include mobile-break-width {
     font-size: 22px;
 }
@@ -217,7 +219,9 @@ color: #003557;
   color: #003557;
   text-align: center;
   font-size: 15px;
+  font-family: 'open_sans', 'sans-serif';
   @include mobile-break-width {
 font-size: 22px;
+
 }
 }
