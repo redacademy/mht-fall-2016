@@ -102,8 +102,7 @@ font-size: 22px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
-    background-size: 100% 228px;
+
     a{
       @include mobile-break-width {
 margin-left: 0;
@@ -310,19 +309,19 @@ width: 88px;
 }
 
 .laptesting-imag-text {
-    padding-top: 200px;
     display: flex;
-    flex-direction: column;
-    width: 90%;
+    width: 92%;
     margin: 0 auto;
+    background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
+    background-size: cover;
     @include mobile-break-width {
-        margin-top: 35rem;
-        -ms-flex-direction: row;
-        flex-direction: row;
+        margin-top: 50rem;
+        // -ms-flex-direction: row;
+        // flex-direction: row;
         /* align-items: flex-end; */
-        justify-content: flex-end;
-        width: 91%;
-        margin-left: 225px;
+        // justify-content: flex-end;
+        // width: 91%;
+        // margin-left: 225px;
         // height: 368px;
         img {
             height: 368px;

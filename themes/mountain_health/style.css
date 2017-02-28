@@ -520,6 +520,8 @@ textarea {
       font-size: 22px; }
       .large-button a {
         font-size: 22px; } }
+  .large-button:hover {
+    color: #fdeea7; }
 
 .how-can-we-help-you {
   font-size: 18px;
@@ -633,7 +635,6 @@ p {
     display: none; }
   @media (min-width: 480px) {
     .main-header header {
-      font-weight: 300;
       height: 110px;
       min-width: 1324px; }
       .main-header header .header-button {
@@ -3840,7 +3841,8 @@ div.wpcf7-response-output {
     height: 45px; }
     @media (min-width: 480px) {
       .footer-form .footer-email {
-        width: 400px; } }
+        width: 500px;
+        height: 60px; } }
   @media (min-width: 480px) {
     .footer-form {
       display: -ms-flexbox;
@@ -3856,11 +3858,10 @@ input::-webkit-input-placeholder {
   font-family: 'open_sans', 'sans-serif';
   font-weight: light;
   font-size: 14px;
-  line-height: 1.71;
   text-align: left;
+  margin-top: 7px;
   color: #d1d0d0;
-  padding: 30px 0;
-  padding-left: 14px; }
+  padding-left: 15px; }
   @media (min-width: 480px) {
     input::-webkit-input-placeholder {
       font-size: 22px; } }
@@ -4872,9 +4873,7 @@ header.entry-header-article {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center;
-  background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
-  background-size: 100% 228px; }
+      align-items: center; }
   @media (min-width: 480px) {
     .labtesting-book-appointment a {
       margin-left: 0; } }
@@ -5062,23 +5061,16 @@ header.entry-header-article {
       width: 88px; } }
 
 .laptesting-imag-text {
-  padding-top: 200px;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  width: 90%;
-  margin: 0 auto; }
+  width: 92%;
+  margin: 0 auto;
+  background: url(../../MTH-Assets/photos/book-bg@3x.png) no-repeat bottom;
+  background-size: cover; }
   @media (min-width: 480px) {
     .laptesting-imag-text {
-      margin-top: 35rem;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      /* align-items: flex-end; */
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-      width: 91%;
-      margin-left: 225px; }
+      margin-top: 50rem;
+      /* align-items: flex-end; */ }
       .laptesting-imag-text img {
         height: 368px;
         width: 540px; }
@@ -5254,14 +5246,17 @@ header.entry-header-article {
   margin-top: 200px; }
 
 .also-lab-testing-div {
-  background: url(../../MTH-Assets/other/lab-icons.jpg) no-repeat bottom;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  width: 92%;
+  margin: 0 auto;
+  background: url(../../MTH-Assets/other/lab-icons.jpg) no-repeat bottom;
+  background-size: cover;
   -ms-flex-align: center;
-      align-items: center;
-  background-size: 100% 228px; }
+      align-items: center; }
+  @media (min-width: 480px) {
+    .also-lab-testing-div {
+      margin-top: 50rem; } }
   .also-lab-testing-div img {
     border-radius: 6px 6px 0 0; }
   @media (min-width: 480px) {
@@ -5344,3 +5339,71 @@ header.entry-header-article {
       justify-content: center;
   width: 21%;
   padding: .75rem 1.5rem; }
+
+.treatment-book {
+  display: -ms-flexbox;
+  display: flex;
+  width: 92%;
+  margin: 0 auto;
+  background: url(../../MTH-Assets/photos/lab-bg@3x.png) no-repeat bottom;
+  background-size: cover; }
+  @media (min-width: 480px) {
+    .treatment-book {
+      margin-top: 50rem; }
+      .treatment-book img {
+        height: 368px;
+        width: 540px; } }
+  .treatment-book .treatment-list {
+    width: 100%; }
+    @media (min-width: 480px) {
+      .treatment-book .treatment-list {
+        -ms-flex-align: start;
+            align-items: flex-start;
+        -ms-flex-pack: center;
+            justify-content: center;
+        padding-left: 30px; }
+        .treatment-book .treatment-list p {
+          margin: 0;
+          text-align: left;
+          width: 336px; }
+        .treatment-book .treatment-list h3 {
+          text-align: left; } }
+
+.treatment-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 480px) {
+    .treatment-list a {
+      margin-left: 0; } }
+  .treatment-list img {
+    border-radius: 6px 6px 0 0; }
+  .treatment-list h3 {
+    font-family: 'oswald', 'sans-serif';
+    font-size: 17px;
+    line-height: 0.3;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase; }
+    @media (min-width: 480px) {
+      .treatment-list h3 {
+        font-size: 36px; } }
+  .treatment-list p {
+    margin: 0 auto;
+    font-family: 'open_sans', 'sans-serif';
+    font-weight: light;
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: center;
+    color: #ffffff; }
+    @media (min-width: 480px) {
+      .treatment-list p {
+        font-size: 22px; } }
+    .treatment-list p .labtesting-thick-style {
+      font-weight: 600; }
+  @media (min-width: 480px) {
+    .treatment-list {
+      background-size: 100% 100%; } }

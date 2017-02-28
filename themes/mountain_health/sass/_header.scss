@@ -19,7 +19,6 @@
             display: none;
         }
         @include mobile-break-width {
-          font-weight: 300;
             height: 110px;
             min-width: 1324px;
             .header-button {

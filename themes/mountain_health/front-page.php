@@ -21,16 +21,17 @@
                     <p>Empowering every person to have a fulfilling, healthy life,
                     and feel connected to their community and the environment.</p>
               </div>
-
+<!-- <a href="#booking"> -->
             <div class="keep-scrolling">
             </div>
+          <!-- </a> -->
 
         </section><!--End of hero-banner-->
 
 
-        <section class="booking container"><!--Booking for front page-->
+        <section class="booking container" ><!--Booking for front page-->
             <div></div>
-            <h2 class="what-is-hero"> What is Naturopathic Medicine? </h2>
+            <h2 class="what-is-hero" id="booking"> What is Naturopathic Medicine? </h2>
                 <p>Naturopathy is a type of care that offers individualized, natural healthcare.
                     It combines the best of traditional treatments with evidence-based medicine. </p>
             <a href="<?php echo get_post_type_archive_link('article')?>" class="front-button what-is-button large-button">Read More</a>

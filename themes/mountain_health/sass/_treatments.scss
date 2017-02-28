@@ -120,11 +120,15 @@
 }
 
 .also-lab-testing-div {
-    background: url(../../MTH-Assets/other/lab-icons.jpg) no-repeat bottom;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  width: 92%;
+  margin: 0 auto;
+  background: url(../../MTH-Assets/other/lab-icons.jpg) no-repeat bottom;
+  background-size: cover;
+  @include mobile-break-width {
+      margin-top: 50rem;
+}
     align-items: center;
-    background-size: 100% 228px;
     img {
         border-radius: 6px 6px 0 0;
     }
@@ -212,4 +216,82 @@
     justify-content: center;
     width: 21%;
     padding: .75rem 1.5rem;
+}
+.treatment-book{
+  display: flex;
+  width: 92%;
+  margin: 0 auto;
+  background: url(../../MTH-Assets/photos/lab-bg@3x.png) no-repeat bottom;
+  background-size: cover;
+  @include mobile-break-width {
+      margin-top: 50rem;
+      img {
+          height: 368px;
+          width: 540px;
+      }
+}
+
+
+  .treatment-list{
+    width: 100%;
+    @include mobile-break-width {
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 30px;
+        p {
+            margin: 0;
+            text-align: left;
+            width: 336px;
+
+        }
+        h3{
+          text-align: left;
+        }
+    }
+  }
+}
+
+.treatment-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a{
+      @include mobile-break-width {
+margin-left: 0;
+}
+    }
+    img {
+        border-radius: 6px 6px 0 0;
+    }
+    h3 {
+        font-family: 'oswald', 'sans-serif';
+        font-size: 17px;
+        line-height: 0.3;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        @include mobile-break-width {
+            font-size: 36px;
+        }
+    }
+    p {
+        // width: 175px;
+        margin: 0 auto;
+        font-family: 'open_sans', 'sans-serif';
+        font-weight: light;
+        font-size: 15px;
+        line-height: 1.2;
+        text-align: center;
+        color: #ffffff;
+        @include mobile-break-width {
+            font-size: 22px;
+        }
+        .labtesting-thick-style {
+            font-weight: 600;
+        }
+    }
+    @include mobile-break-width {
+        background-size: 100% 100%;
+    }
 }
