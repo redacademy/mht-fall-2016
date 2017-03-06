@@ -44,7 +44,7 @@ foreach ( $values as $post_id ) {
 					<?php echo  get_the_post_thumbnail($post_id, 'large');?>
 			</div>
 				<div class="article-grid-content">
-			<a href="<?php echo get_post_permalink( $post_id );?>">
+			<a class="related_posts" href="<?php echo get_post_permalink( $post_id );?>">
 			<?php echo $the_post->post_title; ?>
 			</a>
 				</div>

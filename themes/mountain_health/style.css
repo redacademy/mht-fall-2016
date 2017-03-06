@@ -3986,26 +3986,27 @@ input::-webkit-input-placeholder {
 .single-article-content {
   margin: 0 auto;
   max-width: 85%;
-  font-family: 'open_sans', 'sans-serif'; }
+  font-family: 'open_sans', 'sans-serif';
+  color: #003d5c !important; }
   @media (min-width: 480px) {
     .single-article-content {
       max-width: 60%; }
       .single-article-content p {
         font-family: 'open_sans', 'sans-serif';
+        font-weight: lighter;
         font-size: 22px; }
         .single-article-content p span {
-          font-weight: lighter; } }
+          font-weight: 300 !important; } }
 
 .entry-content-article p {
   font-family: 'open_sans', 'sans-serif';
-  font-weight: light;
   font-size: 15px;
   line-height: 1.2;
   text-align: left;
   color: #003d5c; }
   .entry-content-article p:nth-child(1):first-letter {
     float: left;
-    line-height: 70px;
+    line-height: 30px;
     padding: 0px 19px 0px 0px;
     font-size: 4rem;
     font-family: "Edwardian Script ITC", "Brush Script MT", cursive; }
@@ -4016,6 +4017,8 @@ input::-webkit-input-placeholder {
   @media (min-width: 480px) {
     .entry-content-article p {
       font-size: 22px; } }
+  .entry-content-article p span {
+    font-weight: 300 !important; }
 
 .entry-title-article {
   font-family: 'oswald', 'sans-serif';
@@ -4091,10 +4094,13 @@ header.entry-header-article {
   margin: 10px 20px; }
 
 .thick-single {
-  font-weight: bold; }
+  font-weight: bold !important; }
 
 .archive-entry-content {
   font-family: 'open_sans', 'sans-serif'; }
+
+.related_posts {
+  padding: 0 10%; }
 
 .error-hero {
   height: 123px;
@@ -5249,7 +5255,7 @@ header.entry-header-article {
     .treatment-description {
       width: 1324px;
       height: 700px;
-      top: 42rem; }
+      top: 49rem; }
       .treatment-description h3 {
         font-size: 36px; }
       .treatment-description p {
