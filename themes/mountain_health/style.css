@@ -892,8 +892,6 @@ p {
   width: 20px; }
 
 .search-and-patient-portal {
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
   -ms-flex-align: center;
@@ -909,14 +907,8 @@ p {
   font-family: "oswald", "san-serif"; }
 
 .search {
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-align: center;
-      align-items: center;
-  display: flex; }
-  .search p {
-    font-family: "oswald", "san-serif" !important;
-    font-weight: normal !important; }
+      align-items: center; }
 
 .external-link-logo-dt,
 .external-link-logo-white-dt {
@@ -1303,10 +1295,6 @@ object {
 
 .search .search-logo-white {
   padding-top: 3px; }
-
-.search p {
-  margin: 0;
-  font-family: "oswald", "san-serif"; }
 
 .search:hover {
   cursor: pointer; }

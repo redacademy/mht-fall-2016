@@ -16,8 +16,8 @@ get_header(); ?>
 				<h1 class="page-title"><?php printf( esc_html( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
-			<section class="nav-links article-nav-links-archive">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home page &gt; </a>
+			<section class="nav-links article-nav-links-archive bread-crumb-general what-we-do-bread">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Homepage &gt; </a>
 				<p>&nbsp;Search results</p>
 			</section>
 

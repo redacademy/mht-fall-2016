@@ -152,7 +152,7 @@
         </section>
         <div class="how-can">
             <h4 class="how-can-we-help-you">Do you want to know how we can help you?</h4>
-            <a href="<?php echo get_page_link(29); ?>" class="front-button flex-button large-button">Book an appointment</a>
+            <a href="<?php echo get_page_link(48); ?>" class="front-button flex-button large-button">Book an appointment</a>
         </div>
     </main><!-- #main -->
 </div><!-- #primary -->

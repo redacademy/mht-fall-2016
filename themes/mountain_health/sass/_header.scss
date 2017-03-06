@@ -298,7 +298,7 @@
 }
 
 .search-and-patient-portal {
-    display: flex;
+    // display: flex;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to right, #003d5c, #1a9481);
@@ -313,12 +313,11 @@
 }
 
 .search {
-    display: flex;
+    // display: flex;
     align-items: center;
-    display: flex;
     p {
-        font-family: "oswald", "san-serif" !important;
-        font-weight: normal !important;
+        // font-family: "oswald", "san-serif" !important;
+        // font-weight: normal !important;
     }
 }
 

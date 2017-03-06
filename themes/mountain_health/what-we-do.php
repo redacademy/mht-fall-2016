@@ -101,7 +101,7 @@
 
         <h4 class="how-can-we-help-you">Want to know how we can help you?</h4>
         <div class ="primary-button book-appointment">
-            <a href="<?php echo get_page_link(29); ?>">Book an appointment</a>
+            <a href="<?php echo get_page_link(48); ?>">Book an appointment</a>
         </div>
 	</main><!-- #main -->
 </div><!-- #primary -->
