@@ -1385,7 +1385,7 @@ object {
   width: 100vw;
   height: 100vh;
   top: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(../../MTH-Assets/photos/treatments_explained.jpg) no-repeat top;
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(../../MTH-Assets/amanda_photos/20161126_Amandadrshoot_frontpage_hero.jpg) no-repeat top;
   background-size: cover;
   z-index: -1;
   position: fixed;
@@ -1872,8 +1872,9 @@ object {
       font-size: 36px; } }
 
 .did-you-know .did-you-know-pic {
-  background: url(../../MTH-Assets/photos/amanda-visual.png);
+  background: url(../../MTH-Assets/amanda_photos/20161115_ACheadshots_frontpage_diduknow.jpg);
   background-size: cover;
+  border-radius: 10px 10px 0 10px;
   width: 280px;
   height: 196px; }
   @media (min-width: 480px) {
@@ -2098,10 +2099,10 @@ object {
   z-index: 0; }
   @media (min-width: 480px) {
     .amanda-photo {
-      background: url(../../MTH-Assets/photos/amanda-large.png);
+      background: url(../../MTH-Assets/amanda_photos/20161115_ACheadshots_about.jpg) top;
+      border-radius: 10px 10px 0 10px;
       width: 541px;
       height: 560px;
-      background-position: center center;
       background-size: cover;
       position: absolute;
       bottom: 60px;
@@ -2951,10 +2952,12 @@ object {
   -ms-flex-pack: justify;
       justify-content: space-between; }
 
-@media (min-width: 480px) {
-  .photo-apointment1 {
-    width: 100%;
-    object-fit: cover; } }
+.photo-apointment1 {
+  border-radius: 10px 10px 0 10px; }
+  @media (min-width: 480px) {
+    .photo-apointment1 {
+      width: 100%;
+      object-fit: cover; } }
 
 .appointments-wrapper-inner {
   width: 85%;
@@ -2978,7 +2981,7 @@ object {
   width: 11rem; }
   @media (min-width: 480px) {
     .time-line-duration {
-      width: 17rem; } }
+      width: 14rem; } }
 
 .book-appointment-hero {
   height: 123px;

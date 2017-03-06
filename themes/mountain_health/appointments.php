@@ -26,16 +26,16 @@ get_header(); ?>
             <?php $fields = CFS()->get( 'appointment'); ?>
             <?php   foreach ( $fields as $field ) : ?>
 <?php if($i === 1) { ?>
-  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-1@3x.png" alt="">
+  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/amanda_photos/20161126_Amandadrshoot_appointment1.jpg" alt="">
 <?php  ;} ?>
 <?php if($i === 3) { ?>
-  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-2@3x.png" alt="">
+  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/amanda_photos/20161126_Amandadrshoot_appointment2.jpg" alt="">
 <?php  ;} ?>
 <?php if($i === 5) { ?>
-  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-3@3x.png" alt="">
+  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/amanda_photos/20161126_Amandadrshoot_frontpage_hero.jpg" alt="">
 <?php  ;} ?>
 <?php if($i === 7) { ?>
-  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/visual-4@3x.png" alt="">
+  <img class="photo-apointment1" src="<?php echo get_template_directory_uri()?>/MTH-Assets/amanda_photos/20161126_Amandadrshoot_appointment4.jpg" alt="">
 <?php  ;} ?>
 
 <?php  if($i!==7 & $i!==5 & $i!==3 & $i!==1) { ?>

@@ -119,6 +119,7 @@ justify-content: space-between;
 }
 
 .photo-apointment1 {
+  border-radius: 10px 10px 0 10px;
     @include mobile-break-width {
         width: 100%;
         object-fit: cover;
@@ -128,6 +129,7 @@ justify-content: space-between;
 .appointments-wrapper-inner {
     width: 85%;
     margin: 0 auto;
+    
     @include mobile-break-width {
         width: 1324px;
         display: flex;
@@ -146,6 +148,6 @@ justify-content: space-between;
 .time-line-duration{
   width: 11rem;
   @include mobile-break-width {
-  width: 17rem;
+    width: 14rem;
 }
 }

@@ -116,10 +116,11 @@
     background: white;
     z-index: 0;
     @include mobile-break-width {
-        background: url(../../MTH-Assets/photos/amanda-large.png);
+        background: url(../../MTH-Assets/amanda_photos/20161115_ACheadshots_about.jpg)top;
+        border-radius: 10px 10px 0 10px;
         width: 541px;
         height: 560px;
-        background-position: center center;
+        // background-position: center center;
         background-size: cover;
         position: absolute;
         bottom: 60px;
