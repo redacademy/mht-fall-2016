@@ -10,6 +10,7 @@
     padding-top: 0;
     @include mobile-break-width {}
     .main-header header {
+      top: 0;
         background: none;
         width: 100%;
         a {
@@ -46,11 +47,10 @@
         color: #fff;
         width: 100%;
         background-position-y: -75px;
-        display: flex;
+        // display: flex;
         align-items: center;
         justify-content: center;
         @include mobile-break-width {
-            display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
@@ -534,4 +534,9 @@
         height: 50px;
         transform: translateY(10rem);
     }
+}
+.about-title{
+
+  transform: translate(0%,100%);
+
 }

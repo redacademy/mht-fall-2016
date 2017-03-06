@@ -2000,6 +2000,7 @@ object {
 .about-page {
   padding-top: 0; }
   .about-page .main-header header {
+    top: 0;
     background: none;
     width: 100%; }
     .about-page .main-header header a {
@@ -2029,16 +2030,12 @@ object {
     color: #fff;
     width: 100%;
     background-position-y: -75px;
-    display: -ms-flexbox;
-    display: flex;
     -ms-flex-align: center;
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center; }
     @media (min-width: 480px) {
       .about-page .about-hero {
-        display: -ms-flexbox;
-        display: flex;
         -ms-flex-pack: center;
             justify-content: center;
         -ms-flex-align: center;
@@ -2469,6 +2466,9 @@ object {
       width: 50px;
       height: 50px;
       transform: translateY(10rem); } }
+
+.about-title {
+  transform: translate(0%, 100%); }
 
 .what-we-do {
   margin: 0 auto; }
