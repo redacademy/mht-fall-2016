@@ -81,7 +81,7 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	<div class="laptesting-imag-text">
-		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/photos/amanda-visual@3x.png" alt="logo">
+		<img class="" src="<?php echo get_template_directory_uri()?>/MTH-Assets/amanda_photos/20161115_ACheadshots_frontpage_diduknow.jpg" alt="logo">
 <div class="labtesting-book-appointment">
 	<h3>Book an appointment</h3>
 	<p>We offer various types of appointments<br>
