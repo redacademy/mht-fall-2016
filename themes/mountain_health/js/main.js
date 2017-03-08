@@ -221,8 +221,13 @@
             }
         });
 
+        $(".treatment-buttons, .labtesting-buttons").click(function() {
+        $('body').animate({
+        scrollTop: $(".treatment-description, .labtesting-description").offset().top},
+        'slow');
+    });
+
+
 
     }); // end of check for document ready
-
-
 })(jQuery);

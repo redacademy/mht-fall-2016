@@ -66,10 +66,10 @@ get_header(); ?>
 				<div class="labtesting-wrapper">
 					<?php   foreach ( $fields as $field ) : ?>
 <div class="labtesting-btn-off">
-	<button class=""> <?php   echo $field['labtesting_title']; ?> </button>
+	<button class="labtesting-buttons"> <?php   echo $field['labtesting_title']; ?> </button>
 
 </div>
-							<div class="labtesting-single-wrapper-active" style="display:none; background-image: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)),url(<?php  echo $field['labtesting_img']; ?>);background-size:cover; display: flex; flex-direction:column; justify-content:center; align-items:center">
+							<div class="labtesting-single-wrapper-active labtesting-description" style="display:none; background-image: linear-gradient(90deg,rgba(0, 53, 87, 0.76),rgba(0, 155, 132, 0.73)),url(<?php  echo $field['labtesting_img']; ?>);background-size:cover; display: flex; flex-direction:column; justify-content:center; align-items:center">
 									<h3> <?php   echo $field['labtesting_title']; ?> </h3>
 									<p>  <?php   echo $field['labtesting_text']; ?> </p>
 						</div>
